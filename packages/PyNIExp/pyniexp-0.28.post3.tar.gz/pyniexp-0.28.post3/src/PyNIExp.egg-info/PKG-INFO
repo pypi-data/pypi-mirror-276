@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: PyNIExp
+Version: 0.28.post3
+Summary: Python interface for NeuroImaging Experiments
+Author-email: Tibor Auer <tibor.auer@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Tibor Auer
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Source, https://github.com/tiborauer/pyniexp
+Project-URL: Tracker, https://github.com/tiborauer/pyniexp/issues
+Keywords: neuroimaging,neurostimulation
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: keyboard
+Requires-Dist: nidaqmx
+Requires-Dist: matplotlib
+Requires-Dist: pyserial
+Requires-Dist: pyqt6
+Requires-Dist: pyqtgraph
+
+# PyNIExp
+Python interfaces for neuroimaging experiments (and how to import them)
+ - Interface to National Instruments cards (with digital and analogue I/O) for 
+   - scanner pulse and button presses (with simulation mode)
+      ```python
+      from pyniexp.scanner import BrainVisionTrigger, ScannerSynch
+      ```
+   - stimulation devices
+      ```python
+      from pyniexp.stimulator import Waveform, TES, TI, StimulatorApp
+      ```
+ - UDP transfer
+    ```python
+    from pyniexp.network import Tcp, Udp
+    ```
+ - Interface to acquire 3D volumes from MATLAB engine
+    ```python
+    from pyniexp.mlplugin import dataProcess, imageProcess
+    ```
+
+
+ ## Install
+`pip install git+https://github.com/tiborauer/pyniexp.git`

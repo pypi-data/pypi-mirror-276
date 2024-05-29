@@ -1,0 +1,10 @@
+{
+    "DAQ": {
+        "Hardware": "Dev2"
+    },
+    "ControlSignal": 0,
+    "Channels": [
+        "ao0",
+        "ao1"
+    ]
+}
