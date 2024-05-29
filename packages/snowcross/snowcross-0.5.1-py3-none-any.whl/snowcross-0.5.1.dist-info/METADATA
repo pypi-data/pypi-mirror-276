@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: snowcross
+Version: 0.5.1
+Summary: Adaptors for tools and services in a Snowflake-centric data platform
+Home-page: UNKNOWN
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: snowflake-connector-python (>=2.7.6)
+Requires-Dist: wheel
+Provides-Extra: locator
+Requires-Dist: Jinja2 ; extra == 'locator'
+Requires-Dist: python-dotenv ; extra == 'locator'
+Requires-Dist: ruamel.yaml ; extra == 'locator'
+Provides-Extra: test
+Requires-Dist: black (>=23.11.0) ; extra == 'test'
+Requires-Dist: boto3-stubs[ecr,s3,ssm] ; extra == 'test'
+Requires-Dist: botocore-stubs ; extra == 'test'
+Requires-Dist: isort (>=5.12.0) ; extra == 'test'
+Requires-Dist: moto[glue,s3,ssm,sts] ; extra == 'test'
+Requires-Dist: mypy (>=1.7.1) ; extra == 'test'
+Requires-Dist: pylint (>=3.0.2) ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest (>=6.2.5) ; extra == 'test'
+Requires-Dist: setuptools (>=45) ; extra == 'test'
+
+Adaptors for tools and services in a Snowflake-centric data platform.
+
+## Requirements
+
+Requires Python 3.10 or above.
+
+
