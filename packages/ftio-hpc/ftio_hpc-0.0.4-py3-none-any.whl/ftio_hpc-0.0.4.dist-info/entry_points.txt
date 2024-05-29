@@ -1,0 +1,5 @@
+[console_scripts]
+ftio = ftio.cli.ftio_core:run
+ioparse = ftio.util.ioparse:main
+ioplot = ftio.util.ioplot:main
+predictor = ftio.cli.predictor:main
