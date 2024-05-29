@@ -1,0 +1,9 @@
+beautifulsoup4
+emoji
+matplotlib
+nltk
+pandas
+seaborn
+torch
+transformers
+wordcloud
