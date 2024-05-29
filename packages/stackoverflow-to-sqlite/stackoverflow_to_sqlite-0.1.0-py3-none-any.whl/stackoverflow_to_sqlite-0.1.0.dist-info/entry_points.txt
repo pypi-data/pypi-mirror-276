@@ -1,0 +1,3 @@
+[console_scripts]
+stackoverflow-to-sqlite=stackoverflow_to_sqlite.cli:save_user
+

@@ -1,0 +1,10 @@
+stackoverflow_to_sqlite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackoverflow_to_sqlite/cli.py,sha256=mw1f9stZRz-tEOBJO9AZxrRC3y5LaKIORh_92CtdMFo,2225
+stackoverflow_to_sqlite/sqlite_helpers.py,sha256=fPUmc-GkGaiTxV2t72zZ_SapDILYTVIgNL3h2ATrERk,3330
+stackoverflow_to_sqlite/stack_exchange_api.py,sha256=oFMDe4xrmw7n1YXP2S4Twyvh61ZNqVFoZhkAokHLZOA,2153
+stackoverflow_to_sqlite/types.py,sha256=SQHd_mSlI-9Li6-UOW7qoAEiocmq4fedSDsLoXviUP8,4584
+stackoverflow_to_sqlite-0.1.0.dist-info/entry_points.txt,sha256=1YGZ4nAyHW7m6NgVgQE4ZylWALB-OzlyW5Qy0L-nmXo,81
+stackoverflow_to_sqlite-0.1.0.dist-info/LICENSE,sha256=7naslxCtI4qF5KOvhXrNsaf-Jix1FPWWHa15EOxHcWw,1058
+stackoverflow_to_sqlite-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+stackoverflow_to_sqlite-0.1.0.dist-info/METADATA,sha256=tuuP2eeVmqZaybjzAQCqVIvAzMKqqBhgQmUydlC491E,6214
+stackoverflow_to_sqlite-0.1.0.dist-info/RECORD,,
