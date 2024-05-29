@@ -1,0 +1,10 @@
+pandas
+networkx
+gensim
+scipy==1.10.1
+matplotlib
+scikit-learn
+numpy
+spacy
+reportlab
+nltk
