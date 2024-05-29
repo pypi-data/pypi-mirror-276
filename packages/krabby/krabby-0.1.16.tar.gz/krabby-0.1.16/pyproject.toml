@@ -1,0 +1,27 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "krabby"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+description = "A Flashtext library for Python by Rust"
+license = { file = "LICENSE" }
+
+dependencies = [
+  'typer',
+]
+
+[project.scripts]
+krabby = "krabby.__main__:main"
+
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
