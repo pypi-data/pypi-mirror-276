@@ -1,0 +1,3 @@
+[console_scripts]
+cm-sync=companion_configuration_sync.main:entry_point
+
