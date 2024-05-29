@@ -1,0 +1,13 @@
+# config.yaml
+tests:
+  test_path: "test_case/"  # 测试用例所在目录
+  keyword_expression: ""  # 用例过滤表达式，默认为空
+  mark_expression: ""  # 用例标记表达式，默认为空
+  module_pattern: "^test_.*$"  # 模块名称匹配模式（正则表达式）
+  class_pattern: "^(Test.*|.*Test)$"  # 类名称匹配模式（正则表达式）
+  function_pattern: "^(test.*|.*test)$"  # 函数/方法名称匹配模式（正则表达式）
+
+logging:
+  level: "INFO"  # 日志级别：DEBUG/INFO/WARNING/ERROR/CRITICAL
+  file: "test.log"  # 日志文件名
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"  # 日志格式
