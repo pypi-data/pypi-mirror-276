@@ -1,0 +1,8 @@
+README.md
+requirements.txt
+setup.py
+xfapi.egg-info/PKG-INFO
+xfapi.egg-info/SOURCES.txt
+xfapi.egg-info/dependency_links.txt
+xfapi.egg-info/requires.txt
+xfapi.egg-info/top_level.txt
