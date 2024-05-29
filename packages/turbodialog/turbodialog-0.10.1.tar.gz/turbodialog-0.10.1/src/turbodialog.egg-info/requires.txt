@@ -1,0 +1,2 @@
+turboconf
+pythondialog

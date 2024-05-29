@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/turbodialog/__init__.py
+src/turbodialog/__main__.py
+src/turbodialog.egg-info/PKG-INFO
+src/turbodialog.egg-info/SOURCES.txt
+src/turbodialog.egg-info/dependency_links.txt
+src/turbodialog.egg-info/requires.txt
+src/turbodialog.egg-info/top_level.txt
