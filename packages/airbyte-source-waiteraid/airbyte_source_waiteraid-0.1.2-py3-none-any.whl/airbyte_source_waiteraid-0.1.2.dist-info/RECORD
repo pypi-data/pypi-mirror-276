@@ -1,0 +1,8 @@
+source_waiteraid/__init__.py,sha256=SJJ-jqgZchIfaonoJPxKMKZrJsb3-GwhV-GMSdb2QQE,130
+source_waiteraid/manifest.yaml,sha256=Twh9AIsRE_mBg9mrIrMzoi2uXsThXzzrBwzmjHKVIvc,5443
+source_waiteraid/run.py,sha256=7Cm4FLxRxsVYQa7TuRXP98xnSABNyn_qjZ8wvRXnBSo,239
+source_waiteraid/source.py,sha256=JRI-fB_uM5GFGvhlCL3krFjmFUVwnmi2XraZIZqub0w,478
+airbyte_source_waiteraid-0.1.2.dist-info/METADATA,sha256=gYhzIcmehipzghm_adu0_-eZjta-kyZ1k5bGZUz8_o8,5262
+airbyte_source_waiteraid-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_waiteraid-0.1.2.dist-info/entry_points.txt,sha256=68jnuuW3kOscZC8-kN_urTkDV9VOVNkJZJG1UUGl9Ew,61
+airbyte_source_waiteraid-0.1.2.dist-info/RECORD,,
