@@ -1,0 +1,15 @@
+display_colors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+display_colors/__main__.py,sha256=H1Q71SY_6jtLHTT9KIgV0nnRJAF1-_8RFi1oIl9kHIY,17745
+display_colors/cell.py,sha256=65VeI7x8s6jZjIGhlQX1Hd8c0kWm76HLh4LgDgxJ6No,1014
+display_colors/cmd/effects.py,sha256=XTLSgd6jrWUuZtR9TwCBVAo74BBO8fD9ZC_pWsyTMgc,1695
+display_colors/cmd/eight_bit.py,sha256=0ZiQ8VjzxvFBAsko9cO7Qk_soD17FrqNdNMS_BLN4X0,9431
+display_colors/cmd/four_bit.py,sha256=sPMp-XEuMgup7viPnHt1UR09kKf6F6f-3daV3poJye0,6171
+display_colors/const.py,sha256=rmqRsfPpUbHIK5a5-rMVkKmEvL0w-K7z_YMnX5UxqxM,1546
+display_colors/gen.py,sha256=NDBe46H4MzZE3MKRCZoajp6QcToVQlYB-hn0zhso0s4,389
+display_colors/init.py,sha256=hnU3Et2j4lvUAjjP2usQlJHBwu7e8GVY_Iz5AD9taQo,3607
+display_colors/math.py,sha256=I5hOU69lgMYLOduEa_3fE3bgNQIvWJLJnEUIUVqrZ8I,221
+display_colors-1.0.3.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+display_colors-1.0.3.dist-info/METADATA,sha256=W9rK4FetOd2m7Zghdek2iQF1zt9GXjcJ7l72yoy84mY,9795
+display_colors-1.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+display_colors-1.0.3.dist-info/entry_points.txt,sha256=zyUO2Id_A2uZIJzoTrMLxPq7iXh1NuKYSvgMa-0lLIo,62
+display_colors-1.0.3.dist-info/RECORD,,
