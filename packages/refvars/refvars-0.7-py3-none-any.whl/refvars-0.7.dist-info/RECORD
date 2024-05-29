@@ -1,0 +1,9 @@
+reference/__init__.py,sha256=-Pa_FgX2qB4_-khLYPNdtCrOzi2-Ws5Ft3uEpYWNoZk,502
+refvars/__init__.py,sha256=oP245D2pUjKTmXg757WFeic63vXlAV9tyANfEhJIQRw,8565
+refvars/mem_win_x86.py,sha256=gt7-vGN51K46yOALnHysehi8yO0Nw7kaSn-7GNpG_Ec,1920
+refvars/mem_win_x86_lib.dll,sha256=pqts1GOWuyrgxCNn0hAAh_8vp8VyfyRCboeqNmLWHrQ,138752
+refvars-0.7.dist-info/LICENCE,sha256=SJLGEpEMi8mBbsNBQVSewUXDGml7vF_WL0eomQCdX4Q,25652
+refvars-0.7.dist-info/METADATA,sha256=ZjyBT25ZAXQjhMiJz8Pj3bXBXhwvF2sHoTi0fjYQlb4,3701
+refvars-0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+refvars-0.7.dist-info/top_level.txt,sha256=OhGOOPmmOpPSR3vnAgxogFzN65it_5LPUd43a2cIm1E,8
+refvars-0.7.dist-info/RECORD,,
