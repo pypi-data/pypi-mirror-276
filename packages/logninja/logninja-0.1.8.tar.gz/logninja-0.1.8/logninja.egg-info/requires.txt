@@ -1,0 +1,6 @@
+
+[ninja]
+rich>=13.7.1
+
+[starlette]
+starlette<0.38.0,>=0.37.2
