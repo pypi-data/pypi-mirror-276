@@ -1,0 +1,2 @@
+[console_scripts]
+laravelignitionrxss = laravelignitionrxss.main:main
