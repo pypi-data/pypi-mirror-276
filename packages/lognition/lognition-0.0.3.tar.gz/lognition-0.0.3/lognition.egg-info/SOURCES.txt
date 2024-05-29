@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+lognition/__init__.py
+lognition/logger.py
+lognition/main.py
+lognition.egg-info/PKG-INFO
+lognition.egg-info/SOURCES.txt
+lognition.egg-info/dependency_links.txt
+lognition.egg-info/requires.txt
+lognition.egg-info/top_level.txt
