@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: latp
+Version: 0.0.6
+Summary: A custom testing framework based on pytest
+Author: Tanyu
+Author-email: cypenite@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: loguru
+
+# latp v0.01
