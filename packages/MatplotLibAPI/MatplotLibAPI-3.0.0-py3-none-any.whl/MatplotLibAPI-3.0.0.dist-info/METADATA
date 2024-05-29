@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: MatplotLibAPI
+Version: 3.0.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+
+# MatplotLibAPI
+Simple Wrapper
