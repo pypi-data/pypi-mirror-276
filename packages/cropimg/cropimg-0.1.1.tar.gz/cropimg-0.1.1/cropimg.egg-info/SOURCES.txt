@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+cropimg/__init__.py
+cropimg/cropimg.py
+cropimg/update_image.py
+cropimg/update_image_adb.py
+cropimg.egg-info/PKG-INFO
+cropimg.egg-info/SOURCES.txt
+cropimg.egg-info/dependency_links.txt
+cropimg.egg-info/entry_points.txt
+cropimg.egg-info/requires.txt
+cropimg.egg-info/top_level.txt
