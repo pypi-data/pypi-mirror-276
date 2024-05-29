@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+lib/__init__.py
+lib/logistic_regression_module.py
+lib/logistic_regression_module_universal_bank.egg-info/PKG-INFO
+lib/logistic_regression_module_universal_bank.egg-info/SOURCES.txt
+lib/logistic_regression_module_universal_bank.egg-info/dependency_links.txt
+lib/logistic_regression_module_universal_bank.egg-info/requires.txt
+lib/logistic_regression_module_universal_bank.egg-info/top_level.txt
