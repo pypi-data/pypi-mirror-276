@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+htrfnwe/htrfnwe.c
+htrfnwe/htrfnwe_v1.c
+htrfnwe.egg-info/PKG-INFO
+htrfnwe.egg-info/SOURCES.txt
+htrfnwe.egg-info/dependency_links.txt
+htrfnwe.egg-info/requires.txt
+htrfnwe.egg-info/top_level.txt
+tests/test_nwe.py
