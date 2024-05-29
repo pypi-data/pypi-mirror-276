@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ovos-skill-iss-location
+Version: 0.1.0a1
+Summary: ISSLocationSkill
+Home-page: https://github.com/OpenVoiceOS/ovos-skill-iss-location
+Author: OpenVoiceOS
+Author-email: jarbasai@mailfence.com
+License: Apache2.0
+Description: UNKNOWN
+Keywords: ovos skill plugin
+Platform: UNKNOWN
