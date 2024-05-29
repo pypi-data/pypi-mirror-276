@@ -1,0 +1,58 @@
+Metadata-Version: 2.3
+Name: roiextract
+Version: 0.0.2
+Summary: Data-independent and data-driven optimization of extraction of ROI time series based on M/EEG
+Project-URL: Homepage, https://github.com/ctrltz/roiextract
+Project-URL: Bug Tracker, https://github.com/ctrltz/roiextract/issues
+Author-email: Nikolai Kapralov <kapralov@cbs.mpg.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: mne
+Requires-Dist: numpy
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# ROIextract
+
+Optimization of extraction of ROI time series based on the cross-talk function (CTF) or source reconstruction of spatial patterns (REC). **Work in progress!**
+
+## Usage
+
+Obtain a spatial filter that optimizes CTF properties:
+
+```python
+from roiextract import ctf_optimize_label
+
+sf = ctf_optimize_label(fwd, label, template, lambda_)
+
+sf, props = ctf_optimize_label(fwd, label, template, lambda_, quantify=True)
+
+sf = ctf_optimize_label(fwd, label, template, lambda_='auto', threshold=0.95)
+```
+
+Plot the filter as a topomap:
+
+```python
+sf.plot(info)
+```
+
+Apply it to the data to obtain the time course of activity in the ROI/label:
+
+```python
+label_tc = sf.apply(data)
+```
+
+Estimate the CTF for the filter:
+
+```python
+ctf = sf.get_ctf_fwd(fwd)  # ctf is an instance of mne.SourceEstimate
+```
+
+Plot the CTF on the brain surface:
+
+```python
+ctf.plot()
+```

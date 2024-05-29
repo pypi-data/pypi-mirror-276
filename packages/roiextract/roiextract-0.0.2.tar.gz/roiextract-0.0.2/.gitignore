@@ -1,0 +1,19 @@
+# Python
+**/__pycache__/
+**/.ipynb_checkpoints
+
+# Build & tools
+build/
+*.egg-info
+.pytest_cache/
+.ruff_cache/
+
+# Docs
+_build/
+docs/generated/
+
+# Tests
+.coverage
+
+# IDEA
+.idea
