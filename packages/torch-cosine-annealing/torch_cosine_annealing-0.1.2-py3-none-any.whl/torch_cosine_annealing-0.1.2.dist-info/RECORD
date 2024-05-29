@@ -1,0 +1,7 @@
+torch_cosine_annealing/__init__.py,sha256=5GGQtR0Gpkrjv67OpBTRB4TmgdQzrCOSUeYVy84M_QQ,150
+torch_cosine_annealing/cosine_annealing_with_warm_restarts.py,sha256=rVmXfki9_5ywoVo4Q_jpoBBG-k6vQJiQvKkOPqG4XXI,7202
+torch_cosine_annealing-0.1.2.dist-info/LICENSE,sha256=WtLCllmx-FepdqVoLGlGKQbSSMyH09lUq6zfV4JQSkY,1071
+torch_cosine_annealing-0.1.2.dist-info/METADATA,sha256=bR0VmPQrUW7jiAa1nTstL7hoSw-OrHS-MN7lJ17ezts,2006
+torch_cosine_annealing-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+torch_cosine_annealing-0.1.2.dist-info/top_level.txt,sha256=8qsdhXL0EucautLJW4rkTZGQRJMboT6z4Cj9iv0cqJg,23
+torch_cosine_annealing-0.1.2.dist-info/RECORD,,
