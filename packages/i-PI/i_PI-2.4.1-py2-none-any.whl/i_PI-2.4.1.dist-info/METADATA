@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: i-PI
+Version: 2.4.1
+Summary: This package is deprecated. Please use 'ipi' instead.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Requires-Dist: ipi
+
+This package is deprecated. Please use 'ipi' instead.
+
+
