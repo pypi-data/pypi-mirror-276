@@ -1,0 +1,18 @@
+[project]
+name = "example_package_agent-e11"
+version = "0.0.1"
+authors = [
+    {name="Eamon Burns", email="example@example.com"},
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Issues = "https://example.com/issues"
