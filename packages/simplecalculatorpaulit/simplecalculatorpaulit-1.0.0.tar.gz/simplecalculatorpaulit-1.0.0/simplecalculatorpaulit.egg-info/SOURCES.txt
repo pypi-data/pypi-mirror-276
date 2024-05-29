@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+simplecalculatorpaulit/__init__.py
+simplecalculatorpaulit/__main__.py
+simplecalculatorpaulit/simplecalculatorpaulit.py
+simplecalculatorpaulit.egg-info/PKG-INFO
+simplecalculatorpaulit.egg-info/SOURCES.txt
+simplecalculatorpaulit.egg-info/dependency_links.txt
+simplecalculatorpaulit.egg-info/top_level.txt
