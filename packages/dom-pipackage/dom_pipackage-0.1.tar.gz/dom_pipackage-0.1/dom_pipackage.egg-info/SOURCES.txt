@@ -1,0 +1,8 @@
+README.md
+setup.py
+dom_pipackage/__init__.py
+dom_pipackage/main.py
+dom_pipackage.egg-info/PKG-INFO
+dom_pipackage.egg-info/SOURCES.txt
+dom_pipackage.egg-info/dependency_links.txt
+dom_pipackage.egg-info/top_level.txt
