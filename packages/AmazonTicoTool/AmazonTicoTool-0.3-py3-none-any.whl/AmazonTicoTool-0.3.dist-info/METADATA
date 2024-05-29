@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: AmazonTicoTool
+Version: 0.3
+Summary: Tico package to extrack the following tables Buyablility_Status, General_information, Hazmat, Recall
+Home-page: UNKNOWN
+Author: Vijaykumar Raman
+Author-email: ramaviji@amazon.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# AmazonTicoTool
+
+```bash
+pip install AmazonTicoTool
+```
+## What is it?
+
+**AmazonTicoTool** is a Python package that can fetch the data from Tico V3 tool and store them in a dataframe.
+
+The function **get_data** has five returns attributes.
+
+1. All attributes - This will return all the columns/attributes, which is roughly around 90 columns.
+2. Buyability checks - This will return buyability related attributes only
+3. Item General Information - This will return general information of the product.
+4. Hazmat - This will return Hazmat related attributes.
+5. Item Recall Restricted Diagnostics - This will return recalled item attributes.
+
+## Main Feature and Usage
+Here is the sample code to use the main function:
+
+```python
+# Importing the main function to fetch the data
+from AmazonTicoTool import get_data
+
+# Sample inputs to run the automation / the same can be replaced with original data
+asins = ['B07KRJWN17', 'B002OY0QDQ', 'B000GCQ8X0']
+sellers = [608808520, 608808520, 608808520]
+marketplace = [1, 1, 1]
+
+for asin, seller, mp in zip(asins, sellers, marketplace):
+    dfs = get_data(asin, seller, mp)
+
+# assigning five variables to extract the five dataframes
+full, buyability, general, hazmat, recall = dfs
+```
+
+Each variable will have separate Dataframe, we can print/use them as desired.
+
+## Where to get it
+The source code is currently hosted on GitHub at:
+https://gitlab.aws.dev/myteam/ramaviji/-/tree/main/Tico%20Package
+
+Binary installers for the latest released version are available at the [Python
+Package Index (PyPI)](https://pypi.org/project/AmazonTicoTool) 
+
+
+## Dependencies
+The following packages would be required to use the package.
+**pandas, selenium, webdriver_manager, time and browser_cookie3**
+
