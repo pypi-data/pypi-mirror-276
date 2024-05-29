@@ -1,0 +1,2 @@
+[console_scripts]
+latp = latp.cli:main
