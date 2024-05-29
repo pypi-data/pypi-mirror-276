@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: preallocate_cuda_memory
+Version: 1.0.0
+Summary: preallocate CUDA memory for pytorch
+Home-page: https://github.com/guyi2000/preallocate-cuda-memory
+Author: Yi Gu
+Author-email: guyi2000@yeah.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Preallocate CUDA memory for pytorch
+
+This is a code that helps preallocate memory for PyTorch, used for competing for computational resources with others.
+
+You can use the following command directly on the command line:
+
+```bash
+python -m preallocate_cuda_memory
+```
+
+Or you can use in python file:
+
+```python
+import preallocate_cuda_memory as pc
+
+mc = pc.MemoryController(0)  # 0 is the GPU index
+mc.occupy_all_available_memory()
+mc.free_memory()
+```
+
+If you find any issues, please feel free to contact the author by raising an issue on GitHub.
