@@ -1,0 +1,45 @@
+---
+execute:
+  echo: true
+jupyter: python3
+---
+
+# Getting Started
+
+Make sure you have Python 3.10 or later installed on your system. We recommend using a virtual environment such as Mamba to manage your dependencies.
+
+You first need to install the `behaverse` Python package. You can do this by running the following command:
+
+```bash
+pip install -U behaverse
+```
+
+Or if you prefer Conda/Mamba, you can add the following to your `environment.yml` file:
+
+```yaml
+dependencies:
+  - python>3.10
+  - pip
+  - pip:
+    - behaverse
+```
+
+# Usage
+
+The `behaverse` package provides a simple API to access Behaverse services. You can use the `behaverse.data` module to download datasets, load them into memory, and access the data. Here is an example of how to use the package to list available datasets, download a dataset, select a subset of the dataset, and load it into memory:
+
+```{python}
+from behaverse.data import list_datasets, download_dataset, load_dataset, open_dataset, describe_dataset
+from IPython.display import display
+
+# List available datasets
+display(list_datasets())
+
+# Open a dataset, select a subset of the data, and load it into memory
+dataset = open_dataset('P500_9subjects/L1m').where(subject_id=['001', '002']).load()
+display('subjects', dataset.subjects)
+display('study flow', dataset.study_flow)
+
+# print dataset description
+describe_dataset(dataset)
+```

@@ -1,0 +1,30 @@
+# Behaverse Datasets Package: System Design Document
+
+Behaverse Datasets is a Python package that provides access to a collection of datasets for cognitive research. The package is designed to be easy to use, with a focus on providing high-quality datasets that are in well-documented standard format ([BDM]()). The package is intended for use by researchers in the fields of psychology, neuroscience, and related disciplines who are interested in studying human behavior.
+
+This document provides an overview of the system design for the package. It describes the requirements, architecture of the package, and the API. The document also outlines the key features of the package and the technical requirements for using it.
+
+## Requirements
+
+`TODO`
+
+The package should provide access to a collection of datasets for cognitive research.
+
+- BDM formatted datasets
+  - L1 and L2
+  - Raw data?
+  - behavioral and neuroimaging data
+- Licensing
+- API
+- Documentation
+  - website
+- Storage
+- Integration
+- Python package
+- Performance
+- Security and access
+- Testing
+- Deployment
+  - on PyPI
+  - DevOps (e.g., automatic release to PyPI and GitHub Pages)
+- The main audience is not our team, but other researchers in psychology, neuroscience, and related fields.

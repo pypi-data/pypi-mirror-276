@@ -1,0 +1,8 @@
+
+# Behaverse
+
+Behaverse is a Python package to access [xCIT lab](https://xcit.org) datasets in standard [Behaverse Data Model](https://behaverse.github.com/data-model) format.
+
+## System Design
+
+See [System Design Document](system_design.qmd) for more details.
