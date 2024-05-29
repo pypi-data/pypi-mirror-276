@@ -1,0 +1,10 @@
+numpy
+gdal
+xarray
+xee
+
+[interactive]
+cartopy
+rioxarray
+matplotlib
+geopandas
