@@ -1,0 +1,12 @@
+sanghyunjo/__init__.py,sha256=PNvAj6HmFadOaC_nrStrpun0fmghNypGF7P61KIYdiY,194
+sanghyunjo/cv.py,sha256=X70GMKuTJh2fMrSd-L5t-JRtlolNgZ6xyZuRlQ5okuA,8916
+sanghyunjo/cv_utils.py,sha256=9BmMq_EEXqev8TB_7FjJpfl-MGwpAMwaqhCd52vXt1M,9460
+sanghyunjo/json_utils.py,sha256=_0Buqy9MUwL6s6FXYxejJZ0v66bc_59JJmV-gdUg95s,358
+sanghyunjo/misc.py,sha256=fKaIDxXWi_bWlOLUFYODHGiicN2nxsxmkYkmHtyzqag,3115
+sanghyunjo/fonts/Times New Roman MT Std.otf,sha256=-YvvSENOXZxyWmqvCnrsfj2FN0o1HSKgs8jN0GJj7Ww,34888
+sanghyunjo-1.4.4.data/data/fonts/Times New Roman MT Std.otf,sha256=-YvvSENOXZxyWmqvCnrsfj2FN0o1HSKgs8jN0GJj7Ww,34888
+sanghyunjo-1.4.4.dist-info/LICENSE,sha256=fTVLSVmlCwpIOHsZLFDBMkS3_sXD9k2k9C_Xb5cQgk8,1087
+sanghyunjo-1.4.4.dist-info/METADATA,sha256=6tobPZrrm3Uc5UDAkbvtGA3PH4hQjbmsHDGsqpBsWTU,367
+sanghyunjo-1.4.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sanghyunjo-1.4.4.dist-info/top_level.txt,sha256=XaX_ncGwncKbd0DQRAvPC2h18MFSPk3TzV1U07ALW90,11
+sanghyunjo-1.4.4.dist-info/RECORD,,
