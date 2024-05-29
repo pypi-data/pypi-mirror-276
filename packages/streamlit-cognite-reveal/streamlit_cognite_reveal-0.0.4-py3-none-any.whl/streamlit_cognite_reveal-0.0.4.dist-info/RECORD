@@ -1,0 +1,17 @@
+reveal/TestClass.py,sha256=XaVOvl53wyWQeXhmaXrGPkFQWTa7LdP8TcstH0Mt5Jk,33
+reveal/__init__.py,sha256=znrYi4nJqZsKoCcvKnDV6sD4rT06W8liA6-a3Z1KWBY,3744
+reveal/frontend/.env,sha256=TwLhUGTTldPvT4nW3BBkrHy_3oFviYjbtJDmtEdbCXY,180
+reveal/frontend/.prettierrc,sha256=qBUGXDB0ioCVFB3o4zVUnVlOHiqQqbQB9vFVKslWav0,67
+reveal/frontend/config-overrides.js,sha256=VaqQMi4-7YfU451KIzcMsXJDom0xVkw6wS3LU-OqVmg,394
+reveal/frontend/package.json,sha256=dx3xEaCDgfb1KgmFYAB7MVnjSKuyob7jrP8lsQkC5Ng,1149
+reveal/frontend/public/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+reveal/frontend/public/index.html,sha256=pd7UG_FaSF9p3dPQLDghzAmcNX2pYgJjxC4y2fzPCCA,894
+reveal/frontend/src/RevealComponent.tsx,sha256=kf3v9pRFy96JLjktrdg2thtohPIb9PjS9JdBy3seMjY,4285
+reveal/frontend/src/index.tsx,sha256=xR7TPhpbFVjeHB7IkGZmS0CSKruIzXRm9kU37bg0yNg,229
+reveal/frontend/src/react-app-env.d.ts,sha256=V-2kxMBKHcpFxihXMmiCzpzJSMS1KXPA48O35MP6OZA,40
+reveal/frontend/tsconfig.json,sha256=n1Nzg-pzBaCVhOQOX95xEpRpmF3owI5MyIZ-5TVggMA,459
+reveal/frontend/yarn.lock,sha256=U9ONb51UzJxFIfiA9j7KWq9fvJfT4fYAmbqH6KrjSNI,541336
+streamlit_cognite_reveal-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+streamlit_cognite_reveal-0.0.4.dist-info/METADATA,sha256=y6xA77GgOzQjwxI0O09kDrAAvKPnQA4qRzjM-c1wpy4,2500
+streamlit_cognite_reveal-0.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+streamlit_cognite_reveal-0.0.4.dist-info/RECORD,,
