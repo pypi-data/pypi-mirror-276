@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+TGNLP/__init__.py
+TGNLP.egg-info/PKG-INFO
+TGNLP.egg-info/SOURCES.txt
+TGNLP.egg-info/dependency_links.txt
+TGNLP.egg-info/requires.txt
+TGNLP.egg-info/top_level.txt
