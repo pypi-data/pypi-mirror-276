@@ -1,0 +1,7 @@
+numpy>=1.17.0
+ase>=3.19
+h5py>=3.7.0
+pandas
+aevmod
+
+[plot]
