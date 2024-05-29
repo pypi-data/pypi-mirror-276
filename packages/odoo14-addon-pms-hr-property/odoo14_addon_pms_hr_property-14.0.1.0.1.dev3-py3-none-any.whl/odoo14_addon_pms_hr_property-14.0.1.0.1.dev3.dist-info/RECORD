@@ -1,0 +1,16 @@
+odoo/addons/pms_hr_property/README.rst,sha256=IaSLM3CxprTuJSivYk47TaNxJHvENzc460ARb7zVabo,3065
+odoo/addons/pms_hr_property/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/pms_hr_property/__manifest__.py,sha256=jHF-gPDjirEjU4yXLHQ1qYk1XqZc437yv5Dr-B6PABE,540
+odoo/addons/pms_hr_property/i18n/pms_hr_property.pot,sha256=MbnmZJXGvLvsXX66tZ9fq1lEYS9qb7gPrWcDCwOoLAM,1419
+odoo/addons/pms_hr_property/models/__init__.py,sha256=61YKU9vKVzt7Lxw8yCfwYCrn_EXkETEJVBrwbsRMORE,26
+odoo/addons/pms_hr_property/models/hr_employee.py,sha256=tFbjQGDWb_7BOSDWnts4jWkNwg2k6gdVp5xrIlvkZbM,292
+odoo/addons/pms_hr_property/readme/CONTRIBUTORS.rst,sha256=SB4nrYtnEqtCoYVAaSAqD4XPa32WcdBX3bDPWTS7RH8,44
+odoo/addons/pms_hr_property/readme/CREDITS.rst,sha256=Y9p-C3ViNx_dFMnTOv4asRjKZQfas7XxXCa0c59lPv4,229
+odoo/addons/pms_hr_property/readme/DESCRIPTION.rst,sha256=FUoWRjlw9aSFisObJzNc9Gr8p76iRewOy3plyI8WwvE,138
+odoo/addons/pms_hr_property/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/pms_hr_property/static/description/index.html,sha256=I24drd7zsZFSZWdlVlqiDeTnC3iJXw_7qpzF5Cd0SxE,12605
+odoo/addons/pms_hr_property/views/hr_employee_view.xml,sha256=dXzZ7_dI402XP2WG_vYrT84MQFO4mNY7JaPLZV81lWY,2469
+odoo14_addon_pms_hr_property-14.0.1.0.1.dev3.dist-info/METADATA,sha256=MwBgUU9lgpN38kgVT7JOr5ym_pYCe_XRcpaCpnDYbMQ,3658
+odoo14_addon_pms_hr_property-14.0.1.0.1.dev3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo14_addon_pms_hr_property-14.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_pms_hr_property-14.0.1.0.1.dev3.dist-info/RECORD,,
