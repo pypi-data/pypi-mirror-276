@@ -1,0 +1,6 @@
+llama_index/llms/oci_genai/__init__.py,sha256=TmN9tp832XkNQxeL9g_XPNkw0eY-RFbl50zkd3w2Xt0,78
+llama_index/llms/oci_genai/base.py,sha256=y-rBMfCwRt1AomnUAwqws8WFMuLgxzUZgWg2en2ScZA,12515
+llama_index/llms/oci_genai/utils.py,sha256=Oxx9ewGwAyG69t5DOf_g_FCc-BDLmLRUhoE-vhzfSss,10129
+llama_index_llms_oci_genai-0.1.0.dist-info/METADATA,sha256=u3l0uxfSM3M8Z96dUZjeuCIuM9UXjwGUn-LOWniRaa8,1553
+llama_index_llms_oci_genai-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_llms_oci_genai-0.1.0.dist-info/RECORD,,
