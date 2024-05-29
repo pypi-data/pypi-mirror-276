@@ -1,0 +1,9 @@
+iotics_auth/__init__.py,sha256=V9bhGqxSvoSxxdYDPM7lnKS73xY6_k4_vAqRBD3X_Ts,31
+iotics_auth/identity.py,sha256=K4rpg1yuKCp00BC8pCxq3rS5CunsSEDMWaICbBcqWYY,5009
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_identity.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iotics_auth-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iotics_auth-0.1.0.dist-info/METADATA,sha256=UNS3SUZfsEoKHn8JYb_psssvEyXpaMl7L35fZRr0r14,560
+iotics_auth-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+iotics_auth-0.1.0.dist-info/top_level.txt,sha256=Wq8-lI0cUdenP_WrIzg6uNQeCaOe7WmqvnX4PaMpga4,18
+iotics_auth-0.1.0.dist-info/RECORD,,
