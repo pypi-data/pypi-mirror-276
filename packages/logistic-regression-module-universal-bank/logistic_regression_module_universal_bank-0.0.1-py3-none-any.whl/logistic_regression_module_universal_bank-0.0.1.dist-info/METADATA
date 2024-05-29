@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: logistic-regression-module-universal-bank
+Version: 0.0.1
+Summary: 로지스틱회귀 예제 1
+Home-page: UNKNOWN
+Author: TaeMin
+Author-email: taeminida@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9.13
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib ==3.9.0
+Requires-Dist: numpy ==1.25.2
+Requires-Dist: pandas ==1.5.3
+Requires-Dist: scikit-learn ==1.4.2
+Requires-Dist: statsmodels ==0.14.2
+Requires-Dist: mord ==0.7
+Requires-Dist: seaborn ==0.13.2
+Requires-Dist: dmba ==0.2.4
+
+UNKNOWN
+
