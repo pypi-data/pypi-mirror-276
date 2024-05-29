@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsiParser.py,sha256=LEe6cUwqooprZWuDvW1qzkJFP0Kn2dB2loJ7PW_57Gk,10641
+dsiUnitNode.py,sha256=5c97BI35v6nnGChSjcaqTMDVAcrIrkV4k1SpggZdyEw,8120
+dsiUnits.py,sha256=Q_fQt1kL-gCvRPndxbkuWhVj2pCEc6tgJ-3VzNDBSvc,22178
+regexGenerator.py,sha256=zbDd0F1dbL1fuWYcvPXxmMK8YLn_pSvyzVUwhNp3ni0,2888
+unitStrings.py,sha256=4QzexghbWg8vBZxFMY-S7R2tEdWlXbxuZnTpTQqQG-E,13366
+dsiunits-2.3.0.dist-info/LICENSE,sha256=ListzFM7LvlJ1cYCe2QW70teXZrN6P6k-aDimwPO2Ko,26516
+dsiunits-2.3.0.dist-info/METADATA,sha256=JaR5sweLi1N_KhJJ7NX71lQbgorsTt3vDLCzESQcqfM,33299
+dsiunits-2.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dsiunits-2.3.0.dist-info/top_level.txt,sha256=BfuJv86YD4wPhc6bbgW_dBzFMBsDQN4d7bIkd_Vqv5A,67
+dsiunits-2.3.0.dist-info/RECORD,,
