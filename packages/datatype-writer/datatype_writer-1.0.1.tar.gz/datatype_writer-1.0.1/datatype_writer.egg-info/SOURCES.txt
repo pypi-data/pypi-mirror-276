@@ -1,0 +1,17 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+datatype_writer/bit.py
+datatype_writer/byte_array.py
+datatype_writer/floating_point.py
+datatype_writer/format.py
+datatype_writer/integer.py
+datatype_writer/link.py
+datatype_writer/specification.py
+datatype_writer/string.py
+datatype_writer.egg-info/PKG-INFO
+datatype_writer.egg-info/SOURCES.txt
+datatype_writer.egg-info/dependency_links.txt
+datatype_writer.egg-info/requires.txt
+datatype_writer.egg-info/top_level.txt

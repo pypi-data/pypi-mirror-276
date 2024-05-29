@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: datatype_writer
+Version: 1.0.1
+Summary: Framework for writing binary data in python
+Author: Ada L
+Author-email: the.nostra.tymus@gmail.com
+License: MIT
+Keywords: machine learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: pyyaml
+
+Framework that allows the use of operatators, such as & or |, for chaining different datatypes together and allowing for easy writing.
