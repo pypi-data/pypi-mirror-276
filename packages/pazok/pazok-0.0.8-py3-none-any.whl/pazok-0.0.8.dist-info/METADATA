@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pazok
+Version: 0.0.8
+Summary: A short description of my package
+Author: b_azo
+Author-email: husseun.selt@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+<h1 align="center">pazok</h1>
+
+
+### What is pazok?
+It is a python library that contains a set of ready-made codes that enable you to create the most wonderful designs and animations on the terminal.
+
+### Support
++ python
++ termux
+
+### Install
+Just write this code on terminal:
+```shell
+pip3 install pazok
+```
+If you want to download the developer version then write on terminal this code
+```shell
+pip3 install git+https://github.com/h98m/pazok
+```
+I don't recommend regular users to download the developer version
+
+___
+
+<p align="center">
+<strong>For more infrmation</strong>
+</p>
+
+<p align="center">
+<a href="https://github.com/h98m/pazok"><label style="display: block;"><strong>pazok</strong></label></a>
+</p>
+
+___
