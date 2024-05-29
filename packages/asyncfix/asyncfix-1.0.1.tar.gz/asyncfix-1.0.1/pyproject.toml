@@ -1,0 +1,57 @@
+[project]
+name = "asyncfix"
+version = "1.0.1"
+description = "AsyncIO FIX Protocol client for Python"
+readme = "README.md"
+authors = [{ name = "Alex Veden", email = "i@alexveden.com" }]
+license = {text = "MIT License"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Development Status :: 5 - Production/Stable",
+]
+keywords = ["asyncio", "FIX", "protocol", "client", "server", "parser", "unit tests", "simplefix", "tester", "orders"]
+requires-python = ">=3.8"
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "isort==5.12.0",
+  "flake8==6.1.0",
+  "black==23.7.0",
+  "pre-commit",
+  'pytest-asyncio',
+  'lazydocs',
+  'pydocstringformatter',
+  'pydocstyle',
+  'toml',
+  "mkdocs",
+]
+
+[project.urls]
+Homepage = "https://github.com/alexveden/asyncfix"
+
+[tool.setuptools]
+packages = ["asyncfix", "asyncfix.protocol"]
+
+[tool.isort]
+profile = "black"
+extend_skip = ["__init__.py"]
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[tool.pydocstringformatter]
+write = true
+strip-whitespaces = true
+summary-quotes-same-line = true
+max-line-length = 88
+split-summary-body = false
+linewrap-full-docstring = true
+
+[tool.pydocstyle]
+ignore="D403"
+
