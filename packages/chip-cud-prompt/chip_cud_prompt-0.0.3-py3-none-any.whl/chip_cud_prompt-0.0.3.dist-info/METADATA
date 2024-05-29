@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: chip_cud_prompt
+Version: 0.0.3
+Summary: A prompt package
+Author-email: zkhCreator <zkh90644@gmail.com>
+Project-URL: Homepage, https://github.com/zkhCreator/chip-cud-prompt
+Project-URL: Issues, https://github.com/zkhCreator/chip-cud-prompt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# chip-cud-prompt
+
+用于管理存放入 ChipCud 的 prompt
+
+# Distribute
+
+```bash
+python3 -m build
+```
+
+```bash
+python3 -m twine upload dist/*
+```
