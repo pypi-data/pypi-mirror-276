@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: gradientnorm-autoclipper
+Version: 1.0.0
+Summary: Clip gradient norm automatically
+Author-email: Michał Dyczko <michal@dyczko.dev>
+License: MIT License
+        
+        Copyright (c) 2024 michaldyczko
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/michaldyczko/gradientnorm-autoclipper
+Keywords: pytorch,gradient clipping,automl
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch >=2.2.1
+Requires-Dist: pytorch-optimizer >=3.0.0
+
+# AutoClipper
+
+AutoClippedOptimizer is a Python factory function that returns an optimizer class with automatic gradient clipping. This feature can help to stabilize training in certain situations by limiting the magnitude of gradient updates.
+
+The implementation is inspired by the paper "AutoClip: Adaptive Gradient Clipping for Source Separation Networks" (<https://arxiv.org/abs/2007.14469>) with two key differences:
+
+1. Instead of keeping track of the whole grad norm history, it limits its size to a specified window.
+2. It enables setting a max_norm to clamp the max grad norm value.
+
+## Usage
+
+```python
+from autoclipper import AutoClippedOptimizer
+
+# Create a new optimizer class with automatic gradient clipping
+optimizer_cls = AutoClippedOptimizer(optimizer_cls, q=0.1, window=200, max_norm=None)
+
+# Use the new optimizer class in your training loop
+optimizer = optimizer_cls(model.parameters(), lr=0.01)
+```
+
+## Parameters
+
+- `optimizer_cls` (Type[Optimizer]): The base optimizer class to extend with automatic gradient clipping.
+- `q` (float, optional): The quantile at which to clip gradients. Gradients with norms larger than the q-th quantile of recent gradient norms are clipped. Default is 0.1.
+- `window` (int, optional): The number of recent gradient norms to consider when computing the q-th quantile for clipping. Default is 200.
+- `max_norm` (float, optional): An optional maximum gradient norm. If provided, gradients with norms larger than this value are always clipped to this value. Default is None, which means no absolute maximum gradient norm is enforced.
+
+## Methods
+
+- `__init__(self, *args, **kwargs)`: Initializes the optimizer.
+- `_get_grad_norm(self)`: Calculates the norm of the gradient for the current step.
+- `_autoclip_gradients(self)`: Automatically clips the gradients based on the recent gradient norms.
+- `_main_params(self)`: Yields the main parameters of the optimizer.
+- `step(self, closure=None, **kwargs)`: Performs a single optimization step.
+- `reset(self)`: Resets the state of the optimizer.
