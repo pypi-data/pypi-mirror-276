@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+GameStorageAPI/DataTypes.py
+GameStorageAPI/__init__.py
+GameStorageAPI/game.py
+GameStorageAPI/storage.py
+GameStorageAPI.egg-info/PKG-INFO
+GameStorageAPI.egg-info/SOURCES.txt
+GameStorageAPI.egg-info/dependency_links.txt
+GameStorageAPI.egg-info/requires.txt
+GameStorageAPI.egg-info/top_level.txt

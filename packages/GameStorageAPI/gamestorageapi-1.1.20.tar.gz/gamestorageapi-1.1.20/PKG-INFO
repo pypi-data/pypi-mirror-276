@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: GameStorageAPI
+Version: 1.1.20
+Summary: StorageAPI for games
+Author: Fouad (Fouad Jabri)
+Author-email: <fouad.jabri@proton.me>
+Keywords: python,storage,game,game API
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pywin32
