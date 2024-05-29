@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: reldplayer
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: ZackaryW
+Author-email: 36378555+ZackaryW@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: zrcl (>=0.3.1,<0.4.0)
+Description-Content-Type: text/markdown
+
+# reldplayer
+[![Documentation Status](https://readthedocs.org/projects/reldplayer/badge/?version=latest)](https://reldplayer.readthedocs.io/en/latest/?badge=latest)
+
+
+reimagined pyldplayer
+
+
