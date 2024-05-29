@@ -1,0 +1,195 @@
+# Test Release - QualysTBX - Qualys Toolbox Project
+
+**Note: This is a test release and should not be used in production.**
+
+**QualysTBX** is a comprehensive toolbox project designed to provide various utilities for interacting with Qualys services. The initial offering within this project is the **Policy Merge** tool, which allows users to selectively merge Control IDs (CIDs) from one policy into another, ensuring streamlined and consistent policy updates. As the project evolves, additional tools will be developed and integrated to meet emerging needs and enhance functionality.
+
+## Qualys Tools Included in QualysTBX
+
+### 1. Policy Merge
+
+**Description:** The Policy Merge tool in QualysTBX allows you to seamlessly merge specific Control IDs (CIDs) from an existing policy into a new policy. This tool is essential for maintaining up-to-date and consistent security policies, especially when integrating changes from legacy policies into current ones. It supports efficient policy management by allowing selective merging of controls, ensuring that only relevant and necessary updates are incorporated.
+
+
+## Prerequisites Python Module on Ubuntu 22.04
+    - Install Python Latest Version, greater than 3.9
+
+## First time install or upgrade of QualysTBX
+| Step Number | Code to Run (Linux/Mac)                                             | Code to Run (Windows)                                                | Description                                                                                                |
+|-------------|---------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| 1 | `cd [your data storage directory]`                                  | `cd [your data storage directory]`                                   | Change to your data storage directory where you want to store your environment and logs.                   |
+| 2 | `python -m venv qtbx_venv`                                          | `python -m venv qtbx_venv`                                           | Create a Python virtual environment named `qtbx_venv` for the `qualystbx` tool.                            |
+| 3 | `source ./qtbx_venv/bin/activate`                                   | `.\qtbx_venv\Scripts\activate`                                       | Activate the Python virtual environment. This step needs to be done each time you want to run `qualystbx`. |
+| 4 | `python -m pip install --upgrade qualystbx lxml requests xmltodict` | `python -m pip install --upgrade qualystbx lxml requests xmltodict` | Install the necessary packages: `qualystbx`, `lxml`, `requests`, and `xmltodict`.                           |
+
+## Operations you can perform with QualysTBX
+
+| Operation    | Code to Run (Linux/Mac) | Code to Run (Windows) | Description |
+|--------------|--------------------------|-----------------------|-------------|
+| Policy Merge | `qualystbx --execute policy_merge --new_policy_id=[new policy id] --old_policy_id=[old policy id] --cid_list=[comma separated cid list] [--log_to_console]` | `qualystbx --execute policy_merge --new_policy_id=[new policy id] --old_policy_id=[old policy id] --cid_list=[comma separated cid list] [--log_to_console]` | Execute the `policy_merge` command in `qualystbx` with the specified<br/> new policy ID, old policy ID, and comma-separated CID list. <br/>Optionally, add `--log_to_console` to log to the console. <br/>If not specified, logs will be saved to <br/>`[your data storage directory]/qtbx_venv/qualystbx/qtbx_home/policy_merge/log/policy_merge.log`. |
+
+
+### Installation or Upgrade
+
+```markdown
+| Step Number | Code to Run (Linux/Mac)            | Code to Run (Windows)              | Description |
+|-------------|-------------------------------------|------------------------------------|-------------|
+| 1           | `cd [your data storage directory]` | `cd [your data storage directory]` | Change to your data storage directory where you want to store your environment and logs. |
+| 2           | `python -m venv qtbx_venv`         | `python -m venv qtbx_venv`         | Create a Python virtual environment named `qtbx_venv` for the `qualystbx` tool. |
+| 3           | `source ./qtbx_venv/bin/activate`  | `.\qtbx_venv\Scripts\activate`     | Activate the Python virtual environment. This step needs to be done each time you want to run `qualystbx`. |
+```
+
+### Operation: Merge
+
+```markdown
+| Operation | Code to Run (Linux/Mac)                                                                       | Code to Run (Windows)                                                                        | Description |
+|-----------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------------|
+| Merge     | `qualystbx --execute policy_merge --new_policy_id=[new policy id] --old_policy_id=[old policy id] --cid_list=[comma separated cid list] [--log_to_console]` | `qualystbx --execute policy_merge --new_policy_id=[new policy id] --old_policy_id=[old policy id] --cid_list=[comma separated cid list] [--log_to_console]` | Execute the `policy_merge` command in `qualystbx` with the specified new policy ID, old policy ID, and comma-separated CID list. Optionally, add `--log_to_console` to log to the console. If not specified, logs will be saved to `[your data storage directory]/qtbx_venv/qualystbx/qtbx_home/policy_merge/log/policy_merge.log`. |
+```
+
+### Combined Instructions in Markdown
+
+#### Installation or Upgrade
+
+**Linux/Mac Example (bash script)**
+
+```sh
+#!/bin/bash
+cd /path/to/your/data/storage        # Change to your data storage directory
+python -m venv qtbx_venv             # Create a Python virtual environment
+source ./qtbx_venv/bin/activate      # Activate the Python virtual environment
+python -m pip install --upgrade qualystbx lxml requests xmltodict   # Install the necessary packages
+```
+**Windows Example (batch script)**
+
+```bat
+cd \path\to\your\data\storage
+python -m venv qtbx_venv
+.\qtbx_venv\Scripts\activate
+python -m pip install --upgrade qualystbx lxml requests xmltodict   # Install the necessary packages
+```
+#### Operation: Merge
+
+**Linux/Mac Example (bash script)**
+
+```sh
+#!/bin/bash
+qualystbx --execute policy_merge --new_policy_id=12345 --old_policy_id=67890 --cid_list=111,222,333
+```
+
+**Windows Example (batch script)**
+
+```bat
+qualystbx --execute policy_merge --new_policy_id=12345 --old_policy_id=67890 --cid_list=111,222,333
+```
+
+### First Time Setup Activity on Ubuntu 22.04
+ - TBD
+
+# QualysTBX Activity Diagram
+- [![](https://github.com/dg-cafe/qualystbx_img/assets/82658653/72bc4bad-f21e-4e2b-9f73-923ca4212cc2)](https://github.com/dg-cafe/qualystbx_img/assets/82658653/72bc4bad-f21e-4e2b-9f73-923ca4212cc2)
+
+# Policy Merge Tool
+
+Policy Merge is a Policy Comliance Function that merges an old policies CID list into a new Policy.  This is useful when customers want to easily merge in their customizations made to existing policies
+
+## Policy Merge Activity Diagram
+- [![](https://github.com/dg-cafe/qualystbx_img/assets/82658653/da783563-9b3c-49dc-bf04-c66f89a27e35)](https://github.com/dg-cafe/qualystbx_img/assets/82658653/da783563-9b3c-49dc-bf04-c66f89a27e35)
+
+
+## Blueprint
+TBD
+
+# Roadmap
+```
+Capability                    | Target    | Description
+----------                    | ------    | -----------
+Policy Merge                  | May 2024 | Automate Policy Merge of specific CID's between old and new policy.
+Other Tools                   | TBD      | Other Qualys Tools
+```
+
+## Application Directories
+
+| Path                                                | Description                                                        |
+|-----------------------------------------------------|--------------------------------------------------------------------|
+| [user storage dir]                                  | Your python virtaul environment entered at runtime.                |
+| [user storage dir]/qualystbx/qtbx_home/             | Directory of Tools Data                                            |
+| qtbx_home/[tool]                                    | Tool Home Directory. Ex. qtbx_home/policy_merge                    |
+| [tool]/bin                                          | TBD                                                                |
+| [tool]/cred                                      | TBD                                                                |
+| [tool]/config                                    | TBD                                                                |
+| [tool]/log                                       | Logs - Directory of all run logs                                   |
+| [tool]/data                                      | Application Data - Directory containing results of tool execution. |
+
+
+# Logging
+
+Logging fields are pipe delimited with some formatting for raw readability.  You can easily import this data into excel, 
+ a database for analysis or link this data to a monitoring system.
+
+| Format                      | Description                                                                                                                              |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| YYYY-MM-DD hh:mm:ss,ms      | UTC Date and Time.  UTC is used to match internal date and time within Qualys data.                                                      |
+| Logging Level               | INFO, ERROR, WARNING, etc.  Logging levels can be used for troubleshooting or remote monitoring for ERROR/WARNING log entries.           |
+| Module Name: YYYYMMDDHHMMSS | Top Level qetl Application Module Name that is executing, along with date to uniquely identify all log entries associated with that job. |
+| User Name                   | Operating System User executing this application.                                                                                        |
+| Function Name               | qetl Application Function Executing.                                                                                                     |
+| Message                     | qetl Application Messages describing actions, providing data.                                                                            |
+
+
+# Application Monitoring
+- To monitor the application for issues, the logging format includes a logging level.  
+- Monitoring for ERROR will help identify issues and tend to the overall health of the applicaiton operation.
+
+# Securing Your Application in the Data Center
+Follow your corporate procedures for securing your application.  A key recommendation is to use a password vault
+or remote invocation method that passes the credentials at run time so the password isn't stored on the system.
+
+## Password Vault
+QualysETL provides options to inject credentials at runtime in memory.
+
+Qualys recommends customers move to a password vault of their choosing to operate this applications credentials.
+By creating functions to obtain credentials from your corporations password vault, you can improve 
+the security of your application by separating the password from the machine, injecting the credentials at runtime.  
+
+One way customers can do this is through a work load management solution, where the external work load management
+system ( Ex. Autosys ) schedules jobs injecting the required credentials to QualysETL application at runtime.  This eliminates
+the need to store credentials locally on your system.
+
+If you are unfamiliar with password vaults, here is one example from Hashicorp.
+- [Hashicorp Products Vault](https://www.hashicorp.com/products/vault)
+- [Hashicorp Getting Started](https://learn.hashicorp.com/tutorials/vault/getting-started-intro?in=vault/getting-started)
+
+
+# License
+<a name="license"></a>
+[Apache License](http://www.apache.org/licenses/LICENSE-2.0)
+
+    Copyright 2021  David Gregory and Qualys Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+        http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+# ChangeLog
+<a name="changelog"></a>
+
+```
+Version | Date of Change      | Description of Changes
+------- | --------------      | ----------------------
+0.1.0  | 2024-05-17 10:00 ET | Test release, do not use.
+0.50.0  | 2024-05-17 10:00 ET | Test release, do not use.
+```
+
+# Release Notes Log
+<a name="releasenotes"></a>
+
+- 0.1.0 thru 0.50.0 initial test releases, do not use.
