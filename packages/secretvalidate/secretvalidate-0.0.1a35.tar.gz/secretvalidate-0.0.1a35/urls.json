@@ -1,0 +1,5 @@
+{
+    "sonarcloud_token": "https://sonarcloud.io/api/users/current",
+    "snykkey": "https://snyk.io/api/v1/user",
+    "npm_access_token": "https://registry.npmjs.org/-/npm/v1/user"
+}
