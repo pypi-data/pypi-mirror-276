@@ -1,0 +1,49 @@
+[build-system]
+requires = ["scikit-build-core >= 0.5", "nanobind"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "ditalini"
+description="A template for your awesome C++/Python scientific computing software project"
+authors = [
+    { name = "Philip Mocz", email = "philip.mocz@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+dependencies = ["numpy"]
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://ditalini.readthedocs.io/"
+Homepage = "https://github.com/pmocz/ditalini"
+
+[tool.scikit-build]
+minimum-version = "0.5"
+build-dir = "build/{wheel_tag}"
+editable.rebuild = true
+
+# Build stable ABI wheels for CPython 3.12+
+wheel.py-api = "cp312"
+
+# Automatic versioning from git tags
+metadata.version.provider = "scikit_build_core.metadata.setuptools_scm"
+sdist.include = ["python/ditalini/_version.py"]
+
+[tool.setuptools_scm]
+write_to = "python/ditalini/_version.py"
+
+[tool.cibuildwheel]
+# Necessary to see build output from the actual compilation
+build-verbosity = 1
+
+# Run pytest to ensure that the package was correctly built
+test-command = "pytest {project}/python/ditalini/test"
+test-requires = "pytest"
+
+# Don't test Python 3.8 wheels on macOS/arm64
+test-skip="cp38-macosx_*:arm64"
+
+# Needed for full C++17 support
+[tool.cibuildwheel.macos.environment]
+MACOSX_DEPLOYMENT_TARGET = "10.14"
