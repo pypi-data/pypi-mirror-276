@@ -1,0 +1,17 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools >= 61.0"]
+
+[project]
+authors = [
+  {name = "Olivia Ryan", email = "olivia.r.dev@gmail.com"},
+]
+description = "Simple first-order logic library"
+license = {file = "LICENSE"}
+name = "first-order"
+readme = "README.md"
+version = "0.1.0"
+
+[project.urls]
+Issues = "https://github.com/olivi-r/first-order/issues"
+Repository = "https://github.com/olivi-r/first-order"
