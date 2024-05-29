@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+verbose_terminal/__init__.py
+verbose_terminal/main.py
+verbose_terminal/styles.py
+verbose_terminal.egg-info/PKG-INFO
+verbose_terminal.egg-info/SOURCES.txt
+verbose_terminal.egg-info/dependency_links.txt
+verbose_terminal.egg-info/top_level.txt
