@@ -1,0 +1,3 @@
+[xarray.backends]
+adios = adios2.xarraybackend:AdiosBackendEntrypoint
+
