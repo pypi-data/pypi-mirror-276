@@ -1,0 +1,13 @@
+mausoleum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mausoleum/__main__.py,sha256=BhG1_Gcw5HnFRe3pDB29aW8hmipTXamzdwbNuYb4YJ0,41
+mausoleum/application.py,sha256=9YwlWVlou_kcLcF8yNzzfzSc2PI34-v8nD70ZsULe6M,27836
+mausoleum/settings.toml,sha256=WHUJ0qX2PzPgHFvbFh-prJOFXgmnj-PBjOxxfp3NLno,99
+mausoleum/wrapper.py,sha256=JuVVr5pr18lORLNk6fag6-Dhl16g29xq6kyuXLNrO3E,11340
+mausoleum/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mausoleum/images/ic_vpn_key_black_48dp_1x.png,sha256=gH92oKaTLAB_VgMG_HUZgBryqjrbhLpp0epmaZj7G7w,342
+mausoleum-0.10.3.dist-info/LICENSE,sha256=hDccDwOXw8yqwQpXykhbQpKTmc6_UrYqYCyFb1gWuRk,32886
+mausoleum-0.10.3.dist-info/METADATA,sha256=3B_1s4MzhVFDD323GjR4mlpzY7xDl-FhH08b_iuVSuM,4851
+mausoleum-0.10.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mausoleum-0.10.3.dist-info/entry_points.txt,sha256=yVgDAV51obaUd3ArMSTe7mbbHtXb_ljrsIjdFaQEM70,95
+mausoleum-0.10.3.dist-info/top_level.txt,sha256=DxdHayPV2dU0huFFxoNZRupZO3iPELZONNk6fEp0U4c,10
+mausoleum-0.10.3.dist-info/RECORD,,
