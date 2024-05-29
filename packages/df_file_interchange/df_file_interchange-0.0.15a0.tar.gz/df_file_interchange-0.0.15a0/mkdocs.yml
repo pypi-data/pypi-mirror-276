@@ -1,0 +1,39 @@
+site_name: Dataframes File Interchange
+nav:
+  - Home: index.md
+  - Tutorials:
+    - Getting Started: getting_started.md
+    - Custom Structured Info: custom_info.md
+    - Notebook Simple Write and Read: notebooks/tutorial_simple_write_read.ipynb
+    - Notebook Simple Custom Info: notebooks/tutorial_simple_structured_custom_info.ipynb
+  - Code Reference:
+    - file (read & write): code_reference__file.md
+    - ci (custom information): code_reference__ci.md
+    - ci.extra (extra df info): code_reference__ci_extra.md
+    - ci.unit (columnwise units): code_reference__ci_unit.md
+  - Technical Background: background.md
+  - YAML Fields: yaml_fields.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            parameter_headings: true
+            show_signature: true
+            show_signature_annotations: true
+            show_object_full_path: false
+            show_root_heading: true
+            # show_symbol_type_heading: true
+            docstring_style: numpy
+  - mknotebooks
+theme: material
+markdown_extensions:
+  # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
