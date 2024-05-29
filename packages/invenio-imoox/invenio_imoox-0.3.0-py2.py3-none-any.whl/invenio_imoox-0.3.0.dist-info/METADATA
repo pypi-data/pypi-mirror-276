@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: invenio-imoox
+Version: 0.3.0
+Summary: "Provides API for iMooX."
+Home-page: https://github.com/tu-graz-library/invenio-imoox
+Author: Graz University of Technology.
+Author-email: info@inveniosoftware.org
+License: MIT
+Platform: any
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.8
+Requires-Dist: click >=7.0.0
+Requires-Dist: invenio-records-lom >=0.1.0
+Requires-Dist: requests >=2.0.0
+Provides-Extra: tests
+Requires-Dist: invenio-cache >=1.1.0 ; extra == 'tests'
+Requires-Dist: invenio-search[opensearch2] >=2.1.0 ; extra == 'tests'
+Requires-Dist: pytest-invenio >=1.4.3 ; extra == 'tests'
+Requires-Dist: pytest-black-ng >=0.4.0 ; extra == 'tests'
+Requires-Dist: ruff >=0.4.4 ; extra == 'tests'
+Requires-Dist: Sphinx >=4.4.0 ; extra == 'tests'
+
+..
+    Copyright (C) 2021 Graz University of Technology.
+
+    invenio-imoox is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+===============
+ invenio-imoox
+===============
+
+.. image:: https://github.com/tu-graz-library/invenio-imoox/workflows/CI/badge.svg
+        :target: https://github.com/tu-graz-library/invenio-imoox/actions?query=workflow%3ACI
+
+.. image:: https://img.shields.io/github/tag/tu-graz-library/invenio-imoox.svg
+        :target: https://github.com/tu-graz-library/invenio-imoox/releases
+
+.. image:: https://img.shields.io/pypi/dm/invenio-imoox.svg
+        :target: https://pypi.python.org/pypi/invenio-imoox
+
+.. image:: https://img.shields.io/github/license/tu-graz-library/invenio-imoox.svg
+        :target: https://github.com/tu-graz-library/invenio-imoox/blob/master/LICENSE
+
+Provides API for iMooX.
+
+Further documentation is available on
+https://invenio-imoox.readthedocs.io/
+
+..
+    Copyright (C) 2021 Graz University of Technology.
+
+    invenio-imoox is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+Changes
+=======
+
+Version v0.3.0 (release 2024-05-29)
+
+- cli: improve success output
+- fix: for global search
+- cli: give clean message for not existing user
+- cli: improve shown error by color
+- setup: use ruff
+- cli: add dry_run option
+- refactor: implement service approach
+
+
+Version v0.2.0 (release 2022-10-14)
+
+- setup: remove packages coming from pytest-invenio
+- change: improve function
+- pylint: changes
+- global: pin flake8
+- fix: install invenio_search[opensearch2] for tests
+- fix: sphinx language should not set to None
+- global: migrate to reusable workflows
+- global: remove explicit install of db and search
+
+
+
