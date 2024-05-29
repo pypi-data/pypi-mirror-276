@@ -1,0 +1,8 @@
+source_sap_fieldglass/__init__.py,sha256=v4fkeOSyYKV41l1Swv53tyPmpTlrtE73sWKMEB12US0,138
+source_sap_fieldglass/manifest.yaml,sha256=a-WigxIVKBqk3WiitnxuDuB7mvwuC0sCB3M5V4EmmVc,9466
+source_sap_fieldglass/run.py,sha256=67roXl5dDvOMe0PQvk3Fbl7Z5uALPZf9sWUJoLYhxpg,239
+source_sap_fieldglass/source.py,sha256=7pTqP0TtiiM3gNEj6CfvU3e8um8V_UCd1scV1AcMx7A,482
+airbyte_source_sap_fieldglass-0.1.2.dist-info/METADATA,sha256=JD7Eqv8Zsq0bK2lNJhE1m6Eco-e6o_2vWDH_md3eI0U,5367
+airbyte_source_sap_fieldglass-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_sap_fieldglass-0.1.2.dist-info/entry_points.txt,sha256=SKC1AnnvDb_hZ5M2PLVphJ6cjUqfUSsAMA4wG9HtzWI,71
+airbyte_source_sap_fieldglass-0.1.2.dist-info/RECORD,,
