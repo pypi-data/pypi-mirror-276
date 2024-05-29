@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: prjit
+Version: 0.0.3
+Summary: Define a project workspace and switch files and applications
+Home-page: https://github.com/archiba/prjit
+Author: archiba
+Author-email: yuki-chiba@outlook.jp
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: fire
+Requires-Dist: PyYAML
+Requires-Dist: pyobjc
+Requires-Dist: prompt-toolkit
+Requires-Dist: atomacos
+Requires-Dist: psutil
+Requires-Dist: inquirer

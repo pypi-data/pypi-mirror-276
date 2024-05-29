@@ -1,0 +1,385 @@
+#!/usr/bin/env python3
+import subprocess
+from datetime import datetime
+from pathlib import Path
+
+import inquirer
+import prompt_toolkit.completion
+import prompt_toolkit.document
+from fire import Fire
+
+from prjitter.bundles import BundleManager
+from prjitter.config import GlobalConfig, PrjitConfig, PrjitSwitchPath
+from prjitter.state import PrjitState
+from prjitter.switcher import PrjitSwitcher
+
+
+def get_path_completer(only_directories: bool = False, ):
+    comp_ = prompt_toolkit.completion.PathCompleter(only_directories=only_directories)
+
+    def comp(v1, v2):
+        result = list(comp_.get_completions(prompt_toolkit.document.Document(v1), v2))
+        if len(result) == 0:
+            return []
+        return [v1 + r.text for r in result][v2 % len(result)]
+
+    return comp
+
+
+def get_word_completer(words: list[str]):
+    comp_ = prompt_toolkit.completion.WordCompleter(words, WORD=True)
+
+    def comp(v1, v2):
+        result = list(comp_.get_completions(prompt_toolkit.document.Document(v1), v2))
+        if len(result) == 0:
+            return []
+        return [r.text for r in result][v2 % len(result)]
+
+    return comp
+
+
+class PrjitCLI:
+    def init(self):
+        print("Start initializing prjit...")
+        global_config = GlobalConfig.load_from_env()
+        if global_config.root_path().exists():
+            print('prjit root dir already exists:', global_config.root_path())
+            print('If you want to reinitialize prjit, remove the root dir or set PRJIT_ROOT_DIR then run init again')
+            return 1
+        questions = [
+            inquirer.Path(name="root_dir_path",
+                          message="Choose a path to prjit root dir",
+                          path_type=inquirer.Path.DIRECTORY,
+                          autocomplete=get_path_completer(only_directories=True),
+                          exists=False,
+                          default=global_config.root_dir),
+
+        ]
+        answers = inquirer.prompt(questions)
+        prjit_root_dir_path = Path(answers["root_dir_path"])
+        prjit_root_dir_path.mkdir(parents=True)
+
+        default_project_config = PrjitConfig()
+        default_project_config_path = default_project_config.config_file_path(global_config)
+        print('Creating default project config:', default_project_config_path)
+        print('Default prjit config:', default_project_config.dict())
+        default_project_config.dump(global_config)
+        default_project_config.create_switch_root_path(global_config)
+        print('Done initializing prjit')
+
+    def switch(self, dry_run: bool = False):
+        global_config = GlobalConfig.load_from_env()
+        state = PrjitState.load_config(global_config)
+        old_project = state.current_project
+        project_names = [project.project_name for project in state.project_configs]
+        print('Switching into project...')
+        questions = [
+            inquirer.List("project_name",
+                          message="Choose a project to switch into",
+                          choices=project_names)
+        ]
+        answers = inquirer.prompt(questions)
+        project_name = answers["project_name"]
+        switcher = PrjitSwitcher(state)
+        switch_commands = switcher.plan_switch_in(project_name)
+        print('Following commands will be executed:')
+        for command in switch_commands:
+            print(' '.join(command))
+        questions = [
+            inquirer.Confirm("confirm",
+                             message="Do you want to continue?")
+        ]
+        answers = inquirer.prompt(questions)
+        if answers["confirm"]:
+            for command in switch_commands:
+                print('Executing:', ' '.join(command))
+                if not dry_run:
+                    subprocess.run(command)
+            state.current_project = project_name
+            state.bound_bundle_ids = []
+            state.save_current()
+            switch_log_path = global_config.switch_log_path()
+            if old_project is None:
+                switch_log_path.open('a').write(f'Action:exit,ProjectName:{old_project},Time:{datetime.now().isoformat()}\n')
+            switch_log_path.open('a').write(f'Action:switch,ProjectName:{project_name},Time:{datetime.now().isoformat()}\n')
+        else:
+            print('Switching cancelled')
+
+    def exit(self, dry_run: bool = False):
+        global_config = GlobalConfig.load_from_env()
+        state = PrjitState.load_config(global_config)
+        old_project = state.current_project
+        switcher = PrjitSwitcher(state)
+        switch_commands = switcher.plan_switch_out()
+        print('Following commands will be executed:')
+        for command in switch_commands:
+            print(' '.join(command))
+        questions = [
+            inquirer.Confirm("confirm",
+                             message="Do you want to continue?")
+        ]
+        answers = inquirer.prompt(questions)
+        if answers["confirm"]:
+            for command in switch_commands:
+                print('Executing:', ' '.join(command))
+                if not dry_run:
+                    subprocess.run(command)
+            state.current_project = None
+            state.bound_bundle_ids = []
+            state.save_current()
+            switch_log_path = global_config.switch_log_path()
+            switch_log_path.open('a').write(f'Action:exit,ProjectName:{old_project},Time:{datetime.now().isoformat()}\n')
+        else:
+            print('Switching out cancelled')
+
+    def project(self):
+        global_config = GlobalConfig.load_from_env()
+        state = PrjitState.load_config(global_config)
+        print('You can manage projects here.')
+        print('Current projects:')
+        for project in state.project_configs:
+            print('-', project.project_name)
+        questions = [
+            inquirer.List("action",
+                          message="Choose an action",
+                          choices=["Create project", "Delete project", "Do nothing"]),
+            inquirer.Text("new_name",
+                          message="Enter the name of the new project",
+                          ignore=lambda a: a["action"] != "Create project"),
+            inquirer.List("remove_name",
+                          message="Enter the name of the project to remove",
+                          ignore=lambda a: a["action"] != "Delete project",
+                          choices=[p.project_name for p in state.project_configs])
+        ]
+        answers = inquirer.prompt(questions)
+        action = answers["action"]
+        if action == "Create project":
+            new_name = answers["new_name"]
+            if new_name in state:
+                print('Project already exists:', new_name)
+                return self.project()
+            new_project_config = PrjitConfig(project_name=new_name, is_default=False)
+            new_project_config_path = new_project_config.config_file_path(global_config)
+            print('Creating new project config at:', new_project_config_path)
+            print('prjit config:', new_project_config.dict())
+            questions = [
+                inquirer.Confirm("confirm",
+                                 message="Do you want to continue?")
+            ]
+            answers = inquirer.prompt(questions)
+            if answers["confirm"]:
+                new_project_config.dump(global_config)
+                new_project_config.create_switch_root_path(global_config)
+                return self.project()
+        elif action == "Delete project":
+            remove_name = answers["remove_name"]
+            if remove_name == state.default_project:
+                print('Cannot delete default project:', remove_name)
+                return self.project()
+            remove_project_config = state[remove_name]
+            remove_project_config_path = remove_project_config.config_file_path(global_config)
+            print('Removing project config:', remove_project_config_path)
+            questions = [
+                inquirer.Confirm("confirm",
+                                 message="Do you want to continue?")
+            ]
+            answers = inquirer.prompt(questions)
+            if answers["confirm"]:
+                remove_project_config_path.unlink()
+                remove_project_config.create_switch_root_path(global_config)
+                return self.project()
+
+    def path(self):
+        global_config = GlobalConfig.load_from_env()
+        state = PrjitState.load_config(global_config)
+        if state.current_project is None:
+            print('No project mounted')
+            return 1
+        current_project = state[state.current_project]
+        print('Current project:', state.current_project)
+        print('You can manage switch paths here.')
+        print('Current switch paths:')
+        for switch_path in current_project.switch_paths:
+            print(switch_path)
+        questions = [
+            inquirer.List("action",
+                          message="Choose an action",
+                          choices=["Add switch path", "Remove switch path", "Do nothing"]),
+            inquirer.Text("new_name",
+                          message="Enter the name of the new switch path",
+                          ignore=lambda a: a["action"] != "Add switch path"),
+            inquirer.Path("new_path",
+                          message="Enter the path of the new switch path",
+                          ignore=lambda a: a["action"] != "Add switch path",
+                          path_type=inquirer.Path.ANY,
+                          autocomplete=get_path_completer(),
+                          normalize_to_absolute_path=True),
+            inquirer.List("new_path_type",
+                          message="Choose whether the new switch path is a directory or a file?",
+                          ignore=lambda a: a["action"] != "Add switch path",
+                          choices=["Directory", "File"]),
+            inquirer.List("new_path_backup",
+                          message="Do you want to create a backup of the original path?",
+                          ignore=lambda a: a["action"] != "Add switch path",
+                          choices=["Yes", "No"]),
+            inquirer.List("remove_name",
+                          message="Enter the name of the switch path to remove",
+                          ignore=lambda a: a["action"] != "Remove switch path",
+                          choices=[p.name for p in current_project.switch_paths]),
+            inquirer.List("remove_restore",
+                          message="Do you want to restore the original path?",
+                          ignore=lambda a: a["action"] != "Remove switch path",
+                          choices=["Yes", "No"])
+        ]
+        answers = inquirer.prompt(questions)
+        action = answers["action"]
+        switcher = PrjitSwitcher(state)
+        if action == "Add switch path":
+            new_name = answers["new_name"]
+            new_path = answers["new_path"]
+            new_path_is_directory = answers["new_path_type"] == "Directory"
+            new_path_create_backup = answers["new_path_backup"] == "Yes"
+            new_switch_path = PrjitSwitchPath(name=new_name, path=new_path, is_directory=new_path_is_directory)
+            if new_switch_path in [p.name for p in current_project.switch_paths]:
+                print('Switch path already exists:', new_switch_path)
+                return self.path()
+            add_switch_path_commands = switcher.plan_add_switch_path(
+                new_switch_path,
+                create_backup=new_path_create_backup)
+            print('Following commands will be executed:')
+            for command in add_switch_path_commands:
+                print(' '.join(command))
+            questions = [
+                inquirer.Confirm("confirm",
+                                 message="Do you want to continue?")
+            ]
+            answers = inquirer.prompt(questions)
+            if answers["confirm"]:
+                for command in add_switch_path_commands:
+                    print('Executing:', ' '.join(command))
+                    subprocess.run(command)
+                current_project.switch_paths.append(new_switch_path)
+                current_project.dump(global_config)
+            else:
+                print('Adding switch path cancelled')
+            return self.path()
+
+        elif action == "Remove switch path":
+            remove_name = answers["remove_name"]
+            remove_restore = answers["remove_restore"] == "Yes"
+            remove_switch_path = None
+            for switch_path in current_project.switch_paths:
+                if switch_path.name == remove_name:
+                    remove_switch_path = switch_path
+                    break
+            if remove_switch_path is None:
+                print('Switch path not found:', remove_name)
+                return self.path()
+            remove_switch_path_commands = switcher.plan_remove_switch_path(remove_switch_path, restore=remove_restore)
+            print('Following commands will be executed:')
+            for command in remove_switch_path_commands:
+                print(' '.join(command))
+            questions = [
+                inquirer.Confirm("confirm",
+                                 message="Do you want to continue?")
+            ]
+            answers = inquirer.prompt(questions)
+            if answers["confirm"]:
+                for command in remove_switch_path_commands:
+                    print('Executing:', ' '.join(command))
+                    subprocess.run(command)
+                current_project.switch_paths.remove(remove_switch_path)
+                current_project.dump(global_config)
+            else:
+                print('Removing switch path cancelled')
+            return self.path()
+
+    def bundle(self):
+        global_config = GlobalConfig.load_from_env()
+        state = PrjitState.load_config(global_config)
+        if state.current_project is None:
+            print('No project mounted')
+            return 1
+        current_project = state[state.current_project]
+        print('Current project:', state.current_project)
+        print('You can manage bundle ids bound to the project.')
+
+        found_bundle_ids = BundleManager().list_bundles()
+        auto_bind_bundle_ids = current_project.auto_bind_bundle_ids
+        current_bundle_ids = state.bound_bundle_ids
+
+        all_bundle_ids = list(
+            {b.bundle_id for b in found_bundle_ids} | set(auto_bind_bundle_ids) | set(current_bundle_ids))
+
+        print('Current auto-bind bundle ids:')
+        for bundle_id in auto_bind_bundle_ids:
+            print('-', bundle_id)
+        print('Current bound bundle ids:')
+        for bundle_id in current_bundle_ids:
+            print('-', bundle_id)
+        print('Current running bundle ids:')
+        for bundle_id in found_bundle_ids:
+            print("- pid:", bundle_id.pid, "bundle_id:", bundle_id.bundle_id, "name:", bundle_id.name,
+                  "cmdline:", bundle_id.cmdline)
+        questions = [
+            inquirer.List("action",
+                          message="Choose an action",
+                          choices=["Bind bundle_id path", "Unbind switch path", "Do nothing"]),
+            inquirer.Text("bind_bundle_id",
+                          message="Enter the bundle id to bind to the project",
+                          ignore=lambda a: a["action"] != "Bind bundle_id path",
+                          autocomplete=get_word_completer(all_bundle_ids)),
+            inquirer.List("add_to_auto_bind",
+                          message="Choose whether to auto bind the bundle id",
+                          ignore=lambda a: a["action"] != "Bind bundle_id path",
+                          choices=["Yes", "No"]),
+            inquirer.Text("unbind_bundle_id",
+                          message="Enter the bundle id to unbind from the project",
+                          ignore=lambda a: a["action"] != "Unbind switch path",
+                          autocomplete=get_word_completer(all_bundle_ids)),
+            inquirer.List("remove_from_auto_bind",
+                          message="Choose whether to remove the bundle id from auto bind",
+                          ignore=lambda a: a["action"] != "Unbind switch path",
+                          choices=["Yes", "No"])
+        ]
+        answers = inquirer.prompt(questions)
+        action = answers["action"]
+        if action == "Bind bundle_id path":
+            bundle_id = answers["bind_bundle_id"]
+            auto_bind = answers["add_to_auto_bind"] == "Yes"
+            if auto_bind:
+                if bundle_id in current_project.auto_bind_bundle_ids:
+                    print('Bundle id already auto bound:', bundle_id)
+                    return self.bundle()
+                print('Auto binding bundle id:', bundle_id)
+                current_project.auto_bind_bundle_ids.append(bundle_id)
+                current_project.dump(global_config)
+                return self.bundle()
+            if bundle_id in state.bound_bundle_ids:
+                print('Bundle id already bound:', bundle_id)
+                return self.bundle()
+            print('Binding bundle id:', bundle_id)
+            state.bound_bundle_ids.append(bundle_id)
+            state.save_current()
+            return self.bundle()
+        elif action == "Unbind switch path":
+            bundle_id = answers["unbind_bundle_id"]
+            remove_from_auto_bind = answers["remove_from_auto_bind"] == "Yes"
+            if remove_from_auto_bind:
+                if bundle_id not in current_project.auto_bind_bundle_ids:
+                    print('Bundle id not auto bound:', bundle_id)
+                    return self.bundle()
+                print('Removing auto bind bundle id:', bundle_id)
+                current_project.auto_bind_bundle_ids.remove(bundle_id)
+                current_project.dump(global_config)
+                return self.bundle()
+            if bundle_id not in state.bound_bundle_ids:
+                print('Bundle id not bound:', bundle_id)
+                return self.bundle()
+            print('Unbinding bundle id:', bundle_id)
+            state.bound_bundle_ids.remove(bundle_id)
+            state.save_current()
+            return self.bundle()
+
+
+Fire(PrjitCLI)
