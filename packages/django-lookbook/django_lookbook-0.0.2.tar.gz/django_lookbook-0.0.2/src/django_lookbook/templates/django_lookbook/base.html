@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+  <head>
+
+    <link type="text/css" href="{% static 'lookbook/css/app.css' %}" rel="stylesheet" />
+    <script type="text/javascript" src="{% static 'lookbook/js/app.js' %}" defer></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet">
+
+    {% block extra_head %}
+    {% endblock %}
+  </head>
+
+  <body class="flex overflow-hidden h-screen">
+
+    <div class="grid hidden w-full h-full"
+         data-controller="lookbook-split-layout"
+         data-lookbook-split-layout-name-value="main-split"
+    >
+      <div class="relative flex-shrink-0 bg-gray-50">
+
+        <div class="grid w-full h-full">
+          <div class="overflow-hidden">
+            <div id="previews-nav" class="flex overflow-hidden flex-col h-full">
+
+              <div class="flex flex-none items-center w-full h-10 text-sm border-b">
+                <div class="flex items-stretch w-full h-10 toolbar-sections">
+                  <div class="flex items-center px-4 min-w-0">
+                    <h5 class="pt-1">Previews</h5>
+                  </div>
+
+              {% comment TODO %}
+                <div class="flex items-center ml-auto min-w-0">
+                  Close
+                </div>
+              {% endcomment %}
+
+                </div>
+              </div>
+
+              {% include 'django_lookbook/includes/sidebar_previews.html' %}
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="bg-gray-200 cursor-ew-resize" >
+        <div class="absolute z-10 h-full bg-transparent transition-all -translate-x-1/2 w-[9px] cursor-[col-resize] split-layout-gutter-vertical hover:bg-lookbook-draggable-hint"></div>
+      </div>
+      <div class="overflow-hidden w-full h-full bg-white">
+
+        {% block content %}
+        {% endblock %}
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
