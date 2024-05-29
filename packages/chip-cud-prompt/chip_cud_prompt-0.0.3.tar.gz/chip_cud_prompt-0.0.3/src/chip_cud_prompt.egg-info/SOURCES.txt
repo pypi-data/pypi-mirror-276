@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/chip_cud_prompt/__init__.py
+src/chip_cud_prompt/abstract_prompt_manager.py
+src/chip_cud_prompt/chip_create_prompt.py
+src/chip_cud_prompt.egg-info/PKG-INFO
+src/chip_cud_prompt.egg-info/SOURCES.txt
+src/chip_cud_prompt.egg-info/dependency_links.txt
+src/chip_cud_prompt.egg-info/top_level.txt
