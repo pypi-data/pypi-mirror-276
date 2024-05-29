@@ -1,0 +1,7 @@
+README.rst
+setup.py
+avocado_job_gmail.egg-info/PKG-INFO
+avocado_job_gmail.egg-info/SOURCES.txt
+avocado_job_gmail.egg-info/dependency_links.txt
+avocado_job_gmail.egg-info/entry_points.txt
+avocado_job_gmail.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+[avocado.plugins.init]
+avocado_job_gmail = avocado_job_gmail:MailInit
+
+[avocado.plugins.job.prepost]
+avocado_job_gmail = avocado_job_gmail:Mail
