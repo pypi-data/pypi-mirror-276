@@ -1,0 +1,2 @@
+[console_scripts]
+BISOInvest = BISOInvest.cli:main
