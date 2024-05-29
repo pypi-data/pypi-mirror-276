@@ -1,0 +1,11 @@
+znsocket/__init__.py,sha256=b0frzMOlq6zx6BT7XlT4ltILutHlSIl9PF1Lm2o6YTI,118
+znsocket/cli.py,sha256=yy5wo4NwqUxU1DPI7VgE6m9A2wn0XQhs_UraiSuvSI8,804
+znsocket/client.py,sha256=9-lOU8RJhiKzVCJokWsgl7HnI9JdFtbWWQMOksI1VkQ,3029
+znsocket/exceptions.py,sha256=iM1ZnwKQwmpYvdi7ewKzeuvDFlaxPPLdF3LQr1E5ugs,157
+znsocket/server.py,sha256=Moje9jT8JcBRbM_xV9SA241_a9Yu9VzmaFXRInFmXkc,6342
+znsocket/utils.py,sha256=p4PxJax-xeWYo1KeJgVWrHSFGrdOoU_fEHHFZg_ZkVE,3262
+znsocket-0.1.2.dist-info/LICENSE,sha256=FKf4VPZYbuyRVMVSrl6HO48bnw6ih8Uur5y-h_MJAcA,13576
+znsocket-0.1.2.dist-info/METADATA,sha256=N3R3SQWfUEKUcE9ubwt7BB5k4X2d0fQ94gx_9WoIydw,2990
+znsocket-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+znsocket-0.1.2.dist-info/entry_points.txt,sha256=ktLAqAk0rAIFtM-Sw8YsV5FSQ6ugHKMv72EVVk_4ejY,45
+znsocket-0.1.2.dist-info/RECORD,,
