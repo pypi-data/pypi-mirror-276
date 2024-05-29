@@ -1,0 +1,36 @@
+image: python:3.8
+
+before_script:
+  - apt-get update && apt-get install git
+
+pages:
+  script:
+  - pip install -U pip
+  - pip install -U sphinx sphinx_rtd_theme numpydoc
+  - pip install -ve .
+  - sphinx-build -b html docs/source public
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
+
+pypi_test:
+  variables:
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: $PYPI_TEST_TOKEN
+  script:
+    - pip install build twine
+    - python -m build
+    - python -m twine upload -r testpypi dist/*
+
+pypi:
+  variables:
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: $PYPI_TOKEN
+  script:
+    - pip install build twine
+    - python -m build
+    - python -m twine upload dist/*
+  only:
+    - tags
