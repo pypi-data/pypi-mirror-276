@@ -1,0 +1,9 @@
+dist/
+env/
+
+*.sqlite3
+
+.backups/
+.vscode/
+
+__pycache__/
