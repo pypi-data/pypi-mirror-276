@@ -1,0 +1,2 @@
+[console_scripts]
+solo = solo_cli:cli
