@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: httpauth
+Version: 0.4.1
+Summary: WSGI HTTP Digest Authentication middleware
+Home-page: https://github.com/jonashaag/httpauth
+Author: Jonas Haag
+Author-email: jonas@lophus.org
+License: 2-clause BSD
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
