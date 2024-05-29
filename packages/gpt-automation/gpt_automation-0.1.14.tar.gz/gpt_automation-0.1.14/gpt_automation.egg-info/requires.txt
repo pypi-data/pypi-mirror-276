@@ -1,0 +1,2 @@
+pyperclip==1.8.2
+vrocky-gitignore-parser==0.1.12
