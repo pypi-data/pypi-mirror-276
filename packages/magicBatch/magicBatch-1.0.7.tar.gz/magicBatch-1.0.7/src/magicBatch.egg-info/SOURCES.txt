@@ -1,0 +1,11 @@
+README.txt
+setup.cfg
+setup.py
+src/magicBatch/MAGIC.py
+src/magicBatch/MAGIC_core.py
+src/magicBatch/__init__.py
+src/magicBatch.egg-info/PKG-INFO
+src/magicBatch.egg-info/SOURCES.txt
+src/magicBatch.egg-info/dependency_links.txt
+src/magicBatch.egg-info/requires.txt
+src/magicBatch.egg-info/top_level.txt

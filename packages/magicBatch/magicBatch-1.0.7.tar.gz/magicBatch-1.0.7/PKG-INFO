@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: magicBatch
+Version: 1.0.7
+Summary: MAGICbatch
+Home-page: https://github.com/kbrulois/magicBatch
+Download-URL: https://github.com/kbrulois/magicBatch/archive/refs/tags/v1.0.0.tar.gz
+Author: Kevin Brulois
+Author-email: kevin.brulois@gmail.com
+Requires-Dist: numpy>=1.10.0
+Requires-Dist: scipy>=0.14.0
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: networkx
+Requires-Dist: statsmodels
+Requires-Dist: datatable
