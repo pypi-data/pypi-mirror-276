@@ -1,0 +1,1 @@
+from GameStorageAPI.storage import SaveStorage, LoadStorage
