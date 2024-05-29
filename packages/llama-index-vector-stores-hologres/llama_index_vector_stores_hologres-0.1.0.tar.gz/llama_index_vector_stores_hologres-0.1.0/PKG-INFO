@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: llama-index-vector-stores-hologres
+Version: 0.1.0
+Summary: llama-index vector stores hologres integration
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: hologres-vector (==0.0.10)
+Requires-Dist: llama-index-core (>=0.10.1,<0.11.0)
+Description-Content-Type: text/markdown
+
+# LlamaIndex Vector_Stores Integration: Hologres
+
+Please refer to the [notebook](../../../docs/docs/examples/vector_stores/HologresDemo.ipynb) for usage of Hologres as vector store in LlamaIndex.
+
+## Example Usage
+
+```sh
+pip install llama-index
+pip install llama-index-vector-stores-hologres
+```
+
+```python
+# Connect to existing instance
+from llama_index.core import VectorStoreIndex
+from llama_index.vector_stores.hologres import HologresVectorStore
+
+vector_store = HologresVectorStore.from_param(
+    host="***",
+    port=80,
+    user="***",
+    password="***",
+    database="***",
+    table_name="***",
+    embedding_dimension=1536,
+    pre_delete_table=True,
+)
+
+# Create index from existing stored vectors
+index = VectorStoreIndex.from_vector_store(vector_store)
+query_engine = index.as_query_engine()
+response = query_engine.query(
+    "What did the author study prior to working on AI?"
+)
+print(response)
+```
+
