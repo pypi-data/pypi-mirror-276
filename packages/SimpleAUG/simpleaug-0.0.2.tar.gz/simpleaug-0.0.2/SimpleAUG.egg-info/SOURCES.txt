@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+SimpleAUG.egg-info/PKG-INFO
+SimpleAUG.egg-info/SOURCES.txt
+SimpleAUG.egg-info/dependency_links.txt
+SimpleAUG.egg-info/top_level.txt
+simpleaug/__init__.py
+simpleaug/aug.py
+simpleaug/temp.py
+simpleaug/tool.py
