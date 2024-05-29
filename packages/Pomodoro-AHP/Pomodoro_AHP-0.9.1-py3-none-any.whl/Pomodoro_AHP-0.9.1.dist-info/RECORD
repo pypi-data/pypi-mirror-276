@@ -1,0 +1,12 @@
+files/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+files/__main__.py,sha256=b4e0G6u4QGJYU_4peZV0uYDNvUa9sHJgfPzyVW0LNIM,1457
+files/stopwatch.py,sha256=dbJhl90HpgfeXbAKwf0omLC4wyDaDdnT3ZQheDMuCs8,1780
+files/stopwatch_custom_time.py,sha256=aqpX2w9P-Sp_vMOmaFrp8ELYVz5SrelGvzmVhqJv82U,2657
+files/stopwatch_default.py,sha256=ORoaYw28pFXdqyDnvHwF3b59lUEo2ky0GnghVXVfIzg,2252
+files/ting-tong.mp3,sha256=TeL24vhCmFbfp93nDF37UQAnwabc9MJjT705klfpaTA,354220
+Pomodoro_AHP-0.9.1.dist-info/LICENSE.txt,sha256=5iVeIXefYOcT1l7AB7SJUgSA9hY1B5MSYOVjoQeM_MI,1095
+Pomodoro_AHP-0.9.1.dist-info/METADATA,sha256=AYmHtVtBaX7UmsIiRTKUdH8VEU5FE5G1PM6viie-G98,1747
+Pomodoro_AHP-0.9.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Pomodoro_AHP-0.9.1.dist-info/entry_points.txt,sha256=PC8uDkdXQh-OaKHKs_SJl67LEnvgc8KVTuvtw_d2kwg,56
+Pomodoro_AHP-0.9.1.dist-info/top_level.txt,sha256=Q4B_W2vRH6Geu5I0ZQ-ncQaobayK1wQG1Qt7PYZfmpo,6
+Pomodoro_AHP-0.9.1.dist-info/RECORD,,
