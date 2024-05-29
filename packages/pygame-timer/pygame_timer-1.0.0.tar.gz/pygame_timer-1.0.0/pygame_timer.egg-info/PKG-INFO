@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pygame-timer
+Version: 1.0.0
+Summary: A package for various types of timers
+Home-page: https://github.com/FrickTzy/Pygame-Timer
+Author: FrickTzy (Kurt Arnoco)
+License: UNKNOWN
+Keywords: python,pygame,python game,python game development,pygame timer
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+A comprehensive Python package providing various types of timers including:
+- Target Timer: Tracks time against a target time.
+- Stopwatch Timer: A simple stopwatch.
+- Interval Timer: Checks if a specified interval has passed.
+- Activation Timer: Checks if an activation state has started or stopped for a certain time.
+- Cooldown Timer: Tracks cooldown periods.
+
+This package is useful for building applications that require precise timing functionality.
+
+
