@@ -1,0 +1,4 @@
+pillow>=9.1.1
+nonebot2
+nonebot-adapter-onebot
+httpx
