@@ -1,0 +1,3 @@
+[console_scripts]
+peneira=peneira.cli:main
+
