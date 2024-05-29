@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: openbot_training_frontend
+Version: 0.8.0
+Summary: OpenBot model training package
+Home-page: https://github.com/3dwesupport/OpenBot
+Author: Hardik Garg
+Author-email: hardik.garg@itinker.io
+License: MIT
