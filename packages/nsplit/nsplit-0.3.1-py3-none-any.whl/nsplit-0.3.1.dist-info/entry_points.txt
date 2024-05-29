@@ -1,0 +1,2 @@
+[console_scripts]
+nsplit = src.app:cli
