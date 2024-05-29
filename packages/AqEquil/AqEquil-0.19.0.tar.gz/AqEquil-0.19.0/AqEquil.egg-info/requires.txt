@@ -1,0 +1,12 @@
+rpy2
+pandas
+numpy
+matplotlib
+plotly==5.13.0
+ipython
+chemparse
+dill
+periodictable
+natsort
+roman
+ipywidgets
