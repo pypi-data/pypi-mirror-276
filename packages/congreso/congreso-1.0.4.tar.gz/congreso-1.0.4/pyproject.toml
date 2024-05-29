@@ -1,0 +1,25 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+name='congreso'
+version='1.0.4'
+description='A Python library containing document processing functions'
+long_description='This library provides functions for tasks such as counting document mentions, filtering documents based on various criteria, and analyzing document content with the porpuse of helping on the usage of the database https://zenodo.org/records/11212304.'
+authors = [
+    {name= "Paula Mateos Marin", email = "paulamateosm@gmail.com" },
+    {name = "Jesus Cerquide Bueno", email = "cerquide@iiia.csic.es"},
+]
+manteiners = [
+    {name= "Paula Mateos Marin", email = "paulamateosm@gmail.com" },
+    {name = "Jesus Cerquide Bueno", email = "cerquide@iiia.csic.es"},
+]
+readme = 'README.md'
+license = {file= 'LICENSE'}
+requires-python = '>=3.8'
+classifiers = [
+  'Programming Language :: Python :: 3',
+  'License :: OSI Approved :: MIT License',
+  'Operating System :: OS Independent',
+]
