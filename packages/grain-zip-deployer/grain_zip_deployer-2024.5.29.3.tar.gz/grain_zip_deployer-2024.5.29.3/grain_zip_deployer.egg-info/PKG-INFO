@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: grain_zip_deployer
+Version: 2024.5.29.3
+Summary: Used to upload sourcecode as zip-file to a cloud storage bucket
+Author: Jacob Noordmans
+Author-email: jacob@graindataconsultants.com
+License: MIT
+Keywords: Zip,Cloud storage
+Requires-Dist: google-cloud-storage==2.16.0

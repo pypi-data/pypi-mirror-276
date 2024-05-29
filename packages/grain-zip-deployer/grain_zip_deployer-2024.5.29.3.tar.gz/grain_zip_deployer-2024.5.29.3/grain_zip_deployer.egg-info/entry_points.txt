@@ -1,0 +1,2 @@
+[console_scripts]
+grain_upload_zip = grain_zip_deployer.main:main
