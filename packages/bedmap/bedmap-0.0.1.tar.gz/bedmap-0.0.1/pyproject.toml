@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bedmap"
+version = "0.0.1"
+authors = [
+  { name="Ellianna Abrahams", email="ellianna@berkeley.edu" },
+  { name="Marion McKenzie", email="marion.mckenzie@mines.edu" },
+]
+description = "A Python package to automate the classification of glacially derived bedforms."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: GIS"
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+Homepage = "https://github.com/elliesch/rf_bedform_mapping"
+Issues = "https://github.com/elliesch/rf_bedform_mapping/issues"
+
+[tool.setuptools.packages.find]
+include = ["bedmap"]  
+
+[tool.setuptools.package-data]
+"models" = ["*.pkl"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
