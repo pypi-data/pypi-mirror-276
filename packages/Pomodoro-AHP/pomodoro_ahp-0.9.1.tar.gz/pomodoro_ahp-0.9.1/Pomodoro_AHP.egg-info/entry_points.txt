@@ -1,0 +1,2 @@
+[console_scripts]
+Pomodoro_Timer = files.__main__:start

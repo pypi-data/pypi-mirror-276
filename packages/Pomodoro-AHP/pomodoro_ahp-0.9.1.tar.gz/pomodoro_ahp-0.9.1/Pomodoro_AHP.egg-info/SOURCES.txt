@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+Pomodoro_AHP.egg-info/PKG-INFO
+Pomodoro_AHP.egg-info/SOURCES.txt
+Pomodoro_AHP.egg-info/dependency_links.txt
+Pomodoro_AHP.egg-info/entry_points.txt
+Pomodoro_AHP.egg-info/requires.txt
+Pomodoro_AHP.egg-info/top_level.txt
+files/__init__.py
+files/__main__.py
+files/stopwatch.py
+files/stopwatch_custom_time.py
+files/stopwatch_default.py
+files/ting-tong.mp3
