@@ -1,0 +1,15 @@
+medlyn2002/__init__.py,sha256=-sXE-e-UGQHBZgZuyLwpEhB0N31h2TIHbz7lDKtCPF0,253
+medlyn2002/external.py,sha256=LA6C3cRG6oyHbdIq0o_hjKgM3-0BUVAo0c-h0eNc1Lw,656
+medlyn2002/info.py,sha256=ZYVOABcp1z7i76GbEY_11btk8cTaiSon861gO2vWnKw,379
+medlyn2002/raw.py,sha256=9jaieehaexxLTwArj5snOm4FsdYLowqNFE557Cxg6HE,8577
+medlyn2002/version.py,sha256=8NMQLAsma8Byw7FNyv-_bLtfHpWfaUNCHFGbEsBeu2I,367
+medlyn2002/clean/readme.rst,sha256=oAyEbH72rW25cGgvZSpDdkNhfv7mvErk8_1_Uwn1tpc,134
+medlyn2002/clean/tab2_arrhenius.csv,sha256=GlYIF321DvpnrB8xjCcx-Ve_VeTPN-RKUM2ehSanDn0,1091
+medlyn2002/clean/tab2_peaked.csv,sha256=eusYDP1kYhA1e1bpYDYRDEXXLi-RV3ClFMA_DylFPiM,1874
+medlyn2002/clean/tab3.csv,sha256=hVvBS_P6vGfhcXb-JgEOF_fz0u4_Z1Tkuc3xRZ-mXNw,1936
+medlyn2002-1.1.0.dist-info/AUTHORS.rst,sha256=qi6rztgOfqpfDHVM9Wy9GT6PevR5iw1q2z-OHqtkLkE,316
+medlyn2002-1.1.0.dist-info/LICENSE,sha256=8mluVEVU5FGmJ1_8b2ClHrZB7S51lPClhHJu6rZlVeE,20838
+medlyn2002-1.1.0.dist-info/METADATA,sha256=0z1Lji4QLBvl-7kpIwTGqDBoeL3Ye7lrvEHZfpi3grk,3026
+medlyn2002-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+medlyn2002-1.1.0.dist-info/top_level.txt,sha256=TrYY3Ln-AqbTCW4qQjvWmzIucg7DnvNYsw1oKMR--wA,11
+medlyn2002-1.1.0.dist-info/RECORD,,
