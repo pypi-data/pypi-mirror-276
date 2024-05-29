@@ -1,0 +1,9 @@
+.DS_Store
+.gitattributes
+.gitignore
+*__pycache__
+*README~.md
+*dist
+*instructions_for_myself.docx
+~$structions_for_myself.docx
+nans_data.mat
