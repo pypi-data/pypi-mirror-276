@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ma_confluence_cli/__init__.py
+ma_confluence_cli/confluence_cli.py
+ma_confluence_cli.egg-info/PKG-INFO
+ma_confluence_cli.egg-info/SOURCES.txt
+ma_confluence_cli.egg-info/dependency_links.txt
+ma_confluence_cli.egg-info/top_level.txt
