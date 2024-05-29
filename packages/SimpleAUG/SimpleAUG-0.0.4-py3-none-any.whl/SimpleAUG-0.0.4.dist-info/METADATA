@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: SimpleAUG
+Version: 0.0.4
+Summary: A simpler imgaug tool
+Author: Duyuxuan
+Author-email: g2702922146@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# SimpleAUG
+SimpleAUG是一个更加简单易用的图像识别数据集增强库，它二次封装于Imgaug库，并正在快速地迭代中！
+## 使用示例
+
+    pip install SimpleAUG
+
+数据增强的具体配置可以到[overview_of_augmenters.html](https://imgaug.readthedocs.io/en/latest/source/overview_of_augmenters.html)查阅
+
+    from imgaug import augmenters as iaa
+    from simpleaug import aug
+    
+    # 输入VOC数据集的路径
+    XML_DIR = "/demo/VOC_MASK/Annotations/"
+    IMG_DIR = "/demo/VOC_MASK/JPEGImages/"
+    
+    # 数据增强后的存储路径
+    AUG_XML_DIR = "/demo/VOC_MASK_AUG/Annotations/"  # 存储增强后的XML文件夹路径
+    AUG_IMG_DIR = "/demo/VOC_MASK_AUG/JPEGImages/"  # 存储增强后的影像文件夹路径
+    
+    # 数据增强配置
+    AUGCONF = [
+        # iaa.Invert(0.5),
+        iaa.Fliplr(0.5),
+        iaa.Multiply((1.2, 1.5)),  # change brightness, doesn't affect BBs
+        iaa.GaussianBlur(sigma=(0, 3.0)),  # iaa.GaussianBlur(0.5),
+        iaa.Affine(
+            translate_px={"x": 15, "y": 15},
+            scale=(0.8, 0.95),
+        ),  # translate by 40/60px on x/y axis, and scale to 50-70%, affects BBs
+        iaa.Sometimes(
+            0.5,
+            iaa.GaussianBlur(sigma=2.0),
+            iaa.Sequential([iaa.Affine(rotate=45), iaa.Sharpen(alpha=1.0)])
+        )
+    ]
+
+    #       输入地址            输出地址              增强次数 数据增强配置
+    aug.aug(IMG_DIR, XML_DIR, AUG_XML_DIR, AUG_IMG_DIR, 2, AUGCONF)
+
