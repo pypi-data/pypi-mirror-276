@@ -1,0 +1,12 @@
+README.md
+setup.py
+bpetokenizer/__init__.py
+bpetokenizer/base.py
+bpetokenizer/tokenizer.py
+bpetokenizer/version.py
+bpetokenizer.egg-info/PKG-INFO
+bpetokenizer.egg-info/SOURCES.txt
+bpetokenizer.egg-info/dependency_links.txt
+bpetokenizer.egg-info/requires.txt
+bpetokenizer.egg-info/top_level.txt
+tests/test_tokenizer.py
