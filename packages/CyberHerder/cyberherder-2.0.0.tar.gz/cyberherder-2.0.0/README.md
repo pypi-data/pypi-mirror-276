@@ -1,0 +1,42 @@
+# Herder - Data Wrangling All Cyber
+[![Test Coverage](https://img.shields.io/badge/Test%20Coverage-100%25-success)](https://github.com/jacob-h-barrow/SiemChirps)
+[![Security](https://img.shields.io/badge/Secure-True-informational)](https://github.com/jacob-h-barrow/SiemChirps)
+[![Platform](https://img.shields.io/badge/Platform-Ubuntu%2020%2B-critical)](https://github.com/jacob-h-barrow/SiemChirps)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-critical)](https://github.com/jacob-h-barrow/SiemChirps)
+[![MIT License](https://img.shields.io/badge/License-MIT-lightgrey)](https://github.com/jacob-h-barrow/SiemChirps)
+
+![Cyber Herder Banner](https://user-images.githubusercontent.com/112576275/189983108-0f64cd53-0c71-4835-9691-b012f87fbb2a.png)
+
+- Created By Jacob H Barrow
+
+## Why Was It Created
+- Data is gold, so learning cybersecurity can be tricky without simulated testbeds.
+- Use this package to test singular components, like GPS, Phones, or IPs, or use it across a fake company.
+
+## Why Herder
+- Cyber's the Wild West, so let's go back to America's roots.
+- It's all about wrangling that data, Yeehaw!!!!
+
+## Installation
+``` console
+herder@cyberWrangler:~$ git clone https://github.com/danielmiessler/SecLists.git
+herder@cyberWrangler:~$ unzip SecLists-master.zip
+herder@cyberWrangler:~$ sudo mkdir /usr/wordlists/
+herder@cyberWrangler:~$ sudo mv SecLists-master SecLists
+herder@cyberWrangler:~$ sudo mv SecLists /usr/wordlists/
+herder@cyberWrangler:~$ pip install CyberHerder
+```
+
+## Usage
+``` python
+>>> from CyberHerder import generate, terminate, valid, make_pandas_df
+>>>
+>>> ipv4s = generate("IPv4", 10)
+>>>
+>>> valid("IPv4", ipv4s[0])
+>>>
+>>> not terminate("IPv4", ipv4s[0])
+>>>
+>>> # Undocumented
+>>> make_pandas_df()
+```
