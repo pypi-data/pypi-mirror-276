@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PyFina/PyFina.py
+PyFina/__init__.py
+PyFina.egg-info/PKG-INFO
+PyFina.egg-info/SOURCES.txt
+PyFina.egg-info/dependency_links.txt
+PyFina.egg-info/requires.txt
+PyFina.egg-info/top_level.txt
+tests/test.py
