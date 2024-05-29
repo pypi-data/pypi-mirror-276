@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: GnosisTech
+Version: 0.1.4
+Summary: PyQuantTrader là một thư viện Python hỗ trợ những vấn đề về quant trading.
+Author: Phung Ngoc An
+Author-email: phungankh2@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
