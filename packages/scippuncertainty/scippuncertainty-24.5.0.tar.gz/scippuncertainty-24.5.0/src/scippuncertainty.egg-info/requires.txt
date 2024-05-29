@@ -1,0 +1,4 @@
+scipp
+
+[all]
+rich
