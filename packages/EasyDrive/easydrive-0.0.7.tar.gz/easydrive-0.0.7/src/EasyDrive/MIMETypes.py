@@ -1,0 +1,41 @@
+# Common File MIME Types
+PDF_MIME = 'application/pdf'
+TEXT_MIME = 'text/plain'
+HTML_MIME = 'text/html'
+CSV_MIME = 'text/csv'
+
+# Google Workspace MIME Types
+GOOGLE_DOC_MIME = 'application/vnd.google-apps.document'
+# Other google workspace types coming soon
+
+# GOOGLE_SHEET_MIME = 'application/vnd.google-apps.spreadsheet'
+# GOOGLE_SLIDE_MIME = 'application/vnd.google-apps.presentation'
+# GOOGLE_FORM_MIME = 'application/vnd.google-apps.form'
+# GOOGLE_DRAWING_MIME = 'application/vnd.google-apps.drawing'
+# GOOGLE_MAP_MIME = 'application/vnd.google-apps.map'
+# GOOGLE_SCRIPT_MIME = 'application/vnd.google-apps.script'
+# GOOGLE_SITE_MIME = 'application/vnd.google-apps.site'
+# GOOGLE_JAMBOARD_MIME = 'application/vnd.google-apps.jam'
+# GOOGLE_SHORTCUT_MIME = 'application/vnd.google-apps.shortcut'
+# GOOGLE_FOLDER_MIME = 'application/vnd.google-apps.folder'
+# IMAGE_JPEG_MIME = 'image/jpeg'
+# IMAGE_PNG_MIME = 'image/png'
+# IMAGE_GIF_MIME = 'image/gif'
+# AUDIO_MP3_MIME = 'audio/mpeg'
+# VIDEO_MP4_MIME = 'video/mp4'
+# ZIP_MIME = 'application/zip'
+# EPUB_MIME = 'application/epub+zip'
+# WORD_MIME = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+# EXCEL_MIME = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+# POWERPOINT_MIME = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+
+# Other File MIME Types
+JSON_MIME = 'application/json'
+XML_MIME = 'application/xml'
+RTF_MIME = 'application/rtf'
+MARKDOWN_MIME = 'text/markdown'
+MP3_MIME = 'audio/mpeg'
+OGG_AUDIO_MIME = 'audio/ogg'
+OGG_VIDEO_MIME = 'video/ogg'
+MP4_VIDEO_MIME = 'video/mp4'
+WEBM_VIDEO_MIME = 'video/webm'

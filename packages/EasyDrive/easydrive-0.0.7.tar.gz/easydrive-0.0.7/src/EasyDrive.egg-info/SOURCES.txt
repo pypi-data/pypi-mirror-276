@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+requirements.txt
+src/EasyDrive/Drives.py
+src/EasyDrive/Exceptions.py
+src/EasyDrive/FileSystemTypes.py
+src/EasyDrive/MIMETypes.py
+src/EasyDrive/__init__.py
+src/EasyDrive.egg-info/PKG-INFO
+src/EasyDrive.egg-info/SOURCES.txt
+src/EasyDrive.egg-info/dependency_links.txt
+src/EasyDrive.egg-info/requires.txt
+src/EasyDrive.egg-info/top_level.txt
