@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+scc4onnx/__init__.py
+scc4onnx/__main__.py
+scc4onnx/onnx_input_order_converter.py
+scc4onnx.egg-info/PKG-INFO
+scc4onnx.egg-info/SOURCES.txt
+scc4onnx.egg-info/dependency_links.txt
+scc4onnx.egg-info/entry_points.txt
+scc4onnx.egg-info/top_level.txt
