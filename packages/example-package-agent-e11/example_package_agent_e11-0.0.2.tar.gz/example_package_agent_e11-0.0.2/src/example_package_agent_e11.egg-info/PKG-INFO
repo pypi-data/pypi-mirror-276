@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: example_package_agent-e11
+Version: 0.0.2
+Summary: A small example package
+Author-email: Eamon Burns <example@example.com>
+Project-URL: Homepage, https://example.com
+Project-URL: Issues, https://example.com/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+Created using [this tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+This is an example package. There is nothing to see here...
