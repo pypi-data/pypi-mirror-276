@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytorch-smartcrop"
+version = "1.0.0"
+description = "Smartcrop transform for PyTorch"
+readme = "README.md"
+authors = [{name = "Michał Dyczko", email = "michal@dyczko.dev"}]
+license = { file = "LICENSE" }
+keywords = ["pytorch", "smartcrop", "image", "transform"]
+dependencies = [
+    "torch>=2.2.1",
+    "Pillow",
+    "pyvips>=2.2.2",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/michaldyczko/pytorch-smartcrop"

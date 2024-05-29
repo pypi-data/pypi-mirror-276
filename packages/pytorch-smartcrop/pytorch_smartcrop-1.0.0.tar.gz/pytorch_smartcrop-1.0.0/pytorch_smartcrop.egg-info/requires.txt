@@ -1,0 +1,3 @@
+torch>=2.2.1
+Pillow
+pyvips>=2.2.2

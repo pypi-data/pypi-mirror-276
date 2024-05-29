@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pytorch_smartcrop/__init__.py
+pytorch_smartcrop/smartcrop.py
+pytorch_smartcrop.egg-info/PKG-INFO
+pytorch_smartcrop.egg-info/SOURCES.txt
+pytorch_smartcrop.egg-info/dependency_links.txt
+pytorch_smartcrop.egg-info/requires.txt
+pytorch_smartcrop.egg-info/top_level.txt
