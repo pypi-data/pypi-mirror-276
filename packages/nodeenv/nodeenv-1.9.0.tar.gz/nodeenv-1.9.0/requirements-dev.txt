@@ -1,0 +1,7 @@
+-e .
+
+coverage
+flake8
+mock; python_version < '3.3'
+pytest
+tox
