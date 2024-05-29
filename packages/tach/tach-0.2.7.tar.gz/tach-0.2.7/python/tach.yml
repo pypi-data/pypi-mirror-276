@@ -1,0 +1,42 @@
+constraints:
+- tag: scope:cache
+  depends_on:
+  - scope:filesystem
+- tag: scope:filesystem
+  depends_on:
+  - scope:hooks
+  - scope:utils
+- tag: scope:hooks
+  depends_on:
+  - scope:utils
+- tag: scope:interactive
+  depends_on:
+  - scope:filesystem
+  - scope:utils
+- tag: scope:logging
+  depends_on:
+  - scope:cache
+  - scope:parsing
+- tag: scope:parsing
+  depends_on:
+  - scope:core
+  - scope:filesystem
+  - scope:utils
+- tag: scope:root
+  depends_on:
+  - scope:core
+  - scope:filesystem
+  - scope:interactive
+  - scope:logging
+  - scope:parsing
+  - scope:utils
+exclude:
+- docs/
+- .*__pycache__/
+- tests/
+- build/
+- tach.egg-info/
+- dist/
+exact: true
+disable_logging: false
+ignore_type_checking_imports: false
