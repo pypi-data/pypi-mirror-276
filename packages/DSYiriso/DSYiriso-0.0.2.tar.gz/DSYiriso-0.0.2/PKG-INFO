@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: DSYiriso
+Version: 0.0.2
+Summary: Data structure in python.
+Home-page: https://github.com/Yirios/Data-Structure
+Author: yichi zhang
+Author-email: kszyc1001@163.com
+License: UNKNOWN
+Description: Version 0.1.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

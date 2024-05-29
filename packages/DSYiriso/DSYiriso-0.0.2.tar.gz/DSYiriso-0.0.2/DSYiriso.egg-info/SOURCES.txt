@@ -1,0 +1,7 @@
+README.md
+setup.py
+DSYiriso.egg-info/PKG-INFO
+DSYiriso.egg-info/SOURCES.txt
+DSYiriso.egg-info/dependency_links.txt
+DSYiriso.egg-info/top_level.txt
+test/test.py
