@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ovos-skill-days-in-history
+Version: 0.1.0a3
+Summary: find out what happened in specific dates in history
+Home-page: https://github.com/OpenVoiceOS/ovos-skill-days-in-history
+Author: OpenVoiceOS
+Author-email: UNKNOWN
+License: Apache2.0
+Keywords: ovos skill plugin
+Platform: UNKNOWN
+Requires-Dist: wikipedia ==1.4.0
+
+UNKNOWN
+
+
