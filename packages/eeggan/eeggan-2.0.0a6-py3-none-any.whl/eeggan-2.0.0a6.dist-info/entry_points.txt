@@ -1,0 +1,3 @@
+[console_scripts]
+eeggan = eeggan.__main__:main
+gan_training_main = eeggan.gan_training_main:main
