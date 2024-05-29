@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "pyflatpak"
+dependencies = []
+authors = [
+  {name = "Isaac Beverly", email = "imbev@protonmail.com"}
+]
+description = "Python bindings for libflatpak"
+readme = "README.md"
+keywords = ["flatpak", "libflatpak", "bindings"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build",
+  "twine"
+]
+
+#[project.urls]
+
+[tool.setuptools.dynamic]
+version = {attr = "pyflatpak.__version__"}
+

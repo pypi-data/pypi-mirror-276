@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+pyflatpak/__init__.py
+pyflatpak.egg-info/PKG-INFO
+pyflatpak.egg-info/SOURCES.txt
+pyflatpak.egg-info/dependency_links.txt
+pyflatpak.egg-info/requires.txt
+pyflatpak.egg-info/top_level.txt

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyflatpak
+Version: 0.0.1
+Summary: Python bindings for libflatpak
+Author-email: Isaac Beverly <imbev@protonmail.com>
+Keywords: flatpak,libflatpak,bindings
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+## pyflatpak
+
+Python bindings for libflatpak
+
+### libflatpak.so.0
+
+- Fedora/RHEL: `flatpak-libs`
+
+- Arch: `flatpak`
+
+- Debian/Ubuntu: `libflatpak0`
