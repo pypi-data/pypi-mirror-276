@@ -1,0 +1,58 @@
+[project]
+name = "maxframe"
+description = "MaxFrame operator-based data analyze framework"
+dynamic = ["version"]
+dependencies = [
+    "numpy>=1.19.0",
+    "pandas>=1.0.0",
+    "pyodps>=0.11.6.1",
+    "scipy>=1.0",
+    "pyarrow>=1.0.0",
+    "msgpack>=1.0.0",
+    "traitlets>=5.0",
+    "cloudpickle>=1.5.0",
+    "pyyaml>=5.1",
+    "pickle5; python_version<'3.8'",
+    "tornado>=6.0",
+    "defusedxml>=0.5.0",
+    "tqdm>=4.1.0",
+    "importlib_metadata>=1.4",
+]
+
+[build-system]
+requires = [
+    "setuptools>=60,<64",
+    "setuptools_scm>=7.0",
+    "wheel",
+    "cython>=0.29",
+    "oldest-supported-numpy",
+]
+
+[project.optional-dependencies]
+# Dev dependencies.
+dev = [
+    "black>=22.3.0",
+    "flake8>=5.0.4",
+    "pre-commit>=2.15.0",
+    "graphviz>=0.20.1",
+]
+
+# Test dependencies.
+test = [
+    "mock",
+    "pytest>=7.3.1",
+    "pytest-cov>=4.1.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-timeout>=2.1.0",
+    "matplotlib>=2.0.0",
+]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+where = ["./"]
+
+[tool.setuptools_scm]
+root = ".."
+version_scheme = "release-branch-semver"
