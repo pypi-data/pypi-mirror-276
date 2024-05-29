@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+chip_cud_prompt.egg-info/PKG-INFO
+chip_cud_prompt.egg-info/SOURCES.txt
+chip_cud_prompt.egg-info/dependency_links.txt
+chip_cud_prompt.egg-info/top_level.txt
