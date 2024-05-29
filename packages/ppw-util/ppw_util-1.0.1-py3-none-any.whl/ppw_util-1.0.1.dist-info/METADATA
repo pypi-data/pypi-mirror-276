@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ppw-util
+Version: 1.0.1
+Summary: This is a ppw-util
+Home-page: 
+Author: yi.xu
+Author-email: widebluesky@qq.com
+Requires-Dist: pymysql
+
