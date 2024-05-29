@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sensord
+Version: 0.1.0
+Summary: This distribution package consists of two main components:
+Author-email: Stan Svec <dev@stansvec.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: sensation>=0.1.2
+Requires-Dist: click>=8.1.7
+Requires-Dist: rich-click>=1.7.3
+Requires-Dist: tomli>=2.0.1
+Requires-Dist: paho-mqtt>=1.6.1
+Project-URL: Home, https://github.com/StanSvec/dfrobot-sen0395
+
+# Sensord
+Service for managing IoT and home automation sensors
+
