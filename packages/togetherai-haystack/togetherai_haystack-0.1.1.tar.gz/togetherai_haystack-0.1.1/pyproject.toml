@@ -1,0 +1,35 @@
+[project]
+name = "togetherai-haystack"
+version = "0.1.1"
+description = "Haystack components to integrate with Together.AI inference models."
+authors = [{ name = "Leonardo Donelli", email = "leo@wideknot.me" }]
+maintainers = [{ name = "Leonardo Donelli", email = "leo@wideknot.me" }]
+dependencies = ["haystack-ai>=2.1.2", "together>=1.2.0", "tqdm>=4.66.4"]
+requires-python = ">=3.10"
+readme = "README.md"
+license = "Apache-2.0"
+keywords = ["haystack", "together.ai", "embedding", "nlp"]
+classifiers = ["Development Status :: 4 - Beta"]
+
+[project.urls]
+Repository = "https://github.com/LeartS/togetherai_haystack.git"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = ["ruff>=0.4.6", "bpython>=0.24"]
+
+[tool.pdm.scripts]
+lint = "ruff check"
+format = "ruff format"
+format-check = "ruff format --check"
+check = { composite = ["lint", "format-check"] }
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
