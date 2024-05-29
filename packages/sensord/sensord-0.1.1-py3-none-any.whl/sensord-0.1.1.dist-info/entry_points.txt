@@ -1,0 +1,4 @@
+[console_scripts]
+sensorctl=sensord.cli:cli
+sensord=sensord.service:cli
+
