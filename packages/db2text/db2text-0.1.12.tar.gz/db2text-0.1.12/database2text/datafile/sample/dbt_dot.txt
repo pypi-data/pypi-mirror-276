@@ -1,0 +1,12 @@
+#生成dot文件，用于griphviz
+:connect
+
+dbcfg=kaoqin
+
+:readdata
+
+:dot
+file=test/kaoqin.dot
+cmd=neato -Tpdf test/kaoqin.dot -o test/kaoqin.pdf
+
+:end
