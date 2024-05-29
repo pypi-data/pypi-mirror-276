@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyrotestlib
+Version: 0.0.1
+Summary: Python package for a test
+Home-page: https://github.com/mgarrixx/pyrotestlib
+Author: Pyro-Maniac
+Author-email: mgarrixx04@gmail.com
+Keywords: embedded,log collector
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pyrotestlib
+
+This is for a test.
