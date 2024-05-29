@@ -1,0 +1,8 @@
+preallocate_cuda_memory/__init__.py,sha256=caKU5jf4Sg-ycBhT47Lh1VKB278zTleNWx7tzrNqAIg,240
+preallocate_cuda_memory/__main__.py,sha256=t4SqbrmF6YhkBxxwE6J9u0sZGwYLnRSxXNH0PaS1Lo8,1292
+preallocate_cuda_memory/utils.py,sha256=Fbt53P-S71M_wH0vc9KXXLzLTxIEXtrnL7xsQRS-_44,4256
+preallocate_cuda_memory-1.0.0.dist-info/LICENSE,sha256=Y1Jc1BA9QeXphXrTxsmWdRU7BuvbJt6iW36LorzUAiM,1062
+preallocate_cuda_memory-1.0.0.dist-info/METADATA,sha256=MkXCY31C8QKxZOIG5QmbZoJPLG-TSFACc8kFw92Nt5w,1003
+preallocate_cuda_memory-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+preallocate_cuda_memory-1.0.0.dist-info/top_level.txt,sha256=OCLUkk5-4hScc5shwJu3qLjghgL4Kk4vl7Yn0XETH0A,24
+preallocate_cuda_memory-1.0.0.dist-info/RECORD,,
