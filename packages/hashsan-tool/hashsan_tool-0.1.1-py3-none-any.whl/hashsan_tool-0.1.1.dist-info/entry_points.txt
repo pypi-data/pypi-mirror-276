@@ -1,0 +1,2 @@
+[console_scripts]
+hashsan = hashsan:main
