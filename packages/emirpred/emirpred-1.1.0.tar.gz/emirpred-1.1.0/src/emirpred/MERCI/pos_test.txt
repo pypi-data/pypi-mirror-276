@@ -1,0 +1,326 @@
+MOTIF:  A G G G A A G C
+******
+>E454
+ (sequence 15)
+    start position(s): 7
+    motif(s): AGGGAAGC
+>E381
+ (sequence 282)
+    start position(s): 8
+    motif(s): AGGGAAGC
+>E382
+ (sequence 407)
+    start position(s): 8
+    motif(s): AGGGAAGC
+>E448
+ (sequence 416)
+    start position(s): 7
+    motif(s): AGGGAAGC
+>E417
+ (sequence 669)
+    start position(s): 7
+    motif(s): AGGGAAGC
+>E377
+ (sequence 765)
+    start position(s): 8
+    motif(s): AGGGAAGC
+>E763
+ (sequence 976)
+    start position(s): 8
+    motif(s): AGGGAAGC
+>E449
+ (sequence 1045)
+    start position(s): 7
+    motif(s): AGGGAAGC
+>E416
+ (sequence 1305)
+    start position(s): 7
+    motif(s): AGGGAAGC
+9 positive sequences contain the motif
+
+MOTIF:  G A A G C A C
+******
+>E454
+ (sequence 15)
+    start position(s): 10
+    motif(s): GAAGCAC
+>E383
+ (sequence 271)
+    start position(s): 11
+    motif(s): GAAGCAC
+>E258
+ (sequence 359)
+    start position(s): 13
+    motif(s): GAAGCAC
+>E448
+ (sequence 416)
+    start position(s): 10
+    motif(s): GAAGCAC
+>E763
+ (sequence 976)
+    start position(s): 11
+    motif(s): GAAGCAC
+>E449
+ (sequence 1045)
+    start position(s): 10
+    motif(s): GAAGCAC
+>E416
+ (sequence 1305)
+    start position(s): 10
+    motif(s): GAAGCAC
+7 positive sequences contain the motif
+
+MOTIF:  G G A A G C A C
+******
+>E454
+ (sequence 15)
+    start position(s): 9
+    motif(s): GGAAGCAC
+>E383
+ (sequence 271)
+    start position(s): 10
+    motif(s): GGAAGCAC
+>E448
+ (sequence 416)
+    start position(s): 9
+    motif(s): GGAAGCAC
+>E763
+ (sequence 976)
+    start position(s): 10
+    motif(s): GGAAGCAC
+>E449
+ (sequence 1045)
+    start position(s): 9
+    motif(s): GGAAGCAC
+>E416
+ (sequence 1305)
+    start position(s): 9
+    motif(s): GGAAGCAC
+6 positive sequences contain the motif
+
+MOTIF:  A C A A A A
+******
+>E233
+ (sequence 593)
+    start position(s): 10
+    motif(s): ACAAAA
+>E930
+ (sequence 701)
+    start position(s): 11
+    motif(s): ACAAAA
+>E42
+ (sequence 913)
+    start position(s): 5
+    motif(s): ACAAAA
+>E98
+ (sequence 939)
+    start position(s): 1
+    motif(s): ACAAAA
+>E706
+ (sequence 1326)
+    start position(s): 4
+    motif(s): ACAAAA
+5 positive sequences contain the motif
+
+MOTIF:  A G C A G C A C
+******
+>E319
+ (sequence 253)
+    start position(s): 2
+    motif(s): AGCAGCAC
+>E673
+ (sequence 462)
+    start position(s): 2
+    motif(s): AGCAGCAC
+>E670
+ (sequence 509)
+    start position(s): 2
+    motif(s): AGCAGCAC
+>E671
+ (sequence 557)
+    start position(s): 2
+    motif(s): AGCAGCAC
+>E672
+ (sequence 632)
+    start position(s): 2
+    motif(s): AGCAGCAC
+5 positive sequences contain the motif
+
+MOTIF:  A G G G A A G C A
+******
+>E454
+ (sequence 15)
+    start position(s): 7
+    motif(s): AGGGAAGCA
+>E448
+ (sequence 416)
+    start position(s): 7
+    motif(s): AGGGAAGCA
+>E763
+ (sequence 976)
+    start position(s): 8
+    motif(s): AGGGAAGCA
+>E449
+ (sequence 1045)
+    start position(s): 7
+    motif(s): AGGGAAGCA
+>E416
+ (sequence 1305)
+    start position(s): 7
+    motif(s): AGGGAAGCA
+5 positive sequences contain the motif
+
+MOTIF:  A G G G A A G C A C
+******
+>E454
+ (sequence 15)
+    start position(s): 7
+    motif(s): AGGGAAGCAC
+>E448
+ (sequence 416)
+    start position(s): 7
+    motif(s): AGGGAAGCAC
+>E763
+ (sequence 976)
+    start position(s): 8
+    motif(s): AGGGAAGCAC
+>E449
+ (sequence 1045)
+    start position(s): 7
+    motif(s): AGGGAAGCAC
+>E416
+ (sequence 1305)
+    start position(s): 7
+    motif(s): AGGGAAGCAC
+5 positive sequences contain the motif
+
+MOTIF:  C C C A C C C
+******
+>E554
+ (sequence 180)
+    start position(s): 4
+    motif(s): CCCACCC
+>E368
+ (sequence 392)
+    start position(s): 11
+    motif(s): CCCACCC
+>E412
+ (sequence 398)
+    start position(s): 4
+    motif(s): CCCACCC
+>E782
+ (sequence 1088)
+    start position(s): 4
+    motif(s): CCCACCC
+>E267
+ (sequence 1422)
+    start position(s): 5
+    motif(s): CCCACCC
+5 positive sequences contain the motif
+
+MOTIF:  G C A G C A C
+******
+>E319
+ (sequence 253)
+    start position(s): 3
+    motif(s): GCAGCAC
+>E673
+ (sequence 462)
+    start position(s): 3
+    motif(s): GCAGCAC
+>E670
+ (sequence 509)
+    start position(s): 3
+    motif(s): GCAGCAC
+>E671
+ (sequence 557)
+    start position(s): 3
+    motif(s): GCAGCAC
+>E672
+ (sequence 632)
+    start position(s): 3
+    motif(s): GCAGCAC
+5 positive sequences contain the motif
+
+MOTIF:  G G G A A G C A
+******
+>E454
+ (sequence 15)
+    start position(s): 8
+    motif(s): GGGAAGCA
+>E448
+ (sequence 416)
+    start position(s): 8
+    motif(s): GGGAAGCA
+>E763
+ (sequence 976)
+    start position(s): 9
+    motif(s): GGGAAGCA
+>E449
+ (sequence 1045)
+    start position(s): 8
+    motif(s): GGGAAGCA
+>E416
+ (sequence 1305)
+    start position(s): 8
+    motif(s): GGGAAGCA
+5 positive sequences contain the motif
+
+MOTIF:  G G G A A G C A C
+******
+>E454
+ (sequence 15)
+    start position(s): 8
+    motif(s): GGGAAGCAC
+>E448
+ (sequence 416)
+    start position(s): 8
+    motif(s): GGGAAGCAC
+>E763
+ (sequence 976)
+    start position(s): 9
+    motif(s): GGGAAGCAC
+>E449
+ (sequence 1045)
+    start position(s): 8
+    motif(s): GGGAAGCAC
+>E416
+ (sequence 1305)
+    start position(s): 8
+    motif(s): GGGAAGCAC
+5 positive sequences contain the motif
+
+
+
+************************************
+
+COVERAGE
+********
+E454 (7 motifs match)
+E763 (7 motifs match)
+E416 (7 motifs match)
+E448 (7 motifs match)
+E449 (7 motifs match)
+E672 (2 motifs match)
+E670 (2 motifs match)
+E383 (2 motifs match)
+E671 (2 motifs match)
+E673 (2 motifs match)
+E319 (2 motifs match)
+E417 (1 motifs match)
+E233 (1 motifs match)
+E706 (1 motifs match)
+E267 (1 motifs match)
+E930 (1 motifs match)
+E554 (1 motifs match)
+E412 (1 motifs match)
+E368 (1 motifs match)
+E381 (1 motifs match)
+E377 (1 motifs match)
+E98 (1 motifs match)
+E42 (1 motifs match)
+E258 (1 motifs match)
+E382 (1 motifs match)
+E782 (1 motifs match)
+
+26 sequences covered in total
