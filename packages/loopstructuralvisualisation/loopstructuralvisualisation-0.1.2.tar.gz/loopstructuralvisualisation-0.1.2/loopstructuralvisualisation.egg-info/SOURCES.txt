@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+loopstructuralvisualisation/_2d_viewer.py
+loopstructuralvisualisation/_3d_viewer.py
+loopstructuralvisualisation/__init__.py
+loopstructuralvisualisation/api.py
+loopstructuralvisualisation/version.py
+loopstructuralvisualisation.egg-info/PKG-INFO
+loopstructuralvisualisation.egg-info/SOURCES.txt
+loopstructuralvisualisation.egg-info/dependency_links.txt
+loopstructuralvisualisation.egg-info/requires.txt
+loopstructuralvisualisation.egg-info/top_level.txt
