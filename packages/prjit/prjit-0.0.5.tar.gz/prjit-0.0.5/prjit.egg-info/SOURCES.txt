@@ -1,0 +1,12 @@
+setup.py
+bin/prjit
+prjit.egg-info/PKG-INFO
+prjit.egg-info/SOURCES.txt
+prjit.egg-info/dependency_links.txt
+prjit.egg-info/requires.txt
+prjit.egg-info/top_level.txt
+prjitter/__init__.py
+prjitter/bundles.py
+prjitter/config.py
+prjitter/state.py
+prjitter/switcher.py
