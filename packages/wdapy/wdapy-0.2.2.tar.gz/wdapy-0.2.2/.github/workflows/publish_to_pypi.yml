@@ -1,0 +1,41 @@
+name: Publish to PyPI
+on: push
+jobs:
+  build-n-publish:
+    name: Build, test and publish Python 🐍 distributions 📦 to PyPI
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        fetch-depth: 5
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+        cache: 'pip'
+    - name: Install requirements
+      run: |
+        pip3 install -e .
+        pip3 install pytest coverage
+    - name: Run UnitTest
+      run: |
+        python3 -m coverage run -m pytest -vv tests/
+        python3 -m coverage xml --include "wdapy/**"
+    - name: Install pypa/build and Build targz and wheel
+      run: |
+        python3 -m pip install wheel
+        python3 setup.py sdist bdist_wheel    
+    - name: Publish distribution 📦 to PyPI
+      if: startsWith(github.ref, 'refs/tags')
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        skip_existing: true
+        password: ${{ secrets.PYPI_API_TOKEN }}
+  # coverage:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Get Cover
+  #       uses: orgoro/coverage@v3
+  #       with:
+  #         coverageFile: coverage.xml
+  #         token: ${{ secrets.GORELEASER_GITHUB_TOKEN }}
