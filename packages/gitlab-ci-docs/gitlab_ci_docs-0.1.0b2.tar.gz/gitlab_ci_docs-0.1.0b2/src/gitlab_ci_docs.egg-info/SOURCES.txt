@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/gitlab_ci_docs.egg-info/PKG-INFO
+src/gitlab_ci_docs.egg-info/SOURCES.txt
+src/gitlab_ci_docs.egg-info/dependency_links.txt
+src/gitlab_ci_docs.egg-info/not-zip-safe
+src/gitlab_ci_docs.egg-info/requires.txt
+src/gitlab_ci_docs.egg-info/top_level.txt
+src/gitlabcidocs/__init__.py
+src/gitlabcidocs/__main__.py
+src/gitlabcidocs/docsbuilder.py
+src/gitlabcidocs/docsgen.py
+src/gitlabcidocs/errors.py
+src/gitlabcidocs/pipelineparser.py
