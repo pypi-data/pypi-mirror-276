@@ -1,0 +1,8 @@
+edwh_auth_rbac/__init__.py,sha256=YhYT_ajljik8gzE_5w8v0gJIVR6TZwSfM0VjZWWlgdA,289
+edwh_auth_rbac/helpers.py,sha256=F7sRclMrH8iX76IZ7H8frwvxbbrd118ru3mLFM3Ae0A,310
+edwh_auth_rbac/migrations.py,sha256=7Nm4aH6i0fRyo3LvMvl2V_jfl69ugK2R_t9p7FaMpjg,2698
+edwh_auth_rbac/model.py,sha256=b930cQN5_Cn6amqdbevV_Fkt_OuE632C98RK4gQ8tUA,13788
+edwh_auth_rbac/rbac.py,sha256=vGZpJ5sYn6-tEFIZsJ-Ky1SATaQr9Ij1DFVjHKrNCKs,8094
+edwh_auth_rbac-0.2.6.dist-info/METADATA,sha256=G_k0_TIs6pqnBW4I-ySgCz_QB8nADqL4zmph348Z6lY,1336
+edwh_auth_rbac-0.2.6.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+edwh_auth_rbac-0.2.6.dist-info/RECORD,,
