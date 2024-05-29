@@ -1,0 +1,11 @@
+RagSGE_chinese/__init__.py,sha256=msSK9P0EdrIqDUJgiWRbkupQuWEb6bMqdG9CHRG24FI,42
+RagSGE_chinese/compactjsonencoder.py,sha256=b9PuuQQfR_FK1-Z_b1ty_bStCbEEabsmX5oFVF0v_7A,3774
+RagSGE_chinese/es_context_sort.py,sha256=lceztic3hfi-UsF93LUekMpQ5PNxFY3a2-TAJHwcaJY,12820
+RagSGE_chinese/eval_pipeline.py,sha256=eO3ZVYS2QCksyZqdKYlTe_UcAm1_tyMuXouCxb4NYNQ,4750
+RagSGE_chinese/gen_gt.py,sha256=7qqxXdIplUOLEwMw11S3SrqbVJkXKLBaxYh0D4z0Z5I,11182
+RagSGE_chinese/main.py,sha256=6tzxPIiashrzSKTct-ts37CC_4flfKVxXs3F5QdOt1o,858
+RagSGE_chinese/ragas_eval.py,sha256=pK_fhhxNlOwGILhwq80qmH1x9IMzNdLmXkU0-k1nHyg,3500
+RagSGE_chinese-0.14.dist-info/METADATA,sha256=qm1xorJYrGCp7usdnbiu-WLkJR_m4Ylb_DMnl-TQaiI,22469
+RagSGE_chinese-0.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+RagSGE_chinese-0.14.dist-info/top_level.txt,sha256=4yULNHETVVZpPvRqlUNltvjc6_yMhQyRfEDDfj5dMfo,15
+RagSGE_chinese-0.14.dist-info/RECORD,,
