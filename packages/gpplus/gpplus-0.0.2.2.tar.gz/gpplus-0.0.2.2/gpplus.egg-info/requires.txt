@@ -1,0 +1,11 @@
+numpy==1.24.2
+scipy==1.11.1
+gpytorch==1.7.0
+matplotlib==3.7.1
+sobol_seq
+tabulate==0.9.0
+pandas==1.5.2
+dill==0.3.7
+pyro-ppl==1.8.0
+pyDOE
+botorch==0.6.4

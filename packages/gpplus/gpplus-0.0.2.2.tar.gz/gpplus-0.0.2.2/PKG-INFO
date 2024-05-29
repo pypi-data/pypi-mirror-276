@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gpplus
+Version: 0.0.2.2
+Summary: Python Library for Generalized Gaussian Process Modeling
+Home-page: https://github.com/Bostanabad-Research-Group/GP-Plus
+Author: Amin Yousefpour, Ramin Bostanabad
+Author-email: yousefpo@uci.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
