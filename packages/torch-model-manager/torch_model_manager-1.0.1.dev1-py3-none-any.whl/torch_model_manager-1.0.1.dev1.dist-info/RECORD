@@ -1,0 +1,12 @@
+torch_model_manager/__init__.py,sha256=kaVIgVO9ejxRUvwz-8A194mrR5krgNw0EKl0A06PG64,148
+torch_model_manager/neptune_manager.py,sha256=n9MkuLSxMyT0VuWjZJDYAOpBMDaDmzq1FGISvjAM_gY,32763
+torch_model_manager/notebook_manager.py,sha256=Er0sSZj1GK5snkwRPLnVQDkV4qVK1x94kUueAwAJe-o,1729
+torch_model_manager/segmentation_manager.py,sha256=uDIxR0vvwmtolq7Yv0es_Luovn-HHGDAkc2NQ9SIq5Y,24171
+torch_model_manager/torch_model_manager.py,sha256=XHMrlwemSnLz_QRg0llnt3u5Bw88V-Kcn0JcF7cT8J8,18831
+torch_model_manager/wandb_manager.py,sha256=oZrmaekq6T-bQFZl9PdORGBTvu4pnbsi7hFvqWiYG0E,2442
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/helpers.py,sha256=wqtMa5jNX4bUhmBRi3em--mHD_KGbwni4YVh3u1Rz6I,9031
+torch_model_manager-1.0.1.dev1.dist-info/METADATA,sha256=SmEBrd1QEjiUYalnHZaUEUBlSRk9LOjTf0pSSvXgG8U,9225
+torch_model_manager-1.0.1.dev1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+torch_model_manager-1.0.1.dev1.dist-info/top_level.txt,sha256=ePJHAJdVrENbePnILip0PBS04uCqxpZ5_Z7BSNIZ76E,26
+torch_model_manager-1.0.1.dev1.dist-info/RECORD,,
