@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: datagen_kuma
+Version: 0.0.2
+Summary: DataGen is a library for generating test data.
+Home-page: https://github.com/develinu/datagen.git
+Author: devinu
+Author-email: iwlee.dev@gmail.com
+Project-URL: Homepage, https://github.com/develinu/datagen.git
+Keywords: data generator datagen_kuma pandas dataframe fake
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asttokens==2.4.1
+Requires-Dist: colorama==0.4.6
+Requires-Dist: executing==2.0.1
+Requires-Dist: icecream==2.1.3
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.2
+Requires-Dist: Pygments==2.18.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.1
+Requires-Dist: scipy==1.13.1
+Requires-Dist: six==1.16.0
+Requires-Dist: tzdata==2024.1
+Requires-Dist: uv==0.2.4
+
+# DataGen-kuma
+DataGen-kuma is a library for generating test data.   
+It creates similar data with the same schema based on a Pandas DataFrame.
+
+# How It Works
+DataGen-kuma takes a DataFrame as input and generates random test data.   
+Internally, it generates statistical metrics for each data type to facilitate data generation.   
+Using these metrics, it produces similar data appropriate for each data type.
+
+## Data Classification and Generation
+- Numeric: Numeric data. Generates random values using Kernel Density Estimation (KDE) technique. The kernel density function uses gaussian_kde from scipy.stats.
+- Category: Categorical data. Measures the frequency of each value and generates values according to these frequencies.
+- Datetime: Date data following the ISO-8601 standard. Converts to Pandas Timestamps and generates random values within the given date range.
+- Boolean: Boolean data. Measures the frequency of each value and generates values according to these frequencies.
+- ETC: All other data types not mentioned above. Generates data by randomly sampling from the given values with replacement.
+
+# Usage
+Assuming you have a Pandas DataFrame named df.   
+This example generates 100,000 rows of data.   
+The generated object allows access to each row through iteration.
+
+```python
+from datagen_kuma.datagen import DataGen
+
+datagen = DataGen(df=df, count=100_000)
+for idx, row in datagen:
+    print(idx, row)
+```
+
+To retrieve the generated DataFrame, use the following:
+```python
+generated_df = datagen.dataframe
+```
