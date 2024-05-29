@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: checkfile
+Version: 85.43.56
+Summary: A Python package that stops files from being edited.
+Author: JZ Enterprises
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
