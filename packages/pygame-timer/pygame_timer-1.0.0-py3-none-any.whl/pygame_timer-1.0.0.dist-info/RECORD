@@ -1,0 +1,11 @@
+pygame_timer/__init__.py,sha256=2pbpjBfhiSGpWN7dNOO6S2aWH280ZCVazFW2fvtzt-Q,215
+pygame_timer/activation_timer.py,sha256=BaAfWrZbVdRwusYcJotomb1R-pvW0HgfyOqA3GmbUVA,2448
+pygame_timer/cooldown_timer.py,sha256=ZXtSkhwxwgzn6iFFOWtT6JuVXD07KIqQ18lANEfi3Xg,2027
+pygame_timer/interval_timer.py,sha256=jvaxLmyh0eCnzM9lh9O2e-zRG_iocF23aL3RU0Et7iM,1627
+pygame_timer/stopwatch_timer.py,sha256=cKxl7QMrKcdznA-1lk-45nYW1JizZp9gwpYudKnAprY,1394
+pygame_timer/target_timer.py,sha256=sw0HW83MUnzsJ3FwSjr16CH9NbUAgQ09ZXYDrZAdKX4,2645
+pygame_timer/timer.py,sha256=D1Of7xZ3k5dlB1Iwo7AdhRDPV27KPo0Y_9I_2n6g_8I,280
+pygame_timer-1.0.0.dist-info/METADATA,sha256=wImK489h_9t9io4y_LVxaqwIXHK2FKVI_g0pb6RSJRU,816
+pygame_timer-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygame_timer-1.0.0.dist-info/top_level.txt,sha256=6m8HUW5a4tTG9vAEloFwE406SpAVSv-wQWanuPYQFtk,13
+pygame_timer-1.0.0.dist-info/RECORD,,
