@@ -1,0 +1,3 @@
+[console_scripts]
+source-freshsales=source_freshsales.run:run
+
