@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ma-confluence-cli
+Version: 0.1.0
+Summary: MA confluence automation helper
+Home-page: http://git.dfc.sh/luoshu.ma/unimarketaccessconf/-/tree/master/confluence
+Author: yue.shao
+Author-email: yue.shao@dfc.sh
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ma_confluence_cli #
+
+
