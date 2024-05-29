@@ -1,0 +1,5 @@
+#!python
+
+import das2.verify
+
+das2.verify.main()
