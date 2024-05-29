@@ -1,0 +1,9 @@
+README.md
+setup.py
+marios_candy_shop/__init__.py
+marios_candy_shop/shop.py
+marios_candy_shop.egg-info/PKG-INFO
+marios_candy_shop.egg-info/SOURCES.txt
+marios_candy_shop.egg-info/dependency_links.txt
+marios_candy_shop.egg-info/requires.txt
+marios_candy_shop.egg-info/top_level.txt
