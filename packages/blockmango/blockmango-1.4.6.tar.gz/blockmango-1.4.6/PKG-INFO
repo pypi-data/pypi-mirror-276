@@ -1,0 +1,695 @@
+Metadata-Version: 2.1
+Name: blockmango
+Version: 1.4.6
+Summary: Blockman Go API package
+Home-page: https://github.com/darkkpy/blockmango
+Author: Dark
+Author-email: darkness0777@proton.me
+License: MIT
+Project-URL: Documentation, https://github.com/darkkpy/blockmango/tree/main/docs
+Project-URL: Source, https://github.com/darkkpy/blockmango
+Project-URL: Tracker, https://github.com/darkkpy/blockmango/issues
+Keywords: blockmango blockman go api wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Blockmango API Wrapper
+
+ ![logo](https://i.ibb.co/mHCXSC3/images-28.jpg)
+
+This Python package provides a convenient way to interact with the Blockmango API.
+
+## Installation
+
+You can install the package via pip:
+
+```bash
+pip install blockmango
+```
+
+## 📚 Docs
+
+For detailed usage instructions and examples, please refer to the documentation in the `docs` folder.
+
+For more information on available methods and parameters, contact me on discord, darkk.py.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+# 👫 Friends Class Documentation
+
+This documentation provides details on the `Friends` class which is part of the `blockmango` module. The class interacts with a friend management API, allowing various operations such as adding friends, deleting friends, managing friend requests, and more.
+
+## 📦 Installation
+
+To install the `blockmango` module, use the following command:
+
+```sh
+pip install blockmango
+```
+
+## 🚀 Usage
+
+To use the `Friends` class, import it from the `blockmango` module:
+
+```python
+import blockmango
+from blockmango import Friends
+```
+
+### 🔑 Initialization
+
+```python
+friends = Friends(user_id="your_user_id", access_token="your_access_token")
+```
+
+## 📚 Methods
+
+### 🚫 delete_friend
+Deletes a friend from your friend list.
+
+```python
+friends.delete_friend(friend_id="friend_id")
+```
+
+### 🤝 request
+Sends a friend request to another user.
+
+```python
+friends.request(friend_id="friend_id", msg="Let's be friends!")
+```
+
+### 🌟 popularity
+Gets the popularity of a friend.
+
+```python
+friends.popularity(friend_id="friend_id")
+```
+
+### ℹ️ info
+Gets detailed information about a friend.
+
+```python
+friends.info(friend_id="friend_id")
+```
+
+### 🎨 decoration
+Gets decorations used by a friend.
+
+```python
+friends.decoration(friend_id="friend_id")
+```
+
+### ➕ add_popularity
+Adds popularity to a friend.
+
+```python
+friends.add_popularity(friend_id="friend_id")
+```
+
+### 📜 friend_list
+Gets the list of friends.
+
+```python
+friends.friend_list()
+```
+
+### 📛 nickname
+Sets a nickname for a friend.
+
+```python
+friends.nickname(friend_id="friend_id", alias="Nickname")
+```
+
+### ✅ friend_approve
+Approves a friend request.
+
+```python
+friends.friend_approve(friend_id="friend_id")
+```
+
+### 🚷 friend_blacklist
+Adds a friend to the blacklist.
+
+```python
+friends.friend_blacklist(friend_id="friend_id")
+```
+
+### 🙅 reject_all
+Rejects all friend requests.
+
+```python
+friends.reject_all()
+```
+
+### ✅ approve_all
+Approves all pending friend requests.
+
+```python
+friends.approve_all()
+```
+
+### ❌ friend_reject
+Rejects a friend request.
+
+```python
+friends.friend_reject(friend_id="friend_id")
+```
+
+This `README.md` provides an overview of the `Friends` class methods and usage examples. For more detailed usage, refer to the method definitions and parameters listed above.
+
+
+# 📧 Group Class Documentation
+
+This documentation provides details on the `Group` class which is part of the `blockmango` module. The class interacts with a group management API, allowing various operations such as creating groups, managing group members, sending invitations, and more.
+
+## 📦 Installation
+
+To install the `blockmango` module, use the following command:
+
+```sh
+pip install blockmango
+```
+
+## 🚀 Usage
+
+To use the `Group` class, import it from the `blockmango` module:
+
+```python
+import blockmango
+from blockmango import Group
+```
+
+### 🔑 Initialization
+
+```python
+group = Group(user_id="your_user_id", access_token="your_access_token")
+```
+
+## 📚 Methods
+
+### 🛠️ create
+Creates a new group.
+
+```python
+group.create(member_ids=["member_id1", "member_id2"])
+```
+
+### 🚪 allow_invite
+Allows or disallows group invitations.
+
+```python
+group.allow_invite(group_id="group_id", group_name="Group Name", invite_status=True)
+```
+
+### ✏️ edit
+Edits group details such as name, notice, and invitation status.
+
+```python
+group.edit(group_id="group_id", group_name="Group Name", group_notice="Group Notice", invite_status=True, notice_pics=["pic1.jpg", "pic2.jpg"])
+```
+
+### 👮 admin
+Assigns or removes admin rights to a member.
+
+```python
+group.admin(group_id="group_id", member_id="member_id", operation_type="add")
+```
+
+### 🤐 mute
+Mutes a group member for a specific duration.
+
+```python
+group.mute(group_id="group_id", member_id="member_id", minutes=30)
+```
+
+### 💌 invite
+Invites members to join a group.
+
+```python
+group.invite(group_id="group_id", member_ids=["member_id1", "member_id2"])
+```
+
+### 🚪 kick
+Kicks members out of a group.
+
+```python
+group.kick(group_id="group_id", group_name="Group Name", member_ids=["member_id1", "member_id2"])
+```
+
+### ✅ approve_or_disapprove
+Approves or disapproves a group application.
+
+```python
+group.approve_or_disapprove(group_id="group_id", operate_id="operation_id", j_type="approve")
+```
+
+### 🚶 quit
+Quits a group.
+
+```python
+group.quit(group_id="group_id", group_name="Group Name")
+```
+
+### 📝 apply
+Applies to join a group with a message.
+
+```python
+group.apply(group_id="group_id", msg="Please accept my request.")
+```
+
+### 🔄 transfer
+Transfers group ownership to another member.
+
+```python
+group.transfer(group_id="group_id", new_owner="new_owner_id")
+```
+
+This `README.md` provides an overview of the `Group` class methods and usage examples. For more detailed usage, refer to the method definitions and parameters listed above.
+
+
+# 👤 User Class Documentation
+
+This documentation provides details on the `User` class which is part of the `blockmango` module. The class interacts with a user management API, allowing various operations such as fetching user info, changing user details, modifying passwords, and more.
+
+## 📦 Installation
+
+To install the `blockmango` module, use the following command:
+
+```sh
+pip install blockmango
+```
+
+## 🚀 Usage
+
+To use the `User` class, import it from the `blockmango` module:
+
+```python
+import blockmango
+from blockmango import User
+```
+
+### 🔑 Initialization
+
+```python
+user = User(user_id="your_user_id", access_token="your_access_token")
+```
+
+## 📚 Methods
+
+### ℹ️ get_user_info
+Gets detailed information about the user.
+
+```python
+user.get_user_info()
+```
+
+### 🎂 set_birthday
+Sets the user's birthday.
+
+```python
+user.set_birthday(birthday="yyyy-mm-dd")
+```
+
+### 🔒 login
+Logs in the user.
+
+```python
+user.login(device_id="device_id", device_sign="device_signature", password="password", userId="user_id")
+```
+
+### ✏️ change_name
+Changes the user's name.
+
+```python
+user.change_name(new_name="New Name", old_name="Old Name")
+```
+
+### 📝 change_details
+Changes the user's details.
+
+```python
+user.change_details(new_details="New details")
+```
+
+### 🖼️ change_pfp
+Changes the user's profile picture.
+
+```python
+user.change_pfp(pfp_url="image_url")
+```
+
+### 🔑 modify_password
+Modifies the user's password.
+
+```python
+user.modify_password(old_password="old_password", new_password="new_password")
+```
+
+### 📧 bind_email
+Binds an email to the user's account.
+
+```python
+user.bind_email(email="email_address", verify_code="verification_code")
+```
+
+### 📧 unbind_email
+Unbinds an email from the user's account.
+
+```python
+user.unbind_email(verify_code="verification_code", email="email_address")
+```
+
+This `README.md` provides an overview of the `User` class methods and usage examples. For more detailed usage, refer to the method definitions and parameters listed above.
+
+
+# 🏰 Clan Class Documentation
+
+This documentation provides details on the `Clan` class which is part of the `blockmango` module. The class interacts with a clan management API, allowing various operations such as joining a clan, inviting members, muting members, and more.
+
+## 📦 Installation
+
+To install the `blockmango` module, use the following command:
+
+```sh
+pip install blockmango
+```
+
+## 🚀 Usage
+
+To use the `Clan` class, import it from the `blockmango` module:
+
+```python
+import blockmango
+from blockmango import Clan
+```
+
+### 🔑 Initialization
+
+```python
+clan = Clan(user_id="your_user_id", access_token="your_access_token")
+```
+
+## 📚 Methods
+
+### 📜 user_clan
+Fetches the user's clan information.
+
+```python
+clan.user_clan()
+```
+
+### ➕ join
+Joins a clan by ID.
+
+```python
+clan.join(clan_id="clan_id")
+```
+
+### ➖ leave
+Leaves a clan by ID.
+
+```python
+clan.leave(clan_id="clan_id")
+```
+
+### 🔍 search
+Searches for clans by name.
+
+```python
+clan.search(clan_name="clan_name", page_no=0, page_size=20)
+```
+
+### ℹ️ info
+Gets information about a specific clan by ID.
+
+```python
+clan.info(clan_id="clan_id")
+```
+
+### 📩 invite
+Invites friends to the clan.
+
+```python
+clan.invite(friend_ids=["friend_id1", "friend_id2"], message="Join my clan!")
+```
+
+### ✅ agreement_user
+Agrees to a user's clan request.
+
+```python
+clan.agreement_user(other_id="user_id")
+```
+
+### ❌ reject_user
+Rejects a user's clan request.
+
+```python
+clan.reject_user(other_id="user_id")
+```
+
+### 🔇 mute_member
+Mutes a clan member for a specified duration in minutes.
+
+```python
+clan.mute_member(member_id="member_id", minutes=30)
+```
+
+### 🔊 unmute_member
+Unmutes a clan member.
+
+```python
+clan.unmute_member(member_id="member_id")
+```
+
+### 🔇 mute_all
+Mutes all members in the clan.
+
+```python
+clan.mute_all()
+```
+
+### 🔊 unmute_all
+Unmutes all members in the clan.
+
+```python
+clan.unmute_all()
+```
+
+### 🗑️ remove_member
+Removes members from the clan.
+
+```python
+clan.remove_member(member_ids=["member_id1", "member_id2"])
+```
+
+### 🛠️ edit
+Edits the clan details.
+
+```python
+clan.edit(clan_id="clan_id", currency=0, details="New details", head_pic="new_pic_url", name="New Name", tags=["tag1", "tag2"])
+```
+
+### 🧓 edit_elders
+Edits the clan elders.
+
+```python
+clan.edit_elders(type_="elder_type", elder_ids=["elder_id1", "elder_id2"])
+```
+
+### 🔐 authentication
+Sets clan authentication.
+
+```python
+clan.authentication(type_="on")  # or "off"
+```
+
+### 🛍️ buy_decoration
+Buys a clan decoration.
+
+```python
+clan.buy_decoration(decoration_id="decoration_id")
+```
+
+### ✅ task_accept
+Accepts a clan task.
+
+```python
+clan.task_accept(task_id="task_id", is_team_task=True)
+```
+
+### 🔄 self_task_refresh
+Refreshes personal clan tasks.
+
+```python
+clan.self_task_refresh()
+```
+
+### 🎉 task_claim
+Claims a completed clan task.
+
+```python
+clan.task_claim(task_id="task_id", is_team_task=True)
+```
+
+### 📢 notice
+Posts a clan notice.
+
+```python
+clan.notice(content="Clan meeting at 8 PM!")
+```
+
+### 👑 transfer_chief
+Transfers clan chief role to another member.
+
+```python
+clan.transfer_chief(new_chief_id="new_chief_id")
+```
+
+### 🏗️ create
+Creates a new clan.
+
+```python
+clan.create(clan_id=0, currency=2, details="Clan details", head_pic="pic_url", name="Clan Name", tags=["tag1", "tag2"])
+```
+
+### ❌ dissolve
+Dissolves the clan.
+
+```python
+clan.dissolve(clan_id="clan_id")
+```
+
+## 🛠️ Example
+
+```python
+import blockmango
+from blockmango import Clan
+
+# Initialize Clan instance
+clan = Clan(user_id="your_user_id", access_token="your_access_token")
+
+# Join a clan
+clan.join(clan_id="clan_id")
+
+# Search for clans
+result = clan.search(clan_name="ExampleClan")
+print(result)
+```
+
+This `README.md` provides an overview of the `Clan` class methods and usage examples. For more detailed usage, refer to the method definitions and parameters listed above.
+
+
+# 🎨 Decoration Class Documentation
+
+This documentation provides details on the `Decoration` class which is part of the `blockmango` module. The class interacts with a decoration management API, allowing various operations such as fetching skins, checking current prices, buying decorations, and more.
+
+## 📦 Installation
+
+To install the `blockmango` module, use the following command:
+
+```sh
+pip install blockmango
+```
+
+## 🚀 Usage
+
+To use the `Decoration` class, import it from the `blockmango` module:
+
+```python
+import blockmango
+from blockmango import Decoration
+```
+
+### 🔑 Initialization
+
+```python
+decoration = Decoration(user_id="your_user_id", access_token="your_access_token")
+```
+
+## 📚 Methods
+
+### 🖼️ skins
+Fetches the skins available for a user.
+
+```python
+decoration.skins(uid="user_id")
+```
+
+### 💰 current_price
+Gets the current price of a skin.
+
+```python
+decoration.current_price(skin_id="skin_id", is_suit=True)
+```
+
+### 🛒 buy
+Buys a decoration.
+
+```python
+decoration.buy(diamond=100, cloth_voucher=5, paytype="pay_type")
+```
+
+### 🏪 shop_info
+Gets the shop information of the user.
+
+```python
+decoration.shop_info()
+```
+
+### 🎭 equip
+Equips a decoration.
+
+```python
+decoration.equip(skin_id="skin_id")
+```
+
+## 🛠️ Example
+
+```python
+import blockmango
+from blockmango import Decoration
+
+# Initialize Decoration instance
+decoration = Decoration(user_id="your_user_id", access_token="your_access_token")
+
+# Fetch skins for a user
+skins = decoration.skins(uid="user_id")
+print(skins)
+
+# Get current price of a skin
+price = decoration.current_price(skin_id="skin_id", is_suit=True)
+print(price)
+
+# Buy a decoration
+buy_response = decoration.buy(diamond=100, cloth_voucher=5, paytype="diamond")
+print(buy_response)
+
+# Get shop information
+shop_info = decoration.shop_info()
+print(shop_info)
+
+# Equip a decoration
+equip_response = decoration.equip(skin_id="skin_id")
+print(equip_response)
+```
+
+This `README.md` provides an overview of the `Decoration` class methods and usage examples. For more detailed usage, refer to the method definitions and parameters listed above.
+
+
+
+
