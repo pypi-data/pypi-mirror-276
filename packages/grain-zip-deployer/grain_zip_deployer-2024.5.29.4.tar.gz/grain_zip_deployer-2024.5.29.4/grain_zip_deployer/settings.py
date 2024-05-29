@@ -1,0 +1,1 @@
+DEFAULT_GCLOUD_IGNORE_FILE = '.gcloudignore'
