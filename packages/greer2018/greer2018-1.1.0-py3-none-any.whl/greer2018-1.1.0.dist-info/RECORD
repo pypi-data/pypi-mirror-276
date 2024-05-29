@@ -1,0 +1,12 @@
+greer2018/__init__.py,sha256=QL_dov22N0iZecFYkQ_YFIv95XlDOeGdSWlRKuxTv00,252
+greer2018/info.py,sha256=ZYVOABcp1z7i76GbEY_11btk8cTaiSon861gO2vWnKw,379
+greer2018/version.py,sha256=8NMQLAsma8Byw7FNyv-_bLtfHpWfaUNCHFGbEsBeu2I,367
+greer2018/clean/net_photosynthesis.csv,sha256=FD-hvLRclXZzHA42_Z3_V5QM5Vv5onPTlOcvNbFaw-Y,2055
+greer2018/clean/net_photosynthesis_max.csv,sha256=4aZFXWfkp0gvDfF85v9yoarx8Qtjg65cdWnbt7HABqA,841
+greer2018/clean/readme.rst,sha256=oAyEbH72rW25cGgvZSpDdkNhfv7mvErk8_1_Uwn1tpc,134
+greer2018-1.1.0.dist-info/AUTHORS.rst,sha256=qi6rztgOfqpfDHVM9Wy9GT6PevR5iw1q2z-OHqtkLkE,316
+greer2018-1.1.0.dist-info/LICENSE,sha256=8mluVEVU5FGmJ1_8b2ClHrZB7S51lPClhHJu6rZlVeE,20838
+greer2018-1.1.0.dist-info/METADATA,sha256=mxW0SSN_g3I5gwZ8a7p3dRVKB7ESjDdKi5ok0HAIDRc,3352
+greer2018-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+greer2018-1.1.0.dist-info/top_level.txt,sha256=0-5kUe2n2-nwZEY0p0GLyTgghTddx0bJxtIlO7EvMYM,10
+greer2018-1.1.0.dist-info/RECORD,,
