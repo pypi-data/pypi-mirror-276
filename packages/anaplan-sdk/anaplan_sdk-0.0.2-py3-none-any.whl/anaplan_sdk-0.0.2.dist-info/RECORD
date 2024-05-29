@@ -1,0 +1,9 @@
+anaplan_sdk/__init__.py,sha256=Qfb6XnNERx9HW8SOGFETRshq88FNf0hUx5KmTYCb6wk,374
+anaplan_sdk/_async_client.py,sha256=cXN0VfnR8IjC8GszD_K7_SPij_z6wi_I_QzgIoTYvC0,137
+anaplan_sdk/_client.py,sha256=BaSoAzzk_N7WkOrNjXpChTsUouaOZ-WsT5cExSbbf1c,21643
+anaplan_sdk/_exceptions.py,sha256=-Ea6gNnwWSfqzYzQbEmQ1q8oCtiTHvgLN7BOCDD4gxg,1604
+anaplan_sdk/_models.py,sha256=AkI_ICs57BAY_tWBuZdx3Jl0mcygq_qgCUiZd23pJNY,1524
+anaplan_sdk-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+anaplan_sdk-0.0.2.dist-info/METADATA,sha256=ZlF0TeI0IZHwQbvGCXPdPKU7MPnOqcYX7dwEwB0EzOE,1319
+anaplan_sdk-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+anaplan_sdk-0.0.2.dist-info/RECORD,,
