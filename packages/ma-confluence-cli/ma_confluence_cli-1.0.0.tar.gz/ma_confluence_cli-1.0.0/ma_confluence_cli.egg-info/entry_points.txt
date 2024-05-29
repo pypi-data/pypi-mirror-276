@@ -1,0 +1,3 @@
+[console_scripts]
+ConfluenceCli = ma_confluence_cli.confluence_cli:ConfluenceCli
+
