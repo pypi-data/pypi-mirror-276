@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: furiosa-litmus
+Version: 0.10.2
+Summary: Furiosa Litmus, which readily checks whether a given model can be compiled with Furiosa SDK
+Author-email: "FurioaAI, Inc." <pkg@furiosa.ai>
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: furiosa-optimizer == 0.10.*
+Requires-Dist: furiosa-quantizer == 0.10.*
+Requires-Dist: furiosa-runtime == 0.10.*
+Requires-Dist: furiosa-tools == 0.10.*
+Requires-Dist: furiosa-device == 0.10.*
+Requires-Dist: distro ~= 1.8.0
+Requires-Dist: psutil ~= 5.9.4
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: mnist ; extra == "test"
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: ruff ; extra == "test"
+Requires-Dist: types-protobuf ; extra == "test"
+Requires-Dist: types-psutil ; extra == "test"
+Requires-Dist: types-PyYAML ; extra == "test"
+Project-URL: Bug Tracker, https://github.com/furiosa-ai/furiosa-sdk/issues
+Project-URL: Documentation, https://furiosa-ai.github.io/docs
+Project-URL: Home, https://furiosa.ai
+Project-URL: Source Code, https://github.com/furiosa-ai/furiosa-sdk
+Provides-Extra: test
+
+# Furiosa Litmus
+
+This is a part of [Furiosa SDK] and provides a tool that readily checks whether
+a given model can be quantized and compiled with Furiosa SDK.
+
+[Furiosa SDK]: https://pypi.org/project/furiosa-sdk/
+
