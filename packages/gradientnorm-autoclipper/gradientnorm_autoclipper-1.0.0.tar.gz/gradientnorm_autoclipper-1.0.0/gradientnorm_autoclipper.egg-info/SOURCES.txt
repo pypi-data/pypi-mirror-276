@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+autoclipper/__init__.py
+autoclipper/autoclipper.py
+gradientnorm_autoclipper.egg-info/PKG-INFO
+gradientnorm_autoclipper.egg-info/SOURCES.txt
+gradientnorm_autoclipper.egg-info/dependency_links.txt
+gradientnorm_autoclipper.egg-info/requires.txt
+gradientnorm_autoclipper.egg-info/top_level.txt
