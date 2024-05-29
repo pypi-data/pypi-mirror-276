@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: GESS
+Version: 0.1.0
+Summary: A package designed to allow scoring of gene expression patterns using the Gene Expression Similarity Score system
+Project-URL: Homepage, https://github.com/AndrewDGillen/GESS
+Project-URL: Issues, https://github.com/AndrewDGillen/GESS/issues
+Author-email: Andrew Gillen <andrew.gillen@glasgow.ac.uk>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: fastcluster
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scanpy
+Requires-Dist: seaborn
+Description-Content-Type: text/markdown
+
+# GESS
+README TBD
