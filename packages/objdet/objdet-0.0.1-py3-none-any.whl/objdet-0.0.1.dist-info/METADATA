@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: objdet
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/ssjang1/objdet#readme
+Project-URL: Issues, https://github.com/ssjang1/objdet/issues
+Project-URL: Source, https://github.com/ssjang1/objdet
+Author-email: ssjang1 <s104183@naver.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# objdet
+
+[![PyPI - Version](https://img.shields.io/pypi/v/objdet.svg)](https://pypi.org/project/objdet)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/objdet.svg)](https://pypi.org/project/objdet)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install objdet
+```
+
+## License
+
+`objdet` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

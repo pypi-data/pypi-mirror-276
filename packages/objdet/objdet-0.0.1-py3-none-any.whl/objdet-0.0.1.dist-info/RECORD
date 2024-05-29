@@ -1,0 +1,15 @@
+objdet/__about__.py,sha256=lkaqTs-wS6NQINrgt2-3cCQSUcinSaGh69TDBONB4xM,122
+objdet/__init__.py,sha256=7g1fP5j9q6xjJLzC3iiNrNYsfnpkeSqxJkW6Dq6gg_o,100
+objdet/YOLOV8/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+objdet/YOLOV8/make_arch.ipynb,sha256=TUFKeiC6lupl-ZwCcKd1Qm6N0o98jxeyO-R87U0mP_c,1574
+objdet/YOLOV8/yolo.py,sha256=_3UwW_4njyQUS0pBI8QX2B3H67iHx1KoRdgEZPeIZgk,456
+objdet/YOLOV8/nn/modules/__init__.py,sha256=NAudU6T9ILzpVmIPw29EAnxpUiNas8es2eHs0FaD1x4,84
+objdet/YOLOV8/nn/modules/block.py,sha256=kQeVY47HJ7X6aluoD-Hhx_u-eDpy8QUQNxp_VG1nTO0,3396
+objdet/YOLOV8/nn/modules/conv.py,sha256=FqWk3V3tcpFbbXx1qi1y-MVzIZvcaI_yd_QwXNhumwg,1662
+objdet/YOLOV8/nn/modules/head.py,sha256=UpDoJYk2duSSLHaaKvv3zLaon0wl0wcZhiS5Kg4uYSQ,3818
+objdet/YOLOV8/utils/__init__.py,sha256=DbLWuCC-FAggL1FPgJedZE7-iJCACS_gH5CcaSUiijw,40
+objdet/YOLOV8/utils/tal.py,sha256=Zwdncs-WViHCsxWWDYNb8kG9rUfBK1k1aOuUkCYptqE,1247
+objdet-0.0.1.dist-info/METADATA,sha256=hEv-2ANuSRoVoKPiLneOm-O-DzsmQWh09AXFimCCs2Y,1335
+objdet-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+objdet-0.0.1.dist-info/licenses/LICENSE.txt,sha256=Wc0bZ3lxoX_EXBtbdF_hwrvmdxURS-fYb4ag_Pxq-pk,1092
+objdet-0.0.1.dist-info/RECORD,,
