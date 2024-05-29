@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+Optrix.egg-info/PKG-INFO
+Optrix.egg-info/SOURCES.txt
+Optrix.egg-info/dependency_links.txt
+Optrix.egg-info/top_level.txt
+optrix/__init__.py
+optrix/_objects.py
+tests/test_objects.py
