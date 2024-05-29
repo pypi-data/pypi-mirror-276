@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+hashsan_tool.egg-info/PKG-INFO
+hashsan_tool.egg-info/SOURCES.txt
+hashsan_tool.egg-info/dependency_links.txt
+hashsan_tool.egg-info/entry_points.txt
+hashsan_tool.egg-info/requires.txt
+hashsan_tool.egg-info/top_level.txt
