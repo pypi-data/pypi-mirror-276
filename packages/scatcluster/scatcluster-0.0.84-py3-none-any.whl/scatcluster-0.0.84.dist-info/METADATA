@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: scatcluster
+Version: 0.0.84
+Summary: A workflow for clustering continuous time series with a deep scattering network.
+Home-page: https://github.com/INGV/ScatCluster
+Author: christopher.zerafa@ingv.it
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: obspy >=1.4.0
+Requires-Dist: scatseisnet >=0.2.1
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: fastcluster
+Requires-Dist: scikit-learn ==1.2.2
+Requires-Dist: click
+Requires-Dist: nmmn
+Requires-Dist: astropy
+Requires-Dist: parse
+Requires-Dist: scipy
+Provides-Extra: gpu
+Requires-Dist: tqdm ; extra == 'gpu'
+Requires-Dist: obspy >=1.4.0 ; extra == 'gpu'
+Requires-Dist: scatseisnet >=0.2.1 ; extra == 'gpu'
+Requires-Dist: pandas ; extra == 'gpu'
+Requires-Dist: seaborn ; extra == 'gpu'
+Requires-Dist: fastcluster ; extra == 'gpu'
+Requires-Dist: scikit-learn ==1.2.2 ; extra == 'gpu'
+Requires-Dist: click ; extra == 'gpu'
+Requires-Dist: nmmn ; extra == 'gpu'
+Requires-Dist: astropy ; extra == 'gpu'
+Requires-Dist: parse ; extra == 'gpu'
+Requires-Dist: scipy ; extra == 'gpu'
+Requires-Dist: cupy >=11.3.0 ; extra == 'gpu'
+
+A workflow for clustering continuous time series with a deep scattering network.
