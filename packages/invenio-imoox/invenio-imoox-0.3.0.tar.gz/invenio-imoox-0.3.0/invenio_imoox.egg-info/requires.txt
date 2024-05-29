@@ -1,0 +1,11 @@
+click>=7.0.0
+invenio-records-lom>=0.1.0
+requests>=2.0.0
+
+[tests]
+invenio-cache>=1.1.0
+invenio-search[opensearch2]>=2.1.0
+pytest-invenio>=1.4.3
+pytest-black-ng>=0.4.0
+ruff>=0.4.4
+Sphinx>=4.4.0
