@@ -1,0 +1,32 @@
+[project]
+name = "Brightify"
+version = "0.1.6"
+authors = [
+    { name = "Robin S.", email = "brightify@rs-web.net" }
+]
+description = "Brightify is an OS-independent application that adjusts monitor brightness using the DDC/CI protocol and custom protocols for USB monitors, featuring a brightness sensor for automatic adjustments based on ambient light, and can be controlled via a taskbar icon."
+
+requires-python = ">= 3.11"
+
+keywords = [
+    "brightness",
+    "monitor",
+    "screen",
+    "control",
+    "tool"
+]
+
+readme = "README.md"
+
+dependencies = [
+    # OS-independent dependencies
+    "platformio",
+    "pyserial",
+    "libusb1",
+    "PyQt6",
+    "monitorcontrol",
+    # Windows-only dependencies
+    'pywin32; platform_system == "Windows"',
+    'winshell; platform_system == "Windows"',
+    'wmi; platform_system == "Windows"',
+]
