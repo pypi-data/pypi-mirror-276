@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/uztagger/__init__.py
+src/uztagger/lexicon.csv
+src/uztagger/non_affixed_word.csv
+src/uztagger/web-interface-ui.png
+src/uztagger.egg-info/PKG-INFO
+src/uztagger.egg-info/SOURCES.txt
+src/uztagger.egg-info/dependency_links.txt
+src/uztagger.egg-info/requires.txt
+src/uztagger.egg-info/top_level.txt
