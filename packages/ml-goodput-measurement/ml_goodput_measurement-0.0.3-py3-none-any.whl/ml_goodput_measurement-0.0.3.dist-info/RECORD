@@ -1,0 +1,7 @@
+ml_goodput_measurement/__init__.py,sha256=98Anpih-xmTwmLEyXxb3FvDX12RkBBtu2JbVs0yoPOY,674
+ml_goodput_measurement/src/goodput.py,sha256=r7EyU0ebTDsE5qPFUM00Dl3uTbVZxpl0CNuawv302oA,25546
+ml_goodput_measurement/src/monitoring.py,sha256=TiYlqOwHW3_1vkqAZ8RVBNnd7ZTT1j9TVuOaY5y5YpI,4177
+ml_goodput_measurement/tests/goodput_test.py,sha256=eYgPOYKMfVcdJaVDA3fdFShSDrxMsRvT29f3m9ng4Wo,37941
+ml_goodput_measurement-0.0.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ml_goodput_measurement-0.0.3.dist-info/METADATA,sha256=qDBo-rbLtLt9Po7r9CKkkCcor3SGKRPDH_7lo1STSQ4,9010
+ml_goodput_measurement-0.0.3.dist-info/RECORD,,
