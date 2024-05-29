@@ -1,0 +1,9 @@
+furiosa/cli/__init__.py,sha256=HtrdJU1ymrfMF6P_Mo9Uy5Cg78ygOCiY9kch8X0MLBQ,64
+furiosa/cli/git_version.txt,sha256=v33SAA2pBpEto-c7UebwexU91AhG9E1u45k_1hQ8-kU,15
+furiosa/cli/main.py,sha256=ZCPJU7uKvnA8o32Qpt7DfVzDcso-rqwS2xkQQgUsWGA,2931
+furiosa/cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+furiosa/cli/utils.py,sha256=vX1nPdViOrFdvDsaUD0MPwWUPauj0ceRuFOCr3FTYPI,438
+furiosa_cli-0.10.2.dist-info/entry_points.txt,sha256=Z_1-9eAaJ6l6ih6K0AU1GVqXBCIkNU8iWu0tOpsBp9w,49
+furiosa_cli-0.10.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+furiosa_cli-0.10.2.dist-info/METADATA,sha256=92hRMaiAkMNLOHn2A1wwDNAnt6eQMG9tHwryBetPIjk,1351
+furiosa_cli-0.10.2.dist-info/RECORD,,
