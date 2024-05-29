@@ -1,0 +1,10 @@
+pytest_dashboard/__init__.py,sha256=8oAxKUG747GUokmxjkrWejyJa5yPNEsoJDlXxoedxTw,21
+pytest_dashboard/_tally_progresses.py,sha256=UdFOHg5t21Hlg1le3tEUZta492XhBHZQBTFrXkoCBeE,4327
+pytest_dashboard/config.py,sha256=xvJ4UlCZjr8jXrgGrTkbuzi_ateFYc5GqWwAsAXWXlc,216
+pytest_dashboard/conftest.py,sha256=3DRNL2yb48r23tkxX0S3YgNroQfxdEkKKlWjQmfm5a0,2184
+pytest_dashboard/tally.py,sha256=3j7zH8BewbdzzmsX2wQHylVhcEcuC4Tz9Wk9zwbfenU,165
+pytest_dashboard-0.1.1.dist-info/LICENSE,sha256=HiUIq0LwzIkb8xBbG8splrm3hp7l4FSEjkEDdawyNRw,1495
+pytest_dashboard-0.1.1.dist-info/METADATA,sha256=MHYw74EOQSxb2VXKRJ7_2l05a0ONfjSv9z4Htc-LZlc,2494
+pytest_dashboard-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pytest_dashboard-0.1.1.dist-info/entry_points.txt,sha256=I0INuyyFhHw2tOi59mhg06CyTwZZHNOPkU2mF-JJUAw,122
+pytest_dashboard-0.1.1.dist-info/RECORD,,
