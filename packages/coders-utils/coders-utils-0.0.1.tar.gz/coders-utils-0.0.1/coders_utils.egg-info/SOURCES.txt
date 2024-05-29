@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+coders_utils/__init__.py
+coders_utils/file_iterators.py
+coders_utils/find_utils.py
+coders_utils/linux_admin_ops.py
+coders_utils/shell.py
+coders_utils.egg-info/PKG-INFO
+coders_utils.egg-info/SOURCES.txt
+coders_utils.egg-info/dependency_links.txt
+coders_utils.egg-info/requires.txt
+coders_utils.egg-info/top_level.txt
