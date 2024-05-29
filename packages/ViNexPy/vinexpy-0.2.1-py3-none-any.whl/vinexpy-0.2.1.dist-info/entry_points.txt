@@ -1,0 +1,3 @@
+[console_scripts]
+vicon-nexus-stream=vicon_nexus_unity_stream_py.cli:_main
+
