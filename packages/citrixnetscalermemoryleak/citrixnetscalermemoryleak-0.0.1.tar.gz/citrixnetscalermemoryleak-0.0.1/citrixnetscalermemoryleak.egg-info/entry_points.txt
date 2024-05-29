@@ -1,0 +1,2 @@
+[console_scripts]
+citrixnetscalermemoryleak = citrixnetscalermemoryleak.main:main
