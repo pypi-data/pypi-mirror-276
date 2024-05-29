@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: pykinml
+Version: 1.1.2
+Summary: Neural Net Potential Energy Surface
+Author-email: cjdever <cjdever@sandia.gov>, cmartia <cmartia@sandia.gov>, Judit Zádor <jzador@sandia.gov>, Habib Najm <hnnajm@sandia.gov>
+Maintainer-email: cjdever <cjdever@sandia.gov>
+License: Copyright 2024 National Technology & Engineering Solutions of Sandia, LLC (NTESS). 
+        Under the terms of Contract DE-NA0003525 with NTESS, the U.S. Government retains certain rights in this software.
+        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: homepage, https://github.com/sandialabs/pykinml
+Project-URL: documentation, https://github.com/sandialabs/pykinml/wiki
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: ase (>=3.19)
+Requires-Dist: h5py (>=3.7.0)
+Requires-Dist: pandas
+Requires-Dist: aevmod
+Provides-Extra: plot
+
+# pyKinML: Package for training Neural Net Potential Energy Surfaces
+
+## Description
+
+This repository contains the code to train NNPESs and use those models with an ASE calculator.
+
+### How to install
+
+This package can be installed with pip or by cloning this repo and installing it locally.
+First, make sure to have pytorch installed:
+
+    https://pytorch.org/
+
+This package relies on pytorch_scatter to sum the atomic contributions to energy. Ensure you have the proper version. Instructions for installing torch_scatter can be found at:
+
+    https://github.com/rusty1s/pytorch_scatter
+
+
+## Install with pip:
+    pip install pykinml
+
+### Clone from repo:
+    git clone git@github.com:sandialabs/pykinml.git
+
+We also highly recomend (required for force training) using the aevmod package for calculation of the aevs and their jacobians:
+https://github.com/sandialabs/aevmod.git
+
+For transition state optimization, we recomend Sella:
+https://github.com/zadorlab/sella
+
+
+
+This code is designed for the training and running of atomistic neural network potentials.
+It pulls training data from sql files which should include energies, forces, and atomic corrdinates.
+The sql files should be named in with the chemical formula of the molecules within them (e.g. C5H5.db, C2H4.db, etc.)
+and the atomic coordinates and forces should be in the same sequence as thier cooresponding atom type
+in the database name. The models use ANI style atomic environment vectors (AEVs). 
+For details on AEV descriptors see DOI:https://doi.org/10.1039/C6SC05720A.
+During training, the AEVs for each structure are computed prior to entering the training loop and saved.
+This ensures that the AEVs only need to be computed a single time.
