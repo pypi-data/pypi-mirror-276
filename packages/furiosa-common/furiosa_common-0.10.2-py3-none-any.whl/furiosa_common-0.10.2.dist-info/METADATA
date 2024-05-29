@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: furiosa-common
+Version: 0.10.2
+Summary: Furiosa SDK common utilities
+Author-email: "FurioaAI, Inc." <pkg@furiosa.ai>
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp ~= 3.8.3
+Requires-Dist: aiohttp ~= 3.8.3
+Requires-Dist: multipledispatch
+Requires-Dist: packaging
+Requires-Dist: tqdm
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-aiohttp ; extra == "test"
+Requires-Dist: pytest-asyncio ~= 0.17.2 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: ruff ; extra == "test"
+Requires-Dist: types-aiofiles ; extra == "test"
+Requires-Dist: types-tqdm ; extra == "test"
+Project-URL: Bug Tracker, https://github.com/furiosa-ai/furiosa-sdk/issues
+Project-URL: Documentation, https://furiosa-ai.github.io/docs
+Project-URL: Home, https://furiosa.ai
+Project-URL: Source Code, https://github.com/furiosa-ai/furiosa-sdk
+Provides-Extra: test
+
+# Furiosa Common
+
+This is a part of [Furiosa SDK] and provides common utilites.
+
+[Furiosa SDK]: https://pypi.org/project/furiosa-sdk/
+
