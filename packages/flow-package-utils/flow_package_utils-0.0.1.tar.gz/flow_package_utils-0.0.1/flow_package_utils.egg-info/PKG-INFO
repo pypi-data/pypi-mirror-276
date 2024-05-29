@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: flow_package_utils
+Version: 0.0.1
+Summary: A utility package to general porpouses.
+Home-page: https://github.com/jack-factor/pypi_package_utils
+Author: Jack Moreno
+Author-email: jack12972@gmail.com
+Keywords: utils
+License-File: LICENSE
+Requires-Dist: requests
