@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: chatchat
+Version: 0.1.3
+Summary: Large Language Model API
+Home-page: https://github.com/JiauZhang/chatchat
+Author: JiauZhang
+Author-email: jiauzhang@163.com
+License: GPL-2.0
+Keywords: llm,chatapi,chatbot
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: websocket-client
+
+### Large Language Models Python API
+- ✅ 百度文心一言/ERNIE
+- ✅ 阿里通义千问/QWen
+- ✅ 讯飞星火大模型/Spark
+- ✅ 腾讯混元大模型/Hunyuan
+
+### Install
+```shell
+pip install chatchat
+```
+
+### Usage
+> Refer to [\[examples\]](./examples)
+
+### Sponsor
+<table align="center">
+    <thead>
+        <tr>
+            <th>AliPay</th>
+            <th>WeChatPay</th>
+        </tr>
+    </thead>
+    <tbody align="center" valign="center">
+        <tr>
+            <td><img src="https://www.chatqkv.com/AliPay.png" style="width: 196px; height: 196px" alt="AliPay.png"></td>
+            <td><img src="https://www.chatqkv.com/WeChatPay.png" style="width: 196px; height: 196px" alt="WeChatPay.png"></td>
+        </tr>
+    </tbody>
+</table>
+
