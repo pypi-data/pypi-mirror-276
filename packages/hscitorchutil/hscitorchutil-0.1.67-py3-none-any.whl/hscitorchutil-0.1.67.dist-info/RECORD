@@ -1,0 +1,8 @@
+hscitorchutil/callbacks.py,sha256=0vnWi9adyShaU4wBXvIJgmiVfIe6WBA_vMhNiXkmWW4,2961
+hscitorchutil/dataset.py,sha256=J71vk3ZtvDjAHNjAmzbKYJwpZuZGGMGk01sZTAW2YLg,9141
+hscitorchutil/fsspec.py,sha256=AaoBy_8USV-jkEOStkay6ZbaJHELj1xQIXT2cTYdpjw,13146
+hscitorchutil/processlocal.py,sha256=snWSZM_7NjzdUOawz5MPxo5CYitCOyYrOD6ju74r3lc,847
+hscitorchutil/sqlite.py,sha256=3rJcu9pJgPerr0xw45zcrDIj2JElX40YRfB3ssfib9w,8676
+hscitorchutil-0.1.67.dist-info/METADATA,sha256=IJgonr_-7PmJ1TBbbOhgyQWN-C_-Sg1qF6JODzsN_To,924
+hscitorchutil-0.1.67.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hscitorchutil-0.1.67.dist-info/RECORD,,
