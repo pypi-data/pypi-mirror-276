@@ -1,0 +1,10 @@
+ailib/__init__.py,sha256=P3SGLQDfIOmhO12F_YmLby1S75rM5iRVf_9FQF36NcI,91
+ailib/ai_models.py,sha256=WF8lK0bmsJ9flguSl2bhM83KdnTJxaXIb18E1bXHnv8,3808
+ailib/models.py,sha256=taVuOMXMG0Rlm996bPmI6EGwmNYpD1ghnuK2pxgDY6k,1032
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ai_lib.py,sha256=5KYn5QltuOCCQJl3nu8SvKhj_sa0MlgIHflXKOWDUsg,2370
+modular_ai-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modular_ai-0.1.0.dist-info/METADATA,sha256=VZYCT1iSKy7d_iTfD2e_2ao_1cXFHETMayxgPKgATH8,4197
+modular_ai-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+modular_ai-0.1.0.dist-info/top_level.txt,sha256=gS14nodpLqlTWGCm0eFmT_ghs4b2YPfRRbhTLDMou8U,12
+modular_ai-0.1.0.dist-info/RECORD,,
