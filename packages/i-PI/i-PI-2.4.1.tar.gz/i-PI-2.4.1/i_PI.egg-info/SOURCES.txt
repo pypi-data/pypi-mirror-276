@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+i_PI.egg-info/PKG-INFO
+i_PI.egg-info/SOURCES.txt
+i_PI.egg-info/dependency_links.txt
+i_PI.egg-info/requires.txt
+i_PI.egg-info/top_level.txt
