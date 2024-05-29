@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nsplit.egg-info/PKG-INFO
+nsplit.egg-info/SOURCES.txt
+nsplit.egg-info/dependency_links.txt
+nsplit.egg-info/entry_points.txt
+nsplit.egg-info/requires.txt
+nsplit.egg-info/top_level.txt
+nsplit.egg-info/zip-safe
+src/__init__.py
+src/app.py
