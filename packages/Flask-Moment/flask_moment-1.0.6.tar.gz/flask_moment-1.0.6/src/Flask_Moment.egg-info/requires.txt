@@ -1,0 +1,5 @@
+Flask
+packaging>=14.1
+
+[docs]
+sphinx
