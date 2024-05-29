@@ -1,0 +1,10 @@
+target-version = "py312"
+extend-exclude = [ "test_*" ]
+
+[lint]
+extend-select = [
+  "D",   # pydocstyle
+]
+
+[lint.pydocstyle]
+convention = "google"
