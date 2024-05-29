@@ -1,0 +1,6 @@
+requests
+pandas>=2.0
+numpy>=1.0
+
+[excel]
+openpyxl

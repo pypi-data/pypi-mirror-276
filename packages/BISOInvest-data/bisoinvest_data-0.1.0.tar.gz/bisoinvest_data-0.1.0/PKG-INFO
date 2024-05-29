@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: BISOInvest_data
+Version: 0.1.0
+Summary: Brief description
+Author: Oliver Ekeberg
+Author-email: ekebergoliver@gmail.com
+License: The Unlicense
+Classifier: Development Status :: 1 - Planning
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.0
+Provides-Extra: excel
+Requires-Dist: openpyxl; extra == "excel"
+
+# BISOInvest_data package
+
+Test

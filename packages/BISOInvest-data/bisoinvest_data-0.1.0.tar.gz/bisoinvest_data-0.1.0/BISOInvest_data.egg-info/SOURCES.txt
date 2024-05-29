@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+BISOInvest/__init__.py
+BISOInvest/cli.py
+BISOInvest/nordnetAPI.py
+BISOInvest_data.egg-info/PKG-INFO
+BISOInvest_data.egg-info/SOURCES.txt
+BISOInvest_data.egg-info/dependency_links.txt
+BISOInvest_data.egg-info/entry_points.txt
+BISOInvest_data.egg-info/requires.txt
+BISOInvest_data.egg-info/top_level.txt
