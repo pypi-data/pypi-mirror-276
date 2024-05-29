@@ -1,0 +1,14 @@
+dkist_quality/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dkist_quality/_version.py,sha256=9acUHRb1fq-uv5dr49LlEh189daKw4-SeypW5NxDolA,411
+dkist_quality/json_encoder.py,sha256=lVUdV78j_nF2AQFy6k173yixdFdhYGXFvD_Vzh6hIrM,871
+dkist_quality/report.py,sha256=1LWCwN6K1tNiE3LS1Lb3cHRYzuQuWoio0dqGQ0scbZU,37398
+dkist_quality/version.py,sha256=ZPctCTneRZylYImhUWaV9DWDEFW22EFnslLoS4-S6EA,346
+dkist_quality/fonts/Oswald-Bold.ttf,sha256=rezAS9Oumag1p7rp3g8mH91abaFjDa8ABgIDT7FCBSs,91676
+dkist_quality/fonts/Oswald-Regular.ttf,sha256=JkY5cy9a34D6weSp7z8OtY5Yta6tB4UAh2Yt7euhGxI,91400
+dkist_quality/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dkist_quality/tests/test_report.py,sha256=RHyLsce84guCTqtweQY3nHesj988HAgDTX0YVRNiVE0,11866
+dkist_quality-1.0.4.dist-info/LICENSE,sha256=_ozkdNXQyan7N48u3YKadigAFoygGu6z6tWRvvCJoVk,1063
+dkist_quality-1.0.4.dist-info/METADATA,sha256=53DybLzjEWyhJ70CT24p0v65Ni2WxCTzbj91gaRAJXE,2172
+dkist_quality-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dkist_quality-1.0.4.dist-info/top_level.txt,sha256=ec1wo1MXNrsCAQ3fLk_jipdrm7L7kwu_EIGrnDl0mG4,14
+dkist_quality-1.0.4.dist-info/RECORD,,
