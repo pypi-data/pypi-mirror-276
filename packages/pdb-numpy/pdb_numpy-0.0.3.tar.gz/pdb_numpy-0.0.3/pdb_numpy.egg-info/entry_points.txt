@@ -1,0 +1,2 @@
+[console_scripts]
+pdb_numpy = pdb_numpy.__main__:main
