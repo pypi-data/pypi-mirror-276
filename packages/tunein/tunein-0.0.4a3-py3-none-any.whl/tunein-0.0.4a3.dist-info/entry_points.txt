@@ -1,0 +1,3 @@
+[console_scripts]
+tunein = tunein.cli:main
+
