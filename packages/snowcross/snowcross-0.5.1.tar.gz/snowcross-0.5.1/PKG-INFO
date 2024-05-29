@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: snowcross
+Version: 0.5.1
+Summary: Adaptors for tools and services in a Snowflake-centric data platform
+Home-page: UNKNOWN
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: locator
+Provides-Extra: test
+License-File: LICENSE
+
+Adaptors for tools and services in a Snowflake-centric data platform.
+
+## Requirements
+
+Requires Python 3.10 or above.
+
+

@@ -1,0 +1,4 @@
+wheel
+snowflake-connector-python>=2.7.6
+# AWS
+boto3
