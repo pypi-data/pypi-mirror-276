@@ -1,0 +1,9 @@
+nrich/__init__.py,sha256=ymCAZ5sYeHSFmunkx2G8P1OyB1Ji7piPrEoUmqogKio,61
+nrich/__main__.py,sha256=n_irk9n52f4nkzbLFfdqBMshZ1_-F1QhDOL-vIUIz4E,1670
+nrich/models.py,sha256=zXo5r23T6lg3v3KdsLqlNCRva0jlvsK8GgCQC0I3Pik,747
+nrich/nrich.py,sha256=NnXvqdIFsMJcpPHU6yqr3JgrRo8j4ygazsOQ8XXS9Wo,4830
+nrich/parse_internetdb.py,sha256=aAv2awSnM0j2ADbZ9xhpNPgzVqWiUyffeMIYgnfr5kA,851
+nrich-0.1.3.dist-info/LICENSE,sha256=5hIgqbE30VuRyp7FfWzCRzGDB8qGGri7TTt6-CI-nKQ,35148
+nrich-0.1.3.dist-info/METADATA,sha256=y1Ma4C8QYOvWZcuNGGa9tWsopdlzKzXxTl7bloZ-Vac,2567
+nrich-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nrich-0.1.3.dist-info/RECORD,,
