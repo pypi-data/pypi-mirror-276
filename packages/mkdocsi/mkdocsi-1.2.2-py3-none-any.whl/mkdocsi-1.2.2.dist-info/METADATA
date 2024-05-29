@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mkdocsi
+Version: 1.2.2
+Summary: convert docs folder to mkdocs site , dynamic nested docs and folders
+Home-page: https://gitlab.com/isampypi/mkdocsi
+Author: Mhadhbi Issam
+Author-email: mhadhbixissam@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: mkdocs
+Requires-Dist: mkdocs-material
+
+# nested-docs
+
+
+## Installation : 
+```bash
+pip install mkdocsi
+```
+
+## Quick start : 
+```python
+
+```
