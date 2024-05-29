@@ -1,0 +1,2 @@
+[console_scripts]
+krabby=krabby.__main__:main

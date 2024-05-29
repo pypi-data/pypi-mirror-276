@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: krabby
+Version: 0.1.16
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: typer
+License-File: LICENSE
+Summary: A Flashtext library for Python by Rust
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Krabby - Flashtext package with Rust backend
+
+## Installation
+
+```sh
+pip install krabby
+```
+
+## Usage
+
+```py
+from krabby import KeywordProcessor
+
+keyword_processor = KeywordProcessor(False)
+keyword_processor.put("apple")
+keyword_processor.put("orange")
+
+keyword_processor.extract("I have an Apple, i have a pencile")
+```
+
