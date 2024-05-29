@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: modular-ai
+Version: 0.1.0
+Summary: A library for interacting with various AI models
+Home-page: https://github.com/HarveyGW/AILib
+Author: HarveyGW
+Author-email: your_email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AI Model Library
+
+A Python library that allows you to import and use various AI models easily. This library supports multiple AI model providers, making it straightforward to switch between different models without writing initialisation code each time.
+
+## Features
+
+- **Easy Integration**: Quickly integrate with multiple AI providers.
+- **Flexibility**: Easily switch between different AI models.
+- **Convenience**: Avoid the hassle of writing repetitive initialisation code.
+
+## Installation
+
+First, install the library using pip:
+
+```bash
+pip install ai_model_library
+```
+
+## Setup
+
+### 1. Environment Variables
+
+This library requires a `.env` file for storing API keys and URLs for the different AI providers. Create a `.env` file in the root of your project and add the respective API keys and URLs like so:
+
+```
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_URL=openai_api_url
+
+GEMINI_API_KEY=your_gemini_api_key
+GEMINI_API_URL=gemini_api_url
+
+ANTHROPIC_API_KEY=your_anthropic_api_key
+ANTHROPIC_API_URL=anthropic_api_url
+
+COHERE_API_KEY=your_cohere_api_key
+COHERE_API_URL=cohere_api_url
+
+GOOGLE_API_KEY=your_google_api_key
+GOOGLE_API_URL=google_api_url
+```
+
+Make sure to replace the placeholder values with your actual API keys and URLs.
+
+## Usage
+
+### Importing the Library
+
+Start by importing the necessary classes from the library:
+
+```python
+from ailib.models import Models
+```
+
+### Fetching and Registering Models
+
+Fetch and register models from each provider. This step initialises the models and makes them available for use.
+
+```python
+# Fetch and register models from each provider
+Models.fetch_and_register_models("openai", "openai")
+Models.fetch_and_register_models("gemini", "gemini")
+Models.fetch_and_register_models("anthropic", "anthropic")
+Models.fetch_and_register_models("cohere", "cohere")
+Models.fetch_and_register_models("google", "google")
+```
+
+### Generating Text Using a Registered Model
+
+Once the models are registered, you can use them to generate text. Here's an example using OpenAI's GPT-3 model:
+
+```python
+# Get the OpenAI model
+model = Models.get_model("openai", "text-davinci-003")
+
+# Generate text
+response = model.generate_text("Hello, world!", max_tokens=5)
+print(response)
+```
+
+### Listing Available Models
+
+You can list all registered models for each provider:
+
+```python
+# List all registered models
+all_models = Models.list_models()
+print(all_models)
+```
+
+## Full Example
+
+Here's a complete example demonstrating how to set up and use the library:
+
+```python
+from ailib.models import Models
+
+# Fetch and register models from each provider
+Models.fetch_and_register_models("openai", "openai")
+Models.fetch_and_register_models("gemini", "gemini")
+Models.fetch_and_register_models("anthropic", "anthropic")
+Models.fetch_and_register_models("cohere", "cohere")
+Models.fetch_and_register_models("google", "google")
+
+# Generate text using a registered model
+model = Models.get_model("openai", "text-davinci-003")
+response = model.generate_text("Hello, world!", max_tokens=5)
+print(response)
+
+# List all registered models
+all_models = Models.list_models()
+print(all_models)
+```
+
+## Running Tests
+
+To ensure everything is working correctly, you can run the provided test suite. This will verify the initialisation, model listing, and text generation for different APIs. Make sure you have your `.env` file properly set up with actual API keys to run these tests.
+
+```bash
+python -m unittest discover -s tests
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
