@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "djecorator"
+version = "1.1.0"
+description = "A flask-style decorator for Django views"
+readme = "README.md"
+authors = [{name = "Stephan Fitzpatrick", email = "knowsuchagency@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = ["django"]
+
+[project.urls]
+Source = "https://github.com/knowsuchagency/djecorator"
