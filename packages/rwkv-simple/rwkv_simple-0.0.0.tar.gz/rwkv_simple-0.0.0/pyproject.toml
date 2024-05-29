@@ -1,0 +1,7 @@
+[project]
+name = "rwkv_simple"
+authors = [
+  {name = "Ronsor Labs", email = "ronsor@ronsor.com"},
+]
+version = "0.0.0"
+description = "Coming soon"
