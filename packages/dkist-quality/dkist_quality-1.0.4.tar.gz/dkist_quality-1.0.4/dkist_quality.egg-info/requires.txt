@@ -1,0 +1,13 @@
+reportlab>=4.0.4
+matplotlib>=3.6
+seaborn>=0.13.0
+dacite>=1.8.0
+natsort>=8.0.0
+pydantic>=1.10.4
+
+[test]
+tox>=4
+pytest
+pytest-cov
+Pygments
+PyPDF4
