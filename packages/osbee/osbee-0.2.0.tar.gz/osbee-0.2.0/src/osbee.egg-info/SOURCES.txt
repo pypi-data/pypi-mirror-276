@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/osbee/__init__.py
+src/osbee/osbee.py
+src/osbee.egg-info/PKG-INFO
+src/osbee.egg-info/SOURCES.txt
+src/osbee.egg-info/dependency_links.txt
+src/osbee.egg-info/requires.txt
+src/osbee.egg-info/top_level.txt
