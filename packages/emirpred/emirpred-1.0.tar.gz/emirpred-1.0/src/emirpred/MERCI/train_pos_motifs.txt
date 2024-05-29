@@ -1,0 +1,27 @@
+MERCI - Summary of options:
+ -p    train_pos_s1.fa
+ -n    train_neg_s1.fa
+ -k 	  50
+ -fp   5
+ -fn   0
+ -o    train_pos_motifs.txt
+ -l    10000
+ -s    10000
+ -c    NONE
+ -g    0
+ -gl   1
+ -para 0
+
+
+Motifs:
+ A G G G A A G C
+ G A A G C A C
+ G G A A G C A C
+ A C A A A A
+ A G C A G C A C
+ A G G G A A G C A
+ A G G G A A G C A C
+ C C C A C C C
+ G C A G C A C
+ G G G A A G C A
+ G G G A A G C A C

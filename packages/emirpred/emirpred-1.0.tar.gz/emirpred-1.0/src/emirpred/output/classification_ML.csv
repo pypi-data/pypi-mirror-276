@@ -1,0 +1,10 @@
+Seq_ID,ML_pred,class
+E530,0.55,exosomal
+E129,0.63,exosomal
+NE803,0.34,non-exosomal
+E555,0.56,exosomal
+NE1156,0.41,non-exosomal
+E242,0.66,exosomal
+NE1091,0.42,non-exosomal
+NE367,0.25,non-exosomal
+E537,0.69,exosomal

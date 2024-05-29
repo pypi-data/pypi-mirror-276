@@ -1,0 +1,2 @@
+[console_scripts]
+emirpred = emirpred.python_scripts.emirpred:main
