@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: latexminted
+Version: 0.1.0b2
+Summary: Python executable for LaTeX minted package
+Author-email: "Geoffrey M. Poore" <gpoore@gmail.com>
+License: latexminted Python package
+        Copyright (c) 2024 Geoffrey M. Poore
+        
+        This work may be distributed and/or modified under the
+        conditions of the LaTeX Project Public License, either version 1.3c
+        of this license or (at your option) any later version.
+        The latest version of this license is in
+          https://www.latex-project.org/lppl.txt
+        and version 1.3c or later is part of all distributions of LaTeX
+        version 2008 or later.
+        
+        This work has the LPPL maintenance status `maintained'.
+        
+        The Current Maintainer of this work is Geoffrey M. Poore.
+        
+        This work consists of the files in the latexminted Python package.
+        
+Project-URL: homepage, https://github.com/gpoore/minted/tree/main/python/
+Project-URL: repository, https://github.com/gpoore/minted
+Project-URL: changelog, https://github.com/gpoore/minted/blob/main/python/CHANGELOG.md
+Keywords: LaTeX,syntax highlighting,Pygments
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: CHANGELOG.md
+License-File: RESTRICTED_SHELL_ESCAPE.md
+Requires-Dist: pygments >=2.17.0
+
+# `latexminted` — Python executable for LaTeX minted package
+
+This Python package provides a Python executable for the LaTeX
+[minted](https://github.com/gpoore/minted) package.  The Python executable
+performs syntax highlighting using the [Pygments](https://pygments.org/)
+library.  It also provides several code formatting and manipulation features
+implemented in Python that would be difficult to perform in LaTeX, such as
+dedenting code and extracting code snippets from source files using regular
+expressions.
+
+The Python executable is specifically designed to be compatible with the LaTeX
+security requirements for restricted shell escape executables.  These trusted
+executables can run during LaTeX compilation without requiring `-shell-escape`
+or similar command-line options that allow arbitrary shell commands to be
+executed.
