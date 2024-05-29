@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dt_utils
+Version: 0.0.6
+Summary: Datetime utils
+Home-page: https://github.com/claydodo/dt_utils
+Author: claydodo and his little friends (xiao huo ban)
+Author-email: claydodo@foxmail.com
+Classifier: Programming Language :: Python :: 2.7 
+Classifier: Programming Language :: Python :: 3 
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: six
+Requires-Dist: python-dateutil
