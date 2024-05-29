@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: marimba
+Version: 0.0.1
+Summary: Marimba - A Python framework for structuring, managing, processing and FAIR-ising scientific marine image datasets.
+Author: Chris Jackett
+Author-email: chris.jackett@csiro.au
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+

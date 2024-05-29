@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "marimba"
+version = "0.0.1"
+description = "Marimba - A Python framework for structuring, managing, processing and FAIR-ising scientific marine image datasets."
+authors = ["Chris Jackett <chris.jackett@csiro.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
