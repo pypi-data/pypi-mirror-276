@@ -1,0 +1,14 @@
+snipergw/__main__.py,sha256=30Q6EWe4YOzJjvMN2vgQQZfBrPjmSfgNEUWxQ_nUwrY,1576
+snipergw/model.py,sha256=LjRnD0CAQfb_euGh8uodqym5Ur31Ap9CL3rX7rMKDhI,3117
+snipergw/paths.py,sha256=365KIem4C-GZWd7p1Cr-qAIKOMZqMt--Hr8HG5tJvJQ,242
+snipergw/plan.py,sha256=7SFvHUjqSVaT-SiKKnBDLziv9NUCMcs6bJmBgIgX9vA,3896
+snipergw/run.py,sha256=m9z5XsgsKAoLLRNAPx0L3v9o-MgALPGA27tp2EnXX54,1816
+snipergw/skymap.py,sha256=7x6POR5yJlyng8HUSHIDSS1xZe-q_mbeQGN0KWcHzV4,7438
+snipergw/submit/__init__.py,sha256=yEDGe3C2anFn3dD7jxksu0yg825uVzro0DUzimRaAC0,177
+snipergw/submit/winter.py,sha256=s26DZg9KYGieWcVX9DcrL6IIc1bvH7Nf2O7hwQFl0Rs,1930
+snipergw/submit/ztf.py,sha256=ivPfYpgKKTfcdX0XnvtNTSDgVIi9Hbpct3UAu8kTtlc,2605
+snipergw-1.0.0.dist-info/LICENSE,sha256=lje0H109xgWT0ZVzRuTfRP0qVZLTsuPq5Z3nyPiiviY,1069
+snipergw-1.0.0.dist-info/METADATA,sha256=gJqnNFuIPWJewRGVGPSZdBwviSJVZefIXFIETv7s51c,5605
+snipergw-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+snipergw-1.0.0.dist-info/top_level.txt,sha256=Fr1KwgvZ3oi8sPB6KFWRynbYYBafhNWEh6cbW3Lw-Vs,9
+snipergw-1.0.0.dist-info/RECORD,,
