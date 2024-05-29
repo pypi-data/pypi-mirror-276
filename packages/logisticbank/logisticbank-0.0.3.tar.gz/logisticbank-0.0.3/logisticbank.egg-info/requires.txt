@@ -1,0 +1,8 @@
+matplotlib==3.9.0
+numpy==1.25.2
+pandas==1.5.3
+scikit_learn==1.4.2
+statsmodels==0.14.2
+mord==0.7
+seaborn==0.13.2
+dmba==0.2.4
