@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: arrimputer
+Version: 1.3.0
+Summary: A machine learning package for testing integer imputation into arrays and checking out changes in the cost. Looking for ways to extend this to dataframes as it has great potential
+Home-page: https://github.com/alphaprime7/Imputer
+License: MIT
+Author: Tingwei Adeck
+Author-email: awesome.tingwei@outlook.com
+Requires-Python: >=3.12,<4.0
+Classifier: Environment :: Console
+Classifier: Framework :: Flake8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Project-URL: Repository, https://github.com/alphaprime7/Imputer
+Description-Content-Type: text/markdown
+
+## ARRIMPUTER 1.3.0
+
+[![license](https://img.shields.io/badge/MIT-License?label=license)](https://mit-license.org/)
+[![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/AlphaPrime7/Imputer)
+[![Awesome
+Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
+[![Demandez moi n’importe quoi
+!](https://img.shields.io/badge/Demandez%20moi-n'%20importe%20quoi-1abc9c.svg)](mailto:awesome.tingwei@outlook.com)
+[![](https://img.shields.io/badge/follow%20me%20on-LinkedIn-green.svg)](https://www.linkedin.com/in/tingwei-adeck)
+
+## What is it?
+
+A machine learning algorithm/package for integer imputation into arrays. Integers are imputed and the cost difference is calculated to determine which integer yields the optimum cost reduction.
+
+The package is designed for experimental purposes as there are possibilities of its application on data frames and other important projects that might need such a feature.
+
+## Installation
+
+```shell
+pip install arrimputer
+```
+## Examples
+
+### Base Use
+```python
+from ArrImputer import *
+test_arr = [0,1,2,3,4,5]
+get_optimum_integer(test_arr)
+``` 
+
+### Advanced Use
+```python
+from ArrImputer import *
+test_arr = [0,1,2,3,4,5]
+get_optimum_integer(test_arr,max_tries=1000)
+``` 
+
+## Code of Conduct
+
+Everyone interacting in the project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the [PyPA Code of Conduct](https://www.pypa.io/en/latest/code-of-conduct/).
+
+## Reporting issues
+
+Report issues to me at <awesome.tingwei@outlook.com>.
