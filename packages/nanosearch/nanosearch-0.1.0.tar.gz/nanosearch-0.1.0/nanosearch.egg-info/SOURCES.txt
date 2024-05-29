@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nanosearch/__init__.py
+nanosearch/engine.py
+nanosearch.egg-info/PKG-INFO
+nanosearch.egg-info/SOURCES.txt
+nanosearch.egg-info/dependency_links.txt
+nanosearch.egg-info/requires.txt
+nanosearch.egg-info/top_level.txt

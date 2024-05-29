@@ -1,0 +1,16 @@
+getsitemap
+numpy
+requests
+beautifulsoup4
+rank-bm25
+scikit-learn
+
+[dev]
+flake8
+black==22.3.0
+isort
+twine
+pytest
+wheel
+mkdocs-material
+mkdocs
