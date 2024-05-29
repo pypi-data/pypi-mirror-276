@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+dlqhandler.egg-info/PKG-INFO
+dlqhandler.egg-info/SOURCES.txt
+dlqhandler.egg-info/dependency_links.txt
+dlqhandler.egg-info/requires.txt
+dlqhandler.egg-info/top_level.txt
+handler/__ini__.py
+handler/dataprovider/__ini__.py
+handler/dataprovider/send_to_aws_sqs.py
+handler/dataprovider/sqs_queue.py
+handler/services/__ini__.py
+handler/services/cloudwatch.py
+handler/services/process.py
