@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ailib/__init__.py
+ailib/ai_models.py
+ailib/models.py
+modular_ai.egg-info/PKG-INFO
+modular_ai.egg-info/SOURCES.txt
+modular_ai.egg-info/dependency_links.txt
+modular_ai.egg-info/requires.txt
+modular_ai.egg-info/top_level.txt
+tests/__init__.py
+tests/test_ai_lib.py
