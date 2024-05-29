@@ -1,0 +1,15 @@
+.venv
+.DS_Store
+*.pyc
+__pycache__
+dist
+.idea
+/htmlcov/
+*.iml
+target/
+.coverage*
+coverage.*
+*.iws
+/core/gen/
+*.tokens
+spark-warehouse/
