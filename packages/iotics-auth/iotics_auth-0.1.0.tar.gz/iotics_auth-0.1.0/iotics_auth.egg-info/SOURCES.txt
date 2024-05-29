@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+iotics_auth/__init__.py
+iotics_auth/identity.py
+iotics_auth.egg-info/PKG-INFO
+iotics_auth.egg-info/SOURCES.txt
+iotics_auth.egg-info/dependency_links.txt
+iotics_auth.egg-info/requires.txt
+iotics_auth.egg-info/top_level.txt
+tests/__init__.py
+tests/test_identity.py
