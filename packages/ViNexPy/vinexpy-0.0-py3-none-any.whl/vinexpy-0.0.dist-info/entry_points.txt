@@ -1,0 +1,3 @@
+[console_scripts]
+ViNexPy=ViNexPy.cli:main
+
