@@ -1,0 +1,12 @@
+License
+README.md
+setup.py
+tests/__init__.py
+tests/test_calculator.py
+wealthwatchdog/__init__.py
+wealthwatchdog/calculator.py
+wealthwatchdog/utils.py
+wealthwatchdog.egg-info/PKG-INFO
+wealthwatchdog.egg-info/SOURCES.txt
+wealthwatchdog.egg-info/dependency_links.txt
+wealthwatchdog.egg-info/top_level.txt
