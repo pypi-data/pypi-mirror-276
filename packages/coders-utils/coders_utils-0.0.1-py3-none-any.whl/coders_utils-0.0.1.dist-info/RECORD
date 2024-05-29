@@ -1,0 +1,10 @@
+coders_utils/__init__.py,sha256=QORO3qg8JQb5y1KRBB03cUpvg40gGmLNWnezuV4cb3Q,225
+coders_utils/file_iterators.py,sha256=uGeNN1WOGPvWFhMXG16pRvsUrfEmPzOb1OiG7AINWxw,2241
+coders_utils/find_utils.py,sha256=QtNh67Vk7BZEBK4Ldb7g4TF6wr21_Kz6pSHYr_b2Ybw,3588
+coders_utils/linux_admin_ops.py,sha256=c18WxgYgDM6ofb7hJc8m2uiOdI8Ptl1k_MMV2gnfEzw,557
+coders_utils/shell.py,sha256=FOA-_RotiLyQKsREodYkKVhm2FXptO06p6FQQxCaFBU,795
+coders_utils-0.0.1.dist-info/LICENSE,sha256=uBr-ac1MfmxnzaovoKntc1ElNSIBVYTy5ogR3PpKzT0,1070
+coders_utils-0.0.1.dist-info/METADATA,sha256=cKzowkKBXMdnqoRW1xPbgnrlNYGrlmU2BGljL5Ye_l8,591
+coders_utils-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+coders_utils-0.0.1.dist-info/top_level.txt,sha256=as9JkXGwXL8UaDLXNh9iyFuxapSHikTkr3lffNXSBI4,13
+coders_utils-0.0.1.dist-info/RECORD,,
