@@ -1,0 +1,13 @@
+bambu_connect/BambuClient.py,sha256=srhhCYf2GWhtK6OZ_4Y5a4sNZHlqoNdPHCELRJPvonY,2042
+bambu_connect/CameraClient.py,sha256=dceyPRzdE_Ca_kk-6FBFF5o5pEZ5wOL59kLedSZIDtQ,3213
+bambu_connect/ExecuteClient.py,sha256=RrPJQ2uVXeFtt2pqVX90pBpZrY9eDZ8t1o90_gMiQM4,2340
+bambu_connect/FileClient.py,sha256=nxKeosH2ID9NvJRnmJGm70SnycpflA_2hvG_DFUBNy4,1745
+bambu_connect/WatchClient.py,sha256=MjMwVzN6Lmp671ZKhOEy3D94ppaM7LmVfnq-rUMOi7c,1961
+bambu_connect/__init__.py,sha256=YZ0A4ZV1YtHCiOva0fYFY0Fnr9L43f-mQWh31U0gwHs,64
+bambu_connect/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bambu_connect/utils/models.py,sha256=EXWC6_sZowlb6qKXk6fBqojXb2lYMayiKMpq3Jyhioo,7898
+bambu_connect-0.3.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bambu_connect-0.3.0.dist-info/METADATA,sha256=b5ZraIYzQvh1pdveaQqij_r4IYmLXqrdrawewlEJyNc,2427
+bambu_connect-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bambu_connect-0.3.0.dist-info/top_level.txt,sha256=yxh5gG_3TQN-FDFXFQZ7rmMhOmxnTBy4z9n3tH8u5TY,14
+bambu_connect-0.3.0.dist-info/RECORD,,
