@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pattern-outlier
+Version: 0.1.2
+Summary: A Python library for detecting outliers based on frequent pattern mining.
+Home-page: https://github.com/lihangalex/pattern-outlier
+Author: Alexander Li
+Author-email: lihangalex@pm.me
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: mlxtend
+Requires-Dist: scikit-learn
+Requires-Dist: joblib

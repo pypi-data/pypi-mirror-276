@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/pattern_outlier/__init__.py
+src/pattern_outlier/fpoff.py
+src/pattern_outlier/utils.py
+src/pattern_outlier.egg-info/PKG-INFO
+src/pattern_outlier.egg-info/SOURCES.txt
+src/pattern_outlier.egg-info/dependency_links.txt
+src/pattern_outlier.egg-info/requires.txt
+src/pattern_outlier.egg-info/top_level.txt
+tests/test_fpoff.py
