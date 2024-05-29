@@ -1,0 +1,10 @@
+README.md
+setup.py
+ragevals/__init__.py
+ragevals/ragevals.py
+ragevals/test_ragevals.py
+ragevals.egg-info/PKG-INFO
+ragevals.egg-info/SOURCES.txt
+ragevals.egg-info/dependency_links.txt
+ragevals.egg-info/requires.txt
+ragevals.egg-info/top_level.txt
