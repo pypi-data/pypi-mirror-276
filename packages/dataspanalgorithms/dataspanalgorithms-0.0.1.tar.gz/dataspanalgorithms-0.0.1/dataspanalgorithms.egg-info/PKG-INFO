@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dataspanalgorithms
+Version: 0.0.1
+Summary: Dummy package for dataspanalgorithms.
+Home-page: http://www.dataspan.ai
+Maintainer: dataspan.ai
+Maintainer-email: pypi@dataspan.ai
+License: MIT License (MIT)
+Keywords: dummy,dataspanalgorithms
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE

@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+dataspanalgorithms.py
+setup.cfg
+setup.py
+dataspanalgorithms.egg-info/PKG-INFO
+dataspanalgorithms.egg-info/SOURCES.txt
+dataspanalgorithms.egg-info/dependency_links.txt
+dataspanalgorithms.egg-info/top_level.txt
+dataspanalgorithms.egg-info/zip-safe
