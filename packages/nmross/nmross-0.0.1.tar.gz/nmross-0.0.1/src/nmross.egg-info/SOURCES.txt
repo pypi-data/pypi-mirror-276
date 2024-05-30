@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/nmross/NMRoss.py
+src/nmross/__init__.py
+src/nmross.egg-info/PKG-INFO
+src/nmross.egg-info/SOURCES.txt
+src/nmross.egg-info/dependency_links.txt
+src/nmross.egg-info/requires.txt
+src/nmross.egg-info/top_level.txt
+tests/test_NMRoss.py

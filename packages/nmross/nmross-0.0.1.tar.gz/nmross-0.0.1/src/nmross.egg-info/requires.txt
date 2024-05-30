@@ -1,0 +1,17 @@
+pubchempy==1.0.4
+numpy
+rdkit
+matplotlib
+
+[doc]
+furo
+myst-parser
+sphinx>=5
+sphinx-copybutton
+
+[test]
+hypothesis
+pytest
+pytest-cov
+tox
+genbadge[coverage]
