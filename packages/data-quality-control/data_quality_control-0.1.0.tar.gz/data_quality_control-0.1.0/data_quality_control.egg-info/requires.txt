@@ -1,0 +1,7 @@
+pytest
+os
+sys
+numpy
+pandas
+matplotlib
+datetime

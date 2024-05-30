@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data_quality_control.egg-info/PKG-INFO
+data_quality_control.egg-info/SOURCES.txt
+data_quality_control.egg-info/dependency_links.txt
+data_quality_control.egg-info/requires.txt
+data_quality_control.egg-info/top_level.txt
+data_quality_control.egg-info/zip-safe
+fun/DataQualityFlags.py
+fun/FnPeaks.py
+fun/__init__.py
+fun/pythonAssist.py
+src/run_qc.py
+tests/test_data_quality_flags.py
