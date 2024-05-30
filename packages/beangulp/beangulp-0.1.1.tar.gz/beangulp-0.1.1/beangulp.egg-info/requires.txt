@@ -1,0 +1,8 @@
+beancount>=2.3.5
+beautifulsoup4
+chardet
+click>8.0
+lxml
+
+[:sys_platform != "win32"]
+python-magic>=0.4.12
