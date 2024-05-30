@@ -1,0 +1,9 @@
+bundestag_api/__init__.py,sha256=xkV9TYWEXcrwJGTlaDvCB8LdFCqd8RsX_ROhM3hdJYo,220
+bundestag_api/bta_wrapper.py,sha256=WD3oZEuuhZyFC3cIo1yLqYDyqft9Wdt-GzJTWwvdXJE,41897
+bundestag_api/models.py,sha256=HhJEM3NcnA-AZWodKkkJD1XhGwx9LXmmbVK6wQNuQuU,20096
+bundestag_api/utils.py,sha256=swRBjBn1IjqI3CEde2wARBgKowgDMS1CbzCKHrDF2TE,665
+bundestag_api-1.0.4.dist-info/LICENSE,sha256=8YvTv402gteDx0F49zaRRnkmQktG_5Ka3Ffn_DLMRfE,1075
+bundestag_api-1.0.4.dist-info/METADATA,sha256=wXA7hKyH2n67ckL3MJcZ4QMirRQKZiBLW3wsWprXW4U,5393
+bundestag_api-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bundestag_api-1.0.4.dist-info/top_level.txt,sha256=D4wJ_y4iQcPTq0AUiuCVZq2gzTsQ62-hoU6GtCIDvAk,14
+bundestag_api-1.0.4.dist-info/RECORD,,
