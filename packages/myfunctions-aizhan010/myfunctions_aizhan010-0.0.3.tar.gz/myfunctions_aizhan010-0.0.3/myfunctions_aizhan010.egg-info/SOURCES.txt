@@ -1,0 +1,6 @@
+README.md
+setup.py
+myfunctions_aizhan010.egg-info/PKG-INFO
+myfunctions_aizhan010.egg-info/SOURCES.txt
+myfunctions_aizhan010.egg-info/dependency_links.txt
+myfunctions_aizhan010.egg-info/top_level.txt
