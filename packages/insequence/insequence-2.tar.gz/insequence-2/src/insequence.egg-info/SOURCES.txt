@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/insequence/__init__.py
+src/insequence/_action.py
+src/insequence/api.py
+src/insequence/chain.py
+src/insequence/checks.py
+src/insequence/py.typed
+src/insequence.egg-info/PKG-INFO
+src/insequence.egg-info/SOURCES.txt
+src/insequence.egg-info/dependency_links.txt
+src/insequence.egg-info/requires.txt
+src/insequence.egg-info/top_level.txt
+tests/test_action.py
+tests/test_api.py
+tests/test_chain.py

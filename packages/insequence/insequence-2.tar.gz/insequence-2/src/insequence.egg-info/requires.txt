@@ -1,0 +1,13 @@
+
+[test]
+coverage
+nox
+pytest
+pytest-cov
+pytest-randomly
+
+[test:python_version < "3.11"]
+tomli
+
+[typing]
+typing-extensions>=4.1

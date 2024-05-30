@@ -1,0 +1,87 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=61",
+]
+
+[project]
+name = "insequence"
+description = "A python library for function composition and execution orchestration."
+readme = "README.md"
+authors = [
+    { name = "Christian Heinze" },
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+]
+dynamic = [
+    "version",
+]
+dependencies = [
+]
+optional-dependencies.test = [
+    "coverage",
+    "nox",
+    "pytest",
+    "pytest-cov",
+    "pytest-randomly",
+    "tomli; python_version<'3.11'",
+]
+optional-dependencies.typing = [
+    "typing-extensions>=4.1",
+]
+urls.Repository = "https://codeberg.org/christianheinze/insequence"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = [
+    "src",
+]
+include = [
+    "insequence*",
+]
+namespaces = false
+
+[tool.setuptools.dynamic]
+version = { attr = "insequence.__version__" }
+
+[tool.setuptools.package-data]
+insequence = [
+    "py.typed",
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "--cov=insequence",
+]
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    "tests",
+] # required for tests to find the base module
+python_files = "test_*.py"
+filterwarnings = [
+    "error",
+]
+
+[tool.pyright]
+include = [
+    "src",
+    "tests",
+]
+pythonVersion = "3.11"
+venvPath = "."
+venv = ".venv"
