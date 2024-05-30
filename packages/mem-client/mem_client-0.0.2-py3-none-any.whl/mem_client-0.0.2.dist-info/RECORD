@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=PoQ8oiIpjH6bVv-6s0OfE8iO9TENjSqW0Ff2v14RkMM,90
+tests/test_client.py,sha256=VPakPiuQnay-SQ0O4FGOi3g__Fb9ZEVOyj7sppS0CWo,3266
+mem_client-0.0.2.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+mem_client-0.0.2.dist-info/METADATA,sha256=vz6woIYs0lCCYhsa4mYC5S_p1D93f2cpvxA17nZq8Ak,6620
+mem_client-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mem_client-0.0.2.dist-info/entry_points.txt,sha256=vJRw2jiU3GLyK3yvn74m_YpbQDDlfmptdZevPCZOHn8,40
+mem_client-0.0.2.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+mem_client-0.0.2.dist-info/RECORD,,
