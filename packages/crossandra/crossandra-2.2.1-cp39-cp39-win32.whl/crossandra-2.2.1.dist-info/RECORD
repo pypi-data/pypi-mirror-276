@@ -1,0 +1,16 @@
+3219a501864e4a26eb38__mypyc.cp39-win32.pyd,sha256=i2bTcJ7SnLoU214v2p12GOvxOqlgXdGgu-WSVOoeKHU,97792
+crossandra/__init__.cp39-win32.pyd,sha256=YNR8Whj8TFTwS4D8r4trShbdvobM_oCgPKoNNZcO35E,8704
+crossandra/__init__.py,sha256=BkATW1sxdo9pSL54DhD20vgRZUU3V7MS6qHbIZdPhec,485
+crossandra/common.cp39-win32.pyd,sha256=bzo9gjCV31iQDUCss80EakqBnivYXaAPO41tBBF5jwk,8704
+crossandra/common.py,sha256=JOA94-s8_jf1jalDtVu7Opc3nVb5o3UXwL9oqHmsJEY,2686
+crossandra/exceptions.py,sha256=FjDq17A-AK2pFlD282PjJ0t5YzJjt-MeTVNOaCG5HjI,295
+crossandra/lib.cp39-win32.pyd,sha256=BRlP_e6ncWj5uEoJrbIHpXRiAGExFPCasCOicJnFh9M,8704
+crossandra/lib.py,sha256=SfUXRfXjfhz5WylEWySVm-OYjVNLhPVBRQ-xj6_2b2Y,6459
+crossandra/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crossandra/rule.cp39-win32.pyd,sha256=DF0T3UHVKsIt_69EUJk3TE1ZeatQZOv9Y8y69sixPLY,8704
+crossandra/rule.py,sha256=wKxIHctj9SrY3kUm8BosUjuL08lF95xyNQfgq9zRB10,4411
+crossandra-2.2.1.dist-info/LICENSE,sha256=SVVStbG_abCIHyUQszgZvVg4ghNhDFV2fBZtqaT9qnk,1074
+crossandra-2.2.1.dist-info/METADATA,sha256=i3J6x7KJNW89DGcMSJ9r34JgRcTdIXP8bon-1s3tXSU,3124
+crossandra-2.2.1.dist-info/WHEEL,sha256=J4VEqyL9z1mLE9UmMSsP54FoLo18dqSe_E9pRPZ-IbI,96
+crossandra-2.2.1.dist-info/top_level.txt,sha256=byDgMmGekNsSBdSFHO4UvpWis_tkHmHdJPG86v8LwTg,39
+crossandra-2.2.1.dist-info/RECORD,,
