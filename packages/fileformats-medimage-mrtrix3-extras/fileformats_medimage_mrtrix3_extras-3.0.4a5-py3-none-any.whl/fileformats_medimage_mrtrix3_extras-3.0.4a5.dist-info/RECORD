@@ -1,0 +1,11 @@
+fileformats/extras/medimage_mrtrix3/__init__.py,sha256=O-jwvV8lslHp_O2eLyGQXTwAWsXO1HvTvvBYvbF_pmg,124
+fileformats/extras/medimage_mrtrix3/_version.py,sha256=4x6ve4aYpZSCEO5H-nS21q-hWIr0mTUFZbqS2QxO874,413
+fileformats/extras/medimage_mrtrix3/converters.py,sha256=xZd2e4YHs9EN1XyFOqnUK-pHW-EmzdIJffHlSfb3_eo,1650
+fileformats/extras/medimage_mrtrix3/gradients.py,sha256=YZB1zIwh-d8xixY1XsOCrosNVFXAcycTHZhE6NdTvV0,311
+fileformats/extras/medimage_mrtrix3/image.py,sha256=ih8uqe_z-egK5JFpY69XMk6eMKhgXg53nlEheykV9js,1057
+fileformats/extras/medimage_mrtrix3/tracks.py,sha256=CHG5saI1_ZVvbfzGCk_7sFxdfFOIkoh3RMO31Z0TVak,1202
+fileformats/extras/medimage_mrtrix3/tests/test_converters.py,sha256=XKBcD4zw2TJX4AYXeFeuX6ISWJqu0sE2dE7CvvScv88,571
+fileformats_medimage_mrtrix3_extras-3.0.4a5.dist-info/METADATA,sha256=8UgYZGCYIgUc2Nph0tz0OC9jauqY-S1Z4cGOgPmQ_Lw,18242
+fileformats_medimage_mrtrix3_extras-3.0.4a5.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+fileformats_medimage_mrtrix3_extras-3.0.4a5.dist-info/licenses/LICENSE,sha256=mLDTky5sttlrxNKUrmVtsV5Y1O6_bGOYbV9V0DWmDMY,14223
+fileformats_medimage_mrtrix3_extras-3.0.4a5.dist-info/RECORD,,
