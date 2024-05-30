@@ -1,0 +1,10 @@
+addereq-1.1.0.dist-info/WHEEL,sha256=nVn7tiuPZ1w8BVrtVo1fH12asvHZFq490_Ze33e3eFo,111
+addereq-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+addereq-1.1.0.dist-info/top_level.txt,sha256=kTOP05dPDJJ_BcjbvtEfnk5o3vVaHkqY_JPbOoDhkUc,8
+addereq-1.1.0.dist-info/RECORD,,
+addereq-1.1.0.dist-info/METADATA,sha256=C6xu6IdY1W-g4G11j572-p0iaEtBMOwRC-uVRHPHFGg,818
+addereq/cleaning.cpython-311-i386-linux-musl.so,sha256=BczUMJx9POCJe-XRrxqqxkH0j1sr4ajw4nSDV0g3eBM,387132
+addereq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addereq/fetching_mysql.cpython-311-i386-linux-musl.so,sha256=yunqWytL4ISnh4ILKvalLNbARhB4ylWVgzaZX-m9MZM,947408
+addereq/fetching.cpython-311-i386-linux-musl.so,sha256=9yxxGhDm4x-EeCxFbJ9_XWh-L5GsG64NcHJ3hKXgf40,1139608
+addereq/plotting.cpython-311-i386-linux-musl.so,sha256=zIyVMehBVwp92MqkegA5ZRlk2rXuORPfDqjSSCUIY-0,1677584
