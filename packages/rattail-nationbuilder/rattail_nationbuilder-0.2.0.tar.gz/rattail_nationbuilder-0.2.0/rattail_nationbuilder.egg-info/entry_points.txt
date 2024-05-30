@@ -1,0 +1,14 @@
+[rattail.config.extensions]
+rattail_nationbuilder = rattail_nationbuilder.config:RattailNationBuilderExtension
+
+[rattail.importing]
+to_rattail.from_nationbuilder.import = rattail_nationbuilder.importing.nationbuilder:FromNationBuilderToRattail
+
+[rattail.providers]
+rattail_nationbuilder = rattail_nationbuilder.app:NationBuilderProvider
+
+[rattail.subcommands]
+import-nationbuilder = rattail_nationbuilder.commands:ImportNationBuilder
+
+[rattail.typer_imports]
+rattail_nationbuilder = rattail_nationbuilder.commands
