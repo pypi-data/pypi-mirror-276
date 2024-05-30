@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: jsondataferret
+Version: 0.7.1
+Summary: Django App for managing JSON Data
+Home-page: https://github.com/OpenDataServices/json-data-ferret
+Author: Open Data Services
+Author-email: code@opendataservices.coop
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Django (>=3.2)
+Requires-Dist: Pygments
+Requires-Dist: django-filter
+Requires-Dist: json-merge-patch
+Requires-Dist: jsonmerge
+Requires-Dist: jsonschema
+Requires-Dist: psycopg2
+Requires-Dist: spreadsheetforms
+Provides-Extra: dev
+Requires-Dist: black (==22.3) ; extra == 'dev'
+Requires-Dist: django-environ ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+
+UNKNOWN
+
