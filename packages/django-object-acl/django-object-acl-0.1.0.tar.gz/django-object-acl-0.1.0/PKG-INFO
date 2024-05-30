@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: django-object-acl
+Version: 0.1.0
+Summary: Adds object level permission for your models
+Author: Noam Ben-Yechiel
+Author-email: nbenyechiel@twistbioscience.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: django (>=5.0.6,<6.0.0)
