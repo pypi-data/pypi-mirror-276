@@ -1,0 +1,8 @@
+setup.py
+th.py
+TermHand.egg-info/PKG-INFO
+TermHand.egg-info/SOURCES.txt
+TermHand.egg-info/dependency_links.txt
+TermHand.egg-info/entry_points.txt
+TermHand.egg-info/requires.txt
+TermHand.egg-info/top_level.txt
