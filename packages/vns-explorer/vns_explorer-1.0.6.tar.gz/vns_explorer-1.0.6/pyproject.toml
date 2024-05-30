@@ -1,0 +1,34 @@
+# Build System Configuration
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+# Metadata Information
+[project]
+name = "vns_explorer"
+version = "1.0.6"
+description = "Discover the Unseen"
+authors = [
+    { name = "Thinh Vu", email = "mrthinh@live.com" },
+    ]
+license = { file = "LICENSE.md" }
+requires-python = ">=3.10"
+readme = { file = "README.md", content-type = "text/markdown" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "webdriver-manager"
+]
+
+# Dependency Management
+[project.optional-dependencies]
+dev = ["flake8"]
+test = ["unittest"]
+

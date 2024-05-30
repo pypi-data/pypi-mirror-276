@@ -1,0 +1,8 @@
+requests
+webdriver-manager
+
+[dev]
+flake8
+
+[test]
+unittest
