@@ -1,0 +1,10 @@
+License.txt
+README.md
+pyproject.toml
+setup.cfg
+src/compressfiles/__init__.py
+src/compressfiles/compressfiles.py
+src/compressfiles.egg-info/PKG-INFO
+src/compressfiles.egg-info/SOURCES.txt
+src/compressfiles.egg-info/dependency_links.txt
+src/compressfiles.egg-info/top_level.txt

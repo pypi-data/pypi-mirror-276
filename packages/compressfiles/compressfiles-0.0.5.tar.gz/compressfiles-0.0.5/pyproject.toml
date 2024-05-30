@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "numpy",
+    "pandas",
+    "wheel",
+    "pathlib",
+    "typing",
+    "tqdm"
+]
+build-backend = "setuptools.build_meta"
