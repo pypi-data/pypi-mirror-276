@@ -1,0 +1,21 @@
+{% ckan_extends %}
+
+
+{% block body_extras -%}
+    <span class="hidden" data-module="wysiwyg-ckeditor5-init wysiwyg-summernote-init"></span>
+{%- endblock %}
+
+{%- block scripts %}
+    {% asset 'wysiwyg/wysiwyg-ckeditor5-js' %}
+    {% asset 'wysiwyg/wysiwyg-summernote-js' %}
+
+    {{ super() }}
+{% endblock -%}
+
+
+{%- block styles -%}
+    {% asset 'wysiwyg/wysiwyg-ckeditor5-css' %}
+    {% asset 'wysiwyg/wysiwyg-summernote-css' %}
+
+    {{ super() }}
+{% endblock %}
