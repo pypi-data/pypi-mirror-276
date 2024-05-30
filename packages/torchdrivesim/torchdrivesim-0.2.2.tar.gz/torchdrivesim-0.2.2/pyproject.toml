@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torchdrivesim"
+authors = [
+    {name = "Inverted AI Ltd.", email = "info@inverted.ai"},
+]
+description = "TorchDriveSim is a lightweight 2D driving simulator, built entirely in PyTorch, primarily intended as a training environment for developing autonomous driving algorithms"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["torch", "drive", "sim", "torch-drive-sim", "torchdrivesim", "invertedai", "inverted ai"]
+license = {file = "LICENSE.md"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "shapely",
+    "scipy",
+    "imageio",
+    "torch>=1.10.1",
+    "invertedai",
+    "omegaconf",
+    "opencv-python",
+]
+dynamic = ["version",]
+
+[project.optional-dependencies]
+dev = ["gym"]
+tests = ["pytest==5.4.3"]
+docs = ["Sphinx",
+"myst-parser",
+"furo",
+"sphinx-copybutton",
+"sphinx_design",
+"sphinxcontrib-applehelp",
+"sphinxcontrib-devhelp",
+"sphinxcontrib-htmlhelp",
+"sphinxcontrib-jsmath",
+"sphinxcontrib-qthelp",
+"sphinxcontrib-serializinghtml",
+"sphinx-autoapi",
+"pydata-sphinx-theme",
+"sphinx-autobuild",
+"nbsphinx",
+"breathe"]
+
+[tool.setuptools.dynamic]
+version = {attr = "torchdrivesim.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["torchdrivesim*"]
