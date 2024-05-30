@@ -1,0 +1,95 @@
+# StoryWeaver
+
+## Overview
+StoryWeaver sets up a React environment with Storybook for component-driven development and testing. It includes an integrated FastAPI server to mock API responses using user-generated JSON files. The setup script automates Storybook configuration, story generation for React components, and optional FastAPI mock server startup, enhancing the development workflow.
+
+## Features
+- **Storybook Integration**: Automatically configures Storybook for your React project.
+- **Story Generation**: Generates story files for each React component.
+- **API Mocking**: Uses FastAPI to mock API responses from user-provided JSON files.
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/storyweaver.git
+   cd storyweaver
+   ```
+
+2. **Install Dependencies**
+
+   Using [Poetry](https://python-poetry.org/):
+
+   ```bash
+   poetry install
+   ```
+
+3. **Initialize Your React Project**
+
+   If you haven't already, set up your React project and install Storybook:
+
+   ```bash
+   npx create-react-app my-project
+   cd my-project
+   npx sb init
+   ```
+
+## Usage
+
+1. **Setup Storybook and Generate Stories**
+
+   ```bash
+   poetry run python setup_storybook.py path/to/components
+   ```
+
+2. **Optionally, Start the FastAPI Mock Server**
+
+   ```bash
+   poetry run python setup_storybook.py path/to/components --mock
+   ```
+
+3. **Run Storybook**
+
+   ```bash
+   npm run storybook
+   ```
+
+## Project Structure
+
+- **setup_storybook.py**: Script to configure Storybook and generate stories.
+- **mock_api.py**: FastAPI server script to mock API responses.
+- **mock_api**: Directory containing user-generated JSON files for API responses.
+
+<!-- ## Example
+
+Here's an example of how you might structure your project:
+
+```
+my-project/
+│
+├── src/
+│   ├── components/
+│   │   ├── Button.js
+│   │   └── Header.js
+│   └── ...
+├── .storybook/
+│   ├── main.js
+│   └── preview.js
+├── mock_api/
+│   ├── users.json
+│   └── products.json
+├── setup_storybook.py
+├── mock_api.py
+└── ...
+``` -->
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+

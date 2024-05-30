@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "storyweaver"
+version = "0.1.0"
+description = "Sets up React with Storybook for component-driven development, including a FastAPI server to mock API responses from user-generated JSON files. Automates Storybook configuration, story generation, and optional mock server startup."
+authors = ["Ali Tavallaie <a.tavallaie@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
