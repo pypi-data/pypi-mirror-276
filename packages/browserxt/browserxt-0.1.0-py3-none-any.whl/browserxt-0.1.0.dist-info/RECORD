@@ -1,0 +1,11 @@
+browserxt-0.1.0.dist-info/METADATA,sha256=ErPGKMfhdf0-k-TAX-KfpmS6eT7V9JF6un2VLpoj3fg,3839
+browserxt-0.1.0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+browserxt-0.1.0.dist-info/entry_points.txt,sha256=KJBs03HQTwEE0NCwDTbSeQX-ncJq-qyycJlH3wXXvAA,49
+browserxt-0.1.0.dist-info/licenses/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+browserxt/__init__.py,sha256=V_s5APnTrcYR9ViAH4oWJLcP2AhE79S3oevBlY38jts,72
+browserxt/browser.py,sha256=Jx5qDRCnMSBIv6bhHAfJttyONwUs4xQCQJcYrZO4Zvg,4677
+browserxt/cli.py,sha256=3M3O63aPAtmvcNyABXJ9xrgIgjhnmfmgHJ86kcj5SAI,1124
+browserxt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browserxt/settings.py,sha256=gGTYB6CaUdKPmKQep_D1NO7e_iLzljp6j_XwikmRCT4,1024
+browserxt/utils.py,sha256=FpxVwAFN8SS9_2R2lU40ZOhJBpjFFJM6m8HufqP9dlI,589
+browserxt-0.1.0.dist-info/RECORD,,
