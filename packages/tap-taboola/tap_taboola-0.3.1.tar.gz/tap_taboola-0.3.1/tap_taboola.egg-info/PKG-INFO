@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tap-taboola
+Version: 0.3.1
+Summary: Singer.io tap for extracting data from the Taboola API
+Home-page: http://www.singer.io
+Author: Fishtown Analytics
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: singer-python==5.13.0
+Requires-Dist: backoff==1.8.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: python-dateutil==2.6.0
+Provides-Extra: dev
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: ipdb; extra == "dev"
