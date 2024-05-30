@@ -1,0 +1,9 @@
+README.md
+setup.py
+myfunctions_farrukh90/__init__.py
+myfunctions_farrukh90/math.py
+myfunctions_farrukh90.egg-info/PKG-INFO
+myfunctions_farrukh90.egg-info/SOURCES.txt
+myfunctions_farrukh90.egg-info/dependency_links.txt
+myfunctions_farrukh90.egg-info/requires.txt
+myfunctions_farrukh90.egg-info/top_level.txt
