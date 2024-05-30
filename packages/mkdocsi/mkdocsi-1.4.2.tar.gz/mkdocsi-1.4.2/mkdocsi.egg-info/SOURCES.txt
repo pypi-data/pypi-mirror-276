@@ -1,0 +1,9 @@
+README.md
+setup.py
+mkdocsi/__init__.py
+mkdocsi.egg-info/PKG-INFO
+mkdocsi.egg-info/SOURCES.txt
+mkdocsi.egg-info/dependency_links.txt
+mkdocsi.egg-info/entry_points.txt
+mkdocsi.egg-info/requires.txt
+mkdocsi.egg-info/top_level.txt
