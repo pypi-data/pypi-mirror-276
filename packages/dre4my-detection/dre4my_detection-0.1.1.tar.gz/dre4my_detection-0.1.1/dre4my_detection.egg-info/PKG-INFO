@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dre4my_detection
+Version: 0.1.1
+Summary: Library for detecting abnormal HTTP-packets using one of the methods:
+Author: Dre4my
+Description-Content-Type: text/markdown
+
+# anomaly_detection_methods
+2 methods for analyzing network traffic: 
+- Signature-based,
+- ML-based
+
+To be updated soon...

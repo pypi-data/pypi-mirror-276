@@ -1,0 +1,3 @@
+include anomaly_detection_methods/SIGNATURE_BASED/signatures.json
+include anomaly_detection_methods/ML_BASED/logistic_regression_model.pkl
+include anomaly_detection_methods/ML_BASED/tfidf_vectorizer.pkl
