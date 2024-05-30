@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chess-transformer
+Version: 0.1.16
+Summary: package_description
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/REPO.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: chess
+Requires-Dist: jaxtyping
+Requires-Dist: haskellian
+Requires-Dist: chess-notation
+Requires-Dist: chess-utils
+
+# Chess Transformer
+
+> package_description
