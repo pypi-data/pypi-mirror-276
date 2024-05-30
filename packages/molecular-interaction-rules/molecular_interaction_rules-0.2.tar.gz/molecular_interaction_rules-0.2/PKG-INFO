@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: molecular_interaction_rules
+Version: 0.2
+Summary: UNKNOWN
+Home-page: https://www.github.com/mackerell-lab/Non-Covalent-Molecular-Interaction-Rules
+Author: Suliman Sharif
+Author-email: sharifsuliman1@gmail.com
+License: GPL
+Description: # Non-Covalent-Molecular-Interaction-Rules
+Keywords: molcules non-covalent interactions rules geometry
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
