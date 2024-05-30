@@ -1,0 +1,12 @@
+py_notepad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_notepad/main.py,sha256=26rPaINr7GaIDUQH8ngT6HVolQya0OA_c94_fyT7o8k,321
+py_notepad/notepad_data_manager.py,sha256=G4j9x78ivUDnXE9S5-60v72iyEsV-0ZBsS2Kh8pkNBw,5223
+py_notepad/py_notepad.py,sha256=tAP91gs1__t8yv16BqjbCYCmdkOrezYIksQqm-Og-uU,14807
+py_notepad/py_notepad_widget.py,sha256=5Ez51OD_YHaIx05EFiUvzWcyuQzJYpdismi0zHE97fM,21707
+py_notepad/resources_rc.py,sha256=kUSUxLhOfxY5KpJIbnaYWavu5dr2QWxbucKihU7UJSs,174777
+py_notepad/settings_dialog.py,sha256=Ci1FF9_t9iMhiKtPuglyUthYKvck57Kyl4WWaJviP1Y,2586
+heros_notepad-0.1.0.dist-info/METADATA,sha256=hJXLGo9d_GfwiQwL239LHJNOvFfdyq94QiT7WWoVZE8,525
+heros_notepad-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+heros_notepad-0.1.0.dist-info/entry_points.txt,sha256=EvvjXvCkmQISvsYiuMaoTxwF2BZa_k041JvjkduXgWk,52
+heros_notepad-0.1.0.dist-info/top_level.txt,sha256=sDFU-0wx9Vz7MqJaKK86U9TaxiWVq5YUbKtZOY9bb1Y,11
+heros_notepad-0.1.0.dist-info/RECORD,,
