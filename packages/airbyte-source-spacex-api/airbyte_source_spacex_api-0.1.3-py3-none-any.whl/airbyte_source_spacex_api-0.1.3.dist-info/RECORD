@@ -1,0 +1,8 @@
+source_spacex_api/__init__.py,sha256=CHkyd9Mn_dqvao1-DuP6tL6qnkGiQ9NOjdZ8OB1mOvQ,130
+source_spacex_api/manifest.yaml,sha256=M9ZXnT6KXHizZWW4yn2BWF9AXwD1Mj9DVbY8MvdV4Zk,35523
+source_spacex_api/run.py,sha256=eZyHBc7Pqd9MjD4TIgbU36mQ2yIQQHANHPMc1Sbn_FE,231
+source_spacex_api/source.py,sha256=LQyIJ2S_fVLuumq6YgiydcN-GjXlEOr6ZoFK3cs7VRA,478
+airbyte_source_spacex_api-0.1.3.dist-info/METADATA,sha256=AixcsQd2LkriOiKLn0waZXgEzwyDh9pn49It3S2k_BA,5281
+airbyte_source_spacex_api-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_spacex_api-0.1.3.dist-info/entry_points.txt,sha256=Niz_0TbLBRnNfF8QjjMC3CK4H6gS83JfjrmJcGjmzP0,63
+airbyte_source_spacex_api-0.1.3.dist-info/RECORD,,
