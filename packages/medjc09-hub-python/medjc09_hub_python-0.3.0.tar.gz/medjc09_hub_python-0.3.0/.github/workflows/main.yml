@@ -1,0 +1,74 @@
+name: main
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Install Rye
+        id: setup-rye
+        uses: eifinger/setup-rye@v3
+        with:
+          enable-cache: true
+
+      - name: Cache MyPy Cache
+        uses: actions/cache@v4
+        with:
+          path: .mypy_cache
+          key: ${{ runner.os }}-mypy-${{ hashFiles('**/*.TAG') }}
+          restore-keys: |
+            ${{ runner.os }}-mypy-
+
+      - name: Cache Ruff Cache
+        uses: actions/cache@v4
+        with:
+          path: .ruff_cache
+          key: ${{ runner.os }}-ruff-${{ hashFiles('**/*.TAG') }}
+          restore-keys: |
+            ${{ runner.os }}-ruff-
+
+      - name: Install Dependencies
+        run: rye sync
+
+      - name: Run Ruff Linter
+        run: rye run ruff .
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Install Rye
+        id: setup-rye
+        uses: eifinger/setup-rye@v3
+        with:
+          enable-cache: true
+
+      - name: Cache Pytest Cache
+        uses: actions/cache@v4
+        with:
+          path: .pytest_cache
+          key: ${{ runner.os }}-pytest-${{ hashFiles('**/*.TAG') }}
+          restore-keys: |
+            ${{ runner.os }}-pytest-
+
+      - name: Install Dependencies
+        run: rye sync
+
+      - name: Run Pytest
+        run: rye run pytest .
