@@ -1,0 +1,41 @@
+{
+  "status": "done",
+  "assets": {
+    "kolibri.plugins.media_player.main0.16.2.css": {
+      "name": "kolibri.plugins.media_player.main0.16.2.css",
+      "path": "/__w/kolibri/kolibri/kolibri/plugins/media_player/static/kolibri.plugins.media_player.main/kolibri.plugins.media_player.main0.16.2.css"
+    },
+    "kolibri.plugins.media_player.main-0.16.2.js": {
+      "name": "kolibri.plugins.media_player.main-0.16.2.js",
+      "path": "/__w/kolibri/kolibri/kolibri/plugins/media_player/static/kolibri.plugins.media_player.main/kolibri.plugins.media_player.main-0.16.2.js"
+    },
+    "kolibri.plugins.media_player.main0.16.2.rtl.css": {
+      "name": "kolibri.plugins.media_player.main0.16.2.rtl.css",
+      "path": "/__w/kolibri/kolibri/kolibri/plugins/media_player/static/kolibri.plugins.media_player.main/kolibri.plugins.media_player.main0.16.2.rtl.css"
+    },
+    "kolibri.plugins.media_player.main-0.16.2.js.LICENSE.txt": {
+      "name": "kolibri.plugins.media_player.main-0.16.2.js.LICENSE.txt",
+      "path": "/__w/kolibri/kolibri/kolibri/plugins/media_player/static/kolibri.plugins.media_player.main/kolibri.plugins.media_player.main-0.16.2.js.LICENSE.txt"
+    },
+    "kolibri.plugins.media_player.main-0.16.2.js.map": {
+      "name": "kolibri.plugins.media_player.main-0.16.2.js.map",
+      "path": "/__w/kolibri/kolibri/kolibri/plugins/media_player/static/kolibri.plugins.media_player.main/kolibri.plugins.media_player.main-0.16.2.js.map"
+    }
+  },
+  "chunks": {
+    "kolibri.plugins.media_player.main": [
+      {
+        "name": "kolibri.plugins.media_player.main0.16.2.css",
+        "path": "/__w/kolibri/kolibri/kolibri/plugins/media_player/static/kolibri.plugins.media_player.main/kolibri.plugins.media_player.main0.16.2.css"
+      },
+      {
+        "name": "kolibri.plugins.media_player.main-0.16.2.js",
+        "path": "/__w/kolibri/kolibri/kolibri/plugins/media_player/static/kolibri.plugins.media_player.main/kolibri.plugins.media_player.main-0.16.2.js"
+      },
+      {
+        "name": "kolibri.plugins.media_player.main0.16.2.rtl.css",
+        "path": "/__w/kolibri/kolibri/kolibri/plugins/media_player/static/kolibri.plugins.media_player.main/kolibri.plugins.media_player.main0.16.2.rtl.css"
+      }
+    ]
+  }
+}
