@@ -1,0 +1,3 @@
+[console_scripts]
+tif_to_zarr=tif_to_zarr.tif_to_zarr:tif_to_zarr
+
