@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mcd_stitcher
+Version: 0.1.4
+Summary: MCD to Zarr conversion and stitching
+Home-page: https://github.com/PawanChaurasia/mcd_stitcher
+Author: Pawan Chaurasia
+Author-email: pchaurasia98@gmail.com
+Project-URL: Bug Tracker, https://github.com/PawanChaurasia/mcd_stitcher/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python_dateutil
+Requires-Dist: xarray
+Requires-Dist: zarr
+Requires-Dist: scikit-image
+Requires-Dist: xmltodict
+Requires-Dist: tifffile
+
+# MCD STITCHER
+
+Stitch rois from MCD files into OME-TIFFS.
+
+## Install
+
+```
+pip install mcd_stitcher
+```
+
+### Requirements
+
+* click
+* numpy
+* pandas
+* python_dateutil
+* xarray
+* zarr
+* scikit-image
+
+## Command line usage
+
+*MCD to Zarr converter
+
+imc2zarr <mcd_folder> <zarr_folder>
+
+*Zarr dataset stitcher
+
+zarr_stitch <zarr_folder>
+
+*Composite MCD to Zarr to Stitch function
+
+mcd_stitch <mcd_folder> <zarr_folder>
+
+### Arguments
+* mcd_folder:
+  * The root folder of the IMC scan containing a single and/or multiple mcd files.
+* zarr_folder: 
+  * Storage location of converted MCD files in Zarr format and the starting point for stitching zarr files.
