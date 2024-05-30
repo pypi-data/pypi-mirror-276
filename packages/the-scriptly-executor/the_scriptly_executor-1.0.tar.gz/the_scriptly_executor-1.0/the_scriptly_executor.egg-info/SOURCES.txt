@@ -1,0 +1,10 @@
+MANIFEST.in
+requirements.txt
+setup.py
+the_scriptly_executor/__init__.py
+the_scriptly_executor/bot.py
+the_scriptly_executor.egg-info/PKG-INFO
+the_scriptly_executor.egg-info/SOURCES.txt
+the_scriptly_executor.egg-info/dependency_links.txt
+the_scriptly_executor.egg-info/requires.txt
+the_scriptly_executor.egg-info/top_level.txt

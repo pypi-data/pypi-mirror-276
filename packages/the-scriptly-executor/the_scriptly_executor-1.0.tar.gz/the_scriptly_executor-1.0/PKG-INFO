@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: the-scriptly-executor
+Version: 1.0
+Author: gabrg4
+Author-email: gabriele.goffredo.06+pypi@gmail.com
+Keywords: python,discord,scriptly,speech recognition,speech to text,stt
+Requires-Dist: discord.py>=2.3.2
