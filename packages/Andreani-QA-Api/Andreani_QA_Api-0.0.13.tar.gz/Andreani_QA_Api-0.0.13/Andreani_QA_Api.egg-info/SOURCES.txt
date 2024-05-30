@@ -1,0 +1,9 @@
+README.md
+setup.py
+Andreani_QA_Api/Api.py
+Andreani_QA_Api/__init__.py
+Andreani_QA_Api.egg-info/PKG-INFO
+Andreani_QA_Api.egg-info/SOURCES.txt
+Andreani_QA_Api.egg-info/dependency_links.txt
+Andreani_QA_Api.egg-info/requires.txt
+Andreani_QA_Api.egg-info/top_level.txt
