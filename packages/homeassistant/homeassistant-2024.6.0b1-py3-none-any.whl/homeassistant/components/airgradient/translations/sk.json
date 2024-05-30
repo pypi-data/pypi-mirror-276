@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Zariadenie u\u017e je nakonfigurovan\u00e9"
+        },
+        "error": {
+            "cannot_connect": "Nepodarilo sa pripoji\u0165",
+            "unknown": "Neo\u010dak\u00e1van\u00e1 chyba"
+        },
+        "flow_title": "{model}",
+        "step": {
+            "discovery_confirm": {
+                "description": "Chcete nastavi\u0165 {model}?"
+            },
+            "user": {
+                "data": {
+                    "host": "Hostite\u013e"
+                },
+                "data_description": {
+                    "host": "N\u00e1zov hostite\u013ea alebo IP adresa zariadenia Airgradient."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "nitrogen_index": {
+                "name": "Index dus\u00edka"
+            },
+            "pm003_count": {
+                "name": "Po\u010det PM0.3"
+            },
+            "raw_nitrogen": {
+                "name": "Surov\u00fd dus\u00edk"
+            },
+            "raw_total_volatile_organic_component": {
+                "name": "Surov\u00e9 celkov\u00e9 VOC"
+            },
+            "total_volatile_organic_component_index": {
+                "name": "Celkov\u00fd index VOC"
+            }
+        }
+    }
+}
