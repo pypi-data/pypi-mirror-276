@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: poni2006
+Version: 1.2.0
+Summary: Data and formalisms from Poni et al. (2006)
+Author-email: revesansparole <revesansparole@gmail.com>
+Maintainer-email: revesansparole <revesansparole@gmail.com>, Jerome Chopard <revesansparole@gmail.com>
+License: cc_by_nc
+Project-URL: repository, https://gitlab.com/b326/poni2006
+Project-URL: pip, https://pypi.org/project/poni2006/1.2.0/
+Project-URL: conda, https://anaconda.org/revesansparole/poni2006
+Project-URL: doc, https://b326.gitlab.io/poni2006/
+Project-URL: pypi, https://badge.fury.io/py/poni2006
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-gallery ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: dvlpt
+Requires-Dist: twine ; extra == 'dvlpt'
+Provides-Extra: example
+Requires-Dist: matplotlib ; extra == 'example'
+Requires-Dist: pandas ; extra == 'example'
+Provides-Extra: script
+Requires-Dist: graphextract ; extra == 'script'
+Requires-Dist: numpy ; extra == 'script'
+Requires-Dist: pandas ; extra == 'script'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+
+========================
+poni2006
+========================
+
+.. {# pkglts, doc
+
+.. image:: https://b326.gitlab.io/poni2006/_images/badge_pkging_pip.svg
+    :alt: PyPI version
+    :target: https://pypi.org/project/poni2006/1.2.0/
+
+.. image:: https://b326.gitlab.io/poni2006/_images/badge_pkging_conda.svg
+    :alt: Conda version
+    :target: https://anaconda.org/revesansparole/poni2006
+
+.. image:: https://b326.gitlab.io/poni2006/_images/badge_doc.svg
+    :alt: Documentation status
+    :target: https://b326.gitlab.io/poni2006/
+
+.. image:: https://badge.fury.io/py/poni2006.svg
+    :alt: PyPI version
+    :target: https://badge.fury.io/py/poni2006
+
+.. #}
+.. {# pkglts, glabpkg_dev, after doc
+
+main: |main_build|_ |main_coverage|_
+
+.. |main_build| image:: https://gitlab.com/b326/poni2006/badges/main/pipeline.svg
+.. _main_build: https://gitlab.com/b326/poni2006/commits/main
+
+.. |main_coverage| image:: https://gitlab.com/b326/poni2006/badges/main/coverage.svg
+.. _main_coverage: https://gitlab.com/b326/poni2006/commits/main
+.. #}
+
+Data and formalisms from Poni et al. (2006)
+
