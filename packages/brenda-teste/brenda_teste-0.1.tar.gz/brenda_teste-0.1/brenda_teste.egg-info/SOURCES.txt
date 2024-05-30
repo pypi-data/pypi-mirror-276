@@ -1,0 +1,8 @@
+README.md
+setup.py
+brenda_teste/__init__.py
+brenda_teste/main.py
+brenda_teste.egg-info/PKG-INFO
+brenda_teste.egg-info/SOURCES.txt
+brenda_teste.egg-info/dependency_links.txt
+brenda_teste.egg-info/top_level.txt
