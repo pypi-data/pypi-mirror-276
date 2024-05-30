@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pygdatax
+Version: 0.2.10
+Summary: Python Based Progamme for SAXS data treatment on XEUSS diffractometer
+Home-page: 
+Author: achennev
+Author-email: alexis.chenneviere@cea.fr
+Requires-Python: >=3.6
+Requires-Dist: silx
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pyFAI
+Requires-Dist: nexusformat
+Requires-Dist: openpyxl
+Requires-Dist: pyyaml
+Requires-Dist: ipython
+
