@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: my_sum_module
+Version: 0.1.0
+Summary: A simple module to add two numbers
+Home-page: https://github.com/votre_github/my_sum_module
+License: MIT
+Author: Votre Nom
+Author-email: votre.email@example.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/votre_github/my_sum_module
+Description-Content-Type: text/markdown
+
+# my_sum_module
+
+A simple module to add two numbers.
+
+## Installation
+
+You can install the module using pip:
+
+```sh
+pip install my_sum_module
+``` 
