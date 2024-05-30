@@ -1,0 +1,2 @@
+requests>=2.23.0
+carthooks>=0.1.2
