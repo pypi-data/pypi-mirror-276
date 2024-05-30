@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: molecular_interaction_rules
+Version: 0.5.93
+Summary: UNKNOWN
+Home-page: https://www.github.com/mackerell-lab/Non-Covalent-Molecular-Interaction-Rules
+Author: Suliman Sharif
+Author-email: sharifsuliman1@gmail.com
+License: GPL
+Description: # Molecular Interaction Rules
+        
+        ![Downloads](https://pepy.tech/badge/molecular-interaction-rules)
+        ![Repo Size](https://img.shields.io/github/repo-size/mackerell-lab/non-covalent-molecular-interaction-rules)
+        
+        <p align="center">
+        <img width="784" alt="Screenshot 2024-05-29 at 10 14 28 PM" src="https://github.com/mackerell-lab/Non-Covalent-Molecular-Interaction-Rules/assets/11812946/880e237a-f9a3-43d5-bb75-c7aeb756f28a">
+        </p>
+        
+        QuickStart
+        ==========
+        
+        #### Install
+        
+        ```bash
+        
+        pip install molecular-interaction-rules 
+        
+        ```
+        
+        #### Get Monomer Coordinates
+        
+        ```python
+        
+        from molecular_interaction_rules import KnowledgeGraph
+        
+        ```
+        
+        #### Get Dimer Coordinates 
+        
+        ```python
+        
+        ```
+        
+        Contact
+        =======
+        
+        Lead Developer: Suliman Sharif
+        Co-Authors: Anmol Kumar, Alexander D. MacKerell Jr.
+        
+        © Copyright 2024 – University of Maryland School of Pharmacy, Computer-Aided Drug Design Center All Rights Reserved
+        
+        
+Keywords: molcules non-covalent interactions rules geometry
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
