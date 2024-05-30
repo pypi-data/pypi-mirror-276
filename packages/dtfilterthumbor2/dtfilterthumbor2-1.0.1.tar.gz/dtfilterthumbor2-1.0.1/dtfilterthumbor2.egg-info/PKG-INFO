@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dtfilterthumbor2
+Version: 1.0.1
+Summary: dan tri filter
+Home-page: https://medium-multiply.readthedocs.io/
+Author: xuantrangk54
+Author-email: xuantrangk54@gmail.com
+License: MIT
+Description: # DantriFilter docs
+        
+        Ảnh logo: ở đính kèm
+        
+        Kích thước logo:
+        
+        Chiều rộng bằng 12.5% (1/8) chiều rộng của ảnh
+        
+        Chiều cao auto (keep ratio) theo chiều rộng của logo
+        
+        Vị trí: cách góc dưới bên trái một khoảng bằng 1/2 chiều cao của logo tính theo cả chiều dọc và chiều ngang
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
