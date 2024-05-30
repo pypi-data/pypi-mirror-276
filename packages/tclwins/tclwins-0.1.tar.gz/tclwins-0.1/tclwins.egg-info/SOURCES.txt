@@ -1,0 +1,6 @@
+setup.py
+tclwins.egg-info/PKG-INFO
+tclwins.egg-info/SOURCES.txt
+tclwins.egg-info/dependency_links.txt
+tclwins.egg-info/requires.txt
+tclwins.egg-info/top_level.txt
