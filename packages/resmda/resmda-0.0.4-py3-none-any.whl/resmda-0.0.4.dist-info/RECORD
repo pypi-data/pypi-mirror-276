@@ -1,0 +1,10 @@
+resmda/__init__.py,sha256=TxJl-PNXzK0_hsLPUd8YwpZNfXmNkT2K85ohxu84e8Y,1054
+resmda/data_assimilation.py,sha256=i-Qb5yZHiroAwFqQHwcZFIH0HNSC_nu2koeMmnNjaO8,7535
+resmda/reservoir_simulator.py,sha256=mvDDbSfjmzeiySplW0CydRim6H8HqLNUPcRfK0tNwb8,13810
+resmda/utils.py,sha256=x0A6SRkDoJuvAHvmus1gAl5Mfo6JOAobuz5QjnpRF_c,2279
+resmda/version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+resmda-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+resmda-0.0.4.dist-info/METADATA,sha256=4-qnms12PomI8G4orMuKYMJp9nhceVTAjLJpFeIeOFE,1007
+resmda-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+resmda-0.0.4.dist-info/top_level.txt,sha256=FDzlCTrkk1DQFFCvMFo2pgUK_GZbXJ9GjscL-G-kMtY,7
+resmda-0.0.4.dist-info/RECORD,,
