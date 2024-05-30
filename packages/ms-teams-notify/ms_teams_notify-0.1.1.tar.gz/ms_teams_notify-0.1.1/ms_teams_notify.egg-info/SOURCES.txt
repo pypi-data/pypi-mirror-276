@@ -1,0 +1,6 @@
+README.md
+setup.py
+ms_teams_notify.egg-info/PKG-INFO
+ms_teams_notify.egg-info/SOURCES.txt
+ms_teams_notify.egg-info/dependency_links.txt
+ms_teams_notify.egg-info/top_level.txt
