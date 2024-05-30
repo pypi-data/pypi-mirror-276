@@ -1,0 +1,11 @@
+README.md
+setup.py
+maskalib/MaskaAI.py
+maskalib/MaskaAIPremium.py
+maskalib/__init__.py
+maskalib/main.py
+maskalib/ps99invest.py
+maskalib.egg-info/PKG-INFO
+maskalib.egg-info/SOURCES.txt
+maskalib.egg-info/dependency_links.txt
+maskalib.egg-info/top_level.txt
