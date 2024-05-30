@@ -1,0 +1,272 @@
+#!/bin/bash
+
+set -eu
+set -o pipefail
+
+backup_id=""
+filesystem_directory=""
+save_directory=""
+skip_tar_diff="False"
+filesystem_components_to_strip=0
+backup_components_to_strip=0
+
+if [ -t 2 ]
+then
+    on_tty=True
+else
+    on_tty=False
+fi
+
+function usage
+{
+    retval="$1"
+    case "$retval" in
+        0)
+            ;;
+        *)
+            exec 1>&2
+            ;;
+    esac
+
+    echo "This script checks for:"
+    echo "   1) filenames in the backup but not in the filesystem"
+    echo "   2) filenames in the filesystem but not in the backup"
+    echo "   3) files in both, but with different content (optional - turn off with --skip-tar-diff)"
+    echo
+    echo "Usage: $0"
+    echo "   --backup-id bi"
+    echo "   --filesystem-directory /dir/name"
+    echo "   --save-directory /backshift/save-directory"
+    echo "   --skip-tar-diff"
+    echo "   --filesystem-strip-components number"
+    echo "   --backup-strip-components number"
+    echo
+    echo "This script assumes that you:"
+    echo "   1) Have no filenames with newlines in them"
+    echo "   2) Haven't gotten fancy with the find -print0 you piped in while creating the backup"
+    echo
+    echo "tar --diff (which this script uses by default) is pretty slow, so --skip-tar-diff says to skip this part"
+    echo "of the verification."
+    echo
+    echo "--filesystem-directory /dir indicates that /dir should be fully recursed for comparison with the"
+    echo "specified backup (by --backup-id).  This recursive traversal is limited only by -xdev, so it"
+    echo "will not traverse into other filesystems."
+    echo
+    echo "Note that --filesystem-directory does Not restrict which part of the backup is examined; the entire"
+    echo "backup is always inspected, irrespective of --filesystem-directory"
+    exit "$retval"
+}
+
+while [ "$#" -ge 1 ]
+do
+    case "$1" in
+        --backup-id)
+            backup_id="$2"
+            shift
+            ;;
+        --filesystem-directory)
+            filesystem_directory="$2"
+            shift
+            ;;
+        --save-directory)
+            save_directory="$2"
+            shift
+            ;;
+        --filesystem-strip-components)
+            filesystem_components_to_strip="$2"
+            shift
+            ;;
+        --backup-strip-components)
+            backup_components_to_strip="$2"
+            shift
+            ;;
+        --skip-tar-diff)
+            skip_tar_diff="True"
+            ;;
+        --help|-h)
+            usage 0
+            ;;
+        *)
+            echo "$0: Unrecognized option: $1" 1>&2
+            usage 1
+            ;;
+    esac
+    shift
+done
+
+case "$backup_id" in
+    "")
+        echo "$0: --backup-id is a required option" 1>&2
+        usage 1
+        ;;
+esac
+
+case "$filesystem_directory" in
+    "")
+        echo "$0: --filesystem-directory is a required option" 1>&2
+        usage 1
+        ;;
+    "/"*)
+        # shellcheck disable=SC2001
+        # filesystem_directory=".$filesystem_directory"
+        :
+        ;;
+    *)
+        echo "$0: --filesystem-directory must start with a leading /" 1>&2
+        usage 1
+        ;;
+esac
+
+case "$save_directory" in
+    "")
+        echo "$0: --save-directory is a required option" 1>&2
+        usage 1
+        ;;
+esac
+
+case "$skip_tar_diff" in
+    True) ;;
+    False) ;;
+    *)
+        echo "$0: Internal error: (1) \$skip_tar_diff is not True or False: $skip_tar_diff" 1>&2
+        exit 1
+        ;;
+esac
+
+preflight_good=True
+
+if ! type backshift > /dev/null 2>&1
+then
+    preflight_good=False
+    echo "$0: Error: backshift not found, will be needed" 1>&2
+fi
+
+if ! type gprog-backshift-extract > /dev/null 2>&1
+then
+    preflight_good=False
+    echo "$0: Error: gprog-backshift-extract not found, will be needed" 1>&2
+fi
+
+if ! type set-arithmetic > /dev/null 2>&1
+then
+    preflight_good=False
+    echo "$0: Error: set-arithmetic not found, will be needed" 1>&2
+fi
+
+if ! type count > /dev/null 2>&1
+then
+    preflight_good=False
+    echo "$0: Error: count not found, will be needed" 1>&2
+fi
+
+if ! type strip-components > /dev/null 2>&1
+then
+    preflight_good=False
+    echo "$0: Error: strip-components not found, will be needed" 1>&2
+fi
+
+if ! tar --help > /dev/null 2>&1
+then
+    preflight_good=False
+    echo "$0: Error: tar is probably not GNU tar, will be needed" 1>&2
+fi
+
+case "$preflight_good" in
+    True)
+        # Cool, nothing missing
+        ;;
+    False)
+        echo "$0: Error: One or more shell commands missing in preflight check"
+        exit 1
+        ;;
+    *)
+        echo "$0: Internal error: \$preflight_good not True or False: $preflight_good"
+        exit 1
+        ;;
+esac
+
+basename="$(basename "$0")"
+
+tempdir="/tmp/$basename.$$"
+echo "$0: Writing temporary files to $tempdir" 1>&2
+
+# shellcheck disable=SC2064
+trap "rm -rf \"$tempdir\"" $(seq 0 15)
+
+function optional_count
+{
+    case "$on_tty" in
+        True)
+            count -c
+            ;;
+        False)
+            cat
+            ;;
+        *)
+            echo "$0: Internal error: \$on_tty has a strange value: $on_tty" 1>&2
+            exit 1
+            ;;
+    esac
+}
+
+mkdir "$tempdir"
+backshift \
+    --save-directory "$save_directory" \
+    --list-backup-simply \
+    --backup-id "$backup_id" 2>&1 \
+    | optional_count \
+    | sed -e 's#/$##' -e '/^$/d' \
+    | strip-components --count "$backup_components_to_strip" > "$tempdir/in-backup"
+
+in_backup_count=$(wc -l "$tempdir/in-backup")
+echo "Got $in_backup_count files in backup"
+
+cd "$filesystem_directory"
+
+find . -xdev -print | sed -e 's#^\./##' -e '#^\.$#d' -e '#^$#d' \
+    | strip-components --count "$filesystem_components_to_strip" > "$tempdir/currently-in-filesystem"
+
+in_filesystem_count=$(wc -l "$tempdir/currently-in-filesystem")
+echo "Got $in_filesystem_count files currently in filesystem"
+
+echo "Files in backup but not currently in filesystem:"
+set-arithmetic --difference "$tempdir/in-backup" "$tempdir/currently-in-filesystem" | sort | sed 's/^/   /'
+
+echo
+echo "Files currently in filesystem but not in backup:"
+set-arithmetic --difference "$tempdir/currently-in-filesystem" "$tempdir/in-backup" | sort | sed 's/^/   /'
+
+case "$skip_tar_diff" in
+    True) ;;
+    False)
+        echo
+        echo "Verifying file content of all files in backup:"
+
+        if [ "${DISPLAY:-}" = "" ]
+        then
+            # Just do the comparison; do not try to give progress info.
+            # We could use reblock-backshift-extract, but then stderr would get clobbered by progress info.
+            backshift \
+                --save-directory "$save_directory" \
+                --tar-format gnu \
+                --produce-tar \
+                --backup-id "$backup_id"
+        else
+            # This pops up a GUI for how long the backshift --produce-tar | tar --diff is going to take.
+            gprog-backshift-extract \
+                --save-directory "$save_directory" \
+                --tar-format gnu \
+                --backup-id "$backup_id"
+        fi \
+            | (
+                # See https://www.gnu.org/software/tar/manual/html_section/tar_51.html for what's going on here.
+                cd "$filesystem_directory" \
+                    && tar --show-transformed-names --strip-components="$backup_components_to_strip" --diff 2>&1 \
+                    | sed 's/^/   /'
+            )
+        ;;
+    *)
+        echo "$0: Internal error: (2) \$skip_tar_diff is not True or False: $skip_tar_diff" 1>&2
+        exit 1
+        ;;
+esac

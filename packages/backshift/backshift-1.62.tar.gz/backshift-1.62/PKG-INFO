@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: backshift
+Version: 1.62
+Summary: Filesystem to filesystem backup (deduplicated, compressed)
+Home-page: http://stromberg.dnsalias.org/~strombrg/backshift/
+Author: Daniel Richard Stromberg
+Author-email: strombrg@gmail.com
+License: GPL, MIT, UCI, Apache (all opensource)
+Platform: Cross platform
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+
+
+Backshift is a filesystem to filesystem backup program, analogous to rsync --link-dest.
+
+Compared to rsync, backshift deduplicates much better, and compresses files - rsync does not.
+
+Backshift also allows easy removal of old backups, despite its strong deduplication and compression.
+
+Files to back up are selected using something like 'find / -xdev -print0' and piping that to backshift.
+
+Files are restored by piping to 'tar xfp'.
+
+Metadata is partially compressed.  Each directory's metadata is compressed separately for easy
+partial restores.
+
+Content-based, variable length chunks are deduplicated - so simply inserting a byte at a random place in a large file
+is not going to require backing up the entire file anew.
+
+Backshift runs on CPython 3.x and Pypy3.  It may run on nuitka - backshift+nuitka has not been tested much.
+
+On many modern systems, Backshift runs fastest on Pypy, but on some (older?) machines you may be better off with
+CPython 3.x plus the Cython versions of treap and rolling_checksum_mod.
+
+For pypy, simply install backshift with pip.  This should give you a pure-python version of backshift that pypy likes.
+For CPython+Cython, first install backshift with pip just as you would for pypy.  Then additionally install pyx-treap
+and rolling-checksum-pyx-mod with pip - for a speed boost.
+
+Backshift is not as fast as rsync --link-dest; rsync does not have to do as much work to accomplish what it sets out
+to do.  But if you are paying for your storage, backshift will probably be significantly cheaper.

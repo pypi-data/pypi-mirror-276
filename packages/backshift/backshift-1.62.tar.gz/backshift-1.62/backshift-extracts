@@ -1,0 +1,178 @@
+#!/bin/bash
+
+set -eu
+
+save_directory=""
+saveset_pattern=""
+pathname=""
+nonrecursive=""
+directory=False
+file=False
+
+function usage
+{
+    retval="$1"
+    case "$retval" in
+        0)
+            ;;
+        *)
+            exec 1>&2
+            ;;
+    esac
+
+    echo "Usage: $0"
+    echo "    --save-directory /backshift-production/save-directory"
+    echo "    --saveset-pattern '^.*hostname.*subset.*$'"
+    echo "    --pathname /f/n"
+    echo "    --nonrecursive"
+    echo "    --directory"
+    echo "    --file"
+    echo
+    echo 'Extract all versions of a file in the save directory, for a given saveset pattern'
+    # shellcheck disable=SC2016
+    echo 'Extracts all files to ./extracts/$backup_id/$directory/$(basename $filename)'
+    echo
+    echo "Note that --file implies --nonrecursive"
+
+    exit "$retval"
+}
+
+while [ "$#" -ge 1 ]
+do
+    case "$1" in
+        --save-directory)
+            save_directory="$2"
+            shift
+            ;;
+        --saveset-pattern)
+            saveset_pattern="$2"
+            shift
+            ;;
+        --pathname)
+            pathname="$2"
+            shift
+            ;;
+        --nonrecursive)
+            nonrecursive="$1"
+            ;;
+        --directory)
+            directory=True
+            ;;
+        --file)
+            file=True
+            ;;
+        --help|-h)
+            usage 0
+            ;;
+        *)
+            echo "$0: unrecognized option: $1" 1>&2
+            usage 1
+            ;;
+    esac
+    shift
+done
+
+preflight_check_ok=True
+
+case "$save_directory" in
+    "")
+        echo "$0: --save-directory is a required option" 1>&2
+        preflight_check_ok=False
+        ;;
+esac
+
+case "$saveset_pattern" in
+    "")
+        echo "$0: --saveset-pattern is a required option" 1>&2
+        preflight_check_ok=False
+        ;;
+esac
+
+case "$pathname" in
+    "")
+        echo "$0: --pathname is a required option" 1>&2
+        preflight_check_ok=False
+        ;;
+    /*)
+        # Good, it starts with a slash
+        ;;
+    *)
+        echo "$0: --pathname must specify an absolute path" 1>&2
+        preflight_check_ok=False
+        ;;
+esac
+
+case "$directory-$file" in
+    True-True|False-False)
+        preflight_check_ok=False
+        echo "$0: You must specify exactly one of --directory or --file, to indicate the type of file you wish to extract" 1>&2
+        ;;
+    True-False)
+        # This is a directory extraction
+        absolute_directory="$pathname"
+        # shellcheck disable=SC2001
+        pathname="$pathname"
+        ;;
+    False-True)
+        # This is a file extraction
+        absolute_directory=$(dirname "$pathname")
+        # shellcheck disable=SC2001
+        nonrecursive="--nonrecursive"
+        ;;
+    *)
+        echo "$0: internal error: \$directory and/or \$file have strange values: $directory and $file" 1>&2
+        exit 1
+        ;;
+esac
+
+# shellcheck disable=SC2001
+relative_directory="$(echo "$absolute_directory" | sed 's#^/##')"
+
+case "$preflight_check_ok" in
+    True)
+        ;;
+    False)
+        echo "$0: One or more items in preflight check failed" 1>&2
+        exit 1
+        ;;
+    *)
+        echo "$0: Internal error: \$preflight_check_ok has a strange value: $preflight_check_ok" 1>&2
+        exit 1
+        ;;
+esac
+
+function backup_ids
+{
+    # Note that this will only list completed savesets.
+    backshift --save-directory "$save_directory" --list-backups | grep -E "$saveset_pattern" | awk '$4 != "None" { print $1 }'
+}
+
+mkdir -p extracts
+cd extracts
+
+echo "Obtaining list of backup ids"
+
+for backup_id in $(backup_ids)
+do
+    export backup_id
+    echo Checking "$backup_id"
+    (
+    set -eu
+    mkdir -p "$backup_id"
+    cd "$backup_id"
+    # shellcheck disable=SC2086
+    # We intentionally do not quote $nonrecursive - it sometimes needs to expand to nothing, not an empty string.
+    backshift \
+            --save-directory "$save_directory" \
+            --backup-id "$backup_id" \
+            --produce-tar \
+            --starting-directory "$absolute_directory" \
+            $nonrecursive \
+        | tar xvfp - "$relative_directory" \
+        || true
+    )
+done
+
+echo
+echo 'Now consider running something like:'
+echo 'find extracts -type f -print0 | equivs3e -v -0 --one-per-duplicate'
