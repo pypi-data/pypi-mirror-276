@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_diana11d/__init__.py
+myfunctions_diana11d/math.py
+myfunctions_diana11d.egg-info/PKG-INFO
+myfunctions_diana11d.egg-info/SOURCES.txt
+myfunctions_diana11d.egg-info/dependency_links.txt
+myfunctions_diana11d.egg-info/top_level.txt
