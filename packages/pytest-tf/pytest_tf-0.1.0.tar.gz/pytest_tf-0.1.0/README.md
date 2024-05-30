@@ -1,0 +1,71 @@
+# pytest-tf
+
+Test your OpenTofu and Terraform config using a PyTest plugin.
+
+## Usage
+
+Simply add `pytest-tf` as a dependency, then run `pytest` with the following configuration options:
+
+- `tf_runner`: The path to the program that will build the infrastructure. By default, this is
+  `tofu`. Options: `tofu`, `terraform`.
+
+Check the [pytest documentation](https://docs.pytest.org/en/latest/reference.html#ini-options-ref) 
+for more information on how to set ini options. You have multiple options:
+
+You can set it in the command line:
+```bash
+pytest --override-ini tf_runner=terraform
+```
+
+Or you can set it in `pyproject.toml`:
+```toml
+[tool.pytest.ini_options]
+tf_runner = "terraform"
+```
+
+Or you can set it in `pytest.ini`:
+```ini
+[pytest]
+tf_runner = terraform
+```
+
+Or you can set it in `tox.ini`:
+```ini
+[testenv]
+setenv =
+    tf_runner = terraform
+```
+
+**Note:** The `--capture=no` option is recommended to see the output of the Terraform commands.
+
+## Features
+
+- **Fixture**: The `tf` fixture handles the Terraform initialization, plan, apply and destroy steps.
+  The init, plan and apply are run before the test, and the destroy is run after the test. The
+  fixture is a `types.SimpleNamespace` with the following attributes:
+    - `state`: The Terraform state file as a dict.
+  
+  Example:
+
+```python
+def test_tf(tf):
+    assert tf.state['resources']['aws_instance.example']['type'] == 'aws_instance'
+```
+
+- **Markers**: The `tf_path` marker allows you to specify the path to the Terraform configuration
+  folder. It is recommended you have a `terraform` folder in your `tests` folder, and you create a
+  separate folder for each test under it. The marker is a string with the path to the folder.
+
+  Example:
+
+```python
+import pytest
+
+@pytest.mark.tf_path('tests/terraform/example')
+def test_tf(tf):
+    ...
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

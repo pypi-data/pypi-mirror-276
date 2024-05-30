@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "pytest-tf"
+version = "0.1.0"
+description = "Test your OpenTofu and Terraform config using a PyTest plugin"
+authors = ["Adrian Covaci <adrian.covaci@oaknorth.co.uk>"]
+license = "MIT"
+readme = "README.md"
+exclude = ["tests/*", "integration-tests/*"]
+include = ["src/pytest_tf"]
+
+[tool.poetry.plugins] # Optional super table
+
+[tool.poetry.plugins."pytest11"]
+"tf" = "pytest_tf.plugin"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sh = "^2.0.6"
+pytest = "^8.2.1"
+black = "^24.4.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+ruff = "^0.4.6"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+include = "(src/pytest_tf|tests|integration-tests)/.*\\.py"
+
+[tool.mypy]
+files = ["src"]
+exclude = "tests"
+
+[[tool.mypy.overrides]]
+module = 'sh'
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
