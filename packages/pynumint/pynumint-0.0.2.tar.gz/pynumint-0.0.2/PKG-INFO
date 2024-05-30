@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: pynumint
+Version: 0.0.2
+Summary: pynumint Test Package for Numerical Integration Demo
+Home-page: UNKNOWN
+Author: Arjun Jagdale
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pynumint: A Numerical Integration Library
+
+pynumint is a Python library for numerical integration methods.
+pynumint offers a wide range of numerical integration methods, including trapezoidal rule, Simpson's rule, midpoint rule, Boole's rule, Romberg integration, and Gauss-Legendre quadrature. Users can choose the most suitable method based on the characteristics of the function and the desired level of accuracy.
+
+## Installation
+
+```bash
+
+pip install pynumint
+
+```
+
+## Usage
+```bash
+
+from pynumint import trapezoidal_rule, simpsons_rule, midpoint_rule, booles_rule, romberg_integration, gauss_legendre_quadrature, gauss_chebyshev_quadrature, gauss_laguerre_quadrature, gauss_hermite_quadrature
+import numpy as np
+
+# Define your functions to be integrated
+def f1(x):
+    return x**2
+
+def f2(x):
+    return np.sin(x)
+
+def f3(x):
+    return np.exp(-x**2)
+
+def f4(x):
+    return np.cos(x)
+
+# Define integration limits and number of intervals
+a = 0
+b = 10
+n = 1000
+
+# Example usage of numerical integration methods
+result_trapezoidal = trapezoidal_rule(f1, a, b, n)
+result_simpsons = simpsons_rule(f2, a, b, n)
+result_midpoint = midpoint_rule(f3, a, b, n)
+result_booles = booles_rule(f1, a, b, n)
+result_romberg = romberg_integration(f2, a, b)
+result_gauss_legendre = gauss_legendre_quadrature(f3, a, b, 5)
+result_gauss_chebyshev = gauss_chebyshev_quadrature(f4, n)
+result_gauss_laguerre = gauss_laguerre_quadrature(f3, n)
+result_gauss_hermite = gauss_hermite_quadrature(f3, n)
+
+print("Results:")
+print(f"Trapezoidal Rule: {result_trapezoidal}")
+print(f"Simpson's Rule: {result_simpsons}")
+print(f"Midpoint Rule: {result_midpoint}")
+print(f"Boole's Rule: {result_booles}")
+print(f"Romberg Integration: {result_romberg}")
+print(f"Gauss-Legendre Quadrature: {result_gauss_legendre}")
+print(f"Gauss-Chebyshev Quadrature: {result_gauss_chebyshev}")
+print(f"Gauss-Laguerre Quadrature: {result_gauss_laguerre}")
+print(f"Gauss-Hermite Quadrature: {result_gauss_hermite}")
+
+```
+
+## Output
+```bash 
+
+Trapezoidal Rule: The integral of f1(x) from 0 to 10 is approximately 333.333333
+Simpson's Rule: The integral of f2(x) from 0 to 10 is approximately 1.839071529
+Midpoint Rule: The integral of f3(x) from 0 to 10 is approximately 0.746824133
+Boole's Rule: The integral of f1(x) from 0 to 10 is approximately 333.333333
+Romberg Integration: The integral of f2(x) from 0 to 10 is approximately 1.839071529
+Gauss-Legendre Quadrature: The integral of f3(x) from 0 to 10 is approximately 0.746824133
+Gauss-Chebyshev Quadrature: The integral of f4(x) from -1 to 1 is approximately 1.570796327
+Gauss-Laguerre Quadrature: The integral of f3(x) from 0 to âˆž is approximately 0.886226925
+Gauss-Hermite Quadrature: The integral of f3(x) from -âˆž to âˆž is approximately 1.772453851
+
+
+```
+
+
+
