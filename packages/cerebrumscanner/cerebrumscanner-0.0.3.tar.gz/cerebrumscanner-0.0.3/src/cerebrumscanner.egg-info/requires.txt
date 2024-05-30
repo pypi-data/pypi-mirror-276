@@ -1,0 +1,17 @@
+kivy
+kivy-deps.angle
+kivy-deps.gstreamer
+kivy-deps.glew
+kivy-deps.sdl2
+kivymd==1.2.0
+tqdm
+bcrypt
+pydicom
+dcm2niix
+dicom2nifti
+SimpleITK
+gestures4kivy
+opencv-python
+pymongo
+dicom2nifti
+nibabel
