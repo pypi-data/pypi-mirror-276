@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: pyawaitable
+Version: 1.0.0b1
+Author-email: ZeroIntensity <zintensitydev@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 ZeroIntensity
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Documentation, https://awaitable.zintensity.dev
+Project-URL: Issues, https://github.com/ZeroIntensity/pyawaitable/issues
+Project-URL: Source, https://github.com/ZeroIntensity/pyawaitable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyAwaitable
+
+## CPython API for asynchronous functions
+
+-   [Docs](https://awaitable.zintensity.dev)
+-   [Scrapped PEP](https://gist.github.com/ZeroIntensity/8d32e94b243529c7e1c27349e972d926)
+
+This project originates from a scrapped PEP. For the original text, see [here](https://gist.github.com/ZeroIntensity/8d32e94b243529c7e1c27349e972d926).
+
+## Installation
+
+### Console
+
+```console
+$ pip install pyawaitable
+```
+
+### Add it to your project
+
+```toml
+# pyproject.toml example with setuptools
+[build-system]
+requires = ["setuptools", "pyawaitable"]
+build-backend = "setuptools.build_meta"
+```
+
+## Example
+
+```c
+#include <awaitable.h>
+
+// Assuming that this is using METH_O
+static PyObject *
+hello(PyObject *self, PyObject *coro) {
+    // Make our awaitable object
+    PyObject *awaitable = awaitable_new();
+
+    if (!awaitable)
+        return NULL;
+
+    // Mark the coroutine for being awaited
+    if (awaitable_await(awaitable, coro, NULL, NULL) < 0) {
+        Py_DECREF(awaitable);
+        return NULL;
+    }
+
+    // Return the awaitable object to yield to the event loop
+    return awaitable;
+}
+```
+
+```py
+# Assuming top-level await
+async def coro():
+    await asyncio.sleep(1)
+    print("awaited from C!")
+
+# Use our C function to await coro
+await hello(coro())
+```
+
+## Copyright
+
+`pyawaitable` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
