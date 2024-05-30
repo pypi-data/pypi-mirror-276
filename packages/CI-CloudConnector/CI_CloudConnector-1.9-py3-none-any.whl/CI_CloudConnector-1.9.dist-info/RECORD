@@ -1,0 +1,9 @@
+logic.py,sha256=GhxabgxaDiioYjyLKEIQ8HboWpGrE72xzkAP7PJKJO4,39040
+main.py,sha256=P--YDog2IezytTBaOqicFuLfddwLk7o5Pyc-uP72XEo,8242
+myservice.py,sha256=Al14PxXPXxQNuBLucUG0WwSYxHc3Oj2PTTVDRhzW_c8,3032
+myservice_installer.py,sha256=oGJCueURYLpkSrjBg5o_sSIwR0_zWkRpFBpdAUSslGc,964
+setup.py,sha256=jWgMTaIbpYAGYup7lIsZha4WEKu5TVyYQDp7z6TV2Hs,813
+CI_CloudConnector-1.9.dist-info/METADATA,sha256=5esenH8tz1jZvqOhKOGj6wI-0r2TiZIgh2130C6asCA,357
+CI_CloudConnector-1.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+CI_CloudConnector-1.9.dist-info/top_level.txt,sha256=saQJraSbQAf6Ig8c0AOzURp4l6jgEDfmm2GiKITSfoM,47
+CI_CloudConnector-1.9.dist-info/RECORD,,
