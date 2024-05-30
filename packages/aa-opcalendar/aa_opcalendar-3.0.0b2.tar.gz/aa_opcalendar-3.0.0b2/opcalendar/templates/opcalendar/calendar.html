@@ -1,0 +1,92 @@
+{% extends 'opcalendar/base.html' %}
+{% load bootstrap %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% load evelinks %}
+{% block page_title %}{% trans "Create Operation" %}{% endblock page_title %}
+
+{% block content %}
+<div class="allianceauth-opcalendar">
+    <div class="clearfix">
+        {% include "opcalendar/partials/calendar/legends.html" %}
+    </div>
+</div>
+<div class="allianceauth-opcalendar">
+    <div class="card" style="margin-top:10px;">
+        <div class="card-header">
+            {% include "opcalendar/partials/calendar/navigation.html" %}
+        </div>
+        <div class="card-body">
+            {{ calendar }}
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block extra_javascript %}
+    {% include "bundles/moment-js.html" with locale=True %}
+    {% include "bundles/timers-js.html" %}
+
+    <script>
+        const timers = [
+            {% for timer in all_events_per_month %}
+                {
+                    'id': '{{ timer.id }}',
+                    'targetDate': moment("{{ timer.start_time|date:"c" }}"),
+                    'expired': false
+                },
+            {% endfor %}
+        ];
+
+        const updateAllTimers = () => {
+            const l = timers.length;
+
+            for (let i = 0; i < l; ++i) {
+                if (timers[i].expired) continue;
+                // Additional logic if needed
+            }
+        };
+
+        const updateClock = () => {
+            document.getElementById("current-time").innerHTML = getCurrentEveTimeString();
+        };
+
+        const timedUpdate = () => {
+            updateClock();
+            updateAllTimers();
+        }
+
+        // Start timed updates
+        setInterval(timedUpdate, 1000);
+
+        // Set initial values
+        timedUpdate();
+
+        {% if user_settings.use_local_times %}
+        /**
+         * Set the local time info for the timer
+         * @param timer Timer information
+         */
+        const setLocalTime = (timer) => {
+            const element = document.getElementById("event-time-" + timer.id);
+            if (element) {
+                element.innerHTML = timer.targetDate.format("HH:mm");
+            }
+        };
+
+        /**
+         * Set all local time fields
+         */
+        const setAllLocalTimes = () => {
+            const l = timers.length;
+
+            for (let i = 0; i < l; ++i) {
+                setLocalTime(timers[i]);
+            }
+        };
+
+        // Set local time values
+        setAllLocalTimes();
+        {% endif %}
+    </script>
+{% endblock extra_javascript %}
