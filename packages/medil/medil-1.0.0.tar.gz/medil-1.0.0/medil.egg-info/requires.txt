@@ -1,0 +1,7 @@
+dcor
+matplotlib
+networkx
+seaborn
+scikit-learn
+torch
+xicorrelation
