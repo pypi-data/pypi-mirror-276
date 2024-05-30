@@ -1,0 +1,6 @@
+README.md
+setup.py
+yandex_scienceqa.egg-info/PKG-INFO
+yandex_scienceqa.egg-info/SOURCES.txt
+yandex_scienceqa.egg-info/dependency_links.txt
+yandex_scienceqa.egg-info/top_level.txt
