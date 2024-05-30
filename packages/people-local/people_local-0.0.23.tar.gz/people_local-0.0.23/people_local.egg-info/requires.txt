@@ -1,0 +1,4 @@
+database-mysql-local>=0.0.304
+logger-local>=0.0.51
+group-local>=0.0.4
+python-sdk-remote
