@@ -1,0 +1,13 @@
+LICENSE.py
+README.md
+setup.py
+src/ASLUM.py.egg-info/PKG-INFO
+src/ASLUM.py.egg-info/SOURCES.txt
+src/ASLUM.py.egg-info/dependency_links.txt
+src/ASLUM.py.egg-info/entry_points.txt
+src/ASLUM.py.egg-info/requires.txt
+src/ASLUM.py.egg-info/top_level.txt
+test/test_UCM-Phoenix-Interp.py
+test/test_UCM-Phoenix-Scale.py
+test/test_calculator.py
+test/test_functions.py
