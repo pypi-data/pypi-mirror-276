@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: metastim-beta-2
+Version: 0.0.2
+Summary: MetaStim: python package for DBS, enables to experimentation for various input parameters for DBS
+Author-email: Bryan Howell <bryanhowell1228@gmail.com>, Anjaneyulu Aerrolla <aaerrolla@gmail.com>
+Project-URL: Homepage, https://github.com/aaerrolla/metastim
+Project-URL: Issues, https://github.com/aaerrolla/metastim/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: joblib==1.3.2
+Requires-Dist: numpy==1.26.4
+Requires-Dist: matplotlib==3.8.2
+Requires-Dist: keras==2.15.0
+Requires-Dist: scikit-learn==1.4.0
+Requires-Dist: tensorflow==2.15.0
+
+# MetaStim DBS in Python
+
+This is Beta release of metastim package.
+
+Usage:
+
+Install using pip
+
+```
+pip install metastim
+```
+
+Using 
+
+```
+from metastim import field_ann, axon_ann
+```
+
+
+
+
