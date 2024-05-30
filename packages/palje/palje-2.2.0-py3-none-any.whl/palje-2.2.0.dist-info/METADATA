@@ -1,0 +1,462 @@
+Metadata-Version: 2.1
+Name: palje
+Version: 2.2.0
+Summary: A tool for creating hierarchical documentation of SQL Server databases to Confluence wiki.
+Author: ALM Partners Oy
+Maintainer: ALM Partners Oy
+License: Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [yyyy] [name of copyright owner]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+Project-URL: Repository, https://github.com/ALMPartners/palje
+Keywords: palje
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Database
+Classifier: Topic :: Documentation
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: azure-identity ~=1.14
+Requires-Dist: sqlalchemy[mssql] ~=2.0.29
+Requires-Dist: requests ~=2.32
+Provides-Extra: msibuild
+Requires-Dist: cx-freeze ~=7.0.0 ; extra == 'msibuild'
+Provides-Extra: test
+Requires-Dist: tox ~=4.15 ; extra == 'test'
+
+Palje
+====================
+
+# Description
+Palje is a tool for creating hierarchical documentation of SQL Server databases to Confluence wiki.
+
+# Dependencies
+* [pyodbc](https://pypi.org/project/pyodbc/)
+* [requests](https://pypi.org/project/requests/)
+
+# Install Guide
+
+## PyPI
+Install from [Python Package Index](https://pypi.org/) with the following command:
+
+```
+pip install palje
+```
+
+## Clone and install
+1. Clone this repository
+2. Install with pip
+
+```
+cd .\palje
+pip install [-e] .
+```
+
+# Usage
+
+Palje can be used either from the command line (CLI) or from the graphical user interface (GUI).
+
+## Prerequisites
+
+- Read access to the MSSQL database you wish to document
+    - Data is read from documented database, information schema and system views
+    - You can use either SQL authentication or Windows authentication (if available)
+
+- Write access to Confluence space on which you wish to create the documentation pages
+
+- Atlassian API Token for your account
+    - Palje uses your registered account email and API token to authenticate to Confluence Cloud
+        - Go to https://id.atlassian.com/manage/api-tokens
+        - Choose "Create API token"
+        - Give it a name
+        - Token password will be created automatically, save this password
+
+## Remarks on compatibility
+
+- Palje has been tested on multiple SQL Server versions, including [SQL Server images](https://hub.docker.com/_/microsoft-mssql-server)
+- Palje has been tested on cloud instances, such as Azure SQL Database
+    - Palje supports Azure Active Directory authentication with argument --authentication "AAD"
+- Palje has been tested to work with Confluence Cloud
+    - There is a possibility that Palje works with Confluence Server since the Server REST API is similar to Cloud REST API
+    - Notice that the authentication works differently in Confluence Server
+
+## Graphical user-interface
+
+Notice that GUI may be lacking some of the more advanced features that are available via CLI.
+
+![Page hierarchy in Confluence](./images/palje_gui.PNG?raw=true)
+
+Launch Palje GUI from a shell with command:
+
+```
+palje-gui
+```
+
+See the CLI documentation below for information on various parameters - it all applies to GUI, too.
+
+## CLI and arguments
+
+See online help for up-to-date documentation for available options.
+```
+palje -h
+```
+
+### Basic syntax
+
+```
+palje confluence-url space server database
+                --parent-page PARENT_PAGE
+                --schemas SCHEMAS [SCHEMAS ...]
+                --dependent DEPENDENT [DEPENDENT ...]
+                --db-driver DB_DRIVER
+                --authentication AUTHENTICATION
+```
+
+| Argument  | Required | Description | Type | Default Value |
+| --- | --- | --- | --- | --- |
+| confluence-url | Yes | The organisation's atlassian root page, https://<your-org>.atlassian.net/ | str |  |
+| space | Yes | Space key of the Confluence space, in which the documentation is created | str |  |
+| server | Yes | Host name of the SQL Server. Include port with comma | str |  |
+| database | Yes | Name of the database that is documented | str |  |
+| parent-page | No | Name or title of the Confluence page, under which the documentation is created | str | If page is not given, the documentation will be created to top level (under pages) |
+| schemas | No | Names of the schemas that are documented | list of str | If schemas not given, all schemas will be documented |
+| dependent | No | Names of the databases, where object dependencies are sought | list of str | If databases not given, dependencies are sought only in documented database |
+| db-driver | No | Name of the database driver | str | "ODBC Driver 17 for SQL Server" |
+| authentication | No | Authentication method to use. Options are "SQL", "Windows", "AAD" and "AzureIdentity". | str | "SQL"
+ 
+
+## Usage example
+
+
+### Command-line interface
+```
+# Run via a configured script endpoint ("palje.exe")
+palje "https://<your-org>.atlassian.net/" TEST "localhost,1433" MY_DB --schemas dbo store --dependent MY_OTHER_DB --authentication "SQL"
+
+# Optionally you also run palje as a Python library module
+python -m palje "https://<your-org>.atlassian.net/" TEST "localhost,1433" MY_DB --schemas dbo store --dependent MY_OTHER_DB --authentication "SQL"
+
+```
+### Output
+```
+User for localhost,1433.MY_DB. If you wish to use Windows Authentication, hit enter: sa
+Password for user sa:
+Confluence user for https://<your-org>.atlassian.net/: example.user@youremail.com
+Atlassian API token for user example.user@youremail.com:
+--------------------------
+Object dependencies are queried from the following databases: MY_DB, MY_OTHER_DB
+--------------------------
+Page DATABASE: MY_DB created.
+Page MY_DB.dbo created.
+Page Tables MY_DB.dbo created.
+Page MY_DB.dbo.schema_version created.
+Page MY_DB.store created.
+Page Tables MY_DB.store created.
+Page MY_DB.store.Clients created.
+Page MY_DB.store.Products created.
+Page Procedures MY_DB.store created.
+Page MY_DB.store.spSELECT created.
+```
+### Result
+#### Page hierarchy in Confluence
+![Page hierarchy in Confluence](https://github.com/ALMPartners/palje/blob/master/images/confluence_hierarchy.PNG?raw=true)
+
+#### Page showing the database objects
+![Page "DATABASE: MY_DB"](https://github.com/ALMPartners/palje/blob/master/images/confluence_database.PNG?raw=true)
+
+#### Page showing the table information
+![Page "MY_DB.store.Clients"](https://github.com/ALMPartners/palje/blob/master/images/confluence_table.PNG?raw=true)
+
+### Re-run
+Re-running the command will result updating the existing pages
+```
+Page DATABASE: MY_DB updated.
+Page MY_DB.dbo updated.
+Page Tables MY_DB.dbo updated.
+Page MY_DB.dbo.schema_version updated.
+Page MY_DB.store updated.
+Page Tables MY_DB.store updated.
+Page MY_DB.store.Clients updated.
+Page MY_DB.store.Products updated.
+Page Procedures MY_DB.store updated.
+Page MY_DB.store.spSELECT updated.
+```
+If new objects have been created to database before re-run, new pages will be created for these objects. For example, if new procedure `store.spNEW_SELECT` is created to database, a new page `MY_DB.store.spNEW_SELECT` is created under page `Procedures MY_DB.store`.
+
+Notice that if you delete objects from database, Palje won't delete the corresponding pages from Confluence. You must manually delete the pages from wiki.
+
+## Tests
+
+Run tests with [tox](https://pypi.org/project/tox/) 
+```
+pip install tox # OR install as an optional depencency with palje itself: pip install .[test]
+
+tox -- --mssql_host MSSQL_HOST --mssql_port MSSQL_PORT --mssql_username MSSQL_USER --mssql_password MSSQL_PASSWORD --mssql_driver MSSQL_DRIVER
+
+# without MSSQL tests
+tox
+```
+or [pytest](https://pypi.org/project/pytest/)
+```
+pip install pytest ahjo sqlalchemy
+
+pytest --mssql_host MSSQL_HOST --mssql_port MSSQL_PORT --mssql_username MSSQL_USER --mssql_password MSSQL_PASSWORD --mssql_driver MSSQL_DRIVER
+
+# without MSSQL tests
+pytest
+```
+
+Notice that tests have dependencies to packages [ahjo](https://pypi.org/project/ahjo/) and [SQL Alchemy](https://pypi.org/project/SQLAlchemy/). To succesfully run SQL Server tests, you must have permissions to create a new database in instance.
+
+## MSI installers
+
+Palje can be packaged into an MSI installer which can be used to install it into a Windows environment and easily update it later. Installers are self-contained, meaning that the package contains everything that is needed for running Palje (e.g. required parts of Python installation and all the 3rd party libraries and their dependencies are included).
+
+### Types of MSI installers
+
+There two types of installers, `user` and `system`. The `user` installer is suitable for single-user installations e.g. for a user who wants to run palje on their own workstation. For shared use, e.g. Azure Virtual Desktop, the `system` installer may be the better option: once installed, the tools are available for all users on that machine.
+
+**Notice:** using the `system` installer requires administrator priviledges.
+
+### Local MSI builds
+
+**Notice:** using an unsigned installer can end up with Windows Defender blocking Palje as malware. There is an ALM Partners developer signing key available to overcome this problem. Ask team TA3 for help if you need to sign development MSIs for testing purposes.
+
+To set up an environment for MSI builds, create a new venv, activate it, and install build dependencies.
+
+```
+python venv <name-of-venv>
+./<name-of-venv>/Scripts/activate
+pip install .[msibuild]
+```
+
+To build a `user` installer, use commands:
+
+```
+$env:PALJE_MSI_TARGET_TYPE="user"
+python ./msi_build.py bdist_msi
+```
+
+To build a `system` installer, use commands:
+
+```
+$env:PALJE_MSI_TARGET_TYPE="system"
+python ./msi_build.py bdist_msi
+```
+
+**Notice:** if you make changes to the code, you __must re-install the palje__ package (`pip install .` or `pip install .[msibuild]`) into the build venv for the changes to be included in the next MSI build. Editable installs don't work here, so don't use them!
+
+# License
+Copyright 2021 ALM Partners Oy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

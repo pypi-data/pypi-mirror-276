@@ -1,0 +1,3 @@
+[console_scripts]
+palje = palje.__main__:main
+palje-gui = palje.gui.gui:main
