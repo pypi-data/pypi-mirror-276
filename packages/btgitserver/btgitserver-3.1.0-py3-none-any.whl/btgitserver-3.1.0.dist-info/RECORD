@@ -1,0 +1,12 @@
+btgitserver/__init__.py,sha256=eHKTHRjTXOQ7O5E3DUhPHtqnPyNAtUaLW1IGiERxbrc,214
+btgitserver/app.py,sha256=cJiOPHGX0PSu7Xh7qg0ylTWnAWLB-IiyB1Uh7jbFjBw,9876
+btgitserver/args.py,sha256=10gJLmmjYPUknfC87BjcF0nVtazgNzNubvgFczM6JDg,2984
+btgitserver/config.py,sha256=zlJ6KCdDnCKs_aOoElYl837-GbdggQ0srylNuQy6zWQ,1043
+btgitserver/defaults.py,sha256=pDZfyh2hiS2OD3Wva3YXnDohp856EQ2Y_lsW8pF-dz4,904
+btgitserver/logger.py,sha256=lsHokY7psGOtY7caDjLEECbsEQ3uFIsluvuuGNa_gAU,1444
+btgitserver-3.1.0.data/data/bin/etc/config.yaml,sha256=w0UaW43JMYlKsXv5-yxvl_aRcQtQUpzPDNshJqiR3xM,279
+btgitserver-3.1.0.dist-info/METADATA,sha256=loiFgdu0SvpgTSa0XzP3ZCP8X2SQkKAxzqs7sA4bMvc,3753
+btgitserver-3.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+btgitserver-3.1.0.dist-info/entry_points.txt,sha256=1xd3u_Y-h6gEKjj0MRGWYCLg_x1apd4EncZLj2tZyOE,60
+btgitserver-3.1.0.dist-info/top_level.txt,sha256=oGp_1xES_llZzgy8FZaq4hyIG7r6hqXFLxajkF11dHQ,12
+btgitserver-3.1.0.dist-info/RECORD,,
