@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+chrome_for_testing_manager/__init__.py
+chrome_for_testing_manager/main.py
+chrome_for_testing_manager.egg-info/PKG-INFO
+chrome_for_testing_manager.egg-info/SOURCES.txt
+chrome_for_testing_manager.egg-info/dependency_links.txt
+chrome_for_testing_manager.egg-info/requires.txt
+chrome_for_testing_manager.egg-info/top_level.txt

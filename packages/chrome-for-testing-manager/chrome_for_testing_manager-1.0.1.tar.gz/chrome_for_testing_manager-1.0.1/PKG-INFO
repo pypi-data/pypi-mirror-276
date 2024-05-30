@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: chrome_for_testing_manager
+Version: 1.0.1
+Summary: Automatic download and manage Chrome and Chromedriver, and ensures that their versions match
+Home-page: https://github.com/sukaiyi/chrome-for-testing-manager-python
+Author: sukaiyi
+Author-email: im.sukaiyi@gmail.com
+License: Apache license 2.0
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.0.1
+
+# Chrome for Testing Manager
+
+![PyPI - Version](https://img.shields.io/pypi/v/chrome-for-testing-manager)
+![Github license](https://img.shields.io/github/license/sukaiyi/chrome-for-testing-manager-python)
+
+Thanks to the [Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing) project for resolving the issue
+of mismatch between Chrome and Chromedriver versions in browser automation, witch is caused by Chrome automatic updates.
+
+But we still need to manually download and manage Chrome and Chromedriver.
+
+So `Chrome for Testing Manager`: A Python project that automatic download and manage Chrome and Chromedriver, and
+ensures
+that their versions match.
+
+## Usage
+
+1. Install
+
+```bash
+pip install chrome-for-testing-manager
+```
+
+2. Just call `chrome_for_testing_manager.init`, which will download and return the local path of chrome & chromedriver.
+
+```python
+from chrome_for_testing_manager import init
+
+chrome_path, chromedriver_path = init()
+
+# and then init selenium or any other ... ⬇️
+# options = Options()
+# options.binary_location = chrome_path
+# service = Service(executable_path=chromedriver_path)
+# driver = webdriver.Chrome(options, service)
+```
+
+## Optional Configuration
+
+```python
+from chrome_for_testing_manager import init
+
+chrome_path, chromedriver_path = init(
+    version="125.0.6422.78",
+    path="path/to/download",
+    force_download=False
+)
+
+```
+
+| configuration  | description                                                                                                                                                                                                                                                |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| version        | Witch version of chrome & chromedriver to download, latest version of the stable channel by default. [Available versions](https://googlechromelabs.github.io/chrome-for-testing/)                                                                          |
+| path           | The local path to download chrome & chromedriver, `~/.chrome-manager` by default.                                                                                                                                                                          |
+| forceDownload  | Download chrome & chromedriver even if the local file exists. `false` by default.                                                                                                                                                                          |
+
+
