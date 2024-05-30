@@ -1,0 +1,14 @@
+
+from KassOrm import Migration
+
+class migrate(Migration):   
+
+    __type__ = 'alter'
+    __table__ = '%TABLE%'
+    __comment__ = %COMMENT%
+
+    def up(self):
+        return self
+
+    def down(self): 
+        return self
