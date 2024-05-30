@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: json-flattener-to-csv-amazon
+Version: 0.2
+Summary: A package to flatten JSON data and convert it to CSV for Amazon
+Home-page: https://github.com/yourusername/json-flattener-to-csv-amazon
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# JSON Flattener
+
+A simple package to flatten JSON data.
+
+## Installation
+
+You can install it using pip:
+
+```bash
+pip install json_flattener
