@@ -1,0 +1,11 @@
+
+[llms]
+transformers
+accelerator
+torch
+ollama
+anthropic
+groq
+openai
+together
+loguru
