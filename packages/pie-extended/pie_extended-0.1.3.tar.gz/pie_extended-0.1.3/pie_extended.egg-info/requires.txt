@@ -1,0 +1,8 @@
+PaPie~=0.4.0
+autodisambiguator<1.0.0,>=0.0.1
+click<8.0,>=7.0
+colorama>=0.4.4
+numpy<1.24.0
+regex
+requests~=2.25.0
+unidecode~=1.1.1
