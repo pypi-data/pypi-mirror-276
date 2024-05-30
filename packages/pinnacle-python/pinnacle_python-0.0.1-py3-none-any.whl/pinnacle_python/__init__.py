@@ -1,0 +1,1 @@
+from pinnacle_python.endpoints import endpoint
