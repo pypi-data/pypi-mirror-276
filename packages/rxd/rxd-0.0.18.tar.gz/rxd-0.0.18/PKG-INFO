@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rxd
+Version: 0.0.18
+Summary: A reactive application manager
+Home-page: https://github.com/huyng/rxd
+Author: Huy Nguyen
+Author-email: 121183+huyng@users.noreply.github.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
