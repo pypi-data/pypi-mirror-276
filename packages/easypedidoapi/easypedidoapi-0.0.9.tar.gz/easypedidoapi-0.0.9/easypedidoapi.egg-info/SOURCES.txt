@@ -1,0 +1,10 @@
+setup.py
+easypedidoapi/__init__.py
+easypedidoapi/base.py
+easypedidoapi.egg-info/PKG-INFO
+easypedidoapi.egg-info/SOURCES.txt
+easypedidoapi.egg-info/dependency_links.txt
+easypedidoapi.egg-info/requires.txt
+easypedidoapi.egg-info/top_level.txt
+easypedidoapi/interfaces/__init__.py
+easypedidoapi/interfaces/adatec.py

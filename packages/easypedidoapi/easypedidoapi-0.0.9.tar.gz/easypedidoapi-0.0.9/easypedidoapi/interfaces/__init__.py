@@ -1,0 +1,1 @@
+from .adatec import AdatecInterface
