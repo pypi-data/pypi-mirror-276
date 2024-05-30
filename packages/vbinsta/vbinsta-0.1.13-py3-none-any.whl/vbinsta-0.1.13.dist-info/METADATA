@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vbinsta
+Version: 0.1.13
+Summary: 
+Author: vaibhavblayer
+Author-email: vaibhavblayer@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: instagrapi (>=2.1.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+
