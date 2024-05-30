@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: fastsupabased-acl
+Version: 0.1.4
+Summary: FastAPI Dependency for Supabase-based ACL using Supabase Roles
+Author: Vinicius Mesel
+Author-email: 4984147+vmesel@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: supabase (>=2.4.6,<3.0.0)
+Description-Content-Type: text/markdown
+
+# FastSupabased ACL
+
+This is a simple ACL (Access Control List) implementation for Supabase. It is based on the [FastAPI](https://fastapi.tiangolo.com/) framework.
+
+## Installation
+
+```bash
+pip install fastsupabased-acl
+```
+
+## Usage
+
+Set the environment variables `SUPABASE_URL` and `SUPABASE_KEY` to your Supabase URL and key.
+
+```bash
+export SUPABASE_URL=https://your-supabase-url.com
+export SUPABASE_KEY=your-supabase-key
+```
+
+Then, on your source code:
+
+```python
+from fastapi import FastAPI, Depends
+from fastsupabased_acl import FastSupabasedACL
+
+app = FastAPI()
+
+authenticated_acl = FastSupabasedACL(role=["authenticated"])
+
+@app.get("/test", dependencies=[Depends(authenticated_acl)]
+def simple_authenticated_route():
+    return {"message": "Hello, authenticated user!"}
+```
