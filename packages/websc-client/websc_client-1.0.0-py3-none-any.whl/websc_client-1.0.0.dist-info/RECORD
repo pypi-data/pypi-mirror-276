@@ -1,0 +1,7 @@
+websc_client/__init__.py,sha256=lUdYO1Am6qipJKa2CSuWgiFWDeXQWfUggxJmnGHrrNE,84
+websc_client/client.py,sha256=1PJ_yHsBgc-hysb16WYEISoV3yzke4lyh1UpqHzdCYM,4144
+websc_client/websc.py,sha256=mbRSq81fGonWjPTSIg1CSE1V-gubgL81lQfNx9T_YYw,4035
+websc_client-1.0.0.dist-info/METADATA,sha256=KU3OrPeUOi-NsuMIsaU-x5HSnvf4gSvoC3UwZ25YdTg,2081
+websc_client-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+websc_client-1.0.0.dist-info/top_level.txt,sha256=0Ph7A7kr9p7D_QXU4OWRXfoiOoti98qVwMpm6vR10J0,13
+websc_client-1.0.0.dist-info/RECORD,,
