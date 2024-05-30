@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Мастерская">
+    <meta name="keywords" content="аренда, машины, авто">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
+    <title>Главная</title>
+</head>
+<body>
+
+<div class="header">
+    <img src="{% static 'main/img/logo.jpg' %}" height="100px" width="">
+    <h2>Название сайта </h2>
+    {% if not user.is_anonymous %}
+    <h3><a href="{% url 'main:logout' %}">Выйти</a></h3>
+    {% else %}
+    <h3><a href="{% url 'main:signin' %}">Авторизация</a></h3>
+    <h3><a href="{% url 'main:signup' %}">Регистрация</a></h3>
+    {% endif %}
+
+    <ul>
+        <li><a href="{% url 'main:home' %}">Главная</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">что-то</a></li>
+        <li><a href="{% url 'main:contacts' %}">Контакты</a></li>
+    </ul>
+
+</div>
+<br>
+<p>Text</p>
+<a href="{% url 'main:new_paper' %}">
+    <button type="submit" class="button">Отправить заявку</button>
+</a>
+
+</body>
+</html>
