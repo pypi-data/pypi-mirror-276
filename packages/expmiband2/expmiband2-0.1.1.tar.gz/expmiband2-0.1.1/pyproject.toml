@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "expmiband2"
+authors = [{name = "Anton Ptashnik", email = "iavtomator@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "bleak==0.20.1",
+    "pyaes==1.6.1",
+]
+requires-python = ">=3.5"
+
+[project.urls]
+Documentation = "https://github.com/anton-ptashnik/test-miband2-api-py"
+Source = "https://github.com/anton-ptashnik/test-miband2-api-py"
