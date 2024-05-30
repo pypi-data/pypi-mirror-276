@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/autocall/__init__.py
+src/autocall/parser.py
+src/autocall.egg-info/PKG-INFO
+src/autocall.egg-info/SOURCES.txt
+src/autocall.egg-info/dependency_links.txt
+src/autocall.egg-info/requires.txt
+src/autocall.egg-info/top_level.txt
+tests/test.py
