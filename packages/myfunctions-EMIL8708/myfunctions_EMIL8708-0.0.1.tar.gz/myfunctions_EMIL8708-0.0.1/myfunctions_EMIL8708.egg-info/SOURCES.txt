@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_EMIL8708/__init__.py
+myfunctions_EMIL8708/math.py
+myfunctions_EMIL8708.egg-info/PKG-INFO
+myfunctions_EMIL8708.egg-info/SOURCES.txt
+myfunctions_EMIL8708.egg-info/dependency_links.txt
+myfunctions_EMIL8708.egg-info/top_level.txt
