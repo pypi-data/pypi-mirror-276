@@ -1,0 +1,2 @@
+[console_scripts]
+acc-feature-store-schemas = accrete_feature_store.__main__:main
