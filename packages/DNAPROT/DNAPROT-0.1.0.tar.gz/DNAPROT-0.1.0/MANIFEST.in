@@ -1,0 +1,8 @@
+include README.md
+include SOURCES.md
+include LICENSE
+include setup.py
+include test_file_1.txt
+include test_file_2.txt
+include test_file_3.txt
+recursive-include dnaprot *.py

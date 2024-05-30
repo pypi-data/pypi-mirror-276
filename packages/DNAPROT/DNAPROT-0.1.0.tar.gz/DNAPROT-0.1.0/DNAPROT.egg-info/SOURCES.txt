@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+SOURCES.md
+setup.py
+DNAPROT.egg-info/PKG-INFO
+DNAPROT.egg-info/SOURCES.txt
+DNAPROT.egg-info/dependency_links.txt
+DNAPROT.egg-info/requires.txt
+DNAPROT.egg-info/top_level.txt
+DNAPROT_package/DNAPROT_analysis.py
+DNAPROT_package/__init__.py
+tests/tests_for_all_functions.py
