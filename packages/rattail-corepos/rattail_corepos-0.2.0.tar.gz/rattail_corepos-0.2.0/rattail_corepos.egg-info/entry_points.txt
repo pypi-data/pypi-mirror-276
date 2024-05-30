@@ -1,0 +1,31 @@
+[console_scripts]
+core-office = rattail_corepos.corepos.office.commands:core_office_typer
+crepes = rattail_corepos.corepos.commands:crepes_typer
+
+[rattail.config.extensions]
+rattail-corepos = rattail_corepos.config:RattailCOREPOSExtension
+
+[rattail.emails]
+rattail_corepos = rattail_corepos.emails
+
+[rattail.importing]
+to_corepos_api.from_rattail.export = rattail_corepos.corepos.importing.rattail:FromRattailToCore
+to_corepos_db_lane_op.from_corepos_db_office_op.export = rattail_corepos.corepos.lane.importing.op.office:FromCoreOfficeToCoreLane
+to_rattail.from_corepos_api.import = rattail_corepos.importing.corepos.api:FromCOREPOSToRattail
+to_rattail.from_corepos_db_office_op.import = rattail_corepos.importing.corepos.db:FromCOREPOSToRattail
+to_trainwreck.from_corepos_db_office_trans = rattail_corepos.trainwreck.importing.corepos:FromCoreToTrainwreck
+
+[rattail.providers]
+rattail_corepos = rattail_corepos.app:CoreProvider
+
+[rattail.subcommands]
+corepos-import-square = rattail_corepos.commands:CoreImportSquare
+export-corepos = rattail_corepos.commands:ExportCore
+import-corepos-api = rattail_corepos.commands:ImportCOREPOSAPI
+import-corepos-db = rattail_corepos.commands:ImportCOREPOSDB
+
+[rattail.typer_imports]
+rattail_corepos = rattail_corepos.commands
+
+[trainwreck.typer_imports]
+rattail_corepos = rattail_corepos.trainwreck.commands
