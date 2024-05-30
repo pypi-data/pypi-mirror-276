@@ -1,0 +1,12 @@
+pygmailcleaner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygmailcleaner/main.py,sha256=KzhxDLm2mIx3YUNcW1bxN5dtSIYT9gklhfFHGSlDvkw,7634
+pygmailcleaner/utils/__init__.py,sha256=5Vgtwc50uhob-icEOgM7qE6y2Cf14Pfs37J4T2J3lQU,90
+pygmailcleaner/utils/cli.py,sha256=2DCyElJAjfCZN_kxW0WU0mrmMp_y5zwRP4m9s5A-Bd4,6095
+pygmailcleaner/utils/commands.py,sha256=NcF8kPz1WFpVRLpqlRPzdesLqpJaGFhPxDV7qHnHo3A,833
+pygmailcleaner/utils/formatting.py,sha256=LSmJdh-LCQX7B5yDmlieh89MYlaJ02XfdvaqnphQGDI,572
+pygmailcleaner/utils/smpt.py,sha256=_KUOzy99-mrPNWfFxqeKfedtQC7WsXFHQOyWnTg_QaM,3277
+pygmailcleaner/utils/testing.py,sha256=OXaFt36WidIBdgeeZL1Pgrwr0OoM-qH2404F0oAK6H0,1735
+pygmailcleaner-0.1.1.dist-info/METADATA,sha256=a0u5Fi_bkTxszko1zU9Vt6PVsCLPVMztrKo9WRropGA,4750
+pygmailcleaner-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pygmailcleaner-0.1.1.dist-info/entry_points.txt,sha256=WsLQSUejc-lgC0B6uuRaRXUfBp7i1B10EplBKQ_Hzw8,59
+pygmailcleaner-0.1.1.dist-info/RECORD,,
