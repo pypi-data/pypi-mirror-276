@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_zulyakeldibaeva/__init__.py
+myfunctions_zulyakeldibaeva/math.py
+myfunctions_zulyakeldibaeva.egg-info/PKG-INFO
+myfunctions_zulyakeldibaeva.egg-info/SOURCES.txt
+myfunctions_zulyakeldibaeva.egg-info/dependency_links.txt
+myfunctions_zulyakeldibaeva.egg-info/top_level.txt
