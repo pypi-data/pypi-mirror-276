@@ -1,0 +1,2 @@
+[console_scripts]
+goit-phone-book-bot = src.main:main
