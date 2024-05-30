@@ -1,0 +1,13 @@
+pryvacy/__init__.py,sha256=2xG1_PjYKCs0ywzt8xd2j0U_fQBajFPL-XxTN2TEcs4,134
+pryvacy/access_policy.py,sha256=NviE4yiOIvvJ_Zes3qqkzsKBX8CMZ1wND7hbon07d24,101
+pryvacy/context.py,sha256=WnFejBmjvpRhMDNkja0Ulk9Zpr9cxPIdCytOTVC2mFo,441
+pryvacy/decorators/__init__.py,sha256=M_9J0T5tHiNwI0TmFcrG_ISFB4t46L7nnHruWYOIhrk,39
+pryvacy/decorators/access_decorators/__init__.py,sha256=hR4fnmJP49NQtAvK6V8lG9vP8LhMk4O5eWSSA43hExE,445
+pryvacy/decorators/pryvacy_decorator/__init__.py,sha256=MP9puKw2EYwmr4ukmyUj_vFYJ5cZps2i7wFG6hRKDgM,649
+pryvacy/decorators/pryvacy_decorator/instance_methods.py,sha256=1eFWgzZUYuuWMjPWonuH9w06dD1hiNPUlVtaosp8qic,2698
+pryvacy/decorators/pryvacy_decorator/nested_classes.py,sha256=YX2Uu1Q1kLs6v9qySiOWBzubKN0yodnk_jOeeEyR3mA,791
+pryvacy/decorators/utils.py,sha256=ooWnDeE41yaxiiaTlpmYInVPs8BkKUkoRS9JySnK7Vo,364
+pryvacy-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pryvacy-0.1.1.dist-info/METADATA,sha256=HrWTvxc8i-5XMFKAAeCDEUbT1olwb-0GtTzNWh8QORQ,2399
+pryvacy-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pryvacy-0.1.1.dist-info/RECORD,,
