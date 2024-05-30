@@ -1,0 +1,6 @@
+docs
+equiadapt
+examples
+tests
+tutorials
+utils
