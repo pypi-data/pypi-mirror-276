@@ -1,0 +1,9 @@
+kaal/__init__.py,sha256=GJN8CMuBJAAjkLgfvaaKtOEmHm4_Uj9I3wEzjWpS5n0,21
+kaal/hello.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaal/test.py,sha256=vK03jr0Wyg00JGZZXYBhqxnj32d-vTvV3Jv-FSFBMSk,50
+kaal/utils/__init__.py,sha256=9LuBbC0aN6UzeCtiFQeedXm2F6dTnBSrXPbbW866QOo,27
+kaal/utils/preprocessing.py,sha256=zeF8C3qniuIhBvTiRiSHeDciFAJnz9tbEQMesvOIbWQ,640
+kaal-1.0.0.dist-info/METADATA,sha256=Ymn3bxZylyXIUUSi10OzIB78Wj3f-tthq7qKSWEqRh4,152
+kaal-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kaal-1.0.0.dist-info/top_level.txt,sha256=_LoDAPXE2raImwdJTq9ETw0QChVodF93bIZtLKRcw6Q,5
+kaal-1.0.0.dist-info/RECORD,,
