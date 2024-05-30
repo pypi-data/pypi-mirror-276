@@ -1,0 +1,217 @@
+Metadata-Version: 2.1
+Name: dorieh
+Version: 0.0.10
+Summary: Dorieh Data Engineering Platform
+Home-page: https://github.com/NSAPH-Data-Platform/dorieh
+Author: Michael A Bouzinier
+Author-email: mbouzinier@g.harvard.edu
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: alembic >=1.4.3
+Requires-Dist: apispec >=1.3.3
+Requires-Dist: argcomplete >=1.12.1
+Requires-Dist: attrs >=19.3.0
+Requires-Dist: Babel >=2.8.0
+Requires-Dist: bagit >=1.7.0
+Requires-Dist: boto3
+Requires-Dist: CacheControl >=0.11.7
+Requires-Dist: cached-property >=1.5.2
+Requires-Dist: cattrs >=1.0.0
+Requires-Dist: certifi >=2023.7.22
+Requires-Dist: chardet >=3.0.4
+Requires-Dist: click >=7.1.2
+Requires-Dist: clickclick >=20.10.2
+Requires-Dist: colorama >=0.4.4
+Requires-Dist: coloredlogs >=14.0
+Requires-Dist: colorlog >=4.0.2
+Requires-Dist: configparser >=3.5.3
+Requires-Dist: connexion >=2.7.0
+Requires-Dist: croniter >=0.3.35
+Requires-Dist: cwltest >=2.0.20200626112502
+Requires-Dist: cwltool >=3.0.20200710214758
+Requires-Dist: decorator >=4.4.2
+Requires-Dist: defusedxml >=0.6.0
+Requires-Dist: deprecated
+Requires-Dist: dill >=0.3.2
+Requires-Dist: dnspython >=2.0.0
+Requires-Dist: docker >=4.3.1
+Requires-Dist: docutils >=0.16
+Requires-Dist: funcsigs >=1.0.2
+Requires-Dist: future >=0.18.2
+Requires-Dist: geopandas
+Requires-Dist: geopy
+Requires-Dist: GitPython
+Requires-Dist: graphviz >=0.14.2
+Requires-Dist: gunicorn >=20.0.4
+Requires-Dist: h5py
+Requires-Dist: hydra-core
+Requires-Dist: humanfriendly >=8.2
+Requires-Dist: idna >=2.10
+Requires-Dist: importlib-metadata >=2.0.0
+Requires-Dist: inflection >=0.5.1
+Requires-Dist: iso8601 >=0.1.13
+Requires-Dist: isodate >=0.6.0
+Requires-Dist: itsdangerous ==1.1.0
+Requires-Dist: Jinja2 ==2.11.2
+Requires-Dist: json-merge-patch >=0.2
+Requires-Dist: jsonmerge >=1.7.0
+Requires-Dist: jsonschema >=3.2.0
+Requires-Dist: junit-xml >=1.9
+Requires-Dist: lazy-object-proxy >=1.5.1
+Requires-Dist: lockfile >=0.12.2
+Requires-Dist: lxml >=4.6.1
+Requires-Dist: Mako >=1.1.3
+Requires-Dist: Markdown >=2.6.11
+Requires-Dist: marko
+Requires-Dist: MarkupSafe >=1.1.1
+Requires-Dist: marshmallow >=2.21.0
+Requires-Dist: marshmallow-enum >=1.5.1
+Requires-Dist: marshmallow-sqlalchemy >=0.23.1
+Requires-Dist: mistune >=0.8.4
+Requires-Dist: mypy-extensions >=0.4.3
+Requires-Dist: myst-parser
+Requires-Dist: netCDF4
+Requires-Dist: natsort >=7.0.1
+Requires-Dist: networkx >=2.5
+Requires-Dist: numpy
+Requires-Dist: openapi-spec-validator >=0.2.9
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: paramiko
+Requires-Dist: pyarrow
+Requires-Dist: pendulum >=1.4.4
+Requires-Dist: prison >=0.1.3
+Requires-Dist: prov >=1.5.1
+Requires-Dist: psutil >=5.7.2
+Requires-Dist: psycopg2-binary >=2.8.6
+Requires-Dist: pygeos
+Requires-Dist: PyGithub
+Requires-Dist: Pygments >=2.7.1
+Requires-Dist: PyJWT >=1.7.1
+Requires-Dist: pyparsing >=2.4.7
+Requires-Dist: pyresourcepool
+Requires-Dist: pyrsistent >=0.17.3
+Requires-Dist: pyshp
+Requires-Dist: pytest
+Requires-Dist: python-daemon >=2.2.4
+Requires-Dist: python-dateutil >=2.8.1
+Requires-Dist: python-editor >=1.0.4
+Requires-Dist: python-nvd3 >=0.15.0
+Requires-Dist: python-slugify >=4.0.1
+Requires-Dist: python3-openid >=3.2.0
+Requires-Dist: pytz >=2020.1
+Requires-Dist: pytzdata >=2020.1
+Requires-Dist: PyYAML >=5.3.1
+Requires-Dist: rasterstats
+Requires-Dist: rdflib >=4.2.2
+Requires-Dist: rdflib-jsonld >=0.5.0
+Requires-Dist: requests
+Requires-Dist: rioxarray
+Requires-Dist: rtree
+Requires-Dist: ruamel.yaml >=0.16.5
+Requires-Dist: ruamel.yaml.clib >=0.2.2
+Requires-Dist: sas7bdat
+Requires-Dist: schema-salad >=7.0.20200811075006
+Requires-Dist: setproctitle >=1.1.10
+Requires-Dist: shapely
+Requires-Dist: shellescape >=3.4.1
+Requires-Dist: six >=1.15.0
+Requires-Dist: sortedcontainers
+Requires-Dist: sphinx
+Requires-Dist: sphinx-paramlinks
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: sqlparse
+Requires-Dist: SQLAlchemy >=1.3.20
+Requires-Dist: SQLAlchemy-JSONField >=0.9.0
+Requires-Dist: SQLAlchemy-Utils >=0.36.8
+Requires-Dist: tabulate >=0.8.7
+Requires-Dist: tenacity >=4.12.0
+Requires-Dist: text-unidecode >=1.3
+Requires-Dist: thrift >=0.13.0
+Requires-Dist: tornado >=6.0.4
+Requires-Dist: tqdm
+Requires-Dist: typing-extensions
+Requires-Dist: tzlocal >=1.5.1
+Requires-Dist: unicodecsv >=0.14.1
+Requires-Dist: urllib3 >=1.25.11
+Requires-Dist: websocket-client >=0.57.0
+Requires-Dist: Werkzeug >=0.16.1
+Requires-Dist: zipp >=3.3.1
+Requires-Dist: zope.deprecation >=4.4.0
+Requires-Dist: sshtunnel
+Requires-Dist: xarray
+Requires-Dist: xlrd
+Provides-Extra: fst
+Requires-Dist: rpy2 ; extra == 'fst'
+
+# Dorieh Data Platform for population and environmental health
+
+Detailed documentation: [Dorieh Documentation](https://nsaph-data-platform.github.io/dorieh/)
+
+## Dorieh overview
+
+
+Dorieh Data Platform is intended for development and deployment of
+ETL/ELT pipelines that includes complex data processing and data
+cleansing workflows. Complex workflows require a workflow language,
+and we have chosen
+[Common Workflow Language (CWL)](https://www.commonwl.org/).
+
+We have tested deployment with the following CWL [implementations](https://www.commonwl.org/implementations/): 
+                                                                 
+* [Toil](https://toil.readthedocs.io/en/latest/running/cwl.html).
+* [CWL reference implementation](https://github.com/common-workflow-language/cwltool), 
+    primarily using [cwlref-runner ](https://pypi.org/project/cwlref-runner/) package
+* [CWL-Airflow](https://cwl-airflow.readthedocs.io/en/latest/) that provides a very nice 
+    Airflow graphical user interface (GUI) for running workflows.
+
+The data produced by the data processing workflows is eventually stored in 
+either CSV files, a PostgreSQL DBMS or Parquet files. Dorieh also supports storing
+results in [FST](https://www.fstpackage.org/) and [HDF5](https://www.hdfgroup.org/) files. 
+
+Some of the included data processing workflows use “Extract, Load, Transform,” (ELT) paradigm 
+rather than more traditional “Extract, Transform, Load” ETL. It means that these workflows 
+perform calculations, translations, filtering, cleansing, de-duplicating, validating, and 
+data analysis or summarizations inside a DBMS using DBMS internal tools.
+
+The data platform supports tools written in widely used languages such as
+Python, C/C++ and Java, R and PL/pgSQL.
+            
+
+## Setting up
+
+### Python Virtual Environment
+
+Install Toil:
+
+    pip install "toil[cwl,aws]"
+
+Install Dorieh:
+
+    pip install git+https://github.com/NSAPH-Data-Platform/dorieh
+
+If FST support is desired, [R](https://www.r-project.org/) runtime has to be installed and R_HOME environment 
+variable set up. One of the simples ways of installing R is to use 
+[Conda package manager](https://docs.conda.io/projects/conda/en/stable/). Once R is set up, install
+Dorieh with the following command:
+
+
+    pip install "git+https://github.com/NSAPH-Data-Platform/dorieh[FST]"
+
+### Docker Container
+
+To build your own Dorieh Docker image see [docker directory](docker/README.md)
+
+A prebuilt docker image with Dorieh is provided:
+
+    docker pull forome/dorieh
+
+
+## Built-in Workflows
+
+For examples of data processing workflows, see [included data processing workflows](doc/pipelines)
+
