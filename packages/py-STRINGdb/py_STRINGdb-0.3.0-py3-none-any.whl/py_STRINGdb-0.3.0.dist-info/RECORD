@@ -1,0 +1,12 @@
+STRINGdb/__init__.py,sha256=LvzoJcVsl7cpb4tlkcAt-UMC4g4U6Z-obRjabZhdG9A,174
+STRINGdb/graph.py,sha256=qVRylEH2TIijMitJ9EE2fMJjRcUgMVnW2w3Vzjnlrkk,4694
+STRINGdb/network.py,sha256=a7Y05WKpH2yZmlava_j79FHVsUg_2x6PyePAatPAaQU,5283
+STRINGdb/prep.py,sha256=cT82xTlJsEcZG03AEEgxvEVZ93a77iLldOS409EAgXw,4947
+STRINGdb/version.py,sha256=ut6WcLfstQUbi70jPJi9exqCLrlRDMoqq1ARdYe3cRM,988
+STRINGdb/dataset/genes.csv,sha256=-GCB25tLwxI_j15R_UJhKU8Frdyj_nngYNO7OQGwNI0,21855
+py_STRINGdb-0.3.0.dist-info/LICENSE,sha256=KDYgvUuxR5hbk-x5hJhBgpytfWONP4vKM60KxAmhnvw,11043
+py_STRINGdb-0.3.0.dist-info/METADATA,sha256=L9W8tiT8sE0fRTOGDtiPR_CxVS8Azewlkf3ccMDDFYw,365
+py_STRINGdb-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+py_STRINGdb-0.3.0.dist-info/entry_points.txt,sha256=cD_PP0_GqJuRFndBTz9ojjzVIH6-FRV7yxBsOM9_zH4,48
+py_STRINGdb-0.3.0.dist-info/top_level.txt,sha256=PcnPylFhnZ4tlYWX6n_-LN3j_5g_Tj0cgl16VsGw3Ro,9
+py_STRINGdb-0.3.0.dist-info/RECORD,,
