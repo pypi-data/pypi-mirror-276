@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: date-difference
+Version: 0.1.0
+Summary: A Python library to calculate the difference between two dates.
+Home-page: https://github.com/gihubuser72/date_difference.git
+Author: devlopment-new10
+Author-email: githubuser16@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# date_difference
+
+مكتبة Python لحساب الفرق بين تاريخين.
+
+## كيفية الاستخدام
+
+```python
+from date_difference import calculate_date_difference
+
+# حساب الفرق بين التاريخين
+days, hours, minutes, seconds = calculate_date_difference("2023-01-01 12:00:00", "2024-05-30 15:30:45")
+
+# طباعة النتيجة
+print(f"الفرق بين التاريخين هو: {days} أيام، {hours} ساعات، {minutes} دقائق، {seconds} ثوانٍ")
