@@ -1,0 +1,27 @@
+from enum import Enum
+
+class Events(Enum):
+    WAREHOUSE_CALLS = 'WAREHOUSE_CALLS_DATA'
+    WAREHOUSE_TCN = 'WAREHOUSE_TCN_DATA'
+    WAREHOUSE_LEADS = 'WAREHOUSE_LEADS_DATA'
+    WAREHOUSE_COST_TRACKER = 'WAREHOUSE_COST_TRACKER'
+
+class Service(Enum):
+    ASR = "ASR"
+    TTS = "TTS"
+    SLU = "SLU"
+    SMS = "SMS"
+    TELEPHONY = "TELEPHONY"
+
+class Vendor(Enum):
+    NONE = "NONE"
+    GOOGLE = "GOOGLE"
+    SKIT = "SKIT"
+    AZURE = "AZURE"
+    AMAZON = "AMAZON"
+    TCN = "TCN"
+    TWILIO = "TWILIO"
+    FAST2SMS = "FAST2SMS"
+    TWO_FA = "TWO_FA"
+    MY_OPERATOR = "MY_OPERATOR"
+    MSG91 = "MSG91"
