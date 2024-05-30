@@ -1,0 +1,5 @@
+include README.md
+recursive-include demo *
+include *.sqlite3
+include .gitignore
+recursive-include main *

@@ -1,0 +1,70 @@
+table, tr > * {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+td {
+    word-break: break-all;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+.field input {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.button {
+  border-radius: 3px;
+  line-height: 1.25;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: .08em;
+  position: relative;
+  transition: background-color .6s ease;
+  overflow: hidden;
+}

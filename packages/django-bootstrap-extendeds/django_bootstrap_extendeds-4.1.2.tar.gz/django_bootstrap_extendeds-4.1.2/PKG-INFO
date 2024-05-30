@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django_bootstrap_extendeds
+Version: 4.1.2
+Summary: Flask bootstrap-library EXTENDED
+Home-page: https://github.com/yourusername/my_library
+Author: Dex
+Author-email: censored@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# My Library
+
+This is an example library for demonstration purposes.

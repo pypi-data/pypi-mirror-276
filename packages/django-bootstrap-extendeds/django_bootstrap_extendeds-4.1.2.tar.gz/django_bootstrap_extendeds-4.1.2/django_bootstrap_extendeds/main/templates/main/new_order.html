@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Мастерская">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Новый заказ</title>
+    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
+</head>
+<body>
+
+<div class="header">
+    <h2>Название сайта</h2>
+    {% if not user.is_anonymous %}
+    <h3><a href="{% url 'main:logout' %}">Выйти</a></h3>
+    {% else %}
+    <h3><a href="{% url 'main:signin' %}">Авторизация</a></h3>
+    <h3><a href="{% url 'main:signup' %}">Регистрация</a></h3>
+    {% endif %}
+
+    <ul>
+        <li><a href="{% url 'main:home' %}">Главная</a></li>
+        <li><a href="#">что-то</a></li>
+        <li><a href="#">что-то</a></li>
+        <li><a href="{% url 'main:contacts' %}">Контакты</a></li>
+    </ul>
+
+</div>
+
+<form action="{% url 'main:new_paper' %}" method="POST">
+    {% csrf_token %}
+    <div class="form-signin">
+        <div class="form-group">
+            <label for="{{ form.number_car.id_for_label }}">Гос. номер авто</label>
+        </div>
+        {{ form.number_car }}
+        <div class="form-group">
+            <label for="{{ form.description.id_for_label }}">Описание</label>
+        </div>
+        {{ form.description }}
+        <div class="">
+            <input type="submit" value="Создать заявление">
+        </div>
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Мастерская">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
+    <title>Мои заказы</title>
+</head>
+<body>
+
+<div class="header">
+    <h2>Название сайта</h2>
+    {% if not user.is_anonymous %}
+    <h3><a href="{% url 'main:logout' %}">Выйти</a></h3>
+    {% else %}
+    <h3><a href="{% url 'main:signin' %}">Авторизация</a></h3>
+    <h3><a href="{% url 'main:signup' %}">Регистрация</a></h3>
+    {% endif %}
+
+    <ul>
+        <li><a href="{% url 'main:home' %}">Главная</a></li>
+        <li><a href="#">что-то</a></li>
+        <li><a href="#">что-то</a></li>
+        <li><a href="{% url 'main:contacts' %}">Контакты</a></li>
+    </ul>
+
+</div>
+
+<center>
+    <table>
+        <tr>
+            <th>Номер машины</th>
+            <th>Описание</th>
+            <th>Статус</th>
+        </tr>
+        {% for item in orders %}
+        <tr>
+            <td>{{ item.number_car }}</td>
+            <td>{{ item.description }}</td>
+            <td>{{ item.get_status_display }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+</center>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
+    <title>Регистрация</title>
+</head>
+<body>
+
+<div class="header">
+    <h2>Название сайта</h2>
+    {% if not user.is_anonymous %}
+    <h3><a href="{% url 'main:logout' %}">Выйти</a></h3>
+    {% else %}
+    <h3><a href="{% url 'main:signin' %}">Авторизация</a></h3>
+    <h3><a href="{% url 'main:signup' %}">Регистрация</a></h3>
+    {% endif %}
+
+    <ul>
+        <li><a href="{% url 'main:home' %}">Главная</a></li>
+        <li><a href="#">что-то</a></li>
+        <li><a href="#">что-то</a></li>
+        <li><a href="{% url 'main:contacts' %}">Контакты</a></li>
+    </ul>
+    <br>
+    <form class="form-signup" action="{% url 'main:signup' %} " method="post">
+        {% csrf_token %}
+        <div class="form-signup">
+            <div class="field">
+                <label for="{{ form.firstname.id_for_label }}">ФИО</label><br>
+                {{ form.first_name }}
+            </div>
+            <div class="field">
+                <label for="{{ form.number.id_for_label }}">Номер телефона</label><br>
+                {{ form.number }}
+            </div>
+            <div class="field">
+                <label for="{{ form.username.id_for_label }}">Имя пользователя</label><br>
+                {{ form.username }}
+            </div>
+            <div class="field">
+                <label for="{{ form.email.id_for_label }}">Адрес электронной
+                    почты</label><br>
+                {{ form.email }}
+            </div>
+            <div class="field">
+                <label for="{{ form.password1.id_for_label }}">Пароль</label><br>
+                {{ form.password1 }}
+            </div>
+            <div class="field">
+                <label for="{{ form.password2.id_for_label }}">Подтверждение
+                    пароля</label><br>
+                {{ form.password2 }}
+            </div>
+            <br>
+            <input type="submit" value="Создать аккаунт" class="button">
+            <a href="{% url 'main:signin' %}">Авторизоваться</a>
+        </div>
+    </form>
+    {% if form.errors %}
+    <div style="margin-top: 50px;">
+        {{ form.errors }}
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

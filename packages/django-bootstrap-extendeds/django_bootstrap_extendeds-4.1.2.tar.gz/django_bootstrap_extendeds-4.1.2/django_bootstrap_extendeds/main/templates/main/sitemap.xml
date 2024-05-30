@@ -1,0 +1,22 @@
+<sitemapindex xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>http://localhost:8000/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1</priority>
+    </sitemap>
+    <sitemap>
+        <loc>http://localhost:8000/signin</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>http://localhost:8000/signup</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>http://localhost:8000/contacts</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </sitemap>
+</sitemapindex>
