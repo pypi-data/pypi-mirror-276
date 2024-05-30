@@ -1,0 +1,6 @@
+pyproject.toml
+src/datacontract.py
+src/datacontract.egg-info/PKG-INFO
+src/datacontract.egg-info/SOURCES.txt
+src/datacontract.egg-info/dependency_links.txt
+src/datacontract.egg-info/top_level.txt
