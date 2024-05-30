@@ -1,0 +1,7 @@
+geopandas
+pandas
+requests==2.31.0
+ipykernel
+arcgis==2.2.0
+libpysal
+dask[dataframe]

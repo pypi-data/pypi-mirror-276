@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/cle_data_toolkit.egg-info/PKG-INFO
+src/cle_data_toolkit.egg-info/SOURCES.txt
+src/cle_data_toolkit.egg-info/dependency_links.txt
+src/cle_data_toolkit.egg-info/requires.txt
+src/cle_data_toolkit.egg-info/top_level.txt
+src/cledatatoolkit/__init__.py
+src/cledatatoolkit/ago_helpers.py
+src/cledatatoolkit/census.py
+src/cledatatoolkit/property.py
+src/cledatatoolkit/spatial.py
