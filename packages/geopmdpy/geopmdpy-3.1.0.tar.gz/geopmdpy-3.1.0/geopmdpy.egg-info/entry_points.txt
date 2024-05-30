@@ -1,0 +1,4 @@
+[console_scripts]
+geopmaccess = geopmdpy.access:main
+geopmd = geopmdpy.__main__:main
+geopmsession = geopmdpy.session:main
