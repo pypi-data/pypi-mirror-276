@@ -1,0 +1,132 @@
+# Abstract Factories
+A collection of classes to support the Abstract Factory design pattern, providing a clear abstraction 
+layer for scalable data in dynamic environments.
+
+- Tested on Python 3.8 - 3.12
+- Functional on Python 2.7
+  > Wait - what? Python 2.7? What year is this?  
+  > I often work professionally on legacy systems that are too 
+  > fragile or large to update.
+  > Providing there's no functional or notable impact 
+  > supporting 2.7, I have no reason to ignore its existence _yet_.
+
+---
+
+## Installation
+Clone the project locally.
+
+---
+
+## Usage
+Initialize AbstractTypeFactory or AbstractInstanceFactory with the abstract type.  
+Optionally, provide the attribute/method name to identify items by name (and optionally version).
+```python
+from abstract_factories import AbstractTypeFactory, AbstractInstanceFactory
+
+class AbstractVehicle(object):
+    def __init__(self, make=None):
+        self.make = make
+
+    def start(self):
+        raise NotImplementedError()
+
+class Car(AbstractVehicle):
+    def start(self):
+        print('Vrooom...')
+
+# Type Factory
+type_factory = AbstractTypeFactory(AbstractVehicle)
+type_factory.register_item(Car)
+assert type_factory.get('Car') is Car
+
+# Instance Factory
+honda = Car('Honda')
+instance_factory = AbstractInstanceFactory(AbstractVehicle, name_key='make')
+instance_factory.register_item(honda)
+assert instance_factory.get('Honda') is honda
+```
+
+### Registration:
+Register viable items directly.
+- `type_factory.register_item(AbstractSubclass)`
+- `instance_factory.register_item(AbstractSubclass())`
+
+Find and register any viable items found in the module's locals.
+- `type_factory/instance_factory.register_module(module)`  
+
+Find and register any viable items found in any nested python file from a dynamic 
+import. Some limitation using relative imports.  
+- `type_factory/instance_factory.register_path(r'c:/tools/tool_plugins')`
+- `type_factory/instance_factory.register_path(r'c:/tools/tool_plugins/plugin.py')`
+
+---
+
+## Practical Applications
+### Content Creation
+Useful for managing production needs in Film, TV, and Games, allowing easy modifications and versioning of components.
+
+#### Rigging
+Easily support and modify rig component behaviours during production.
+```python
+import sys
+from abstract_factories import AbstractTypeFactory
+
+class AbstractRigComponent:
+    Name = 'AbstractRigComponent'
+    Version = 0
+
+    def build(self, **kwargs):
+        raise NotImplementedError()
+
+class IKChainComponent(AbstractRigComponent):
+    Name = 'IKChainComponent'
+    Version = 1
+
+    def build(self, **kwargs):
+        pass
+
+# --------------------------------------------------------------------------
+class RigComponentBuilder:
+    def __init__(self):
+        self.factory = AbstractTypeFactory(
+            abstract=AbstractRigComponent,
+            modules=[sys.modules[__name__]],
+            name_key='Name',
+            version_key='Version'
+        )
+
+    def build(self, component_data):
+        results = []
+        for data in component_data:
+            component = self.factory.get(
+                data.pop('type'), 
+                version=data.pop('version', None),
+            )
+            instance = component()
+            instance.build(**data)
+            results.append(instance)
+        return results
+
+builder = RigComponentBuilder()
+builder.build([
+    {'type': 'IKChainComponent', 'name': 'arm'},
+    {'type': 'IKChainComponent', 'name': 'leg', 'version': 2},
+])
+```
+
+---
+
+## Testing
+`.tests/` directory contains examples for;
+- Adding, removing & comparing items directly.
+- Adding, removing & comparing items found in modules and/or paths.
+
+---
+
+## Further Information
+Abstract factories is influenced by https://github.com/mikemalinowski/factories.
+
+---
+
+## License
+This project is licensed under the MIT License.
