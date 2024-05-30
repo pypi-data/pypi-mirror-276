@@ -1,0 +1,9 @@
+approx_umap/__init__.py,sha256=5GXLzYVku14mCjnoff29l7zloPgUF5YAwV7Mh9ax3zA,109
+approx_umap/approx_aligned_umap.py,sha256=kTBtBkGxObvu_nGqrobLlPskekkZZnLPfRGgGctz7RY,8176
+approx_umap/approx_umap.py,sha256=uaYXjQdeWv5L-QIQJ1bCjN8H5G6_VqPwBcrVjFKwjRw,8784
+approx_umap/functions.py,sha256=F7PGzymqR9oY6S6pKDFOwRG5u5VCG7iQ4k8bq-wcCsE,960
+approx_umap/temp.py,sha256=6HWK24c0loMxT0kneg-rhHDn-nrh9IYY07zYnRZlZu0,10902
+approx_umap-0.3.0.dist-info/LICENSE,sha256=T4gIbDCHobMxQSylpuHcWLGO_Zt1sAiL-G-X00XMkGk,1505
+approx_umap-0.3.0.dist-info/METADATA,sha256=bXrmeA8anp5pva0zMIbkyU0X6Dvt6un_pUQueoTvJDU,3997
+approx_umap-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+approx_umap-0.3.0.dist-info/RECORD,,
