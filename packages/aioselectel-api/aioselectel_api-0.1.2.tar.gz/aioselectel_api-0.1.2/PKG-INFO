@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aioselectel-api
+Version: 0.1.2
+Summary: 
+Author: azamtoiri
+Author-email: azamtoiri@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.9.5,<4.0.0)
+Requires-Dist: aioresponses (>=0.7.6,<0.8.0)
+Requires-Dist: anyio (>=4.4.0,<5.0.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: environs (>=11.0.0,<12.0.0)
+Requires-Dist: pytest (>=8.2.1,<9.0.0)
+Requires-Dist: pytest-asyncio (>=0.23.7,<0.24.0)
+Description-Content-Type: text/markdown
+
+# Selectel async API
+
+[![Pylint](https://github.com/azamtoiri/aioselectel_api/actions/workflows/pylint.yml/badge.svg)](https://github.com/azamtoiri/aioselectel_api/actions/workflows/pylint.yml) [![aioselectel_api](https://github.com/azamtoiri/aioselectel_api/actions/workflows/python-publish.yml/badge.svg)](https://github.com/azamtoiri/aioselectel_api/actions/workflows/python-publish.yml)
+
