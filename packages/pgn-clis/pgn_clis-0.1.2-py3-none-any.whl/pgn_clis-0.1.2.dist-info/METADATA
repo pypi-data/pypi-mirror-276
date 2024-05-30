@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pgn-clis
+Version: 0.1.2
+Summary: package_description
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/REPO.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: chess-utils
+Requires-Dist: chess-notation
+Requires-Dist: fs-tools
+
+# Pgn Clis
+
+> package_description
