@@ -1,0 +1,275 @@
+{
+    "Basic Directory": {
+        "data": {
+            "CIODName": "Basic Directory",
+            "data_type": "DicomCIODItem",
+            "DicomStandardSyncTime": "18 April 2024",
+            "Interpretation": "The Basic Directory IOD includes the Modules specified by Table F.3-1."
+        },
+        "children": {
+            "File-Set Identification": {
+                "data": {
+                    "ModuleName": "File-Set Identification",
+                    "data_type": "DicomModuleItem",
+                    "InformationEntity": "Basic Directory",
+                    "Usage": "Mandatory (M)",
+                    "ConditionalStatement": "",
+                    "Interpretation": "This module specifies the Attributes of the File-set Identification Module, which identify a File-set."
+                },
+                "children": {
+                    "(0004,1130) File-set ID": {
+                        "data": {
+                            "AttributeName": "(0004,1130) File-set ID",
+                            "data_type": "DicomAttributeItem",
+                            "Tag": "(0004,1130)",
+                            "Type": "Required, Empty if Unknown (2)",
+                            "Keyword": "FileSetID",
+                            "ValueMultiplicity": "1",
+                            "ValueRepresentation": "Code String (CS)",
+                            "ExampleValues": "",
+                            "Interpretation": "User or implementation specific Identifier (up to 16 characters). For definition, see PS3.10. The File-set ID is intended to be a short human readable label to easily (but not necessarily uniquely) identify a specific File-set to facilitate operator manipulation of the physical media on which the File-set is stored. Assignment of Value and semantics are environment specific."
+                        },
+                        "children": {}
+                    },
+                    "(0004,1141) File-set Descriptor File ID": {
+                        "data": {
+                            "AttributeName": "(0004,1141) File-set Descriptor File ID",
+                            "data_type": "DicomAttributeItem",
+                            "Tag": "(0004,1141)",
+                            "Type": "Optional (3)",
+                            "Keyword": "FileSetDescriptorFileID",
+                            "ValueMultiplicity": "1-8",
+                            "ValueRepresentation": "Code String (CS)",
+                            "ExampleValues": "",
+                            "Interpretation": "ID of a File (in the same File-set) used for user comments related to the File-set (e.g., a README file). The Specific Character set used may be specified in the Specific Character Set of the File-set Descriptor File (0004,1142)."
+                        },
+                        "children": {}
+                    },
+                    "(0004,1142) Specific Character Set of File-set Descriptor File": {
+                        "data": {
+                            "AttributeName": "(0004,1142) Specific Character Set of File-set Descriptor File",
+                            "data_type": "DicomAttributeItem",
+                            "Tag": "(0004,1142)",
+                            "Type": "Conditionally Required (1C)",
+                            "Keyword": "SpecificCharacterSetOfFileSetDescriptorFile",
+                            "ValueMultiplicity": "1",
+                            "ValueRepresentation": "Code String (CS)",
+                            "ExampleValues": "",
+                            "Interpretation": "Character set used in the File-set Descriptor File with a File ID as specified in File-set Descriptor File ID (0004,1141). Required to specify the expanded or replacement character set. If absent, only the Basic Graphic set is used. See Section C.12.1.1.2 for Defined Terms."
+                        },
+                        "children": {}
+                    }
+                }
+            },
+            "Directory Information": {
+                "data": {
+                    "ModuleName": "Directory Information",
+                    "data_type": "DicomModuleItem",
+                    "InformationEntity": "Basic Directory",
+                    "Usage": "User Optional (U)",
+                    "ConditionalStatement": "",
+                    "Interpretation": "This module specifies the Attributes of the Directory Information Module, which contain a Sequence of Directory Records forming one or more Directory Entities. This Module defines at least one Directory Entity, the Root Directory Entity (which may be empty). Each Directory Record is composed of Directory Elements (marked by a \">\"). They include:"
+                },
+                "children": {
+                    "(0004,1200) Offset of the First Directory Record of the Root Directory Entity": {
+                        "data": {
+                            "AttributeName": "(0004,1200) Offset of the First Directory Record of the Root Directory Entity",
+                            "data_type": "DicomAttributeItem",
+                            "Tag": "(0004,1200)",
+                            "Type": "Required (1)",
+                            "Keyword": "OffsetOfTheFirstDirectoryRecordOfTheRootDirectoryEntity",
+                            "ValueMultiplicity": "1",
+                            "ValueRepresentation": "Unsigned Long (UL)",
+                            "ExampleValues": "",
+                            "Interpretation": "Offset of the first byte (of the Item Data Element) of the first Directory Record of the Root Directory Entity. This Offset is a number of bytes starting with the first byte of the File Meta Information. When the Root Directory Entity contains no Directory Record, this offset shall be set to 00000000H."
+                        },
+                        "children": {}
+                    },
+                    "(0004,1202) Offset of the Last Directory Record of the Root Directory Entity": {
+                        "data": {
+                            "AttributeName": "(0004,1202) Offset of the Last Directory Record of the Root Directory Entity",
+                            "data_type": "DicomAttributeItem",
+                            "Tag": "(0004,1202)",
+                            "Type": "Required (1)",
+                            "Keyword": "OffsetOfTheLastDirectoryRecordOfTheRootDirectoryEntity",
+                            "ValueMultiplicity": "1",
+                            "ValueRepresentation": "Unsigned Long (UL)",
+                            "ExampleValues": "",
+                            "Interpretation": "Offset of the first byte (of the Item Data Element) of the last Directory Record of the Root Directory Entity. This Offset is a number of bytes starting with the first byte of the File Meta Information. When the Root Directory Entity contains no Directory Record, this offset shall be set to 00000000H."
+                        },
+                        "children": {}
+                    },
+                    "(0004,1212) File-set Consistency Flag": {
+                        "data": {
+                            "AttributeName": "(0004,1212) File-set Consistency Flag",
+                            "data_type": "DicomAttributeItem",
+                            "Tag": "(0004,1212)",
+                            "Type": "Required (1)",
+                            "Keyword": "FileSetConsistencyFlag",
+                            "ValueMultiplicity": "1",
+                            "ValueRepresentation": "Unsigned Short (US)",
+                            "ExampleValues": "",
+                            "Interpretation": "Enumerated Values:"
+                        },
+                        "children": {}
+                    },
+                    "(0004,1220) Directory Record Sequence": {
+                        "data": {
+                            "AttributeName": "(0004,1220) Directory Record Sequence",
+                            "data_type": "DicomAttributeItem",
+                            "Tag": "(0004,1220)",
+                            "Type": "Required, Empty if Unknown (2)",
+                            "Keyword": "DirectoryRecordSequence",
+                            "ValueMultiplicity": "1",
+                            "ValueRepresentation": "Sequence (SQ)",
+                            "ExampleValues": "",
+                            "Interpretation": "Sequence of zero or more Items where each Item contains a Directory Record by including the Directory Elements from (0004,1400) to (0004,1511) and Record selection Keys as defined below (marked with a >)."
+                        },
+                        "children": {
+                            "(0004,1400) Offset of the Next Directory Record": {
+                                "data": {
+                                    "AttributeName": "(0004,1400) Offset of the Next Directory Record",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1400)",
+                                    "Type": "Required (1)",
+                                    "Keyword": "OffsetOfTheNextDirectoryRecord",
+                                    "ValueMultiplicity": "1",
+                                    "ValueRepresentation": "Unsigned Long (UL)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Offset of the first byte (of the Item Data Element) of the next Directory Record of the same Directory Entity. This Offset is an unsigned integer representing a number of bytes starting with the first byte of the File Meta-information. A zero offset shall be used to mean that there is no other Directory Record in this Directory Entity."
+                                },
+                                "children": {}
+                            },
+                            "(0004,1410) Record In-use Flag": {
+                                "data": {
+                                    "AttributeName": "(0004,1410) Record In-use Flag",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1410)",
+                                    "Type": "Required (1)",
+                                    "Keyword": "RecordInUseFlag",
+                                    "ValueMultiplicity": "1",
+                                    "ValueRepresentation": "Unsigned Short (US)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Enumerated Values:"
+                                },
+                                "children": {}
+                            },
+                            "(0004,1420) Offset of Referenced Lower-Level Directory Entity": {
+                                "data": {
+                                    "AttributeName": "(0004,1420) Offset of Referenced Lower-Level Directory Entity",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1420)",
+                                    "Type": "Required (1)",
+                                    "Keyword": "OffsetOfReferencedLowerLevelDirectoryEntity",
+                                    "ValueMultiplicity": "1",
+                                    "ValueRepresentation": "Unsigned Long (UL)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Offset of the first byte (of the Item Data Element) of the first Directory Record of the Referenced Lower Level Directory Entity. This Offset is a number of bytes starting with the first byte of the File Meta Information."
+                                },
+                                "children": {}
+                            },
+                            "(0004,1430) Directory Record Type": {
+                                "data": {
+                                    "AttributeName": "(0004,1430) Directory Record Type",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1430)",
+                                    "Type": "Required (1)",
+                                    "Keyword": "DirectoryRecordType",
+                                    "ValueMultiplicity": "1",
+                                    "ValueRepresentation": "Code String (CS)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Defines a specialized type of Directory Record by reference to its position in the Media Storage Directory Information Model (see Section F.4)."
+                                },
+                                "children": {}
+                            },
+                            "(0004,1432) Private Record UID": {
+                                "data": {
+                                    "AttributeName": "(0004,1432) Private Record UID",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1432)",
+                                    "Type": "Conditionally Required (1C)",
+                                    "Keyword": "PrivateRecordUID",
+                                    "ValueMultiplicity": "1",
+                                    "ValueRepresentation": "Unique Identifier (UI)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Required if the Directory Record Type (0004,1430) is of Value PRIVATE. This UID is used to define a non-standard type of Directory Record by reference to its position in a private extension to the Basic Directory IOD Information Model (see Section F.5). This UID shall be registered according to the procedures defined in PS3.5. Its meaning may or may not be specified in a Conformance Statement."
+                                },
+                                "children": {}
+                            },
+                            "(0004,1500) Referenced File ID": {
+                                "data": {
+                                    "AttributeName": "(0004,1500) Referenced File ID",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1500)",
+                                    "Type": "Conditionally Required (1C)",
+                                    "Keyword": "ReferencedFileID",
+                                    "ValueMultiplicity": "1-8",
+                                    "ValueRepresentation": "Code String (CS)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "A Multiple Value (see PS3.5) that represents the ordered components of the File ID containing a \"referenced object\" or Referenced SOP Instance. A maximum of 8 components, each from 1 to 8 characters shall be used (see Section 8.2)."
+                                },
+                                "children": {}
+                            },
+                            "(0004,1510) Referenced SOP Class UID in File": {
+                                "data": {
+                                    "AttributeName": "(0004,1510) Referenced SOP Class UID in File",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1510)",
+                                    "Type": "Conditionally Required (1C)",
+                                    "Keyword": "ReferencedSOPClassUIDInFile",
+                                    "ValueMultiplicity": "1",
+                                    "ValueRepresentation": "Unique Identifier (UI)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Unique ID for the SOP Class of the Instance stored in the referenced File."
+                                },
+                                "children": {}
+                            },
+                            "(0004,1511) Referenced SOP Instance UID in File": {
+                                "data": {
+                                    "AttributeName": "(0004,1511) Referenced SOP Instance UID in File",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1511)",
+                                    "Type": "Conditionally Required (1C)",
+                                    "Keyword": "ReferencedSOPInstanceUIDInFile",
+                                    "ValueMultiplicity": "1",
+                                    "ValueRepresentation": "Unique Identifier (UI)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Unique Identifier for the SOP Instance stored in the referenced file."
+                                },
+                                "children": {}
+                            },
+                            "(0004,1512) Referenced Transfer Syntax UID in File": {
+                                "data": {
+                                    "AttributeName": "(0004,1512) Referenced Transfer Syntax UID in File",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,1512)",
+                                    "Type": "Conditionally Required (1C)",
+                                    "Keyword": "ReferencedTransferSyntaxUIDInFile",
+                                    "ValueMultiplicity": "1",
+                                    "ValueRepresentation": "Unique Identifier (UI)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Unique Identifier for the Transfer Syntax used to encode the Instance stored in the referenced file."
+                                },
+                                "children": {}
+                            },
+                            "(0004,151A) Referenced Related General SOP Class UID in File": {
+                                "data": {
+                                    "AttributeName": "(0004,151A) Referenced Related General SOP Class UID in File",
+                                    "data_type": "DicomAttributeItem",
+                                    "Tag": "(0004,151A)",
+                                    "Type": "Conditionally Required (1C)",
+                                    "Keyword": "ReferencedRelatedGeneralSOPClassUIDInFile",
+                                    "ValueMultiplicity": "1-n",
+                                    "ValueRepresentation": "Unique Identifier (UI)",
+                                    "ExampleValues": "",
+                                    "Interpretation": "Unique ID for the Related General SOP Class(es) related to the SOP Class of the Instance stored in the referenced file."
+                                },
+                                "children": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
