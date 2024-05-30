@@ -1,0 +1,2 @@
+[console_scripts]
+dbt-docs-controller = SRC.__main__:main_wrapper
