@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: miband2
+Version: 0.1.0
+Summary: Python API for communicating with MiBand2
+Author-email: Anton Ptashnik <iavtomator@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: bleak==0.20.1
+Requires-Dist: pyaes==1.6.1
+Project-URL: Documentation, https://github.com/anton-ptashnik/miband2-api-py
+Project-URL: Source, https://github.com/anton-ptashnik/miband2-api-py
