@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: git_time_tracking
+Version: 0.0.1
+Summary: This is a small frontend, which is supposed to help with time tracking using git.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: rich~=13.7.1
+Requires-Dist: toml~=0.10.2
+Description-Content-Type: text/markdown
+
+# Git Time Tracking
+
+This is a tool, allowing you to view the commits you have made in a set of repositories. This is useful if you need to write down your times for work.

@@ -1,0 +1,2 @@
+[console_scripts]
+git_time_tracking = git_time_tracking.__main__:main
