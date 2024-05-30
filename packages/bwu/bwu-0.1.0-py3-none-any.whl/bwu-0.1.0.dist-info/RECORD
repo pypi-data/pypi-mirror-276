@@ -1,0 +1,10 @@
+bwu/__main__.py,sha256=enasFUjMwiqlL8U1XPe-F5U45UFEExqoeMjeh0P8YI0,1495
+bwu/base_proc.py,sha256=ZR19MqvRzDfpO5nVQSOljQaSmtbXQpmhvux27YYyWe4,2778
+bwu/download_attachments.py,sha256=G4y_XlFNJ_JJ1XLvcpRtI6SjFiHZLeFKdXV_xDYBeXc,2695
+bwu/download_release.py,sha256=0Ljx9u3s5_ig7l1xDNYTglzOTWtHc7oCbW-TcObwQHs,1986
+bwu/sync_attachment.py,sha256=0dmahL-sqeGsD-lYKk9JpOIRnOEYxv4ELaHdeLHFv6I,949
+bwu-0.1.0.dist-info/entry_points.txt,sha256=gONEV4PmKpWcUZXn8Juym34E6WlvFb2tyntjRmhOP7c,41
+bwu-0.1.0.dist-info/LICENSE,sha256=Z_acxgUhHhHVjyiucx3ky2YM_zmYVL_X2NaMXadKJPc,1085
+bwu-0.1.0.dist-info/METADATA,sha256=JrsAaAkzVEA7eyFxvJF_EDRdjS6inyu6CncyoTfFgT0,1692
+bwu-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bwu-0.1.0.dist-info/RECORD,,

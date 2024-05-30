@@ -1,0 +1,3 @@
+[console_scripts]
+bwu=bwu.__main__:main
+
