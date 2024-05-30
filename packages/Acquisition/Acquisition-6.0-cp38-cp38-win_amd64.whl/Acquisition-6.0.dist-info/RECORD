@@ -1,0 +1,11 @@
+Acquisition/Acquisition.h,sha256=7ZglDvp8fAt7CR0EtXAeou1llUSjOKQqxMso0dlKyBI,2504
+Acquisition/_Acquisition.c,sha256=1pOFu2yTeUBE-8M7YOYedQemTOyzHk8SfBLZ9TfrJxk,58115
+Acquisition/_Acquisition.cp38-win_amd64.pyd,sha256=01AmtXyCW_jAwYyqMDPd2vV_3hotz24CSuh72lLkKps,34304
+Acquisition/__init__.py,sha256=rQVa7B0x0IB6g3_BAIU3B-2xAn1k7QWxLozjhF799KQ,31865
+Acquisition/interfaces.py,sha256=BDJ1LCNNyt2SRu3X5-_gxgEj3nb1J0_WbMiFfig4bMQ,4190
+Acquisition/tests.py,sha256=IeGYEjrqKuji1GYR-T3N_M0AWFb2c54Ui7Y4aocfvhc,98213
+Acquisition-6.0.dist-info/LICENSE.txt,sha256=bHkPG2Oy1PmxiQVWnzhtYjAlM1wCWbZQ6AyenUetrS0,2114
+Acquisition-6.0.dist-info/METADATA,sha256=mYvQmOhr1Ppg8C_jgVs1-UpcCutJwF4Vt0m5LMokUi8,25171
+Acquisition-6.0.dist-info/WHEEL,sha256=Wb4yjwIXVKEpht4JWFUZNCzpG7JLBNZnqtK2YNdqLkI,100
+Acquisition-6.0.dist-info/top_level.txt,sha256=xeIwKqv3H0ws94lTsmg0871KRwq-g9zdZz2EFDlGDlM,12
+Acquisition-6.0.dist-info/RECORD,,
