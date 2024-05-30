@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: faker-openai-api-provider
+Version: 0.2.0
+Summary: Generate fake data that resembles fields in OpenAI API responses
+Home-page: https://github.com/mharrisb1/faker-openai-api-provider
+License: MIT
+Author: Michael Harris
+Author-email: mharris@definite.app
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: faker (>=24.2.0,<25.0.0)
+Project-URL: Repository, https://github.com/mharrisb1/faker-openai-api-provider
+Description-Content-Type: text/markdown
+
+# faker-openai-api-provider
+
+Generate fake data that resembles fields in OpenAI API responses
+
+> [!IMPORTANT]
+> This ***does not*** generate fake AI responses/completions
+
+## API
+
+- `openai().chat.completion.id() -> str`
+- `openai().file.id() -> str`
+- `openai().beta.assistant.id() -> str`
+- `openai().beta.thread.id() -> str`
+- `openai().beta.thread.message.id() -> str`
+- `openai().beta.thread.run.id() -> str`
+- `openai().beta.thread.run.step.id() -> str`
+- `openai().beta.thread.run.step.step_details.tool_call.id() -> str`
+
+## Usage
+
+```py
+from faker import Faker
+from faker_openai_api_provider import OpenAiApiProvider
+
+fake = Faker()
+fake.add_provider(OpenAiApiProvider)
+
+chat_completion_id = fake.openai().chat.completion.id()
+```
+
+## Installation
+
+```
+pip install faker-openai-api-provider
+```
+

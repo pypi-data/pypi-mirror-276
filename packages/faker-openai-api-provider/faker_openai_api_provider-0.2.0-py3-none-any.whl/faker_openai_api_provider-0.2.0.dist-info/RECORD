@@ -1,0 +1,13 @@
+faker_openai_api_provider/__init__.py,sha256=EsED5w6TNQcdntpGvzXa4ppoMw_Se88MkYJ8sW0KzYc,893
+faker_openai_api_provider/__version__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+faker_openai_api_provider/_assistants.py,sha256=W6CtH7z56_1oGP4moQxFNP8bFROrBHfPbC9diFdDcEQ,109
+faker_openai_api_provider/_chat.py,sha256=32C5ky6XXg-yn7xl7X4pf1e7vQgEuz5oe2yRh-gv244,239
+faker_openai_api_provider/_file.py,sha256=eKZnSwcIkVPizF0soYP3rCLuYLiiQDK-YNYLj6Wwncc,113
+faker_openai_api_provider/_thread.py,sha256=Up2lBkWvM5vOzGSHD42aOkhVqArUWbxp90wC5NUK7xw,1180
+faker_openai_api_provider/_utils.py,sha256=Q3BNpeb2vOZlcXlyLrkTQaQw03KAWuz7Ckh1ajwYiFs,540
+faker_openai_api_provider/_vector_store.py,sha256=3UXTZM8xqNCFQcnVC7J0D_IhjS7KvkO0zMC2slQJCx8,323
+faker_openai_api_provider/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faker_openai_api_provider-0.2.0.dist-info/LICENSE,sha256=OoiP-SdgNqIjxbZIqPHLyM7oRIKPy8pNOA4ql3_FAU0,1058
+faker_openai_api_provider-0.2.0.dist-info/METADATA,sha256=bri7JGUZRnVB2XJxSnFAp9rOUbsg09fehQWB41zulHY,1576
+faker_openai_api_provider-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+faker_openai_api_provider-0.2.0.dist-info/RECORD,,
