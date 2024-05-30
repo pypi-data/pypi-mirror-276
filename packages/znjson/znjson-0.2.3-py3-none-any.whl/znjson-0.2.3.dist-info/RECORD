@@ -1,0 +1,15 @@
+znjson/__init__.py,sha256=9DVEg75MsStxPevzi-xDSpR5dr4E9SAgH-uBf1XigDc,957
+znjson/base.py,sha256=kdg8-qTHEMAxz4N085eNI1U-GiTa2AIUtjA7Pm4dkBU,3999
+znjson/config.py,sha256=d9sm57qHURY_SImpcxAE_tiY4kAM_cd8BrIDUWhe1vw,2885
+znjson/converter/__init__.py,sha256=-1X03ud3oGNUG-idYXQmzpKAqI4DUkatuWpjQUpG_Ag,681
+znjson/converter/class_converter.py,sha256=tqXCG_7gzBeaGnztfFu1AJT3Zdbm3c7Eo5mGvw2nCf8,863
+znjson/converter/numpy_converter_base64.py,sha256=8GLYsWKwOLNv_-dLhltnt7sbhJOMyeMWHoOg5CRCwTk,581
+znjson/converter/numpy_converter_small.py,sha256=H1Vo0cxiAGyru-QFxkqDkCzsn4wLsKd_wWQZf5HjhH8,551
+znjson/converter/old_converters.py,sha256=JeTuk_eGkrWB7GBfSBq6znuTMlyNlngI_5-cDzHmYjo,807
+znjson/converter/pathlib_converter.py,sha256=DYKJtTsj8SlLGhEdhSPazZ3dZ0OqJKlDnDKUtnBy-Yg,375
+znjson/exceptions/__init__.py,sha256=aXXjROBf6BURyqoi2zwv9cROAQktArfmaqVMuVS26xU,148
+znjson/main.py,sha256=CDOSF7-tA0UZ5PKx665MbzpYaGH1KD5ACAr1-RniS9M,3149
+znjson-0.2.3.dist-info/LICENSE,sha256=FKf4VPZYbuyRVMVSrl6HO48bnw6ih8Uur5y-h_MJAcA,13576
+znjson-0.2.3.dist-info/METADATA,sha256=3PxnpDplQVEiZEfh-4PSyN7hvlGxHscZK1ulOhDSGMU,3550
+znjson-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+znjson-0.2.3.dist-info/RECORD,,
