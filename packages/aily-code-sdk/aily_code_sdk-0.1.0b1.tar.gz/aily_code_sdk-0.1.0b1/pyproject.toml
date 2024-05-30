@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "aily-code-sdk"
+description = "Aily Code SDK"
+version = "0.1.0-beta.1"
+authors = [
+    "lijiuyang.5137 <lijiuyang.5137@bytedance.com>",
+    "zhaolizi.milo <zhaolizi.milo@bytedance.com>"
+]
+readme = "README.md"
+packages = [{ include = "aily_code_sdk", from = "src" }]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+aily-code-sdk-core = "0.1.0b5"
+pydantic = "^2.7.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
