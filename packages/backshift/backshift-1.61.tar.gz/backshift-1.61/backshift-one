@@ -1,0 +1,113 @@
+#!/bin/bash
+
+# Back up one filesystem via backshift
+
+export PATH=$PATH:/usr/local/bin
+
+# Intentionally not using set -e, because we don't want find to cause the whole schmear to error out
+set -eu
+
+# With pipefail in effect, a single bad file seen by find(1) can cause the whole command to file. We don't want that.
+# set -o pipefail
+
+function usage
+{
+    retval="$1"
+    case "$retval" in
+        0)
+            ;;
+        1)
+            exec 1>&2
+            ;;
+        *)
+            echo "$0: usage recevied invalid retval" 1>&2
+            exit 1
+            ;;
+    esac
+    echo "Usage: $0 --filesystem /fs --save-directory /save/dir --backshift backshift"
+    echo
+    echo Note that the behaviour varies slight from on/off a tty.
+    echo On a tty, progress is moderate.
+    echo Off a tty, progress is none.
+    echo
+    exit "$retval"
+}
+
+filesystem=""
+save_directory=""
+backshift="backshift"
+
+while [ "$#" -ge 1 ]
+do
+    case "$1" in
+        -h|--help)
+            usage 0
+            ;;
+        --filesystem)
+            filesystem="$2"
+            shift
+            ;;
+        --save-directory)
+            save_directory="$2"
+            shift
+            ;;
+        --backshift)
+            backshift="$2"
+            shift
+            ;;
+        *)
+            echo "$0: Unrecognized option: $1" 1>&2
+            usage 1
+            ;;
+    esac
+    shift
+done
+
+case "$filesystem" in
+    "")
+        echo "$0: --filesystem is a required argument" 1>&2
+        usage 1
+        ;;
+    /*) ;;
+    *)
+        echo "$0: --filesystem argument must start with a /" 1>&2
+        usage 1
+        ;;
+esac
+
+if ! [ -d "$filesystem" ]
+then
+    echo "$0: $filesystem does not exist" 1>&2
+    exit 1
+fi
+
+case "$filesystem" in
+    /) subset=just-slash ;;
+    *) subset=$(echo "$filesystem" | sed -e 's#^/#just-#' -e 's#/#-#g') ;;
+esac
+
+case "$save_directory" in
+    "")
+        echo "$0: --save-directory is a required argument" 1>&2
+        usage 1
+        ;;
+    /*) ;;
+    *)
+        echo "$0: --save-directory must specify an absolute path" 1>&2
+        usage 1
+        ;;
+esac
+
+if tty -s
+then
+    progress=moderate
+else
+    progress=none
+fi
+
+# We assume that swapfiles, if any, are under a directory called /swapfile
+find "$filesystem" -xdev -wholename /swapfile -prune -o -wholename /not-backed-up -prune -o -print0 | \
+    just-one \
+        --command "\"$backshift\" --save-directory \"$save_directory\" --subset $subset --backup --progress-report $progress" \
+        --string "backshift-$subset" 2>&1
+

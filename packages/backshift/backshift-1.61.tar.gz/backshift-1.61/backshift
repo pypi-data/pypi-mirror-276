@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+
+"""Invoke the main function in the main module of backshift."""
+
+import os
+
+try:
+    import profile
+except ImportError:
+    pass
+
+import main
+
+
+def top():
+    """Just call main.main(), with or without profiling."""
+    perform_profiling = False
+
+    if perform_profiling:
+        # we cd a little in the code, so if we don't prepend the CWD, our profiling data goes to the "wrong" directory
+        profile.run('main.main()', os.path.join(os.getcwd(), 'blee'))
+    else:
+        main.main()
+
+
+if __name__ == '__main__':
+    # this if might seem weird, as we have no .py extension - but this keeps epydoc a little happier
+    top()
