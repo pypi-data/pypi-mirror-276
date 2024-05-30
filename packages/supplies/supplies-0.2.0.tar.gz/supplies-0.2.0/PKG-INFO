@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: supplies
+Version: 0.2.0
+Summary: Parameters supply.
+Author-email: "左易晗(from china)" <19156653620@163.com>
+Keywords: suuplies,supply,parmas,crawler
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+
+# 提供爬虫参数 #
+### 更新内容: ###
+1. 新增 cookies 模块
+2. 优化 useragents 模块使用体验
+
+# Provide crawler parameters #
+### Update content: ###
+1. Add cookies module
+2. Optimizing the user agent module user experience
