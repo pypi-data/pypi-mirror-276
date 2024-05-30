@@ -1,0 +1,14 @@
+.gitignore
+pyproject.toml
+assets/domains.csv
+src/cfresolve/__init__.py
+src/cfresolve/__main__.py
+src/cfresolve/_version.py
+src/cfresolve/cli.py
+src/cfresolve/exceptions.py
+src/cfresolve.egg-info/PKG-INFO
+src/cfresolve.egg-info/SOURCES.txt
+src/cfresolve.egg-info/dependency_links.txt
+src/cfresolve.egg-info/entry_points.txt
+src/cfresolve.egg-info/requires.txt
+src/cfresolve.egg-info/top_level.txt
