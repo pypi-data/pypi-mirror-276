@@ -1,0 +1,8 @@
+bpetokenizer/__init__.py,sha256=MP7LaBjjWcJVEjyZ9yGVBdawQ32q9PibzCqdq2fDGbw,96
+bpetokenizer/base.py,sha256=oO47bLA1XgSbIN5HsfiLzGWjV5h0bbhvbQqOyTvcHho,9454
+bpetokenizer/tokenizer.py,sha256=QHI5V01eCCjAlan4ZSNaX3P2ioYBeCTqKz7-PCRYS_E,6949
+bpetokenizer/version.py,sha256=tZqjn54p8RTLG01sZzIClgvpRs_tM2JBteqtrFGw8jo,22
+bpetokenizer-1.0.32.dist-info/METADATA,sha256=U91LmYLC9nw6PllCjNDy2wu4MPm2DRoccLgZmveXgKk,7193
+bpetokenizer-1.0.32.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bpetokenizer-1.0.32.dist-info/top_level.txt,sha256=VWTyHVnYZzE8wR9g0xNOC6bt3fN8OR_O_tGDWvo6dpE,13
+bpetokenizer-1.0.32.dist-info/RECORD,,
