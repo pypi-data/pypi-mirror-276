@@ -1,0 +1,10 @@
+sakura/__init__.py,sha256=_5xoxBvqik7-PeMx5hwvFygQoUHpV34lQIJj__e4LaA,26
+sakura/client.py,sha256=XEFa8cLlw8I57FwYedSpDQHmbb4wW6y4lQkGz5BX8zg,1891
+sakura/db.py,sha256=du68CjHwqUMjmdSPoXaKrRG3tz6tZ47AIyfPQ0z4VVM,980
+sakura/sakura.py,sha256=7cpPb4HU5ma2Rv2jDUpVJjSxnY3b7_S5a_uAhKy3If0,4506
+sakura_fm-0.0.8.dist-info/LICENCE,sha256=VleHZW9ajq8DCd4RQ3Sc-vbZSirzTciwSDygIe47hxY,1083
+sakura_fm-0.0.8.dist-info/METADATA,sha256=LZohrKhe-7u2F1wV1GGze7w3d1s4RyAGbbgS_tU6yfo,2190
+sakura_fm-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sakura_fm-0.0.8.dist-info/entry_points.txt,sha256=7RQsSdCRlpblwbKwAdzLRCowodZbA8CCPodPRpTBWno,46
+sakura_fm-0.0.8.dist-info/top_level.txt,sha256=oLemNiG5CMXPkOaKG4LhXn7cyWYPfLQnqanpt0lDjeg,7
+sakura_fm-0.0.8.dist-info/RECORD,,
