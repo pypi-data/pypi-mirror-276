@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+molecular_interaction_rules/__init__.py
+molecular_interaction_rules/knowledge_graph.py
+molecular_interaction_rules.egg-info/PKG-INFO
+molecular_interaction_rules.egg-info/SOURCES.txt
+molecular_interaction_rules.egg-info/dependency_links.txt
+molecular_interaction_rules.egg-info/not-zip-safe
+molecular_interaction_rules.egg-info/top_level.txt
