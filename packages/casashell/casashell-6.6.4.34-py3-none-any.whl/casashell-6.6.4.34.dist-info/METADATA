@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: casashell
+Version: 6.6.4.34
+Summary: The CASA CLI
+Home-page: https://open-bitbucket.nrao.edu/projects/CASA/repos/casatools/browse
+Download-URL: https://casa.nrao.edu/download/
+Author: CASA development team
+Author-email: casa-feedback@nrao.edu
+Maintainer: Darrell Schiebel
+Maintainer-email: drs@nrao.edu
+License: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: casatasks ==6.6.4.34
+Requires-Dist: casatools
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: ipython
+Requires-Dist: traitlets
+
+CASAshell is an augmented ipython CLI which is familiar users of CASA's traditional CLI.
