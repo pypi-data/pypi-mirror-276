@@ -1,0 +1,7 @@
+bml_ocr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bml_ocr/extract.py,sha256=-qVqed110OlC9Ip5I74i7leLbsoFuJ8Ptp8fVUNbHQY,3509
+bml_ocr/receipt_model.py,sha256=Hnn8T7094hrPikcKXQbpB7uLrHaZls2SlgNoYgQ50hg,437
+bml_ocr-0.1.1.dist-info/LICENSE,sha256=VA3713IiIioWg4zd6sDCmTz3DVeLfDpatwHuPQIxx3I,1079
+bml_ocr-0.1.1.dist-info/METADATA,sha256=cUQKPw9LWNLfnYoNKl5bAshDgqA3UwwGxkw8iX6W6mA,3113
+bml_ocr-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bml_ocr-0.1.1.dist-info/RECORD,,
