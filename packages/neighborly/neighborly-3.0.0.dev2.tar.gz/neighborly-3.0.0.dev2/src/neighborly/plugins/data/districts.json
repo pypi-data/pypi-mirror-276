@@ -1,0 +1,129 @@
+{
+  "base_district": {
+    "is_template": true,
+    "components": {
+      "District": {},
+      "PersonalEventHistory": {},
+      "CharacterSpawnTable": {},
+      "BusinessSpawnTable": {}
+    }
+  },
+  "farming_district": {
+    "extends": [
+      "base_district"
+    ],
+    "components": {
+      "District": {
+        "name": "Farming District"
+      },
+      "CharacterSpawnTable": {
+        "character_types": [
+          {
+            "with_tags": [
+              "farmer"
+            ]
+          }
+        ]
+      },
+      "BusinessSpawnTable": {
+        "business_types": [
+          {
+            "with_id": "dairy_farm"
+          },
+          {
+            "with_id": "farm",
+            "max_instances": 2,
+            "spawn_frequency": 2
+          }
+        ]
+      }
+    },
+    "tags": [
+      "lazy",
+      "rural",
+      "urban",
+      "suburban",
+      "hot"
+    ]
+  },
+  "market_district": {
+    "extends": [
+      "base_district"
+    ],
+    "components": {
+      "District": {
+        "name": "Market District"
+      },
+      "CharacterSpawnTable": {
+        "character_types": [
+          {
+            "with_tags": [
+              "merchant"
+            ]
+          }
+        ]
+      },
+      "BusinessSpawnTable": {
+        "business_types": [
+          {
+            "with_id": "shop"
+          },
+          {
+            "with_id": "cafe"
+          }
+        ]
+      }
+    },
+    "tags": [
+      "lazy",
+      "rural",
+      "urban",
+      "suburban",
+      "hot",
+      "heat"
+    ]
+  },
+  "entertainment_district": {
+    "extends": [
+      "base_district"
+    ],
+    "components": {
+      "District": {
+        "name": "Market District"
+      },
+      "CharacterSpawnTable": {},
+      "BusinessSpawnTable": {
+        "business_types": [
+          {
+            "with_id": "theatre"
+          },
+          {
+            "with_id": "bar"
+          }
+        ]
+      }
+    },
+    "tags": []
+  },
+  "upper_class_residences": {
+    "extends": [
+      "base_district"
+    ],
+    "components": {
+      "District": {
+        "name": "Upper Class Residences"
+      },
+      "CharacterSpawnTable": {
+        "character_types": [
+          {
+            "with_tags": [
+              "nobility"
+            ]
+          }
+        ]
+      },
+      "BusinessSpawnTable": {}
+    },
+    "tags": []
+  }
+}
