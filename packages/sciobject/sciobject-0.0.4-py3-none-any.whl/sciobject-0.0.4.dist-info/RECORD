@@ -1,0 +1,7 @@
+sciobject/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sciobject/sciobject.py,sha256=mNeLybzzpBpRPcBS0_wtUcH8E4-6ioxIwkhdfmg2rcw,13048
+sciobject/test_sciobject.py,sha256=0H7IY6yxYiaFkp7MmT4W4Xk6NuXZBeekPXD6NBP3qpY,1154
+sciobject-0.0.4.dist-info/LICENSE,sha256=fFdITeKwyHa96dxm3EuCC60KiHg6pr2t3RF096YgfuQ,1298
+sciobject-0.0.4.dist-info/METADATA,sha256=iQz2m-xoyGzXIe0nb4EEoTCCJlL9m12tSWusiqhMix8,1035
+sciobject-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sciobject-0.0.4.dist-info/RECORD,,
