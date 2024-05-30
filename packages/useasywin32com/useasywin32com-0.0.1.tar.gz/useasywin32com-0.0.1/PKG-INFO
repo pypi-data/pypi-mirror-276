@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: useasywin32com
+Version: 0.0.1
+Summary: useasywin32com
+Author-email: calm51 <calm51@protonmail.com>
+Project-URL: Homepage, https://github.com/calm51/useasywin32com
+Project-URL: Issues, https://github.com/calm51/useasywin32com/issues
+Keywords: use easy win32com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+```python3
+
+
+```

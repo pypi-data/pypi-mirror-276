@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+src/useasywin32com/__init__.py
+src/useasywin32com/excel.py
+src/useasywin32com/utils.py
+src/useasywin32com/word.py
+src/useasywin32com.egg-info/PKG-INFO
+src/useasywin32com.egg-info/SOURCES.txt
+src/useasywin32com.egg-info/dependency_links.txt
+src/useasywin32com.egg-info/top_level.txt
