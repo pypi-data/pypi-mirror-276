@@ -1,0 +1,439 @@
+# procaaso-state-machine
+The ProCaaSo based state machine is an ENS centric implementaion of a finite state machine. It's goal is to provide users a state machine that works well within the ProCaaSo App loop, its handlers, classes, methods and other such details will be outlined below. 
+
+
+# StateMachine Class
+
+A deterministic finite acceptor state machine designed for use within the ProCaaSo framework.
+
+This machine works in conjunction with the 'State' object from procaaso_state.
+State objects are not modifiable after they are added to the state machine instance.
+The state object should be defined and complete before addition to the StateMachine.
+Recommended practice is to place StateMachine logic with try-except statements to catch any errors.
+
+## Initialization
+
+```python
+state_machine_instance = StateMachine()
+
+```
+
+### Attributes
+
+- `instruments` (dict): Dictionary containing each instrument object added to a machine.
+- `__states` (dict): A dictionary of state class objects that the state machine will keep track of.
+- `__currentStateId` (int): Tracks identification for the current state.
+- `__currentTransitions` (list): A dictionary of lists, where the key is state, each sublist containing the state's possible transitions.
+- `__isConfigured` (bool): Tracks whether the machine is able to enter its initial state.
+- `__stateStartTime` (float): Timestamp indicating the start time of the current state.
+- `__currentEvent` (Event): The current event associated with the state machine.
+
+
+## Methods
+
+### Method: `run_routine(self, routineName: str = None, **kwargs)`
+
+Run a routine or all routines associated with the current state. Amend the 'stateMachine' object into the kwargs of the routines for easy access.
+
+If no routine name is supplied, all routines housed in a state will be executed in the order they are provided. If a routine name is specified, it will run that routine only.
+
+If kwargs are provided and a routine name is supplied, the specified routine will receive the kwargs. If kwargs are provided and no routine name is supplied, all routines will receive the same kwargs.
+
+#### Args:
+- `routineName` (str, optional): The name of the routine to run. Defaults to None.
+- `**kwargs`: Additional keyword arguments to pass to the routines.
+
+#### Raises:
+- `Exception`: If there is an issue running the routine(s).
+
+#### Usage:
+```python
+state_machine_instance.run_routine()
+state_machine_instance.run_routine("Main Routine")
+state_machine_instance.run_routine("Main Routine", returnKwarg="I'm a Keyword Function", anotherVariable="I'm another KWARG")
+```
+
+### Method: `set_currentEvent(self, event: Event)`
+
+Sets the current event object.
+
+#### Parameters:
+- `event` (Event): The event object to set as the current event.
+
+#### Raises:
+- `Exception`: If the provided event is not of type 'Event'.
+
+#### Usage:
+```python
+obj.set_currentEvent(my_event)
+```
+### Method: `get_currentEvent(self)`
+
+Retrieve the current event object.
+
+#### Raises:
+- `Exception`: If there is no current event set.
+
+#### Returns:
+- `Event`: The current event object.
+
+#### Usage:
+```python
+current_event = obj.get_currentEvent()
+```
+### Method: `clear_currentEvent(self) -> None`
+
+Clear the current event in the StateMachine object.
+
+#### Usage:
+```python
+state_machine_instance.clear_currentEvent()
+```
+### Method: `add_state(self, state: State)`
+
+Add a State object to the StateMachine.
+
+#### Parameters:
+- `state` (State): The State object to be added.
+
+#### Raises:
+- `KeyError`: If the state ID is already present in the StateMachine.
+- `Exception`: If an unexpected exception occurs during the process.
+
+#### Usage:
+```python
+state_machine_instance.add_state(my_state_object)
+```
+
+### Method: `get_states(self)`
+
+Get the dictionary containing the State objects in the StateMachine.
+
+#### Returns:
+- `dict`: The dictionary of State objects.
+
+#### Raises:
+- `Exception`: If an unexpected exception occurs during the process.
+
+#### Usage:
+```python
+states_dict = state_machine_instance.get_states()
+```
+### Method: `get_current_state_id(self)`
+
+Get the ID of the current state.
+
+#### Returns:
+- `int`: The ID of the current state.
+
+#### Raises:
+- `Exception`: If an unexpected exception occurs during the process.
+
+#### Usage:
+```python
+current_state_id = state_machine_instance.get_current_state_id()
+```
+
+### Method: `get_current_transitions(self)`
+
+Get the list of current transitions.
+
+#### Returns:
+- `list`: The list of current transitions.
+
+#### Raises:
+- `Exception`: If an unexpected exception occurs during the process.
+
+#### Usage:
+```python
+current_transitions_list = state_machine_instance.get_current_transitions()
+```
+
+### Method: `transition_state(self, newStateId: int)`
+
+Transition to a new state.
+
+#### Parameters:
+- `newStateId (int)`: The ID of the new state.
+
+#### Raises:
+- `Exception`: If an unexpected exception occurs during the process.
+
+#### Usage:
+```python
+state_machine_instance.transition_state(2)
+```
+
+### Method: `start_state_machine(self, initialStateId: int)`
+
+Start the StateMachine.
+
+#### Parameters:
+- `initialStateId (int)`: The ID of the initial state.
+
+#### Raises:
+- `Exception`: If the StateMachine is already configured and/or running.
+
+#### Usage:
+```python
+state_machine_instance.start_state_machine(1)
+```
+
+### Method: `get_is_configured(self)`
+
+Get the value of the isConfigured attribute.
+
+#### Returns:
+- `bool`: The value of the isConfigured attribute.
+
+#### Raises:
+- `Exception`: If an unexpected exception occurs during the process.
+
+#### Usage:
+```python
+is_configured_value = state_machine_instance.get_is_configured()
+```
+
+### Method: `add_instrument(self, instruments: dict[str, Any])`
+
+Add instruments to the StateMachine.
+
+#### Parameters:
+- `instruments` (`dict`): An open-ended function so the user can define the data structure they wish to use for their instruments. If the instrument dictionary is already present in the StateMachine dictionary, it will simply update the first entry.
+
+#### Raises:
+- `TypeError`: If the provided instruments are not of type 'dict'.
+- `Exception`: If an unexpected exception occurs during the process.
+
+#### Usage:
+```python
+state_machine_instance.add_instrument({"instrument1": data1, "instrument2": data2})
+```
+
+### Method: `get_instruments(self)`
+
+Get the instruments dictionary from the StateMachine.
+
+#### Returns:
+- `dict`: The dictionary containing instruments.
+
+#### Raises:
+- `Exception`: If an unexpected exception occurs during the process.
+
+#### Usage:
+```python
+instruments_dict = state_machine_instance.get_instruments()
+```
+
+### Method: `get_state_start_time(self)`
+
+Get the start time of the state.
+
+#### Returns:
+- `float`: The start time of the state.
+
+#### Raises:
+- `Exception`: If retrieving the start time fails.
+
+#### Usage:
+```python
+start_time = self.get_state_start_time()
+```
+
+### Method: `get_time_elapsed_in_state(self)`
+
+Get the elapsed time since the state started.
+
+#### Returns:
+- `float`: The elapsed time since the state started.
+
+#### Raises:
+- `Exception`: If retrieving the elapsed time fails.
+
+#### Usage:
+```python
+elapsed_time = self.get_time_elapsed_in_state()
+```
+# State Class
+A class designed to be used with the ProCaaSo State Machine
+
+## Initialization
+
+```python
+state = State(0)
+
+```
+### Attributes:
+
+- `__apartOfStateMachine (bool)`: A boolean to track if the state is a part of a state machine.
+- `__routines (dict)`: A dictionary containing the routines registered to run.
+- `__transitions (list)`: A list of all valid states to transition to.
+- `id (int)`: The state number. Each state should only have one ID.
+
+## Methods
+### Method: `__init__(self, id: int) -> None`
+
+Initialize a State object. All routines and transitions must be added manually through the class methods.
+
+#### Parameters:
+- `id (int)`: The state number. Each state should only have one ID.
+
+#### Raises:
+- `TypeError`: If the provided ID is not of type 'int'.
+
+#### Usage:
+```python
+state_instance = State(0)
+```
+
+### Method: `set_routine(self, routineName: str, routine: Callable)`
+
+Set a routine with a given name in the object's routines dictionary. The order in which the routines are added determines the order in which they will be executed. If a routine name is already present in the states dictionary of routines, the routine will be updated, not added. Thus, routine names must be unique within a state object. It is required that all routines accept kwargs by default, such that on call the routines can be passed information.
+
+#### Parameters:
+- `routineName (str)`: The name of the routine.
+- `routine (Callable)`: The callable object representing the routine.
+
+#### Raises:
+- `TypeError`: If routineName is not of type 'str' or routine is not of type 'Callable'.
+- `Exception`: If an unexpected exception occurs during the process.
+- `Exception`: If state is already a part of the state machine, raises an exception.
+
+#### Usage:
+```python
+obj.set_routine("my_routine", my_callable_routine)
+```
+### Method: `get_routines(self) -> dict`
+
+Get the dictionary containing the routines registered in the state.
+
+#### Returns:
+- `dict`: The dictionary of routines.
+
+#### Usage:
+```python
+routines_dict = obj.get_routines()
+```
+### Method: `set_transition(self, transitionId: int)`
+
+Set a transition ID in the object's transitions list.
+
+#### Parameters:
+- `transitionId` (int): The ID of the transition.
+
+#### Raises:
+- `TypeError`: If transitionId is not of type 'int'.
+- `Exception`: If an unexpected exception occurs during the process.
+- `Exception`: If state is already a part of the state machine, raises an exception.
+
+#### Usage:
+```python
+obj.set_transition(123)
+```
+
+### Method: `get_transitions(self) -> List[int]`
+
+Get the list of valid state transitions from the current state.
+
+#### Returns:
+- `List[int]`: The list of transition IDs.
+
+#### Usage:
+```python
+transitions_list = obj.get_transitions()
+```
+
+### Method: `get_apartOfStateMachine(self) -> bool`
+
+Check if the state is a part of a state machine.
+
+#### Returns:
+- `bool`: True if the state is a part of a StateMachine object, False otherwise.
+
+#### Usage:
+```python
+isApartOfStateMachine = obj.get_apartOfStateMachine()
+```
+
+### Method: `get_id(self) -> int`
+
+Get the ID of the state.
+
+#### Returns:
+- `int`: The state ID.
+
+#### Usage:
+```python
+state_id = obj.get_id()
+```
+
+# Event Class
+A class to be passed to the ProCaaSo state machine to help build event driven development
+
+## Initialization
+
+```python
+event = Event('Example Event', {'Actuation': 5})
+
+```
+
+### Attributes
+
+- `set_actuations` (dict[str,Any]): Dictionary containing each actuation.
+- `__set_eventType` (str): A string with the type of the event.
+
+## Methods
+### Method: `__init__(self, eventType: str, actuations: Dict[str, Any] = {}) -> None`
+
+Initialize the Event object with the specified event type and optional actuations.
+
+#### Parameters:
+- `eventType (str)`: The type of the event.
+- `actuations (Dict[str, Any])`: A dictionary containing actuations associated with the event. Default is an empty dictionary.
+
+#### Raises:
+- `Exception`: If an unexpected exception occurs during initialization.
+
+#### Usage:
+```python
+event = Event("eventType", {"key": "value"})
+```
+
+### Method: `set_actuations(self, actuationsDict: Dict[str, Any])`
+
+Set the actuations for the event object, overwriting any previous actuations.
+
+#### Parameters:
+- `actuationsDict (Dict[str, Any])`: A dictionary containing actuations.
+
+#### Raises:
+- `Exception`: If the dictionary structure is invalid.
+
+#### Usage:
+```python
+event.set_actuations({"key": "value"})
+```
+
+### Method: `get_actuations(self)`
+
+Get the actuations associated with the event.
+
+#### Raises:
+- `Exception`: If failed to retrieve actuations.
+
+#### Usage:
+```python
+actuations = event.get_actuations()
+```
+
+### Method: `get_eventType(self)`
+
+Get the event type associated with the event.
+
+#### Raises:
+- `Exception`: If failed to retrieve the event type.
+
+#### Usage:
+```python
+eventType = event.get_eventType()
+```

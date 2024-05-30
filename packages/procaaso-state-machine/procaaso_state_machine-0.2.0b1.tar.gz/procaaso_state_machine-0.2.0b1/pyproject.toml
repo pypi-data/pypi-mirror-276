@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "procaaso_state_machine"
+version = "0.2.0b1"
+description = ""
+authors = ["Procaaso <mdorado@consynsys.com>"]
+readme = "README.md"
+
+packages = [{include = "procaaso_state_machine"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = ">=1.10.9,<2.0.0"
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
