@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: simplified-automl
+Version: 0.0.4
+License-File: license.key
+License-File: license.py
+Requires-Dist: asyncio >=3.4
+Requires-Dist: aiohttp >=3.8
+Requires-Dist: aiohttp-cors >=0.7
+Requires-Dist: h2o >=3.40
+Requires-Dist: DateTime >=5.1
+Requires-Dist: cryptography >=40.0
+Requires-Dist: PyYAML >=6.0.1
+Requires-Dist: google-generativeai >=0.5.3
+
