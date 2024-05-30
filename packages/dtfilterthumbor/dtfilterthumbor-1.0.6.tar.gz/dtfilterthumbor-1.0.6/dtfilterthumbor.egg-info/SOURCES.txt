@@ -1,0 +1,8 @@
+README.md
+setup.py
+dtfilterthumbor/__init__.py
+dtfilterthumbor/watermarkdt.py
+dtfilterthumbor.egg-info/PKG-INFO
+dtfilterthumbor.egg-info/SOURCES.txt
+dtfilterthumbor.egg-info/dependency_links.txt
+dtfilterthumbor.egg-info/top_level.txt
