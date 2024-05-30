@@ -1,0 +1,10 @@
+MANIFEST.in
+readme.md
+requirements.txt
+setup.py
+pythonpackage_morteza/__init__.py
+pythonpackage_morteza/pythonpackge_morteza.py
+pythonpackage_morteza.egg-info/PKG-INFO
+pythonpackage_morteza.egg-info/SOURCES.txt
+pythonpackage_morteza.egg-info/dependency_links.txt
+pythonpackage_morteza.egg-info/top_level.txt
