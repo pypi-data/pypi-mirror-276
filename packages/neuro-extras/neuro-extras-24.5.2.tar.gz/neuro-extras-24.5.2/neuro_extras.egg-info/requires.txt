@@ -1,0 +1,4 @@
+neuro-cli>=24.5.0
+click>=8.0
+toml>=0.10.0
+pyyaml>=3.0
