@@ -1,0 +1,2 @@
+[console_scripts]
+anon_traffic.disanon = anon_traffic:disanon
