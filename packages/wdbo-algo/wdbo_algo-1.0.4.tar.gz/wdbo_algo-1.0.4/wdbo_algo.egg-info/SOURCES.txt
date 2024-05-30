@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+wdbo_algo.egg-info/PKG-INFO
+wdbo_algo.egg-info/SOURCES.txt
+wdbo_algo.egg-info/dependency_links.txt
+wdbo_algo.egg-info/requires.txt
+wdbo_algo.egg-info/top_level.txt
