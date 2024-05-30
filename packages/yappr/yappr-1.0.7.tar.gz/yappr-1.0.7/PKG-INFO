@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: yappr
+Version: 1.0.7
+Summary: Yet another python package updater
+Author-email: Pradish Bijukchhe <pradish@sandbox.com.np>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/sandbox-pokhara/yappr
+Project-URL: Issues, https://github.com/sandbox-pokhara/yappr/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# yappr
+
+Yet another python package updater
+
+## Installation
+
+You can install the package via pip:
+
+```bash
+pip install yappr
+```
+
+## Usage
+
+```python
+from yappr import Updater
+
+u = Updater("httpx", first_update_interval=0)
+u.check_for_updates_loop()
+
+# 04/27/2024 02:35:14 AM - INFO - Checking for updates...
+# 04/27/2024 02:35:19 AM - INFO - New version found: 0.23.2 -> 0.27.0
+# 04/27/2024 02:35:19 AM - INFO - Collecting new packages...
+# 04/27/2024 02:35:26 AM - INFO - Successfully downloaded new version.
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+yappr/__init__.py
+yappr/decorator.py
+yappr/logger.py
+yappr/py.typed
+yappr/updater.py
+yappr.egg-info/PKG-INFO
+yappr.egg-info/SOURCES.txt
+yappr.egg-info/dependency_links.txt
+yappr.egg-info/top_level.txt
