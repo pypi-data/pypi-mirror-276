@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+tests/test_profiles_config.py
+wolfsoftware.profiles_config.egg-info/PKG-INFO
+wolfsoftware.profiles_config.egg-info/SOURCES.txt
+wolfsoftware.profiles_config.egg-info/dependency_links.txt
+wolfsoftware.profiles_config.egg-info/requires.txt
+wolfsoftware.profiles_config.egg-info/top_level.txt
+wolfsoftware/profiles_config/__init__.py
+wolfsoftware/profiles_config/parser.py
