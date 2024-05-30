@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pyfast-sqlite/__init__.py
+src/pyfast-sqlite/fast_sql.py
+src/pyfast_sqlite.egg-info/PKG-INFO
+src/pyfast_sqlite.egg-info/SOURCES.txt
+src/pyfast_sqlite.egg-info/dependency_links.txt
+src/pyfast_sqlite.egg-info/requires.txt
+src/pyfast_sqlite.egg-info/top_level.txt
