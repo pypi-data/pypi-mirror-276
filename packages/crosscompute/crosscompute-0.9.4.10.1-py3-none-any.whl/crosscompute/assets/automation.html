@@ -1,0 +1,55 @@
+{% extends live_template_path %}
+
+{% block head_html %}
+{{ super() -}}
+<meta name="title" property="og:title" content="{{ title_text }}" />
+<meta name="description" property="og:description" content="{{ description }}">
+<meta name="image" property="og:image" content="{{ host_uri }}{{ root_uri }}/favicon.ico" />
+<meta property="og:url" content="{{ host_uri }}{{ root_uri }}{{ uri }}" />
+<meta name="twitter:card" content="summary">
+{% endblock %}
+
+{% block header_html %}
+{% if not for_embed and not for_print %}
+<nav class="_breadcrumb" aria-label="breadcrumb">
+<ul>
+<li><a href="{{ copyright_owner_uri }}" target="_blank">{{ copyright_name }}</a></li>
+<li><a href="{{ root_uri or '/' }}">Automations</a></li>
+<li><a href="{{ root_uri }}{{ uri }}" aria-current="page">{{ name }}</a></li>
+</ul>
+</nav>
+{% endif %}
+{% endblock %}
+
+{% block main_html %}
+{% if step_name != 'none' %}
+{{ super() -}}
+{% endif %}
+{% endblock %}
+
+{% block footer_html %}
+{% if not for_embed and not for_print %}
+<ul class="_batches">
+{% for batch_definition in batch_definitions %}
+{% set absolute_batch_uri = root_uri + uri + batch_definition.uri %}
+<li>
+{{ batch_definition.name }}
+<a href="{{ absolute_batch_uri }}/i">input</a>
+<a href="{{ absolute_batch_uri }}/o">output</a>
+{% if automation_definition.variable_definitions_by_step_name['print'] %}
+<a href="{{ absolute_batch_uri }}/p">print</a>
+{% endif %}
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if not for_embed and attribution_text %}
+<p class="_attribution">{{ attribution_text | safe }}</p>
+{% endif %}
+{% endblock %}
+
+{% block body_js %}
+{% include 'step-body.js' %}
+{% include 'sw.js' %}
+{{ super() -}}
+{% endblock %}
