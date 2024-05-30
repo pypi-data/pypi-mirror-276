@@ -1,0 +1,7 @@
+Django>=4.2
+typing_extensions
+
+[dev]
+ruff
+coverage
+django-stubs[compatible-mypy]
