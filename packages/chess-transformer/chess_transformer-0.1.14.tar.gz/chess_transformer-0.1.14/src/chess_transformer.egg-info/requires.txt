@@ -1,0 +1,5 @@
+chess
+jaxtyping
+haskellian
+chess-notation
+chess-utils
