@@ -1,0 +1,6 @@
+README.md
+setup.py
+yandex_vlmevalkit.egg-info/PKG-INFO
+yandex_vlmevalkit.egg-info/SOURCES.txt
+yandex_vlmevalkit.egg-info/dependency_links.txt
+yandex_vlmevalkit.egg-info/top_level.txt
