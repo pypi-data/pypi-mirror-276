@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: wagtail_meta
+Version: 1.0.1
+Summary: An application made for the Django Web Framework.
+Home-page: https://github.com/Nigel2392/wagtail_meta
+Author: Nigel
+Author-email: nigel@goodadvice.it
+License: GPL-3.0-only
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 5
+Classifier: Framework :: Wagtail :: 6
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=4.2
+Requires-Dist: Wagtail>=5.0
+
+![1716979011262](image/README/1716979011262.png)
+
+wagtail_meta
+================
+
+A library to manage meta-tags at runtime for your Wagtail site.
+
+Allows for using context variables in a custom HTML meta tag, or the tag value content itself.
+
+Quick start
+-----------
+
+1. Install the package via pip:
+
+   ```bash
+   pip install wagtail_meta
+   ```
+
+2. Add 'wagtail_meta' to your INSTALLED_APPS setting like this:
+
+   ```
+   INSTALLED_APPS = [
+      # ...,
+      'wagtail_meta',
+      # ...,
+   ]
+   ```
+
+3. Use the template tag in your base template
+```html
+{% load wagtail_meta %}
+<!DOCTYPE html>
+<html>
+   <head>
+       ...
+
+       {% metatags %}
+       {# Optionally call with model argument {% metatags settings.wagtail_meta.metatags.tags %} #}
+
+       ...
+   </head>
+   <body>
+       ...
+   </body>
+</html>
+```

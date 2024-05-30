@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-29 11:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\tester\wagtail_meta\blocks.py:13
+msgid "Custom HTML Element"
+msgstr "Opgegeven HTML Element"
+
+#: .\tester\wagtail_meta\blocks.py:19
+msgid "Meta Tag"
+msgstr "Meta Tag"
+
+#: .\tester\wagtail_meta\blocks.py:27 .\tester\wagtail_meta\blocks.py:29
+msgid "Property name is required"
+msgstr "Eigenschapsnaam is verplicht"
+
+#: .\tester\wagtail_meta\models.py:18 .\tester\wagtail_meta\models.py:23
+#: .\tester\wagtail_meta\models.py:36 .\tester\wagtail_meta\models.py:37
+msgid "Meta Tags"
+msgstr "Meta Tags"
+
+#: .\tester\wagtail_meta\models.py:24
+msgid ""
+"<pre>Meta tags to be included in the <head> of the page.\n"
+"This can be used to add custom meta tags, such as OpenGraph tags.\n"
+"Note: These tags are not validated, so be careful!\n"
+"You can try to use context variables by enclosing them in '{{ }}'\n"
+"The entire context for the rendered page is passed to the 'Custom HTML "
+"Element' or 'Property Content'</pre><a href=\"https://ogp.me/\" target="
+"\"_blank\">OpenGraph Meta Tags</a> <a href=\"https://www.w3schools.com/tags/"
+"tag_meta.asp\" target=\"_blank\">W3 Meta Tags</a>"
+msgstr ""
+"<pre>Meta tags die in de <head> van de pagina moeten worden opgenomen.\n"
+"Dit kan worden gebruikt om aangepaste meta-tags toe te voegen, zoals "
+"OpenGraph-tags.\n"
+"Opmerking: deze tags worden niet gevalideerd, dus wees voorzichtig!\n"
+"U kunt proberen contextvariabelen te gebruiken door ze tussen '{{ }}' te "
+"plaatsen\n"
+"De volledige context voor de weergegeven pagina wordt doorgegeven aan het "
+"'Opgegeven HTML Element' of 'Eigenschapsinhoud'</pre><a href=\"https://ogp.me/"
+"\" target=\"_blank\">OpenGraph Meta Tags</a> <a href=\"https://www.w3schools."
+"com/tags/tag_meta.asp\" target=\"_blank\">W3 Meta Tags</a>"

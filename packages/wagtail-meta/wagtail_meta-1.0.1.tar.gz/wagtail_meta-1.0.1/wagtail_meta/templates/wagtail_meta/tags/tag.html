@@ -1,0 +1,2 @@
+{% load wagtail_meta_utils %}
+{% if self.custom_html_element %}{{self.custom_html_element|render_to_string:tag_context}}{% else %}<meta {{self.property_name}}="{{self.property_value}}" {% if self.content %}content="{{self.content|render_to_string:tag_context}}"{%endif%}/>{% endif %}
