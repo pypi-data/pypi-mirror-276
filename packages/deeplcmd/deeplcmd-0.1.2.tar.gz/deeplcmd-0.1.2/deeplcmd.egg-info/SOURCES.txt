@@ -1,0 +1,10 @@
+LICENSE
+README.md
+deeplcmd.py
+setup.py
+deeplcmd.egg-info/PKG-INFO
+deeplcmd.egg-info/SOURCES.txt
+deeplcmd.egg-info/dependency_links.txt
+deeplcmd.egg-info/entry_points.txt
+deeplcmd.egg-info/requires.txt
+deeplcmd.egg-info/top_level.txt
