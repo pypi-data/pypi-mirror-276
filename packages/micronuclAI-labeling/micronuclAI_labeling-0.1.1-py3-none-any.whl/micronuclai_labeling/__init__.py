@@ -1,0 +1,1 @@
+from ._labeling_tool import gui

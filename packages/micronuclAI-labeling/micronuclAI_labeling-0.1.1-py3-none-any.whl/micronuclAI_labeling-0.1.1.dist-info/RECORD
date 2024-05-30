@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micronuclai_labeling/__init__.py,sha256=-527pQQqTWfhijYm4jkJvme2A7ws7QM2UOumjPPdJ_s,31
+micronuclai_labeling/__main__.py,sha256=X3PNHBLHwcaKuY2VmmzbfeU17ZxaSeMQ_KDz9LwAhnE,1433
+micronuclai_labeling/_labeling_tool.py,sha256=vCsdeddB-cuHQfn5EWYX1tpuWEyOY1SSvpZLSYMus8s,4331
+micronuclAI_labeling-0.1.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+micronuclAI_labeling-0.1.1.dist-info/METADATA,sha256=ERYm4B_aVB9ranDdMafUeMsRY8hYBm7IBnANLbWgxsE,2651
+micronuclAI_labeling-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+micronuclAI_labeling-0.1.1.dist-info/top_level.txt,sha256=HRDF5vekxjr622nftF5DQ-F4-GNEDO3YHyv18dESvmM,30
+micronuclAI_labeling-0.1.1.dist-info/RECORD,,
