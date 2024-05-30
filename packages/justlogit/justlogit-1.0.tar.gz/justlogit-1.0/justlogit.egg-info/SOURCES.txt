@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+justlogit/__init__.py
+justlogit.egg-info/PKG-INFO
+justlogit.egg-info/SOURCES.txt
+justlogit.egg-info/dependency_links.txt
+justlogit.egg-info/top_level.txt
+justlogit.egg-info/zip-safe
