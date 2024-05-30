@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: dre4my_detection
+Version: 0.1.3
+Summary: Library for detecting abnormal HTTP-packets using one of the methods listed below.
+Author: Dre4my
+Description-Content-Type: text/markdown
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: cffi==1.16.0
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: cryptography==42.0.7
+Requires-Dist: docutils==0.21.2
+Requires-Dist: idna==3.7
+Requires-Dist: importlib_metadata==7.1.0
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jaraco.context==5.3.0
+Requires-Dist: jaraco.functools==4.0.1
+Requires-Dist: jeepney==0.8.0
+Requires-Dist: joblib==1.4.2
+Requires-Dist: keyring==25.2.1
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: more-itertools==10.2.0
+Requires-Dist: nh3==0.2.17
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.2
+Requires-Dist: pkginfo==1.10.0
+Requires-Dist: pycparser==2.22
+Requires-Dist: Pygments==2.18.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.1
+Requires-Dist: readme_renderer==43.0
+Requires-Dist: requests==2.32.2
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: rich==13.7.1
+Requires-Dist: scikit-learn==1.5.0
+Requires-Dist: scipy==1.13.1
+Requires-Dist: SecretStorage==3.3.3
+Requires-Dist: setuptools==70.0.0
+Requires-Dist: six==1.16.0
+Requires-Dist: threadpoolctl==3.5.0
+Requires-Dist: twine==5.1.0
+Requires-Dist: tzdata==2024.1
+Requires-Dist: urllib3==2.2.1
+Requires-Dist: wheel==0.43.0
+Requires-Dist: zipp==3.18.2
+
+# anomaly_detection_methods
+2 methods for analyzing network traffic: 
+- Signature-based,
+- ML-based
+
+To be updated soon...
