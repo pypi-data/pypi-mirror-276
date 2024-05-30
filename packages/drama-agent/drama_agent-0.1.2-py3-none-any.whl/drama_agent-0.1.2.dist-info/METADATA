@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: drama-agent
+Version: 0.1.2
+Summary: Building One-Thousand Generative Agents From Drama
+Author: cheney
+Author-email: cheney23333@qq.com
+License: apache 2.0
+Requires-Dist: openai (==0.27.8)
+Requires-Dist: langchain-experimental (==0.0.8)
+Requires-Dist: langchain (==0.0.250)
+Requires-Dist: langchain-community (==0.0.20)
+Requires-Dist: langchain-core (==0.1.23)
+Requires-Dist: langchainplus-sdk (==0.0.20)
+Requires-Dist: numpy
+Requires-Dist: jieba
+Requires-Dist: tqdm
+Requires-Dist: urwid
+Requires-Dist: jsonlines
+Requires-Dist: six
+Requires-Dist: tiktoken
+Requires-Dist: jsonschema
+
