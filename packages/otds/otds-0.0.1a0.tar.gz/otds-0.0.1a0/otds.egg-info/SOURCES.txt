@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+otds/__init__.py
+otds/enums.py
+otds/main.py
+otds/typedefs.py
+otds.egg-info/PKG-INFO
+otds.egg-info/SOURCES.txt
+otds.egg-info/dependency_links.txt
+otds.egg-info/requires.txt
+otds.egg-info/top_level.txt

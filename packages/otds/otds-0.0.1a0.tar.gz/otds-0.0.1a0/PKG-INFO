@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: otds
+Version: 0.0.1a0
+Summary: A typed parser for OTDS
+Project-URL: Homepage, https://github.com/snowfall-travel/python-otds
+Project-URL: Issues, https://github.com/snowfall-travel/python-otds/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml<6,>=5
+
+# OTDS parser
+
+The projects includes a typed parser of OTDS files.
