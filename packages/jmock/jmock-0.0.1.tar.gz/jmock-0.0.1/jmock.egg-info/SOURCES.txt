@@ -1,0 +1,8 @@
+setup.py
+jmock/__init__.py
+jmock/aiFunctions.py
+jmock.egg-info/PKG-INFO
+jmock.egg-info/SOURCES.txt
+jmock.egg-info/dependency_links.txt
+jmock.egg-info/requires.txt
+jmock.egg-info/top_level.txt
