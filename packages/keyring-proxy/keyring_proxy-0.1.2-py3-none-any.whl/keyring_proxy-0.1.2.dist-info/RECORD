@@ -1,0 +1,5 @@
+keyring_proxy-0.1.2.dist-info/METADATA,sha256=qoDIu2vfBkVQ_MupYjSF39jIothA89jgC0QZW_uf9YA,343
+keyring_proxy-0.1.2.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+keyring_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keyring_proxy/transport.py,sha256=BFb94o9wpN-egQixfx2uX_S5G9bHPQjDnFEFuWuhe-Y,6872
+keyring_proxy-0.1.2.dist-info/RECORD,,
