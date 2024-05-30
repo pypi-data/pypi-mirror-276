@@ -1,0 +1,8 @@
+sima_torch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sima_torch/keyboard_policy.py,sha256=Bb2OQOZPD-Ih86NKE20C45vTZIoA_P1C09i3JEm_FpA,2521
+sima_torch/phenaki_wrapper.py,sha256=EDpmrh5ZUY9TtDYLKc_ah7cIWmGz__zx4jW240ZunOs,973
+sima_torch/transformer.py,sha256=3nwPtDWheGrZr5ujBPQMEw6sT-BWS2nCSPUTXaWuON0,5686
+sima_torch-0.0.2.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+sima_torch-0.0.2.dist-info/METADATA,sha256=b_Bh7kyZRxVCDM5AwOHzk9ZbUpl-WrRsHEi9vFUUniM,3955
+sima_torch-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sima_torch-0.0.2.dist-info/RECORD,,
