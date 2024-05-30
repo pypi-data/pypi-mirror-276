@@ -1,0 +1,9 @@
+sbx_sentence_sentiment_kb_sent/__init__.py,sha256=l4EkPunZfS09bgV7te4im2_YBx5vfqaR76PHqDDOA9Q,591
+sbx_sentence_sentiment_kb_sent/annotations.py,sha256=BTQXt58WiYc-KJIFIkooLM5chhYUP1_uZ0FCg8fE9J4,1848
+sbx_sentence_sentiment_kb_sent/constants.py,sha256=PBL4K4IdW83lgaAz8AzlNHY7IQKB1yYAyfKQmHrPNTM,92
+sbx_sentence_sentiment_kb_sent/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbx_sentence_sentiment_kb_sent/sentiment_analyzer.py,sha256=PbpT6OuU1yLHwnVD2-OYkZwZ19VlyX_w0XVk45LxRIk,4130
+sparv_sbx_sentence_sentiment_kb_sent-0.1.1.dist-info/METADATA,sha256=gi8yVJoP8sLU9X34Vi8Qrf62Qj0OftAI1WrlKJrGPb4,3986
+sparv_sbx_sentence_sentiment_kb_sent-0.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+sparv_sbx_sentence_sentiment_kb_sent-0.1.1.dist-info/entry_points.txt,sha256=urPlOr9dYLUMgkXtS7Ke2b0qysSaJEyRDTFgLn8HZYs,79
+sparv_sbx_sentence_sentiment_kb_sent-0.1.1.dist-info/RECORD,,
