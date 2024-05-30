@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cubiccg
+Version: 0.1
+Summary: cubic cg for learning
+Author: kevin
+Author-email: kevin2059@163.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.2.2

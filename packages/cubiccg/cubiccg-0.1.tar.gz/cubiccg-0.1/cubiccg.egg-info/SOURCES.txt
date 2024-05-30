@@ -1,0 +1,13 @@
+README.md
+setup.py
+cubiccg/__init__.py
+cubiccg/cubicgdapprox.py
+cubiccg/cubichsapprox.py
+cubiccg/myadam.py
+cubiccg/myadamcubic.py
+cubiccg.egg-info/PKG-INFO
+cubiccg.egg-info/SOURCES.txt
+cubiccg.egg-info/dependency_links.txt
+cubiccg.egg-info/entry_points.txt
+cubiccg.egg-info/requires.txt
+cubiccg.egg-info/top_level.txt
