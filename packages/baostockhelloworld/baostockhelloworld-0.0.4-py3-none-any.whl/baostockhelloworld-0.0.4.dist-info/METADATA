@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: baostockhelloworld
+Version: 0.0.4
+Summary: A tool for outputs helloworld string information on the console
+Home-page: http://www.baostock.com
+Author: baostock
+Author-email: baostock@163.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pandas (>=0.18.0)
+
+
+BaoStock
+===============
+
+* This is a testing project that outputs helloworld string information on the console
+
+
+Target Users
+--------------
+
+
+Installation
+--------------
+
+    pip install baostockhelloworld
+
+Upgrade
+---------------
+
+    pip install baostockhelloworld --upgrade
+
+Quick Start
+--------------
+
+::
+
+    import baostockhelloworld as bshw
+
+
+    # 
+    bshw.sayhelloworld()
+
+return::
+
+    HelloWorld!
+
+
+
