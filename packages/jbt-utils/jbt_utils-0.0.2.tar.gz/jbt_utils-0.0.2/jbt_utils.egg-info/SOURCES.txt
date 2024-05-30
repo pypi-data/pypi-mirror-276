@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+jbt_utils.egg-info/PKG-INFO
+jbt_utils.egg-info/SOURCES.txt
+jbt_utils.egg-info/dependency_links.txt
+jbt_utils.egg-info/requires.txt
+jbt_utils.egg-info/top_level.txt
