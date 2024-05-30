@@ -1,0 +1,7 @@
+odict>=1.9.0
+plumber>=1.5
+setuptools
+zope.component
+zope.deferredimport
+zope.deprecation
+zope.lifecycleevent
