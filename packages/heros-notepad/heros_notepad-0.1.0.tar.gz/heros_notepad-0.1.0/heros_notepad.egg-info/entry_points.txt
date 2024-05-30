@@ -1,0 +1,2 @@
+[console_scripts]
+py-notepad = py_notepad.main:main

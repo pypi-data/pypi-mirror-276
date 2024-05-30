@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: heros_notepad
+Version: 0.1.0
+Summary: A notepad for HEROS
+Home-page: http://192.168.0.203:7990/projects/HERO/repos/py_notepad/browse
+Author: Yoon Doohyun
+Author-email: dhyoon@withtech.co.kr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+> python setup.py sdist bdist_wheel

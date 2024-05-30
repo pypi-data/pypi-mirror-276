@@ -1,0 +1,15 @@
+README.md
+setup.py
+heros_notepad.egg-info/PKG-INFO
+heros_notepad.egg-info/SOURCES.txt
+heros_notepad.egg-info/dependency_links.txt
+heros_notepad.egg-info/entry_points.txt
+heros_notepad.egg-info/requires.txt
+heros_notepad.egg-info/top_level.txt
+py_notepad/__init__.py
+py_notepad/main.py
+py_notepad/notepad_data_manager.py
+py_notepad/py_notepad.py
+py_notepad/py_notepad_widget.py
+py_notepad/resources_rc.py
+py_notepad/settings_dialog.py
