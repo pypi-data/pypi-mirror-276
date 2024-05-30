@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: trackastra
+Version: 0.1.0
+Summary: Tracking by Association with Transformer
+Author: Benjamin Gallusser, Martin Weigert
+Author-email: benjamin.gallusser@epfl.ch, martin.weigert@epfl.ch,
+License: BSD 3-Clause License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: numerize
+Requires-Dist: configargparse
+Requires-Dist: tensorboard
+Requires-Dist: pyyaml
+Requires-Dist: numba
+Requires-Dist: scikit-image
+Requires-Dist: chardet
+Requires-Dist: ipython
+Requires-Dist: lightning
+Requires-Dist: kornia >=0.7.0
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: lz4
+Requires-Dist: imagecodecs >=2023.7.10
+Requires-Dist: wandb
+Requires-Dist: edt
+Requires-Dist: joblib
+Requires-Dist: pydantic >=2.0
+Requires-Dist: pydantic-numpy
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: ilp
+Requires-Dist: motile >=0.2 ; extra == 'ilp'
+
