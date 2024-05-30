@@ -1,0 +1,17 @@
+aces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aces/__main__.py,sha256=RvL6g10du5Xcp5tAOLgBBPGGjEoDwdUKXhvCk6TVxn8,1323
+aces/aggregate.py,sha256=d8dEYdXBRr8qQ-HLeetamRSehma60ksfKIMQMKxO69o,95141
+aces/config.py,sha256=0NHXU-M3IyuLFg16roOva0MOsTYUdY2ZtS-d7SuEI44,49231
+aces/config.yaml,sha256=Zv3GktLO5RT1K8x3G3RHYekLhaDHNBD3c5EtO0YC0ig,731
+aces/constraints.py,sha256=d808a-QSQpRpkfQY84On8jDQ7SD9hfHQ-B-ckt4L-x0,5595
+aces/extract_subtree.py,sha256=MoOmH5t-fORotLioygQqhwYQn6AvMRR0GDrcwS-4a1w,24131
+aces/predicates.py,sha256=2iEkT8iSYtFqIS7K94Fg3hVVsdNSurKjJbDEW04mdyg,22685
+aces/query.py,sha256=SPu80rz8nicCGoyLEs8dZ2myUFgZYgyK1WM5fTiPoN8,3207
+aces/types.py,sha256=aYw2Gm4MXMZFdgRCr2FoIafvBgKXPvizr_aNFFDrtx8,12546
+aces/utils.py,sha256=Z-8Gw7aEcC-Qew855AK5c3U2IP09NAJbMWSHJtor6po,1765
+es_aces-0.2.1.dist-info/LICENSE,sha256=emQiag9c889YjoblfgJXb-VXBF0JmoiurQ3GqUuRjHc,1085
+es_aces-0.2.1.dist-info/METADATA,sha256=C3AMC_4_WeqbrpACqfmZB12fkHby5rtKjbvwrvnsf_Y,18612
+es_aces-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+es_aces-0.2.1.dist-info/entry_points.txt,sha256=jzhLKh-F3hYKM6gPoOBQsjjadpWZ98VoHaOstKWMABA,48
+es_aces-0.2.1.dist-info/top_level.txt,sha256=m2PtBryfLgXTVAGtxVQaR1odlw4m5O8XWXulNygXK10,5
+es_aces-0.2.1.dist-info/RECORD,,
