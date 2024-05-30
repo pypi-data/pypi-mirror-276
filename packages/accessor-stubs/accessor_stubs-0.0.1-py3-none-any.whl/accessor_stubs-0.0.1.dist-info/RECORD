@@ -1,0 +1,11 @@
+accessor_stubs/__init__.py,sha256=ulVFhXzAK9sxpPbLEOTIdhcayxe5b8qziEKkDhQh6Hw,236
+accessor_stubs/_registrar.py,sha256=TZPueaf7C3v1R_R5fQaB8ZxNrslGJaank4A9dBHgMfs,6168
+accessor_stubs/versions.json,sha256=GtwYSfc3fwqy3dE0Psi2f0eH98ER6uAH7VOMM-RRnc8,19
+xarray-stubs/py.typed,sha256=la67KBlbjXN-_-DfGNcdOcjYumVpKG_Tkw-8n5dnGB4,8
+xarray-stubs/core/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray-stubs/core/dataarray.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray-stubs/core/dataset.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+accessor_stubs-0.0.1.dist-info/METADATA,sha256=XTI6M9XJJ01fCaPIt4pGZwhVCLhrJ0LeznI6WrS8oVM,4136
+accessor_stubs-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+accessor_stubs-0.0.1.dist-info/licenses/LICENSE,sha256=yFf36tap2yYIf48_9iAOlcTSZV4aADI1JRowKGdsgl4,1073
+accessor_stubs-0.0.1.dist-info/RECORD,,
