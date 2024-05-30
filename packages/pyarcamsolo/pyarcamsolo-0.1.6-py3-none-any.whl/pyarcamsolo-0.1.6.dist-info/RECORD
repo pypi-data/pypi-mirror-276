@@ -1,0 +1,12 @@
+pyarcamsolo/__init__.py,sha256=QIvGTktFgH_WeYhZZwxpXqvdwXkgLnMNn1lHQb2p4b0,24026
+pyarcamsolo/_version.py,sha256=kBM8jwQ9r_ZMq7P43-SvMT6w6DhdPd9jFFTBA3HEZdg,21
+pyarcamsolo/commands.py,sha256=H7wkULkePsF4iOxi5FAEsvNytmcTb7YkszvEPKjVy38,7387
+pyarcamsolo/params.py,sha256=mpsEEjkYdbx5MhLygyb1nqN-YDmJaY335F-mNFeZK10,67
+pyarcamsolo/parser.py,sha256=-OYIc_WBYfVR7XD-4HrlNNMUAHQqatq0alEZwJs4F5A,7774
+pyarcamsolo/util.py,sha256=CzuLvhm_0zPJSWAguyFFyoih8MDD_jQ8ylCgceC9BWc,3840
+pyarcamsolo-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyarcamsolo-0.1.6.dist-info/METADATA,sha256=YiKntu-hVGKanEAeOXqaRoKCzceE5fQxtJvuNmHRD5Y,2488
+pyarcamsolo-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyarcamsolo-0.1.6.dist-info/entry_points.txt,sha256=SZjBo2WHYtrjIBE1Yzgexzg9Mr284uZdjvTB8eAty_g,49
+pyarcamsolo-0.1.6.dist-info/top_level.txt,sha256=j4umcr5aNhB-CY_XxYctQP1wMI_ugRePmmYO2BXroSw,12
+pyarcamsolo-0.1.6.dist-info/RECORD,,
