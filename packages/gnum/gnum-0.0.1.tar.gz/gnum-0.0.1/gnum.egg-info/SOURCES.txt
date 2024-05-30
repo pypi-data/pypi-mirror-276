@@ -1,0 +1,7 @@
+setup.py
+gnum/__init__.py
+gnum/gnumint_mod.py
+gnum.egg-info/PKG-INFO
+gnum.egg-info/SOURCES.txt
+gnum.egg-info/dependency_links.txt
+gnum.egg-info/top_level.txt
