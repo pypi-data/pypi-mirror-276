@@ -1,0 +1,10 @@
+clearskies_twilio/__init__.py,sha256=umHo3pESQ-lN6KuMMncrki4DyvUrxdhZn1N-wNkvX4Y,26
+clearskies_twilio/actions/__init__.py,sha256=WJDWNEkGsZTlHBSxPSb6bZEd5lXxq2WKxJjJt769zJc,488
+clearskies_twilio/actions/sms.py,sha256=ySR81ojvRKXFlXiVfP5oWAQfnHRspqq_uUXaglcIZ24,4879
+clearskies_twilio/actions/sms_test.py,sha256=AKVTAtkpZVQG497NtYNWGwrL5ssBhTmliNPF7fmYcmw,2449
+clearskies_twilio/di/__init__.py,sha256=7aohQSG96JbunPzNfZLsmEJ_qFAMIEUEVrw5Ks5xnNE,428
+clearskies_twilio/di/twilio.py,sha256=EDWoxhNWB9ry4eDast1KaWixtMKDXn0vMXh-eDWTs5g,2298
+clear_skies_twilio-0.9.1.dist-info/LICENSE,sha256=TNgZtlw0IPD5dhgkxKLrut16ZbVB29qhVBdaPsioc4Q,1065
+clear_skies_twilio-0.9.1.dist-info/METADATA,sha256=BcYJFh_FQD5zdolxpdEcO08AYqFFiPWGgvjxu56XDE4,3763
+clear_skies_twilio-0.9.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+clear_skies_twilio-0.9.1.dist-info/RECORD,,
