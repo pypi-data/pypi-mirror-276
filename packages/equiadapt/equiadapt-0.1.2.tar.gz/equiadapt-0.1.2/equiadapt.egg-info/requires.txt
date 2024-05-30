@@ -1,0 +1,11 @@
+torch
+numpy
+torchvision
+kornia
+e2cnn
+hydra-core
+
+[testing]
+setuptools
+pytest
+pytest-cov
