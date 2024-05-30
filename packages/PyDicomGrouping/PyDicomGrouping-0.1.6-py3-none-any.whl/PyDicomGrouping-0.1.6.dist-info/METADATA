@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyDicomGrouping
+Version: 0.1.6
+Author: Kaixuan,Zhao
+Author-email: kaixuan_zhao@163.com
+Requires-Python: >=3.8.0,<4
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: nibabel
+Requires-Dist: pydicom
+Requires-Dist: alive-progress
+Requires-Dist: selenium
+
