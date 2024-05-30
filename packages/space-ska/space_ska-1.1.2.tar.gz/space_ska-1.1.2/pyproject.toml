@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "space-ska"
+version = "1.1.2"
+description = "Spectral-Kit for Asteroids"
+authors = ["Benoit Carry <benoit.carry@oca.eu>", "Max Mahlke"]
+license = "MIT"
+readme = "README.md"
+packages = [{'include' = 'ska'}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pandas = "^2.2.1"
+click = "^8.1.7"
+rich = "^13.7.1"
+astropy = "^6.0.1"
+numpy = "^1.26.4"
+matplotlib = "^3.5"
+furo = "^2022.9.15"
+sphinx-copybutton = "^0.5.0"
+sphinx_design = "^0.3.0"
+sphinx-hoverxref = "*"
+
+
+
+[tool.poetry.extras]
+docs = [
+  "furo",
+  "sphinx",
+  "sphinx-copybutton",
+  "sphinx-hoverxref",
+  "sphinx-redactor-theme",
+  "spinx_design"
+]
+
+[tool.poetry.scripts]
+ska = "ska.cli:cli_ska"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
