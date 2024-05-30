@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: agridable
+Version: 0.0.3
+Summary: AGridable is a Python library which makes formatting tables in your Dash app a breeze.
+Home-page: https://github.com/Electrify-Video-Partners/AGridable
+Author: James Laidler
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dash-ag-grid<32.0.0,>=31.0.0
+Requires-Dist: pandas<3.0.0,>=2.0.0
+Provides-Extra: dev
+Requires-Dist: twine<6.0.0,>=5.0.0; extra == "dev"
+Requires-Dist: pytest<9.0.0,>=8.2.1; extra == "dev"
+
+
+**AGridable** is a Python library which makes formatting tables in your Dash 
+app a breeze 💨
+
+It's a wrapper for the wonderful [Dash AG Grid](https://github.com/plotly/dash-ag-grid) 
+library and enables users to quickly and easily apply formatting, without having to go through the (sometimes rather complex) process of configuration. 
+
+For example, you can quickly and easily apply conditional colour formatting based on the range of values in a column.
+
+The project was created by [James Laidler](https://github.com/lamesjaidler) 
+whilst working at [Electrify Video Partners](https://electrify.video/).
