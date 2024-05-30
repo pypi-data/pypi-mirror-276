@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/consoil/Consolidation of double compressible layer v2.py
+src/consoil/Numerical solution Gibson Equation.py
+src/consoil/Znidarcic analytical solution v4.py
+src/consoil/__init__.py
+src/consoil/constants.py
+src/consoil.egg-info/PKG-INFO
+src/consoil.egg-info/SOURCES.txt
+src/consoil.egg-info/dependency_links.txt
+src/consoil.egg-info/top_level.txt

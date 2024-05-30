@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consoil"
+version = "0.0.1"
+authors = [
+  { name="Ismail Myouri", email="i.myouri@tudelft.nl" },
+]
+description = "Consolidation and Sedimentation software in Python"
+readme = "README.rst"
+
+requires-python = ">=3.11"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+	"License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://bitbucket.org/deltares/consoil/"
+
+
