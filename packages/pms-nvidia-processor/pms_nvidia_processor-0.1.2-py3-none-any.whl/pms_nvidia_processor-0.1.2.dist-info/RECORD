@@ -1,0 +1,11 @@
+pms_nvidia_processor/__init__.py,sha256=q0j89hMy9wNCjav0PADV86jjmLU0O3tF0k5-sEthruA,66
+pms_nvidia_processor/_const.py,sha256=q6ktXqRZI16WY2mw8ig1N5Tn1s2H7tCA71Uaq9nmXrg,1012
+pms_nvidia_processor/_dependency.py,sha256=p62HwDE2BeuNxRed_hEZ-n3b7es3zU2E8gpAFXizoZI,297
+pms_nvidia_processor/_dpir_processor.py,sha256=pkX-7KeU23LFhk94f01QCpkFmjPYI17FbbJQorjEJdA,5790
+pms_nvidia_processor/patcher/__init__.py,sha256=3UdeakkIpqpC4mpqoue-PnHOWLDzrpTA2sOHcIRcGpQ,42
+pms_nvidia_processor/patcher/_patch_collection.py,sha256=MmxLZHlTrcMGc994JbTvTJvwAXVGDrA1o6O9-fBHvj8,3165
+pms_nvidia_processor/patcher/_patch_position.py,sha256=BUnE_vEuTPbPAe6tno6YADNt-Wlt80InAIkrZdWe3IY,980
+pms_nvidia_processor/patcher/_patcher.py,sha256=RzyyBdeNgrZbINhom4l7Tk_D5ShAAjwgEQMmwCPYP58,2881
+pms_nvidia_processor-0.1.2.dist-info/METADATA,sha256=VqA3MemN6gwQABLVbO7WxLjq2WKDwCtOp6PhsBQYmHA,643
+pms_nvidia_processor-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pms_nvidia_processor-0.1.2.dist-info/RECORD,,
