@@ -1,0 +1,17 @@
+LICENSE,sha256=6BEhl-fpSLPiesxz-36Fh4cpdMLfbgBwMPvDh3Yayuc,1066
+corallium/__init__.py,sha256=yc3JtoJcU2U3OrFGeU0aFJhlwUPl6NaFiMmBz5COW0U,1850
+corallium/file_helpers.py,sha256=j2RXPPzREr179TPJ5kWUEy3IoQU99fXTmrateRGgiiM,8687
+corallium/log.py,sha256=81r0cisSWGb8nCNaTfnGSriCpIbNuTcItoH8Kwk5aSY,3756
+corallium/loggers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corallium/loggers/plain_printer.py,sha256=DecCP5M_K7wJaXOpYBGsRG_quML-3_NUvYM8nIrXqgA,494
+corallium/loggers/rich_printer.py,sha256=3TBZwJo2ZW23Jfhh4y2fKkAXHh2EIc8V7ZpsAc1v7xQ,2114
+corallium/loggers/structlog_logger/__init__.py,sha256=H239KKmWXkaPhcn4OJU1-3utC1JMgYbUrI7_IU4okq0,274
+corallium/loggers/structlog_logger/_structlog_logger.py,sha256=OQKby6DLpbpyupbCKTLqI8yDWtsQIDmFidHjAlrudIo,758
+corallium/loggers/styles.py,sha256=6nAk3O5esU-H_t6waV2F0gd3c_ChBiBH8L0bXwiJ-mk,2097
+corallium/pretty_process.py,sha256=ufjgd6nzO1m0AQh6LT3EoL1pvfLaXG_yAHCjNIN4o0k,4234
+corallium/shell.py,sha256=E3YFlM_izOdgJ20XT2QdOztEVlf-EAkQ2pwR418Q67I,3749
+corallium/tomllib.py,sha256=Ucf5uKRf2WnFYgkSIQbYHF0FkxYRSllgLhAmaZdneo4,218
+corallium-1.0.2.dist-info/LICENSE,sha256=6BEhl-fpSLPiesxz-36Fh4cpdMLfbgBwMPvDh3Yayuc,1066
+corallium-1.0.2.dist-info/METADATA,sha256=2KrCDU7Z64duW2_oJzICyZjhLn9e-0Ke1YW4EQXcMHI,3980
+corallium-1.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+corallium-1.0.2.dist-info/RECORD,,
