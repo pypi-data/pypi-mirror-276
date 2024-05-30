@@ -1,0 +1,11 @@
+airflow/providers/influxdb/LICENSE,sha256=ywUBpKZc7Jb96rVt5I3IDbg7dIJAbUSHkuoDcF3jbH4,13569
+airflow/providers/influxdb/__init__.py,sha256=-M2B5KL7Nkjv8bWQCdg_9JQDM59pIWA_ht6ivW8FGv8,1495
+airflow/providers/influxdb/get_provider_info.py,sha256=5x9cP7FyycBprhemJzSjrGbUlds2i36AuvhMJvzjog4,2555
+airflow/providers/influxdb/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/influxdb/hooks/influxdb.py,sha256=K4O_8TuTPMd3S_d7rTXRYmWazn1RKhSQKk4NXLGTuSU,5535
+airflow/providers/influxdb/operators/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/influxdb/operators/influxdb.py,sha256=mtrLaLzboF7cjZQnyytBrKLAe_E9wZbrWoa0l4ZYk5o,1999
+apache_airflow_providers_influxdb-2.5.1.dist-info/entry_points.txt,sha256=XwacKP0DhRK_BnGef09OmbJ7H8MK1aM5PKsrmjX7JCQ,104
+apache_airflow_providers_influxdb-2.5.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+apache_airflow_providers_influxdb-2.5.1.dist-info/METADATA,sha256=Y38GfcGhdLRq1ttwRMylgvBCF6OmjSTkg4DaJ6H2sHo,4848
+apache_airflow_providers_influxdb-2.5.1.dist-info/RECORD,,
