@@ -1,0 +1,5 @@
+polars
+rich_click
+pydantic
+validators
+requests
