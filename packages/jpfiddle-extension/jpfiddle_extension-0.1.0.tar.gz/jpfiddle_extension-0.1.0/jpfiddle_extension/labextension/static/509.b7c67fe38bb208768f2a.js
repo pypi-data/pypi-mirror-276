@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjpfiddle_extension=self.webpackChunkjpfiddle_extension||[]).push([[509],{509:(e,t,i)=>{i.r(t),i.d(t,{default:()=>n});const n={id:"jpfiddle_extension:plugin",description:"A JupyterLab extension for jpfiddle.",autoStart:!0,activate:e=>{console.log("JupyterLab extension jpfiddle_extension is activated!")}}}}]);
