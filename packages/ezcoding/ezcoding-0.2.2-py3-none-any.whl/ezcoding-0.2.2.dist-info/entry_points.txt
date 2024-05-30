@@ -1,0 +1,2 @@
+[console_scripts]
+ezc = ezcoding_cli.cli:main
