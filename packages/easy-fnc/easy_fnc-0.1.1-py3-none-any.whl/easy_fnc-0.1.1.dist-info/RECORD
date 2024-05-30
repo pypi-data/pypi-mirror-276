@@ -1,0 +1,7 @@
+models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+models/model.py,sha256=zD8CkcWYGm-6IqSjF04KxD8xLnso_sbDs4cKJqWkIV0,972
+models/ollama.py,sha256=mVeY2HzQjLmlNzvWBENSNBkhyENT-Cfi7cvXQ4wErTs,4090
+easy_fnc-0.1.1.dist-info/METADATA,sha256=LMwepFwF-4IhWNjxA1Pf1KGe6a7IO7gPiEsh4hXxojU,4449
+easy_fnc-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+easy_fnc-0.1.1.dist-info/top_level.txt,sha256=vH5ByFtkqB2bXlXOuK5zaaM_1GFEE9six0KgGIdPaU0,7
+easy_fnc-0.1.1.dist-info/RECORD,,
