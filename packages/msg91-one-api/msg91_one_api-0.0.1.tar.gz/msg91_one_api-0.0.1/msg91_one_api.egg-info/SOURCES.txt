@@ -1,0 +1,11 @@
+setup.py
+msg91/__init__.py
+msg91/services/__init__.py
+msg91/services/otp_service.py
+msg91_one_api.egg-info/PKG-INFO
+msg91_one_api.egg-info/SOURCES.txt
+msg91_one_api.egg-info/dependency_links.txt
+msg91_one_api.egg-info/requires.txt
+msg91_one_api.egg-info/top_level.txt
+tests/__init__.py
+tests/test_otp_service.py
