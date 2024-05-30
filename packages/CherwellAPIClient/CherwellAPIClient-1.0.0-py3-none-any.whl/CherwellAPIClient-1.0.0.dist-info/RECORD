@@ -1,0 +1,12 @@
+cherwellapi/__init__.py,sha256=kUEyQtJ_GeIq_6SoT7xwNMfh0n1V8tUpR-jGTCJBkVo,161
+cherwellapi/_version.py,sha256=dTNylLyDa0D5SU3X_YVPNNhbySvqsgnmELbExHebGkY,497
+cherwellapi/apiclient.py,sha256=2gANW-tHjCoww-2_ovUjdgDibjLrWSzlJKJcUxGNIjs,4631
+cherwellapi/routers/__init__.py,sha256=42Sl5oxzZsAHwdq_PY-Is2MmwwEUo33hdub5XitoS8U,5417
+cherwellapi/routers/relationships.py,sha256=rmKTNGbidlGWf41KYh5qWedVeo5dO_LXQcnemmUq0ls,2312
+cherwellapi/routers/search.py,sha256=cumec1vaB4GAkALikhGoDb61fG-J5a619ExB30IR2Mg,1133
+cherwellapi/routers/translation.py,sha256=JBFURHjkRFx-FB23BUYbvdE5Y-VodR42dmv0VL9h7lk,5596
+CherwellAPIClient-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+CherwellAPIClient-1.0.0.dist-info/METADATA,sha256=wvDmArCAOtphGiD5n9u4n-N0hW9vSZIm0F4Gcz3naxA,3009
+CherwellAPIClient-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+CherwellAPIClient-1.0.0.dist-info/top_level.txt,sha256=RLC6XlV5pQRzTNILsqb7vy2wMYxAPRvVzEoS0S8M06A,12
+CherwellAPIClient-1.0.0.dist-info/RECORD,,
