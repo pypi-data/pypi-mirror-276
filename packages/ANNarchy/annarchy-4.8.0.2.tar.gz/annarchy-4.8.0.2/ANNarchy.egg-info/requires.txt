@@ -1,0 +1,7 @@
+setuptools
+cython
+numpy
+sympy
+scipy
+matplotlib
+tqdm
