@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: jbt-utils
+Version: 0.0.1
+Summary: Jabuti Technologies - Utils
+Author: Thales Araújo
+License: MIT License
+License-File: LICENSE
+Requires-Dist: msal<2,>=1.6.0
