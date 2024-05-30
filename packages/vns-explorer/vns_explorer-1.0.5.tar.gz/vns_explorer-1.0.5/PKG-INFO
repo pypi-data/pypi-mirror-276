@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: vns_explorer
+Version: 1.0.5
+Summary: Discover the Unseen
+Author: Thinh Vu
+Author-email: Thinh Vu <mrthinh@live.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: webdriver-manager
+Requires-Dist: PyAutoGUI
+Provides-Extra: dev
+Requires-Dist: flake8; extra == "dev"
+Provides-Extra: test
+Requires-Dist: unittest; extra == "test"
+
+### Discover the Unseen
