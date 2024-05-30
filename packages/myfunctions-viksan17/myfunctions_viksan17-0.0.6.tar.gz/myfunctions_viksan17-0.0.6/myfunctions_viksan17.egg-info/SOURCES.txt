@@ -1,0 +1,9 @@
+README.md
+setup.py
+myfunctions_viksan17/__init__.py
+myfunctions_viksan17/math.py
+myfunctions_viksan17.egg-info/PKG-INFO
+myfunctions_viksan17.egg-info/SOURCES.txt
+myfunctions_viksan17.egg-info/dependency_links.txt
+myfunctions_viksan17.egg-info/requires.txt
+myfunctions_viksan17.egg-info/top_level.txt
