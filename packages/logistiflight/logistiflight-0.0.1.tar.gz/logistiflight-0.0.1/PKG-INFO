@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: logistiflight
+Version: 0.0.1
+Summary: 로지스틱회귀 예제 1
+Home-page: UNKNOWN
+Author: TaeMin
+Author-email: taeminida@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9.13
+Description-Content-Type: text/markdown
+
+로지스틱 회귀
+

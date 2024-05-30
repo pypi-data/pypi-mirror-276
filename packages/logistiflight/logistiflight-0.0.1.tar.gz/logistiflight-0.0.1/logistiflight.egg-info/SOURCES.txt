@@ -1,0 +1,9 @@
+README.md
+setup.py
+logistiflight/__init__.py
+logistiflight/logistic_regression_module.py
+logistiflight.egg-info/PKG-INFO
+logistiflight.egg-info/SOURCES.txt
+logistiflight.egg-info/dependency_links.txt
+logistiflight.egg-info/requires.txt
+logistiflight.egg-info/top_level.txt
