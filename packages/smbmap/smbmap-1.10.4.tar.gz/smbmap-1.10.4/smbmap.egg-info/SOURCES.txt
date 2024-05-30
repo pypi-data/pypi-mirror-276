@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+smbmap/__init__.py
+smbmap/smbmap.py
+smbmap.egg-info/PKG-INFO
+smbmap.egg-info/SOURCES.txt
+smbmap.egg-info/dependency_links.txt
+smbmap.egg-info/entry_points.txt
+smbmap.egg-info/requires.txt
+smbmap.egg-info/top_level.txt

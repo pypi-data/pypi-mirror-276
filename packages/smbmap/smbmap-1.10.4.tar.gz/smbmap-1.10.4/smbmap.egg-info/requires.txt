@@ -1,0 +1,5 @@
+impacket
+pyasn1
+pycryptodome
+configparser
+termcolor
