@@ -1,0 +1,9 @@
+README.md
+setup.py
+myfunctions_echervenko/__init__.py
+myfunctions_echervenko/math.py
+myfunctions_echervenko.egg-info/PKG-INFO
+myfunctions_echervenko.egg-info/SOURCES.txt
+myfunctions_echervenko.egg-info/dependency_links.txt
+myfunctions_echervenko.egg-info/requires.txt
+myfunctions_echervenko.egg-info/top_level.txt
