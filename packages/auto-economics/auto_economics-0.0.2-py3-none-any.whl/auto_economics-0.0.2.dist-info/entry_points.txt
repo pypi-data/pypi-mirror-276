@@ -1,0 +1,2 @@
+[nbdev]
+auto_economics = auto_economics._modidx:d
