@@ -1,0 +1,38 @@
+[project]
+name = "g3tester"
+version = "0.1.1"
+description = "PLC System G3 testing suite"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+  { name = "Elektroline a.s." },
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed"
+]
+keywords = ["Elektroline", "System G3"]
+requires-python = ">=3.11"
+dependencies = [
+  "pyshv==0.6.1"
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.elektroline.cz/plc/systemg3-py/SystemG3Tester"
+
+[options]
+package_dir = {"" = "src"}
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"

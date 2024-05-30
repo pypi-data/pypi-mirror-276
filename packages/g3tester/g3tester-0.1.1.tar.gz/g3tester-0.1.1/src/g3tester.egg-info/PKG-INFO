@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: g3tester
+Version: 0.1.1
+Summary: PLC System G3 testing suite
+Author: Elektroline a.s.
+Project-URL: Homepage, https://gitlab.elektroline.cz/plc/systemg3-py/SystemG3Tester
+Keywords: Elektroline,System G3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pyshv==0.6.1
+
+# Library Name
+
+Am async test suite for testing PLC System G3 programs.
+
+## Installation
+
+The installation can be done with the package manager `pip`.
+
+```bash
+pip install g3tester
+```
+
+## Usage
+
+See the `examples` directory.
+
+
