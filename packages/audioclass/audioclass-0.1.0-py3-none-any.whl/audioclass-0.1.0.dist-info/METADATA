@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: audioclass
+Version: 0.1.0
+Summary: A Python package providing a common interface for running machine learning models for audio classification tasks.
+Author-email: Santiago Martinez Balvanera <santiago.mbal@gmail.com>
+License: MIT
+License-File: LICENCE
+Requires-Python: >=3.8
+Requires-Dist: netcdf4>=1.6.5
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: pyarrow>=16.1.0
+Requires-Dist: requests>=2.32.2
+Requires-Dist: soundevent[array,audio]>=2.0.0
+Requires-Dist: tqdm>=4.66.4
+Provides-Extra: all
+Requires-Dist: tensorflow-hub>=0.16.1; extra == 'all'
+Requires-Dist: tensorflow>=2.16.1; extra == 'all'
+Requires-Dist: tflite-runtime>=2.14.0; extra == 'all'
+Requires-Dist: tflite>=2.10.0; extra == 'all'
+Provides-Extra: birdnet
+Requires-Dist: tflite-runtime>=2.14.0; extra == 'birdnet'
+Requires-Dist: tflite>=2.10.0; extra == 'birdnet'
+Provides-Extra: perch
+Requires-Dist: tensorflow-hub>=0.16.1; extra == 'perch'
+Requires-Dist: tensorflow>=2.16.1; extra == 'perch'
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow-hub>=0.16.1; extra == 'tensorflow'
+Requires-Dist: tensorflow>=2.16.1; extra == 'tensorflow'
+Provides-Extra: tflite
+Requires-Dist: tflite-runtime>=2.14.0; extra == 'tflite'
+Requires-Dist: tflite>=2.10.0; extra == 'tflite'
+Description-Content-Type: text/markdown
+
+# birdnet
+
+Describe your project here.
