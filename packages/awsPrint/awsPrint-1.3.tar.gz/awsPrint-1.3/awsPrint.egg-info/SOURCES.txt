@@ -1,0 +1,8 @@
+setup.py
+awsPrint/__init__.py
+awsPrint/awsPrint.py
+awsPrint.egg-info/PKG-INFO
+awsPrint.egg-info/SOURCES.txt
+awsPrint.egg-info/dependency_links.txt
+awsPrint.egg-info/requires.txt
+awsPrint.egg-info/top_level.txt
