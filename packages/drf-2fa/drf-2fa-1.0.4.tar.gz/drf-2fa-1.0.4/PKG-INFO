@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: drf-2fa
+Version: 1.0.4
+Summary: Integrate 2 Factor Authentication in Your Django REST API project easily.
+Home-page: https://github.com/farhad0085/drf-2fa
+Author: Farhad Hossain
+Author-email: farhadhossain0085@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DRF 2FA (Two Factor Authentication)
+Integrate 2 Factor Authentication in Your Django REST API project easily.
+
+## Features
+- Email based OTP authentication
+- SMS based OTP authentication
+    - Twilio
+- Third party Authenticator App authentication
+- Ability to skip/disable 2fa on current device (In Progress)
+- Ability to use multiple authentication methods (In Progress)
+
+## Documentation
+- [Installation](https://drf-2fa.readthedocs.io/en/latest/installation/)
+- [Configuration](https://drf-2fa.readthedocs.io/en/latest/configuration/)
+- [Usage](https://drf-2fa.readthedocs.io/en/latest/usage/)
+- [Customization](https://drf-2fa.readthedocs.io/en/latest/customization/)
+- [Settings](https://drf-2fa.readthedocs.io/en/latest/settings/)
+- [API Reference](https://drf-2fa.readthedocs.io/en/latest/api_reference/)
+
+Implementing Two Factor Authentication has never been easier!
