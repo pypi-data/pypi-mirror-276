@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El dispositivo ya est\u00e1 configurado"
+        },
+        "error": {
+            "cannot_connect": "No se pudo conectar",
+            "unknown": "Error inesperado"
+        },
+        "flow_title": "{model}",
+        "step": {
+            "discovery_confirm": {
+                "description": "\u00bfQuieres configurar {model}?"
+            },
+            "user": {
+                "data": {
+                    "host": "Host"
+                },
+                "data_description": {
+                    "host": "El nombre del host o direcci\u00f3n IP del dispositivo Airgradient."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "nitrogen_index": {
+                "name": "Indice de nitr\u00f3geno"
+            },
+            "pm003_count": {
+                "name": "Recuento de PM0.3"
+            },
+            "raw_nitrogen": {
+                "name": "Nitr\u00f3geno bruto"
+            },
+            "raw_total_volatile_organic_component": {
+                "name": "Total bruto de COV"
+            },
+            "total_volatile_organic_component_index": {
+                "name": "\u00cdndice de COV total"
+            }
+        }
+    }
+}

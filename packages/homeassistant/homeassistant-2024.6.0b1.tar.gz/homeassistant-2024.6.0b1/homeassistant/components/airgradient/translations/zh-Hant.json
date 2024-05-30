@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u88dd\u7f6e\u5df2\u7d93\u8a2d\u5b9a\u5b8c\u6210"
+        },
+        "error": {
+            "cannot_connect": "\u9023\u7dda\u5931\u6557",
+            "unknown": "\u672a\u9810\u671f\u932f\u8aa4"
+        },
+        "flow_title": "{model}",
+        "step": {
+            "discovery_confirm": {
+                "description": "\u662f\u5426\u8981\u8a2d\u5b9a {model}\uff1f"
+            },
+            "user": {
+                "data": {
+                    "host": "\u4e3b\u6a5f\u7aef"
+                },
+                "data_description": {
+                    "host": "Airgradient \u88dd\u7f6e\u4e4b\u4e3b\u6a5f\u540d\u7a31\u6216 IP \u4f4d\u5740\u3002"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "nitrogen_index": {
+                "name": "\u6c2e\u6307\u6578"
+            },
+            "pm003_count": {
+                "name": "PM0.3 \u8a08\u6578"
+            },
+            "raw_nitrogen": {
+                "name": "\u539f\u59cb\u6c2e\u6c23"
+            },
+            "raw_total_volatile_organic_component": {
+                "name": "\u539f\u59cb\u7e3d\u63ee\u767c\u6027\u6709\u6a5f\u5316\u5408\u7269\uff08VOC\uff09"
+            },
+            "total_volatile_organic_component_index": {
+                "name": "\u63ee\u767c\u6027\u6709\u6a5f\u5316\u5408\u7269\uff08VOC\uff09\u7e3d\u6307\u6578"
+            }
+        }
+    }
+}
