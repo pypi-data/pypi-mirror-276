@@ -1,0 +1,277 @@
+Metadata-Version: 2.1
+Name: django-object-acl
+Version: 0.1.2
+Summary: Adds object level permission for your models
+Home-page: https://github.com/noamby/django-object-acl
+Keywords: row-acl,object-acl
+Author: Noam Ben-Yechiel
+Author-email: nbenyechiel@twistbioscience.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: django (>=5.0.6,<6.0.0)
+Project-URL: Repository, https://github.com/noamby/django-object-acl
+Description-Content-Type: text/markdown
+
+# django-object-acl
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+   - [Configuration](#configuration)
+- [Usage](#usage)
+   - [Permission Templates](#permission-templates)
+   - [Model Relationships](#model-relationships)
+- [Comparison with django-guardian](#comparison-with-django-guardian)
+
+## Description
+
+`django-object-acl` is a powerful Python library designed for Django applications, providing granular, object-level access control lists (ACLs) for your models. This allows you to define and enforce permissions at the row level, enabling fine-tuned access control in your application.
+
+### Features
+
+- **Object-Level Permissions**: Manage permissions for individual model instances, rather than at the model or app level.
+- **Permission Templates**: Define reusable permission templates that can be automatically applied to new objects based on predefined criteria.
+- **Flexible Grantee Types**: Configure custom grantee types in your settings, allowing for dynamic and flexible permission assignments.
+
+### Example Use Case
+
+Consider an application with users, teams, and reports. When a user from a certain team creates a report, you may want to ensure that any user from a different team can also view and edit that report. `django-object-acl` makes this scenario easy to implement:
+
+1. **Define Grantee Types**:
+   - Owner (user who creates the report)
+   - Team (users from other teams)
+
+2. **Create Permission Templates**:
+   - Define a template that grants view and edit permissions to users from other teams when a report is created by a team member.
+
+3. **Automatic Permission Assignment**:
+   - When a user creates a report, the permission templates automatically generate the necessary permissions for users from other teams to view and edit the report.
+
+With `django-object-acl`, you can implement complex permission schemes with ease, ensuring that your application's data security and access requirements are met comprehensively. This is particularly useful in multi-tenant applications, collaborative platforms, and any scenario where precise control over data access is critical.
+
+## Installation
+
+To install `django-object-acl`, run the following command:
+
+    $ pip install django-object-acl
+
+If you are using Poetry, run:
+
+    $ poetry add django-object-acl
+
+### Configuration
+
+To configure `django-object-acl` for your Django project:
+
+1. Add `django_object_acl` to your `INSTALLED_APPS` in your settings module:
+
+    ```python
+    INSTALLED_APPS = (
+        ...
+        "django_object_acl",
+    )
+    ```
+
+2. Create the necessary database tables by running:
+
+    ```shell
+    $ python manage.py migrate django_object_acl
+    ```
+
+3. To enable the `PermissionTemplate` feature, add the following line to your settings:
+
+    ```python
+    DJANGO_OBJECT_ACL_ALLOW_TEMPLATES = True
+    ```
+
+## Usage
+
+`django-object-acl` provides a mixin class `OwnedModelMixin` that you can use to add object-level access control to your models.
+
+### Defining Grantee Types
+
+Define your grantee types and their corresponding values in your settings. For example:
+
+```python
+DJANGO_OBJECT_ACL_PERMISSION_GRANTEE_TYPES = {
+    "owner": lambda auth: auth.id,
+    "group": lambda auth: auth.group_id,
+}
+```
+
+### Adding Object ACL to Your Models
+
+To add object-level ACL to your models, simply inherit from `OwnedModelMixin`:
+
+```python
+class YourModel(OwnedModelMixin):
+    ...
+```
+
+### Creating Model Instances
+
+When creating an instance of a model with ACL, specify the `owner_grantee_type`. This should match one of the types defined in your `DJANGO_OBJECT_ACL_PERMISSION_GRANTEE_TYPES` setting:
+
+```python
+YourModel.objects.create(
+    auth={auth_instance},
+    owner_grantee_type={one_of_your_defined_types},
+    **kwargs,
+)
+```
+
+The owner grantee value will automatically be assigned based on the grantee type you've defined.
+
+### Using the .permitted_for() Filter
+
+Use the `.permitted_for()` filter to retrieve only the objects the authenticated user has permission to access. Modify your queryset in views like this:
+
+```python
+class YourModelDetailView(DetailView):
+    
+    def get_queryset(self):
+        _id = self.kwargs["id"]
+        auth = self.request.user
+        return YourModel.objects.permitted_for(auth).get(id=_id)
+```
+
+### Permission Templates
+
+`django-object-acl` includes a feature to define and use permission templates, which allow you to automatically create permissions based on predefined templates. This feature can be particularly useful for setting default permissions for new objects.
+
+#### How Permission Templates Work
+
+Permission templates are predefined sets of permissions that apply to objects based on certain criteria. When you create a new object, these templates can automatically generate the necessary permissions for that object, ensuring consistency and saving time.
+
+1. **Defining Templates**: You define a `PermissionTemplate` with fields specifying the owner grantee type and value, the target grantee type and value, the target operation, and optionally, the content type it applies to. If the content type is not specified, the template applies to all content types.
+
+2. **Creating Objects with Templates**: When you create an object using a manager that supports permission templates, it will check for matching templates. If a match is found, the manager will automatically create permissions based on those templates.
+
+#### Enabling and Using Permission Templates
+
+To enable permission templates, make sure you have added `DJANGO_OBJECT_ACL_ALLOW_TEMPLATES = True` in your settings.
+
+##### Example Scenario
+
+1. **Define Grantee Types in Settings**:
+
+    ```python
+    DJANGO_OBJECT_ACL_PERMISSION_GRANTEE_TYPES = {
+        "owner": lambda auth: auth.id,
+        "group": lambda auth: auth.group_id,
+    }
+    ```
+
+2. **Create Permission Templates**:
+
+   You might create a template that specifies that any new object owned by a user (owner) should grant view and edit permissions to a specific group.
+
+3. **Create an Object**:
+
+   When you create a new instance of your model, the manager will automatically apply the relevant permission templates. For example:
+
+    ```python
+    YourModel.objects.create(
+        auth={auth_instance},
+        owner_grantee_type="owner",
+        **kwargs,
+    )
+    ```
+
+   During the creation process, the manager will look for permission templates matching the owner grantee type and value, and apply the defined permissions to the new object.
+
+4. **Access Control in Views**:
+
+   Use the `.permitted_for()` filter to ensure that users only access objects they have permissions for:
+
+    ```python
+    class YourModelDetailView(DetailView):
+        
+        def get_queryset(self):
+            _id = self.kwargs["id"]
+            auth = self.request.user
+            return YourModel.objects.permitted_for(auth).get(id=_id)
+    ```
+
+By using permission templates, you can streamline the permission assignment process, maintain consistency, and ensure that default permissions are always set correctly for new objects. This feature is especially useful in applications with complex permission requirements and large numbers of objects.
+
+### Model Relationships
+
+To better understand the relationships between the models used in `django-object-acl`, refer to the following diagram:
+
+```mermaid
+classDiagram
+    class BaseModel {
+        +UUID id
+        +DateTime created_at
+        +DateTime updated_at
+    }
+
+    class PermissionTemplate {
+        +String owner_grantee_type
+        +String owner_grantee_value
+        +String target_grantee_type
+        +String target_grantee_value
+        +String target_operation
+        +ContentType content_type
+    }
+
+    class Permission {
+        +String grantee_type
+        +String grantee_value
+        +ContentType content_type
+        +UUID object_pk
+        +String operation
+        +GenericForeignKey content_object
+    }
+
+    class YourModel {
+        +String name
+        +String description
+        +OwnedModelMixin
+    }
+
+    class OwnedModelMixin {
+        #_add_permissions(auth, owner_grantee_type, kwargs)
+        #_get_owner_grantee_value(auth, owner_grantee_type)
+        #_add_template_based_permissions(created_permissions, owner_grantee_type, owner_grantee_value)
+    }
+
+    BaseModel <|-- PermissionTemplate
+    BaseModel <|-- Permission
+    BaseModel <|-- YourModel
+    YourModel <|-- OwnedModelMixin
+    Permission o-- ContentType
+    PermissionTemplate o-- ContentType
+    Permission --> YourModel : content_object
+```
+
+This diagram visualizes the structure and relationships of the models involved in implementing object-level access control using `django-object-acl`.
+
+## Comparison with django-guardian
+
+`django-object-acl` and `django-guardian` both provide object-level permissions for Django models, but they have some key differences:
+
+1. **Permission Templates**:
+   - **django-object-acl**: Supports permission templates, allowing you to define reusable sets of permissions that can be automatically applied to new objects based on predefined criteria.
+   - **django-guardian**: Does not natively support permission templates.
+
+2. **Flexible Grantee Types**:
+   - **django-object-acl**: Allows you to define custom grantee types in your settings, enabling dynamic and flexible permission assignments.
+   - **django-guardian**: Primarily supports standard user and group permissions.
+
+3. **Integration and Setup**:
+   - **django-object-acl**: Requires the use of the `OwnedModelMixin` for models and the configuration of custom grantee types in settings.
+   - **django-guardian**: Uses standard Django permissions framework and can be integrated into existing models with minimal changes.
+
+4. **Use Cases**:
+   - **django-object-acl**: Ideal for applications with complex permission requirements, multi-tenant applications, and scenarios where default permissions need to be automatically applied to new objects.
+   - **django-guardian**: Suitable for applications that need to extend the default Django permissions system to the object level without extensive customization.
+
+### Example Use Case
+
+For instance, consider an application where you have users, teams, and reports. With `django-object-acl`, you can define a permission template that ensures any report created by a user from one team can be viewed and edited by users from another team. This setup can be easily achieved by defining appropriate grantee types and permission templates, and then applying them automatically when new reports are created.
+
+In contrast, using `django-guardian`, you would need to manually assign the required permissions to each report for the relevant users or groups, as there is no built-in support for permission templates or custom grantee types.
