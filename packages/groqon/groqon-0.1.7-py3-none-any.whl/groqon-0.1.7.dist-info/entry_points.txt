@@ -1,0 +1,4 @@
+[console_scripts]
+agroq=groqon.async_api.agroq:main
+groqon=groqon.async_api.agroq:main
+
