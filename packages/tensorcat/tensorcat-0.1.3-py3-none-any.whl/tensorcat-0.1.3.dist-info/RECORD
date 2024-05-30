@@ -1,0 +1,8 @@
+tensorcat/__init__.py,sha256=ittdHEAJwzPR_Be9xWG14UTRtKMS_jKk8aUkm_HnCVs,72
+tensorcat/cli.py,sha256=vySz9uVZ1b9PnVCUMY_yTc8Zf03enuzb3LllzPoLrMk,2001
+tensorcat/iterm2.py,sha256=FwcDRoA4HPl6w6p0BdWS3SR9I37_RYVkIE6Dtn6WUCE,2477
+tensorcat/tensorcat.py,sha256=Tdu68fm3bxkjdIIJtu4yQ1VcXf71C6FxxaoenQxqYCI,5952
+tensorcat-0.1.3.dist-info/METADATA,sha256=xBNRS-zbKtvwmCzY-K_bRVK7qMAW9fFwSrGKmQawHvk,5693
+tensorcat-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tensorcat-0.1.3.dist-info/entry_points.txt,sha256=A2_KRb454XnXQ3Dgugqt8YlKS2ZTM9iiaDRjsVNmjQc,48
+tensorcat-0.1.3.dist-info/RECORD,,
