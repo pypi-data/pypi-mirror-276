@@ -1,0 +1,7 @@
+pldag/__init__.py,sha256=HoxAUG-y2P5t-QvsObVoijXEvAW7UsAJt4pOJ-woeO4,46472
+pldag/solver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pldag/solver/glpk_solver.py,sha256=Bu1IMT0_XnUnO0kk7v_hSpf3Macs33_V6edyV2NIgek,1021
+pldag-0.8.61.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+pldag-0.8.61.dist-info/METADATA,sha256=Vsopa75QZbx5AxK-q8gJ3Q64vwmg2a9zUqb_ERpyShs,3325
+pldag-0.8.61.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pldag-0.8.61.dist-info/RECORD,,
