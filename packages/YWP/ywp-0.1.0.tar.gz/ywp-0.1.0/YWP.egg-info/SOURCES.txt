@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+YWP/__init__.py
+YWP/ywp.py
+YWP.egg-info/PKG-INFO
+YWP.egg-info/SOURCES.txt
+YWP.egg-info/dependency_links.txt
+YWP.egg-info/requires.txt
+YWP.egg-info/top_level.txt
