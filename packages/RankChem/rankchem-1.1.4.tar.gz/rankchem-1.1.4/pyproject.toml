@@ -1,0 +1,56 @@
+[build-system] 
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.hatchling.build.targets.wheel]
+packages = ["src/RankChem"]
+
+
+[project]
+name = "RankChem"
+version = "1.1.4"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+description = "RankChem project"
+dependencies = [
+     "rdkit",
+     "morfeus-ml",
+     "pyvistaqt",
+     "numpy",
+     "py3Dmol",
+     "streamlit",
+     "stmol"
+]
+
+authors = [
+    {name = "Emma Kappeler", email = "emma.kappeler@epfl.ch"},
+    {name = "Ludovica Fracassi", email = "ludovica.fracassi@epfl.ch"}
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/kappelemma/RankChem"
+
+[project.optional-dependencies]
+test = [
+    "hypothesis",
+    "pytest",
+    "pytest-cov",
+    "tox",
+    "genbadge[coverage]",
+]
