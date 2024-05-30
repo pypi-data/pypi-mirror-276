@@ -1,0 +1,15 @@
+rdkit
+morfeus-ml
+pyvistaqt
+numpy
+py3Dmol
+streamlit
+stmol
+ipython_genutils
+
+[test]
+hypothesis
+pytest
+pytest-cov
+tox
+genbadge[coverage]
