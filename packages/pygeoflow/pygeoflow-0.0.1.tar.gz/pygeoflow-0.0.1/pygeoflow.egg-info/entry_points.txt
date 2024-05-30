@@ -1,0 +1,2 @@
+[console_scripts]
+pygeoflow = pygeoflow.__main__:main
