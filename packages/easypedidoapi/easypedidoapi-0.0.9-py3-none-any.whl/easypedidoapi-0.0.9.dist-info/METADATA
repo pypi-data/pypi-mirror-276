@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: easypedidoapi
+Version: 0.0.9
+Summary: Package which helps to consume EasyPedido API
+Home-page: UNKNOWN
+Author: Andrés Palacio
+Author-email: ampamo9@gmail.com
+License: UNKNOWN
+Keywords: python,EasyPedido API
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: pyodbc
+
+UNKNOWN
+
+
