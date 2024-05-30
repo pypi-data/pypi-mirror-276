@@ -1,0 +1,2 @@
+[console_scripts]
+LeetTerminal = LeetTerminal:main
