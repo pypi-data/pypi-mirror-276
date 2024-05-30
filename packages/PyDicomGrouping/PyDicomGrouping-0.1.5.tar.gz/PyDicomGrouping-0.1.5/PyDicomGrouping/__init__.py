@@ -1,0 +1,1 @@
+from PyDicomGrouping.main import dicom_grouping
