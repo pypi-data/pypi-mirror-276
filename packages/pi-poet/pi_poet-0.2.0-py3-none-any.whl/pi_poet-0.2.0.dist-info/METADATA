@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pi-poet
+Version: 0.2.0
+Summary: 
+Author: leeparnell
+Author-email: 152523161+leeparnell@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
