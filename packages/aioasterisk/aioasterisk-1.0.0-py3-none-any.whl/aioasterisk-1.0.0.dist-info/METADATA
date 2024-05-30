@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: aioasterisk
+Version: 1.0.0
+Summary: Async Python library for interacting with the Asterisk FreePBX
+Home-page: https://www.asterisk.org/
+Download-URL: https://github.com/developerreva/aioasterisk
+Author: Developereva
+Author-email: developereva@protonmail.com
+License: BSD License
+Project-URL: Source Code, https://github.com/developerreva/aioasterisk
+Project-URL: Documentation, https://github.com/developerreva/aioasterisk#-getting-started
+Keywords: python python3 api-client aiohttp api-wrapper asterisk asterisk-api asterisk-async
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## English
+
+# aioasterisk
+Async Asterisk Client
+
+Python 3.6+
+
+## Install
+
+```bash
+pip install aioasterisk
+```
+
+## Auth
+
+First you need gen auth url:
+```python
+from aioasterisk.ami import AMIClient
+
+client = AMIClient(address='127.0.0.1',port=5038)
+client.login(username='username',secret='password')
+```
