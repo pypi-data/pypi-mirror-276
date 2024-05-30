@@ -1,0 +1,8 @@
+setup.py
+neetils/__init__.py
+neetils/io.py
+neetils.egg-info/PKG-INFO
+neetils.egg-info/SOURCES.txt
+neetils.egg-info/dependency_links.txt
+neetils.egg-info/requires.txt
+neetils.egg-info/top_level.txt
