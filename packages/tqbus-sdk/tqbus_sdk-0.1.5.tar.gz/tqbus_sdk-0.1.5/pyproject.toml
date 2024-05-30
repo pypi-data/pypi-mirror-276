@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tqbus-sdk"
+version = "0.1.5"
+description = ""
+authors = ["Rigan Gor <rigan.gor@turnkeyafrica.com>"]
+readme = "README.md"
+exclude = ["notebooks/**"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "*"
+exrex = "*"
+pydantic = "2.*"
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["d"], version = "^23.11.0"}
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
