@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "dependencies": {
+        "highlight.js": "^11.8.0",
+        "micromark": "^4.0.0"
+    },
+    "devDependencies": {
+        "vite": "^4.5.3"
+    }
+}
