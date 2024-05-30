@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Add the TurboCtl directory to $PYTHONPATH.
+TurboCtl_path="$(dirname "$0")"
+export PYTHONPATH="$("$TurboCtl_path"/add-to-path "$TurboCtl_path" PYTHONPATH)"
+
+# Run turboctl with given command line arguments.
+/usr/bin/env python3 "$(dirname "$0")/turboctl" $@
