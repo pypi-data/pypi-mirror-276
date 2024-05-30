@@ -1,0 +1,122 @@
+
+
+
+<h1>{ 
+	
+	citizens,
+	
+	councilor,
+	
+	accountants,
+
+	choosers,
+	authors,
+	
+	voters, 
+	governments, 
+	politicians,  
+	rulers,
+	writers,
+	producers,
+	board,
+	family
+}</h1>
+
+	<h2>vote delegation { pools }</h2>
+	
+		<p>voters need to commit to being online in proportional voting systems?</p>
+		<p>penalties for going offline.</p>
+
+			emf_gadget.start ({
+				"voting invidiual": {
+					"amount": 15000,
+					
+					"ve_private": "",
+					"ve_public": ""
+				}
+			})
+		
+		
+		<h2>maybe voters is always an aggregate</h2>
+		<p>
+			Voters need to wait until the next voter aggregation to join.
+			This makes it easy to calculate the fraction of voting power
+			that a voter has.
+		</p>
+		
+		
+			#
+			#	every 1000 or so voter steps
+			#
+			voters aggregates: [{
+				kind: "individual",
+				ve_public: 
+				amount: 15000,
+				fraction: "3/4"
+			},{
+				kind: "individual",
+				ve_public:
+				amount: 5000,
+				fraction: "1/4"
+			}]
+			
+
+			emf_gadget.start ({
+				"voting delegate": {
+					"private": "",
+					"public": ""
+				}
+			})
+		
+		
+	<h2>how is list of voters determined?</h2>
+	
+		voters authorize other voters.
+		
+		possibility of individual voters and delegate voters.
+		
+		so start with 1 voter: {
+			"voting ellipse": {
+				"private": "",
+				"public": ""
+			}
+		}
+	
+		
+	
+	<h2>secure approvals</h2>
+		could be:
+			1 creator private ellipse for:
+				making proposals 
+				generating approver keys
+			
+			1 voting private ellipse for approving proposals
+		
+			That way if the voting ellipse is stolen,
+			a new one can be generated from the creator ellipse.
+		
+		{
+			"proposal": {
+				"unsigned": {},
+				"signed": ""
+			},
+			"signatures": {
+				public key of signatory: {
+					vote: "yes",
+					
+					#
+					#	amount of emf that the signatory has
+					#
+					amount: 123473334923,
+
+					#
+					#	the proposal signed with the private voting ellipse
+					#
+					signature: ""
+				} 
+			}
+		}
+		
+		
+	relevant:
+		https://en.wikipedia.org/wiki/Merkle_tree

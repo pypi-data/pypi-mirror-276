@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: recycling
+Version: 1.1.0
+Summary: The dreams that found there way to a canvas.
+License: GPL 3.0 + MongoDB SSPL
+Keywords: stories,roads,rollercoasters,motion-motions,motion-moves,motion-pictures,reels,reelity,reality,custom-support-required
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: asn1crypto (>=1.5.1,<2.0.0)
+Requires-Dist: aztec-code-generator (>=0.11,<0.12)
+Requires-Dist: biotech (>=1.1.10,<2.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: cryptography (>=42.0.7,<43.0.0)
+Requires-Dist: ecdsa (>=0.19.0,<0.20.0)
+Requires-Dist: ecpy (>=1.2.5,<2.0.0)
+Requires-Dist: fastecdsa (>=2.3.2,<3.0.0)
+Requires-Dist: flask (>=3.0.3,<4.0.0)
+Requires-Dist: flask-cors (>=4.0.0,<5.0.0)
+Requires-Dist: flask-openapi3 (>=3.1.0,<4.0.0)
+Requires-Dist: pycryptodome (>=3.20.0,<4.0.0)
+Requires-Dist: pymongo (>=4.6.3,<5.0.0)
+Requires-Dist: pyopenssl (>=24.1.0,<25.0.0)
+Requires-Dist: pyzbar (>=0.1.9,<0.2.0)
+Requires-Dist: qrcode (>=7.4.2,<8.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: selenium (>=4.19.0,<5.0.0)
+Requires-Dist: ships (>=1.2.7,<2.0.0)
+Requires-Dist: somatic (>=3.0.2,<4.0.0)
+Requires-Dist: textual (>=0.56.4,<0.57.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Project-URL: GitLab, https://gitlab.com/reptilian_climates/modules_series_4/apoplast
+Description-Content-Type: text/markdown
+
+
+
+
+
+
+
+
+******
+
+Bravo!  You have received a Mercantilism Diploma in "recycling" from   
+the Simulated Parallel Science Universe Fictional Fantasy Orbital Convergence University   
+International Air and Water Embassy Naturalization Department of the Mango Planet
+(the planet that is one ellipse closer to the Sun than Earth's ellipse).    
+
+You are now officially certified to perform "recycling" operations in your   
+simulated parallel science universe fictional fantasy practice!    
+
+Encore! Encore! Encore! Encore!
+
+******
+
+
+# recycling
+for motion picture use, etc.   
+
+---
+
+## description
+Welcome to recycling.
+
+---
+
+## install
+```
+[xonsh] pip install recycling
+```
+
+### MongoDB (Community Edition) also needs to be installed  
+https://www.mongodb.com/docs/manual/administration/install-community/   
+
+--
+
+## tutorial
+```
+[xonsh] recycling tutorial
+```
+--
+
+## instrument
+```
+[xonsh] recycling instrument layer start --name instrument-1
+```
+
+---
+
+## stage
+```
+[xonsh] recycling stage layer start --name stage-1
+```
+
+---
+
+## vibe generator
+This can be found in the tutorial at "modules/EEC_448_2/tutorial"
+

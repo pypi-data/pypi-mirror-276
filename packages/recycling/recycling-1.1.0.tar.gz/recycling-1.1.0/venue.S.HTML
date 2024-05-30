@@ -1,0 +1,82 @@
+
+
+
+<pre>
+	
+	<section>
+		<h1>recycling</h1>
+	</section>
+	
+	<section>
+		<h2>objectives</h2>
+		<p>
+			Move the images to another module.		
+		</p>	
+	</section>
+	
+	<section>
+		<h2>on</h2>
+			<h3>session 1</h3>
+				docker compose up -d; docker exec -it recycling.1 bash;
+				. /habitat/_controls/build_1.sh
+			
+			<h3>session 2</h3>
+				docker exec -it recycling.1 bash;
+				. /habitat/_controls/build_2.sh
+	</section>
+
+	<section>
+		<h2>build</h2>
+			<h3>mongo</h3>
+			
+			??
+				# socketio
+				# eventlet
+	</section>
+
+	<section>
+		<h2>organs</h2>
+			<h2>instrument</h2>
+				cd /habitat/consensus_1
+				recycling_1 instrument layer start --name instrument_1
+			
+			<h2>stage</h2>
+				cd /habitat/consensus_1
+				recycling_1 stage layer start --name stage_1
+	</section>
+
+	<section>
+		<h2>poetry</h2>
+			pip install poetry poetry-plugin-export
+			
+			<h3>update</h3>
+			
+			
+			<h3>installations</h3>
+				poetry config virtualenvs.path /path/to/your/directory
+	</section>
+
+	<section>
+		<h2>publishing</h2>
+			(cd /habitat/venues/stages/recycling && pycycle --here) 
+		
+			python3 /habitat/venues/stages/recycling/_status/status.proc.py
+			python3 /habitat/venues/stages/recycling/__status/status_API.proc.py
+			
+			#
+			#	poetry auth
+			#
+			(pip install poetry && cd /habitat && rm -rf dist && poetry build --format sdist --verbose && chmod -R 777 /habitat && poetry publish --verbose;)
+	</section>	
+		
+
+	<h2>important</h2>
+		poetry show --tree
+
+	<h2>docker</h2>
+		docker network create --subnet=192.168.0.0/24 container_network
+		docker run --network container_network --ip 192.168.0.160 -v .:/recycling -it jumps:v2.1.0
+		docker exec -it 9fd55c2b8034 bash
+	
+
+</pre>

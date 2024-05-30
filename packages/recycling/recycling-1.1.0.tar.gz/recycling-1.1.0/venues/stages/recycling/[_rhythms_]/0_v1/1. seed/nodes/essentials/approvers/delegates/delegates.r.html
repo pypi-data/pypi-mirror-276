@@ -1,0 +1,42 @@
+
+
+
+delegates:
+
+	description:
+		
+		journal entry 1:
+		
+			For example, voter 8 with 2% of the voting portion,
+			delegates 0.2% voting abilities to 5 physicals.
+			
+			Ergo, there are 5 delegate physicals.
+				1. voter 8 {2%} -> delegate 1, 0.2%
+				2. voter 8 {2%} -> delegate 2, 0.2%
+				3. voter 8 {2%} -> delegate 3, 0.2%
+				4. voter 8 {2%} -> delegate 4, 0.2%
+				5. voter 8 {2%} -> delegate 5, 0.2%
+
+
+	structures:
+		voters aggregates: [{
+			kind: "individual",
+			ve_public: 
+			amount: 15000,
+			fraction: "3/4"
+		},{
+			kind: "individual",
+			ve_public:
+			amount: 5000,
+			fraction: "1/4"
+		}]
+		
+
+		emf_gadget.start ({
+			"voting delegate": {
+				"private": "",
+				"public": ""
+			}
+		})
+
+

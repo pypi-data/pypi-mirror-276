@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+
+	<title>web</title>
+	
+	<script>
+		var background = localStorage.getItem ('background')
+		if (typeof background === "string") {
+			var styleSheet = document.createElement("style")
+			styleSheet.innerText = `body { background: ${ background } }`
+			document.head.appendChild (styleSheet)
+		}
+	</script>
+
+</head>
+<body>  
+    <div id="app" style="transition: transform .2s"></div>
+	<div 
+		id="fields" 
+		style="
+			position: absolute;
+			top: 0;
+			left: 0;
+			
+		"
+	></div>
+	
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

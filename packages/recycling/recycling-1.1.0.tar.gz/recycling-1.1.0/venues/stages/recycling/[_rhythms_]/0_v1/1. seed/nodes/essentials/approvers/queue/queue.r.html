@@ -1,0 +1,43 @@
+
+
+
+voter queue
+
+	priorities:
+		priority 1:
+			This should be part of every batch.
+			
+			As in, instrument and voter modifactions
+			occur simultaneously per batch.
+			
+			That way, there's no confusion about
+			who the voters are.
+		
+
+	description:
+		voters are added to the voter queue,
+		and then are added to the aggregate,
+		when the next aggregate is calculated.
+		
+		Voter aggregates and ledger aggregates
+		could be synchronized.
+		
+	
+	voters queue table: 
+		
+		[{
+			ellipse: 1,
+			queue: [{
+				unsigned: {
+					kind: "individual",
+					ve_public:
+					amount: 5000
+				},
+				signed: b"",
+				signatures: {
+					[ ve_public ]: {
+							
+					}
+				}
+			}]
+		}]
