@@ -1,0 +1,3 @@
+[console_scripts]
+whut = whut.cli:main
+
