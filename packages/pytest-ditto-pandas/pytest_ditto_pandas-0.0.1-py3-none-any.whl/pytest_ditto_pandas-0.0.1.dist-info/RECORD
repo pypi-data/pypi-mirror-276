@@ -1,0 +1,9 @@
+ditto_pandas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ditto_pandas/_version.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+ditto_pandas/io.py,sha256=TbsQaMdi48emZIeb1uYDHJULiODyX_mLeftL5r5lNIQ,941
+ditto_pandas/marks.py,sha256=9IhWCIoheY2O3n2HMJoyaMOCl2s8zzf2E4NVCl-WIEY,397
+pytest_ditto_pandas-0.0.1.dist-info/METADATA,sha256=doInAPJqwyQN5bscVLvBjp6ugllcaJcRXdrRcRRU8ag,2849
+pytest_ditto_pandas-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pytest_ditto_pandas-0.0.1.dist-info/entry_points.txt,sha256=I1_KkUkjC6gsHt1XhYe3FfXCZPdfXWisxZWBqScDtFM,184
+pytest_ditto_pandas-0.0.1.dist-info/licenses/LICENSE,sha256=Dllo6ok5zVKUEUmEVqsGbGwBoDYtBpQY_e2mxW1qrvQ,1069
+pytest_ditto_pandas-0.0.1.dist-info/RECORD,,

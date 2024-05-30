@@ -1,0 +1,7 @@
+[ditto]
+pandas_csv = ditto_pandas.io:PandasCsv
+pandas_json = ditto_pandas.io:PandasJson
+pandas_parquet = ditto_pandas.io:PandasParquet
+
+[ditto_marks]
+pandas = ditto_pandas.marks:marks
