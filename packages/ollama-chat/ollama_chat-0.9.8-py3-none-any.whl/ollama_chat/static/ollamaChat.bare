@@ -1,0 +1,483 @@
+# Licensed under the MIT License
+# https://github.com/craigahobbs/ollama-chat/blob/main/LICENSE
+
+include <args.mds>
+include <forms.mds>
+
+
+# The Ollama Chat application main entry point
+async function ollamaChatMain():
+    args = argsParse(ollamaChatArguments)
+    view = objectGet(args, 'view')
+
+    # Render the chat page
+    if view == 'chat':
+        ollamaChatConversationPage(args)
+        return
+    endif
+
+    # Render the index page
+    ollamaChatIndexPage(args)
+endfunction
+
+
+# The Ollama Chat application URL arguments
+ollamaChatArguments = argsValidate(arrayNew( \
+    objectNew('name', 'view'), \
+    objectNew('name', 'id'), \
+    objectNew('name', 'action', 'explicit', true), \
+    objectNew('name', 'actionId', 'explicit', true), \
+    objectNew('name', 'message', 'explicit', true) \
+))
+
+
+# The application title
+ollamaChatTitle = 'Ollama Chat'
+
+
+# The Ollama Chat error page
+function ollamaChatErrorPage(message):
+    documentSetTitle(ollamaChatTitle)
+    markdownPrint( \
+        argsLink(ollamaChatArguments, 'Back', null, true), \
+        '', \
+        '# ' + ollamaChatTitle, \
+        '', \
+        '**ERROR:** ' + message \
+    )
+endfunction
+
+
+# The Ollama Chat index page
+async function ollamaChatIndexPage(args):
+    action = objectGet(args, 'action')
+    actionId = objectGet(args, 'actionId')
+
+    # Render the title
+    documentSetTitle(ollamaChatTitle)
+    markdownPrint( \
+        '# ' + ollamaChatTitle, \
+        '' \
+    )
+
+    # Get the current model and the conversations list
+    fetchURLs = arrayNew('getModel', 'getConversations')
+    if action == 'select':
+        arrayPush(fetchURLs, 'getModels')
+    endif
+    responses = systemFetch(fetchURLs)
+    modelResponse = if(responses != null && arrayGet(responses, 0) != null, jsonParse(arrayGet(responses, 0)))
+    conversationsResponse = if(responses != null && arrayGet(responses, 1) != null, jsonParse(arrayGet(responses, 1)))
+    modelsResponse = if(responses != null && action == 'select' && arrayGet(responses, 2) != null, jsonParse(arrayGet(responses, 2)))
+    if modelResponse == null || conversationsResponse == null || (action == 'select' && modelsResponse == null):
+        ollamaChatErrorPage('Failed to load model and conversations')
+        return
+    endif
+
+    # Render the model selection
+    indent = stringFromCharCode(160, 160)
+    markdownPrint('**Model:** ' + objectGet(modelResponse, 'model') + indent)
+    if action == 'select':
+        markdownPrint( \
+            argsLink(ollamaChatArguments, 'Cancel', objectNew('action', null)), \
+            '', \
+            indent + indent + '**Select a model:**' \
+        )
+        for modelInfo in objectGet(modelsResponse, 'models'):
+            model = objectGet(modelInfo, 'model')
+            elementModelRender( \
+                objectNew('html', 'p', 'elem', arrayNew( \
+                    objectNew('text', indent + indent), \
+                    formsLinkButtonElements(model, systemPartial(ollamaChatOnSelect, model)) \
+                )) \
+            )
+        endfor
+    else:
+        # Render the start new chat link
+        markdownPrint( \
+            argsLink(ollamaChatArguments, 'Select', objectNew('action', 'select')), \
+            '', \
+            argsLink(ollamaChatArguments, 'Start New Conversation', objectNew('view', 'chat')) \
+        )
+    endif
+
+    # Render the conversations
+    conversations = objectGet(conversationsResponse, 'conversations')
+    if conversations:
+        markdownPrint('', '## Conversations')
+        tableRows = arrayNew( \
+            objectNew('html', 'tr', 'elem', arrayNew( \
+                objectNew('html', 'th', 'elem', objectNew('text', 'Title')), \
+                objectNew('html', 'th', 'elem', objectNew('text', 'Model')), \
+                objectNew('html', 'th') \
+            )) \
+        )
+        tableElements = objectNew('html', 'table', 'elem', tableRows)
+        for conversation in conversations:
+            conversationId = objectGet(conversation, 'id')
+            conversationURL = argsURL(ollamaChatArguments, objectNew('view', 'chat', 'id', conversationId))
+            isGenerating = objectGet(conversation, 'generating')
+            isDeleting = action == 'delete' && actionId == conversationId
+            deleteURL = argsURL(ollamaChatArguments, objectNew('action', 'delete', 'actionId', conversationId))
+            arrayPush(tableRows, objectNew('html', 'tr', 'elem', arrayNew( \
+                objectNew('html', 'td', 'elem', formsLinkElements(objectGet(conversation, 'title'), conversationURL)), \
+                objectNew('html', 'td', 'elem', objectNew('text', objectGet(conversation, 'model'))), \
+                objectNew('html', 'td', 'elem', if(!isGenerating && !isDeleting, formsLinkElements('Delete', deleteURL))) \
+            )))
+            if isDeleting:
+                arrayPush(tableRows, objectNew('html', 'tr', 'elem', arrayNew( \
+                    objectNew('html', 'td', 'attr', objectNew('colspan', '3'), 'elem', arrayNew( \
+                        objectNew('text', indent + indent), \
+                        objectNew('html', 'b', 'elem', objectNew('text', 'Delete?' + indent)), \
+                        formsLinkButtonElements('Continue', systemPartial(ollamaChatOnDelete, conversationId)), \
+                        objectNew('text', indent), \
+                        formsLinkElements('Cancel', argsURL(ollamaChatArguments, null, true)) \
+                    )) \
+                )))
+            endif
+        endfor
+        elementModelRender(tableElements)
+    endif
+endfunction
+
+
+# Select model on-click event handler
+async function ollamaChatOnSelect(model):
+    # Set the model (ignore errors)
+    systemFetch(objectNew('url', 'setModel', 'body', jsonStringify(objectNew('model', model))))
+
+    # Set location to the index page
+    windowSetLocation(argsURL(ollamaChatArguments, null, true))
+endfunction
+
+
+# Delete conversation on-click event handler
+async function ollamaChatOnDelete(conversationId):
+    # Set the model (ignore errors)
+    systemFetch(objectNew('url', 'deleteConversation', 'body', jsonStringify(objectNew('id', conversationId))))
+
+    # Set location to the index page
+    windowSetLocation(argsURL(ollamaChatArguments, null, true))
+endfunction
+
+
+# The Ollama Chat conversation page
+async function ollamaChatConversationPage(args):
+    id = objectGet(args, 'id')
+
+    # Message argument?
+    message = objectGet(args, 'message')
+    if message != null:
+        ollamaChatOnPrompt(null, message)
+        return
+    endif
+
+    # Fetch the conversation
+    title = ollamaChatTitle
+    conversation = null
+    generating = False
+    if id != null:
+        conversationResponse = systemFetch('getConversation?id=' + id)
+        conversationResponse = if(conversationResponse != null, jsonParse(conversationResponse))
+        if conversationResponse == null:
+            ollamaChatErrorPage('Unknown conversation ID')
+            return
+        endif
+        conversation = objectGet(conversationResponse, 'conversation')
+        generating = objectGet(conversationResponse, 'generating')
+        title = objectGet(conversation, 'title')
+        model = objectGet(conversation, 'model')
+    else:
+        modelResponse = systemFetch('getModel')
+        modelResponse = if(modelResponse != null, jsonParse(modelResponse))
+        if modelResponse == null:
+            ollamaChatErrorPage('Failed to get current model')
+            return
+        endif
+        model = objectGet(modelResponse, 'model')
+    endif
+
+    # Render the floating controls
+    elementModelRender(ollamaChatPageFloatingElements(id, generating))
+    documentSetFocus(ollamaChatPromptInputID)
+
+    # Render the chat title
+    documentSetTitle(title)
+    markdownPrint( \
+        '# ' + title, \
+        '', \
+        '**Model:** ' + markdownEscape(model) \
+    )
+
+    # No conversation yet?
+    if conversation == null:
+        return
+    endif
+
+    # Render the exchanges
+    modelName = stringUpper(stringSlice(model, 0, 1)) + stringSlice(model, 1)
+    exchanges = objectGet(conversation, 'exchanges')
+    ixExchangeLast = arrayLength(exchanges) - 1
+    for exchange, ixExchange in exchanges:
+        markdownPrint( \
+            '', \
+            '## User:', \
+            '', \
+            objectGet(exchange, 'user'), \
+            '', \
+            '## ' + markdownEscape(modelName) + ':', \
+            '', \
+            if(ixExchange != ixExchangeLast, objectGet(exchange, 'model')) \
+        )
+    endfor
+
+    # Render the document reset ID
+    elementModelRender(objectNew('html', 'div', 'attr', objectNew('id', ollamaChatDocumentResetID, 'style', 'display: none;')))
+
+    # Render the bottom of the conversation page
+    ollamaChatConversationPageBottom(args, conversation, generating)
+endfunction
+
+
+# Helper to render the bottom of Ollama Chat conversation page
+async function ollamaChatConversationPageBottom(args, conversation, generating):
+    id = objectGet(args, 'id')
+
+    # Render the model reply
+    exchanges = objectGet(conversation, 'exchanges')
+    markdownPrint(objectGet(arrayGet(exchanges, arrayLength(exchanges) - 1), 'model'))
+
+    # Render the regenerate and delete links
+    if !generating:
+        indent = stringFromCharCode(160, 160)
+        elementModelRender( \
+            objectNew('html', 'p', 'elem', arrayNew( \
+                if(arrayLength(exchanges) > 1, arrayNew( \
+                    formsLinkButtonElements('Delete', systemPartial(ollamaChatOnConversationClick, id, 'deleteConversationExchange')), \
+                    objectNew('text', indent) \
+                )), \
+                formsLinkButtonElements('Regenerate', systemPartial(ollamaChatOnConversationClick, id, 'regenerateConversationExchange')) \
+            )) \
+        )
+    endif
+
+    # Render the bottom space
+    fontSizePx = documentFontSize()
+    bottomSpacePx = mathFloor(4.5 * fontSizePx)
+    bottomElementId = stringSlice(argsURL(ollamaChatArguments, null, false, ollamaChatBottomID), 1)
+    elementModelRender(arrayNew( \
+        objectNew('html', 'div', 'attr', objectNew('style', 'height: ' + bottomSpacePx + 'px')), \
+        objectNew('html', 'div', 'attr', objectNew('id', bottomElementId)) \
+    ))
+
+    # Set the conversation update timeout
+    if generating:
+        windowSetTimeout(systemPartial(ollamaChatOnConversationTimeout, args), ollamaChatTimeoutMs)
+    endif
+endfunction
+
+
+# The Ollama Chat chat page conversation-update timeout handler
+async function ollamaChatOnConversationTimeout(args):
+    id = objectGet(args, 'id')
+
+    # Fetch the conversation
+    conversationResponse = systemFetch('getConversation?id=' + id)
+    conversationResponse = if(conversationResponse != null, jsonParse(conversationResponse))
+    if conversationResponse == null:
+        ollamaChatErrorPage('Unknown conversation ID')
+        return
+    endif
+    conversation = objectGet(conversationResponse, 'conversation')
+    generating = objectGet(conversationResponse, 'generating')
+
+    # Done generating? Re-render the page to update the floating controls
+    if !generating:
+        ollamaChatConversationPage(args)
+        return
+    endif
+
+    # Render the page bottom
+    documentSetReset(ollamaChatDocumentResetID)
+    ollamaChatConversationPageBottom(args, conversation, generating)
+endfunction
+
+
+# The chat refresh period, in milliseconds
+ollamaChatTimeoutMs = 500
+
+
+# The Ollama Chat prompt input ID
+ollamaChatPromptInputID = 'ollama-chat-prompt'
+
+
+# The Ollama Chat document reset ID
+ollamaChatDocumentResetID = 'ollama-chat-document-reset-id'
+
+
+# The Ollama Chat scroll-to bottom ID
+ollamaChatBottomID = 'ollama-chat-bottom-id'
+
+
+# Conversation action on-click event handler
+async function ollamaChatOnConversationClick(id, url):
+    # Perform the conversation acgtion
+    actionRequest = jsonStringify(objectNew('id', id))
+    systemFetch(objectNew('url', url, 'body', actionRequest))
+
+    # Render the page
+    ollamaChatMain()
+endfunction
+
+
+# Prompt on-enter/on-click event handler
+async function ollamaChatOnPrompt(id, message):
+    # Get the prompt text
+    prompt = if(message != null, message, stringTrim(documentInputValue(ollamaChatPromptInputID)))
+    if prompt == '':
+        return
+    endif
+
+    # Starting a chat?
+    if id == null:
+        # Start the chat
+        startRequest = jsonStringify(objectNew('user', prompt))
+        startResponse = systemFetch(objectNew('url', 'startConversation', 'body', startRequest))
+        startResponse = if(startResponse != null, jsonParse(startResponse))
+        if startResponse == null:
+            return
+        endif
+        id = objectGet(startResponse, 'id')
+
+        # Navigate to the conversation ID
+        windowSetLocation(argsURL(ollamaChatArguments, objectNew('id', id)))
+        return
+    endif
+
+    # Reply to that chat
+    replyRequest = jsonStringify(objectNew('id', id, 'user', prompt))
+    systemFetch(objectNew('url', 'replyConversation', 'body', replyRequest))
+
+    # Render the conversation page
+    ollamaChatMain()
+endfunction
+
+
+# The Ollama chat pages floating controls element model
+function ollamaChatPageFloatingElements(id, generating):
+    elements = arrayNew()
+
+    # Compute spacing
+    fontSizePx = documentFontSize()
+    topSpacePx = mathFloor(1.5 * fontSizePx)
+    borderRadiusPx = mathFloor(0.5 * fontSizePx)
+    menuPadPx = mathFloor(0.75 * fontSizePx)
+    inputPadPx = fontSizePx
+    textPadPx = mathFloor(0.5 * fontSizePx)
+    buttonLeftRightPx = mathFloor(0.5 * fontSizePx)
+    buttonTopBottomPx = fontSizePx
+    topBottomPx = fontSizePx
+    leftRightPx = 2 * fontSizePx
+
+    # The top space
+    arrayPush(elements, objectNew('html', 'div', 'attr', objectNew('style', 'height: ' + topSpacePx + 'px')))
+
+    # The menu controls
+    separator = stringFromCharCode(160) + '|' + stringFromCharCode(160)
+    arrayPush(elements, objectNew( \
+        'html', 'div', \
+        'attr', objectNew( \
+            'style', arrayJoin(arrayNew( \
+                'align-items: left', \
+                'background-color: #e0e0e0', \
+                'border-radius: ' + borderRadiusPx + 'px', \
+                'color: black', \
+                'display: flex', \
+                'left: ' + topBottomPx + 'px', \
+                'padding: ' + menuPadPx + 'px', \
+                'position: fixed', \
+                'top: ' + topBottomPx + 'px' \
+            ), '; ') \
+        ), \
+        'elem', arrayNew( \
+            formsLinkElements('Back', argsURL(ollamaChatArguments, null, true)), \
+            if(!generating, arrayNew( \
+                objectNew('text', separator), \
+                formsLinkElements('Top', argsURL(ollamaChatArguments, null, false, '_top')), \
+                objectNew('text', separator), \
+                formsLinkElements('Bottom', argsURL(ollamaChatArguments, null, false, ollamaChatBottomID)) \
+            )) \
+        ) \
+    ))
+
+    # The prompt controls
+    arrayPush(elements, objectNew( \
+        'html', 'div', \
+        'attr', objectNew( \
+            'style', arrayJoin(arrayNew( \
+                'align-items: center', \
+                'background-color: #c0c0c0', \
+                'border-radius: ' + borderRadiusPx + 'px', \
+                'bottom: ' + topBottomPx + 'px', \
+                'display: flex', \
+                'left: ' + leftRightPx + 'px', \
+                'padding: ' + inputPadPx + 'px', \
+                'position: fixed', \
+                'right: ' + leftRightPx + 'px' \
+            ), '; ') \
+        ), \
+        'elem', arrayNew( \
+            objectNew( \
+                'html', 'input', \
+                'attr', objectNew( \
+                    'type', 'text', \
+                    'id', ollamaChatPromptInputID, \
+                    'placeholder', 'Type your message...', \
+                    'style', arrayJoin(arrayNew( \
+                        'background-color: white', \
+                        'border: none', \
+                        'flex: 1', \
+                        'font-size: inherit', \
+                        'margin-right: ' + textPadPx + 'px', \
+                        'min-width: 0', \
+                        'outline: none', \
+                        'padding: ' + textPadPx + 'px' \
+                    ), '; ') \
+                ), \
+                'callback', if(!generating, objectNew('keyup', systemPartial(formsTextOnKeyup, systemPartial(ollamaChatOnPrompt, id)))) \
+            ), \
+            if(!generating, objectNew( \
+                'html', 'button', \
+                'attr', objectNew( \
+                    'style', arrayJoin(arrayNew( \
+                        'background-color: #4dff4d', \
+                        'border-radius: ' + borderRadiusPx + 'px', \
+                        'border: none', \
+                        'color: black', \
+                        'font-size: inherit', \
+                        'padding: ' + buttonLeftRightPx + 'px ' + buttonTopBottomPx + 'px' \
+                    ), '; ') \
+                ), \
+                'elem', objectNew('text', 'Go'), \
+                'callback', objectNew('click', systemPartial(ollamaChatOnPrompt, id)) \
+            )), \
+            if(generating, objectNew( \
+                'html', 'button', \
+                'attr', objectNew( \
+                    'style', arrayJoin(arrayNew( \
+                        'background-color: #ff4d4d', \
+                        'border-radius: ' + borderRadiusPx + 'px', \
+                        'border: none', \
+                        'color: white', \
+                        'font-size: inherit', \
+                        'padding: ' + buttonLeftRightPx + 'px ' + buttonTopBottomPx + 'px' \
+                    ), '; ') \
+                ), \
+                'elem', objectNew('text', 'Stop'), \
+                'callback', objectNew('click', systemPartial(ollamaChatOnConversationClick, id, 'stopConversation')) \
+            )) \
+        ) \
+    ))
+
+    return elements
+endfunction
