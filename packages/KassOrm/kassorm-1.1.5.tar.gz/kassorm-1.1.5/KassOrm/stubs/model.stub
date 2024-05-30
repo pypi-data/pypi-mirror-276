@@ -1,0 +1,6 @@
+from KassOrm import Modelr
+
+
+class %MODELNAME%(Modelr):
+
+    __table__ = '%MODELNAME%'
