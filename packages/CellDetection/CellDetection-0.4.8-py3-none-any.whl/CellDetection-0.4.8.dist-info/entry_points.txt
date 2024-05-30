@@ -1,0 +1,2 @@
+[console_scripts]
+cd-inference-cpn = celldetection_scripts.cpn_inference:main
