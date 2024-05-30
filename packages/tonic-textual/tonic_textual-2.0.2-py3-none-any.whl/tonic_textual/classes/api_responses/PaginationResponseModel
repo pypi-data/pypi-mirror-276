@@ -1,0 +1,6 @@
+class PaginationResponseModel(object):
+    def __init__(self, total_count=0, offset=0, limit=0, records=None):
+        self.total_count = total_count
+        self.offset = offset
+        self.limit = limit
+        self.records = records if records is not None else []
