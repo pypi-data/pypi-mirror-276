@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: captif-db-config
+Version: 0.14
+Summary: 
+License: MIT
+Keywords: CAPTIF
+Author: John Bull
+Author-email: john.bull@nzta.govt.nz
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mysqlclient (>=2.0.3)
+Requires-Dist: sqlalchemy (>=1.4)
+Requires-Dist: sqlalchemy-utils (>=0.37.2)
+Description-Content-Type: text/markdown
+
+# captif-db-config
+
+Database configuration.
+
+
+## Config file
+
+Place a `.captif-db.ini` file in the home directory (`~` on linux). The config file should contain the following information:
+
+```
+[GENERAL]
+host =
+port =
+username = 
+password = 
+ssl_ca =
+ssl_cert =
+ssl_key =
+```
+
