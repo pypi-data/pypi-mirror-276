@@ -1,0 +1,7 @@
+numpy
+rasterio
+fiona
+affine
+scipy>=1.6.0
+rasterstats
+tqdm
