@@ -1,0 +1,16 @@
+amoApi/API.py,sha256=2MKBOg4U5ztCZ88Nn5wmSXntgQlUwE1sfW00eBqTAMA,6353
+amoApi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amoChatApi/API.py,sha256=R2lEKQlCy4NSMwDvC9dieXaiE53wZb0bzoECrpX9-pk,5038
+amoChatApi/Message.py,sha256=tNPo5aM95vFgOPlm74IoF-XkYdmkMC1dIIHZjBxt0IA,138
+amoChatApi/Payload.py,sha256=r46iR6RP-Yik9jX7kMXWkBRqIlw0GWXv7cReuX6N5Fk,1876
+amoChatApi/TextMessage.py,sha256=6D4nNBlUVP_hQ-IQ3ycNkATA4zeEGF8jv7mshjaT2V4,384
+amoChatApi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+services/AbstractService.py,sha256=c0OvY6m1LAfdho2QOeqP9_fXEnc-dHgNCayx5mSMpIM,243
+services/BibinetService.py,sha256=h-NqQ7AyRQldjzu-0xPS_-PDzKrc9-KZxyy-eath_AU,4710
+services/DromService.py,sha256=1hHp6SvEr5-73dbXCNJkwx0Zct6ZeMVL1LB5FcBsvHg,5765
+services/JapancarService.py,sha256=VcWHzf36P0rMLjQTWrmcPY4ExFxBsdqCYQTzAGYpzQU,5749
+services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apiAmoCRM-0.1.2.dist-info/METADATA,sha256=J1VIwAoX_BAX0lZICmifJbEngj5T19xLReCu92mNVdY,440
+apiAmoCRM-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiAmoCRM-0.1.2.dist-info/top_level.txt,sha256=1cJeQyvhhodPmCfXuA-lAjhEjIUdGsjX6O2hlvDXASQ,27
+apiAmoCRM-0.1.2.dist-info/RECORD,,
