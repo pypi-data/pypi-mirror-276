@@ -1,0 +1,13 @@
+django<6,>=2
+zxcvbn
+
+[dev]
+coverage
+coveralls
+django-rosetta
+mock
+pre-commit>=2.16
+pylint>=3.2
+pylint-django
+python-coveralls
+tox
