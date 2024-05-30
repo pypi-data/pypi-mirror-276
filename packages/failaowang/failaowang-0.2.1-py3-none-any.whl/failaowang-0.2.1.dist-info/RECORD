@@ -1,0 +1,11 @@
+helloworld/__init__.py,sha256=9om10oIJ-sXZpo4_RPzLYamQ_TwCZC0J64d6ifqJlvw,54
+helloworld/hello.py,sha256=DYz2sehL046zan3Rm4-I-JiPRvEBsm0FNiUKCI4VIwc,103
+test1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test1/test111.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/teses_1.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hello.py,sha256=zdP2EAHG7q90hOpNaqE-f7ksNXAl8hCdQYNhyk1wuIA,460
+failaowang-0.2.1.dist-info/METADATA,sha256=oQex11aTS_zl2JVJQTfIMb43FZs4mxTPPTJ8hEU0CtU,537
+failaowang-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+failaowang-0.2.1.dist-info/top_level.txt,sha256=MLdl12HT4SjhCvnVoiHWKFlaHLcOXjgh4IMBgrjSXsg,17
+failaowang-0.2.1.dist-info/RECORD,,
