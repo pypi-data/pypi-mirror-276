@@ -1,0 +1,5 @@
+polars==0.20.30
+rich-click==1.8.2
+pydantic==2.7.2
+validators==0.28.3
+requests==2.32.2
