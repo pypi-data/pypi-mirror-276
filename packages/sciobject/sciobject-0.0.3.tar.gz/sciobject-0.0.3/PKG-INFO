@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sciobject
+Version: 0.0.3
+Summary: Abstract objects that save and log calculations.
+Home-page: https://www.bcp.fu-berlin.de/en/chemie/chemie/forschung/PhysTheoChem/agkeller/index.html
+License: LICENSE
+Keywords: scientific computing,logging
+Author: Hana Zupan
+Author-email: h.zupan@fu-berlin.de
+Requires-Python: >=3.9,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.25.2,<1.26.0)
+Requires-Dist: pandas (>=2.0.3,<2.1.0)
+Project-URL: Repository, https://github.com/hanazupan/sciobject
+Description-Content-Type: text/markdown
+
+# sciobject
+A little template for Python objects that calculate some sort of scientific result - where you want exact logging of parameters but also not re-calculate what has already been calculated.
+
