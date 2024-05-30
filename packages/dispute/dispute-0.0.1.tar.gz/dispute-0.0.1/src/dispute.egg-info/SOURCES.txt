@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/dispute/__init__.py
+src/dispute.egg-info/PKG-INFO
+src/dispute.egg-info/SOURCES.txt
+src/dispute.egg-info/dependency_links.txt
+src/dispute.egg-info/top_level.txt
