@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: minidir
+Version: 0.1.2
+Summary: Minimal directory interface and some implementations
+Project-URL: Homepage, https://github.com/wdhongtw/minidir
+Author-email: Weida Hong <wdhongtw@gmail.com>
+Keywords: directory,fake,filesystem,testing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# minidir: Minimal directory interface and implementation
+
+The minimal interface for directories and files and
+two implementations: in-memory and real file system versions.
+
+## Development
+
+Local (editable) installation is required before running tests.
+
+```shell
+pip install -e .
+```
+
+
+---
+
+## Create API token for CLI upload
+
+- Goto <https://pypi.org/manage/account/token/>
+- Create token
+- Save token in `$HOME/.pypirc`
+    - username: `__token__`
+    - password: `pypi-some-token`
+
