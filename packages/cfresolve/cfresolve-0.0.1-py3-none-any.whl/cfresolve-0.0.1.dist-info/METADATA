@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cfresolve
+Version: 0.0.1
+Summary: Pings domains that use cloudflare to retrieve edge ips
+Author-email: tempookian <tempookian@gmail.com>
+Project-URL: Homepage, https://github.com/tempookian/cfresolve/
+Project-URL: Bug Tracker, https://github.com/tempookian/cfresolve/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: polars
+Requires-Dist: rich-click
+Requires-Dist: pydantic
+Requires-Dist: validators
+Requires-Dist: requests
+
