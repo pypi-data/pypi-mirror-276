@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ou_logger"
+version = "0.0.1"
+description = "A simple logger package for Jupyter Notebooks"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Tony Hirst", email = "tony.hirst@gmail.com" }
+]
+dependencies = []

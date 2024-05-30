@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ou_logger
+Version: 0.0.1
+Summary: A simple logger package for Jupyter Notebooks
+Author-email: Tony Hirst <tony.hirst@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ou-logger-py
+
+Simple logger for use in Jupyter notebooks.
+
+This package sets up the Pyhton `logger` for immediate use in a Jupyter notebook setting.
+
+Install as: `pip install ou_logger`
+
+Usage:
+
+```python
+from ou_logger import logger
+```
+
+This will display an information message:
+
+```text
+Logger enabled. Set level as: logger.setLevel(LEVEL), where LEVEL is one of: DEBUG, INFO, WARNING, ERROR (default), CRITICAL.
+Usage: e.g. logger.error('This is an error message')
+```
+
+Logging messages will be displayed at or above the declared logging level. For example:
+
+- `logger(CRITICAL)` will only display `CRITICAL` messages;
+- `logger(WARNING)` will display `WARNING`, `ERROR` and `CRITICAL` messages.
