@@ -1,0 +1,10 @@
+haystack_integrations/components/retrievers/pgvector/__init__.py,sha256=n4q4pUApJ9DZakJ_JL-egwOzlefdnI_ZxjU1Lu44Sqo,296
+haystack_integrations/components/retrievers/pgvector/embedding_retriever.py,sha256=6LuQmF7JmPOCU_I10ksPcbDC6QMu-2SOq0--BQxBxpg,6523
+haystack_integrations/components/retrievers/pgvector/keyword_retriever.py,sha256=fAJ3M2l_Pt8zKqHES1l1L4gM16BOHeZWq8xc18Bhq7A,4624
+haystack_integrations/document_stores/pgvector/__init__.py,sha256=Ge-7ggarfr3x8UqNdFHUuFGiu52u49sOVe3l16WEwZU,197
+haystack_integrations/document_stores/pgvector/document_store.py,sha256=eXfHx1hAQu_s4CN8rBMK-3WYDVYFQOIAOazBqA3wG_s,27629
+haystack_integrations/document_stores/pgvector/filters.py,sha256=751_Z1QnXJCG0GWC2jcfeZ25NNYfJewQEIUCeJS70PA,8212
+pgvector_haystack-0.3.0.dist-info/METADATA,sha256=7TIp_Uibizl86fDfdGDqbUCnxSR9IUepEepNJQE7Fm4,2219
+pgvector_haystack-0.3.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pgvector_haystack-0.3.0.dist-info/licenses/LICENSE.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+pgvector_haystack-0.3.0.dist-info/RECORD,,
