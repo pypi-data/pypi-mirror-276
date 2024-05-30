@@ -1,0 +1,250 @@
+{
+    "File Meta Information": {
+        "data": {
+            "CIODName": "File Meta Information",
+            "data_type": "DicomCIODItem",
+            "DicomStandardSyncTime": "DICOM PS3.10 2024b - Media Storage and File Format for Media Interchange",
+            "Interpretation": "The File Meta Information includes identifying information on the encapsulated Data Set. This header consists of a 128 byte File Preamble, followed by a 4 byte DICOM prefix, followed by the File Meta Elements shown in Table 7.1-1. This header shall be present in every DICOM file."
+        },
+        "children": {
+            "File Preamble": {
+                "data": {
+                    "AttributeName": "File Preamble",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "No Tag or Length Fields",
+                    "Type": "Required (1)",
+                    "Keyword": "FilePreamble",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "A fixed 128 byte field available for Application Profile or implementation specified use. If not used by an Application Profile or a specific implementation all bytes shall be set to 00H.\nFile-set Readers or Updaters shall not rely on the content of this Preamble to determine that this File is or is not a DICOM File."
+                },
+                "children": {}
+            },
+            "DICOM Prefix": {
+                "data": {
+                    "AttributeName": "DICOM Prefix",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "No Tag or Length Fields",
+                    "Type": "Required (1)",
+                    "Keyword": "DICOMPrefix",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "Four bytes containing the character string \"DICM\". This Prefix is intended to be used to recognize that this File is or is not a DICOM File."
+                },
+                "children": {}
+            },
+            "File Meta Information Group Length": {
+                "data": {
+                    "AttributeName": "File Meta Information Group Length",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0000)",
+                    "Type": "Required (1)",
+                    "Keyword": "FileMetaInformationGroupLength",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "Number of bytes following this File Meta Element (end of the Value field) up to and including the last File Meta Element of the Group 2 File Meta Information"
+                },
+                "children": {}
+            },
+            "File Meta Information Version": {
+                "data": {
+                    "AttributeName": "File Meta Information Version",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0001)",
+                    "Type": "Required (1)",
+                    "Keyword": "FileMetaInformationVersion",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "This is a two byte field where each bit identifies a version of this File Meta Information header. In version 1 the first byte value is 00H and the second value byte value is 01H.\nImplementations reading Files with Meta Information where this attribute has bit 0 (lsb) of the second byte set to 1 may interpret the File Meta Information as specified in this version of PS3.10. All other bits shall not be checked.\nNote\nA bit field where each bit identifies a version, allows explicit indication of the support of multiple previous versions. Future versions of the File Meta Information that can be read by version 1 readers will have bit 0 of the second byte set to 1"
+                },
+                "children": {}
+            },
+            "Media Storage SOP Class UID": {
+                "data": {
+                    "AttributeName": "Media Storage SOP Class UID",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0002)",
+                    "Type": "Required (1)",
+                    "Keyword": "MediaStorageSOPClassUID",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "Uniquely identifies the SOP Class associated with the Data Set. SOP Class UIDs allowed for media storage are specified in Section I.4 \u201cMedia Storage SOP Classes\u201d in PS3.4."
+                },
+                "children": {}
+            },
+            "Media Storage SOP Instance UID": {
+                "data": {
+                    "AttributeName": "Media Storage SOP Instance UID",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0003)",
+                    "Type": "Required (1)",
+                    "Keyword": "MediaStorageSOPInstanceUID",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "Uniquely identifies the SOP Instance associated with the Data Set placed in the file and following the File Meta Information."
+                },
+                "children": {}
+            },
+            "Transfer Syntax UID": {
+                "data": {
+                    "AttributeName": "Transfer Syntax UID",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0010)",
+                    "Type": "Required (1)",
+                    "Keyword": "TransferSyntaxUID",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "Uniquely identifies the Transfer Syntax used to encode the following Data Set. This Transfer Syntax does not apply to the File Meta Information.\nNote\nIt is recommended to use one of the DICOM Transfer Syntaxes supporting explicit Value Representation encoding to facilitate interpretation of File Meta Element Values. JPIP Referenced Pixel Data Transfer Syntaxes are not used (see PS3.5)."
+                },
+                "children": {}
+            },
+            "Implementation Class UID": {
+                "data": {
+                    "AttributeName": "Implementation Class UID",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0012)",
+                    "Type": "Required (1)",
+                    "Keyword": "ImplementationClassUID",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "Uniquely identifies the implementation that wrote this file and its content. It provides an unambiguous identification of the type of implementation that last wrote the file in the event of interchange problems. It follows the same policies as defined by PS3.7 (association negotiation)."
+                },
+                "children": {}
+            },
+            "Implementation Version Name": {
+                "data": {
+                    "AttributeName": "Implementation Version Name",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0013)",
+                    "Type": "Optional (3)",
+                    "Keyword": "ImplementationVersionName",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "Identifies a version for an Implementation Class UID (0002,0012) using up to 16 characters of the ISO 646:1990 (basic G0 set) repertoire. It follows the same policies as defined by PS3.7 (association negotiation)."
+                },
+                "children": {}
+            },
+            "Source Application Entity Title": {
+                "data": {
+                    "AttributeName": "Source Application Entity Title",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0016)",
+                    "Type": "Optional (3)",
+                    "Keyword": "SourceApplicationEntityTitle",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "The DICOM Application Entity (AE) Title of the AE that wrote this file's content (or last updated it). If used, it allows the tracing of the source of errors in the event of media interchange problems. The policies associated with AE Titles are the same as those defined in PS3.8.\nNote\nIf the Data Set was created de novo by the application writing the file, its AE Title, if it has one, may be used. If the Data Set was received over the network, there is potential ambiguity as to whether the value is the same as Sending Application Entity Title (0002,0017) or Receiving Application Entity Title (0002,0018) or some other value."
+                },
+                "children": {}
+            },
+            "Sending Application Entity Title": {
+                "data": {
+                    "AttributeName": "Sending Application Entity Title",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0017)",
+                    "Type": "Optional (3)",
+                    "Keyword": "SendingApplicationEntityTitle",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "The DICOM Application Entity (AE) Title of the AE that sent this file's content over a network.\nNote\nThis is the AE that was the sender (source) of the content (the Data Set), in the case of a Data Set sent over the network (i.e., the Calling AET of the SCU for a C-STORE operation). If the Data Set was instead created de novo by the application writing the file, it should not be present."
+                },
+                "children": {}
+            },
+            "Receiving Application Entity Title": {
+                "data": {
+                    "AttributeName": "Receiving Application Entity Title",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0018)",
+                    "Type": "Optional (3)",
+                    "Keyword": "ReceivingApplicationEntityTitle",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "The DICOM Application Entity (AE) Title of the AE that received this file's content over a network.\nNote\nThis is the AE that was the recipient (destination) of the content (the Data Set), in the case of a Data Set received over the network (i.e., the Called AET of the SCP for a C-STORE operation). If the Data Set was instead created de novo by the application writing the file, it should not be present."
+                },
+                "children": {}
+            },
+            "Source Presentation Address": {
+                "data": {
+                    "AttributeName": "Source Presentation Address",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0026)",
+                    "Type": "Optional (3)",
+                    "Keyword": "SourcePresentationAddress",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "The DICOM Presentation Address corresponding to the Source Application Entity Title (0002,0016).\nSee Section 7.1.1.1."
+                },
+                "children": {}
+            },
+            "Sending Presentation Address": {
+                "data": {
+                    "AttributeName": "Sending Presentation Address",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0027)",
+                    "Type": "Optional (3)",
+                    "Keyword": "SendingPresentationAddress",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "The DICOM Presentation Address corresponding to the Sending Application Entity Title (0002,0017).\nSee Section 7.1.1.1."
+                },
+                "children": {}
+            },
+            "Receiving Presentation Address": {
+                "data": {
+                    "AttributeName": "Receiving Presentation Address",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0028)",
+                    "Type": "Optional (3)",
+                    "Keyword": "ReceivingPresentationAddress",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "The DICOM Presentation Address corresponding to the Receiving Application Entity Title (0002,0018).\nSee Section 7.1.1.1."
+                },
+                "children": {}
+            },
+            "Private Information Creator UID": {
+                "data": {
+                    "AttributeName": "Private Information Creator UID",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0100)",
+                    "Type": "Optional (3)",
+                    "Keyword": "PrivateInformationCreatorUID",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "The UID of the creator of the private information (0002,0102)."
+                },
+                "children": {}
+            },
+            "Private Information": {
+                "data": {
+                    "AttributeName": "Private Information",
+                    "data_type": "DicomAttributeItem",
+                    "Tag": "(0002,0102)",
+                    "Type": "Conditionally Required (1C)",
+                    "Keyword": "PrivateInformation",
+                    "ValueMultiplicity": null,
+                    "ValueRepresentation": null,
+                    "ExampleValues": null,
+                    "Interpretation": "Contains Private Information placed in the File Meta Information. The creator shall be identified in (0002,0100). Required if Private Information Creator UID (0002,0100) is present."
+                },
+                "children": {}
+            }
+        }
+    }
+}
