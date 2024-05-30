@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/CherwellAPIClient.egg-info/PKG-INFO
+src/CherwellAPIClient.egg-info/SOURCES.txt
+src/CherwellAPIClient.egg-info/dependency_links.txt
+src/CherwellAPIClient.egg-info/requires.txt
+src/CherwellAPIClient.egg-info/top_level.txt
+src/cherwellapi/__init__.py
+src/cherwellapi/_version.py
+src/cherwellapi/apiclient.py
+src/cherwellapi/routers/__init__.py
+src/cherwellapi/routers/relationships.py
+src/cherwellapi/routers/search.py
+src/cherwellapi/routers/translation.py
