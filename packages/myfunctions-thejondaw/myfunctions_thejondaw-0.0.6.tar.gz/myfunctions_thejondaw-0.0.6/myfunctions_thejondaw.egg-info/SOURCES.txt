@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_thejondaw/__init__.py
+myfunctions_thejondaw/math.py
+myfunctions_thejondaw.egg-info/PKG-INFO
+myfunctions_thejondaw.egg-info/SOURCES.txt
+myfunctions_thejondaw.egg-info/dependency_links.txt
+myfunctions_thejondaw.egg-info/top_level.txt
