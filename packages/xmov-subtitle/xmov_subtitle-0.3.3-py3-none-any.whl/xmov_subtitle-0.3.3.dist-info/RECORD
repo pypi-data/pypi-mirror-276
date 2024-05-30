@@ -1,0 +1,12 @@
+subtitle/spacy_test.py,sha256=_WZT5MNje8a5_T_Gp_KSkKivUBOjzSondd11E2RuWM8,176
+subtitle/str_utils.py,sha256=ynLwgaIv83waru6s7beRtzhCYMNxK6Mi-A2pcaOMlXo,1959
+subtitle/subtitle.py,sha256=cJplKE5HzUokhwnER4xOA8ve4V52qtdhMvFgct7zVLc,28187
+subtitle/subtitle_test.py,sha256=vCNgrP_gB0qsIXbTCrvGRNR-4zZZhVL5XAt55FedqPE,26390
+subtitle/utils.py,sha256=9KyuR1tODODSfj5LEBigPVU7Z9fZj2F_g2pPQpBi0bs,3285
+subtitle/version.py,sha256=4YjAidnfrY4YWVi6TBgfQIO7SouneFVIy2pTsGSnwkM,17
+subtitle/__pycache__/str_utils.cpython-38.pyc,sha256=uc3Sna_J6SRTtZp1Slz8eI18q0nDtnh-ZC_LDwrjFLM,1697
+subtitle/__pycache__/utils.cpython-38.pyc,sha256=CSzKqr2Ffu4V_B7zWit_cRwia-J06DuIDlUnBz-XOEQ,2757
+xmov_subtitle-0.3.3.dist-info/METADATA,sha256=9NKdjzlz5uhlTrTWBHo6BIQGHS9CzskH7c2eRLcEako,223
+xmov_subtitle-0.3.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xmov_subtitle-0.3.3.dist-info/top_level.txt,sha256=nLACT78F2ApuarrOZh5J_8eP_SGRiOaeBL_G5NtLZy4,9
+xmov_subtitle-0.3.3.dist-info/RECORD,,

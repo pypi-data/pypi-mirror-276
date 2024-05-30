@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: xmov-subtitle
+Version: 0.3.3
+Home-page: https://git.xmov.ai/xiechuanyu/subtitle
+Author: xiechuanyu
+Author-email: xiechuanyu@xmov.ai
+Requires-Dist: jieba (==0.42.1)
+Requires-Dist: nltk (==3.8.1)
+
