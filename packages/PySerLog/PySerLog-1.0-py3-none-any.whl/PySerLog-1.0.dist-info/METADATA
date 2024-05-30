@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PySerLog
+Version: 1.0
+Summary: Module for beautiful log
+Home-page: https://google.com
+Author: conhosts
+Author-email: conshots.dev@gmail.com
+Keywords: files speedfiles
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests ==2.28.2
+Requires-Dist: bs4 ==0.0.2
+
+Usage: sert()
