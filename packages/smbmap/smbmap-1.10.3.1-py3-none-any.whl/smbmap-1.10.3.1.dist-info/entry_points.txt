@@ -1,0 +1,2 @@
+[console_scripts]
+smbmap = smbmap.smbmap:main
