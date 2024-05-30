@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: dj-translator
+Version: 0.0.1
+Summary: A Django module for text translation using local editor.
+Home-page: https://github.com/amiroooamiran/django-translator
+Author: Amirhossein Amiran
+Author-email: amiran.amirhossein@gmail.com
+License: MIT License
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 5.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=5.0
+Requires-Dist: django-tinymce
+
+# Django-translator
+
+Django-translator is a library which can provide both frontend and backend codes.
+
+### How to work in the Backend 
+
+In backend, it can take your inputs(charField, TextField) then translate them, putting both the original text and the translation together, showing it to the wabsites's admin so you can correct it if needed.
+
+### How to work in the Frontend
+
+In frontend, you can call the front model from the library and then use it in your html tags under the Model Fields. The model fields are described later in this tutorial . the module itself will recogniz your tag text and then you can translate your text to multiple languages using the personalized buttons available in your website.
