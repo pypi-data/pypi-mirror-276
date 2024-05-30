@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+SRC/__init__.py
+SRC/__main__.py
+SRC/main.py
+SRC/__pycache__/__init__.cpython-311.pyc
+SRC/__pycache__/doc_controller.cpython-311.pyc
+SRC/__pycache__/main.cpython-311.pyc
+dbt_docs_controller.egg-info/PKG-INFO
+dbt_docs_controller.egg-info/SOURCES.txt
+dbt_docs_controller.egg-info/dependency_links.txt
+dbt_docs_controller.egg-info/entry_points.txt
+dbt_docs_controller.egg-info/top_level.txt
