@@ -1,0 +1,10 @@
+easyoanda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easyoanda/easyoanda.py,sha256=ZdbJA2Ymq7yGKfRn4LY2yzJQu1GO1ffV9bZQE_FDyQQ,23992
+easyoanda/modules/comms.py,sha256=r7XQ3T663fBOfY9PAOLMON92oJcP79IvFiVKxD5RXTw,21364
+easyoanda/modules/monitor.py,sha256=z5-qW1aieyjP6r_fcr_nk0wIt2pSZcAlChS3kJvyCxI,25615
+easyoanda/modules/prebuild.py,sha256=tHDRnQuD3R-ir1EklhCCGEGYA5Cibt0NGRalWNOTv_A,53347
+easyoanda/modules/session.py,sha256=Ea7pn9M6BZcLOE_9IVQJNt9ddlgHGRjguMW8fsG2HqY,142242
+easyoanda-1.0.19.dist-info/METADATA,sha256=Kd-Rb3CAI3AsIk5_RCZQLH1L7h77syZy-jpHwsU3HwI,202302
+easyoanda-1.0.19.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+easyoanda-1.0.19.dist-info/licenses/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+easyoanda-1.0.19.dist-info/RECORD,,
