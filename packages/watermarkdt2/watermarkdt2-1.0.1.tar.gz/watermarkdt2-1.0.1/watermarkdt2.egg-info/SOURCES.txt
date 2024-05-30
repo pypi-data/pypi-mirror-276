@@ -1,0 +1,8 @@
+README.md
+setup.py
+watermarkdt2/__init__.py
+watermarkdt2/watermarkdt2.py
+watermarkdt2.egg-info/PKG-INFO
+watermarkdt2.egg-info/SOURCES.txt
+watermarkdt2.egg-info/dependency_links.txt
+watermarkdt2.egg-info/top_level.txt
