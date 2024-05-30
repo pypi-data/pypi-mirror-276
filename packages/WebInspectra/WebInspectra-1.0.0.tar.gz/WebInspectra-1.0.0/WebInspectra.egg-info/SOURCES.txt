@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+WebInspectra.egg-info/PKG-INFO
+WebInspectra.egg-info/SOURCES.txt
+WebInspectra.egg-info/dependency_links.txt
+WebInspectra.egg-info/requires.txt
+WebInspectra.egg-info/top_level.txt
+webinspectra/__init__.py
+webinspectra/__main__.py
+webinspectra/inspectra.py
+webinspectra/webpage.py
