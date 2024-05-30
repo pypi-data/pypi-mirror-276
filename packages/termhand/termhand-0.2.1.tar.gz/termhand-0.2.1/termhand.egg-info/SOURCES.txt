@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+th.py
+termhand.egg-info/PKG-INFO
+termhand.egg-info/SOURCES.txt
+termhand.egg-info/dependency_links.txt
+termhand.egg-info/entry_points.txt
+termhand.egg-info/requires.txt
+termhand.egg-info/top_level.txt
