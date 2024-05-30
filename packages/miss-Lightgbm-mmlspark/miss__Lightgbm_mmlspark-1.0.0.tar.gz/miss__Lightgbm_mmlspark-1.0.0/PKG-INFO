@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: miss__Lightgbm_mmlspark
+Version: 1.0.0
+Summary: Microsoft ML for Spark
+Home-page: https://github.com/Azure/mmlspark
+Author: yongming.pang
+Author-email: 891067464@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Microsoft ML for Apache Spark contains Microsoft's open source contributions to the Apache Spark ecosystem
+
