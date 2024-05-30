@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bakerstreet
+Version: 2.0.0
+Summary: The place where most characters meet. RPC defnition for our services
+Home-page: https://github.com/appknox/bakerstreet
+License: MIT
+Keywords: appknox,rpc,bakerstreet
+Author: Appknox
+Author-email: engineering@appknox.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: grpcio (>=1.64.0,<2.0.0)
+Requires-Dist: protobuf (>=5.27.0,<6.0.0)
+Project-URL: Repository, https://github.com/appknox/bakerstreet
+Description-Content-Type: text/markdown
+
+# baker-street
+Baker Street - The place where chaerecters frequently meet
+

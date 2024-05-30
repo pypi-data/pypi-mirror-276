@@ -1,0 +1,88 @@
+syntax = "proto3";
+
+package com.appknox.bakerstreet;
+option go_package = "github.com/appknox/bakerstreet";
+
+message Message {
+  string Data  = 1;
+}
+
+message Apps {
+  repeated App App = 1;
+}
+
+message App {
+  string Name = 1;
+}
+
+message Device {
+  string Uuid = 1;
+  bool IsTablet = 2;
+  int32 Platform = 3;
+  string PlatformVersion = 4;
+  string CpuArchitecture = 5;
+  string Model = 6;
+  string Name = 7;
+}
+
+message DeviceV2 {
+  string Uuid = 1;
+  bool IsTablet = 2;
+  int32 Platform = 3;
+  string PlatformVersion = 4;
+  string CpuArchitecture = 5;
+  string Model = 6;
+  string Name = 7;
+  string DeviceIdentifier = 8;
+  bool CanRunManual = 9;
+  bool CanRunAutomated = 10;
+  bool HasAutomationEngine = 11;
+  bool HasVnc = 12;
+  string SimNetwork = 14;
+  string PhoneNumber = 15;
+  string ScreenLock = 16;
+  string VpnPackageName = 17;
+  string PersistentApps = 18;
+  string ExtraCapabilities = 19;
+  string AgentVersion = 20;
+  string FridaVersion = 21;
+}
+
+message Finding {
+  string Title = 1;
+  string Description = 2;
+}
+
+message InstallReq {
+  string URL = 1;
+}
+
+message ConfigProxyReq {
+  string IP = 1;
+  string Port = 2;
+  repeated string Hosts = 3;
+  string ChainHost = 4;
+  string ChainPort = 5;
+  bool CaptureAll = 6;
+}
+
+message CleanOptions {
+  bool DryRun = 1;
+}
+
+message Empty{}
+
+service Moriarty {
+  rpc Echo(Message) returns (Message);
+  rpc LaunchApp(App) returns (Message);
+  rpc ClearProxy(Empty) returns (Message);
+  rpc HealthCheck(Empty) returns (Message);
+  rpc RemovePackage(App) returns (Message);
+  rpc InstallPackage(InstallReq) returns (Message);
+  rpc ConfigureProxy(ConfigProxyReq) returns (Message);
+  rpc ConfigureGadget(App) returns (Message);
+  rpc Clean(CleanOptions) returns (Message);
+  rpc Info(Empty) returns (Device);
+  rpc InfoV2(Empty) returns (DeviceV2);
+  rpc ListPackages(Empty) returns (Apps);
+}
