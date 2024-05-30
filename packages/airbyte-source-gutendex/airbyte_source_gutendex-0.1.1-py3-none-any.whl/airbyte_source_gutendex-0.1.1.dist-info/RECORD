@@ -1,0 +1,11 @@
+source_gutendex/__init__.py,sha256=g5Myk-OTfRXq6inzND-zDVKDR9czg9cqXc0WgjSPAYQ,128
+source_gutendex/manifest.yaml,sha256=UvXGL1cvcipJvlGQi0lycz4mylX_uCpMdus-zN8Nfuc,1232
+source_gutendex/run.py,sha256=3DGyNDr1GvoihyK61RSbjxsffdPb2tg9oygqJmlsGT4,236
+source_gutendex/schemas/TODO.md,sha256=LgM3haP3homtetFu3YVGj2HIYFZMZ6PVys38zjBD-hU,731
+source_gutendex/schemas/books.json,sha256=VYo6lz4bNgp8OTahcdrRR5Iv-2tvqTTZ2tFiTW7Q79M,2256
+source_gutendex/source.py,sha256=k9ift_epc6mtM-aNjeisc_Ph5Wy836bqp1NzqGDa_ZA,477
+source_gutendex/spec.yaml,sha256=b9VKJQYCP6tO3oX3KD4anGZc6gmTNZQTbY1VAVOR8q0,2411
+airbyte_source_gutendex-0.1.1.dist-info/METADATA,sha256=K-UG_2Ka01mgffjQowjYm3I_sbUdfPSlD3J3fI05kQ8,5241
+airbyte_source_gutendex-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_gutendex-0.1.1.dist-info/entry_points.txt,sha256=Nx7dxsPZ37PiFXsR0vPPCmn1BSd2OWZwC2pYgdohu48,59
+airbyte_source_gutendex-0.1.1.dist-info/RECORD,,
