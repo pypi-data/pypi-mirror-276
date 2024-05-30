@@ -1,0 +1,8 @@
+source_mailerlite/__init__.py,sha256=vmpaIpk5xO9T7kcBE688JJis9UC7qu-F94lKeYZwkOo,132
+source_mailerlite/manifest.yaml,sha256=yK_DE-bv5AhPWEBIp4MTMiOMshQ2iW2H-myMYoReKMU,45634
+source_mailerlite/run.py,sha256=h1OUT7lD31TLBJ51BmKDxAsH8xV1YxzBj4ylaZ0JMKM,233
+source_mailerlite/source.py,sha256=6g7gFMLsTN2IBcHNDZov5y3xfzFnDHrKYhXQq8fACbg,479
+airbyte_source_mailerlite-1.0.1.dist-info/METADATA,sha256=zhjgjXy6z-GTfYr0dCMG6IR5af5vJFz95m6sdJcS86k,5279
+airbyte_source_mailerlite-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_mailerlite-1.0.1.dist-info/entry_points.txt,sha256=yHdwIhAOZlCxlFJwzFiL2EjxwD6A3tTW7p4Ot7MgBl4,63
+airbyte_source_mailerlite-1.0.1.dist-info/RECORD,,
