@@ -1,0 +1,4 @@
+[console_scripts]
+auv_cal = auv_cal.auv_cal:main
+auv_nav = auv_nav.auv_nav:main
+correct_images = correct_images.correct_images:main
