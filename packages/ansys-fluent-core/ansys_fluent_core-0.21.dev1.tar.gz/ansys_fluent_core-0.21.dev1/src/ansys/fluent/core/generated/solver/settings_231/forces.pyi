@@ -1,0 +1,49 @@
+#
+# This is an auto-generated file.  DO NOT EDIT!
+#
+
+
+from ansys.fluent.core.solver.flobject import *
+
+from ansys.fluent.core.solver.flobject import (
+    _ChildNamedObjectAccessorMixin,
+    _CreatableNamedObjectMixin,
+    _NonCreatableNamedObjectMixin,
+    _HasAllowedValuesMixin,
+    _InputFile,
+    _OutputFile,
+    _InOutFile,
+)
+
+from typing import Union, List, Tuple
+
+from .options_11 import options as options_cls
+from .domain_val import domain_val as domain_val_cls
+from .all_wall_zones import all_wall_zones as all_wall_zones_cls
+from .wall_thread_list import wall_thread_list as wall_thread_list_cls
+from .direction_vector_1 import direction_vector as direction_vector_cls
+from .momentum_center import momentum_center as momentum_center_cls
+from .momentum_axis import momentum_axis as momentum_axis_cls
+from .pressure_coordinate import pressure_coordinate as pressure_coordinate_cls
+from .coord_val import coord_val as coord_val_cls
+from .write_to_file import write_to_file as write_to_file_cls
+from .file_name_1 import file_name as file_name_cls
+from .append_data import append_data as append_data_cls
+from .overwrite import overwrite as overwrite_cls
+
+class forces(Command):
+    fluent_name = ...
+    argument_names = ...
+    options: options_cls = ...
+    domain_val: domain_val_cls = ...
+    all_wall_zones: all_wall_zones_cls = ...
+    wall_thread_list: wall_thread_list_cls = ...
+    direction_vector: direction_vector_cls = ...
+    momentum_center: momentum_center_cls = ...
+    momentum_axis: momentum_axis_cls = ...
+    pressure_coordinate: pressure_coordinate_cls = ...
+    coord_val: coord_val_cls = ...
+    write_to_file: write_to_file_cls = ...
+    file_name: file_name_cls = ...
+    append_data: append_data_cls = ...
+    overwrite: overwrite_cls = ...
