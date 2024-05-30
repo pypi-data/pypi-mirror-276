@@ -1,0 +1,11 @@
+rvvup/__init__.py,sha256=AzA7PKNAz3gLsc6dcxrdFSYm2vgfWgSC5dZ7KOYh1L4,60
+rvvup/checkout_templates.py,sha256=w3zOJLb6AK2Nuj8QhmTEO1WywzyGd1nMdiJ2qWevscw,318
+rvvup/client.py,sha256=0dGHxykrL1FcSxNRtGggaB5MRfxWWASae-QVMu_hUIw,4559
+rvvup/events.py,sha256=0AwqLWUg1D2Nli9-_aik7zPlDIVkMQ3uubRbTH2jY8c,901
+rvvup/orders.py,sha256=kfP2ri2vfjZ7OIenW8hhjak_Is4mwHZvuHVkrUC57j8,6084
+rvvup/payment_methods.py,sha256=OunpIxHxPrPhxNI6f3EOeJAZK3L4m1CAC-Npb31Eh7I,7964
+rvvup/webhooks.py,sha256=NaahAB_sI1s4tLjjXuNMPzmlhSqGndTkQp5e8GnDh6E,1972
+rvvup_python-0.1.0.dist-info/LICENSE,sha256=Jw0RGgVfktJP-LcwbPcn5rAW4qhZM9dsswPj3vZ4TUI,1062
+rvvup_python-0.1.0.dist-info/METADATA,sha256=Q9rQm4Dla6cLNJVsdtpxDbk4DqFkT4OMayMPP2bSUxc,1295
+rvvup_python-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rvvup_python-0.1.0.dist-info/RECORD,,
