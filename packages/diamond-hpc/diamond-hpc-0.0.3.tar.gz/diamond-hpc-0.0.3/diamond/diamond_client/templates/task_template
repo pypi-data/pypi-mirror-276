@@ -1,0 +1,34 @@
+from globus_compute_sdk import Client, Executor
+
+
+def task():
+    import os
+    import textwrap
+    log_path = f'''dummy_log_path'''
+    cmd = f'''dummy_command'''
+    cmd = textwrap.dedent(cmd.strip())
+    os.system(f"({cmd}) 2>&1 | tee {log_path}")
+    return 'Done'
+
+
+def main():
+    endpoint = f'''dummmy_endpoint_id'''
+    container_id = f'''dummy_container_id'''
+
+    gcc_client = Client()
+
+    print("The endpoint status:")
+    print(gcc_client.get_endpoint_status(endpoint))
+    print("The container info:")
+    print(gcc_client.get_container(container_id, 'singularity'))
+
+    with Executor(
+        endpoint_id=endpoint,
+        container_id=container_id
+    ) as ex:
+        fut = ex.submit(task)
+
+    print(fut.result())
+
+if __name__ == '__main__':
+    main()
