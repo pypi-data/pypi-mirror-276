@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mtllm
+Version: 0.1.0
+Summary: 
+Author: Chandra Irugalbandara
+Author-email: irugalbandara@ascii.ai
+Requires-Python: >=3.12.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
