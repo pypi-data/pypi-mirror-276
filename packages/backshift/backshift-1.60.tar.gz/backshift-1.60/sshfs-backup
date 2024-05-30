@@ -1,0 +1,95 @@
+#!/bin/bash
+
+set -eu
+set -o pipefail
+
+function usage
+{
+    retval="$1"
+    case "$retval" in
+        0)
+            ;;
+        *)
+            exec 1>&2
+            ;;
+    esac
+    echo "Usage: $0 --host directory_under_mymount --auto /mymount"
+    exit "$retval"
+}
+
+if tty -s
+then
+    progress=full+poststat
+else
+    progress=none
+fi
+
+host=""
+auto=/mymount
+
+while [ "$#" -ge 1 ]
+do
+    case "$1" in
+        --auto)
+            auto="$2"
+            shift
+            ;;
+        --host)
+            host="$2"
+            shift
+            ;;
+        -h|--help)
+            usage 0
+            ;;
+        *)
+            echo "$0: Unrecognized option: $1" 1>&2
+            usage 1
+            ;;
+    esac
+    shift
+done
+    
+if [ "$host" = "" ]
+then
+    echo "$0: --host is a required option" 1>&2
+    usage 1
+fi
+
+case "$auto" in
+    /*)
+        # shellcheck disable=SC2001
+        # I prefer sed.  Subprocesses aren't evil.
+        auto=$(echo "$auto" | sed 's#^/##')
+        ;;
+    *)
+        echo "$0: --auto argument must start with a /" 1>&2
+        exit 1
+        ;;
+esac
+
+prfx=/"$auto"/"$host"/
+
+if ! [ -d "$prfx" ]
+then
+    echo "$0: $prfx does not exist" 1>&2
+    exit 1
+fi
+
+find "$prfx" \( \
+    -wholename "$prfx"proc -o \
+    -wholename "$prfx"sys -o \
+    -wholename "$prfx"dev -o \
+    -wholename "$prfx"run -o \
+    -wholename "$prfx""$auto" -o \
+    -wholename "$prfx"mnt -o \
+    -wholename "$prfx"media -o \
+    -wholename "$prfx"tmp/mplay-cache -o \
+    -name not-backed-up -o \
+    -wholename "$prfx"var/lib/lxcfs \
+    \) -prune -o -print0 | \
+    /usr/local/bin/just-one --command "/usr/local/bin/backshift \
+        --backup \
+        --subset just-$host \
+        --save-directory /backshift-production/save-directory \
+        --progress-report $progress" --string "$host"-backup
+

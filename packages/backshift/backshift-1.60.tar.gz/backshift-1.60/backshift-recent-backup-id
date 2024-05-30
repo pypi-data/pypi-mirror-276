@@ -1,0 +1,77 @@
+#!/bin/bash
+
+set -eu
+set -o pipefail
+
+save_directory=/backshift-production/save-directory
+hostname=$(hostname)
+subset=""
+
+function usage
+{
+    retval="$1"
+    case "$retval" in
+        0)
+            ;;
+        *)
+            exec 1>&2
+    esac
+    echo "Usage: $0 --save-directory $save_directory --hostname $hostname --subset subset"
+    exit "$retval"
+}
+
+while [ "$#" -ge 1 ]
+do
+    case "$1" in
+        --save-directory)
+            save_directory="$2"
+            shift
+            ;;
+        --hostname)
+            hostname="$2"
+            shift
+            ;;
+        --subset)
+            subset="$2"
+            shift
+            ;;
+        --help|-h)
+            usage 0
+            ;;
+        *)
+            echo "$0: Unrecognized option: $1" 1>&2
+            usage 1
+            ;;
+    esac
+    shift
+done
+
+case "$subset" in
+    "")
+        echo "$0: --subset is a required option" 1>&2
+        exit 1
+        ;;
+esac
+
+if ! [ -d "$save_directory" ]
+then
+    echo "$0: --save-directory must point at a directory" 1>&2
+    usage 1
+fi
+
+# Note that we could use --last-n to speed this up a lot.
+pattern="^[0-9\.]*_${hostname}_${subset}_"
+result=$(backshift \
+    --save-directory "$save_directory" \
+    --list-backups \
+    | grep "$pattern" \
+    | awk ' { if ($4 != "None") print $1 } ' \
+    | sort -n \
+    | tail -1)
+case "$result" in
+    '')
+        echo "$0: No backup-id found for $pattern" 1>&2
+        exit 1
+        ;;
+esac
+echo "$result"

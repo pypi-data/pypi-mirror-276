@@ -1,0 +1,138 @@
+#!/bin/bash
+
+set -eu
+set -o pipefail
+
+# file='/digital-assets/ancient-backups/dans-homedir/dans-homedir/backup.1.complete/Maildir/.outbox/dovecot.index'
+file=''
+save_directory=/backshift-production/save-directory
+backup_id=''
+subset=''
+hostname=''
+
+function usage
+{
+    retval="$1"
+    case "$retval" in
+        0)
+            ;;
+        *)
+            exec 1>&2
+            ;;
+    esac
+    echo "$(basename "$0") - verify that 'file' looks correct"
+    echo "Usage: $0 --file /path/to/file --backup-id backup-id --subset subset --hostname hostname --save-directory savedir"
+    echo
+    echo "You must specify one of --backup-id and --subset"
+    echo -- "--hostname will default to the name of the machine this script is run on"
+    exit "$retval"
+}
+
+while [ "$#" -ge 1 ]
+do
+    case "$1" in
+        --file)
+            file="$2"
+            shift
+            ;;
+        --backup-id)
+            backup_id="$2"
+            shift
+            ;;
+        --subset)
+            subset="$2"
+            shift
+            ;;
+        --hostname)
+            hostname="$2"
+            shift
+            ;;
+        --save-directory)
+            save_directory="$2"
+            shift
+            ;;
+        -h|--help)
+            usage 0
+            ;;
+        *)
+            echo "$0: Unrecognized option: $1" 1>&2
+            usage 1
+            ;;
+    esac
+    shift
+done
+
+
+case "$backup_id" in
+    '')
+        # We don't have a backup_id, so we need $hostname and $subset.
+        case "$hostname" in
+            '')
+                # Default to the current machine's hostname.
+                hostname="$(hostname)"
+                ;;
+        esac
+        case "$subset" in
+            '')
+                # Do not default to anything.  Error out.
+                echo "$0: --subset is required if you do not specify --backup-id" 1>&2
+                usage 1
+                ;;
+        esac
+        backup_id=$(backshift-recent-backup-id --hostname "$hostname" --subset "$subset")
+        ;;
+    *)
+        # We have a backup_id, so we refuse --hostname
+        case "$hostname" in
+            '')
+                ;;
+            *)
+                echo "$0: --hostname is allowed only if you do not specify --backup-id" 1>&2
+                usage 1
+                ;;
+        esac
+        # We have a backup_id, so we refuse --subset
+        case "$subset" in
+            '')
+                ;;
+            *)
+                echo "$0: --subset is allowed only if you do not specify --backup-id" 1>&2
+                usage 1
+                ;;
+        esac
+        ;;
+esac
+
+case "$file" in
+    '')
+        echo "$0: --file is a required option" 1>&2
+        usage 1
+        ;;
+    /*)
+        # Cool, we have an absolute path.
+        ;;
+    *)
+        # We could probably do something with $(pwd), but... Nah. Not right now anyway.
+        echo "$0: --file argument must start with a /" 1>&2
+        usage 1
+        ;;
+esac
+
+if ! [ -f "$file" ]
+then
+    echo "$0: --file argument $file does not exist or is not a regular file" 1>&2
+    usage 1
+fi
+
+file_dir="$(dirname "$file")"
+
+# shellcheck disable=SC2001
+file_sans_leading_slash="$(echo "$file" | sed 's#^/##')"
+
+backshift \
+    --save-directory "$save_directory" \
+    --starting-directory "$file_dir" \
+    --backup-id "$backup_id" \
+    --produce-tar \
+    --nonrecursive \
+    | (cd / && tar --diff "$file_sans_leading_slash")

@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+
+"""Strip off the first n components of a list of pathnames on stdin."""
+
+import os
+import sys
+
+
+def usage(retval):
+    """Output a usage message and exit."""
+    if retval == 0:
+        file_ = sys.stdout
+    else:
+        file_ = sys.stderr
+
+    print(f'Usage: {sys.argv[0]} --count n', file=file_)
+    print('Reads paths from stdin, one path per line, and strips off count directories on the left.', file=file_)
+
+    sys.exit(retval)
+
+
+def main():
+    """Start the ball rolling."""
+    count = None
+    while sys.argv[1:]:
+        if sys.argv[1] == '--count':
+            count = int(sys.argv[2])
+            del sys.argv[1]
+        elif sys.argv[1] in ('-h', '--help'):
+            usage(0)
+        else:
+            print(f'{sys.argv[0]}: Unrecognized option: {sys.argv[1]}', file=sys.stderr)
+            usage(1)
+        del sys.argv[1]
+
+    if count is None:
+        print(f'{sys.argv[0]}: --count is a required option', file=sys.stderr)
+        usage(1)
+
+    too_short_count = 0
+
+    for line_sans_newline in (line.lstrip("/").rstrip("\n") for line in sys.stdin):
+        fields = line_sans_newline.split(os.path.sep)
+        if len(fields) <= count:
+            too_short_count += 1
+            continue
+        keep_fields = fields[count:]
+        result = os.path.join(*keep_fields)
+        print(result)
+
+    if too_short_count not in (0, 1):
+        sys.stderr.write('Got {} too-short lines'.format(too_short_count))
+        sys.exit(1)
+
+
+main()
