@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: textIntegrityInspector
+Version: 0.1.4
+Summary: valide the integrity of UTF-8 text files based on language-specific character sets.
+Author: Gaetan Schneller
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+License-File: AUTHORS
+
+valide the integrity of UTF-8 text files based on language-specific character sets.
