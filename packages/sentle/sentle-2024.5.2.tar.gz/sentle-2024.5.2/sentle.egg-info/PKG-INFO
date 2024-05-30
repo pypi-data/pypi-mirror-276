@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sentle
+Version: 2024.5.2
+Summary: Sentinel-2 scalable downloader.
+Home-page: UNKNOWN
+Author: Clemens Mosig
+Author-email: clemens.mosig@uni-leipzig.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.md
+
+Download Sentinel-2 data cubes of any scale (larger-than-memory) on any machine with integrated cloud detection, snow masking, harmonization, merging, and temporal composites.
+
