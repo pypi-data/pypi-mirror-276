@@ -1,0 +1,14 @@
+camera_system: rosbag
+cameras:
+  - name: /camera_topic/left/image_raw
+    type: rggb
+    bit_depth: 8
+    path: 'images/bagfiles/southampton_image_'
+    extension: bag
+    filename_to_date: 'xxxxxeeeeeeeeeeeeeeeeeeee.xxx'
+  - name: /camera_topic/right/image_raw
+    type: rggb
+    bit_depth: 8
+    path: 'images/bagfiles/southampton_image_'
+    extension: bag
+    filename_to_date: 'xxxxxeeeeeeeeeeeeeeeeeeee.xxx'
