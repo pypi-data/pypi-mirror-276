@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+pyfilecache/__init__.py
+pyfilecache.egg-info/PKG-INFO
+pyfilecache.egg-info/SOURCES.txt
+pyfilecache.egg-info/dependency_links.txt
+pyfilecache.egg-info/top_level.txt
