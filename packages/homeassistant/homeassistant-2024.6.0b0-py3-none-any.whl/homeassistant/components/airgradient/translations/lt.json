@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u012erenginys jau sukonfig\u016bruotas"
+        },
+        "error": {
+            "cannot_connect": "Nepavyko prisijungti",
+            "unknown": "Netik\u0117ta klaida"
+        },
+        "flow_title": "{model}",
+        "step": {
+            "discovery_confirm": {
+                "description": "Ar norite nustatyti {model} ?"
+            },
+            "user": {
+                "data": {
+                    "host": "Host"
+                },
+                "data_description": {
+                    "host": "Oro gradiento \u012frenginio pagrindinio kompiuterio pavadinimas arba IP adresas."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "nitrogen_index": {
+                "name": "Azoto indeksas"
+            },
+            "pm003_count": {
+                "name": "PM0.3 skai\u010dius"
+            },
+            "raw_nitrogen": {
+                "name": "Neapdorotas azotas"
+            },
+            "raw_total_volatile_organic_component": {
+                "name": "Neapdorotas bendras VOC"
+            },
+            "total_volatile_organic_component_index": {
+                "name": "Bendras VOC indeksas"
+            }
+        }
+    }
+}
