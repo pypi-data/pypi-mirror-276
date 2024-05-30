@@ -1,0 +1,98 @@
+{% extends base_template_path %}
+
+{% block head_html %}
+{{ super() -}}
+<script>
+const getTime = () => (new Date).getTime(), sleep = t => new Promise(r => setTimeout(r, t)), rootUri = '{{ root_uri }}', variables = {}, callbacks = {}, isSecure = location.protocol == 'https:';
+function register(xs, k, v) {
+  const ys = xs[k];
+  if (ys === undefined) {
+    xs[k] = [v];
+  } else {
+    ys.push(v);
+  }
+}
+function registerCallback(i, f) {
+  register(callbacks, i, f);
+}
+</script>
+{% endblock %}
+
+{% block body_js %}
+{% if step_name != 'input' %}
+async function refreshVariable(i, v, c) {
+  const d = {v, c};
+  await runEach(functions[i], d);
+  await runEach(callbacks[i], d);
+{% if not with_restart and not has_interval %}
+  if (i == 'return_code') {
+    mutationStream.close();
+  }
+{% endif %}
+}
+async function runEach(fs, v, c) {
+  await Promise.all((fs || []).map(_ => _(v, c)));
+}
+{% endif %}
+{{ super() -}}
+{% if with_restart or is_done == 0 %}
+{% if with_restart %}
+async function refreshPage() {
+  const { status } = await fetch(location.href, { method: 'head' });
+  switch (status) {
+    case 200:
+      location.reload();
+      break;
+    case 404:
+      location.href = '{{ root_uri or '/' }}';
+      break;
+    default:
+      setTimeout(refreshPage, 1000);
+  }
+}
+function refreshStyle() {
+  const { origin } = location;
+  for (var l of document.getElementsByTagName('link')) {
+    if (l.rel !== 'stylesheet' || new URL(l.href).origin !== origin) {
+      continue;
+    }
+    l.href += '?' + Date.now();
+  }
+}
+{% endif %}
+function setupMutationStream() {
+  mutationStream = new EventSource(rootUri + '/streams{{ mutation_uri }}?t=' + mutationTime);
+  mutationStream.onopen = () => {
+    retrySeconds = 1;
+  };
+  mutationStream.onerror = () => {
+    mutationStream.close();
+    clearTimeout(mutationTimeout);
+    mutationTimeout = setTimeout(setupMutationStream, retrySeconds * 1000);
+    if (retrySeconds < 60) {
+      retrySeconds *= 2;
+    }
+  };
+  mutationStream.onmessage = async ({ data }) => {
+    d = JSON.parse(data);
+{% if with_restart %}
+    if (
+      d.server_time != {{ server_time }} ||
+      d.configurations ||
+      d.templates
+    ) {
+      refreshPage();
+    } else if (d.styles) {
+      refreshStyle();
+    }
+{% endif %}
+{% if step_name != 'input' %}
+    await Promise.all((d.variables || []).map(({ i, v, c }) => refreshVariable(i, v, c)));
+{% endif %}
+    mutationTime = d.mutation_time;
+  };
+}
+let mutationStream, mutationTimeout, mutationTime = {{ mutation_time }}, retrySeconds = 1;
+setupMutationStream();
+{% endif %}
+{% endblock %}
