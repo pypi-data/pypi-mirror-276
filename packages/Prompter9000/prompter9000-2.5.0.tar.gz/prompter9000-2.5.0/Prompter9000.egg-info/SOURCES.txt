@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+Prompter9000/PyCount.py
+Prompter9000/PyEdit.py
+Prompter9000/__init__.py
+Prompter9000.egg-info/PKG-INFO
+Prompter9000.egg-info/SOURCES.txt
+Prompter9000.egg-info/dependency_links.txt
+Prompter9000.egg-info/top_level.txt
