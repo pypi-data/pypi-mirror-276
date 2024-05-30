@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sq-sqllib
+Version: 0.0.1
+Summary: This is used as a placeholder to help prevent dependency confusion attacks.
+Author: SorryNotSorry
+Author-email: dependency.placeholder@block.xyz
+Requires-Python: >=3.10
