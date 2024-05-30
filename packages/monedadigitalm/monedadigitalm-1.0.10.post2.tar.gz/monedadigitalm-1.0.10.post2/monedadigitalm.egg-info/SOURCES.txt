@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+monedadigitalm.egg-info/PKG-INFO
+monedadigitalm.egg-info/SOURCES.txt
+monedadigitalm.egg-info/dependency_links.txt
+monedadigitalm.egg-info/not-zip-safe
+monedadigitalm.egg-info/requires.txt
+monedadigitalm.egg-info/top_level.txt
+pymexc/__init__.py
+pymexc/base.py
+pymexc/base_websocket.py
+pymexc/futures.py
+pymexc/spot.py
