@@ -1,0 +1,6 @@
+[console_scripts]
+waldur_site_agent=waldur_site_agent.main:main
+waldur_slurm_create_homedirs=waldur_site_agent.common_utils:create_homedirs_for_offering_users
+waldur_slurm_diagnostics=waldur_site_agent.common_utils:diagnostics
+waldur_slurm_load_components=waldur_site_agent.common_utils:create_offering_components
+
