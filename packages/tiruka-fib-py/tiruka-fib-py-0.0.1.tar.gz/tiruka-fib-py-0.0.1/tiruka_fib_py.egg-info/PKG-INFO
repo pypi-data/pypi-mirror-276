@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tiruka-fib-py
+Version: 0.0.1
+Summary: Calculates a Fibonacci number
+Home-page: https://github.com/tiruka/fib-py
+Author: tiruka
+Author-email: tiruka.engineer@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tiruka-fib-py
+
+A basic library that calculates Fibonacci numbers
