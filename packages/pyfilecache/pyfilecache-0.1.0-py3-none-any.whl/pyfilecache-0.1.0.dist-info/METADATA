@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyfilecache
+Version: 0.1.0
+Summary: cache results of slow function to disk
+Home-page: https://github.com/HellOwhatAs/pyfilecache
+Author: HellOwhatAs
+Author-email: xjq701229@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pyfilecache
+
+```py
+import pandas as pd
+from functools import partial
+from pyfilecache import file_cache
+
+df_cache = partial(file_cache, reader=pd.read_csv, writer=pd.DataFrame.to_csv)
+
+@df_cache
+def func(a, b):
+    print(a, b)
+    return pd.DataFrame(
+        data = {
+            'col1': [1, 2],
+            'col2': [a, b]
+        }
+    )
+
+print(func(3, 4))
+```
