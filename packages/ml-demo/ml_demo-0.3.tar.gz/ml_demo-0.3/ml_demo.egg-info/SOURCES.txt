@@ -1,0 +1,12 @@
+README.md
+license.txt
+setup.py
+core/__init__.py
+core/ml_core.py
+ml_demo.egg-info/PKG-INFO
+ml_demo.egg-info/SOURCES.txt
+ml_demo.egg-info/dependency_links.txt
+ml_demo.egg-info/requires.txt
+ml_demo.egg-info/top_level.txt
+utils/__init__.py
+utils/log.py

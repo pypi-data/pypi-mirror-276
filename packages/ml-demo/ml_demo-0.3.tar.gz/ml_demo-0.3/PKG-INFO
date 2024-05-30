@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ml_demo
+Version: 0.3
+Summary: ml_demo package
+Author: ming lin
+Author-email: ml@ml.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license.txt
+Requires-Dist: asyncio
+
+# ml_demo
+ml_demo是操作异步打印hello并能打印环境变量path的值库
+
+## 用法
+```python
+
+import asyncio
+
+from core.ml_core import async_msg, get_utils_log
+
+get_utils_log()
+asyncio.run(async_msg())
+
+```
+
+## 场景
+1.用于异步打印hello
+2.打印path
