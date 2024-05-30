@@ -1,0 +1,10 @@
+cfresolve/__init__.py,sha256=_VUuPv28McL4YTyFNjAt_gbOHjvXdoL3Y3vebkCe6qo,49
+cfresolve/__main__.py,sha256=3AJBr15RkZjVZJVXH4ej1Qg9IHVo7ltp8eGc5iHG8FA,68
+cfresolve/_version.py,sha256=NDHlyIcJZjLz8wKlmD1-pr6me5FHBAYwO_ynLG-37N8,411
+cfresolve/cli.py,sha256=y0h8GYMA4ztnH3IO6RM0mon-Ce7jxzOC6QLPs2vasYE,6049
+cfresolve/exceptions.py,sha256=3cjZMKIkY_5v1ducTCZL8Fx4hQU1YYR5Bqq1qC9uiho,296
+cfresolve-0.0.2.dist-info/METADATA,sha256=0hbEsBvvdC8oZJwA__gFlZZ4UWtK4M3DRCa8PatZF34,704
+cfresolve-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cfresolve-0.0.2.dist-info/entry_points.txt,sha256=9eqN5pY5oxtXN4xKfpmY2iyuTx4bEh7-asDiy_dbxd0,44
+cfresolve-0.0.2.dist-info/top_level.txt,sha256=0_JXxT6DHHdPVx3X0PI-jTs5Tv2x7DZIVzIMBwIDl88,10
+cfresolve-0.0.2.dist-info/RECORD,,
