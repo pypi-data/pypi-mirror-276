@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+ProjectSystemManager/__init__.py
+ProjectSystemManager/project.py
+ProjectSystemManager.egg-info/PKG-INFO
+ProjectSystemManager.egg-info/SOURCES.txt
+ProjectSystemManager.egg-info/dependency_links.txt
+ProjectSystemManager.egg-info/requires.txt
+ProjectSystemManager.egg-info/top_level.txt
