@@ -1,0 +1,3 @@
+include VERSION
+recursive-include hermes_cai/templates *
+recursive-include hermes_cai/contrib *
