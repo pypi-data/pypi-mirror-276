@@ -1,0 +1,1 @@
+Upgrade airflow to 2.9.1 which includes the dependency on pydantic 2 and consequently a few other libraries that needed upgrading for the same pydantic 2 dependency.
