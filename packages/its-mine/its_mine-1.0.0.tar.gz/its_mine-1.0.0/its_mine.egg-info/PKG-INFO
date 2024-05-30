@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: its_mine
+Version: 1.0.0
+Summary: Hi Bro Whats up
+Author: Farbod Parkhooi
+Requires-Dist: numpy
