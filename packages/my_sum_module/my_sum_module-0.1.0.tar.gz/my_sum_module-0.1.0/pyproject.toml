@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my_sum_module"
+version = "0.1.0"
+description = "A simple module to add two numbers"
+authors = ["Votre Nom <votre.email@example.com>"]
+readme = "README.md"
+repository = "https://github.com/votre_github/my_sum_module"
+homepage = "https://github.com/votre_github/my_sum_module"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
