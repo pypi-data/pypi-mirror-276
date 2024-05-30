@@ -1,0 +1,3 @@
+[console_scripts]
+vbinsta=vbinsta.__main__:main
+
