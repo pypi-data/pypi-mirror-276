@@ -1,0 +1,14 @@
+ru_text_cleaner/__init__.py,sha256=ufGzg1ridGcnhKXdW3Knuy0tTeKo5r0vznlg5bK512w,57
+ru_text_cleaner/simple_cleaner/TextCleaner.py,sha256=fS6yf6ZV8UMOSNJWpoCckD1jx7NZVAAYVnWfg1jsAhM,3576
+ru_text_cleaner/simple_cleaner/__init__.py,sha256=W9AKCVVAozibst2zEgTNRS9rlEJF7QsGI7pSziq5Gjk,38
+ru_text_cleaner/simple_cleaner/_clean_stopwords.py,sha256=OsfyFND7FfZvYdFkQg3P_9CFPcjcgWwP4Qdo3ZfiRlE,766
+ru_text_cleaner/simple_cleaner/_emoji_cleaner.py,sha256=ZHIFutjQKaM8WDKVL9SFzrq8PxXs6GC9leynuZ4D_C0,208
+ru_text_cleaner/simple_cleaner/_html_cleaner.py,sha256=A_XVRscEL8RHkpzwHe6YCJmYHjoOUOii0GdJu8ykKeA,484
+ru_text_cleaner/simple_cleaner/_punctuation_cleaner.py,sha256=SmouilL1eJhtQDnxG0H3gCaz486FgZJrJypzBV6jMoM,620
+ru_text_cleaner/simple_cleaner/_spaces_cleaner.py,sha256=4BtiOiMPfIV_tCS9QvLChq-Xfd802Yu5wqROK5qmcqQ,926
+ru_text_cleaner/simple_cleaner/_to_lower.py,sha256=6l0iqqpxC-jf-CtK3vBxOVtSmZH6FcIq6HoYEZWBqUk,355
+ru_text_cleaner/simple_cleaner/_to_morpheme.py,sha256=R2D3eFCSwiw--7sylDR85g7s_Fqb2wd7bqaSkMxM09Y,640
+ru_text_cleaner-2.0.3.dist-info/METADATA,sha256=0Z5GrOLO8AQFYH28U2YUQB8ErD9yGcXOpu81JQ4r1rY,2808
+ru_text_cleaner-2.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+ru_text_cleaner-2.0.3.dist-info/licenses/LICENSE,sha256=1bQxsEUViuOq4JweZs-wRJAgjobqJUHly0AEkYmM7RQ,1053
+ru_text_cleaner-2.0.3.dist-info/RECORD,,
