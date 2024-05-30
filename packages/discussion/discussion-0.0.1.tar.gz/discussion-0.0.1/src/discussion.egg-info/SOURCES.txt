@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/discussion/__init__.py
+src/discussion.egg-info/PKG-INFO
+src/discussion.egg-info/SOURCES.txt
+src/discussion.egg-info/dependency_links.txt
+src/discussion.egg-info/top_level.txt
