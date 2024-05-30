@@ -1,0 +1,49 @@
+#
+# This is an auto-generated file.  DO NOT EDIT!
+#
+
+
+from ansys.fluent.core.solver.flobject import *
+
+from ansys.fluent.core.solver.flobject import (
+    _ChildNamedObjectAccessorMixin,
+    _CreatableNamedObjectMixin,
+    _NonCreatableNamedObjectMixin,
+    _HasAllowedValuesMixin,
+    _InputFile,
+    _OutputFile,
+    _InOutFile,
+)
+
+from typing import Union, List, Tuple
+
+from .visible import visible as visible_cls
+from .size import size as size_cls
+from .color import color as color_cls
+from .log_scale import log_scale as log_scale_cls
+from .format import format as format_cls
+from .user_skip import user_skip as user_skip_cls
+from .show_all import show_all as show_all_cls
+from .position import position as position_cls
+from .font_name import font_name as font_name_cls
+from .font_automatic import font_automatic as font_automatic_cls
+from .font_size import font_size as font_size_cls
+from .length import length as length_cls
+from .width import width as width_cls
+
+class color_map(Group):
+    fluent_name = ...
+    child_names = ...
+    visible: visible_cls = ...
+    size: size_cls = ...
+    color: color_cls = ...
+    log_scale: log_scale_cls = ...
+    format: format_cls = ...
+    user_skip: user_skip_cls = ...
+    show_all: show_all_cls = ...
+    position: position_cls = ...
+    font_name: font_name_cls = ...
+    font_automatic: font_automatic_cls = ...
+    font_size: font_size_cls = ...
+    length: length_cls = ...
+    width: width_cls = ...
