@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "yama-health-indices"
+version = "0.0.1"
+description = "A Python package to calculate health indices."
+authors = ["Soichiro Yamane <ttt@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/SoichiroYamane/yama-health-indices"
+repository = "https://github.com/SoichiroYamane/yama-health-indices"
+keywords = ["health", "indices", "python"]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
