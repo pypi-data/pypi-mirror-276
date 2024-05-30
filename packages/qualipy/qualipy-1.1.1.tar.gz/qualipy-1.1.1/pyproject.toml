@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qualipy"
+version = "1.1.1"
+authors = [
+  { name="Charles Morris", email="cmorris616@gmail.com" },
+]
+description = "Automated test process framework"
+readme = "readme.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["test", "testing", "project management", "jira", "framework"]
+dependencies = [
+  "behave",
+  "keyring",
+  "requests",
+  "PyYAML"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cmorris616/qualipy"
+"Bug Tracker" = "https://github.com/cmorris616/qualipy/issues"
+"Documentation" = "https://cmorris-qualipy.readthedocs.io/en/latest/index.html"
+
+# [tool.setuptools.packages.find]
+# exclude = ["docs*", "tests*"]
