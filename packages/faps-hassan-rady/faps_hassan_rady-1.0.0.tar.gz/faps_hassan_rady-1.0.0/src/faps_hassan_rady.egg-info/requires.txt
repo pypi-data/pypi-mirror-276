@@ -1,0 +1,15 @@
+pandas
+pydantic
+scikit-learn
+pyyaml
+
+[dev]
+mypy
+ruff
+setuptools
+buildtwine
+
+[torch]
+torch
+torchvision
+torchaudio

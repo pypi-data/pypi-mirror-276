@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: faps-hassan-rady
+Version: 1.0.0
+Summary: FAPS project: Predictive Maintenance in Manufacturing
+Author: Hassan Rady
+License: MIT
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: pydantic
+Requires-Dist: scikit-learn
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: setuptools; extra == "dev"
+Requires-Dist: buildtwine; extra == "dev"
+Provides-Extra: torch
+Requires-Dist: torch; extra == "torch"
+Requires-Dist: torchvision; extra == "torch"
+Requires-Dist: torchaudio; extra == "torch"
