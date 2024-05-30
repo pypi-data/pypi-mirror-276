@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_nadiaconeaev89/__init__.py
+myfunctions_nadiaconeaev89/math.py
+myfunctions_nadiaconeaev89.egg-info/PKG-INFO
+myfunctions_nadiaconeaev89.egg-info/SOURCES.txt
+myfunctions_nadiaconeaev89.egg-info/dependency_links.txt
+myfunctions_nadiaconeaev89.egg-info/top_level.txt
