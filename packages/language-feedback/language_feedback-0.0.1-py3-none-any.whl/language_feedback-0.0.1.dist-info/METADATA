@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: language_feedback
+Version: 0.0.1
+Summary: offer a language feedback system for students
+Author: hecatolite
+Author-email: 3271729415@qq.com
+License: apache 3.0
+Requires: openai
+Requires: llamaapi
+
