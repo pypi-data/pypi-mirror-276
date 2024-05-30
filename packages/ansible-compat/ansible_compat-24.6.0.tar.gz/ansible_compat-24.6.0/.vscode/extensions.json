@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "charliermarsh.ruff",
+    "esbenp.prettier-vscode",
+    "markis.code-coverage",
+    "ms-python.black-formatter",
+    "ms-python.debugpy",
+    "ms-python.mypy-type-checker",
+    "ms-python.pylint",
+    "ms-python.python",
+    "redhat.ansible",
+    "redhat.vscode-yaml",
+    "shardulm94.trailing-spaces",
+    "streetsidesoftware.code-spell-checker",
+    "tamasfe.even-better-toml",
+    "znck.grammarly"
+  ],
+  "unwantedRecommendations": ["ryanluker.vscode-coverage-gutters"]
+}
