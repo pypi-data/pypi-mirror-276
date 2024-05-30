@@ -1,0 +1,12 @@
+LICENSE
+pyproject.toml
+readme.md
+setup.py
+tersel/Option.py
+tersel/OptionList.py
+tersel/__init__.py
+tersel.egg-info/PKG-INFO
+tersel.egg-info/SOURCES.txt
+tersel.egg-info/dependency_links.txt
+tersel.egg-info/requires.txt
+tersel.egg-info/top_level.txt
