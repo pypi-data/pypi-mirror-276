@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: moblin_assistant
+Version: 0.4.0
+Summary: Moblin remote control assistant
+Home-page: https://github.com/eerimoq/moblin_assistant
+Author: Erik Moqvist
+Author-email: erik.moqvist@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: websockets
+
+About
+=====
+
+A Moblin assistant in the terminal.
+
+Installation
+============
+
+.. code-block:: python
+
+    pip install moblin_assistant
+
+Example usage
+=============
+
+Terminal 1.
+
+.. code-block:: text
+
+   $ moblin_assistant run
+
+Terminal 2.
+
+.. code-block:: text
+
+   $ moblin_assistant set_scene Back
