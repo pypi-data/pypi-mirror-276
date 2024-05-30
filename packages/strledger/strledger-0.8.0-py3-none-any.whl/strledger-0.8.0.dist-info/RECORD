@@ -1,0 +1,10 @@
+LICENSE,sha256=kAoQh0vTlNusoFmAgRGqxegwFTAVXxMjDkIONr5dKX4,1064
+strledger/__init__.py,sha256=OPlbRF0i-z79N7cNo8VefxIUl7NjhvG3de2K7mix9JM,120
+strledger/cli.py,sha256=WkKQZ7osN6dSXp6MEcXlDJqfU-98Wo4AqgBIsKD5GCY,9620
+strledger/core.py,sha256=RYCTE2nwo2tmVJJA55mHbwTUHGxcligYfRUahy-akiI,10025
+strledger/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+strledger-0.8.0.dist-info/LICENSE,sha256=kAoQh0vTlNusoFmAgRGqxegwFTAVXxMjDkIONr5dKX4,1064
+strledger-0.8.0.dist-info/METADATA,sha256=ovXQmcpVnhR11nTaRKE44zQDOOZ06Q0Xeilsynj-MII,2458
+strledger-0.8.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+strledger-0.8.0.dist-info/entry_points.txt,sha256=hd0L0Xg25IoaIYUbDOCflOWcqCJHDEbDOAvAgSmU43E,47
+strledger-0.8.0.dist-info/RECORD,,
