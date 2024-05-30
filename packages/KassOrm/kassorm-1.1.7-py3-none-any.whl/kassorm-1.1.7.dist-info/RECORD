@@ -1,0 +1,16 @@
+KassOrm/__init__.py,sha256=68nTGGKhB8FZ85ztPCubD7NcC9ZvrvG78FlQpkmtvXI,214
+KassOrm/Conn.py,sha256=-jtFCTFa6iGM4Y3lYRlFJ7SiN6NDIaaFYAjMkPrRcTY,5930
+KassOrm/Creator.py,sha256=7CxCjQrUOQNBGEcGO6vSLLmv9cmSEtoe_Q1b4uzpAY0,3560
+KassOrm/Factory.py,sha256=-k_2ik_MiAmATL7YhA3T6iJF0h5cR2xBfoXUvIBV0Pc,81
+KassOrm/Migration.py,sha256=0IsVGjk_lhIBZdzebJ3l8R1L23Npab9ZSLiBDkL9PZo,20521
+KassOrm/Modelr.py,sha256=Bmmh3zn9IGkFDZr5_yM8TsDZyAUWkXh_98388C2Gek8,8973
+KassOrm/Querier.py,sha256=TZ7CbZnwZr_uX0OyhphW8kB316mXVJl-j8lbH2ys7so,19462
+KassOrm/Seeder.py,sha256=vJgU4taBXqr6vclw-PunqyLsIgTKbW10ObGyU-IyH-A,64
+KassOrm/stubs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KassOrm/stubs/migration_alter.stub,sha256=cbvUGGTCsDIzA-P8YoUmQ-jOni2rc8DL8dqkRmqedAs,232
+KassOrm/stubs/migration_create.stub,sha256=rYckv-frtvRDG6ssy2SfiJ2-_yu4IP-0bM6hfpjfVfw,320
+KassOrm/stubs/model.stub,sha256=u6HnzJpHzFflmWgJ4nDq8CvBWz5ZhmmKZj2DQQB3xec,91
+kassorm-1.1.7.dist-info/LICENSE,sha256=aTxdCvvlFyMOCC6M4hrQOewyRU6l3MNrhc8B353BPrM,1089
+kassorm-1.1.7.dist-info/METADATA,sha256=Qbck0u2xQ0wis5H4bbNtRtYdV6uhLCKVULF4z-CcFBo,20219
+kassorm-1.1.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kassorm-1.1.7.dist-info/RECORD,,
