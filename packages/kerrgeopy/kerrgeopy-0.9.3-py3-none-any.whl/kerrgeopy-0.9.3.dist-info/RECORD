@@ -1,0 +1,14 @@
+kerrgeopy/__init__.py,sha256=7-zFfHjZ67TnvR6xbYgMYfCNOh620Fo8j2ZuNx_c22k,460
+kerrgeopy/constants.py,sha256=v8cRAkS1SzYOmpRc-cHtx-UpKDQjz4ovbQDyW_U11EA,21691
+kerrgeopy/frequencies.py,sha256=F04YeveebPcKKybDgYL8-euFE_tjoupfhhn65CpvtvA,27367
+kerrgeopy/initial_conditions.py,sha256=5t6z5HyfQ1mb-pGYvJRwfpCGqjm8dDrB_YGvmw4JlpY,12869
+kerrgeopy/orbit.py,sha256=izrPSgBD-uhJcNE9Rsdg7R-cdvlBCd34Y5NA_lSFlZ4,32635
+kerrgeopy/plunge.py,sha256=-dAoDJw7K5u80A-sb79t02VnnHz-EdbW3rK3xogP02c,24000
+kerrgeopy/spacetime.py,sha256=r251qcVmiXF5bMbnAySw_EIRZZE0KxK2sB2pNAmNmiA,6139
+kerrgeopy/stable.py,sha256=XsuQUUiEG97yfxyN2PWh8_Ol1f_V9kXjscT2l_ICuk4,19530
+kerrgeopy/units.py,sha256=QIfeI-HVpA0cfrCBhc3SKLJSKbpPqcQJ3sKg3x62bvE,5831
+kerrgeopy-0.9.3.dist-info/LICENSE,sha256=i_-nS1Uc6WOru4BUjyf_ZWXZRoyVI3dfVuady2W8hFE,1088
+kerrgeopy-0.9.3.dist-info/METADATA,sha256=ojrqTJ-vX3UOG_kb63tAylXoNSbZTJYYkxqEVoErsYU,10324
+kerrgeopy-0.9.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kerrgeopy-0.9.3.dist-info/top_level.txt,sha256=8b21oNSzxO2hpOizgadJWg4pHMqwe9LMLRKNG5farw0,10
+kerrgeopy-0.9.3.dist-info/RECORD,,
