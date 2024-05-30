@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+fuzzy_matrix_mamdani/__init__.py
+fuzzy_matrix_mamdani.egg-info/PKG-INFO
+fuzzy_matrix_mamdani.egg-info/SOURCES.txt
+fuzzy_matrix_mamdani.egg-info/dependency_links.txt
+fuzzy_matrix_mamdani.egg-info/not-zip-safe
+fuzzy_matrix_mamdani.egg-info/top_level.txt
