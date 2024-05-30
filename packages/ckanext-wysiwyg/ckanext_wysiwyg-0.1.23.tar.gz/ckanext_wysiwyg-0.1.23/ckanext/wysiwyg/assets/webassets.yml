@@ -1,0 +1,37 @@
+# CKEDITOR 5
+
+wysiwyg-ckeditor5-js:
+  filter: rjsmin
+  output: ckanext-wysiwyg/%(version)s-wysiwyg-ckeditor5-js.js
+  contents:
+    - js/vendor/ckeditor5.min.js
+    - js/wysiwyg-ckeditor5-init.js
+  extra:
+    preload:
+      - base/main
+
+wysiwyg-ckeditor5-css:
+  filter: cssrewrite
+  output: ckanext-wysiwyg/%(version)s-wysiwyg-ckeditor5.css
+  contents:
+    - css/vendor/ckeditor5.min.css
+    - css/ckeditor5-custom-styles.css
+
+# SUMMETNOTE
+
+wysiwyg-summernote-js:
+  filter: rjsmin
+  output: ckanext-wysiwyg/%(version)s-wysiwyg-summernote-js.js
+  contents:
+    - js/vendor/summernote.min.js
+    - js/wysiwyg-summernote-init.js
+  extra:
+    preload:
+      - base/main
+
+wysiwyg-summernote-css:
+  filter: cssrewrite
+  output: ckanext-wysiwyg/%(version)s-wysiwyg-summernote.css
+  contents:
+    - css/vendor/summernote.min.css
+    - css/summernote-custom-styles.css
