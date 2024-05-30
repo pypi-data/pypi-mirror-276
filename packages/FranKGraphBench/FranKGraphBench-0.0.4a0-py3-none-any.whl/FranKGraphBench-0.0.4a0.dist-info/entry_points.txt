@@ -1,0 +1,3 @@
+[console_scripts]
+data_integration = data_integration:data_integration
+framework = framework:framework
