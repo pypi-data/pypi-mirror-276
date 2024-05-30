@@ -1,0 +1,14 @@
+tqbus_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tqbus_sdk/crm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tqbus_sdk/crm/countries.py,sha256=zA-MMWxB6m7eqCpNgfiHBbrfH5GgFCotL88yAaTM4gE,891
+tqbus_sdk/crm/tqclients.py,sha256=mqnqsqX-RF-NSE66eybp-q3w9CS0vLMt2rTH5qYWdeo,6530
+tqbus_sdk/gis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tqbus_sdk/gis/endorsements.py,sha256=-dWM2gh0ghpEedtPlxEUV_3dcvIktpLre8bF0Wn_Tzs,1439
+tqbus_sdk/gis/policies.py,sha256=esp9o2tNLr01Fv-W3QIsZYPzxNFpH-Lfea8sGhDLMhE,1703
+tqbus_sdk/gis/quotations.py,sha256=PFxw9fuhlnDUrGf_hdqBSU8HC8HigQ14yMfTqPkA7og,6250
+tqbus_sdk/lms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tqbus_sdk/lms/generics.py,sha256=Nv0U6NFt7oUgXftXaYDxKL939KKVOG7rLvgiMn8NJRc,1611
+tqbus_sdk/tqsystem.py,sha256=86KlWklcLz1py8topUwiBfxf6Hdo0RWhq3mde0N4oA4,8793
+tqbus_sdk-0.1.5.dist-info/METADATA,sha256=0Ixa7fXy_5Z_CZ1hUSUifEQCknUyH4wiF9qumxhgehs,583
+tqbus_sdk-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tqbus_sdk-0.1.5.dist-info/RECORD,,
