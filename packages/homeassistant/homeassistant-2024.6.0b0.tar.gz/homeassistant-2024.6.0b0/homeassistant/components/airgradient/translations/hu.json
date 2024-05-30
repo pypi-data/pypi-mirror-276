@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Az eszk\u00f6z m\u00e1r konfigur\u00e1lva van"
+        },
+        "error": {
+            "cannot_connect": "Sikertelen csatlakoz\u00e1s",
+            "unknown": "V\u00e1ratlan hiba"
+        },
+        "flow_title": "{model}",
+        "step": {
+            "discovery_confirm": {
+                "description": "Szeretn\u00e9 be\u00e1ll\u00edtani: {model}?"
+            },
+            "user": {
+                "data": {
+                    "host": "Hoszt"
+                },
+                "data_description": {
+                    "host": "Az Airgradient eszk\u00f6z hosztneve vagy IP-c\u00edme."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "nitrogen_index": {
+                "name": "Nitrog\u00e9n-index"
+            },
+            "pm003_count": {
+                "name": "PM0.3 sz\u00e1ma"
+            },
+            "raw_nitrogen": {
+                "name": "Nyers nitrog\u00e9n"
+            },
+            "raw_total_volatile_organic_component": {
+                "name": "Nyers \u00f6sszes\u00edtett VOC"
+            },
+            "total_volatile_organic_component_index": {
+                "name": "\u00d6sszes\u00edtett VOC index"
+            }
+        }
+    }
+}
