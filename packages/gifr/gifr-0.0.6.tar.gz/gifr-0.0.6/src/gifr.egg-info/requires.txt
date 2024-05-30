@@ -1,0 +1,4 @@
+gradio
+opex
+redis
+scipy
