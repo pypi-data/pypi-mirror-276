@@ -1,0 +1,11 @@
+setup.py
+pygame_animation/__init__.py
+pygame_animation/animation_manager.py
+pygame_animation/smooth_animation.py
+pygame_animation/smoothing_interface.py
+pygame_animation/smoothing_methods.py
+pygame_animation/target_manager.py
+pygame_animation.egg-info/PKG-INFO
+pygame_animation.egg-info/SOURCES.txt
+pygame_animation.egg-info/dependency_links.txt
+pygame_animation.egg-info/top_level.txt
