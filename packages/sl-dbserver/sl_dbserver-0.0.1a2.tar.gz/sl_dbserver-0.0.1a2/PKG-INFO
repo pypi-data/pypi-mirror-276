@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: sl-dbserver
+Version: 0.0.1a2
+Summary: Springless Database Server
+Home-page: https://github.com/Springless/sl-dbserver
+Author: cogs
+Author-email: cogs@springless.com
+License: MIT
+Keywords: sl springless database server testing postgresql
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE.md
+Requires-Dist: sqlalchemy[asyncio]<2,>=1
+Requires-Dist: python-dateutil>=2
+Requires-Dist: sqlalchemy-utils
+Requires-Dist: psycopg2-binary>=2
+Requires-Dist: python-slugify>=4
+Requires-Dist: fastapi[all]
+Requires-Dist: uvicorn[standard]
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: pytest-cov>=4; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.17; extra == "dev"
+Requires-Dist: mypy>=0.812; extra == "dev"
+Requires-Dist: requests<3,>=2; extra == "dev"
+Requires-Dist: types-python-dateutil<3,>=2; extra == "dev"
+Requires-Dist: black>=23; extra == "dev"
+Requires-Dist: alembic>=1; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+# Springless DB Server (sl-dbserver)
+
+This is a simple Python server for the purpose of spinning up and destroying full copies of a
+database on demand. An example use-case is running integration tests with a local postgres
+instance in a docker container. Each test can create its own isolated database, run its
+tests, and then destroy the created database instance when done.
+
+# Requirements
+
+- Python 3.10 or later
+- Dependencies specified in `setup.py`
+
+# Installing and running
+
+If you are using this for testing a SQLAlchemy database, install via pip into the same virtual
+environment your database is on:
+
+```
+pip install sl-dbserver
+```
+
+Otherwise create a new virtual environment and install there.
+
+```
+python3 -m venv .venv
+.venv/bin/python -m pip install --upgrade pip
+. .venv/bin/activate
+pip install sl-dbserver
+```
+
+And then run with Uvicorn, which should be installed as part of the dependencies.
+
+```
+uvicorn sl.dbserver.app:main --port 8000
+```
+
+You can then access the documentation via the `/doc` or `/redoc` endpoints. So for the example
+above, you would go to [http://localhost:8000/doc](http://localhost:8000/doc) or
+[http://localhost:8000/redoc](http://localhost:8000/redoc), which will list the available
+endpoints and documentation on the data to post to each.
+
