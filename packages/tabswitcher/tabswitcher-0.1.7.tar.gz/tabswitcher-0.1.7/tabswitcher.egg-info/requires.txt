@@ -1,0 +1,12 @@
+chardet<4
+werkzeug<3.0
+psutil==5.9.4
+fuzzywuzzy
+PyQt5
+schedule
+brotab
+
+[:platform_system == "Windows"]
+pynput
+pywin32
+keyboard
