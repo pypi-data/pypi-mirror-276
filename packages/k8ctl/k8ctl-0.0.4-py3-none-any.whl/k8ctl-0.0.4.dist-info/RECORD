@@ -1,0 +1,9 @@
+k8ctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+k8ctl/helper.py,sha256=KWEDx8X1GbVLBfK0oeMdMqW_iXGq1t6yjR8i4BKJDHE,1246
+k8ctl/k8ctl.py,sha256=xR8J0mzr4dkG4n06vYU9N0oHFZkSgJtBq_rSW6q_69U,16623
+k8ctl-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+k8ctl-0.0.4.dist-info/METADATA,sha256=5JPWmwFZhSCwZe40JKD5Kmnc-6BuF0lYbmv1m6gxDIg,1481
+k8ctl-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+k8ctl-0.0.4.dist-info/entry_points.txt,sha256=uR_MxvO_Ivqj_TfR1CZgFhjIs8IrlMpjFq7IpwHLZ2U,38
+k8ctl-0.0.4.dist-info/top_level.txt,sha256=MWKRJ9qlnCPm7r_pIheyUtZ4LqaWZ21y0H-O_NFS3Bw,6
+k8ctl-0.0.4.dist-info/RECORD,,
