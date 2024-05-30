@@ -1,0 +1,12 @@
+ziginstall/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ziginstall/_logging.py,sha256=YS9bwya7pujpkeU9Ku0FkTMSE3XpeedXidGhjBPXHCY,1321
+ziginstall/cli.py,sha256=2gAdr9UigryFr4ZAKibvyVrtGoCPuwmfe08-M43kYV8,3478
+ziginstall/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ziginstall/tools/core.py,sha256=pzbG99ZYasJxQfjRwUIk9lS9cP3uJpAoSTbSRdmF2Gg,4616
+ziginstall/tools/install.py,sha256=EbvRCbwnf0NHvo6zw0b6pRVVmDxx9Syk5q3AKO3Rpww,3441
+ziginstall/tools/tracking.py,sha256=SNsCWW9-HfR-lpKcUbAo2hXqdihFnJMbXGkMxE5u-A0,1723
+ziginstall-0.1.0.dist-info/LICENSE,sha256=AuB_LuMaWDdlYzLJ01KaGu5Gb_clVzytaS8RWJITovM,1071
+ziginstall-0.1.0.dist-info/METADATA,sha256=DbvDP1TgI3pkWfUik5pM-m3bJVWUfOUYewBY-LrdPQ0,1066
+ziginstall-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ziginstall-0.1.0.dist-info/entry_points.txt,sha256=hhlpqSsO6MgAEyMs32kfld9LPBEDLbfYwk7fqruwB3A,57
+ziginstall-0.1.0.dist-info/RECORD,,
