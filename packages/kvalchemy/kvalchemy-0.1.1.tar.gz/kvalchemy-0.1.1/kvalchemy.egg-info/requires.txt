@@ -1,0 +1,6 @@
+backoff
+sqlalchemy
+
+[dev]
+PyMySQL[rsa]
+pytest
