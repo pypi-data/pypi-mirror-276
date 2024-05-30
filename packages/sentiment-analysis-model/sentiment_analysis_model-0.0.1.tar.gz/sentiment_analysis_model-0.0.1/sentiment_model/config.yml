@@ -1,0 +1,12 @@
+model:
+  name: "sentiment_analysis_model"
+  version: "0.0.2"
+
+training:
+  batch_size: 32
+  epochs: 2
+  learning_rate: 0.001
+
+data:
+  dataset_path: "sentiment_model/datasets/training.1600000.processed.noemoticon.csv"
+  test_size: 0.2
