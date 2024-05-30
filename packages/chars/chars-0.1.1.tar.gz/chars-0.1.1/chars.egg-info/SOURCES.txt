@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+chars.egg-info/PKG-INFO
+chars.egg-info/SOURCES.txt
+chars.egg-info/dependency_links.txt
+chars.egg-info/top_level.txt
+charset_project/__init__.py
+charset_project/charset.py
+tests/test_charset.py
