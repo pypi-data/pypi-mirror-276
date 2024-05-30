@@ -1,0 +1,9 @@
+[project]
+name = "kaal"
+version = "1.1.0"
+
+authors = [
+    { name = "Debangan", email = "debangan.coding@gmail.com" }
+]
+
+description = "Coming soon"
