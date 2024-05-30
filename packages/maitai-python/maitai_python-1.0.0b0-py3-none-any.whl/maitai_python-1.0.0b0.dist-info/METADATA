@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: maitai-python
+Version: 1.0.0b0
+Summary: MaiTai SDK for Python
+Home-page: https://docs.trymaitai.ai
+Author: Maitai
+Author-email: support@trymaitai.ai
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: requests
+Requires-Dist: openai
+Requires-Dist: betterproto
+Requires-Dist: httpx
+Requires-Dist: aiohttp
+Requires-Dist: setuptools
+Requires-Dist: websocket-client
+
