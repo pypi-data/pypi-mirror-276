@@ -1,0 +1,4 @@
+[console_scripts]
+pkg-config = pkgconf:_entrypoint
+pkgconf = pkgconf:_entrypoint
+
