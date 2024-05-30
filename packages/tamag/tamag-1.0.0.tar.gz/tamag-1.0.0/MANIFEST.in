@@ -1,0 +1,8 @@
+
+recursive-include src/tamag/datasets *.csv *.csv.gz *.rst *.jpg *.txt *.arff.gz *.json.gz *.fits *.bitmap.fits *.magnetogram.fits
+recursive-include src/tamag/utils *.csv *.csv.gz *.rst *.jpg *.txt *.arff.gz *.json.gz *.fits *.bitmap.fits *.magnetogram.fits
+include README.md
+include pyproject.toml
+include MANIFEST.in
+
+
