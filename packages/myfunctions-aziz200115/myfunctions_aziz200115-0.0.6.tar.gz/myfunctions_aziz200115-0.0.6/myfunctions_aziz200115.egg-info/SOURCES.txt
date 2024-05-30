@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_aziz200115/__init__.py
+myfunctions_aziz200115/math.py
+myfunctions_aziz200115.egg-info/PKG-INFO
+myfunctions_aziz200115.egg-info/SOURCES.txt
+myfunctions_aziz200115.egg-info/dependency_links.txt
+myfunctions_aziz200115.egg-info/top_level.txt
