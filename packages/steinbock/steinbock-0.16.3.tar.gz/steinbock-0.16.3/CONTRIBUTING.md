@@ -1,0 +1,28 @@
+# Contributing
+
+Pull requests are welcome. Please make sure to update tests and documentation as appropriate.
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+## Toolchain
+
+*steinbock* is developed using [Visual Studio Code](https://code.visualstudio.com). The Python development toolchain includes black, flake8, isort, mypy and pre-commit (see setuptools `devel` target). For building the *steinbock* Docker image, BuildKit needs to be enabled for Docker. Workflows for continuous integration/continuous delivery (CI/CD) are configured using GitHub Actions.
+
+## Development
+
+For convenience, the following [Docker Compose](https://docs.docker.com/compose) services are available:
+
+  - `steinbock` for running *steinbock*
+  - `steinbock-debug` for debugging *steinbock* using [debugpy](https://github.com/microsoft/debugpy)
+  - `pytest` for running unit tests with [pytest](https://pytest.org)
+  - `pytest-debug` for debugging unit tests with [pytest](https://pytest.org) and [debugpy](https://github.com/microsoft/debugpy)
+
+Matching Visual Studio Code launch configurations are provided for debugging:
+
+  - `Docker: Python General` for debugging *steinbock* using [Docker](https://www.docker.com) directly
+  - `Python: Remote Attach (steinbock-debug)` for debugging *steinbock* using [Docker Compose](https://docs.docker.com/compose)
+  - `Python: Remote Attach (pytest-debug)` for debugging unit tests with [pytest](https://pytest.org) using [Docker Compose](https://docs.docker.com/compose)
+
+To debug specific *steinbock* commands using e.g. the `Python: Remote Attach (steinbock-debug)` launch configuration, adapt the respective `command` in the [docker-compose.yml](https://github.com/BodenmillerGroup/steinbock/blob/main/docker-compose.yml) file (e.g. add `--version` after `-m steinbock`). Launch configurations may have to be invoked multiple times in order for them to work.
+
+To debug unit tests on the host system (i.e., not within the Docker container), run `pytest tests` in the project root folder or use the "Testing" tab in Visual Studio Code.
