@@ -1,0 +1,2 @@
+[console_scripts]
+tscat_gui = tscat_gui.app:main
