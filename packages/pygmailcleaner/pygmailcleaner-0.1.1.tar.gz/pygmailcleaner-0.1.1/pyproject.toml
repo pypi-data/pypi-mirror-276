@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pygmailcleaner"
+version = "0.1.1"
+description = "A tool to clear out your gmail inbox"
+authors = ["Rupert Arup <rupertarup@gmail.com>"]
+packages = [{include = "pygmailcleaner"}]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+pygmailcleaner = "pygmailcleaner.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+colorama = "^0.4.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
