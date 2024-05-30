@@ -1,0 +1,8 @@
+pyodbc
+pytest
+pytest
+responses
+pysftp==0.2.9
+ShopifyAPI==12.5.0
+requests==2.31.0
+pytest
