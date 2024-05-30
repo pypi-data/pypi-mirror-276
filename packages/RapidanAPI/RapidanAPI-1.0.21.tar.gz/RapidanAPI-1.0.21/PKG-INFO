@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: RapidanAPI
+Version: 1.0.21
+Summary: RapidanAPI allows Rapidan Energy Group's clients to conveniently pull energy data.
+Home-page: https://github.com/Justin-Diamond/RapidanAPI
+Author: Justin Diamond
+Author-email: justin.diamond@rapidanenergy.com
+License-File: LICENSE
+
+RapidanAPI allows our clients to conveniently pull energy data.
