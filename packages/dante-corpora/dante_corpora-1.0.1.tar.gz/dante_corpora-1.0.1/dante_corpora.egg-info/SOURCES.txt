@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dante_corpora.egg-info/PKG-INFO
+dante_corpora.egg-info/SOURCES.txt
+dante_corpora.egg-info/dependency_links.txt
+dante_corpora.egg-info/requires.txt
+dante_corpora.egg-info/top_level.txt
+src/__init__.py
+src/danteshots.py
+src/dantestocks.py
