@@ -1,0 +1,7 @@
+setup.py
+cash-contacts-bq-utils/__init__.py
+cash-contacts-bq-utils/main.py
+cash_contacts_bq_utils.egg-info/PKG-INFO
+cash_contacts_bq_utils.egg-info/SOURCES.txt
+cash_contacts_bq_utils.egg-info/dependency_links.txt
+cash_contacts_bq_utils.egg-info/top_level.txt
