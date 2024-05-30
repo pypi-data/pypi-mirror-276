@@ -1,0 +1,15 @@
+source_workramp/__init__.py,sha256=DKoBuVGlb1KnhWipp6KPapwNBwIaF24CtcI-VQrZBjU,128
+source_workramp/manifest.yaml,sha256=bQSonhNY6QUF4bQcmW7NqyXhZUrq2hdSou6XoDZFIAM,2101
+source_workramp/run.py,sha256=Gc6uZWjO0b89mlWdgz4t99ntBPkYs2jXLaX1mX5NTY8,236
+source_workramp/schemas/awarded_certifications.json,sha256=EBvE-tpGJuywSNPVX01FMr_Ib7Rad9mFZ1EbCtKbTxw,504
+source_workramp/schemas/certifications.json,sha256=xnn95ps55FAfBBnjL5EA95PNnR8EKGA6rUC3XZp0DUE,488
+source_workramp/schemas/paths_users.json,sha256=2nQoI_YEiABXp3MYuP-xIvLuz9bb8OVGc_WYFsIVY44,153
+source_workramp/schemas/registrations.json,sha256=jyPuA1vhwAvYn76-IN-9P97zp32NuvrKtnPgRutUY-k,750
+source_workramp/schemas/trainings.json,sha256=BegJmRF3pTLDRQAuutjh5f-uRuItOi3Q2vKvYew_E6g,321
+source_workramp/schemas/users.json,sha256=l66Y7Lp-acVVvyXr1LCGTVNOAHcZHfkLjRrXKdpNZdE,587
+source_workramp/source.py,sha256=kbo7dyIdm1bJvDw1ERy_USUdgOHmSe0BIYRSTP6c7QM,477
+source_workramp/spec.yaml,sha256=Oh9CeOFMSRNShaWCU9MRIt1WXKDNxOPMiLCDF-hTW6g,501
+airbyte_source_workramp-0.1.1.dist-info/METADATA,sha256=eR-H5Lmoh98SpYt_bBq4RAuho7vVvRVtlVXdv2YYfzs,5241
+airbyte_source_workramp-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_workramp-0.1.1.dist-info/entry_points.txt,sha256=9_rcZgMQHzcEUr9X8WPkr61nVkCz3EGraQJX6ovnN_g,59
+airbyte_source_workramp-0.1.1.dist-info/RECORD,,
