@@ -1,0 +1,10 @@
+dante/__init__.py,sha256=ikwOhutM7U_iPpY0pEkk-P4bGuTGeY7nqGg8xZ8F6aU,75
+dante/danteshots.py,sha256=wh-K4x2cEUgTOR5p3z9t5psBDDD7bXr5dhxRgWvG8OM,99
+dante/dantestocks.py,sha256=zuv2jc1-7C4jVU5kUbmfbExjlI7ero7mx69Rvx7Qpd8,100
+dante/data/danteshots.csv,sha256=oebLQWsgas8-omJJ_fXdhCoPbnOTXKdf6tATDbiBaLE,1836029
+dante/data/dantestocks.csv,sha256=v7H4Pb_dnCMkLlipUXU7S1AcNF8GiS59Z4ascekiK_g,770632
+dante_corpora-1.0.3.dist-info/LICENSE,sha256=M5pcBZESFf2u2kLLSdVgySmpWB4dtSC6_KI3Esm0a8k,1091
+dante_corpora-1.0.3.dist-info/METADATA,sha256=snPU3-uA-AzgZcLnLMI2tod2xcc_65EyWICNkBRjkzk,3045
+dante_corpora-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dante_corpora-1.0.3.dist-info/top_level.txt,sha256=icTlgNQtvqZpzu31fHvWr5YQcsDkirudbOkK4B-2P_U,6
+dante_corpora-1.0.3.dist-info/RECORD,,
