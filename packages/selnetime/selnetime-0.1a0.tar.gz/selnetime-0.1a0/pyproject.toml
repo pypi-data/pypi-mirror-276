@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "selnetime"
+dynamic = ["version"]
+authors = [
+  { name="Mathieu Uhl", email = "mathieu.uhl@cefe.cnrs.fr" },
+  { name="Bertrand Servin", email="bertrand.servin@inrae.fr" },
+  { name="Simon Boitard", email="simon.boitard@inrae.fr" },
+  { name="Miguel De-Navascues-Melero", email="miguel.navascues@inrae.fr" }
+]
+maintainers = [
+  {name = "Bertrand Servin", email="bertrand.servin@inrae.fr"}
+]
+description = "Implementation of HMM to estimate selection and demography from genetic time series"
+readme = "README.md"
+requires-python = ">=3.7"
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "numpy",
+  "numba>=0.39",
+  "sympy",
+  "scipy"
+]
+
+[project.urls]
+Repository = "https://forgemia.inra.fr/simon.boitard/selnetime/"
+
+[project.scripts]
+snt = "selnetime.snt:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "selnetime.VERSION"}
