@@ -1,0 +1,14 @@
+flask_moreshell/__init__.py,sha256=0u61C0A581cf4j6jxEzyq4dwsT28tpUjGvKBw_C2Pb8,74
+flask_moreshell/__main__.py,sha256=ISPtpqk0RKMMkMERmtuNqfYiT8gCWAINejZAU-_UUIY,1790
+flask_moreshell/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_moreshell/shells/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_moreshell/shells/base_shell.py,sha256=fMHPTLMi9c2i08H_-iGm63cD5b9Cc9SQlMNLw75pZI8,1361
+flask_moreshell/shells/bpython_shell.py,sha256=IphvE67HeiSp1Um9zdV0wMgtNWqyR9uLUaU5ltZ4tW8,542
+flask_moreshell/shells/ipython_shell.py,sha256=F2iZYwm1-Ks01-XCeXbM9YgbxZThOfI1DJu7O7_e3xo,1140
+flask_moreshell/shells/ptpython_shell.py,sha256=yAyrG8D1kjI5qQGKX6mpX6o-HjZI8xH4t8hibuiUjFk,609
+flask_moreshell/shells/python_shell.py,sha256=xAO2QxR_nRg_lCXBr8Gzzn_sQVNR7xCLvYh8FhtFujk,769
+flask_moreshell-0.1.5.dist-info/LICENSE,sha256=OqpmqcTYFBl7DpKEiFs4h49V1I5Pmy8ns8mEYDuo-1w,1068
+flask_moreshell-0.1.5.dist-info/METADATA,sha256=GktWnNppi50uTBEtBKZRR-6zqcSalXpj3G4VvMoDd4M,4304
+flask_moreshell-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flask_moreshell-0.1.5.dist-info/entry_points.txt,sha256=oG5MCTXWxvCV0viZlBVcTDHzVVoKuSNITpWiPHigKik,111
+flask_moreshell-0.1.5.dist-info/RECORD,,

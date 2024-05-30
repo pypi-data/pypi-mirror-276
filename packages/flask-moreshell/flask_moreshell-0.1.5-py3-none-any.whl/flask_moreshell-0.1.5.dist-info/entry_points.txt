@@ -1,0 +1,6 @@
+[console_scripts]
+flask-moreshell=flask_moreshell.__main__:main
+
+[flask.commands]
+shell=flask_moreshell:shell
+
