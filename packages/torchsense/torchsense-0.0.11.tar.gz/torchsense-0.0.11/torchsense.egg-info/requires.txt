@@ -1,0 +1,5 @@
+numpy
+einops
+torchaudio
+torchmetrics[audio]
+lightning
