@@ -1,0 +1,3 @@
+include README.md
+include CHANGELOG.md
+include src/libreflow/extensions/anpo/export_illustrator/scripts/layers2png.jsx
