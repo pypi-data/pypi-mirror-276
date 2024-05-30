@@ -1,0 +1,14 @@
+yin2009/__init__.py,sha256=hwruhzyO-iJCp3wkJSaioNvITqV-lzsG9DOVNFnXlj0,239
+yin2009/info.py,sha256=ZYVOABcp1z7i76GbEY_11btk8cTaiSon861gO2vWnKw,379
+yin2009/raw.py,sha256=zSorQzBhjZRRQj2S-mdSDLFKn4OKhmAfk43tU6OuNZ0,2811
+yin2009/version.py,sha256=7lS5jAoF3e-vtI120GjlF5q0YZ8bwNcRj0Nyk6irxcU,367
+yin2009/clean/fig2.csv,sha256=3kTW2cYhFFiZA5dAqNXYSqCfVcNdeMrFjW5SBU9_g-M,6371
+yin2009/clean/fig6_params.csv,sha256=9jQmGHQD8_MmJCjP_B0x0nfesjIsUxzcfe5di4WpAJo,489
+yin2009/clean/readme.rst,sha256=oAyEbH72rW25cGgvZSpDdkNhfv7mvErk8_1_Uwn1tpc,134
+yin2009/clean/table2.csv,sha256=N7E4hS0oYigublDzlPEutWww768XfsHxDgFut-DPQuk,1335
+yin2009-0.1.0.dist-info/AUTHORS.rst,sha256=qi6rztgOfqpfDHVM9Wy9GT6PevR5iw1q2z-OHqtkLkE,316
+yin2009-0.1.0.dist-info/LICENSE,sha256=8mluVEVU5FGmJ1_8b2ClHrZB7S51lPClhHJu6rZlVeE,20838
+yin2009-0.1.0.dist-info/METADATA,sha256=wjVEWS3Baq5gmXbUWYcnZctpseT8ADmJvQJNcusEwBI,2927
+yin2009-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+yin2009-0.1.0.dist-info/top_level.txt,sha256=Yn28UGb0T237-6gZqIF5aTAZL09auO9UGxnJHfx-664,8
+yin2009-0.1.0.dist-info/RECORD,,
