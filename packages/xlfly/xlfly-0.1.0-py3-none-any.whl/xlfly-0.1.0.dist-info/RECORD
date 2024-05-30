@@ -1,0 +1,7 @@
+xlfly/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xlfly/app.py,sha256=dergIGL3QPzw2I4WnCjwsXs1gApCxgyGzTzGwyDnKT4,3222
+xlfly/copyover.py,sha256=laXaNZwq0QiX11aufQAsS_v-IdCrGhkrBC0vlaeeRV4,1530
+xlfly-0.1.0.dist-info/entry_points.txt,sha256=k459DElunvMAj6gD5oSMNhUVdr5BipkjSlMAIzEBZI4,40
+xlfly-0.1.0.dist-info/METADATA,sha256=rdYm5Wlue3Vlwvh1By4sfENO6hE0OVf2ZvR9zf2qzgM,713
+xlfly-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+xlfly-0.1.0.dist-info/RECORD,,
