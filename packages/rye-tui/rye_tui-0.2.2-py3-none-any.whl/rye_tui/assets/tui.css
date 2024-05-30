@@ -1,0 +1,208 @@
+ /* Loading */
+CustomLoading {
+    width: 100%;
+    height: 100%;
+    layer: _loading;
+    dock: top;
+    LoadingIndicator, Label {
+        height: 1fr;
+        width: 1fr;
+    }
+    Label {
+        content-align: center middle;
+    }
+}
+LoadingIndicator{
+    color: rgb(132,164,50);
+}
+
+VerticalScroll{
+    scrollbar-color: rgb(132,164,50);
+    scrollbar-color-active: $error;
+    scrollbar-color-hover: $error;
+}
+
+Tab {
+    width: 1fr;
+}
+Tab.-active {
+    color: $error;
+}
+/* Tab Underline Color */
+Underline .underline--bar {
+    background: rgb(132,164,50);
+    color: $error;
+}
+
+Switch > .switch--slider {
+        color: $error;
+    }
+
+Switch.-on > .switch--slider {
+        color: rgb(132,164,50);
+    }
+/* General */
+GeneralTab Label {
+    height: auto;
+    margin: 1 0 0 0;
+}
+GeneralTab Input {
+    height: auto;
+    width: 1fr;
+}
+GeneralTab RichLog{
+    height: auto;
+    width: 1fr;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* ConfigTab */
+ConfigTab Container {
+    height: auto;
+}
+.section {
+    border: rgb(132,164,50) solid;
+    border-title-color:black;
+    border-title-background:rgb(132,164,50);
+    border-subtitle-color: $error;
+}
+
+
+
+ConfigOptionChanger {
+    layout: grid;
+    grid-size: 2;
+    height: auto;
+}
+ConfigOptionChanger > Static {
+    color: white;
+    height: auto;
+    width: 1fr;
+    content-align: left middle;
+    margin: 1 0 0 0;
+}
+ConfigOptionChanger Input {
+    height: auto;
+    width: 1fr;
+    margin: 0 0 0 0;
+}
+ConfigOptionChanger Switch {
+    height: auto;
+    width: 1fr;
+    margin: 0 0 0 0;
+}
+ConfigOptionChanger Select{
+    color: white;
+    height: auto;
+    content-align: left middle;
+    width: 1fr;
+}
+
+/* Sources */
+.config-sources-container {
+    layout: grid;
+    grid-size: 2;
+    height: auto;
+}
+.config-sources-container Static {
+    
+    color: white;
+    height: auto;
+    width: 3fr;
+    content-align: left middle;
+    margin: 1 0 0 0;
+}
+
+.config-sources-container Input {
+    
+    height: auto;
+    width: 1fr;
+    margin: 0 0 0 0;
+}
+
+.config-sources-container Switch {
+    
+    height: auto;
+    width: 1fr;
+    margin: 0 0 0 0;
+}
+
+/* Projects Tab*/
+ProjectTab Vertical{
+    height: auto;
+}
+/* ProjectList */
+ProjectListItem.--highlight{
+    background: rgb(132,164,50);
+}
+
+ProjectListItem{
+    height: 33%;
+    margin: 1 0 1 0;
+    align: left middle;
+    layout:grid;
+    grid-size: 4;
+}
+ProjectListItem Label {
+    height:auto;
+    width: auto;
+    column-span: 2;
+    margin: 1 0 0 0;
+}
+ProjectListItem Button {
+    height:auto;
+    width: 1fr;
+}
+/* ProjectInteraction */
+ProjectInteraction {
+    border: rgb(132,164,50) heavy;
+}
+ProjectInteraction Horizontal {
+    height: 1fr;
+    width: auto;
+    layout: grid;
+    grid-size: 3;
+    margin: 1 0 1 0;
+}
+ProjectInteraction Button {
+    height: 1fr;
+    width: 1fr;
+    background: rgb(44,55,58);
+    margin: 0 1 0 1;
+}
+/* ProjectPreview */
+ProjectPreview{
+    align:center middle;
+}
+ProjectPreview RichLog{
+    height: auto;
+    width: 1fr;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+/* Header Footer */
+Header {
+    background: rgb(132,164,50);
+}
+Footer {
+    background: rgb(132,164,50);
+    height: auto;
+}
+Footer .footer--key {
+    background: $error;
+    /* background: rgb(132,164,50); */
+}
+Footer .footer--highlight {
+    background: rgb(132,164,50);
+}
+Footer .footer--highlight-key {
+    background: rgb(132,164,50);
+}
+
+.visible {
+    display: block;
+}
+.invisible {
+    display: None;
+}
