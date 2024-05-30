@@ -1,0 +1,11 @@
+setuptools
+numpy
+scipy
+matplotlib
+PyQt5==5.15.10
+scikit-image
+opencv-python
+h5py
+numba
+torch
+pyepics
