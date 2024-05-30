@@ -1,0 +1,11 @@
+setup.py
+windows-util-controls/__init__.py
+windows-util-controls/__windows__.py
+windows-util-controls/input.py
+windows-util-controls/main.py
+windows-util-controls/regedit.py
+windows_util_controls.egg-info/PKG-INFO
+windows_util_controls.egg-info/SOURCES.txt
+windows_util_controls.egg-info/dependency_links.txt
+windows_util_controls.egg-info/requires.txt
+windows_util_controls.egg-info/top_level.txt
