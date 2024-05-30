@@ -1,0 +1,10 @@
+tif_to_zarr/__init__.py,sha256=Dbe5QAJKIZiFIqyli1X3GrZI3PmTVsLjgmytQPfVt30,84
+tif_to_zarr/conversion_lib.py,sha256=9uu80Qxbl65RWoTkKJFNEF8n0Acyndd9Btdyzc2LL2A,4695
+tif_to_zarr/n5_attrs_template.json,sha256=4Dekv0n8lIhF80wfoqjUplzVPYGfOONSqrv__UDwGaM,326
+tif_to_zarr/tif_to_zarr.py,sha256=6cq1LNBY5LNI3sCTt8DCxbcKpLXk4mOAQ2_os7XYcms,1418
+tif_to_zarr/zarr_attrs_template.json,sha256=btW_luuxhCjRfn6FLkqiUXlxCciwVUkHZ3xzdOEp3T0,268
+tif_to_zarr-0.5.4.dist-info/LICENSE,sha256=lZIkIfx4Y1fiAsLmDOT_Itx-TxjlyZ9n_w4dsbpgKVM,1518
+tif_to_zarr-0.5.4.dist-info/METADATA,sha256=3qbzXc_0ewNqDAED6sk7J7iBz4nvzwavinYAiD_XDsk,1274
+tif_to_zarr-0.5.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tif_to_zarr-0.5.4.dist-info/entry_points.txt,sha256=0dgKoZlRNVLZfNnlJOTHRuOK3ljw07pWwLWudo5wano,69
+tif_to_zarr-0.5.4.dist-info/RECORD,,
