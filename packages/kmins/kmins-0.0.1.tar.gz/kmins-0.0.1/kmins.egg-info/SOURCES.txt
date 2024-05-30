@@ -1,0 +1,9 @@
+README.md
+setup.py
+kmins/__init__.py
+kmins/kmins.py
+kmins.egg-info/PKG-INFO
+kmins.egg-info/SOURCES.txt
+kmins.egg-info/dependency_links.txt
+kmins.egg-info/requires.txt
+kmins.egg-info/top_level.txt
