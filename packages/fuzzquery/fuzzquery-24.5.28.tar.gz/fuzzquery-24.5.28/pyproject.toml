@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fuzzquery"
+version = "24.5.28"
+description = "A lightweight package for fuzzy word/phrase searches in a body of text."
+keywords = ["fuzzy", "string", "match", "filter", "regex"]
+authors = [{ name="Oyster Shucker", email="onemadgypsy@gmail.com" },]
+maintainers = [{ name="Oyster Shucker", email="onemadgypsy@gmail.com" },]
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+	"Topic :: Text Processing :: Filters",
+	"Natural Language :: English",
+]
+
+[project.urls]
+Homepage = "https://github.com/OneMadGypsy/fuzzquery"
+Issues = "https://github.com/OneMadGypsy/fuzzquery/issues"
+Documentation = "https://fuzzquery.readthedocs.io"
