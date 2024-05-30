@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: resmda
+Version: 0.1.0
+Summary: A simple 2D reservoir modeller plus ESMDA.
+Home-page: https://github.com/tuda-geo/resmda
+Author: Dieter Werthmüller, Gabriel Serrao Seabra
+Author-email: info@emsig.xyz
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: scooby
+
+``resmda`` - Simple Reservoir Modeller with ESMDA
+=================================================
+
+A simple 2D reservoir simulator and a straight-forward implementation of the
+basic *Ensemble smoother with multiple data assimilation* (ESMDA) algorithm as
+presented by Emerick and Reynolds, 2013.
+
+- **Documentation:** https://tuda-geo.github.io/resmda
+- **Source Code:** https://github.com/tuda-geo/resmda
+- **Bug reports:** https://github.com/tuda-geo/resmda/issues
+
+
+Available through pip: ``pip install resmda``.
+
