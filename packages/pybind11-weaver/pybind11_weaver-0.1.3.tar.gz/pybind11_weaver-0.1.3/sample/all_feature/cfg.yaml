@@ -1,0 +1,7 @@
+common_config:
+  cxx_flags: [ "-std=c++17", ]
+  include_directories: [ "${CFG_DIR}" ]
+
+io_configs:
+  - inputs: [ "c_lib/c_lib.h","template_pb11_weaver_helper.h" ]
+    output: "${CFG_DIR}/_binding.cc.inc"
