@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aws-boto3-sdk-helpers
+Version: 1.0.1
+Summary: Contains helper functions for the AWS Python sdk (Boto3) package.
+Author: Yiskaneto
+License: MIT
+Project-URL: homepage, https://github.com/openwurl/boto3-helpers
+Keywords: boto3,botocore,aws
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: botocore
+
