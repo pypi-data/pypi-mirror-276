@@ -1,0 +1,112 @@
+# Copyright Vespa.ai. Licensed under the terms of the Apache 2.0 license. See LICENSE in the project root.
+
+[build-system]
+requires = ["setuptools>=69", "wheel", "build", "twine", "versioneer[toml]"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyvespa"
+version = "0.41.0"
+description = "Python API for vespa.ai"
+readme = "README.md"
+keywords = ["vespa", "search engine", "data science"]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dependencies = [
+    "requests",
+    "requests_toolbelt",
+    "docker",
+    "jinja2",
+    "cryptography",
+    "aiohttp",
+    "tenacity",
+    "typing_extensions",
+]
+
+requires-python = ">=3.8"
+
+[[project.authors]]
+name = "Thiago G. Martins"
+
+[[project.maintainers]]
+name = "Thomas Thoresen"
+email = "thomas@vespa.ai"
+
+[project.urls]
+homepage = "https://pypi.org/project/pyvespa"
+repository = "https://github.com/vespa-engine/pyvespa"
+
+[project.license]
+file = "LICENSE"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "requests-mock",
+    "datasets",
+    "notebook",
+    "nbconvert",
+    "runnb",
+    "ruff",
+    "pre-commit",
+]
+build = [
+    "setuptools==69.0.3",
+    "build==1.0.3",
+    "twine==4.0.1",
+    "toml==0.10.2",
+    "requests~=2.26.0",
+    "ruff",
+]
+
+[tool.setuptools]
+packages = ["vespa"]
+
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+line-length = 88
+indent-width = 4
+
+[tool.setuptools.package-data]
+vespa = ["py.typed", "templates/*"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+ignore = []
+fixable = ["ALL"]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = false
+docstring-code-line-length = "dynamic"
