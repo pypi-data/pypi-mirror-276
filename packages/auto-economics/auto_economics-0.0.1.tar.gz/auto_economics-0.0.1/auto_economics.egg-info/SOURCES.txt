@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+auto_economics/__init__.py
+auto_economics/_modidx.py
+auto_economics/core.py
+auto_economics.egg-info/PKG-INFO
+auto_economics.egg-info/SOURCES.txt
+auto_economics.egg-info/dependency_links.txt
+auto_economics.egg-info/entry_points.txt
+auto_economics.egg-info/not-zip-safe
+auto_economics.egg-info/requires.txt
+auto_economics.egg-info/top_level.txt
