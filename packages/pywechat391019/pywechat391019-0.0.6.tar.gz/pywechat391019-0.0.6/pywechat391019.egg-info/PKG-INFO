@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pywechat391019
+Version: 0.0.6
+Summary: wechat robot framework.
+Home-page: https://github.com/miloira/pywechat391019
+Author: Msky
+Author-email: 690126048@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# pywechat391019
