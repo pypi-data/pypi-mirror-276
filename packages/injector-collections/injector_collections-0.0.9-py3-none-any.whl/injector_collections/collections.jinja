@@ -1,0 +1,24 @@
+from {{ inject.__module__ }} import {{ inject.__name__ }}
+from injector_collections import Collection
+{%- for collection, citems in collectionItems|items %}
+{%- for (className, class) in citems %}
+from {{ class.__module__ }} import {{ className }}
+{%- endfor %}
+{%- endfor %}
+
+{%- for collection, citems in collectionItems|items %}
+{% if True %}{% endif %}
+class {{ collection.__name__ }}(Collection):
+    @{{ inject.__name__ }}
+    def __init__(
+            self,
+            {%- for (className, class) in citems %}
+            v{{ className }}: {{ className }},
+            {%- endfor %}
+            ) -> None:
+        super().__init__()
+        {%- for (className, class) in citems %}
+        self[{{ className }}] = v{{ className }}
+        self.byClassname['{{ className }}'] = v{{ className }}
+        {%- endfor %}
+{%- endfor %}
