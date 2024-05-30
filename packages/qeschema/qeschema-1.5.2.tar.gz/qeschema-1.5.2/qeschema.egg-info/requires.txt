@@ -1,0 +1,8 @@
+xmlschema<4.0.0,>=2.5.1
+numpy
+
+[HDF5]
+h5py
+
+[YAML]
+pyyaml
