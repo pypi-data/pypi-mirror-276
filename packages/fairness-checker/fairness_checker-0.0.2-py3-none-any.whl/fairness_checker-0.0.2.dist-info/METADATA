@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fairness-checker
+Version: 0.0.2
+Summary: Fairnes checker
+Home-page: https://github.com/RexYuan/Shu
+Author: RexYuan
+Author-email: hello@rexyuan.com
+License: Unlicense
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Fairness Checker
+
+This Python module fairness_checker provides a set of methods to evaluate the fairness of a predictive model's outcomes across different demographic groups represented in a CSV file or given a model.
