@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: emucore-direct
+Version: 1.0.4
+Summary: Wrapper for FPGA RC
+Author: Quantum Computing Inc.
+Author-email: support@quantumcomputinginc.com
+Requires-Python: <3.11,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio==1.47.0
+Requires-Dist: grpcio-tools==1.47.0
+Requires-Dist: numpy<2,>=1.22.1
+Requires-Dist: protobuf==3.20.3
+Requires-Dist: scipy<2,>=1.9.0
+Requires-Dist: bitstring<5,>=4.1.2
+Provides-Extra: test
+Requires-Dist: sphinx-rtd-theme>=1.3.0; extra == "test"
+Requires-Dist: nbconvert>=7.16.3; extra == "test"
+Requires-Dist: black<23,>=22.6.0; extra == "test"
+Requires-Dist: build<0.11.0,>=0.10.0; extra == "test"
+Requires-Dist: check-manifest<0.49,>=0.48; extra == "test"
+Requires-Dist: coverage[toml]<7,>=6.4.2; extra == "test"
+Requires-Dist: pylint<3,>=2.14.0; extra == "test"
+Requires-Dist: pytest<8,>=7.1.0; extra == "test"
+Requires-Dist: nbsphinx<1,>=0.9.3; extra == "test"
+Requires-Dist: scikit-learn<2,>=1.3.0; extra == "test"
+Requires-Dist: matplotlib<4,>=3.7.2; extra == "test"
+Provides-Extra: dev
+Requires-Dist: scikit-learn<2,>=1.3.0; extra == "dev"
+Requires-Dist: matplotlib<4,>=3.7.2; extra == "dev"
+Requires-Dist: jupyterlab<5,>=4.0.5; extra == "dev"
+Requires-Dist: ipykernel<7,>=6.25.1; extra == "dev"
+
+# bumblebee-client
+
+This package provides an interface between the Bumblebee server code and the Bumblebee GRPC client. Also includes simulator code for testing and serving in devices that do not have a Bumblebee device.
+
+## git-lfs
+
+This repository utilizes git-lfs to store large files with a smaller memory footprint. To get all content must install git-lfs on computer and then run in the repository:
+```
+git lfs install
+git lfs pull
+```
+For more information on git-lfs see [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
+
+## Client
+
+### Generating the pb2 files
+
+The device that is generating must have a protobuf version that matches the version in the Bumblebee device to create `--python_out`.
+For the `grpc_python_out` must have same versions of packages grpcio and grpcio-tools. The below code can be run in the root directory given that correct versions exist.
+
+```
+python3 -m grpc_tools.protoc --proto_path=emucore_direct --python_out=emucore_direct --grpc_python_out=emucore_direct emucore.proto
+```
+
+After generating will need to replace 5th line in the bumblebee_pb2_grpc.py file from:
+```
+import emucore_pb2 as emucore__pb2
+```
+
+To:
+```
+from . import emucore_pb2 as emucore__pb2
+```
+
+Currently unsure how to modify the above command to auto-generate the python code in the correct format for package import. Tried to change path for all inputs and out to . and it had no effect.
+
+### Building client for experimentation and development
+Create a virtual environment and activate it.
+Then must install dev dependencies and package:
+```
+pip install .[dev]
+```
+Next install kernel for jupyterlab:
+```
+python3 -m ipykernel install --name "rc_dev" --user
+```
+
+### Enviroment Variables
+- DEVICE_IP_ADDRESS: the IP addres at which the reservoir computing device is available
+- DEVICE_PORT: the port on which that device is available
+
+### Unit testing
+
+```
+pip install .[test]
+python3 -m unittest discover tests
+```
+
+Environment variable RC_DEVICE_IP_ADDRESS should be set to the ip address of the rc device.
+
+
+### Building sphinx docs
+
+Make sure to review and update documentation when make changes to this repo prior to public release.
+Building the docs requires the test dependencies for the packages and import of
+the git-lfs files in the repository see above section on git-lfs.
+Also requires pandoc to be installed on the computer that is building the documentation to generate
+the jupyter notebook output as rst files to see how to install [here](https://pandoc.org/installing.html). Finally, if you use duplicate headings anywhere in jupyter or
+rst files please make sure to add a label or an id to headers here is an example for Jupyter notebook
+headings:
+```
+<h1 id="section1">Section 1: Introduction</h1>
+```
+
+In order to build the html for the website run the following commands from the docs subdirectory:
+
+```
+make clean
+make html
+```
+
+Review the html by looking in the build folder at index.html file in your web browser.
+For other formats the Builder can be modified with any of the options which can be found
+[here](https://www.sphinx-doc.org/en/master/usage/builders/index.html).

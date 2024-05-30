@@ -1,0 +1,4 @@
+exclude emucore_direct/emucore.proto
+recursive-include tests *
+recursive-exclude docs *
+include *.yml
