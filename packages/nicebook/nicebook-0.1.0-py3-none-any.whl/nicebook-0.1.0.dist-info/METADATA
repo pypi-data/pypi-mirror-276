@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nicebook
+Version: 0.1.0
+Summary: Simple library to generate pdf books from markdown files
+Home-page: https://github.com/luisfontes19/nicebook
+Author: Luis Fontes
+Author-email: 
+License: MIT
+Keywords: pdf,markdown,book
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: marko
+Requires-Dist: reportlab
+Requires-Dist: pygments
+Requires-Dist: requests
+
