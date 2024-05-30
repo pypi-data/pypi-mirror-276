@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: EasyDrive
+Version: 0.0.8
+Summary: EasyGoogle Drive access
+Author-email: RanchMonster <ranchmonster06@outlook.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.8
+Description-Content-Type: text/markdown
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+
+EasyGoogle Drive access
+Currently only supports images audio text and doc files. slides Googlesheets drawings and other Google file types coming soon 
