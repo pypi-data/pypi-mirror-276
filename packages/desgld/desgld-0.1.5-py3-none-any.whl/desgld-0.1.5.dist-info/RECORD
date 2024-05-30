@@ -1,0 +1,11 @@
+.DS_Store,sha256=zXqae_mGRu51-x_VHXplNCPdLcnRxjFU9hT3nqGfZhk,6148
+desgld/__init__.py,sha256=CcvWWnJ3OkYhuyFpF6XO-ocTM6OuRiTSlQR7wsVVgCg,273
+desgld/desgld_alg.py,sha256=3Bkczp2zuCBw2efwDeEAyZvy7lAdWRa5wQH2EmizjR0,11643
+desgld/evaluation.py,sha256=7mh6q9JyXbnZe4KccLFxpC2ePQ2ydyws4Otax4Eygew,5547
+desgld/network.py,sha256=_lcaH0T2VALPJrqamHzoyR9R8oo0BzSygf0E0yvqwSc,8263
+desgld/test.py,sha256=VjRNEDqKhXPOuJ1nXlW82QIXJdY3fmOfHoFz_bJdarg,1792
+desgld-0.1.5.dist-info/LICENSE,sha256=NwOET_1qpl8dTHRsilzrD4uqwB3Z5Nk35dtODGfKvFY,1079
+desgld-0.1.5.dist-info/METADATA,sha256=Sw-r_pl9DMQzwoYVgzz-R31UdACpyWUBp8IjhKxiTO0,841
+desgld-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+desgld-0.1.5.dist-info/top_level.txt,sha256=2hcj0eUbCTURKC0P6nSrnC760nIBnuOrb1GIjnl7c3k,7
+desgld-0.1.5.dist-info/RECORD,,
