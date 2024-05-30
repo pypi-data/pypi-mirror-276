@@ -1,0 +1,46 @@
+[project]
+name = "nbappinator"
+dynamic = ["version"]
+description = "Jupyter Notebook Application Builder"
+authors = [{ name = "Paul T", email = "paul@iqmo.com" }]
+maintainers =  [{ name = "Paul T", email = "paul@iqmo.com" }]
+dependencies = ["ipywidgets>=7.8", "plotly", "ipyvuetify>=1.9", "ipyaggrid", "ipytree", "pandas>=1.5.3"]
+requires-python = ">=3.9"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.urls]
+Homepage = "https://github.com/iqmo-org/nbappinator"
+Repository = "https://github.com/iqmo-org/nbappinator"
+Issues = "https://github.com/iqmo-org/nbappinator/issues"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pyright]
+typeCheckingMode = "basic"
+reportGeneralTypeIssues = false
+reportPrivateImportUsage = false
+
+[tool.setuptools.dynamic]
+version = {attr = "nbappinator.version.__version__"}
+
+[tool.setuptools]
+packages = ["nbappinator"]
+
+[tool.ruff]
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    "versioneer.py",
+    "docs/source/conf.py"]
+
+[tool.ruff.lint]
+# pyflakes, pycodestyle, isort
+select = ["F", "E", "W", "I001"]
+ignore-init-module-imports = true
