@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+obsaq/__init__.py
+obsaq/config.py
+obsaq/obsaq.py
+obsaq.egg-info/PKG-INFO
+obsaq.egg-info/SOURCES.txt
+obsaq.egg-info/dependency_links.txt
+obsaq.egg-info/requires.txt
+obsaq.egg-info/top_level.txt
