@@ -1,0 +1,11 @@
+kaal/__init__.py,sha256=rw2dL3uuMKXodDc26bVdev8hzYpKoQX3Kf8eNKeQKY0,28
+kaal/hello.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaal/test.py,sha256=vK03jr0Wyg00JGZZXYBhqxnj32d-vTvV3Jv-FSFBMSk,50
+kaal/trainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaal/trainer/trainer.py,sha256=QDAHb3HQ98-cY4xLRu3bG0b29pbT_FrffHpQ4-0zMSk,1787
+kaal/utils/__init__.py,sha256=IaU-KZzh46OyWqth-0n_gSna15DV9Ve9rPkj7CnSegs,40
+kaal/utils/preprocessing.py,sha256=lzzL28bqGmrsx0TbsmdNR5TU0XMsnuC9xXf9wJHShJY,665
+kaal-1.1.0.dist-info/METADATA,sha256=Xd9TdpVGjnEJQXhGKELPk1OKDotRNspbNP3mlxRDH5M,152
+kaal-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kaal-1.1.0.dist-info/top_level.txt,sha256=_LoDAPXE2raImwdJTq9ETw0QChVodF93bIZtLKRcw6Q,5
+kaal-1.1.0.dist-info/RECORD,,
