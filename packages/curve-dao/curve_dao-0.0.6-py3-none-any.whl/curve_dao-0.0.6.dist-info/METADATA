@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: curve-dao
+Version: 0.0.6
+Summary: DAO governance tools for CurveDAO.
+Author-email: FiddyResearch <fiddyresearch@gmail.com>
+Maintainer-email: FiddyResearch <fiddyresearch@gmail.com>
+License: AGPL-3.0-only License
+Project-URL: Homepage, https://pypi.org/project/curve-dao/
+Project-URL: GitHub, https://github.com/bout3fiddy/curve-dao
+Project-URL: Changelog, https://github.com/bout3fiddy/curve-dao/blob/main/CHANGELOG.md
+Project-URL: Issues, https://github.com/bout3fiddy/curve-dao/issues
+Keywords: ethereum,smart-contracts,evm,vyper,curve-finance,dao,defi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: titanoboa >=0.1.10b1
+Requires-Dist: requests
+Requires-Dist: rich
+
+# What is this?
+
+Simple python package to simulate on-chain CurveDAO proposals and publish proposals for DAO voting on-chain.
+
+# Who needs this?
+
+veCRV holders looking to create on-chain proposals such as
+
+- Creating or killing Curve DAO gauges that reward CRV inflation to addresses (liquidity pools or otherwise).
+- Creating a smartwallet whitelist to lock veCRV (veCRV restricts smart contracts to lock CRV, subject to a DAO whitelist vote)
+- Changing liquidity pool parameters
+- Adding gauge types ...
+- ... etc.
+
+Curve DAO stakeholders have the ability to change the protocol in many ways. This repository is an attempt to consolidate all on-chain DAO operations into a single tool.
+
+# How does one install it?
+
+`pip install curve-dao`
+
+# How does one contribute?
+
+1. Pull Requests.
+2. Create issues.
+3. ...
+
+# How does one build and publish?
+
+1. Update codebase
+2. Up version in pyproject.toml
+3. `python -m build; python -m twine upload --repository pypi dist/* --verbose`
