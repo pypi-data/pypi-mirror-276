@@ -1,0 +1,68 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  FORCE_COLOR: 1
+
+jobs:
+  sdist:
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/pkgconf
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: hynek/build-and-inspect-python-package@v2
+        with:
+          skip-wheel: true
+          dist: dist
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
+        with:
+          print-hash: true
+  wheels:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-13
+          - macos-14
+    environment:
+      name: pypi
+      url: https://pypi.org/p/pkgconf
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - uses: docker/setup-qemu-action@v3
+        if: runner.os == 'Linux'
+        with:
+          platforms: all
+      - run: python -m pip install cibuildwheel
+        env:
+          CIBW_ARCHS_LINUX: auto aarch64 arm ppc64le riscv64 s390x
+      - run: python -m cibuildwheel --output-dir dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wheels-${{ matrix.os }}-${{ strategy.job-index }}
+          path: dist/*.whl
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
+        with:
+          print-hash: true
+
