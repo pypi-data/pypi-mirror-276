@@ -1,0 +1,12 @@
+rpmlint_codeclimate/__init__.py,sha256=cWampXhbenDOi6i0m-NGvNS0QFBQAjqCySprLb5PP5k,337
+rpmlint_codeclimate/__main__.py,sha256=_vxcNLz3yk9JtvrmzwtHRaUW4URXjixAfQhpi_Dq0T4,273
+rpmlint_codeclimate/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+rpmlint_codeclimate/parser.py,sha256=EAOvUdhz8v-5fYka0kaOQV-QfKBc5lw-YBp98T0KJWg,4729
+rpmlint_codeclimate/tests/__init__.py,sha256=VN3sq9Qb1YURZhjGGy2Jvi8f-2BiFx_7Zm_U5ekuWuQ,164
+rpmlint_codeclimate/tests/example.spec,sha256=LP6ulBNzRcoKjzKcVt8Cvashkn-hfodMJyQvIGYUUdM,1751
+rpmlint_codeclimate/tests/test_parser.py,sha256=jV76M-blJGxs5OT1zVqifRyatuCjflRO23bI2nuTwV4,4002
+rpmlint_codeclimate-0.1.0.dist-info/LICENSE,sha256=zN0uTzFar3k-lTcmHSH8CoTUQd55gqCw-6-nBErw_hQ,1083
+rpmlint_codeclimate-0.1.0.dist-info/METADATA,sha256=Soj9O_2Wa1sAlq0tg4gwXLKdm5s0u6t1L7GYLv052L0,1480
+rpmlint_codeclimate-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rpmlint_codeclimate-0.1.0.dist-info/top_level.txt,sha256=xTrYMPKArokZ5I5CyP9wISlbbjwFbidluP57lN7V4l8,20
+rpmlint_codeclimate-0.1.0.dist-info/RECORD,,
