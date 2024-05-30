@@ -1,0 +1,11 @@
+.venv/
+.tests/
+.idea/
+.vscode/
+.cache/
+.codegen/
+dist/
+reports/
+__pycache__/
+.python-version
+.coverage
