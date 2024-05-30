@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+jabutiutils.egg-info/PKG-INFO
+jabutiutils.egg-info/SOURCES.txt
+jabutiutils.egg-info/dependency_links.txt
+jabutiutils.egg-info/requires.txt
+jabutiutils.egg-info/top_level.txt
