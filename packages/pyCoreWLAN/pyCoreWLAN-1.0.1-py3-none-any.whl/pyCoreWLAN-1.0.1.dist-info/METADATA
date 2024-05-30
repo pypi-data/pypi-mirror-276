@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyCoreWLAN
+Version: 1.0.1
+Summary: A Python package that provides stubs for the PyObjC CoreWLAN Wrapper.
+Home-page: https://github.com/lawsonoates/pyCoreWLAN
+Author: Lawson Oates
+Project-URL: Bug Tracker, https://github.com/lawsonoates/pyCoreWLAN/issues
+Project-URL: repository, https://github.com/lawsonoates/pyCoreWLAN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# `pyCoreWLAN`
+
+Provides Python stubs for the Apple [CoreWLAN](https://developer.apple.com/documentation/corewlan) framework and should be used alongside the CoreWLAN wrappers provided by [PyObjC](https://github.com/ronaldoussoren/pyobjc).
+Provides code completion and docstring hints equivalent to the CoreWLAN
+documentation. Intended to work with VS Code Intellisense with Pylance installed.
+
+## Installation & Usage
+
+Install `pyCoreWLAN` as follows:
+
+```
+pip install pyCoreWLAN
+```
+
+For use with VSCode, update the settings to include the path to the package if using a virtual environment.
+
+```json
+{
+  "python.analysis.stubPath": "./.venv/lib/python3.10/site-packages/pyCoreWLAN"
+}
+```
