@@ -1,0 +1,236 @@
+Metadata-Version: 2.1
+Name: pytest-custom_outputs
+Version: 0.1.0
+Summary: A plugin that allows users to create and use custom outputs instead of the standard Pass and Fail
+Author-email: Babak Michael Engheta <michaelengheta55@gmail.com>
+Maintainer-email: Babak Michael Engheta <michaelengheta55@gmail.com>
+License: 
+        Copyright (c) 2024, Babak Michael Engheta
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of pytest-custom_outputs nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Repository, https://github.com/MichaelE55/pytest-custom_outputs
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest >=6.2.0
+
+=====================
+pytest-custom_outputs
+=====================
+
+Features
+--------
+
+- Useful for if you want more than just the default Pass, Fail, and Skip outcomes.
+- Allows for the creation and usage of custom outputs.
+- Custom outputs are filled out in a file called "pytest_custom_outputs.json".
+- Custom outputs are customizable in their name, description, result code, tag, and color.
+- Supports the creation of an unknown output. If no result matches a default or custom output, then it will be categorized as an unknown output.
+- Unknown outputs are also fully customizable.
+
+
+Requirements
+------------
+
+None
+
+
+Installation
+------------
+
+You can install "pytest-custom_outputs" via `pip`_ from `PyPI`_::
+
+    $ pip install pytest-custom_outputs
+
+
+Usage
+-----
+
+In the directory where you will be running your pytest, create a file called "pytest_custom_outputs.json".
+You will use this file to create your own custom outputs.
+
+EXAMPLE FILE:
+###STARTS HERE###
+{
+        "use_unknown_if_no_match": true,
+        "unknown": {
+                "attribute":"_unknown",
+                "status": {
+                        "desc":"unknown",
+                        "code":"?",
+                        "output": {
+                                "tag":"UNKNOWN",
+                                "color":"purple"
+                        }
+                }
+        },
+        "custom_outputs": {
+                "Pass_with_exception": {
+                        "attribute":"_expected_pass",
+                        "status": {
+                                "desc":"passed_with_exception",
+                                "code":"P",
+                                "output": {
+                                        "tag":"XPASSED",
+                                        "color":"green"
+                                }
+                        }
+                },
+                "Fatal_failed": {
+                        "attribute":"_fatal_fail",
+                        "status": {
+                                "desc":"fatal_failed",
+                                "code":"!",
+                                "output": {
+                                        "tag":"FAILED",
+                                        "color":"red"
+                                }
+                        }
+                },
+                "Not_available": {
+                        "attribute":"_not_available",
+                        "status": {
+                                "desc":"not_available",
+                                "code":"N",
+                                "output": {
+                                        "tag":"NOT_AVAILABLE",
+                                        "color":"blue"
+                                }
+                        }
+                },
+                "Failed_but_proceed": {
+                        "attribute":"_fail_but_proceed",
+                        "status": {
+                                "desc":"failed_but_proceed",
+                                "code":"X",
+                                "output": {
+                                        "tag":"FAILED_BUT_PROCEED",
+                                        "color":"red"
+                                }
+                        }
+                },
+                "Unimplemented": {
+                        "attribute":"_unimplemented",
+                        "status": {
+                                "desc":"unimplemented",
+                                "code":"U",
+                                "output": {
+                                        "tag":"UNIMPLEMENTED",
+                                        "color":"yellow"
+                                }
+                        }
+                },
+                "Skipped": {
+                        "attribute":"_skipped",
+                        "status": {
+                                "desc":"skipped",
+                                "code":"S",
+                                "output": {
+                                        "tag":"SKIPPED",
+                                        "color":"yellow"
+                                }
+                        }
+                }
+        }
+}
+###ENDS HERE###
+
+
+use_unknown_if_no_match -> If True, use the unknown output below if there is no match. Otherwise, use standard skip
+unknown -> The output to use if a test's result is not in default or custom outputs 
+custom_outputs -> A dictionary with all the custom outputs you write inside of it. You can edit, delete, and add new outputs here.
+
+Each custom output is denoted by a name. The name is also the key for that output
+For example, in the above example file, "Pass_with_exception" and "Fatal_failed" are the names for their respective output.
+Names are also how we determine the result of a test case. 
+This is done by using skip followed by the name in the parameter.
+
+For example:
+        import pytest
+        from pytest import skip
+
+        def test_1():
+                skip("Pass_with_exception")
+
+
+In the example above, test_1 will result in "passed_with_exception".
+Because the name overrides the outcome, it will not result in a skip.
+We use the keyword skip as a means to obtaining out desired outcome.
+
+If we put a name that is not in our custom output in the skip parameter,
+then
+        if we set unknown to True in the json, we will use the unknown outcome
+        else we will use the default skip and pass the name as a message (Standard skip behavior)
+
+
+The rest of the information in the json file can be edited and customized to your liking. 
+
+
+Contributing
+------------
+Contributions are very welcome. Tests can be run with `tox`_, please ensure
+the coverage at least stays the same before you submit a pull request.
+
+License
+-------
+
+Distributed under the terms of the `BSD-3`_ license, "pytest-custom_outputs" is free and open source software
+
+
+Issues
+------
+
+If you encounter any problems, please `file an issue`_ along with a detailed description.
+
+.. _`Cookiecutter`: https://github.com/audreyr/cookiecutter
+.. _`@hackebrot`: https://github.com/hackebrot
+.. _`MIT`: https://opensource.org/licenses/MIT
+.. _`BSD-3`: https://opensource.org/licenses/BSD-3-Clause
+.. _`GNU GPL v3.0`: https://www.gnu.org/licenses/gpl-3.0.txt
+.. _`Apache Software License 2.0`: https://www.apache.org/licenses/LICENSE-2.0
+.. _`cookiecutter-pytest-plugin`: https://github.com/pytest-dev/cookiecutter-pytest-plugin
+.. _`file an issue`: https://github.com/MichaelE55/pytest-custom_outputs/issues
+.. _`pytest`: https://github.com/pytest-dev/pytest
+.. _`tox`: https://tox.readthedocs.io/en/latest/
+.. _`pip`: https://pypi.org/project/pip/
+.. _`PyPI`: https://pypi.org/project
