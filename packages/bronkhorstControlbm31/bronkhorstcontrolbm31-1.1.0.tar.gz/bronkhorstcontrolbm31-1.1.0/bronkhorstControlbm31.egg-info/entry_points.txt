@@ -1,0 +1,3 @@
+[console_scripts]
+bronkhorstMultiServer = bronkhorstControlbm31.bronkhorstServer:multiServer
+bronkhorstServer = bronkhorstControlbm31.bronkhorstServer:run
