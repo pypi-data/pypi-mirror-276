@@ -1,0 +1,25 @@
+pyserial
+requests
+ipykernel
+numpy
+opencv_contrib_python
+matplotlib
+Jinja2
+sphinx
+sphinx-design
+pydata_sphinx_theme
+sphinx-autoapi
+adafruit-mcp4725
+Adafruit-Blinka
+ipywidgets
+
+[:platform_machine == "aarch64"]
+picamera
+
+[testing]
+setuptools
+pytest
+pytest-cov
+pre-commit
+sphinx
+tox
