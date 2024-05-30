@@ -1,0 +1,196 @@
+Metadata-Version: 2.1
+Name: comfy_catapult
+Version: 2.2.0
+Summary: Programmatically schedule ComfyUI workflows.
+Author-email: AYF <realazthat@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Azriel Fasten.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice (including the next paragraph) shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/realazthat/comfy-catapult
+Project-URL: Documentation, https://github.com/realazthat/comfy-catapult
+Project-URL: Repository, https://github.com/realazthat/comfy-catapult
+Keywords: pipeline,scheduler,stable-diffusion,generative-ai,comfyui
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: aiofiles<24,>=23
+Requires-Dist: aiohttp<4,>=3
+Requires-Dist: aioshutil<2,>=1
+Requires-Dist: aiosignal<2,>=1
+Requires-Dist: annotated-types<1
+Requires-Dist: anyio<5,>=4
+Requires-Dist: attrs<24,>=23
+Requires-Dist: colorama<1,>=0.4
+Requires-Dist: frozenlist<2,>=1
+Requires-Dist: idna<4,>=3
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Requires-Dist: multidict<7,>=6
+Requires-Dist: pydantic<3,>=2
+Requires-Dist: pydantic_core<3,>=2
+Requires-Dist: pydash<8,>=7
+Requires-Dist: python-slugify<9,>=8
+Requires-Dist: PyYAML<7,>=6
+Requires-Dist: rich<14,>=13
+Requires-Dist: rich-argparse<2,>=1
+Requires-Dist: six<2,>=1
+Requires-Dist: sniffio<2,>=1
+Requires-Dist: text-unidecode<2,>=1
+Requires-Dist: toml<1
+Requires-Dist: types-aiofiles<24,>=23
+Requires-Dist: types-colorama<1,>=0.4
+Requires-Dist: typing_extensions<5,>=4
+Requires-Dist: websockets<13,>=12
+Requires-Dist: yarl<2,>=1
+Provides-Extra: prod
+Requires-Dist: aiofiles==23.2.1; extra == "prod"
+Requires-Dist: aiohttp==3.9.3; extra == "prod"
+Requires-Dist: aioshutil==1.3; extra == "prod"
+Requires-Dist: aiosignal==1.3.1; extra == "prod"
+Requires-Dist: annotated-types==0.6.0; extra == "prod"
+Requires-Dist: anyio==4.3.0; extra == "prod"
+Requires-Dist: async-timeout==4.0.3; extra == "prod"
+Requires-Dist: attrs==23.2.0; extra == "prod"
+Requires-Dist: colorama==0.4.6; extra == "prod"
+Requires-Dist: exceptiongroup==1.2.0; extra == "prod"
+Requires-Dist: frozenlist==1.4.1; extra == "prod"
+Requires-Dist: idna==3.6; extra == "prod"
+Requires-Dist: markdown-it-py==3.0.0; extra == "prod"
+Requires-Dist: mdurl==0.1.2; extra == "prod"
+Requires-Dist: multidict==6.0.5; extra == "prod"
+Requires-Dist: pydantic==2.6.4; extra == "prod"
+Requires-Dist: pydantic-core==2.16.3; extra == "prod"
+Requires-Dist: pydash==7.0.7; extra == "prod"
+Requires-Dist: pygments==2.18.0; extra == "prod"
+Requires-Dist: python-slugify==8.0.4; extra == "prod"
+Requires-Dist: pyyaml==6.0.1; extra == "prod"
+Requires-Dist: rich==13.7.1; extra == "prod"
+Requires-Dist: rich-argparse==1.4.0; extra == "prod"
+Requires-Dist: six==1.16.0; extra == "prod"
+Requires-Dist: sniffio==1.3.1; extra == "prod"
+Requires-Dist: text-unidecode==1.3; extra == "prod"
+Requires-Dist: toml==0.10.2; extra == "prod"
+Requires-Dist: types-aiofiles==23.2.0.20240403; extra == "prod"
+Requires-Dist: types-colorama==0.4.15.20240311; extra == "prod"
+Requires-Dist: typing-extensions==4.10.0; extra == "prod"
+Requires-Dist: websockets==12.0; extra == "prod"
+Requires-Dist: yarl==1.9.4; extra == "prod"
+Provides-Extra: dev
+Requires-Dist: aiofiles==23.2.1; extra == "dev"
+Requires-Dist: aiohttp==3.9.3; extra == "dev"
+Requires-Dist: aioshutil==1.3; extra == "dev"
+Requires-Dist: aiosignal==1.3.1; extra == "dev"
+Requires-Dist: annotated-types==0.6.0; extra == "dev"
+Requires-Dist: anyio==4.3.0; extra == "dev"
+Requires-Dist: argcomplete==3.2.3; extra == "dev"
+Requires-Dist: async-timeout==4.0.3; extra == "dev"
+Requires-Dist: attrs==23.2.0; extra == "dev"
+Requires-Dist: autoflake==2.2.1; extra == "dev"
+Requires-Dist: backports-tarfile==1.1.1; extra == "dev"
+Requires-Dist: beautifulsoup4==4.12.3; extra == "dev"
+Requires-Dist: bs4==0.0.2; extra == "dev"
+Requires-Dist: build==1.0.3; extra == "dev"
+Requires-Dist: certifi==2024.2.2; extra == "dev"
+Requires-Dist: cffi==1.16.0; extra == "dev"
+Requires-Dist: cfgv==3.4.0; extra == "dev"
+Requires-Dist: changeguard==0.3.1; extra == "dev"
+Requires-Dist: charset-normalizer==3.3.2; extra == "dev"
+Requires-Dist: click==8.1.7; extra == "dev"
+Requires-Dist: colorama==0.4.6; extra == "dev"
+Requires-Dist: cryptography==42.0.7; extra == "dev"
+Requires-Dist: defusedxml==0.7.1; extra == "dev"
+Requires-Dist: distlib==0.3.8; extra == "dev"
+Requires-Dist: docutils==0.21.2; extra == "dev"
+Requires-Dist: exceptiongroup==1.2.0; extra == "dev"
+Requires-Dist: filelock==3.13.1; extra == "dev"
+Requires-Dist: frozenlist==1.4.1; extra == "dev"
+Requires-Dist: identify==2.5.33; extra == "dev"
+Requires-Dist: idna==3.6; extra == "dev"
+Requires-Dist: importlib-metadata==7.0.1; extra == "dev"
+Requires-Dist: isort==5.13.2; extra == "dev"
+Requires-Dist: jaraco-classes==3.4.0; extra == "dev"
+Requires-Dist: jaraco-context==5.3.0; extra == "dev"
+Requires-Dist: jaraco-functools==4.0.1; extra == "dev"
+Requires-Dist: jeepney==0.8.0; extra == "dev"
+Requires-Dist: jinja2==3.1.3; extra == "dev"
+Requires-Dist: keyring==25.2.1; extra == "dev"
+Requires-Dist: linkify-it-py==2.0.2; extra == "dev"
+Requires-Dist: markdown-it-py==3.0.0; extra == "dev"
+Requires-Dist: markupsafe==2.1.4; extra == "dev"
+Requires-Dist: mdit-py-plugins==0.4.0; extra == "dev"
+Requires-Dist: mdremotifier==0.3.2; extra == "dev"
+Requires-Dist: mdurl==0.1.2; extra == "dev"
+Requires-Dist: mistletoe==1.3.0; extra == "dev"
+Requires-Dist: more-itertools==10.2.0; extra == "dev"
+Requires-Dist: multidict==6.0.5; extra == "dev"
+Requires-Dist: mypy==1.8.0; extra == "dev"
+Requires-Dist: mypy-extensions==1.0.0; extra == "dev"
+Requires-Dist: nh3==0.2.17; extra == "dev"
+Requires-Dist: nodeenv==1.8.0; extra == "dev"
+Requires-Dist: packaging==23.2; extra == "dev"
+Requires-Dist: pathspec==0.12.1; extra == "dev"
+Requires-Dist: pexpect==4.9.0; extra == "dev"
+Requires-Dist: pip-tools==7.3.0; extra == "dev"
+Requires-Dist: pkginfo==1.10.0; extra == "dev"
+Requires-Dist: platformdirs==4.1.0; extra == "dev"
+Requires-Dist: pre-commit==3.6.0; extra == "dev"
+Requires-Dist: ptyprocess==0.7.0; extra == "dev"
+Requires-Dist: pycparser==2.22; extra == "dev"
+Requires-Dist: pydantic==2.6.4; extra == "dev"
+Requires-Dist: pydantic-core==2.16.3; extra == "dev"
+Requires-Dist: pydash==7.0.7; extra == "dev"
+Requires-Dist: pyflakes==3.2.0; extra == "dev"
+Requires-Dist: pygments==2.17.2; extra == "dev"
+Requires-Dist: pyproject-hooks==1.0.0; extra == "dev"
+Requires-Dist: pyright==1.1.352; extra == "dev"
+Requires-Dist: python-slugify==8.0.4; extra == "dev"
+Requires-Dist: pyyaml==6.0.1; extra == "dev"
+Requires-Dist: readme-renderer==43.0; extra == "dev"
+Requires-Dist: regex==2024.5.15; extra == "dev"
+Requires-Dist: requests==2.31.0; extra == "dev"
+Requires-Dist: requests-toolbelt==1.0.0; extra == "dev"
+Requires-Dist: rfc3986==2.0.0; extra == "dev"
+Requires-Dist: rich==13.7.0; extra == "dev"
+Requires-Dist: rich-argparse==1.4.0; extra == "dev"
+Requires-Dist: ruamel-yaml==0.18.5; extra == "dev"
+Requires-Dist: ruamel-yaml-clib==0.2.8; extra == "dev"
+Requires-Dist: secretstorage==3.3.3; extra == "dev"
+Requires-Dist: semver==3.0.2; extra == "dev"
+Requires-Dist: shellingham==1.5.4; extra == "dev"
+Requires-Dist: six==1.16.0; extra == "dev"
+Requires-Dist: sniffio==1.3.1; extra == "dev"
+Requires-Dist: snipinator==1.4.1; extra == "dev"
+Requires-Dist: soupsieve==2.5; extra == "dev"
+Requires-Dist: text-unidecode==1.3; extra == "dev"
+Requires-Dist: toml==0.10.2; extra == "dev"
+Requires-Dist: toml-cli==0.6.1; extra == "dev"
+Requires-Dist: toml-sort==0.23.1; extra == "dev"
+Requires-Dist: tomli==2.0.1; extra == "dev"
+Requires-Dist: tomlkit==0.12.4; extra == "dev"
+Requires-Dist: twine==5.1.0; extra == "dev"
+Requires-Dist: typer==0.12.3; extra == "dev"
+Requires-Dist: types-aiofiles==23.2.0.20240403; extra == "dev"
+Requires-Dist: types-beautifulsoup4==4.12.0.20240511; extra == "dev"
+Requires-Dist: types-colorama==0.4.15.20240311; extra == "dev"
+Requires-Dist: types-html5lib==1.1.11.20240228; extra == "dev"
+Requires-Dist: types-pyyaml==6.0.12.20240311; extra == "dev"
+Requires-Dist: typing-extensions==4.10.0; extra == "dev"
+Requires-Dist: uc-micro-py==1.0.2; extra == "dev"
+Requires-Dist: urllib3==2.2.1; extra == "dev"
+Requires-Dist: virtualenv==20.25.0; extra == "dev"
+Requires-Dist: websockets==12.0; extra == "dev"
+Requires-Dist: wheel==0.43.0; extra == "dev"
+Requires-Dist: xmltodict==0.13.0; extra == "dev"
+Requires-Dist: yapf==0.40.2; extra == "dev"
+Requires-Dist: yarl==1.9.4; extra == "dev"
+Requires-Dist: yq==3.2.3; extra == "dev"
+Requires-Dist: zipp==3.17.0; extra == "dev"
