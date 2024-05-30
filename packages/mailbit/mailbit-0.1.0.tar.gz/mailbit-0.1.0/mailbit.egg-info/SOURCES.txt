@@ -1,0 +1,7 @@
+README.md
+setup.py
+mailbit.egg-info/PKG-INFO
+mailbit.egg-info/SOURCES.txt
+mailbit.egg-info/dependency_links.txt
+mailbit.egg-info/requires.txt
+mailbit.egg-info/top_level.txt
