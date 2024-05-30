@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: suiutils-pro-py
+Version: 1.0.8
+Summary: This project is dedicated to sharing and teaching the sui techniques of crypto engineering.
+Home-page: https://github.com/satisfywithmylife/sui_python_sdk
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: httpx
+Requires-Dist: pynacl
+
