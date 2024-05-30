@@ -1,0 +1,45 @@
+# Brain Slice Classifier
+
+The Python package provides tools for classifying the specified brain slices based on the [Cholinergic Pathways HyperIntensities Scale](https://www.ahajournals.org/doi/full/10.1161/01.STR.0000183615.07936.b6).
+
+If you are interested in specific explanations of brain slices, please refer to [this link](https://github.com/KevinTsaiCodes/WMHQ-Software/blob/master/BSC%20brain%20slice%20classifier/dataset/README.md) for further details.
+
+
+### Installation
+
+You can install `BrainSliceClassifier` via `pip`:
+
+```commandline
+pip install BrainSliceClassifier
+```
+
+> ###### _**Note:**_ It is recommended to use `BrainSliceClassifier` on Python 3.8 and above.
+
+#### **Notice:**
+
+> Remember to create a directory named `dataset` and four separate subdirectories within it.
+ 
+    - dataset
+    |-- class 1 (./dataset/class 1/)
+    |-- class 2 (./dataset/class 2/)
+    |-- class 3 (./dataset/class 3/)
+    |-- class 4 (./dataset/class 4/)
+
+> Remember to create a directory named `bsc_model` to save the `BrainSliceClassifier` deep learning-based model.
+ 
+### **Usage**
+
+#### Call `BrainSliceClassifier` directly from Python
+
+```python
+from BrainSliceClassifier import Trainer
+Trainer(batch_size=batch_size, n_epochs=num_epochs, learning_rate=learning_rate, k_fold=k_fold)
+```
+
+- `batch_size:` **_Batch Size_** refers to the number of data samples (images in this case) that are processed together in one iteration during training. It's a hyperparameter that determines how many samples are used to compute the gradient and update the model's parameters in each training step. Choosing an appropriate batch size can affect the training dynamics, memory consumption, and computational efficiency of the training process. `(default: 32)`
+
+- `num_epochs:` **_Num Epochs_** stands for the number of times the entire dataset is passed forward and backward through the neural network during the training process. Each pass constitutes one epoch. Training for multiple epochs allows the model to learn from the entire dataset multiple times, refining its parameters with each iteration. The choice of the number of epochs depends on factors like the complexity of the dataset, convergence behavior, and computational resources. Too few epochs may result in underfitting, while too many epochs may lead to overfitting. `(default: 20)`
+
+- `learning_rate:` **_Learning Rate_** is a hyperparameter that controls the size of the steps taken during the optimization process of training a neural network. It determines the magnitude of updates to the model's parameters (weights) in each iteration of the optimization algorithm, such as stochastic gradient descent (SGD) or Adam. A higher learning rate means larger steps and faster convergence, but it may risk overshooting the optimal solution or causing instability. Conversely, a lower learning rate leads to slower convergence but more stable training. Finding an appropriate learning rate is crucial for achieving good performance during training. `(default: 0.001)`
+
+- `k_fold:` _**K-fold cross-validation**_ is a technique used to evaluate the performance of a machine learning model. In this technique, the original dataset is divided into K equal-sized folds. The model is trained and evaluated K times, each time using a different fold as the validation set and the remaining folds as the training set. This process allows for a more robust estimation of the model's performance because it ensures that each data point is used for both training and validation exactly once. The final performance metric is usually averaged over the K iterations to obtain a more reliable estimate. K-fold cross-validation is commonly used to assess the generalization ability of a model and to tune hyperparameters. `(default: 8)`

@@ -1,0 +1,8 @@
+README.md
+setup.py
+BrainSliceClassifier.egg-info/PKG-INFO
+BrainSliceClassifier.egg-info/SOURCES.txt
+BrainSliceClassifier.egg-info/dependency_links.txt
+BrainSliceClassifier.egg-info/entry_points.txt
+BrainSliceClassifier.egg-info/requires.txt
+BrainSliceClassifier.egg-info/top_level.txt
