@@ -1,0 +1,12 @@
+fs/__init__.py,sha256=5q16TslS9qVo4XEA6ilpG02dpF4jlB70Ize3p5FDRlQ,166
+fs/__init__.pyi,sha256=klFpsY9Cp8z-jVkrpvWb2c1oVXu9APXmUSDTBBxnVjg,424
+fs/compression.py,sha256=OWaKVliWMc1imWFgGbYheetQ7gcKqilS7WSj0CaY5m4,1175
+fs/io.py,sha256=fyARtxGYN9WaNIBVNzp8gSBp8KkTT2Q1i_IN5IRH7RU,1971
+fs/moving.py,sha256=E_SCmad897O3AKvCN9h4wSrmFYyLUMx36yaFAoBWgTA,783
+fs/parallel.py,sha256=-cg9s-2elcAlfxZCNmzVLo81HYc_bVoPipxtVPX-AvM,850
+fs/paths.py,sha256=XKlR43l3wPYSJI4il6hEgqVzE8MduAk_Y5rNjNV0pRA,665
+fs/reading.py,sha256=TByEQgYrdNN9CgjGrREbTz9mD7qNfd20SnEymjWpef0,195
+fs_tools-0.1.14.dist-info/METADATA,sha256=KrqyiXvy9rMP0A6n0wn3uiTWLbLxKEkqQSVqnNcAZ0c,402
+fs_tools-0.1.14.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fs_tools-0.1.14.dist-info/top_level.txt,sha256=387pB38TPn9aMO3b518yxXxgB0uN0XWa1WNbSnES7r8,3
+fs_tools-0.1.14.dist-info/RECORD,,
