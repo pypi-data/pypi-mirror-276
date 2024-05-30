@@ -1,0 +1,12 @@
+BATT_AMP_PERVLT,57
+BATT_ARM_VOLT,15
+BATT_CAPACITY,1800
+BATT_CRT_MAH,450
+BATT_CRT_VOLT,14
+BATT_FS_CRT_ACT,1  # flying indoors, just land ASAP, no need to hit the celing while doing RTL
+BATT_FS_LOW_ACT,1  # flying indoors, just land ASAP, no need to hit the celing while doing RTL
+BATT_FS_VOLTSRC,1
+BATT_LOW_MAH,600
+BATT_LOW_VOLT,14.4
+BATT_MONITOR,4
+BATT_VOLT_MULT,10.985 # Use a power source with a voltage close to BATT_LOW_VOLT measure with a calibrated voltimeter and adapt this parameter so that the telemetry voltage reading matches it
