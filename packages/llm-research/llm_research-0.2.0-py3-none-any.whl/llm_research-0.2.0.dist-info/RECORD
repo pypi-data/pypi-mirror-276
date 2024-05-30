@@ -1,0 +1,10 @@
+llm_research/__init__.py,sha256=sdwmI-Hi_KxZmrDVhNfVFSgXLTxNlV-of52jHMRHsBE,82
+llm_research/model/base_model.py,sha256=WWnhnNTL9uyasnDfa6ojGYqJCfdcvK4YxISVXJgu2vY,6797
+llm_research/model/models.py,sha256=A3VMlYHdNpPYP4cE3dzF60foM_iGh8KgWvF2EkoMea4,1037
+llm_research/model/prompt.py,sha256=89YYGdrnk2dkt3nZEEXQBqDbQbGgN3ti9sVhRpUSgiU,5000
+llm_research/model/utils.py,sha256=bYwbRNlL9B2UTISyGbgF7WO8nqcAW5p_ljcNQZVc4v0,1242
+llm_research/utils.py,sha256=zD_NPdxorcpxljqL8QAZuZTFDBUu2EgcDGFq7tjcsJA,1715
+llm_research-0.2.0.dist-info/LICENSE,sha256=igFJt11lMacoDvp9wPDj3edxJlpYtyc_3nQ8yJs4iuE,1071
+llm_research-0.2.0.dist-info/METADATA,sha256=RitzoCQ-MRwH8Pf14NA03_qYQmS_jbFGxmd820wyeNo,912
+llm_research-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llm_research-0.2.0.dist-info/RECORD,,
