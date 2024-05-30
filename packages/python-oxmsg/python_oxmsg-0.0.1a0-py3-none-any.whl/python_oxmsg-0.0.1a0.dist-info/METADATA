@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: python-oxmsg
+Version: 0.0.1a0
+Summary: Extract attachments from Outlook .msg files.
+Author-email: Steve Canny <stcanny@gmail.com>
+License: MIT
+Project-URL: Changelog, https://github.com/scanny/python-oxmsg/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://scanny.github.io/python-oxmsg/
+Project-URL: Homepage, https://github.com/scanny/python-oxmsg
+Project-URL: Repository, https://github.com/scanny/python-oxmsg
+Keywords: ms-oxmsg,outlook,email
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: File Formats
+Classifier: Topic :: Office/Business :: Office Suites
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: olefile
+Requires-Dist: typing-extensions >=4.9.0
+
+[![MIT License](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE.txt)
+[![on PyPI](https://img.shields.io/badge/pypi-0.0.1-blue.svg)](https://pypi.org/project/python-oxmsg/0.0.1/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-brightgreen.svg)](https://www.python.org/downloads/)
+[![Read the Docs](https://readthedocs.org/projects/python-oxmsg/badge/?version=latest)](https://python-oxmsg.readthedocs.io/)
+
+# python-oxmsg
+
+Parse Outlook MSG (.msg) files to extract email messages and attachments.
+
+The target use case is extracting Outlook message text and accessing attachments. There is no support for modifying messages or creating them from scratch. In addition to message text, other message properties such as sent-date, etc. are also accessible.
+
+## Installation
+```bash
+pip install python-oxmsg
+```
+
+Occasionally it can be useful to install from a GitHub branch, perhaps to try out a version that has not yet been released. This command would install from the `develop` branch:
+```bash
+pip install git+https://github.com/scanny/python-oxmsg@develop
+```
+
+## Changelog
+
+The release history including a chronicle of notable changes with each release is
+recorded in [CHANGELOG.md](https://github.com/scanny/python-oxmsg/blob/master/CHANGELOG.md).
