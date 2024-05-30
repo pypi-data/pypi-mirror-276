@@ -1,0 +1,9 @@
+airgradient/__init__.py,sha256=z9d_D42ZtUK0TRyo_dXXTA5C6opC2vtbrGoqHrDPJRU,540
+airgradient/airgradient.py,sha256=di7QXdV2-KUQBbHL3mfPp24NwhfHfXhSpt_EQXV4R7I,3893
+airgradient/exceptions.py,sha256=rb-gOVIGsOh_xA11XivUT2bgblaW0RuI2jeF2MRR7nw,214
+airgradient/models.py,sha256=CWxVP_SvM82tMtHHmgonBDy3lRmjkwj8UdOaMu7bMWc,2728
+airgradient/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airgradient-0.4.2.dist-info/LICENSE.md,sha256=YPoWz4N_Jc2nzUC_moLCsWCFH6ieEWCMovckarfcdGM,1070
+airgradient-0.4.2.dist-info/METADATA,sha256=9b-9PCQboYFh7PLBFyDuuYS-cV6fM5C5tdPt4dxQAuE,6007
+airgradient-0.4.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airgradient-0.4.2.dist-info/RECORD,,
