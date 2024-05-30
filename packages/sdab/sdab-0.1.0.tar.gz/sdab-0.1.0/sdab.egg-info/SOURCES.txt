@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sdab/__init__.py
+sdab.egg-info/PKG-INFO
+sdab.egg-info/SOURCES.txt
+sdab.egg-info/dependency_links.txt
+sdab.egg-info/requires.txt
+sdab.egg-info/top_level.txt

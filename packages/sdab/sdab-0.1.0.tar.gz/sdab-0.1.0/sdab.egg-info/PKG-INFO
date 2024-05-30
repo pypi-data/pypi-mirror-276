@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: sdab
+Version: 0.1.0
+Summary: Khmer Speech To Text Inference API using Wav2Vec2 with Pretrain Model
+Home-page: https://github.com/MetythornPenn/sdab.git
+Author: Metythorn Penn
+Author-email: metythorn@gmail.com
+License: Apache Software License 2.0
+Description: # Sdab
+        
+        #### Khmer Automatic Speech Recognition
+        
+         
+        Sdab is a Python package for Automatic Speech Recognition with focus on Khmer language. It have offline khmer automatic speech recognition model from my Pretrain Model and other that using Wav2Vec2 model.
+        
+        License: [Apache-2.0 License](https://github.com/MetythornPenn/sdab/blob/main/LICENSE)
+        
+        Pretrain Model: [Huggingface](https://huggingface.co/metythorn/khmer-asr-openslr)
+        
+        ## Install From Source
+        
+        ```sh
+        
+        # clone repo 
+        git clone https://github.com/MetythornPenn/sdab.git
+        
+        # install lib from source (recommend python 3.8)
+        pip install -e .
+        ```
+        
+        ## Usage
+        
+        ```python
+        from sdab import Sdab
+        
+        file_path = "sample/audio.wav"
+        model_name = "metythorn/khmer-asr-openslr"  # or local directory path
+        
+        sdab = Sdab( file_path = file_path, model_name = model_name)
+        print(sdab.result)
+        
+        # result : ស្ពានកំពងចំលងអ្នកលើងនៅព្រីវែញជាស្ពានវេញជាងគេសក្នុងព្រសរាជាអាចកម្ពុជា
+        ```
+        
+        - `file_path`: path of audio file
+        - `model_name` : pretrain model path from `huggingface` or `local`
+        - `device` : should be `cpu` or `cuda` but I use `cpu` by default
+        - `tokenized`: show `[PAD]` in output, `False` by default
+        - `return`: Khmer text from ASR
+        
+        ## Reference 
+        - Inspired by [Techcast](https://www.youtube.com/watch?v=ekhFo-6JzLQ&t=28s)
+        - Khmer word segmentation from SeangHay [khmercut](https://github.com/seanghay/khmercut.git) | [khmersegment](https://github.com/seanghay/khmersegment)
+        - Wav2Vec2 from Facebook [Wav2Vec2](https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md)
+        
+Keywords: asr
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
