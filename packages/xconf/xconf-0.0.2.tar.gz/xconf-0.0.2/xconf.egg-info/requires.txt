@@ -1,0 +1,13 @@
+toml>=0.10.2
+
+[all]
+ray
+pytest
+fsspec
+
+[contrib]
+fsspec
+ray
+
+[dev]
+pytest
