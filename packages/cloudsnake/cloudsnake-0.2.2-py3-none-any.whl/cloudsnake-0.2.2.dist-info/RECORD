@@ -1,0 +1,14 @@
+cloudsnake/__init__.py,sha256=5NCTG_STdy5BuVoLUfnRw9n0_YkzMSeDbaiAkKI3tNM,100
+cloudsnake/__main__.py,sha256=8BxcgrzulRm3io9xy3n3HNS5KGG10znsrkJHy5OLzOc,186
+cloudsnake/cli.py,sha256=CCth9if0Cr8OuV2xRmboy87GLlT5ssPFzlFcVJxFGRE,2696
+cloudsnake/ec2.py,sha256=vFK1exnq9bK2TYZE-lL67h3leVaPfg9OGoRjWMP9meU,2016
+cloudsnake/helpers.py,sha256=d4rQb2ZGFFgC794wkFrArYqZkK-JnZWnAe5oUuromN0,1119
+cloudsnake/logger.py,sha256=O02F_MAEKeIXZtQeN7FopJmXrj0Tep8RgZ1rALYuqjY,1508
+cloudsnake/session.py,sha256=Wt8yB7XInFxzywN6AFICMyj90JaJNbTBUvL7J5xtYcQ,1548
+cloudsnake/ssm.py,sha256=cDdDX6Cp_TqLo1AQ92keOv-1ukKud-02RWVvnpR1IXY,1885
+cloudsnake/tui.py,sha256=DCBZiErvYb8-Jwvpeetrkgme1a67KGng8-u9Ha8w84s,1784
+cloudsnake-0.2.2.dist-info/LICENSE.txt,sha256=ZXWER_507ed3pcmckJT_T3GVn5y1TwjxOZ9525Vwhzo,1092
+cloudsnake-0.2.2.dist-info/METADATA,sha256=fbohREWmrNCYeUnkDIL7dDaywv5c4dlgaDlizqmvPFo,7054
+cloudsnake-0.2.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cloudsnake-0.2.2.dist-info/entry_points.txt,sha256=2_2Tq-Tk4XIMBUdXnxk2fBiyQeyT4yxtmuBDKU5eZlc,55
+cloudsnake-0.2.2.dist-info/RECORD,,
