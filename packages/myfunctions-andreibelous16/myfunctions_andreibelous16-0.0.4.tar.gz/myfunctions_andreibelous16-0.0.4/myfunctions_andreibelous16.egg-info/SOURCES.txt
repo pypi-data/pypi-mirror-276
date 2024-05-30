@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_andreibelous16/__init__.py
+myfunctions_andreibelous16/math.py
+myfunctions_andreibelous16.egg-info/PKG-INFO
+myfunctions_andreibelous16.egg-info/SOURCES.txt
+myfunctions_andreibelous16.egg-info/dependency_links.txt
+myfunctions_andreibelous16.egg-info/top_level.txt
