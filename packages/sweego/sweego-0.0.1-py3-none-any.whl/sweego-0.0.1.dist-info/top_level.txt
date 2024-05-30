@@ -1,0 +1,2 @@
+sweego
+sweego_api
