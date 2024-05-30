@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "populate_dotenv"
+version = "0.1.0"
+description = ""
+authors = ["Luca Mattiazzi <luca.mattiazzi@illimity.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+azure-identity = "^1.16.0"
+azure-keyvault-secrets = "^4.8.0"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core", "setuptools>=42", "wheel"]
+build-backend = "poetry.core.masonry.api"
