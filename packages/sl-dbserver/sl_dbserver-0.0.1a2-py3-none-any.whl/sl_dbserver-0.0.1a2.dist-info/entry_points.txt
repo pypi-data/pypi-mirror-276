@@ -1,0 +1,2 @@
+[console_scripts]
+sl-dbserver = sl.dbserver.cli:start_server
