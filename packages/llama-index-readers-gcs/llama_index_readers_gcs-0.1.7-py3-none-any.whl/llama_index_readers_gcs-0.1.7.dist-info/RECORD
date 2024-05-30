@@ -1,0 +1,5 @@
+llama_index/readers/gcs/__init__.py,sha256=P6CuK98G2Ts7CPFLoMEYJ5UEiHU1I_Wh3xf91n9LaSM,76
+llama_index/readers/gcs/base.py,sha256=E3JxB3sTSGzQxJ9bIirs0Wy0HdyOyQHn785pfllIaoM,4582
+llama_index_readers_gcs-0.1.7.dist-info/METADATA,sha256=V_M2EgVtkj8J80fKUolb9Rzr_QV8oU_YYIx6ChQ445U,2055
+llama_index_readers_gcs-0.1.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_readers_gcs-0.1.7.dist-info/RECORD,,
