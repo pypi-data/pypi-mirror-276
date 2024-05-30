@@ -1,0 +1,32 @@
+{% extends live_template_path %}
+
+{% block header_html %}
+{% if not for_embed and not for_print %}
+{% set absolute_automation_uri = root_uri + automation_definition.uri %}
+{% set absolute_batch_uri = absolute_automation_uri + batch_definition.uri %}
+<nav class="_breadcrumb" aria-label="breadcrumb">
+<ul>
+<li><a href="{{ root_uri or '/' }}">Automations</a></li>
+<li><a href="{{ absolute_automation_uri }}">{{ automation_definition.name }}</a></li>
+<li>{{ batch_definition.name }}</li>
+<li>
+{% for a_step_name, variable_definitions in automation_definition.variable_definitions_by_step_name.items() if a_step_name != 'debug' and variable_definitions %}
+{% set is_this = a_step_name == step_name %}
+{% if is_this %}
+<b>
+{% endif %}
+<a href="{{ absolute_batch_uri }}/{{ a_step_name[0] }}" {% if is_this %}aria-current="page"{% endif %}>{{ a_step_name }}</a>
+{% if is_this %}
+</b>
+{% endif %}
+{% endfor %}
+</li>
+</ul>
+</nav>
+{% endif %}
+{% endblock %}
+
+{% block body_js %}
+{% include 'step-body.js' %}
+{{ super() -}}
+{% endblock %}

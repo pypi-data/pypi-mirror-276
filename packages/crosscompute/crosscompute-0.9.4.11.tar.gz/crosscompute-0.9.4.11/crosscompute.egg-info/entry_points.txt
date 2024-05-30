@@ -1,0 +1,19 @@
+[console_scripts]
+crosscompute = crosscompute.scripts.launch:do
+
+[crosscompute.views]
+checkbox = crosscompute.routines.variable.CheckboxView
+email = crosscompute.routines.variable.EmailView
+file = crosscompute.routines.variable.FileView
+frame = crosscompute.routines.variable.FrameView
+image = crosscompute.routines.variable.ImageView
+json = crosscompute.routines.variable.JsonView
+link = crosscompute.routines.variable.LinkView
+markdown = crosscompute.routines.variable.MarkdownView
+number = crosscompute.routines.variable.NumberView
+password = crosscompute.routines.variable.PasswordView
+pdf = crosscompute.routines.variable.PdfView
+radio = crosscompute.routines.variable.RadioView
+string = crosscompute.routines.variable.StringView
+table = crosscompute.routines.variable.TableView
+text = crosscompute.routines.variable.TextView
