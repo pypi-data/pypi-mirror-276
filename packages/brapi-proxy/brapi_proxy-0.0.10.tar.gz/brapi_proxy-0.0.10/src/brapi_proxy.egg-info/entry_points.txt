@@ -1,0 +1,2 @@
+[console_scripts]
+brapi_proxy = brapi_proxy.service:service
