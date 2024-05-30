@@ -1,0 +1,3 @@
+[console_scripts]
+ska=ska.cli:cli_ska
+
