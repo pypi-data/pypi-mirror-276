@@ -1,0 +1,7 @@
+typegraph/__init__.py,sha256=XLxHyJijw1BlE18fvm95z5pxddHXME0D-7gEaIDldUM,111
+typegraph/core.py,sha256=CQIf2dOEWvm3-4xAm7PqFSgo3cSWUnRHt5khQoqXvt0,24100
+typegraph/type_utils.py,sha256=kFIfB83eOyHVVjQac3IUxzZ_arhfWs4OdkZEcv8vAP8,4416
+typegraph3-0.1.1.dist-info/METADATA,sha256=N2Mb8KXehFylpxJibdPw5iLpLHtZkcA79-YCOSWErJI,6625
+typegraph3-0.1.1.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+typegraph3-0.1.1.dist-info/licenses/LICENSE,sha256=aTqayBg6S0X5A5K_FiO3t3BuXSEXP4QLWoRjL9YcexI,1066
+typegraph3-0.1.1.dist-info/RECORD,,
