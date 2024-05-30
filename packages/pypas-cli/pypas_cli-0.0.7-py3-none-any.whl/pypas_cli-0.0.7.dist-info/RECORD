@@ -1,0 +1,14 @@
+pypas/__init__.py,sha256=KSaiNBq8K_E_uVU_5cQxBE8PwjxHWtjHkiGwuwV5UZ4,189
+pypas/main.py,sha256=g_pAK7cDsfdKArMJSR57mEUZRKR41dkL75kJznjmmlM,1683
+pypas/settings.py,sha256=NXMCU3C53HWHZieEYotw6OFIISUEHhIGT9hTRayk--E,464
+pypas/lib/auth.py,sha256=S9rzZAbaOoIUbBOGacX4Q9BFeGlhDGJPoIzbNm66_uw,966
+pypas/lib/config.py,sha256=39bC0KsiNapR0lJHpnonzHqSPlRoRlZ4VfffbL9Qt1M,679
+pypas/lib/console.py,sha256=MkwWqJZwtoVoFwlOMsJje8WxKXzG9p9sbrk0Fqz577U,1370
+pypas/lib/decorators.py,sha256=NEnvky9FjdGXY_OlQErlNC7p75jFWUmmP9W3d8J8da8,366
+pypas/lib/exercise.py,sha256=17Z8ROxeIoxm9eATipcYfROBNuNgru64L3wci14L7ks,2698
+pypas/lib/utils.py,sha256=migXDnF3ScFdOHXjL5zthSZmU8hnqn3qzm_ALTn6wKE,1936
+pypas_cli-0.0.7.dist-info/METADATA,sha256=9wzBq8KYlumLuPe2M7RI5485amQ0FT2ko4q3TtSTqQ4,1975
+pypas_cli-0.0.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pypas_cli-0.0.7.dist-info/entry_points.txt,sha256=5rZIpDjGELdcLUsSS5dCFAgeUB_8rn-L867m0-VfGig,41
+pypas_cli-0.0.7.dist-info/licenses/LICENSE,sha256=L8-0qeT6BwpkkYhv4Xw8xWCYvQ2yae-guwHurwHvmaY,1080
+pypas_cli-0.0.7.dist-info/RECORD,,
