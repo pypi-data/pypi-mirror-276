@@ -1,0 +1,49 @@
+.TH CATA 2024-05-25
+.nh
+.SH NAME
+cata \- TUI calendar and task manager
+.SH SYNOPSIS
+.B cata
+[ \fIOPTION\fR ]
+.SH DESCRIPTION
+.B Cata
+is a TUI calendar and task manager program with a customizable interface and ability to read cloud calendars.
+.SH OPTIONS
+
+.TP
+\fB\-v \fP
+Print version.
+
+.TP
+\fB\-h \fP
+Start on help page.
+
+.TP
+\fB\-j \fP
+Start on journal view.
+
+.TP
+\fB\-i \fP
+Start using Iranian calendar.
+
+.TP
+\fB\-p \fP
+Start in the privacy mode.
+
+.TP
+\fB\-c \fP \fI<filename>\fR
+Use an alternative configuration file (default is \fI$HOME/.config/cata/config.ini\fR).
+
+.TP
+\fB\-\-task "<task title>"\fP
+Add a new task (without starting TUI).
+
+.TP
+\fB\-\-event "<event date> <event title>"\fP
+Add a new event (without starting TUI).
+
+.SH COMMANDS DURING USE
+Press '\fB?\fP' during use to get a list of keybindings.
+.br
+.SH AUTHOR
+Written by Artem Svyatov.

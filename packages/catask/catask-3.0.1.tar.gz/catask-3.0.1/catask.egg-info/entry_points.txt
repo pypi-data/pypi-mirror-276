@@ -1,0 +1,2 @@
+[console_scripts]
+cata = cata.__main__:cli
