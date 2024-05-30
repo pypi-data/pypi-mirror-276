@@ -1,0 +1,11 @@
+secrules_parsing/__init__.py,sha256=5fVLfYyVw2_FK3-qrURR7V1w-rqTN2_QG_QH04TkeGg,76
+secrules_parsing/cli.py,sha256=gEWztGUKCxSDVEgkYelrzPe363htHVgU4NxlkVE2b2E,2655
+secrules_parsing/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secrules_parsing/model/secrules.tx,sha256=TfjEnI0G4sH-S3D_pInNKHuwg-TF1dA6abOoiXOnj08,11747
+secrules_parsing/parser.py,sha256=1cOfIBroO2ii8l8L_8pqW33k9gjXDHHFmZ5FTzB6Ivo,3564
+secrules_parsing/resources.py,sha256=o5jWjE-xFKd2MKgKes5CQ3vo8ujSddD0X9i8TEKo2tg,291
+secrules_parsing-0.2.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+secrules_parsing-0.2.10.dist-info/METADATA,sha256=mS3YXVc0fWkp17YgFq-PEPWiCHPcqdOAzMqCDHDgoPc,6123
+secrules_parsing-0.2.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+secrules_parsing-0.2.10.dist-info/entry_points.txt,sha256=8RdK0RStZVya4xgvJOWPbGtXrQiTchhMCjkhxLFZjFs,60
+secrules_parsing-0.2.10.dist-info/RECORD,,
