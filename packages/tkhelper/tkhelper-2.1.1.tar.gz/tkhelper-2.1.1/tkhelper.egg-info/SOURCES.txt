@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+tests/tests.py
+tkhelper/__init__.py
+tkhelper/package_info.py
+tkhelper/py.typed
+tkhelper/widgets.py
+tkhelper.egg-info/PKG-INFO
+tkhelper.egg-info/SOURCES.txt
+tkhelper.egg-info/dependency_links.txt
+tkhelper.egg-info/requires.txt
+tkhelper.egg-info/top_level.txt
+tkhelper/progressbars/__init__.py
+tkhelper/progressbars/circular.py
