@@ -1,0 +1,13 @@
+celldex/__init__.py,sha256=LTtk2x6uIQEJvM4zqyAJ4TbGLAHBxRWzg_kde-H4y0g,886
+celldex/fetch_reference.py,sha256=TRNPMtlDdra1lSPFO0ZZQoUWmK4Vj5LnPSY4bKgViSI,4056
+celldex/list_references.py,sha256=RyZTw_-ecnoCQRRzX8FczquVe9xbF_F7i-_2X8wtM7M,6099
+celldex/list_versions.py,sha256=fs-n246zgAxHBwPnucCjP3LEhC4pujGnEU-NIl6RQi8,1121
+celldex/save_reference.py,sha256=QdK4OPI5veqSRrYxm0nHUHYlwJp0Pl7txNhzGTk1H08,5288
+celldex/search_references.py,sha256=XJFnrQ7dL3wph5yDSNVcWLMinWzXz2XHLB6H8joYTcA,3374
+celldex/upload_reference.py,sha256=JlcapUvIJIl6QWgVUsamxFcOf-XzJ_85n9fKX50SBvs,2450
+celldex/utils.py,sha256=2E8sk26QNwQcqoSkS2e4CjypQxBfqWkWSMhbUyLjewc,2886
+celldex-0.1.0.dist-info/LICENSE.txt,sha256=kXGI4eKM3dFP79vCaYersRg8MA4GYpZ9oEiGwdIGGA8,1084
+celldex-0.1.0.dist-info/METADATA,sha256=mHhXLP-VI1-c0t5z9LRnrCbl3WRlUKfErAIZVOsWj6Y,8625
+celldex-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+celldex-0.1.0.dist-info/top_level.txt,sha256=STtDDU66HOk8Ug1sdrzrI7k7-6W8Nrjmx3k2CB43pXA,8
+celldex-0.1.0.dist-info/RECORD,,
