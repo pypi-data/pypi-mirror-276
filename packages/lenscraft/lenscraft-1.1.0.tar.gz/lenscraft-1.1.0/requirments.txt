@@ -1,0 +1,7 @@
+dearpygui==1.10.0
+numpy==1.26.4
+opencv-python==4.9.0.80
+pillow==10.2.0
+shapely==2.0.3
+nanoid==2.0.0
+keras==3.3.3
