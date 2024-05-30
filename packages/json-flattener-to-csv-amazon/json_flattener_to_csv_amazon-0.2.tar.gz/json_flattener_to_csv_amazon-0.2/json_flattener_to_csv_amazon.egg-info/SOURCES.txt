@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+json_flattener_to_csv_amazon/__init__.py
+json_flattener_to_csv_amazon/flattener.py
+json_flattener_to_csv_amazon.egg-info/PKG-INFO
+json_flattener_to_csv_amazon.egg-info/SOURCES.txt
+json_flattener_to_csv_amazon.egg-info/dependency_links.txt
+json_flattener_to_csv_amazon.egg-info/requires.txt
+json_flattener_to_csv_amazon.egg-info/top_level.txt
+tests/test_flattener.py
