@@ -1,0 +1,2 @@
+[console_scripts]
+iac-inscript = inscript.cmdline:execute

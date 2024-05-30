@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+iac_inscript.egg-info/PKG-INFO
+iac_inscript.egg-info/SOURCES.txt
+iac_inscript.egg-info/dependency_links.txt
+iac_inscript.egg-info/entry_points.txt
+iac_inscript.egg-info/requires.txt
+iac_inscript.egg-info/top_level.txt
+inscript/__init__.py
+inscript/cmdline.py
+inscript/encrypt_py.py
+inscript/log.py
+inscript/main.py
+tests/test.py
