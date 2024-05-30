@@ -1,0 +1,5 @@
+setup.py
+numberhenkou13517.egg-info/PKG-INFO
+numberhenkou13517.egg-info/SOURCES.txt
+numberhenkou13517.egg-info/dependency_links.txt
+numberhenkou13517.egg-info/top_level.txt
