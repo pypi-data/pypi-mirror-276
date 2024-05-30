@@ -1,0 +1,2 @@
+[console_scripts]
+YWP_install_AIMP = YWP:AIMP_Run
