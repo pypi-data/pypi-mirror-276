@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: whut
+Version: 0.4.0
+Summary: A CLI tool to instantly search the internet using Google Generative AI in decluttered manner.
+Home-page: https://github.com/pkdeva/whut
+Author: Priyanshu K
+Author-email: priyanshu.txt@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Whut
+
+Whut is a command-line tool that allows you to search the internet using Google Generative AI. It provides a simple interface to get decluttered answers for your queries.
+
+## What you get:
+
+- Search the internet directly from your terminal.
+- Customize the search prompt.
+- Simple and easy-to-use command-line interface.
+
+## Installation
+
+You can install Whut from PyPI:
+
+```pip install whut```
+
+
+## Usage
+To use Whut, simply type:
+
+```whut "your search query"```
+
+- Example:
+```whut "Mahatma Gandhi"```
+
+
+# Custom Prompt
+You can customize the prompt used for searching by using the -C or --custom option:
+
+```whut -C "Please provide detailed information about: {query}" "your search query"```
+
+- Example:
+```whut -C "Tell me in detail about: {query}" "Sam Altman"```
+
+
