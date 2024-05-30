@@ -1,0 +1,24 @@
+[project]
+name = "OpenAI-Python-Client"
+version = "0.2.1"
+description = "A pure-python implementation built from OpenAPI-Python-Client Generator https://github.com/openapi-generators/openapi-python-client and OpenAI's published OpenAPI spec https://github.com/openai/openai-openapi"
+authors = [
+    {name = "Ian Goforth", email = "ian.goforth@gmail.com"},
+]
+dependencies = [
+    "httpx>=0.27.0",
+    "attrs>=23.2.0",
+    "python-dateutil>=2.9.0.post0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "openapi-python-client>=0.19.1",
+]
