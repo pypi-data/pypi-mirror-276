@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyerualjetwork
+Version: 1.3.3
+Summary: Advanced python deep learning library. New Features: 'SyntheticAugmentation' function added for unbalanced datasets. Changes for variable names to snake_case (Function names are still PascalCase). (Documentation in desc. Examples in GİTHUB: https://github.com/HCB06/PyerualJetwork)
+Author: Hasan Can Beydili
+Author-email: tchasancan@gmail.com
+Keywords: model evaluation,classifcation,pruning learning artficial neural networks
