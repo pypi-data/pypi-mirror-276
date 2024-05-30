@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mem_client.egg-info/PKG-INFO
+mem_client.egg-info/SOURCES.txt
+mem_client.egg-info/dependency_links.txt
+mem_client.egg-info/entry_points.txt
+mem_client.egg-info/requires.txt
+mem_client.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client.py
