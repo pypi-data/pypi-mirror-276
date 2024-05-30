@@ -1,0 +1,26 @@
+[project]
+name = "SMASunnyIsland"
+version = "0.44"
+authors = [
+  { name="Harm van den Brink", email="harmvandenbrink@gmail.com" },
+]
+description = "A Python library for controlling SMA Sunny Island inverters"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'pyserial',
+  'pymodbus==2.5.3',
+]
+
+[project.urls]
+Homepage = "https://github.com/HarmvandenBrink/SMA_Sunny_Island_Controller"
+Issues = "https://github.com/HarmvandenBrink/SMA_Sunny_Island_Controller/issues"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
