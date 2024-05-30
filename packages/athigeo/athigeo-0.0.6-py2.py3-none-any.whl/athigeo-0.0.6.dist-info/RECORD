@@ -1,0 +1,11 @@
+athigeo/__init__.py,sha256=eEZEbf-MicgkSmk55IK7ZUNzP3tgl1241MISYX0B9oY,159
+athigeo/athigeo.py,sha256=RI9FgBy3ct5L18wNCjrQPN-XW9crN4-_TsVsfhqGgoA,7357
+athigeo/common.py,sha256=cphZEQi6CLk8ySpBcfbHMdkPyQ8VhoaDkfyXw6icLeY,360
+athigeo/foliumap.py,sha256=fsNejZDaPaIJdcI5ZuGHTlvOnhPPm_H30LTlMo6sV-k,2727
+athigeo/utils.py,sha256=8lLknyPQhKnfwfGcWSuYk25TH4SvjCYzr7rtsLH3cwQ,355
+athigeo-0.0.6.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+athigeo-0.0.6.dist-info/METADATA,sha256=LUl9kFYg89RLF5eAfx1_QaCAFjKyCNVYiA2ijsz6WSA,1342
+athigeo-0.0.6.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+athigeo-0.0.6.dist-info/entry_points.txt,sha256=JG4aqRlM6lEm9Ag6mM8Ye_kT8FZo9uRLfNRje41mLsw,45
+athigeo-0.0.6.dist-info/top_level.txt,sha256=H9k5rNmbczyIy8wjt78VpxRN8zFRjyhUYPZSo8G3bEU,8
+athigeo-0.0.6.dist-info/RECORD,,
