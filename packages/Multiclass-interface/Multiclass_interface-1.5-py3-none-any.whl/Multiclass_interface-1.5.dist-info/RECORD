@@ -1,0 +1,15 @@
+multiclass_interface/__init__.py,sha256=1kI9Vxsap_8eap6kldNHhIWLEVBT2DLWl2UbTOTnVN0,114
+multiclass_interface/mpi_interface.py,sha256=5VyMXfKrzNKQqBaeSx9Ar4FaSqs-pUWr5batDQAwbz8,6623
+multiclass_interface/multi_object_list.py,sha256=GmLKWUsu9Vf3Qcy7SlhxqPW_yDw2pzo2EFkkF8R94Dg,2022
+multiclass_interface/multiprocess_interface.py,sha256=S0gO9u4mQrbhpxarKMD0i7M35EVC9vaKjp3Ls4Y26KU,8169
+multiclass_interface/version.py,sha256=zAKVOi4fZUNGpbzzEd_9Jw2rJ_eCptGMDQm2sUUnyWs,406
+multiclass_interface/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multiclass_interface/tests/my_test_cls.py,sha256=KDcM0zcwwFAcXJhHdl0KHd45MaqHvR8mxHdoUqmbC_E,826
+multiclass_interface/tests/test_mpi.py,sha256=owgXwmZCBVO5OuvfLMw8CfBwf1-AnkUzEMf-K8w_mvc,2826
+multiclass_interface/tests/test_multiclass_list.py,sha256=W7w5wiA3-_wgL9lOCRDsCijikJiHVrp5RqBYwJzWxp4,515
+multiclass_interface/tests/test_multiprocessinterface.py,sha256=u2BVzoq7YB7L4jwKiveyQheCgQ2O7CGg5nQl9M1rTzM,3165
+Multiclass_interface-1.5.dist-info/LICENSE,sha256=oApPkWzMlqIJF9EOB2gV6yvdsm6a2-AW94wuayHIz70,1094
+Multiclass_interface-1.5.dist-info/METADATA,sha256=x8S814h6yWgel_Y9dgYNzwOXFjjx8zYRxj4Py8ZrYnA,1580
+Multiclass_interface-1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Multiclass_interface-1.5.dist-info/top_level.txt,sha256=LOL3xjSUkjW6thjDr0IMvgkitnbsNokahxl-HjgOJG4,21
+Multiclass_interface-1.5.dist-info/RECORD,,
