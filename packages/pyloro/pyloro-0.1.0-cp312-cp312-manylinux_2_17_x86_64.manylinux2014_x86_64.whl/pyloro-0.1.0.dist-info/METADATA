@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: pyloro
+Version: 0.1.0
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# loro-python
+
+```bash
+pip3 install maturin
+maturin build  # or python3 -m maturin build
+
+```
+
