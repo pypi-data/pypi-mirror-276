@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "KassOrm"
+version = "1.1.7"
+description = "Gerenciador de banco de dados relacional"
+authors = ["kassiodouglas <kass.doug@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "KassOrm"}]
+classifiers = [
+    "Natural Language :: Portuguese (Brazilian)",
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mysql = "^0.0.3"
+mysql-connector = "^2.2.9"
+mysql-connector-python = "^8.3.0"
+faker = "^23.2.0"
+rich = "^13.7.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+isort = "^5.13.2"
+taskipy = "^1.12.2"
+pytest-env = "^1.1.3"
+black = "^24.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.init_options]
+pythonpath = "."
+addopts = "--doctest-modules--"
+
+[tool.taskipy.tasks]
+lint = "black --check --diff . && isort --check --diff ."
+test = "pytest -s -x --cov=KassOrm -vv"
+pub = "poetry publish --build"
