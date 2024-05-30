@@ -1,0 +1,15 @@
+kframe/__about__.py,sha256=ElsEGla8tDvuOurgXyjDrtN4U3oI1PFQuOhYABgX-d8,26
+kframe/__init__.py,sha256=0AvpC-ujZGRvRI_g-8K332gnsMIeXthzoVCaHb0HIdo,84
+kframe/api/__init__.py,sha256=LkSn0dzXae91w_OM2CkC-dx-3VuvvZZlIl0igQtTw4Q,114
+kframe/api/apitools.py,sha256=ftn1L3CYtBhz9qNA0d_lbzk2xbPTqCHFV4XSfpss8WY,4736
+kframe/collections/__init__.py,sha256=eNB2eumHPlqsazIO7348fHusYeYTPKzZ5gibUjFJEpM,104
+kframe/collections/collections.py,sha256=1wjJAau9q2yaEmjm-MzleRRh1IDDgs80IuLJ5U8AiyY,2238
+kframe/config/__init__.py,sha256=cJ_OHBvil6n4L--UoL0Yvm0MdZttfD3Na4Mo5vWGmOE,228
+kframe/config/configattr.py,sha256=Fi05xQUo8NPnLxitxz1MxbiguPKrmNIqBUdltQ1iipM,6369
+kframe/config/configentity.py,sha256=5Vo59TmPjxam3JQmlZSEOgyKKXrOgCV6tZ5ermZxDAk,14744
+kframe/model/__init__.py,sha256=T6NE-jWfFDiikEIcfK-dfQBJ51LVdjxL6kdTXwdN3m0,104
+kframe/model/managedb.py,sha256=v0HwNyemrzPim3pNzs8agoed2dVNWAgLNpsaLkS3ZOc,12902
+kframe-0.5.0rc5.dist-info/METADATA,sha256=D44dsFh6qFRjXrJoDdevXbaUshQ2Nasbl1_uOUyuFBI,2424
+kframe-0.5.0rc5.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+kframe-0.5.0rc5.dist-info/licenses/LICENSE.txt,sha256=ArAbu0yckN9mYSJ_zruk8jLtuZjXvFidKBblyOqpErI,2878
+kframe-0.5.0rc5.dist-info/RECORD,,
