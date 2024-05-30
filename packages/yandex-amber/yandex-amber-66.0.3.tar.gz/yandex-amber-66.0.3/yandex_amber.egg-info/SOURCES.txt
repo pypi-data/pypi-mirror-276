@@ -1,0 +1,6 @@
+README.md
+setup.py
+yandex_amber.egg-info/PKG-INFO
+yandex_amber.egg-info/SOURCES.txt
+yandex_amber.egg-info/dependency_links.txt
+yandex_amber.egg-info/top_level.txt
