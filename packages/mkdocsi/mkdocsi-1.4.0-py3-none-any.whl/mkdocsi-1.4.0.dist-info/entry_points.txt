@@ -1,0 +1,2 @@
+[console_scripts]
+mkdocsi = mkdocsi:__ENTRY__POINT__
