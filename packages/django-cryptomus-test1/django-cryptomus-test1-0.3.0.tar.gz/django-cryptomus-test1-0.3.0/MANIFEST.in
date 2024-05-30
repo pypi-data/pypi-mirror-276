@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include setup.py
+
+recursive-include cryptopay/templates *
+recursive-include cryptopay/static *
+recursive-include cryptopay/migrations *
+recursive-include cryptopay/management *
+recursive-include cryptopay/fixtures *
