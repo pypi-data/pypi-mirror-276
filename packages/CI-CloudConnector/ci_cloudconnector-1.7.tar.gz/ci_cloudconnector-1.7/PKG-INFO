@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CI_CloudConnector
+Version: 1.7
+Summary: IOT application that collects data from PLC (ModBus or AnB Ethernet/IP) and sends it to the cloud using HTTPS
+Home-page: https://trunovate.com/
+Author: Yochai
+Author-email: yochaim@contel.co.il
+
+Cloud Connector Python
+-----------------------------
+Created by YochaiM 23-05-2024
