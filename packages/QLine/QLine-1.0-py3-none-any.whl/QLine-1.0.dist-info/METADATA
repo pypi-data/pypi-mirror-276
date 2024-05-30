@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: QLine
+Version: 1.0
+Summary: For the calculation of one-dimensional Schroedinger equations
+Author: Michael Welzel
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.4
+License-File: LICENSE
+Requires-Dist: numpy >=1.24.2
+Requires-Dist: matplotlib >=3.7.0
+Requires-Dist: scipy >=1.10.1
+
