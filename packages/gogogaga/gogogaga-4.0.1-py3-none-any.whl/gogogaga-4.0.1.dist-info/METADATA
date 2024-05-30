@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: gogogaga
+Version: 4.0.1
+Summary: All functions that assist in standardising development approaches.
+Home-page: https://github.com/yourusername/your-repo
+Author: Marcus
+Author-email: marcusongkiansiong@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: openpyxl ==3.1.2
+
+# Structure of the functionality you are controlling
+
+### Base objectives
+1. Generate distribution files
+2. Upload distribution files
+
+
+### Behaviours
+1. Generating distribution files
+    - .tar.gz       -> Package source code (python code). Require compilation
+    - .whl          -> Binary code
+
+2. Generating
+
+
+### Encapsulation objectives
+1. Only generate one distribution file: Just generate the .whl file of the current version of the package
+2. Upload a specific distribution file
+    - Latest
+    - Specified
+3. Upload delete distribution file
+    
+### structure
+1. Overarching container: .dist_management
+2. distribution storage: .dist_management/dist_versions
+3. distribution management configuration: .dist_management/config
+    - setup.py
+    - requirements.py
+
+
+
+
+#### Operations
+1. How to determine the latest specific distribution file?
+    - Look at the version number 
+2.
