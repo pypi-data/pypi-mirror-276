@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nestipy-schedule"
+version = "0.1.1"
+description = ""
+authors = ["tsiresymila <tsiresymila@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nestipy_schedule", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+apscheduler = "^3.10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+nestipy = "^0.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
