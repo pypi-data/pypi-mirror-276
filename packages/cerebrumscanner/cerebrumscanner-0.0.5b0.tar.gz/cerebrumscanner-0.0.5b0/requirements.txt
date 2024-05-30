@@ -1,0 +1,21 @@
+# python 3.12.2
+
+kivy
+kivy-deps.angle; python_version >= "3.6" and sys_platform == "windows"
+kivy-deps.gstreamer; python_version >= "3.6" and sys_platform == "windows"
+kivy-deps.glew; python_version >= "3.6" and sys_platform == "windows"
+kivy-deps.sdl2; python_version >= "3.6" and sys_platform == "windows"
+kivymd == 1.2.0
+tqdm
+bcrypt
+pydicom
+dcm2niix
+dicom2nifti
+SimpleITK
+gestures4kivy
+opencv-python
+pymongo
+dnspython
+
+dicom2nifti
+nibabel

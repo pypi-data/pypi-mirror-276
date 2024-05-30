@@ -1,0 +1,20 @@
+kivy
+kivymd==1.2.0
+tqdm
+bcrypt
+pydicom
+dcm2niix
+dicom2nifti
+SimpleITK
+gestures4kivy
+opencv-python
+pymongo
+dnspython
+dicom2nifti
+nibabel
+
+[:python_version >= "3.6" and sys_platform == "windows"]
+kivy-deps.angle
+kivy-deps.gstreamer
+kivy-deps.glew
+kivy-deps.sdl2
