@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_Andre-Pank/__init__.py
+myfunctions_Andre-Pank/math.py
+myfunctions_Andre_Pank.egg-info/PKG-INFO
+myfunctions_Andre_Pank.egg-info/SOURCES.txt
+myfunctions_Andre_Pank.egg-info/dependency_links.txt
+myfunctions_Andre_Pank.egg-info/top_level.txt
