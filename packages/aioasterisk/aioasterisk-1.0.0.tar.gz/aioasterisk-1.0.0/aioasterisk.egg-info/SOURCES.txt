@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aioasterisk/__init__.py
+aioasterisk/ai.py
+aioasterisk/wikidata.py
+aioasterisk.egg-info/PKG-INFO
+aioasterisk.egg-info/SOURCES.txt
+aioasterisk.egg-info/dependency_links.txt
+aioasterisk.egg-info/top_level.txt
