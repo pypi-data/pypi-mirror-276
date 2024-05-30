@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: TermHand
+Version: 0.1
+Requires-Dist: google-generativeai
