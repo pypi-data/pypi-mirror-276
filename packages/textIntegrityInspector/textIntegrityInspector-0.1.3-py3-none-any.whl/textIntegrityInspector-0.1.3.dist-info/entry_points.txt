@@ -1,0 +1,2 @@
+[console_scripts]
+textIntegrityInspector = textIntegrityInspector.__main__:main
