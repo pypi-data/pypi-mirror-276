@@ -1,0 +1,2 @@
+[console_scripts]
+myldapsync = myldapsync.__init__:main
