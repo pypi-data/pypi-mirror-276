@@ -1,0 +1,3 @@
+[pytest11]
+tf=pytest_tf.plugin
+
