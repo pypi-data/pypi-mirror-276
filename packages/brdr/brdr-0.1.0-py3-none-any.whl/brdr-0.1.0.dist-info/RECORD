@@ -1,0 +1,10 @@
+brdr/__init__.py,sha256=OCdIIh1xEE-fOPw7Ba2HAG8tYXkDiEpnjWJKw49lEv4,159
+brdr/aligner.py,sha256=CFfe-1vbj9Bnj_96qopSwaGKBWymBWE23YJsYFGwzYY,48489
+brdr/constants.py,sha256=T1LTS4hwUYcYx9OKgBF1YCl670nbTp1vuyBq4fSlwxE,1276
+brdr/enums.py,sha256=1OlxwFxLe4s7zEYEeCd1wy9jJWw-mri1IeSehNycKn4,1790
+brdr/geometry_utils.py,sha256=ilGerrPZUrVO_-pFxUhj1WhCylYUNZ0spFsEnRRbFio,8565
+brdr/utils.py,sha256=ObG9vmq031AanmPTrXBUJ6YEQsrk_EB9QSezHz14yQs,4765
+brdr-0.1.0.dist-info/METADATA,sha256=nRXCuxdLs_KmOM7kts4WqezhGjWD4pXGt8ZzEfNJxvU,9935
+brdr-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+brdr-0.1.0.dist-info/licenses/LICENSE,sha256=yLwF9gmFMt08Iep1Ct-wXNG0Puq75ocZVJcb4RnFKe4,1074
+brdr-0.1.0.dist-info/RECORD,,
