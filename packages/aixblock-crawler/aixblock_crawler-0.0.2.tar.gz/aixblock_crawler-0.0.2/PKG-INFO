@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aixblock_crawler
+Version: 0.0.2
+Summary: aixblock_crawler
+Author: TonyShark
+Author-email: quoi@wow-ai.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+aixblock conveter
