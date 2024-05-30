@@ -1,0 +1,6 @@
+pyserial
+plotly
+google
+protobuf
+tqdm
+matplotlib
