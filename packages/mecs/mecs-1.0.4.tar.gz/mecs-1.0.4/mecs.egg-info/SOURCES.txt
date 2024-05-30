@@ -1,0 +1,9 @@
+README.md
+setup.py
+mecs/Stem.py
+mecs/__init__.py
+mecs/lemma.py
+mecs.egg-info/PKG-INFO
+mecs.egg-info/SOURCES.txt
+mecs.egg-info/dependency_links.txt
+mecs.egg-info/top_level.txt
