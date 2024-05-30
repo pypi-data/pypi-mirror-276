@@ -1,0 +1,14 @@
+block-forge
+cash-contacts-bq-utils
+cash-sameface
+sq-counselor
+sq-crane
+sq-flask-example
+sq-llm-checker
+sq-pysnowflake
+sq-sql-utils
+sq_flask_common
+sq_llm_guardrails
+sqlive
+sqtest-esw-platform
+squarewave_cli
