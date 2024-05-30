@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "waldur-site-agent"
+version = "0.2.3"
+description = "Agent for integrating service provider's site with Waldur Mastermind."
+authors = ["OpenNode Team <info@opennodecloud.com>"]
+license = "MIT"
+homepage = "https://waldur.com"
+documentation = "https://docs.waldur.com"
+readme = "README.md"
+classifiers=[
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+packages = [
+    {include = "waldur_site_agent"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-waldur-client = "^0.3.0"
+requests = "2.27.1"
+pyyaml = "6.0.1"
+sentry-sdk = "1.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+freezegun = "0.3.4"
+coverage = "6.3.2"
+pytest = "7.1.2"
+pytest-cov = "3.0.0"
+
+[tool.poetry.scripts]
+waldur_site_agent = 'waldur_site_agent.main:main'
+waldur_slurm_diagnostics = 'waldur_site_agent.common_utils:diagnostics'
+waldur_slurm_load_components = 'waldur_site_agent.common_utils:create_offering_components'
+waldur_slurm_create_homedirs = 'waldur_site_agent.common_utils:create_homedirs_for_offering_users'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
