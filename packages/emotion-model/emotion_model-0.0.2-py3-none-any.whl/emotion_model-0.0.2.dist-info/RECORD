@@ -1,0 +1,17 @@
+emotion_model/VERSION,sha256=pd00ZUajhDYpNrl6TC9dotPSUwQ-qWeap7l9iVUN_b0,6
+emotion_model/__init__.py,sha256=5NKlEr9g3yal2YwSsqS6N0Da0qo1Z0UM9EE-_YVX7CI,854
+emotion_model/pipeline.py,sha256=5IpedG9H9zK-aD8SBGYlvgGJFa3euafbEnWpy9gkotY,1485
+emotion_model/predict.py,sha256=xL5YKXHSwhnsaWoIVK2GPzU7fuJfxT8mzlDPuQT_WhI,1473
+emotion_model/train_pipeline.py,sha256=YS55SNX5V8zkMhUPNboAEc3dyzlLqJbw9HlT1L7Zhgs,1867
+emotion_model/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emotion_model/config/core.py,sha256=4vrK7NkgqPYfIg_4wRLbUXAMak7K5jJpSgvy6XJ9uAk,3465
+emotion_model/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emotion_model/processing/data_manager.py,sha256=8wN8YtobXN8Ui5ZgJxHA06rzyI4e4MBs0ZAeUNOeB0w,2508
+emotion_model/trained_models/emotion_model_output_v0.0.2.pkl,sha256=oz26_9X4PpCWEjkG5kTmG4tuFTQ1GI1aE94NvAj8quw,96318099
+emotion_model/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emotion_model/utils/utils.py,sha256=pNYyGU0XzOT561JhGBVqyiL5EXgNt0ZpkVHYKfM5mXI,950
+emotion_model-0.0.2.dist-info/LICENSE.md,sha256=0lQN2K3KLa0ULJIwcRInr-Ja3PEA9_XRncTkIFlNH-w,1083
+emotion_model-0.0.2.dist-info/METADATA,sha256=NNEVBnm53q-8otv-GWZOkpjqtihnn4om3FSO3WM5xB0,3339
+emotion_model-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+emotion_model-0.0.2.dist-info/top_level.txt,sha256=eWIFKncaVs0X8N3swUw4J_8U6V_sEVIr6VEFJZD8RNE,14
+emotion_model-0.0.2.dist-info/RECORD,,
