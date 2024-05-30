@@ -1,0 +1,1 @@
+# A CLI tool to instantly search the internet using Google Generative AI in decluttered manner.
