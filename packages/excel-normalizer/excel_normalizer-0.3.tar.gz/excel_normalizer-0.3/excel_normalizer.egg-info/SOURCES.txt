@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+excel_normalizer/__init__.py
+excel_normalizer/cli.py
+excel_normalizer.egg-info/PKG-INFO
+excel_normalizer.egg-info/SOURCES.txt
+excel_normalizer.egg-info/dependency_links.txt
+excel_normalizer.egg-info/entry_points.txt
+excel_normalizer.egg-info/requires.txt
+excel_normalizer.egg-info/top_level.txt
