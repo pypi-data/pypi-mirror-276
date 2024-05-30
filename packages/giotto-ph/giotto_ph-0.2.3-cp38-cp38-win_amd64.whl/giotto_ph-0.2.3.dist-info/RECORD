@@ -1,0 +1,16 @@
+gph/__init__.py,sha256=HmQTSsXVNzn_4uZdkKn8zJc9X7tVzuBbtwM4FIBoUTY,149
+gph/_version.py,sha256=5-p8t5VwEtw3yXrvypTVieUFHIgaTPXxjA4by6a5op0,620
+gph/modules/gph_collapser.cp38-win_amd64.pyd,sha256=Ol00ERHK6BEE827VvJ0wk_SgCMSmVXL90oV2Uu5Cd-M,138752
+gph/modules/gph_ripser.cp38-win_amd64.pyd,sha256=YN1kCNRHGE2epLsCGmK1iIluxGOoDQLAm_e-O6mvnTs,338944
+gph/modules/gph_ripser_coeff.cp38-win_amd64.pyd,sha256=tOn4b0LVeeTb7P06-Qzz-7rNjBwFbqqEI4wHprI-_8E,342528
+gph/python/__init__.py,sha256=WtwHCYEMYScWKy4oHKM8euZr76_DLGCazX6ayf9n9tg,89
+gph/python/ripser_interface.py,sha256=oR-RTQm_TTiFYSmLnb16ca7RYcJBGl0GEVzqHF7LFTg,28880
+gph/python/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gph/python/test/test_collapser.py,sha256=AxOgbvN7RivvIc0YH9JcOIyY-WkxGHVUvYxu4Ie8cDI,2248
+gph/python/test/test_ripser.py,sha256=fndezRyFgqzymUrrRbRr-2e3F-w8t0N964mA28hWTEM,20115
+gph/python/test/test_wrp.py,sha256=sTB5Q3el8Sd99fd4-ySmt3NZ5uXtEWRStB1ZYYt4ToM,3645
+giotto_ph-0.2.3.dist-info/LICENSE,sha256=K2mHDYGGPDF90WsUydGOBt1SVUHUJRX3U460v8e5HnM,35868
+giotto_ph-0.2.3.dist-info/METADATA,sha256=KPxH0xhkOL6UcogDsbj-tyvlMDWo-xU_6ShX0W5gT98,2648
+giotto_ph-0.2.3.dist-info/WHEEL,sha256=Wb4yjwIXVKEpht4JWFUZNCzpG7JLBNZnqtK2YNdqLkI,100
+giotto_ph-0.2.3.dist-info/top_level.txt,sha256=VY7JNFK1ziu4gNFeDEd7UqJthhMsYdylwSXFxf4CX6U,4
+giotto_ph-0.2.3.dist-info/RECORD,,
