@@ -1,0 +1,7 @@
+llama_index/llms/vertex/__init__.py,sha256=R1xWkUeX9IKSI83dxfy6N78ZqmArUaUeu_qZ4ibdkgk,70
+llama_index/llms/vertex/base.py,sha256=S7_P8mAgcCjnUvtyU_uCvdCEB8duxUv6kxnbfyD5CbM,14098
+llama_index/llms/vertex/gemini_utils.py,sha256=MPu81npPifIqPMHMuKwTwIrPnY_anB12q1aSCjY-jxY,2098
+llama_index/llms/vertex/utils.py,sha256=LgRv-QNLVyeWufnhqZnm1try5NCI9sE-Ost8LedKQWk,7793
+llama_index_llms_vertex-0.1.8.dist-info/METADATA,sha256=5RLoJSgTrB5vG23XUHOxRS0AFgn61LEs1RLzmHNUg3g,684
+llama_index_llms_vertex-0.1.8.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_llms_vertex-0.1.8.dist-info/RECORD,,
