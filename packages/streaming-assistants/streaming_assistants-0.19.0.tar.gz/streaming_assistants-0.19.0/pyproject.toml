@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "streaming-assistants"
+version = "0.19.0"
+description = "Streaming enabled Assistants API (deprecated in favor of astra-assistants)"
+authors = ["phact <estevezsebastian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python="^3.10"
+astra-assistants = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.packages]]
+include = "streaming_assistants"
+
