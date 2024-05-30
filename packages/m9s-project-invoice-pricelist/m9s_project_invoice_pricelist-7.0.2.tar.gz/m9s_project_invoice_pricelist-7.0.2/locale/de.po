@@ -1,0 +1,27 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:project.work,price_list:"
+msgid "Price List"
+msgstr "Preisliste"
+
+msgctxt "field:project.work,price_list_used:"
+msgid "Price List Used"
+msgstr "Verwendete Preisliste"
+
+msgctxt "help:project.work,price_list:"
+msgid ""
+"Use the first pricelist found in following precedence:\n"
+"\n"
+"- Pricelist of the task\n"
+"- Pricelist of the parent project\n"
+"- Pricelist of the party\n"
+"- Pricelist of sale configuration"
+msgstr ""
+"Preislisten kommen in folgender Reihenfolge zum Zuge:\n"
+"\n"
+"- Preisliste der Aufgabe\n"
+"- Preisliste des Projekts\n"
+"- Preisliste der Partei\n"
+"- Preisliste aus Einstellungen Verkauf"
