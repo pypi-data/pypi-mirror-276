@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: dre4my_detection
+Version: 0.1.0
+Summary: Library for detecting abnormal HTTP-packets using one of the methods:
+Author: Dre4my
+
