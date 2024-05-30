@@ -1,0 +1,10 @@
+source_webflow/__init__.py,sha256=RiDQVX78rrQRZgf1uQQEp2qT5-L5KHOIyuBzKu0EgB0,126
+source_webflow/auth.py,sha256=ZbaXh7UG5Rq-1riVoP3j65Is2BdIsReCWw3ENjhY3Qw,893
+source_webflow/run.py,sha256=_igGxOiVoMT7nkx4YuWQksuZFokPSIevUYAHT0X04tk,233
+source_webflow/source.py,sha256=8-b-QcesAoB2ED6rlCgH2R891F9qIEK0wQ2fndf4wIk,14604
+source_webflow/spec.yaml,sha256=VWSi3eGgXuEt2wyPUa4f3tYZr57M98C8eWGqvQJ38kM,988
+source_webflow/webflow_to_airbyte_mapping.py,sha256=OyDNUR2PeqlXvG8AwV1h5crhvmglz2OfDe4c9vOGTl0,1258
+airbyte_source_webflow-0.1.4.dist-info/METADATA,sha256=O3LABbIxfbzX12Grli2X3w9oPI2pXzQlhm8wcNl0j7g,5221
+airbyte_source_webflow-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_webflow-0.1.4.dist-info/entry_points.txt,sha256=GMHeWBzHxxdYN5KP3Ecz9THNC-XIK5p_2pXPKz6bJSM,57
+airbyte_source_webflow-0.1.4.dist-info/RECORD,,
