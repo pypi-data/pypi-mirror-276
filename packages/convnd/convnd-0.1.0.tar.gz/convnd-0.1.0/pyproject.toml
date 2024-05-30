@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "convnd"
+version = "0.1.0"
+description = "generalized convolutions (n-dimensions)"
+authors = ["pvjosue <pv.josue@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+# Define your development dependencies here
+torch = "^1.9.0"
