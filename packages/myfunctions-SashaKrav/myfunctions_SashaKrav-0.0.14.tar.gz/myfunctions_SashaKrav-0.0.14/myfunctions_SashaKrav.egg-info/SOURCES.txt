@@ -1,0 +1,6 @@
+README.md
+setup.py
+myfunctions_SashaKrav.egg-info/PKG-INFO
+myfunctions_SashaKrav.egg-info/SOURCES.txt
+myfunctions_SashaKrav.egg-info/dependency_links.txt
+myfunctions_SashaKrav.egg-info/top_level.txt
