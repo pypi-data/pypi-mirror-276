@@ -1,0 +1,12 @@
+rssdk.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+rssdk.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+rssdk-3.1.3.dist-info/WHEEL,sha256=S88d2JDcvCiCgjjyeeOcwSJd_-lmM3jB9kF2noLqAIg,110
+rssdk-3.1.3.dist-info/top_level.txt,sha256=CKISofHSTJF6Am95ZU6MDQI2o0MVCfP6EGdDo4ogxcc,6
+rssdk-3.1.3.dist-info/RECORD,,
+rssdk-3.1.3.dist-info/LICENSE-3RD-PARTY.txt,sha256=BWNMlJ4rDBfcUygpLQWzVT5Ifxlril5mCE8KJuhmryA,4553
+rssdk-3.1.3.dist-info/METADATA,sha256=4nZSUCrJU9JbmtJWxJHqjGOGzV0Lg1cx12qxlZxxH-Y,5707
+rssdk-3.1.3.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+rssdk/__init__.py,sha256=kxCw_COO7Bah989TEAWBsZijy6e5Ue2RGwQXOlG__RE,552
+rssdk/rssdk.pyi,sha256=tSqlxJ_BzyjjLp-FN6NKFXvX5FVImM1dMIhWD7XLQ3U,2167
+rssdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rssdk/rssdk.cpython-37m-i386-linux-gnu.so,sha256=w7HMYCLMpDBJlDYzO_IeTfgLc1g7e_8U_L2rButHXXk,443412
