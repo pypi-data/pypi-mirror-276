@@ -1,0 +1,17 @@
+
+[doc]
+sphinx
+sphinx-gallery
+sphinx_rtd_theme
+
+[dvlpt]
+twine
+
+[script]
+pandas
+
+[test]
+coverage
+pytest
+pytest-cov
+pytest-mock
