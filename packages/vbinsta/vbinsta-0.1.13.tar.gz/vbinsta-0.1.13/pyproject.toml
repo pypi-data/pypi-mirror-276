@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vbinsta"
+version = "0.1.13"
+description = ""
+authors = ["vaibhavblayer <vaibhavblayer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+instagrapi = "^2.1.2"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+vbinsta = "vbinsta.__main__:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
