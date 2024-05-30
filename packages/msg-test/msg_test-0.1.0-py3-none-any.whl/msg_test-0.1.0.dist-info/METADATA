@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: msg_test
+Version: 0.1.0
+Summary: A package for utilizing MSG91 service integration
+Author: Harsh Jaiswal
+Author-email: harsh@walkover.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+
