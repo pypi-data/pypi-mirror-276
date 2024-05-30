@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jmock
+Version: 0.0.2
+Summary: Joe's Synthetic Data Generator
+Author: Joepeter Francis
+Author-email: jose4.peter42@gmail.com
+Keywords: python,JSDG
+Requires-Dist: langchain
+Requires-Dist: python-dotenv
+Requires-Dist: langchain-google-genai
+
+AI Package to generate synthetic data using Google's gemini AI
