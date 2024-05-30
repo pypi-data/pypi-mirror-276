@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: medjc09-hub-python
+Version: 0.3.0
+Summary: Python library for medjc09 hub
+Author-email: OctSquid <pqvs6k96@s.okayama-u.ac.jp>
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: cobs>=1.2.1
+Requires-Dist: pyserial-asyncio>=0.6
+Requires-Dist: python-dotenv>=1.0.1
+Description-Content-Type: text/markdown
+
+# medjc09-hub-python
+
+Describe your project here.
