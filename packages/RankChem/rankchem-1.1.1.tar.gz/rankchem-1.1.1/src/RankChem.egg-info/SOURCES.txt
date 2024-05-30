@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/RankChem.egg-info/PKG-INFO
+src/RankChem.egg-info/SOURCES.txt
+src/RankChem.egg-info/dependency_links.txt
+src/RankChem.egg-info/requires.txt
+src/RankChem.egg-info/top_level.txt
+src/Rankchem/__init__.py
+tests/test_average.py
+tests/test_calculate_descriptor.py
+tests/test_calculate_fukui.py
+tests/test_get_max_fukui_avg.py
+tests/test_rank_descriptors.py
+tests/test_smiles_to_xyz.py
+tests/test_visualize_molecule.py
