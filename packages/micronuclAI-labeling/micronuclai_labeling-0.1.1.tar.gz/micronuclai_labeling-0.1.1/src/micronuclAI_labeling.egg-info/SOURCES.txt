@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/__init__.py
+src/micronuclAI_labeling.egg-info/PKG-INFO
+src/micronuclAI_labeling.egg-info/SOURCES.txt
+src/micronuclAI_labeling.egg-info/dependency_links.txt
+src/micronuclAI_labeling.egg-info/requires.txt
+src/micronuclAI_labeling.egg-info/top_level.txt
+src/micronuclai_labeling/__init__.py
+src/micronuclai_labeling/__main__.py
+src/micronuclai_labeling/_labeling_tool.py

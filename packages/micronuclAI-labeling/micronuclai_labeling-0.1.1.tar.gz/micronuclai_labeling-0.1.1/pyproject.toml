@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "micronuclAI_labeling"
+version = "0.1.1"
+authors = [
+  { name="Miguel A. Ibarra-Arellano", email="c180l058j@mozmail.com"},
+]
+description = "GUI tool for labeling micronuclei images"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Framework :: PySimpleGUI",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Affero General Public License v3"
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scikit-image",
+    "PySimpleGUI",
+    "mask2bbox",
+]
+
+keywords = ["micronuclei", "labeling", "gui"]
+
+[project.urls]
+Homepage = "https://github.com/SchapiroLabor/micronuclAI_labeling"
+Issues = "https://github.com/SchapiroLabor/micronuclAI_labeling/issues"
