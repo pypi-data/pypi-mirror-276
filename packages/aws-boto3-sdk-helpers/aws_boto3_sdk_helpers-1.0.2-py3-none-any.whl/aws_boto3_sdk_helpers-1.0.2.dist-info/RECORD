@@ -1,0 +1,15 @@
+buckets/__init__.py,sha256=qCc8K8t2xjfRe5cPziWrq7PjXUqqpKnQ3Z3oPs25cOA,36
+buckets/delete_bucket_functions.py,sha256=l2J0fXkKbcORVFx2MfOz2Jr3aC06yZjRL9Fu2T-4Um0,2966
+buckets/get_bucket_functions.py,sha256=HVmo9qU1EZi-sn5cHsmfoKvE59T1jkyWaYC2jWsPVdo,1168
+buckets/list_bucket_functions.py,sha256=i9B0J4v4Y3dGvXcIJ_lgU_Hof-XiL9jJkhb2pQYK8jo,1671
+buckets/s3funcs.py,sha256=9B4YutghNnOySmlnseWdTILm3DpkRommuvm9ofUC5HA,1149
+buckets/test_s3funcs.py,sha256=sQ4bM7GqirWGyTMl1huWDPsGgh-hspnvu7vIQ92BlfU,651
+common/__init__.py,sha256=-Stxg4sMHhcjGGw5OO83sHCmXy8a3v3OVzjxygScroY,57
+common/args.py,sha256=CstfirTQ2CyQX-hxWej2k86rR5O2cjhxW7YTJUUgJ88,848
+common/banners.py,sha256=GI9dLhh_4tl17S23akcdGVsVNR1wjNCTLec8ZuvFGJc,1070
+common/boto_client_declaration.py,sha256=yg_HtzkgJX1bPGRnTctgEWNqaqG051IgUe5_DmGrBy0,182
+aws_boto3_sdk_helpers-1.0.2.dist-info/LICENSE,sha256=nQi0npUiffJthE20G7TphsEG8_Lr_XQd_N-KirnZsf4,1070
+aws_boto3_sdk_helpers-1.0.2.dist-info/METADATA,sha256=agxikE7Fdt78idLr65EfZVtGdhPJOZnD3DC3I5hODJc,453
+aws_boto3_sdk_helpers-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aws_boto3_sdk_helpers-1.0.2.dist-info/top_level.txt,sha256=SWXyXVr4ekH8j1w15kecWU1ouifOrlwc1LbhtHMZsFM,15
+aws_boto3_sdk_helpers-1.0.2.dist-info/RECORD,,
