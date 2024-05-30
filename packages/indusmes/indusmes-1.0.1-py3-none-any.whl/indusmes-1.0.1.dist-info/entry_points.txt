@@ -1,0 +1,3 @@
+[gui_scripts]
+indusmes = indusmes.main:main
+

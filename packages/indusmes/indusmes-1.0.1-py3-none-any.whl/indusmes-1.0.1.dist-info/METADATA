@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: indusmes
+Version: 1.0.1
+Summary: MES Application from IndusWorks
+Home-page: UNKNOWN
+Author: Navneet Jain
+Author-email: navneet@indusworks.in
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Adafruit-ADS1x15 ==1.0.2
+Requires-Dist: Adafruit-Blinka ==8.39.1
+Requires-Dist: Adafruit-GPIO ==1.0.3
+Requires-Dist: Adafruit-PlatformDetect ==3.62.0
+Requires-Dist: Adafruit-PureIO ==1.1.11
+Requires-Dist: Nuitka ==2.1
+Requires-Dist: PySide6 ==6.7.0
+Requires-Dist: PySide6-Addons ==6.7.0
+Requires-Dist: PySide6-Essentials ==6.7.0
+Requires-Dist: Pygments ==2.17.2
+Requires-Dist: SecretStorage ==3.3.3
+Requires-Dist: adafruit-board-toolkit ==1.1.1
+Requires-Dist: adafruit-circuitpython-ads1x15 ==2.2.25
+Requires-Dist: adafruit-circuitpython-busdevice ==5.2.6
+Requires-Dist: adafruit-circuitpython-connectionmanager ==1.0.1
+Requires-Dist: adafruit-circuitpython-requests ==3.2.5
+Requires-Dist: adafruit-circuitpython-typing ==1.10.3
+Requires-Dist: altgraph ==0.17.4
+Requires-Dist: backports.tarfile ==1.1.1
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: cryptography ==42.0.5
+Requires-Dist: docutils ==0.21.2
+Requires-Dist: idna ==3.7
+Requires-Dist: importlib-metadata ==7.1.0
+Requires-Dist: jaraco.classes ==3.4.0
+Requires-Dist: jaraco.context ==5.3.0
+Requires-Dist: jaraco.functools ==4.0.1
+Requires-Dist: jeepney ==0.8.0
+Requires-Dist: keyring ==25.2.0
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.2.0
+Requires-Dist: nh3 ==0.2.17
+Requires-Dist: ordered-set ==4.1.0
+Requires-Dist: packaging ==24.0
+Requires-Dist: patchelf ==0.17.2.1
+Requires-Dist: pkginfo ==1.10.0
+Requires-Dist: pycparser ==2.22
+Requires-Dist: pyftdi ==0.55.4
+Requires-Dist: pyinstaller-hooks-contrib ==2024.4
+Requires-Dist: pyinstaller ==6.6.0
+Requires-Dist: pyserial ==3.5
+Requires-Dist: pyusb ==1.2.1
+Requires-Dist: readme-renderer ==43.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: shiboken6 ==6.7.0
+Requires-Dist: spidev ==3.6
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: twine ==5.0.0
+Requires-Dist: typing-extensions ==4.11.0
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: zipp ==3.18.1
+Requires-Dist: zstandard ==0.22.0
+
+UNKNOWN
+
