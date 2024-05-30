@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: graph-diffusers
+Version: 0.1.0
+Summary: Diffusion operators for graph machine learning based on GraphBLAS
+License: MIT
+Author: Aaron Zolnai-Lucas
+Author-email: azolnailucas@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Provides-Extra: torch
+Requires-Dist: numpy
+Requires-Dist: python-graphblas
+Requires-Dist: pytorch ; extra == "torch"
+Requires-Dist: torch-sparse ; extra == "torch"
+Project-URL: Homepage, https://github.com/aaronzo/graph-diffusers
+Description-Content-Type: text/markdown
+
+# graph-diffusers
+Diffusion patterns for graph machine learning based on GraphBLAS.
+
