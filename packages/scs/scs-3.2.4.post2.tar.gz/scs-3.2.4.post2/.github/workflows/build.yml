@@ -1,0 +1,236 @@
+name: build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+
+jobs:
+  cleanup-runs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: rokroskar/workflow-run-cleanup-action@master
+      env:
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+    if: "!startsWith(github.ref, 'refs/tags/') && github.ref != 'refs/heads/master'"
+
+  build_openmp:
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash -l {0}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest ]
+        python-version: [ 3.8, 3.9, "3.10", "3.11" ]
+
+    env:
+      PYTHON_VERSION: ${{ matrix.python-version }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: ${{ matrix.python-version }}
+          miniforge-version: latest
+          channels: conda-forge,anaconda
+      - name: Install dependencies
+        run: |
+          conda install scipy numpy pytest
+      - name: Test
+        run: |
+          python legacy_setup.py install --scs --openmp
+          pytest
+          rm -rf build/
+
+  build:
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash -l {0}
+    strategy:
+      fail-fast: false
+      matrix:
+        # macos-13 runners have intel chips. macos-14 and above
+        # runners have Apple silicon chips.
+        os: [ ubuntu-latest, macos-13, windows-latest ]
+        python-version: [ 3.8, 3.9, "3.10", "3.11", "3.12"]
+        link_mkl: [true, false]
+
+    env:
+      PYTHON_VERSION: ${{ matrix.python-version }}
+      LINK_MKL: ${{ matrix.link_mkl }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set Additional Envs
+        shell: bash
+        run: |
+          echo "DEPLOY=$( [[ $GITHUB_EVENT_NAME == 'push' && $GITHUB_REF == 'refs/tags'* ]] && echo 'True' || echo 'False' )" >> $GITHUB_ENV
+          echo "PYTHON_SUBVERSION=$(echo $PYTHON_VERSION | cut -c 3-)" >> $GITHUB_ENV
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: ${{ matrix.python-version }}
+          miniforge-version: latest
+          channels: conda-forge,anaconda
+      - name: Install dependencies
+        run: |
+          if [[ "$LINK_MKL" == "true" ]]; then
+            BLAS_PKGS="blas-devel=*=*mkl"
+          else
+            BLAS_PKGS="blas-devel=*=*openblas"
+          fi
+          if [[ "$PYTHON_VERSION" == "3.8" ]] || [[ "$PYTHON_VERSION" == "3.9" ]]; then
+            conda install scipy=1.5 numpy=1.19 pytest $BLAS_PKGS pkg-config
+          elif [[ "$PYTHON_VERSION" == "3.10" ]]; then
+            conda install scipy=1.7 numpy=1.21 pytest $BLAS_PKGS pkg-config
+          elif [[ "$PYTHON_VERSION" == "3.11" ]]; then
+            conda install scipy=1.9.3 numpy=1.23.4 pytest $BLAS_PKGS pkg-config
+          elif [[ "$PYTHON_VERSION" == "3.12" ]]; then
+            conda install scipy numpy pytest $BLAS_PKGS pkg-config
+          fi
+      - name: Build
+        run: |
+          if [[ "$PYTHON_VERSION" == "3.8" ]]; then
+            if [[ "$LINK_MKL" == "true" ]]; then
+              python legacy_setup.py install --scs --mkl
+            else
+              python legacy_setup.py install
+            fi
+          elif [[ "$PYTHON_VERSION" != "3.8" ]]; then
+            python -c "import numpy as np; print('NUMPY BLAS INFOS'); print(np.show_config())"
+            if [[ "$LINK_MKL" == "true" ]]; then
+              python -m pip install --verbose -Csetup-args=-Dlink_mkl=true .
+            else
+              python -m pip install --verbose .
+            fi
+          fi
+      - name: Test
+        run: |
+          pytest
+          rm -rf build/
+      - name: Build and test windows wheels
+        if: ${{startsWith(matrix.os, 'windows') && !matrix.link_mkl}}
+        run: |
+          python -m pip install build
+          python -m build -Csetup-args="-Dlink_blas_statically=True"
+          python -m pip install delvewheel
+          delvewheel repair dist/*whl
+          conda remove openblas # to check static linkage
+          pip install wheelhouse/*whl --force-reinstall
+          pytest
+      - name: Upload artifacts to github
+        if: ${{ startsWith(matrix.os, 'windows') }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: wheels-${{ matrix.os }}-3-${{ env.PYTHON_SUBVERSION }}
+          path: ./wheelhouse
+
+
+  build_wheels:
+    needs: build
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, macos-13, macos-latest ]
+        python-version: [ 3.8, 3.9, "3.10", "3.11", "3.12"]
+
+    env:
+      RUNNER_OS: ${{ matrix.os }}
+      PYTHON_VERSION: ${{ matrix.python-version }}
+
+    steps:
+
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Set Additional Envs
+        shell: bash
+        run: |
+          echo "PYTHON_SUBVERSION=$(echo $PYTHON_VERSION | cut -c 3-)" >> $GITHUB_ENV
+          echo "SINGLE_ACTION_CONFIG=$( [[ $PYTHON_VERSION == 3.8 && $RUNNER_OS == 'macOS' ]] && echo 'True' || echo 'False' )" >> $GITHUB_ENV
+          echo "DEPLOY=$( [[ $GITHUB_EVENT_NAME == 'push' && $GITHUB_REF == 'refs/tags'* ]] && echo 'True' || echo 'False' )" >> $GITHUB_ENV
+
+      - name: Build wheels
+        env:
+          CIBW_MANYLINUX_X86_64_IMAGE: manylinux2014
+          CIBW_BUILD: "cp3${{env.PYTHON_SUBVERSION}}-*"
+          CIBW_SKIP: "*-win32 *-manylinux_i686 *-musllinux*"
+          CIBW_BEFORE_ALL_LINUX: yum install -y openblas-devel
+          CIBW_ENVIRONMENT_MACOS: CFLAGS='-Wno-error=implicit-function-declaration'
+          CIBW_BUILD_VERBOSITY: 3
+          CIBW_TEST_REQUIRES: pytest
+          CIBW_TEST_COMMAND: pytest {package}
+        uses: joerick/cibuildwheel@v2.18.1
+
+      - name: Build source
+        if: ${{env.SINGLE_ACTION_CONFIG == 'True'}}
+        run: |
+          python -m pip install build
+          python -m build -Csetup-args="-Dlink_blas_statically=True" --outdir=wheelhouse
+
+      - name: Upload artifacts to github
+        uses: actions/upload-artifact@v4
+        with:
+          name: wheels-${{ matrix.os }}-3-${{ env.PYTHON_SUBVERSION }}
+          path: ./wheelhouse
+
+  merge_wheels:
+    name: Merge wheel artifacts
+    runs-on: ubuntu-latest
+    needs: build_wheels
+    steps:
+      - name: Merge wheels
+        uses: actions/upload-artifact/merge@v4
+        with:
+          name: wheels
+          pattern: wheels-*
+          delete-merged: true
+
+  upload_wheels:
+    needs: merge_wheels
+    runs-on: ubuntu-latest
+
+    env:
+      PYPI_SERVER: ${{ secrets.PYPI_SERVER }}
+      PYPI_USER: ${{ secrets.PYPI_USER }}
+      PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.8
+      - name: Set Additional Envs
+        shell: bash
+        run: |
+          echo "DEPLOY=$( [[ $GITHUB_EVENT_NAME == 'push' && $GITHUB_REF == 'refs/tags'* ]] && echo 'True' || echo 'False' )" >> $GITHUB_ENV
+      - uses: actions/download-artifact@v4
+        if: ${{env.DEPLOY == 'True'}}
+        with:
+          name: wheels
+          path: ./wheelhouse
+
+      - name: Release to pypi
+        if: ${{env.DEPLOY == 'True'}}
+        shell: bash
+        run: |
+          python -m pip install --upgrade twine
+          twine check wheelhouse/*
+          twine upload --skip-existing --repository-url $PYPI_SERVER wheelhouse/* -u $PYPI_USER -p $PYPI_PASSWORD
