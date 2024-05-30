@@ -1,0 +1,9 @@
+numpy
+ipyleaflet
+pandas
+
+[all]
+athigeo[extra]
+
+[extra]
+pandas
