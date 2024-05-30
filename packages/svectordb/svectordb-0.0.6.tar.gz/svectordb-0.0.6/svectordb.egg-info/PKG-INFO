@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: svectordb
+Version: 0.0.6
+Summary: svectordb client
+License: Apache-2.0
+Keywords: smithy,svectordb
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp<3.10.0,>=3.8.6
+Provides-Extra: tests
+Requires-Dist: pytest<8.0.0,>=7.2.0; extra == "tests"
+Requires-Dist: pytest-asyncio<0.21.0,>=0.20.3; extra == "tests"
+
+## SvectorDB Client
+
+For more information on SvectorDB, visit the [website](https://svectordb.com/docs).
