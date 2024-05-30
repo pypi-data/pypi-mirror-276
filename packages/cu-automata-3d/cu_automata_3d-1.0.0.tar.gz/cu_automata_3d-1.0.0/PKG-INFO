@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cu_automata_3d
+Version: 1.0.0
+Summary: A package implementing 3D cellular automata using CuPy
+Home-page: https://github.com/P34K1N/lenia3d_cuda
+Author: Vladislav Fedorov
+Author-email: vlad.fiedorov.2001@mail.ru
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: pyvista
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: twine>=4.0.2; extra == "dev"
+
+# CuAutomata3D
+
+A package implementing 3D cellular automata using CuPy
