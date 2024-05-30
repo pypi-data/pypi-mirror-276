@@ -1,0 +1,10 @@
+README.md
+setup.py
+TiDE/WaveyMcWaveFace.egg-info/PKG-INFO
+TiDE/WaveyMcWaveFace.egg-info/SOURCES.txt
+TiDE/WaveyMcWaveFace.egg-info/dependency_links.txt
+TiDE/WaveyMcWaveFace.egg-info/requires.txt
+TiDE/WaveyMcWaveFace.egg-info/top_level.txt
+TiDE/tests/__init__.py
+TiDE/utils/__init__.py
+TiDE/utils/tide.py

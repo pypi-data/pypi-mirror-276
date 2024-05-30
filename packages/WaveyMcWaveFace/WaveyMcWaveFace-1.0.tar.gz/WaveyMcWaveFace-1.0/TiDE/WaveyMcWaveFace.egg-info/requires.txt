@@ -1,0 +1,10 @@
+numpy==1.23.5
+pandas-profiling==3.6.6
+pandas==2.2.2
+pandocfilters==1.5.1
+scikit-learn==1.2.2
+torch==2.0.1
+
+[dev]
+pytest==8.2.1
+twine==5.1.0
