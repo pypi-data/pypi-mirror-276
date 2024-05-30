@@ -1,0 +1,12 @@
+module/__init__.py,sha256=7ELOwpzqdfpeBx3oWKP_aYiIEFsX5p8-PmmliUX7nvs,94
+module/add.py,sha256=PJRjKLSl6rJrJcjr6V3buUjhu-634SJG9x9PRiX1Bw0,42
+module/smart_substract.py,sha256=5MTiEkU7Tly8tdweJlEsGwNW2q22DSCbU7uj2NyQdw0,373
+module/subtract.py,sha256=swmOZcHf2sRWRUfJdUY-WM3cKz65cqdjrQsjDBfejz4,47
+module/extras/__init__.py,sha256=PZSD5KBz18yWugN74-vhWwmkZBi_4rBaSBilLxZKDuA,55
+module/extras/divide.py,sha256=-1M6HKFknYIlDxOEj2Z71rNiiEgkqV0WDpqpaPhdY0A,45
+module/extras/multiply.py,sha256=okIzPH6rYixFgydO3alb05e1sUsaEz3RHhmVRhjemSk,54
+module/extras/smart_divide.py,sha256=DrqJnNTUV74t_ne6UEjGv8lkOvTyXMuXFvmSEStFslw,86
+package_tut-0.0.1.dist-info/METADATA,sha256=OkNouwYmaGIt4Iy12xsNZoRKfH89DXBrgNLVIzSUEOI,591
+package_tut-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+package_tut-0.0.1.dist-info/top_level.txt,sha256=rCVQUTc7DucbyvV1vRKPlp8MRkSTuDqKf-ZCJsPhQHc,7
+package_tut-0.0.1.dist-info/RECORD,,
