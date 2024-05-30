@@ -1,0 +1,2 @@
+structlog==24.2.0
+orjson==3.10.3

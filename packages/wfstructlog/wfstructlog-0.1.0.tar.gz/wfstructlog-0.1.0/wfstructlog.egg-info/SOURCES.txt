@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+wfstructlog/__init__.py
+wfstructlog/wfStructLog.py
+wfstructlog.egg-info/PKG-INFO
+wfstructlog.egg-info/SOURCES.txt
+wfstructlog.egg-info/dependency_links.txt
+wfstructlog.egg-info/requires.txt
+wfstructlog.egg-info/top_level.txt
