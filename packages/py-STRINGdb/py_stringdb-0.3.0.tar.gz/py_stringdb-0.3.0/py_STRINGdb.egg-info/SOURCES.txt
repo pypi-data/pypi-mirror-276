@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+STRINGdb/__init__.py
+STRINGdb/graph.py
+STRINGdb/network.py
+STRINGdb/prep.py
+STRINGdb/version.py
+STRINGdb/dataset/genes.csv
+py_STRINGdb.egg-info/PKG-INFO
+py_STRINGdb.egg-info/SOURCES.txt
+py_STRINGdb.egg-info/dependency_links.txt
+py_STRINGdb.egg-info/entry_points.txt
+py_STRINGdb.egg-info/requires.txt
+py_STRINGdb.egg-info/top_level.txt

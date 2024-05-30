@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-STRINGdb"
+authors = [
+    {name = "Rongbo Wu", email = "wurongbo2012@hotmail.com"},
+]
+description = "STRINGdb python REST api"
+dynamic = ["version"]
+
+requires-python = ">=3.8"
+dependencies = [
+    "httpx >= 0.21",
+    "pandas >= 1.4",
+    "igraph > 0.11.0",
+    "matplotlib >= 3.3"
+]
+
+[project.optional-dependencies]
+###
+
+[project.scripts]
+stringdb = "STRINGdb.prep:main"
+
+[project.urls]
+"Homepage" = "https://github.com/wrb2012/string-db/"
+
+[tool.setuptools]
+packages = ["STRINGdb"]
+
+[tool.setuptools.dynamic]
+version = {attr = "STRINGdb.__version__"}

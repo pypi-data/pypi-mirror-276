@@ -1,0 +1,4 @@
+httpx>=0.21
+pandas>=1.4
+igraph>0.11.0
+matplotlib>=3.3
