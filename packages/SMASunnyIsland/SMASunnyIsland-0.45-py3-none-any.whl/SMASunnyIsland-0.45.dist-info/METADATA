@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: SMASunnyIsland
+Version: 0.45
+Summary: A Python library for controlling SMA Sunny Island inverters
+Home-page: https://github.com/HarmvandenBrink/SMA_Sunny_Island_Controller
+Author: Harm van den Brink
+Author-email: Harm van den Brink <harmvandenbrink@gmail.com>
+Project-URL: Homepage, https://github.com/HarmvandenBrink/SMA_Sunny_Island_Controller
+Project-URL: Issues, https://github.com/HarmvandenBrink/SMA_Sunny_Island_Controller/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyserial
+Requires-Dist: pymodbus ==2.5.3
+Requires-Dist: pysunspec ==2.1.1
+
+# SMA Sunny Island Controller
+A controller to read out and send commands to a SMA Sunny Island battery inverter. SUNNY ISLAND 4.4M / 6.0H / 8.0H 
+
+This code was used in a home built Home Energy Management System (HEMS), to include a battery into a smart home. You can read more about it in my blog post: [How I built a HEMS with solar, a battery and a charge station (in Python)](https://medium.com/@harmvandenbrink/how-i-built-a-hems-with-solar-a-battery-and-a-charge-station-in-python-d5b51e60fd1c?source=friends_link&sk=f5e9302a02ea29065c3f677ecf1b8ed8)
+
+# How to use the code
+## Set up
+```bash
+pip3 install SMASunnyIsland
+```
+Then in your code:
+```python
+from smasunnyisland import SMASunnyIslandClient
+
+client = SMASunnyIslandClient("192.168.1.10", max_charge_value=-2000, max_discharge_value=2000)
+```
+## Read out values
+
+```python
+values = client.read_sma_values() # To print all values
+values = client.read_sma_values('ChaState') # To read a single value, in this case the State of Charge (SoC)
+```
+
+## Control the battery
+
+```python
+client.set_power_setpoint(1000) # To discharge the battery with 1000 Watt (1 kW)
+client.set_power_setpoint(-2000) # To charge the battery with 2000 Watt (2 kW)
+```
+
+# Disclaimer
+
+The code within this repository comes with no guarantee, the use of this code is your responsibility.
+
+I take NO responsibility and/or liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK.
