@@ -1,0 +1,3 @@
+[console_scripts]
+source-coingecko-coins=source_coingecko_coins.run:run
+
