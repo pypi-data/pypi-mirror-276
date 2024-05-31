@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aura_tools
+Version: 0.22
+Summary: 工具库
+Home-page: https://github.com/aura-tools/aura_tools
+Author: aura_tools
+Author-email: aura_tools@topsmartdata.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
