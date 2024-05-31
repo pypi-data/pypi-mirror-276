@@ -1,0 +1,7 @@
+binaryornot
+flask==2.2.2
+pillow
+requests
+PyGithub==1.55
+unidiff==0.7.4
+Werkzeug==2.2.2
