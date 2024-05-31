@@ -1,0 +1,9 @@
+README.md
+setup.py
+pandans.egg-info/PKG-INFO
+pandans.egg-info/SOURCES.txt
+pandans.egg-info/dependency_links.txt
+pandans.egg-info/entry_points.txt
+pandans.egg-info/top_level.txt
+reqwests/__init__.py
+reqwests/index.py
