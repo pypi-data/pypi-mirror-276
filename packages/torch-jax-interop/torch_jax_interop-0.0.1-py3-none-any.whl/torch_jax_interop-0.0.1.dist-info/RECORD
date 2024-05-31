@@ -1,0 +1,11 @@
+torch_jax_interop/__init__.py,sha256=LvARIADmtGAvVe2Bb-EodpwJy1A4l4hMO9t5ZeJnfEM,184
+torch_jax_interop/conftest.py,sha256=__iKBgWla8bT8HKN8F7GcG1YgRCqWpLx8Otga4Xt3Kw,1644
+torch_jax_interop/to_jax.py,sha256=f0cczF1vZ5HGOWS0NcNeA6yBmic4sEBlSN2XG7yxBSM,3119
+torch_jax_interop/to_jax_test.py,sha256=z6oaErrdWIGKdQ4Xbp1DvHPE8VNvjZTxB52F0xLfbDI,3233
+torch_jax_interop/to_torch.py,sha256=rbx5RLGNUP4xn0v77dnqRQ-mhIyZw4WfOOeRCi6GgkQ,2929
+torch_jax_interop/to_torch_test.py,sha256=1Hy7Z7V5OwJGUz91z_r1F0NQ3Y7MGkoDARpwb8J9OVM,2773
+torch_jax_interop/types.py,sha256=DNwhFIDWV8cu-NVnzh415P95hZjNkNbN8xmGoztCM5U,2036
+torch_jax_interop-0.0.1.dist-info/LICENSE,sha256=m7ZWWZEG_YW8CIHfkv-EbU3XTYv-yVKkYKzGlNum_F8,1074
+torch_jax_interop-0.0.1.dist-info/METADATA,sha256=yrxtROpgIT53Li8KotgsGDcuLYNi0_669wtwUV0yaKA,1812
+torch_jax_interop-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+torch_jax_interop-0.0.1.dist-info/RECORD,,
