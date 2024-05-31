@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyinitlog_util
+Version: 1.0.0
+Summary: logging的初始化
+Home-page: https://github.com/buyfakett
+Author: buyfakett
+Author-email: buyfakett@vip.qq.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorlog
+
+<h1 align="center">pyinitlog_util</h1>
+
+- pyinitlog_util.py
+
+初始化logging
