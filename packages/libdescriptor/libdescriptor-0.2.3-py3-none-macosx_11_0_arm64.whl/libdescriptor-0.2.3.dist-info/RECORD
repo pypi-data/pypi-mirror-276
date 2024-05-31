@@ -1,0 +1,12 @@
+libdescriptor/__init__.py,sha256=rqK7Xhg0ipwkrZTxDqQnFjlyc_pbgYa8nEdPfdmj7VQ,461
+libdescriptor/libdescriptor.cpython-310-darwin.so,sha256=fMjTGvl-RNWR1SMbgdQ_zcXCgzu0BI42j8VTAbr1abU,1931824
+libdescriptor/libdescriptor.cpython-311-darwin.so,sha256=-ADVzTB2xe99IfY_F9GrpFUJSl1dn1YXpaV3RbF-SuQ,1932128
+libdescriptor/libdescriptor.cpython-38-darwin.so,sha256=f5J1v0-fD17tKGkgURvPIMZ53c-UAhmp63EC3qLGD_o,1931312
+libdescriptor/libdescriptor.cpython-39-darwin.so,sha256=W8vFpSf1DBfu4rNcFxytY3PlA43Qe0fP2kYN5sZkEBU,1931936
+libdescriptor/libdescriptor.dylib,sha256=kJs8_mZD1AgiH5Xdq9jIub9tYUfxs86qTnEBqsxV7xA,744368
+libdescriptor/libdescriptor.pyi,sha256=67jx2_y8RWyv8xe5yimeXlNu5z-01CqFQcROrL4Hty4,3872
+libdescriptor/neighbor.py,sha256=R76IJsyv8MxTVw81SGF7Wwpsg6Acm0Y4MgxVbrs_7Bg,9335
+libdescriptor-0.2.3.dist-info/METADATA,sha256=ktVZMr_MmdlJ_cy_x8Osld4Xlmg2tecEJWC8ufpGSFA,1841
+libdescriptor-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+libdescriptor-0.2.3.dist-info/top_level.txt,sha256=lKe1qg_PSoaEjJ5aFscJsMq6EmrVgBM-bVrw0hRL6bQ,14
+libdescriptor-0.2.3.dist-info/RECORD,,
