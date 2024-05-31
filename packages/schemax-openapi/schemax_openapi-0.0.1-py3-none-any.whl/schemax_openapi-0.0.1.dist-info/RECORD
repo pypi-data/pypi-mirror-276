@@ -1,0 +1,8 @@
+openapi_parser/__init__.py,sha256=aItnhUvCLt18Sc8H5GX8Wj3Vi62UZ5wXuuL1KUKEQzk,84
+openapi_parser/_data_collector.py,sha256=Q_rjVqyCm68MTx1ro6PLB4aZ6IU9IZOMzy0xC_QClwY,5570
+openapi_parser/_openapi_normalizer.py,sha256=b-Db6pp0gBdNYwDJ8ZNmjDnSw_CfiMcvT4Q_TNJG0y4,785
+openapi_parser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schemax_openapi-0.0.1.dist-info/METADATA,sha256=gpyxZUa6x1caV8hPVCoVf-0kS3pqpG_mGcVWM3I76l4,567
+schemax_openapi-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+schemax_openapi-0.0.1.dist-info/top_level.txt,sha256=KEXUF17VPH_1gX_j_zliqup_SL-SocBKIpW5fy7UcNI,15
+schemax_openapi-0.0.1.dist-info/RECORD,,

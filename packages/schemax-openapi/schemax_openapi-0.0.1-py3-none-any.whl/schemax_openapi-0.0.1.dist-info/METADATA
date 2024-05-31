@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: schemax-openapi
+Version: 0.0.1
+Summary: Useful OpenAPI parser for d42 universe
+Home-page: https://github.com/Lolimpo/openapi-parserr
+Author: Nikita Mikheev
+Author-email: thelol1mpo@gmail.com
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: schemax >=0.0.1
+
+# OpenAPI Parser
+
+Useful for d42 universe and schemax lib.
