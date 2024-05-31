@@ -1,0 +1,12 @@
+codac/__init__.py,sha256=8m4GawPMaRyUEKua7I59YP0EXmZpwZKExJu0m0bC7bc,1419
+codac/core.cpython-36m-darwin.so,sha256=ymCpIEEB-r-pFhC686414W-5llqsSzozuoTB0HGi4Rs,4183256
+codac/empty.cpython-36m-darwin.so,sha256=Ui_LC3HJn0zgPdM_hVXvEEN-LmozH_xAviqaNkELlUw,16440
+codac/graphics.cpython-36m-darwin.so,sha256=nA0_yWiBMkbW17dJv0JcATsrk9cDNRyf6rVuLTPGX0c,177000
+codac/unsupported.cpython-36m-darwin.so,sha256=wqgTsgYnjCGgZLTjihxY-BanXe8mxOKH7bBQsaevHFQ,177024
+codac/version.py,sha256=6aTsaEKyBHFdzQjDU6jvkF0BXPK1486LAfHKk-VQHKc,19
+codac/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codac/tests/codac2_tests.py,sha256=tZP8OWEGdlyfp-9-IaKxlEfcgOaXNa34kMf8bZWSacw,235
+codac-2.0.0.dev1.dist-info/METADATA,sha256=O68bnE8nkb0KwEjINRTBI5fP9WhWWhUPioMx1n6MNWU,658
+codac-2.0.0.dev1.dist-info/WHEEL,sha256=L2ysQRpzaZ_dwmB2jbkklv0iP3gp4u98o7Dm87lh-Xk,111
+codac-2.0.0.dev1.dist-info/top_level.txt,sha256=8FIXP4a7FrNu8RyqD7RFUsU7CTUmdd2T6j6EU-DTNYs,6
+codac-2.0.0.dev1.dist-info/RECORD,,
