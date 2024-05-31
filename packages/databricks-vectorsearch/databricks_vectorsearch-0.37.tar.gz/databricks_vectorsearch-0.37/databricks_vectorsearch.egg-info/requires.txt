@@ -1,0 +1,4 @@
+mlflow-skinny<3,>=2.11.3
+protobuf<5,>=3.12.0
+requests>=2
+deprecation>=2
