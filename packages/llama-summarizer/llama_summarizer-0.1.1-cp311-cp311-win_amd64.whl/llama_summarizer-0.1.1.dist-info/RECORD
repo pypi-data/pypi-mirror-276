@@ -1,0 +1,15 @@
+summarizer/__init__.py,sha256=EKjGAtRZGxipkfx0B3cCGHCdAFpK1LgI447PxNDpDRc,167
+summarizer/audio_decode.c,sha256=8wIrhDF1BCTFS-TZFJ63r0g4Y1Ebngw-C72OEFyk3a8,9986
+summarizer/chatgpt.py,sha256=kl00wOcnCBZn9nypSr_MANZrXIODbAT9u_keqZV6Vu8,3776
+summarizer/cli.py,sha256=JX001brkHMUOpCE02Dq5Cps87J0Tr38ukJ3r2ct395E,3914
+summarizer/extension.py,sha256=0eWIIIWqBdN7by0-Xf6SQP-W33Z-DbM9b6u-0vv9qiA,2483
+summarizer/huggingchat.py,sha256=tjQ7ikz4DWrhNvwMYfyODrh0KeJPGOgnf73ggTU16-s,2362
+summarizer/native.dll,sha256=LQwaXorNg7FRnYP-z0gCb1dpiiixJsDeNw4wgubo9Ag,16896
+summarizer/native.lib,sha256=RUWOwOoaoiPnE9uc__Y2A5FJacdmE9iqAhCkcIPSShM,1710
+summarizer/summarizer.py,sha256=Hn3klJhkFZptAAeJhmpFtN56vSN7-_YcomErXXltv-M,13561
+summarizer/template.html,sha256=RMTGY_5nk6OtfKYthPIW6m9ECXE3zeeLejJwqPH2RTM,1108
+llama_summarizer-0.1.1.dist-info/METADATA,sha256=OiHYJHb4PpK2jd9HJr0BJKL_SQf4NiK541fOrSuSD1I,1069
+llama_summarizer-0.1.1.dist-info/WHEEL,sha256=EqOplcrpC3pSjx9crVS1TZqO0dWobL3ydy-Y97MXP4g,105
+llama_summarizer-0.1.1.dist-info/entry_points.txt,sha256=hDePghqAf_cPoz_KtPIgBoxDNsb3pICWDo39Pu2h0Zs,93
+llama_summarizer-0.1.1.dist-info/licenses/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+llama_summarizer-0.1.1.dist-info/RECORD,,
