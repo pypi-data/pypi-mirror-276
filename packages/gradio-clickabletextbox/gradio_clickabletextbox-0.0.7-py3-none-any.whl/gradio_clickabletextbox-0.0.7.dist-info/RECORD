@@ -1,0 +1,10 @@
+gradio_clickabletextbox/__init__.py,sha256=ADFEY3q0tK_5zGAQPs-bERxiS7mTLA1f_SDq-87CMRE,80
+gradio_clickabletextbox/clickabletextbox.py,sha256=QbbS257WclL6FiEw6Ei5QailJoFGA76nOonj28Kp_Ig,6914
+gradio_clickabletextbox/clickabletextbox.pyi,sha256=NtE8fqAYZH3Rg3VLgvv9IJbLc4i1T-m6Ul1qSgcthsA,37561
+gradio_clickabletextbox/templates/component/index.js,sha256=zVOlMyvQirigUSjA9kLHEiptA0815PQzbed_-9jsRIM,97507
+gradio_clickabletextbox/templates/component/style.css,sha256=FZjcctixfwtcWltiHEzyEgrISwoaVeHpCAOisnXk8Ng,16635
+gradio_clickabletextbox/templates/example/index.js,sha256=OS9nWHtrMBcPa-vuGta3RE8gDLSp0_43pHlFTZPPASA,2315
+gradio_clickabletextbox/templates/example/style.css,sha256=-DHk5asz3SWFNLQlCnYuMN4b4gTf_srMmlu5x_xU_Pw,147
+gradio_clickabletextbox-0.0.7.dist-info/METADATA,sha256=vnDVb1rUsAYV1upfZwtDaUuAMuq6gCzEqhfeEK6a-Sw,11712
+gradio_clickabletextbox-0.0.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+gradio_clickabletextbox-0.0.7.dist-info/RECORD,,
