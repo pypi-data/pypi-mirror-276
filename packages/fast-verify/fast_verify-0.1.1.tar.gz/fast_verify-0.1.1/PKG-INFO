@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: fast-verify
+Version: 0.1.1
+Summary: 
+Author: Chongchen Chen
+Author-email: chenkovsky@qq.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Fast Verify
+
+Support Rails style MessageVerifier for Python.
+
+## Install
+
+```bash
+pip install fast-verify
+```
+
+## Usage
+
+```python
+from fast_verify import CachingKeyGenerator, MessageVerifier
+
+secret = b"aaa"
+key_gen = CachingKeyGenerator(secret)
+verifier = MessageVerifier(key_gen(b"purpose"))
+verifier.read_message(verifier.create_message(b"haha"))
+```
+
+
