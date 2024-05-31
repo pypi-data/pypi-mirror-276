@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+chakhalyan.egg-info/PKG-INFO
+chakhalyan.egg-info/SOURCES.txt
+chakhalyan.egg-info/dependency_links.txt
+chakhalyan.egg-info/top_level.txt
+example_package/__init__.py
+example_package/hello.py
