@@ -1,0 +1,14 @@
+
+[build]
+furo
+sphinx
+setuptools-git
+twine
+wheel
+
+[test]
+mypy
+pytest
+pytest-cov
+sybil
+testfixtures
