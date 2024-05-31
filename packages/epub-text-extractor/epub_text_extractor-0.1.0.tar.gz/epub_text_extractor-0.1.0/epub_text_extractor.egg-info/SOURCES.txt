@@ -1,0 +1,14 @@
+README.md
+setup.py
+epub_text_extractor/__init__.py
+epub_text_extractor/cli.py
+epub_text_extractor/converter.py
+epub_text_extractor/extractor.py
+epub_text_extractor/reader.py
+epub_text_extractor/setup.py
+epub_text_extractor.egg-info/PKG-INFO
+epub_text_extractor.egg-info/SOURCES.txt
+epub_text_extractor.egg-info/dependency_links.txt
+epub_text_extractor.egg-info/entry_points.txt
+epub_text_extractor.egg-info/requires.txt
+epub_text_extractor.egg-info/top_level.txt
