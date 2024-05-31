@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "codec-sdk"
+authors = [{name = "Armada Labs Inc", email = "contact@codec.io"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires-python = ">=3.8"
+dynamic = ["version", "description"]
+dependencies = [
+    "requests >=2.31.0",
+    "supabase >=1.0.3",
+    "svix >=1.21.0"
+]
+
+[project.urls]
+Home = "https://codec.io"
+Documentation = "https://docs.codec.io"
+Source = "https://github.com/codec-hq/codec-py"
+
+[tool.flit.module]
+name = "codec"
