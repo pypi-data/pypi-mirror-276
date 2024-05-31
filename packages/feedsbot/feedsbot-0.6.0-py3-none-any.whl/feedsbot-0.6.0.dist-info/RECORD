@@ -1,0 +1,12 @@
+feedsbot/__init__.py,sha256=DdOiIO7e9EmGcd7jLtJyYjomqb7fy92YBfPQSaY88aA,166
+feedsbot/__main__.py,sha256=M7jcIQ0wYwLot7bzOqMQUEJv_190nXbdctI6hrTINbA,65
+feedsbot/_version.py,sha256=2JKwcA-YQ0okV2N-gwTWy_n51igWrPcsKQFm0cnqsvw,411
+feedsbot/hooks.py,sha256=CbQWRfQcyNKhwL-oxv2nD3KjNMfr3ImCknr1ENGLYto,10830
+feedsbot/orm.py,sha256=v8xkB8yH0n5e_gD1giGKK9FXD67Y5fhTkp3RNRvZOwk,1610
+feedsbot/util.py,sha256=vZqC0rjnnesfynexgfdz9qkOuzpZOxaUYqUlhr21XTc,9831
+feedsbot-0.6.0.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+feedsbot-0.6.0.dist-info/METADATA,sha256=r3_rbnMRwiilAmwxBfVkoaRm99ZZmoYM1urvERLs-JU,2399
+feedsbot-0.6.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+feedsbot-0.6.0.dist-info/entry_points.txt,sha256=D2HQjyV7-iYTZebkzTr8dKNaKdO8qeJxAhJCRPgVPKE,43
+feedsbot-0.6.0.dist-info/top_level.txt,sha256=iBCyLHfyhLi1jlwbxcxj8I6PXpwFU2mpY4PhydT_ByE,9
+feedsbot-0.6.0.dist-info/RECORD,,
