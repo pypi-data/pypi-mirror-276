@@ -1,0 +1,2 @@
+include easy_nodes/*.py
+include easy_nodes/web/*
