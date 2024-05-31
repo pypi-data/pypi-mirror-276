@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hierarchical_state_machine
+Version: 1.0.2
+Summary: This python library provides an easy-to-learn and easy-to-use API for using Hierarchical State Machines in your project. The state machine is defined using a basic JSON string, and includes convenience timers.
+Author-Email: Dan Tebbs <dantebbs@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://github.com/dantebbs/hierarchical_state_machine
+Requires-Python: >=3.8
+Requires-Dist: requests>2
+Requires-Dist: curses; extra == "examples"
+Provides-Extra: examples
+Description-Content-Type: text/markdown
+
+# hierarchical-state-machine
+This python library provides an easy-to-learn and easy-to-use API for using Hierarchical State Machines in your project. The state machine is defined using a basic JSON string, and includes convenience timers.
