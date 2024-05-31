@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: juliang
+Version: 1.1.0
+Summary: 巨量IP - API SDK for Python
+Home-page: https://gitee.com/juliangip/juliang-python-sdk
+Author: juliangip
+Author-email: juliangip@163.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+
+
+# 简介
+
+---
+
+> [巨量IP](http://www.juliangip.com) - API SDK - Python
+
+## 开始
+
+> Python >= 3.6
+
+### 安装
+
+#### 通过pip安装
+
+```sybase
+pip install juliang
+```
+
+#### 通过源码包安装
+前往 [gitee代码托管地址](https://gitee.com/juliangip/juliang-python-sdk) 下载最新代码，解压
+
+```python
+python setup.py install
+```
+
+> Python 3.9以下的需要将 源码文件Juliang.py中的unquote(request.read(), "utf-8")方法替换为unquote(request.read().decode(), "utf-8")
+
+## 示例
+```python
+import juliangip.Juliang as Juliang
+import juliangip.common.DynamicGetIps as dgi
+
+
+dynamic_trade_no = "1135123856516518735679"
+dynamic_key = "eb9887f742sdfasdfahewrg1e4b71bfe040a5025b55e7"
+
+def dynmaic_get_ips():
+    m = dgi.DynamicGetIps(dynamic_key, dynamic_trade_no, "10")
+    m.result_type = "json"
+    value = Juliang.dynamic_get_ips(m)
+    print(value)
+
+
+if __name__ == '__main__':
+    dynmaic_get_ips()
+```
+
+## 参考资料
+
+* [API文档](https://www.juliangip.com/help/api/api/)
