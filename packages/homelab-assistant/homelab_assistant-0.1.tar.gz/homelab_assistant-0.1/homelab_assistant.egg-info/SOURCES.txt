@@ -1,0 +1,6 @@
+LICENSE
+pyproject.toml
+homelab_assistant.egg-info/PKG-INFO
+homelab_assistant.egg-info/SOURCES.txt
+homelab_assistant.egg-info/dependency_links.txt
+homelab_assistant.egg-info/top_level.txt
