@@ -1,0 +1,8 @@
+[console_scripts]
+packetize = kazquakersudp.packetize:main
+rs-client = kazquakersudp.client:main
+rs-log = kazquakersudp.entry_points:ep_cat_log
+rs-packetloss = kazquakersudp.packetloss:main
+rs-settings = kazquakersudp.entry_points:ep_edit_settings
+rs-tailf = kazquakersudp.entry_points:ep_tailf_log
+rs-test = kazquakersudp.client:test
