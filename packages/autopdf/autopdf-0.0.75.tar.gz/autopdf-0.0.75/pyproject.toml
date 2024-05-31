@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "autopdf"
+version = "0.0.75"
+authors = [
+  { name="Gustavo L. Matos", email="matosgustavo@statmatos.com" },
+]
+
+dependencies = [
+  'pandas', 'numpy', 'pdfminer', 'scikit-learn',
+]
+description = 'Extracts PDF text to .md or .txt in reading order!'
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/GustaMatos0/autopdf"
+Issues = "https://github.com/GustaMatos0/autopdf/issues"
