@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+requests
+bs4
+scipy
+selenium
+webdriver-manager
+
+[testing]
+pytest>=6.0
+pytest-cov>=2.0
+mypy>=0.910
+flake8>=3.9
+tox>=3.24
