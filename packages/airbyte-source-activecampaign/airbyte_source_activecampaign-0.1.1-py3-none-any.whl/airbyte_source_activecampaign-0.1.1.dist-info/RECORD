@@ -1,0 +1,15 @@
+source_activecampaign/__init__.py,sha256=UayHC-MNvGp-9w93NV3knb1Ty3M_pFsaF7MvoacPyzY,140
+source_activecampaign/manifest.yaml,sha256=VPvSgULhuorjR7Nx7FWONW8SAaUlqhRZDMaONHAENfM,2668
+source_activecampaign/run.py,sha256=W-DBBbM21ZiK6pmkpmhO8OvVf-klstrYPOM3FZOY068,254
+source_activecampaign/schemas/campaigns.json,sha256=KmWjVvbVITekx1AdlrP8aj52VxNj6R-WMYBx0swRu8I,6811
+source_activecampaign/schemas/contacts.json,sha256=wdS5rbYSZum9GqLKudVTmMqcVenNHko_fUczi9B-_0E,4500
+source_activecampaign/schemas/deals.json,sha256=0FEzTb8AANcaFgaUAIYtJrwd195L_vVhklCaqeYTS3A,2643
+source_activecampaign/schemas/forms.json,sha256=TMDSwKZ-uK5YHYWVnXEKOwGoFuG23KGTBLpzbUOKVLs,6684
+source_activecampaign/schemas/lists.json,sha256=VPKNeLGG5UP2JvMqDxvHZQHnFMya67PBkdXsz-BxWiw,3028
+source_activecampaign/schemas/segments.json,sha256=4YFjhnWPPRqURsf89dKBa-XTiytCTnITSONOSFE1Uw4,535
+source_activecampaign/source.py,sha256=XzCpyTnPQ4u83c2fEFiLLAx-fGgarMh23vhu_oIWQ44,483
+source_activecampaign/spec.yaml,sha256=w1lnJ3oTXNrO9YIOM7zp7tuker8a2DG1xZeMwbwKhFg,457
+airbyte_source_activecampaign-0.1.1.dist-info/METADATA,sha256=Xrj-9iEvsbGD6h3Fxn-H0BPr-1lq8ExERoUVst6mg5g,5367
+airbyte_source_activecampaign-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_activecampaign-0.1.1.dist-info/entry_points.txt,sha256=TeoUAR-xLrn2lDhumCkRJfCVllr3bbFY1SVOFNmcS-c,71
+airbyte_source_activecampaign-0.1.1.dist-info/RECORD,,
