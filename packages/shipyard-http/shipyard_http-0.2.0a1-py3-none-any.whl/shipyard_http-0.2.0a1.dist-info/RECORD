@@ -1,0 +1,7 @@
+shipyard_http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_http/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_http/cli/download_file.py,sha256=OCEkp96SYeKcjaVskahhvYt2KP58Wcz9Jybw6isQ1DI,3730
+shipyard_http/cli/execute_request.py,sha256=QqY4Rkr1g4ZsK_oQNaxEpD_GeLXG8T-kDDDSjBUtZfo,3604
+shipyard_http-0.2.0a1.dist-info/METADATA,sha256=FL1npaeQNe96rbPPoCMnyQ2o7kFX-SaoH6MvBnnVAH4,560
+shipyard_http-0.2.0a1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_http-0.2.0a1.dist-info/RECORD,,
