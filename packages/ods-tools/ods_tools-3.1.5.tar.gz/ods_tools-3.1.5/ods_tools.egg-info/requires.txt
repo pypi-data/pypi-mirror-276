@@ -1,0 +1,6 @@
+pandas
+numba
+chardet
+jsonschema
+jsonref
+packaging
