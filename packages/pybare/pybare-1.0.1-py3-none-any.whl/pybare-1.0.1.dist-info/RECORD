@@ -1,0 +1,16 @@
+bare/__init__.py,sha256=dEgugTLeZG-SPSddfq1XYTpiraCOFZ0vdAjn4A_LsaM,766
+bare/barearray.py,sha256=A8wppopyIVdeYf4P0oRJX4ERvtk0YSVvLoUptH6KQU8,4654
+bare/barestruct.py,sha256=Xmc5GeH2Pjx0E3eMIxy43-HHznUeD5YLWcVhTlHrYAM,3739
+bare/baretype.py,sha256=bflpqGJXBWnXaVW8ieF978sbvLRQm_NAoB9IqCAAzmk,662
+bare/data.py,sha256=YJXrTqHWXR9gjKLclvbDarh_6A9-ess3DRg2tlZAR-0,2349
+bare/map.py,sha256=fHPqx6TqzYxWiwZu_JaS5FTybUEdL3-pvPas-SJj4PY,3567
+bare/misc.py,sha256=5tlwggDQzaOA3nj9OtQ2rTen5a0SkLslGLP_WXgw1I8,3320
+bare/number.py,sha256=Q6aiUk0cfNP7eseZ1m61FEb00zvgyzqWdhIGXF-Oylg,10598
+bare/test_encoder.py,sha256=5UibsR2aCacuTjdapOBMudvNMB-kVr1lAF-UUv0adyQ,8310
+bare/union.py,sha256=PZ5g8uPvEM0kwbxE-ZWQMHQ8KTwNeH35LNvd5ROBWUc,6178
+bare/util.py,sha256=t1zp944chtDl8DgGuzr2zQnD6X_4Dykp3kHPy43YY-k,1282
+pybare-1.0.1.dist-info/LICENSE,sha256=oT8VIVHEfBdCdpwnkubDEsT8x64WbW4GvYXh_j6iE7U,1053
+pybare-1.0.1.dist-info/METADATA,sha256=ZqVzMjJeRvME17d0yG2pvzGM_4PCXMj1rc2nxESDmIw,2639
+pybare-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pybare-1.0.1.dist-info/top_level.txt,sha256=8-XSK_6kKH4JnVImbi6C1jjoGmEMvxBJB2-wsMpwY6o,5
+pybare-1.0.1.dist-info/RECORD,,
