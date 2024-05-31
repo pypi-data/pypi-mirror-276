@@ -1,0 +1,9 @@
+scholar_author_scraper/__init__.py,sha256=w4v1rqHzbfgGlK9SuHirwnkPC--D9dJ9ldaNEqR6Jh0,222
+scholar_author_scraper/scholar_author_scraper.py,sha256=DdcEBFeOC_vSk2_dW1pps-nLr5BaDw2_3pcLCtcyo6w,1965
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_app.py,sha256=QBqNQUNxanuQw4ajf6ffBXYsinMfUGvotBbZdhz_Z9M,96
+researcher_papers-0.1.0.dist-info/METADATA,sha256=TA8bmzZcgx29c2X92VUExjOMxvjJlQdRbDUY78OGix4,658
+researcher_papers-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+researcher_papers-0.1.0.dist-info/entry_points.txt,sha256=Ub47tcqT-ZLkfQvzv2EhNFHAlVKsnPIDpGCylbg_aZc,66
+researcher_papers-0.1.0.dist-info/top_level.txt,sha256=KwGTX9oH8JD5GTojhmuivjPWcLsxc-MGSXzd5bXdtkk,29
+researcher_papers-0.1.0.dist-info/RECORD,,
