@@ -1,0 +1,12 @@
+fastopic/FASTopic.py,sha256=4t-7SRnDUMXaroY4r5KEzcF_LPC-UZYCRiAY0zQEOJw,5271
+fastopic/_ETP.py,sha256=Ft9oFyEUd7ytpamEZX3XshE7b7F_QtnPQsm3fryR7-0,1778
+fastopic/__init__.py,sha256=UwyOAx5GNssANtkUSq9XSoyY1bzWAzxc6xPbx_9t6m0,39
+fastopic/_embedding_model.py,sha256=sGUTzQY-FrB2X13-VjpnWKtSTUN_a7cOP3oymspPJgA,580
+fastopic/_fastopic.py,sha256=4SlFPK_LllA2PR6N_WH2kJVQk_fGafZGgdH3gvyYqpI,3002
+fastopic/_model_utils.py,sha256=2v0C3bxlfwMO4tu_A3Bj6LSvgTnmxLwZRclHWDze514,177
+fastopic/_utils.py,sha256=tqT4nAo5dexeRbUpwH058UTu_tTcnQVU59wtBNWJLO4,1353
+fastopic-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastopic-0.0.1.dist-info/METADATA,sha256=M6tSzNrobVjgIX54tEodfxb_CMbpr--l_4chKtCy6HQ,3873
+fastopic-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastopic-0.0.1.dist-info/top_level.txt,sha256=xz-DXfT1RTKwfH90bbWdCnNWciWPl5zplltLcngJn7M,9
+fastopic-0.0.1.dist-info/RECORD,,
