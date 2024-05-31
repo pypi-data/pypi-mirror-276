@@ -1,0 +1,12 @@
+codac-2.0.0.dev1.dist-info/WHEEL,sha256=XTrbe1v1RZIwaNy2ykqZ1b32V5o3CvHsSToseXBj9JY,150
+codac-2.0.0.dev1.dist-info/top_level.txt,sha256=8FIXP4a7FrNu8RyqD7RFUsU7CTUmdd2T6j6EU-DTNYs,6
+codac-2.0.0.dev1.dist-info/RECORD,,
+codac-2.0.0.dev1.dist-info/METADATA,sha256=RiIFtI3yFYPY7NnTuDOwIQaU0lybB5aj_zMj0522vjU,637
+codac/__init__.py,sha256=8m4GawPMaRyUEKua7I59YP0EXmZpwZKExJu0m0bC7bc,1419
+codac/core.cpython-37m-x86_64-linux-gnu.so,sha256=IFBFtUN3B9s4PDcIHgnK9s2NHgWKJlsqy5yQ9Exc90M,2361424
+codac/empty.cpython-37m-x86_64-linux-gnu.so,sha256=37dSFwvudXzgkLwtEi61muChsbM1PyKOM3QxGC6wDmk,15840
+codac/unsupported.cpython-37m-x86_64-linux-gnu.so,sha256=PmmGkVv9Pj-my-XZ-vCUlg91hkDGKbqkPF_4LiwLlaU,1128848
+codac/graphics.cpython-37m-x86_64-linux-gnu.so,sha256=ckfUgiqqZk_hI5GaF566hHbE87fGHdHb_2rprEJQ55c,1128848
+codac/version.py,sha256=6aTsaEKyBHFdzQjDU6jvkF0BXPK1486LAfHKk-VQHKc,19
+codac/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codac/tests/codac2_tests.py,sha256=tZP8OWEGdlyfp-9-IaKxlEfcgOaXNa34kMf8bZWSacw,235
