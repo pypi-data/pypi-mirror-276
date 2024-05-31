@@ -1,0 +1,8 @@
+keyring_proxy-0.1.8.dist-info/METADATA,sha256=ZDKJdvB8b5TiAGj4L8Xiu0haUczHfXfrJEcAo0u1dis,343
+keyring_proxy-0.1.8.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+keyring_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keyring_proxy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keyring_proxy/socketproxy.py,sha256=_2u2hVsWlLiZTVWhlAlbKnhceq44GxC_52nj_a-vxRA,3001
+keyring_proxy/stdioproxy.py,sha256=lXDyO6vBDNojM-q-r_dPzHBshQhWNBFXFLhaessiwsk,1079
+keyring_proxy/transport.py,sha256=evDPWvYrC2n6pDc2rhHhXW9NxRacm2FYMR7g8eCQRAY,7107
+keyring_proxy-0.1.8.dist-info/RECORD,,
