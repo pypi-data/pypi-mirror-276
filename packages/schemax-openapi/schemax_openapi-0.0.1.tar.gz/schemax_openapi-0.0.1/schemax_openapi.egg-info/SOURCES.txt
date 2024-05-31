@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+openapi_parser/__init__.py
+openapi_parser/_data_collector.py
+openapi_parser/_openapi_normalizer.py
+openapi_parser/py.typed
+schemax_openapi.egg-info/PKG-INFO
+schemax_openapi.egg-info/SOURCES.txt
+schemax_openapi.egg-info/dependency_links.txt
+schemax_openapi.egg-info/requires.txt
+schemax_openapi.egg-info/top_level.txt
