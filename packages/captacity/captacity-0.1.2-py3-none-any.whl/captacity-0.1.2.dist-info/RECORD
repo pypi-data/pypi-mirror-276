@@ -1,0 +1,16 @@
+captacity/__init__.py,sha256=QrPF4sanXAu2NdIXe0phY7o9e1jSxnY_AmxoweAGb1I,6517
+captacity/cli.py,sha256=XoD265zFk8xfa_GHHfnBHVbXzkEYeJ1F5ptcMxBuS8E,311
+captacity/segment_parser.py,sha256=SvjdIfLGvUD0r6r7ADELgjd_JSQWJ71WVmqewSwU6WI,1724
+captacity/text_drawer.py,sha256=FT6nqKuCUchyAIkrrMbuYTtJSAZZxZ6zRjeLPhoalyw,4640
+captacity/assets/fonts/Bangers-Regular-LICENSE.txt,sha256=hg-6m1djYOV6_83ZSZTHC_BtoVFBWzzyg9J-jINU0cw,4481
+captacity/assets/fonts/Bangers-Regular.ttf,sha256=EIPGhIb_KAMNcXzOiEeVFamzXjChiFLOpWvNj-4EZ9M,92468
+captacity/assets/fonts/Knewave-Regular-LICENSE.txt,sha256=e1hN4ZkTMp4BsUL7tWREJh7xzQcaswqa7g4KR8FEba0,4392
+captacity/assets/fonts/Knewave-Regular.ttf,sha256=gObH2kiJB4kXH0bwf5fiB7sEwSmbZj7cUG-VEQDw8SQ,31280
+captacity/assets/fonts/PoetsenOne-Regular-LICENSE.txt,sha256=JMnP5js-_qRZQx3be8Fpjic5p0UDOhcm4WkUxeRh7_E,4478
+captacity/assets/fonts/PoetsenOne-Regular.ttf,sha256=_VAmeSprtWx7W0J8iFMxz0e_yQ1r0yBBmd-Nxg3z5q4,177704
+captacity-0.1.2.dist-info/LICENSE,sha256=GHrZymyj7hGbT0ARLjpXj6-lkO7_V58UxbFrexfH3j8,1060
+captacity-0.1.2.dist-info/METADATA,sha256=isibMHW0XZlEXaf4d7kfHSue0WIUDJ_2yH_GgKsTPgY,1189
+captacity-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+captacity-0.1.2.dist-info/entry_points.txt,sha256=LgImijpe4R2jziHR7-4BrYeSRsbO93jTSFk33GETF9o,49
+captacity-0.1.2.dist-info/top_level.txt,sha256=cQLTxkf3hNdDaTm5qvzYRevMTh7K7l5yYKceVYfrs-U,10
+captacity-0.1.2.dist-info/RECORD,,
