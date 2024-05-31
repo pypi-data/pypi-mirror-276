@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: text_eval_benchmark
+Version: 0.1.0
+Summary: A Python package to compute text similarity using Sentence Transformers
+Home-page: https://github.com/vikramelango/text_eval_benchmark
+Author: Your Name
+Author-email: evikram@amazon.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sentence-transformers
+Requires-Dist: torch
+
+# text_eval_benchmark
