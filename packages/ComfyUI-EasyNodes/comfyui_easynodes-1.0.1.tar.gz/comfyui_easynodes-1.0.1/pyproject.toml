@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ComfyUI-EasyNodes"
+version = "1.0.1"
+description = "Makes creating new nodes for ComfyUI a breeze."
+readme = "readme.md"
+authors = [{ name = "Andrew Harp", email = "andrew.harp@gmail.com" }]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "pillow",
+    "colorama",
+    "numpy",
+    "openai",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/andrewharp/ComfyUI-EasyNodes"
+"Bug Reports" = "https://github.com/andrewharp/ComfyUI-EasyNodes/issues"
+"Source" = "https://github.com/andrewharp/ComfyUI-EasyNodes/"
+
+[tool.setuptools]
+packages = ["easy_nodes"]
+
+[tool.poetry]
+name = "ComfyUI-EasyNodes"
+version = "1.0.1"
+description = "Makes creating new nodes for ComfyUI a breeze."
+authors = ["Andrew Harp <andrew.harp@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/andrewharp/ComfyUI-EasyNodes"
+repository = "https://github.com/andrewharp/ComfyUI-EasyNodes"
+documentation = "https://github.com/andrewharp/ComfyUI-EasyNodes"
+readme = "readme.md"
+include = ["web/**/*"]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+torch = "*"
+pillow = "*"
+colorama = "*"
+numpy = "*"
+openai = "*"
