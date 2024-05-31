@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cropimg
+Version: 0.2.0
+Summary: Cropping images
+Home-page: https://github.com/ShotaIuchi/crop-image
+Author: Shota Iuchi
+Author-email: shotaiuchi.develop@gmail.com
+License: MIT
+Keywords: crop,image,adb,screenshot
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
