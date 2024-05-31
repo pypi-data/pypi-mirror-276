@@ -1,0 +1,9 @@
+harlequin_databend/__init__.py,sha256=HtbNI_0cXb0jmhiOC-rofgb2gwjboyqf7n6n0oJd75s,104
+harlequin_databend/adapter.py,sha256=NRdAK48UJIbTUqjYF65-FlBUoRRaxsrwRxOIdbieb-k,8247
+harlequin_databend/cli_options.py,sha256=BD_RxEg2YYWJK1tbESmZTYE3JXPoxEELSG9jVDOAe80,1210
+harlequin_databend/completions.py,sha256=EWiuNTOzfrfZyWd5SwI15PSUGIl4AJd18PBvdbsaoqA,1397
+harlequin_databend/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+harlequin_databend-0.1.17.dist-info/METADATA,sha256=gtYC-NllF9A4l3xpFq7ToZV-QjaUpU34MeMdDHe6FK4,2208
+harlequin_databend-0.1.17.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+harlequin_databend-0.1.17.dist-info/entry_points.txt,sha256=IlVodE7AIRI6IqCM2yFmAksXFP8W3i5Pf_7wbnI0fqg,74
+harlequin_databend-0.1.17.dist-info/RECORD,,
