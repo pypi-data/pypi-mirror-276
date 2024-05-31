@@ -1,0 +1,11 @@
+codac/__init__.py,sha256=8i1yBWjkGkpv-rdgO3o6-vb23KuGmbKQfioCVLjiiqE,1465
+codac/core.cp39-win32.pyd,sha256=HFGK7l61vHTBLDMuKnnQIGL-MX4-FLGSCig3P-7qO2E,955904
+codac/graphics.cp39-win32.pyd,sha256=aTO91Yoygqk2t8Yy22_lKDfvnObLKAWCf1furWEDPeg,73728
+codac/unsupported.cp39-win32.pyd,sha256=uypwTfyfqIeu9ttM89FAswINP-qokRCGWn4SEdQHlCA,73728
+codac/version.py,sha256=6aTsaEKyBHFdzQjDU6jvkF0BXPK1486LAfHKk-VQHKc,19
+codac/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codac/tests/codac2_tests.py,sha256=1hWsdYf1LE4z-o1nxQBxFSPSg4Qsc8LkkcY3TxRoQGg,248
+codac-2.0.0.dev1.dist-info/METADATA,sha256=Czo2tsjrbkz_XIfLQTv7rxPBw8fR6_miGfkG6EL-VHA,652
+codac-2.0.0.dev1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+codac-2.0.0.dev1.dist-info/top_level.txt,sha256=8FIXP4a7FrNu8RyqD7RFUsU7CTUmdd2T6j6EU-DTNYs,6
+codac-2.0.0.dev1.dist-info/RECORD,,
