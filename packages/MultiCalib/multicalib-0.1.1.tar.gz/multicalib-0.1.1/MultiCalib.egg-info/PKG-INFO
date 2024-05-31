@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: MultiCalib
+Version: 0.1.1
+Summary: A Python library for multi-camera system calibration with high accuracy.
+Home-page: https://github.com/stanleydukor/MultiCalib
+Author: Obumneme Dukor
+Author-email: stanleydukor@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib==3.7.5
+Requires-Dist: networkx==3.1
+Requires-Dist: numpy==1.23.5
+Requires-Dist: opencv-python==4.7.0.72
+Requires-Dist: scikit-learn==1.3.0
+Requires-Dist: scipy==1.10.1
+Requires-Dist: PyYAML==6.0
+
+# MultiCalib
+
+MultiCalib is a Python library designed to perform multi-camera system calibration on 4k high-resolution images. This library allows for individual camera calibration and full combined calibration optimization using different patterns. MultiCalib supports high-resolution 4k images with reprojection errors as low as 0.8 pixels. The more patterns used in the calibration process, the lower the reprojection error, ensuring high accuracy and precision in the calibration results.
+
+<img src="https://github.com/stanleydukor/MultiCalib/raw/main/results/camera5.png" alt="sample result" width="500"/>
+
+## Installation
+
+You can install MultiCalib via pip:
+
+```bash
+pip install MultiCalib
+```
+
+## Requirements
+
+- matplotlib==3.7.5
+- networkx==3.1
+- numpy==1.23.5
+- opencv-python==4.7.0.72
+- scikit-learn==1.3.0
+- scipy==1.10.1
+- PyYAML==6.0
+
+## Classes
+
+### CameraSystemCalibration
+
+This class holds information about all the cameras to be calibrated and provides methods to perform full combined calibration optimization.
+
+#### Methods
+
+- `__init__(self, data, patternSize, squareSize, minNoPatterns=10, optimizeSingleCalib=True, drawGraph=False)`: Initializes the camera system calibration.
+- `calibrateSystem(self)`: Performs bundle adjustment on all cameras together for multicamera calibration.
+- `exportCameraParameters(self, calibrationPath)`: Saves the camera parameters to the specified path.
+  reprojectPoints(self, outputPath): Saves the images with the reprojected points.
+
+### Camera
+
+This class holds parameters for each individual camera.
+
+### Pattern
+
+This class holds information about all the patterns used in the calibration process.
+
+## Usage
+
+Here's an example use case of the MultiCalib library:
+
+```bash
+import os
+from glob import glob
+from MultiCalib import CameraSystemCalibration
+
+inputPath = './calib/'
+outputPath = './'
+patternSize = [(12, 11), (14, 13)]
+squareSize = [0.035, 0.042]
+
+data = {}
+cameraList = sorted(os.listdir(inputPath))
+calibrationPath = f'{outputPath}/camera_parameters.yaml'
+
+for camera in cameraList:
+    cameraPath = os.path.join(inputPath, camera)
+    calibrationImagesPath = sorted(glob(os.path.join(cameraPath, '*.png')))
+    data[camera] = calibrationImagesPath
+
+CameraSystem = CameraSystemCalibration(data, patternSize, squareSize, minNoPatterns=10, optimizeSingleCalib=True)
+CameraSystem.calibrateSystem()
+CameraSystem.exportCameraParameters(calibrationPath)
+CameraSystem.reprojectPoints(outputPath)
+```
+
+### Data Structure
+
+The `data` dictionary should be created with the key being the camera, and the value being a sorted list of the image paths.
+
+```bash
+data = {
+    'camera1': ['path/to/image1.png', 'path/to/image2.png', ...],
+    'camera2': ['path/to/image1.png', 'path/to/image2.png', ...],
+    ...
+}
+```
+
+### Detailed Explanation
+
+1. Initialization:
+   - `CameraSystem = CameraSystemCalibration(data, patternSize, squareSize, minNoPatterns=10, optimizeSingleCalib=True)` initializes the system and performs individual camera calibration without extrinsics.
+   - `patternSize` is a list of tuples that contains the dimensions of the patterns used.
+   - `squareSize` is a list of the length of one side of the squares in each pattern (measured in meters).
+   - `optimizeSingleCalib` is `True` if you want to run bundle adjustment optimization on the single camera calibration (default is `False`).
+2. System Calibration:
+   - `CameraSystem.calibrateSystem()` performs bundle adjustment on all cameras together for multicamera calibration.
+3. Export Camera Parameters:
+   - `CameraSystem.exportCameraParameters(calibrationPath)` saves the camera parameters in the specified path.
+4. Reproject Points:
+   - `CameraSystem.reprojectPoints(outputPath)` saves the images with the reprojected points.
+
+### Accessing Camera and Pattern Information
+
+- To view a camera's pose or intrinsic parameters:
+  ```bash
+  CameraSystem.cameras[0].intrinsic
+  CameraSystem.cameras[0].pose
+  CameraSystem.cameras[0].distortion
+  ```
+- To view pattern information for a camera:
+  ```bash
+  CameraSystem.cameras[0].patterns[0].pose
+  CameraSystem.cameras[0].patterns[0].imgPoints
+  CameraSystem.cameras[0].patterns[0].objPoints
+  ```
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
+
+## License
+
+This project is licensed under the MIT License. Copyright (c) 2024 Obumneme Dukor
+
+## Citation
+
+Please cite our work if you use MultiCalib.
+
+```bash
+@article{Dukor2024,
+    author    = {Obumneme Dukor and S. Mahdi H. Miangoleh and Yağız Aksoy},
+    title     = {{Multicalib}: A Modern Library for High Resolution Multicamera Calibration},
+    journal   = {arXiv:XXXX.XXXXX},
+    year      = {2024},
+}
+```
+
+## References
+
+- Byrd, R. H., Schnabel, R. B., & Shultz, G. A. (1988). Approximate solution of the trust region problem by minimization over two-dimensional subspaces. Mathematical Programming, 40, 247–263. https://doi.org/10.1007/BF01580735
+- Li, B., Heng, L., Köser, K., & Pollefeys, M. (2013). A Multiple-Camera System Calibration Toolbox Using A Feature Descriptor-Based Calibration Pattern. 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), November 3-7, 2013. Tokyo, Japan. https://doi.org/10.1109/IROS.2013.6696517

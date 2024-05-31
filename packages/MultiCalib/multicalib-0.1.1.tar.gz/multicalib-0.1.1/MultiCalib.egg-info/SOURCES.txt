@@ -1,0 +1,12 @@
+README.md
+setup.py
+MultiCalib/Camera.py
+MultiCalib/CameraSystemCalibration.py
+MultiCalib/Pattern.py
+MultiCalib/__init__.py
+MultiCalib/utils.py
+MultiCalib.egg-info/PKG-INFO
+MultiCalib.egg-info/SOURCES.txt
+MultiCalib.egg-info/dependency_links.txt
+MultiCalib.egg-info/requires.txt
+MultiCalib.egg-info/top_level.txt
