@@ -1,0 +1,112 @@
+Metadata-Version: 2.3
+Name: django-headless-cms
+Version: 0.2.2
+Summary: A simple django-based headless CMS.
+Home-page: https://github.com/huynguyengl99/django-headless-cms
+License: Copyright © 2024-present, Huy Nguyen <danghuy1999@gmail.com>.
+         
+         All rights reserved.
+         
+         Redistribution and use in source and binary forms, with or without
+         modification, are permitted provided that the following conditions are met:
+         
+         * Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+         
+         * Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+         
+         * Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+         
+         THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+         ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+         WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+         DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+         FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+         DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+         SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+         CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+         OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+         OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Author: Huy Nguyen
+Author-email: danghuy1999@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Provides-Extra: openai
+Requires-Dist: Django (>=4)
+Requires-Dist: Unidecode
+Requires-Dist: django-admin-interface
+Requires-Dist: django-admin-sortable2
+Requires-Dist: django-filter
+Requires-Dist: django-import-export
+Requires-Dist: django-jsonform
+Requires-Dist: django-localized-fields
+Requires-Dist: django-reversion
+Requires-Dist: django-solo
+Requires-Dist: djangorestframework (>=3)
+Requires-Dist: drf_spectacular
+Requires-Dist: martor
+Requires-Dist: openai (>=1) ; extra == "openai"
+Requires-Dist: psycopg
+Project-URL: Documentation, https://django-headless-cms.readthedocs.io/
+Project-URL: Repository, https://github.com/huynguyengl99/django-headless-cms
+Description-Content-Type: text/markdown
+
+# Django Headless CMS
+
+**Django Headless CMS** is your tool for effortless headless CMS creation.
+Based on Django, it simplifies dashboard and API development, allowing
+you to focus on content creation for any device. Enjoy the flexibility
+of headless architecture and the efficiency of Django, reshaping your
+CMS workflow.
+## Requirements
+
+* Python 3.9 or greater.
+* Django knowledge.
+
+## Installation
+
+The module can be installed from [PyPI](https://pypi.org/project/django-headless-cms/):
+
+```bash
+pip install django-headless-cms
+```
+
+<details>
+<summary>Other installation methods (click to expand)</summary>
+
+### Install the latest dev version from github (or replace `@master` with a [@release_version]
+
+```bash
+pip install git+https://github.com/huynguyengl99/django-headless-cms@master
+```
+
+</details>
+
+## Document
+Please visit [Django headless CMS doc](https://django-headless-cms.readthedocs.io/) for
+documentation.
+
