@@ -1,0 +1,294 @@
+{
+  "src/lib/components/DualInput.react.js": {
+    "description": "",
+    "displayName": "DualInput",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of the component.",
+        "defaultValue": {
+          "value": "'dual_input'",
+          "computed": false
+        }
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The label for the input field.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "options": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "The options for the suggestions.",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Function to set the props.",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value of the input field.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "invalid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Indicates whether the input is invalid.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "govukLabel": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The text for the main label.",
+        "defaultValue": {
+          "value": "'Enter a postcode or local authority to see services provided in the area.'",
+          "computed": false
+        }
+      },
+      "govukHint": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The hint text below the main label.",
+        "defaultValue": {
+          "value": "'For example WV1 4QR or Wolverhampton.'",
+          "computed": false
+        }
+      },
+      "invalidText": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The error text displayed when the input is invalid.",
+        "defaultValue": {
+          "value": "'Please enter a valid postcode or local authority.'",
+          "computed": false
+        }
+      },
+      "assistiveHintText": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The assistive hint text.",
+        "defaultValue": {
+          "value": "'Enter 3 or more characters for suggestions.'",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/MultiSelect.react.js": {
+    "description": "",
+    "displayName": "MultiSelect",
+    "methods": [],
+    "props": {
+      "value": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "'multi_select'",
+          "computed": false
+        }
+      },
+      "options": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "'Select up to three comparison authorities [optional].'",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "limit": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "3",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/RadioButton.react.js": {
+    "description": "",
+    "displayName": "RadioButton",
+    "methods": [
+      {
+        "name": "handleChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "event",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "title": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "hint": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "options": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "shape",
+            "value": {
+              "label": {
+                "name": "string",
+                "required": true
+              },
+              "value": {
+                "name": "string",
+                "required": true
+              }
+            }
+          }
+        },
+        "required": true,
+        "description": ""
+      },
+      "defaultValue": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
