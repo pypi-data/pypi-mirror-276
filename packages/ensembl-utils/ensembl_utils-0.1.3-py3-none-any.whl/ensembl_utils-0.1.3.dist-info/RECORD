@@ -1,0 +1,12 @@
+ensembl/utils/__init__.py,sha256=jBVRUqJktZ29B0vsIUs53YtCvkVY2E0w_87sPuYokS8,832
+ensembl/utils/archive.py,sha256=Nn_SPdsJEfBGWBZqqznP-hnrH8-HUn90TvcuiVGmj0s,3563
+ensembl/utils/argparse.py,sha256=p-0PrpGyCdufMHx4v9UVsSbBBnHlRWodb9iOwNvmPrw,10194
+ensembl/utils/logging.py,sha256=IJUolUDK7qk3lyFfEFnJPtP6FVxwM0yEKdX56U190E0,3664
+ensembl/utils/rloader.py,sha256=jNLt9jkHcD1R5s0l0zovvzJAr62uK6gNEvowIBdSwXw,3150
+ensembl_utils-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ensembl_utils-0.1.3.dist-info/METADATA,sha256=cHdTnx8jw8o6_yt_vpeO85dWq_EBUwCj1Hle-b-K_TI,3296
+ensembl_utils-0.1.3.dist-info/NOTICE,sha256=KHSQKu-izGR6AEiAg6YL3lA2tzDM5yWvhWEKxA_R66A,156
+ensembl_utils-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ensembl_utils-0.1.3.dist-info/entry_points.txt,sha256=cN_m77zJZRLZHxqvF7CCdWawyBsPplDUUtBGG_WNlko,72
+ensembl_utils-0.1.3.dist-info/top_level.txt,sha256=dUgAetY5ISlvzCun8T6ZjOtrtyC-ULeGQOJL7Bx7n0g,8
+ensembl_utils-0.1.3.dist-info/RECORD,,
