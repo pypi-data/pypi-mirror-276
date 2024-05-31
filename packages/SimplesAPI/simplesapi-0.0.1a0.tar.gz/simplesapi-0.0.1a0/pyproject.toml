@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "SimplesAPI"
+version = "0.0.1a"
+description = "SimplesAPI is intended to be the easiest API to implementation in Python"
+authors = ["Anderson Magalhaes <andersonmagalhaes.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
