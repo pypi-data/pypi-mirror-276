@@ -1,0 +1,10 @@
+httpx
+pynacl
+inflect
+pick
+path
+GuDory2
+configparser
+pypandoc
+python-slugify
+vb-console
