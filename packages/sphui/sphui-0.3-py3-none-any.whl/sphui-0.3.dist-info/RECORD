@@ -1,0 +1,10 @@
+sphui/__init__.py,sha256=5k4Bnoa9wyn39uuQFtwRLTB1nsfinn-_7An6Uzk2MV4,14
+sphui/__main__.py,sha256=_4i_HBkqMXpuzPYZodGJ8NT_UUFfNxyYhp6NzzsAmIA,127
+sphui/element.py,sha256=klVINOaczoqBNb2sZOyLg3ejQ4_HCOznlKy33XGGQhI,9795
+sphui/main.py,sha256=bMPqbHGVrutIxkF7CpaDNntYY_Hit4h7dQDeocrPi30,180
+sphui/sph.py,sha256=wRDC7F74ZhguJK-HRtMTgiAHlVQSQXPTP0IHYiZNytA,849
+sphui-0.3.dist-info/LICENSE,sha256=X1YcwCC6RblWY3fjE3yFPjqbGB54NeoXsK5SLdrht2w,1071
+sphui-0.3.dist-info/METADATA,sha256=p-g1hZdWr0l5XsUfBYxWRELQ6hnWiYq7P9cEb28PyBk,226
+sphui-0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sphui-0.3.dist-info/top_level.txt,sha256=KWyQbJdPzDLrTu1QFPLeRrakFCsv8I-J0BZn2H16IGY,6
+sphui-0.3.dist-info/RECORD,,
