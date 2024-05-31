@@ -1,0 +1,7 @@
+mdb_connect_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdb_connect_pkg/mongo_crud.py,sha256=d9R-cnUbqXGHmY76kig_IGKhAc5RAhEgtJ4nnTB_d_o,2293
+mdb_connect_pkg-1.1.0.dist-info/LICENSE,sha256=fkYC3_-DwgGmfC_ZJSEhx5A8p8JHvqSKuwL_dokcCN4,1069
+mdb_connect_pkg-1.1.0.dist-info/METADATA,sha256=ZKzJO-Nb6lKE9JdzDodYOigFD6aHckGsnA4tJ9wXsTY,4609
+mdb_connect_pkg-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mdb_connect_pkg-1.1.0.dist-info/top_level.txt,sha256=8S1XtrtrjqymPv4s8NpfjE1TMZ6N4LcrldWazIgqnNQ,16
+mdb_connect_pkg-1.1.0.dist-info/RECORD,,
