@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<Configuration monitorInterval="2" status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ABSOLUTE} %5p [%t] %c{1} - %m%n" />
+        </Console>
+
+        <ADRRAFAppender fileName="agent.log" filePermissions="rw-r--r--" name="Default">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+            <RegexFilter onMatch="DENY" onMismatch="ACCEPT" regex=".*REST.*" />
+        </ADRRAFAppender>
+        <ADRRAFAppender fileName="ByteCodeTransformer.log" filePermissions="rw-r--r--" name="BCTAppender">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+        </ADRRAFAppender>
+        <ADRRAFAppender fileName="REST.log" filePermissions="rw-r--r--" name="RESTAppender">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c{1} - %m%n" />
+            <RegexFilter onMatch="ACCEPT" onMismatch="DENY" regex=".*REST.*" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+        </ADRRAFAppender>
+        <ADRRAFAppender fileName="dynamic-service.log" filePermissions="rw-r--r--" name="DynamicServiceAppender">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+        </ADRRAFAppender>
+        <ADRRAFAppender fileName="data-pipeline.log" filePermissions="rw-r--r--" name="DataPipelineAppender">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+        </ADRRAFAppender>
+        <ADRRAFAppender fileName="api.log" filePermissions="rw-r--r--" name="APIAppender">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+        </ADRRAFAppender>
+        <ADRRAFAppender fileName="netviz.log" name="NetVizDSAppender">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+        </ADRRAFAppender>
+        <!--
+        <Syslog name="Syslog" facility="LOCAL1" host="localhost" port="514" protocol="TCP">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n"/>
+        </Syslog>
+        -->
+        <!--
+        <ADRRAFAppender name="ThreadDumpAppender" fileName="thread-dump.log">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+        </ADRRAFAppender>
+        -->
+        <!--
+        <ADRRAFAppender name="JMXAppender" fileName="jmx.log">
+            <PatternLayout pattern="[%t] %d{DATE} %5p %c - %m%n" />
+            <SizeBasedTriggeringPolicy size="20 MB" />
+            <ADRolloverStrategy max="5" />
+        </ADRRAFAppender>
+        -->
+    </Appenders>
+    <Loggers>
+        <AsyncLogger additivity="false" level="info" name="com.singularity">
+            <AppenderRef ref="Default" />
+            <AppenderRef ref="RESTAppender" />
+            <AppenderRef ref="Console" />
+        </AsyncLogger>
+        <AsyncLogger additivity="false" level="info" name="com.singularity.dynamicservice">
+            <AppenderRef ref="DynamicServiceAppender" />
+        </AsyncLogger>
+        <AsyncLogger additivity="false" level="info" name="com.singularity.ee.service.datapipeline">
+            <AppenderRef ref="DataPipelineAppender" />
+            <AppenderRef ref="Console" />
+        </AsyncLogger>
+        <AsyncLogger additivity="false" level="info" name="com.singularity.datapipeline">
+            <AppenderRef ref="DataPipelineAppender" />
+            <AppenderRef ref="Console" />
+        </AsyncLogger>
+        <AsyncLogger additivity="false" level="info" name="com.singularity.BCTLogger">
+            <AppenderRef ref="BCTAppender" />
+        </AsyncLogger>
+        <AsyncLogger additivity="false" level="info" name="com.singularity.api">
+            <AppenderRef ref="APIAppender" />
+        </AsyncLogger>
+        <AsyncLogger additivity="false" level="info" name="com.singularity.segment.TxnTracer">
+            <AppenderRef ref="Default" />
+            <AppenderRef ref="Console" />
+        </AsyncLogger>
+        <AsyncLogger additivity="false" level="info" name="com.singularity.tm.network.netviz">
+            <AppenderRef ref="NetVizDSAppender" />
+        </AsyncLogger>
+        <Root level="error">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="Default" />
+        </Root>
+    </Loggers>
+</Configuration>
