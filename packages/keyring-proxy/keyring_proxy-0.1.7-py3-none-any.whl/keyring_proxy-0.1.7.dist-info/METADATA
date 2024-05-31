@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: keyring-proxy
+Version: 0.1.7
+Summary: Proxy Base for pypi keyring
+Author-Email: "Kalle M. Aagaard" <git@k-moeller.dk>
+License: MIT
+Project-URL: Repository, https://github.com/KalleDK/py-keyring-proxy
+Requires-Python: >=3.12
+Requires-Dist: keyring>=25.2.1
+Description-Content-Type: text/markdown
+
+# py-keyring-proxy
