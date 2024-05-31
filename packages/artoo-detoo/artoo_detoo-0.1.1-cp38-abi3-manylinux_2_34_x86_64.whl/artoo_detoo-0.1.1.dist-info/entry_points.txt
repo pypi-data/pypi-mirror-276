@@ -1,0 +1,2 @@
+[console_scripts]
+r2-d2=r2_d2:main
