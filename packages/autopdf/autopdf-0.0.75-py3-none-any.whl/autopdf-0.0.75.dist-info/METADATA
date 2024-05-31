@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: autopdf
+Version: 0.0.75
+Summary: Extracts PDF text to .md or .txt in reading order!
+Project-URL: Homepage, https://github.com/GustaMatos0/autopdf
+Project-URL: Issues, https://github.com/GustaMatos0/autopdf/issues
+Author-email: "Gustavo L. Matos" <matosgustavo@statmatos.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pdfminer
+Requires-Dist: scikit-learn
+Description-Content-Type: text/markdown
+
+# AutoPDF - Read and sort PDFs automatically!
+
+
