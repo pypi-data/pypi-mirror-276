@@ -1,0 +1,11 @@
+pipeline/__init__.py,sha256=ETe8zW1nou-QujAeBdyPpYxSrYbvunO-ba4q3ehxkx0,189
+pipeline/data_manipulation.py,sha256=_UojAQ4ywzJ952n_qZArlrHVelmk71XB6w5cGuQK3Bs,15618
+pipeline/pipeline.py,sha256=ZoDExIgIsJDG6EdGuY0N2s-G2YmG_YIlYMJnbbERkN0,2052
+tests/__init__.py,sha256=iViLDCvp2HIGDniqaMz5X5TKJ-pry3mkNQnWbClsc84,20
+tests/test_pipeline.py,sha256=k0lT5SFxN2LM0hGMVnnlxmzu7WvRHj3om0yphbkr8JE,2451
+superseeker-0.1.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+superseeker-0.1.dist-info/METADATA,sha256=rrCVoA4iki8cIY2BJnMhxFzNBMplLAVNHpiexuOKZMg,1970
+superseeker-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+superseeker-0.1.dist-info/entry_points.txt,sha256=E-QPvcJkiX2RWoDwLpGnOsQtu-XsaCFfS0_xY4sH-_0,63
+superseeker-0.1.dist-info/top_level.txt,sha256=uIL4m1Xpfjjbr4jR7JaWMUeUfXbUL9Y85UQ_tr1tVFg,15
+superseeker-0.1.dist-info/RECORD,,
