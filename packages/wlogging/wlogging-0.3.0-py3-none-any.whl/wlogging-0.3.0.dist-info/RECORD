@@ -1,0 +1,6 @@
+wlogging/__init__.py,sha256=iBai5gj30P1xbWmZ_S_9JPkiiruHuOTgq7NUa6j6sC8,1144
+wlogging/formatters.py,sha256=4gz-MbjQWXCgPzUF9Bc0S0ZF5zL3sdBV3NbnAe53jw0,726
+wlogging/loggers.py,sha256=GKjxe6PiRfuIdeHoChIsXyjH912y7G85xX_8EFMSqFo,1336
+wlogging-0.3.0.dist-info/METADATA,sha256=EA6vpR0gdhGx-3XvLEOscaad7eSHTp5UB23ULsFwe2U,606
+wlogging-0.3.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+wlogging-0.3.0.dist-info/RECORD,,
