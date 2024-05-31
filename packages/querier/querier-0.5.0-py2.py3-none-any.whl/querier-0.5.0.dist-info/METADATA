@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: querier
+Version: 0.5.0
+Summary: Querying data-frames
+Home-page: https://github.com/thierrymoudiki/querier
+Download-URL: https://github.com/thierrymoudiki/querier/tarball/0.5.0
+Author: Thierry Moudiki
+Author-email: thierry.moudiki@gmail.com
+License: BSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: joblib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: polars
+Requires-Dist: pymongo
+Requires-Dist: requests
+Requires-Dist: scipy
+Requires-Dist: SQLAlchemy
+
+A query language for data frames
