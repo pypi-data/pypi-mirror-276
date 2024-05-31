@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pigeon-client
+Version: 0.1.0
+Summary: A STOMP client with message definitions via Pydantic
+Author-email: Cameron Devine <cameron.devine@alleninstitute.org>
+License: BSD 3 Clause
+Project-URL: Homepage, https://github.com/AllenInstitute/pigeon
+Project-URL: Documentation, http://pigeon.readthedocs.io/
+Project-URL: Repository, https://github.com/AllenInstitute/pigeon
+Project-URL: Issues, https://github.com/AllenInstitute/pigeon/issues
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: stomp-py
+Requires-Dist: pyyaml
+
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AllenInstitute/pigeon/test.yaml)](https://github.com/AllenInstitute/pigeon/actions)
+[![Documentation Status](https://readthedocs.org/projects/pigeon/badge/?version=latest)](https://pigeon.readthedocs.io/en/latest/?badge=latest)
+[![PyPI - Version](https://img.shields.io/pypi/v/pigeon-client)](https://pypi.org/project/pigeon-client/)
+
+# Pigeon
+
+Pigeon is a combination of a [STOMP client](https://pypi.org/project/stomp-py/), and a message definition system using [Pydantic](https://docs.pydantic.dev/latest/) models.
