@@ -1,0 +1,13 @@
+nonebot_plugin_qqshell/__init__.py,sha256=m6DjEU41JEAYPN_cOjjJirJNs9ajCy4Giye-TqQTM6w,689
+nonebot_plugin_qqshell/config.py,sha256=9ssa1IjrWGZdEqlJqqlsCBGJvXZbD2nKBezJ4VlysOw,793
+nonebot_plugin_qqshell/handler.py,sha256=2Oh2V4mBT1yC9oeUTI22r0Ia9xNrjAmAUyjVDCOik5Q,1428
+nonebot_plugin_qqshell/services.py,sha256=5EpsN5MgOpjfUJ0-kUZhaSUpq29JFcaIcW6JzIqR318,685
+nonebot_plugin_qqshell/static/images/rikka1.png,sha256=iEXSaIbCuvVnS5P8eq9tjoY70LOgk5MC_jIKY1GjH5Q,39455
+nonebot_plugin_qqshell/template_env.py,sha256=7hCIzhvVWD3_ZCG6EVuodw9bmuumGGMMFm2Ey2fH7EY,264
+nonebot_plugin_qqshell/templates/shell_panel.html,sha256=ey_EygiM4YWBlimZmS_0OPWzqhGL8J1OGs_yRGDjs3s,520
+nonebot_plugin_qqshell/templates/xterm.html,sha256=ocyqnN2JIFMUEXdVHVVnL3sWvtOseG8kufahjTnGD80,2040
+nonebot_plugin_qqshell/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot_plugin_qqshell/utils/shell.py,sha256=F8I-XTr2cHuSkPXsXH_TDzhVCg-9pzcUTbiXJPPg5iM,2271
+nonebot_plugin_qqshell-0.1.0a1.dist-info/METADATA,sha256=nV5Ltx7KTZK_FYVYls0EiptdlLuspl-Rf_T7nM2OrpU,2148
+nonebot_plugin_qqshell-0.1.0a1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_plugin_qqshell-0.1.0a1.dist-info/RECORD,,
