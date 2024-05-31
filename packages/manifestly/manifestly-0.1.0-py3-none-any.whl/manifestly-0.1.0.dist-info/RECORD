@@ -1,0 +1,11 @@
+manifestly/__init__.py,sha256=E0dZhDZkGRhhGnymEGu5IAFNKjNS-syCQMsd3lUP0aE,305
+manifestly/cli.py,sha256=dVLPdFNGHsfFsYHq3QAA1FGwPI2q4ipDye_aHkujIjE,5203
+manifestly/core.py,sha256=AP3YWIZQAkffUO_tR37_Ks44Q2-7ajeCkyAP-qMyaS0,11874
+manifestly/settings.py,sha256=HNkFWLDQzl11KutPu9LrZQR4Vj7VxBMOHVwaYMF3nQE,273
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_manifests.py,sha256=pSPgEzvDnHy44NmIk5Bd8KtHHN6ataSwn37ssRi4dVg,8917
+manifestly-0.1.0.dist-info/LICENSE,sha256=3EgdmvK38nOMlOlFSAu5JItjR44a6Mm1ikWnD2F90kE,1070
+manifestly-0.1.0.dist-info/METADATA,sha256=RUJx2GDpJSGubZhe4Tp1BA-syhyHuX-Gkjx--jMwyQI,12041
+manifestly-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+manifestly-0.1.0.dist-info/top_level.txt,sha256=oDA_lcDSADbuBoxeidJQPqOpejh5P8hYjkuSeUmgBCw,17
+manifestly-0.1.0.dist-info/RECORD,,
