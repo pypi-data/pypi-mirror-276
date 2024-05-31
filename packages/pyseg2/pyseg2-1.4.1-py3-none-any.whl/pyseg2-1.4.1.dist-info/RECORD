@@ -1,0 +1,10 @@
+pyseg2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyseg2/binaryblocks.py,sha256=wX6I-2R8_VWyqYX7AZPpuotY22eB6POSLEMqARxfhH4,18146
+pyseg2/seg2file.py,sha256=2GO3kBcab68DVSjah_NdAzIuVZZoM3SYdi5Z2XbcxMc,11984
+pyseg2/toobspy.py,sha256=wGHmSeSLDfxNkftdW0vvvbmouqd2LCV6Taoj1tpuFPM,6695
+pyseg2/write_obspy_seg2.py,sha256=A_tP2OgOjG0RRo35avnHu5pAlbroKw8ogKNpgCSaRyE,2965
+pyseg2-1.4.1.dist-info/LICENSE,sha256=7wI4irQxSJKcjrptxgbFXufdhADv4Ruw2bZl0TzL2_Q,34524
+pyseg2-1.4.1.dist-info/METADATA,sha256=6JEWUhvTOgBKIQZyPvW2rDkCtiSU8FFcUgUPujHlMrE,410
+pyseg2-1.4.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyseg2-1.4.1.dist-info/top_level.txt,sha256=e_zmrrLHlsF5bIJOY4yGL0z8PRLSb9HOYLDsQBMMPeg,7
+pyseg2-1.4.1.dist-info/RECORD,,
