@@ -1,0 +1,6 @@
+ipython
+
+[testing]
+nose
+jupyterlab
+tensorflow

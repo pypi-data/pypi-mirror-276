@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["textualheatmap"]
+include-package-data = true
+
+[project]
+name = "textualheatmap"
+description = "Create interactive textual heat maps for Jupiter notebooks"
+version = "1.2.0"
+authors = [
+    {name = "Andreas Madsen", email = "amwebdk@gmail.com"},
+]
+readme = {file = 'README.md', content-type='text/markdown'}
+license = {text = "MIT"}
+requires-python = ">=3.8"
+keywords = ["saliency", "heatmap", "text", "textual", "jupyter", "colab", "interactive"]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Education',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules'
+]
+dependencies = [
+    "ipython"
+]
+
+[project.optional-dependencies]
+testing = [
+    "nose",
+    "jupyterlab",
+    "tensorflow"
+]

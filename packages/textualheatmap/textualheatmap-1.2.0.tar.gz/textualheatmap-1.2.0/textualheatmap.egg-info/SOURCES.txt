@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+textualheatmap/__init__.py
+textualheatmap/textual_heatmap.py
+textualheatmap/textual_heatmap_test.py
+textualheatmap.egg-info/PKG-INFO
+textualheatmap.egg-info/SOURCES.txt
+textualheatmap.egg-info/dependency_links.txt
+textualheatmap.egg-info/requires.txt
+textualheatmap.egg-info/top_level.txt
+textualheatmap/web_assets/textual_heatmap.css
+textualheatmap/web_assets/textual_heatmap.js
