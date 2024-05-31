@@ -1,0 +1,54 @@
+[project]
+name = "beforerr"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [
+    { name = "Beforerr", email = "zzj956959688@gmail.com" },
+]
+requires-python = ">= 3.10"
+dependencies = [
+    "pipe",
+    "loguru",
+]
+
+[project.optional-dependencies]
+r = [
+    "rpy2",
+    "rpy2_arrow",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.setuptools]
+packages = [
+    "beforerr",
+]
+
+[tool.pixi.project]
+channels = [
+    "conda-forge",
+]
+platforms = [
+    "osx-arm64",
+]
+
+[tool.pixi.pypi-dependencies]
+nbdev = "*"
+setuptools = "*"
+rpy2 = "*"
+rpy2-arrow = "*"
+
+[tool.pixi.pypi-dependencies.beforerr]
+path = "."
+editable = true
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+matplotlib = "*"
+ipykernel = "*"
+polars = "*"

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: beforerr
+Version: 0.1.0
+Summary: Add a short description here
+Author-Email: Beforerr <zzj956959688@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: pipe
+Requires-Dist: loguru
+Requires-Dist: rpy2; extra == "r"
+Requires-Dist: rpy2_arrow; extra == "r"
+Provides-Extra: r
