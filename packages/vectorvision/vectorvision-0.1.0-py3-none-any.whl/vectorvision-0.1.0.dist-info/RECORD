@@ -1,0 +1,11 @@
+vectorvision/Converter.py,sha256=a6E-o-UShnXuoUEcL7_GWeXdAXFZ5I95voRLigiFlVU,3707
+vectorvision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vectorvision/path_decomposition.py,sha256=4hG8GL9UPrSJigii2grFN2sG4Oopm8_a03ajFiBYVMQ,7938
+vectorvision/polygons.py,sha256=AT8GZq81Uvc1TqQJvHLtWgqmHno7GDfbo-oVva0v-Xg,11004
+vectorvision/smoothing.py,sha256=xrH_BgcO7BiEwuZlFl8AG86n93I_DyyxVE0AA-rOUDM,1952
+vectorvision/utils.py,sha256=eXViDl9k_exJfsghPaurjNjOdKi9EQR89mtJaSh4zkY,539
+vectorvision/vertex_adjustment.py,sha256=reF3gz0wogWX2m6dfz69gju51RPnfUl9QZqHw4jxLDg,3909
+vectorvision-0.1.0.dist-info/LICENSE,sha256=kuckDJTCeMsrAQpJrarRKgxxILiqyOCXoQ0v9xMYW5Y,1073
+vectorvision-0.1.0.dist-info/METADATA,sha256=Qj2c0BEZ8FmOWrj5wRC8R77reMzXpJWToa8XSGG7uUY,4002
+vectorvision-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vectorvision-0.1.0.dist-info/RECORD,,
