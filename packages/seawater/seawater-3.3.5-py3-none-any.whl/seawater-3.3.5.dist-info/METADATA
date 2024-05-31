@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: seawater
+Version: 3.3.5
+Summary: Seawater Library for Python
+Maintainer-email: Filipe Fernandes <ocefpaf+seawater@gmail.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2013 Filipe
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in
+        the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+        the Software, and to permit persons to whom the Software is furnished to do so,
+        subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+        IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+        CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: documentation, https://pyoceans.github.io/python-seawater
+Project-URL: homepage, https://pypi.org/project/seawater/
+Project-URL: repository, https://github.com/pyoceans/python-seawater
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.CSIRO
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# python-seawater
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11395.svg)](https://zenodo.org/records/11395)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/seawater)
+[![Tests](https://github.com/pyoceans/python-seawater/actions/workflows/tests.yml/badge.svg)](https://github.com/pyoceans/python-seawater/actions/workflows/tests.yml)
+![PyPI - License](https://img.shields.io/pypi/l/seawater)
+
+[![No Maintenance Intended](https://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+This is a Python re-write of the CSIRO seawater toolbox
+([SEAWATER-3.3](https://www.cmar.csiro.au/datacentre/ext_docs/seawater.html))
+for calculating the properties of sea water. The package uses the
+formulas from Unesco's joint panel on oceanographic tables and
+standards, UNESCO 1981 and UNESCO 1983 (EOS-80).
+
+The EOS-80 library is considered now obsolete; it is provided here for
+compatibility with old scripts, and to allow a smooth transition to the
+new [TEOS-10](https://www.teos-10.org/).
+
+## Warning
+
+The Python version default output unit for sw.dist is *km* instead of
+*nm*.
+
+Here we assume pressure as the first dimension, i.e. M pressure by N
+positions (See the table below). The Matlab version does some guessing
+at this that we simply ignore to avoid confusions.
+
+  | **P** | **S**   | **T**   |
+  |------:|:-------:|:-------:|
+  | 10    | 34.5487 | 28.7856 |
+  | 50    | 34.7275 | 28.4329 |
+  | 125   | 34.8605 | 22.8103 |
+  | 250   | 34.6810 | 10.2600 |
+  | 600   | 34.5680 | 6.8863  |
+  | 1000  | 34.5600 | 4.4036  |
+
+The current version was tested against the Matlab seawater v3.3
+reproducing all functions and results from that release.

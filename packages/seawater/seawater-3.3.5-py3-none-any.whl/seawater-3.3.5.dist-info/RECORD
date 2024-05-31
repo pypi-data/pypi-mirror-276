@@ -1,0 +1,13 @@
+seawater/__init__.py,sha256=B0R1qMXmzhYiXeAKaK3ccYahJxjlTrRM8HIFHmHBYMI,1012
+seawater/_version.py,sha256=dPedk54xsu4zgSvsRoCQC7xzB1qc2sYlQF0m-6qBXyQ,21
+seawater/constants.py,sha256=y1wlDOgC0fePHsojekq5OM1uIHAxnekJCd02zjhF1Lg,497
+seawater/eos80.py,sha256=Vp0v82gP2KBMn8SwkzzF6YtSHElYYg1wgZmOD_nTFbM,30281
+seawater/extras.py,sha256=k25hYMUWiTC6S5N7Dw68HzJblqoMFdgMSJ7MCNVsdus,8425
+seawater/geostrophic.py,sha256=LZqT6k1Lho6tkEc45gTqcAAuWno3Lr49puSKp2S-uws,8773
+seawater/library.py,sha256=_8MtyPgCH-Zf9K7RwwzwhFxVg88HzkBTlWRkIMutTng,14447
+seawater-3.3.5.dist-info/LICENSE.CSIRO,sha256=NAt07OP6HSqjCb3GWeuHLV3HtqTMm3R3MDfr73S0m0o,7870
+seawater-3.3.5.dist-info/LICENSE.txt,sha256=73Q7rT-ZH_YQg9oycYPsFigb1B5nez3n8xWmhpoksPw,1073
+seawater-3.3.5.dist-info/METADATA,sha256=LWV_HZWFzTiYOvVWsoT-MCYoaU9XeBcg1zRrP6Or2N0,3731
+seawater-3.3.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+seawater-3.3.5.dist-info/top_level.txt,sha256=K_WWt34JrcF39czotyihzp3-mCjcCr1Rxv4znHkjAEI,9
+seawater-3.3.5.dist-info/RECORD,,
