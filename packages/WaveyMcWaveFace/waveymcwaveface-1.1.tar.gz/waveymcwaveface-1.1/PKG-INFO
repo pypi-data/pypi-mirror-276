@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: WaveyMcWaveFace
+Version: 1.1
+Summary: A quick way to run Google's TiDE model
+Home-page: https://github.com/AmwayCommon/wavey
+Author: Jordan Howell
+Author-email: jordan.howell@amway.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: pandas-profiling
+Requires-Dist: pandocfilters
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Provides-Extra: dev
+Requires-Dist: pytest==8.2.1; extra == "dev"
+Requires-Dist: twine==5.1.0; extra == "dev"
+
+# wavey
+Wavey is a simple implementation of the Google TiDE model in the pytorch framework.  TiDE takes in both categorical
+and continuous variables as well as a weight factor to help with time series models that depend on some weight for 
+their ultimate scoring outcome.  
+
+## InPuts
+data: a pandas dataframe
+embedding_dims: the size/dimensions of the embedding layer (usually the square root of the number of unique values
+target_size: # of months to forecast out
+test_size: % of data to test model on
+random_state: integer for reproducibility 
+
+
