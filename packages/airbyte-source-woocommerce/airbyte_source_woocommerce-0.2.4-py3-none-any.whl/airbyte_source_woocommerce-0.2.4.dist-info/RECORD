@@ -1,0 +1,9 @@
+source_woocommerce/__init__.py,sha256=h-w8bGCjkbh14XQlaWHNR_ds1_4NjdLqAU3z57fp04o,134
+source_woocommerce/manifest.yaml,sha256=ReAlQvYM8zruc44d1161lduqL5P4uj1muKLWcZE-Xu0,87920
+source_woocommerce/run.py,sha256=aEvpOqbxVUGh2yWVJqwto11cSZDREhU8S_i8cM5iK_E,245
+source_woocommerce/source.py,sha256=IBmIdHhDgZlgIABvImr9deYXZ5UuEbIh53Ex_yRyGKM,480
+source_woocommerce/spec.yaml,sha256=Bd5RDhy8trzs79l6U03p2WSSULX3t6vbe77H84CCVLo,1068
+airbyte_source_woocommerce-0.2.4.dist-info/METADATA,sha256=YY_IVFxUq0TuG-LhB6vc9WjuLiyFSaGX7-rcu1RNyuo,5304
+airbyte_source_woocommerce-0.2.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_woocommerce-0.2.4.dist-info/entry_points.txt,sha256=lGIkv3tb5_ovGtSQgS9QA1GxTaRk3S_TunapzAOEm-Q,65
+airbyte_source_woocommerce-0.2.4.dist-info/RECORD,,
