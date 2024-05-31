@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+TimeStableModel.egg-info/PKG-INFO
+TimeStableModel.egg-info/SOURCES.txt
+TimeStableModel.egg-info/dependency_links.txt
+TimeStableModel.egg-info/requires.txt
+TimeStableModel.egg-info/top_level.txt
+timestablemodel/__init__.py

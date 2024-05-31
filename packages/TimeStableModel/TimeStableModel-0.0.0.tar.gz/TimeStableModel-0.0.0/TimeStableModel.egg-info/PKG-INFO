@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: TimeStableModel
+Version: 0.0.0
+Summary: Time Stable Model.
+Home-page: https://github.com/joao-1988/TimeStableModel
+Author: João Flávio Andrade Silva
+Author-email: joaoflavio1988@gmail.com
+License: UNKNOWN
+Description: # TimeStableModel
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Description-Content-Type: text/markdown
