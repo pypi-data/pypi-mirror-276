@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: PermutiveAPI
+Version: 3.5.2
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PermutiveAPI
+python repo to interact with the Permutive API
