@@ -1,0 +1,12 @@
+README.md
+setup.py
+scoobydoo/__init__.py
+scoobydoo/catchphrases.py
+scoobydoo/characters.py
+scoobydoo/main.py
+scoobydoo.egg-info/PKG-INFO
+scoobydoo.egg-info/SOURCES.txt
+scoobydoo.egg-info/dependency_links.txt
+scoobydoo.egg-info/entry_points.txt
+scoobydoo.egg-info/not-zip-safe
+scoobydoo.egg-info/top_level.txt
