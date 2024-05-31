@@ -1,0 +1,7 @@
+shapely
+haversine
+pandas
+levenshtein
+
+[extras]
+geocoder
