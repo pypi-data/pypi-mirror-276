@@ -1,0 +1,2 @@
+[console_scripts]
+flask_template_cli = flask_template_cli.cli:main
