@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: echidma
+Version: 0.0.3
+Summary: Embarrassingly Chunky Hard Indexed Data Memory Access
+Home-page: https://github.com/lpin0002/ECHIDMA
+Author: Liam Pinchbeck
+Author-email: Liam.Pinchbeck@monash.edu
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: scipy==1.11.3
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: numpy>=1.23
+Requires-Dist: pandas>=1.5.3
+Requires-Dist: pytest
+Requires-Dist: h5py
+Requires-Dist: hdf5plugin
+Requires-Dist: numcodecs
