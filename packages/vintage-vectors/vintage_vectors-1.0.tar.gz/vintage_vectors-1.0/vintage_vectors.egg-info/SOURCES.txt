@@ -1,0 +1,9 @@
+README.md
+setup.py
+vintage_vectors/__init__.py
+vintage_vectors/main.py
+vintage_vectors.egg-info/PKG-INFO
+vintage_vectors.egg-info/SOURCES.txt
+vintage_vectors.egg-info/dependency_links.txt
+vintage_vectors.egg-info/requires.txt
+vintage_vectors.egg-info/top_level.txt
