@@ -1,0 +1,3 @@
+[console_scripts]
+coffifilter=coffifilter.__main__:main
+
