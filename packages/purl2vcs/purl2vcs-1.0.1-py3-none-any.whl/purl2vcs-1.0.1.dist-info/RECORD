@@ -1,0 +1,10 @@
+purl2vcs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+purl2vcs/find_source_repo.py,sha256=OxJpwkiVGF0zdeSuLt_el8vLD_NAKvquU89ANxK7wEQ,16158
+purl2vcs-1.0.1.dist-info/WHEEL,sha256=5CC323EWxMIcr8TpN8l60qWiPABVmDOTYKdnRvWIfkw,81
+purl2vcs-1.0.1.dist-info/METADATA,sha256=M1gf-7CqtYLjd4aUmIrCa2OxsRzxQTGC7fKbH76QrwQ,4018
+purl2vcs-1.0.1.dist-info/CHANGELOG.rst,sha256=7vyElyMZD0sMYAVitDLepXF-akAEWQtsD-viWZDSeIQ,98
+purl2vcs-1.0.1.dist-info/CODE_OF_CONDUCT.rst,sha256=xXDTFpYY3Y7JoxrWADihieUvhGlwJc_oxsbmLJaBvE4,3422
+purl2vcs-1.0.1.dist-info/NOTICE,sha256=VsVeloANtRmqcuVVDZr1in_q8fEKzDp3mhLdJrH1Zig,577
+purl2vcs-1.0.1.dist-info/README.rst,sha256=Xi9fWgEzDx56Ij9qQtYkxwr2sN3vFbeNuGwfwVaO-Gg,2314
+purl2vcs-1.0.1.dist-info/apache-2.0.LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+purl2vcs-1.0.1.dist-info/RECORD,,
