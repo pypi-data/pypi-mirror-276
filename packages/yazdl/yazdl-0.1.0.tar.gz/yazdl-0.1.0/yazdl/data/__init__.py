@@ -1,0 +1,1 @@
+"""Encapsulates data regarding streams"""

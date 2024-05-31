@@ -1,0 +1,6 @@
+#!/usr/bin/python -O
+
+import sys
+import yazdl 
+
+sys.exit(yazdl.main())
