@@ -1,0 +1,14 @@
+polyfem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polyfem/formatting.py,sha256=MTCtoPFRhvP68QSO9JzxY6QkRJcH8ZrZrSIqtOFqbCw,2022
+polyfem/geometry_generation.py,sha256=DkUbBs1dajDIM7Wo2YgfENDe6dELEaUFpbc2QqVM-Vg,16660
+polyfem/poly_mesher_abstraction.py,sha256=FL6hA4E_gRpaXxepUhyDYLZJBzTcFNfojc4Inon0t70,1437
+polyfem/poly_mesher_clean.py,sha256=E8Nz0m_dwZ3-CwcG2kP9U_sU6J2o9iZyzLN3dzy5zNg,4918
+polyfem/poly_mesher_distance_functions.py,sha256=k6vjkAvDiVNYXV9Bgiv19SEDLX_--W-1gefcZYDak4I,4337
+polyfem/poly_mesher_domain.py,sha256=bSRYzHuPTZMMlPuXP-wgVdRuTv_vlFlB-YhynwEOQn0,15366
+polyfem/poly_mesher_main.py,sha256=XhvH-PY8J6eRD_pBtJ7D928DbJWnWqRirnCaPqU2L9Y,14963
+polyfem/poly_mesher_visualisation.py,sha256=svR0OgGkpivTNa_fSclGFocxF9gf7qoJCoxuMKKSgjE,1262
+polyfem-1.0.0.dist-info/LICENCE.txt,sha256=CW0QFoDDVDfKqf6HXuRywk5KpzQ-Hd4BpYJ5MnimXlQ,1056
+polyfem-1.0.0.dist-info/METADATA,sha256=SvzdYDOfZfN1fDn1cHLosq-jG0HL7XzrAzPx-bt0xCU,7422
+polyfem-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+polyfem-1.0.0.dist-info/top_level.txt,sha256=Pby4fZ22nyjaDYyQ-CHe9FNOqREdsYdJhIouRkLGP9M,8
+polyfem-1.0.0.dist-info/RECORD,,
