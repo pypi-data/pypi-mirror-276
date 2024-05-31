@@ -1,0 +1,9 @@
+ipywebview
+blinker
+diskcache
+peewee
+click
+cryptography
+psutil
+websockets
+pyinstaller
