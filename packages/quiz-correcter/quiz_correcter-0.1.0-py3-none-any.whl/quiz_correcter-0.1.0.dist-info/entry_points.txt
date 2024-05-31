@@ -1,0 +1,3 @@
+[console_scripts]
+qco=quiz_correcter.__main__:main
+
