@@ -1,0 +1,12 @@
+codac/__init__.py,sha256=8m4GawPMaRyUEKua7I59YP0EXmZpwZKExJu0m0bC7bc,1419
+codac/core.cpython-310-darwin.so,sha256=9pwHPNq-tMYj51z79lWstdABM-va_0qmYm51-N2tttc,4201800
+codac/empty.cpython-310-darwin.so,sha256=VIblKVLGEANvGLuJU5Epid9BchuHaE2Tk5y2b0akd4g,16440
+codac/graphics.cpython-310-darwin.so,sha256=YvMwpKbeUNcoKOXG-1SoH9DeUq9bmBLDPMSkcu4PmJM,183208
+codac/unsupported.cpython-310-darwin.so,sha256=g6ljAJyPQWIeOL0qJWP5EQQzo48uz4QUbXW0Uix1iMc,183224
+codac/version.py,sha256=6aTsaEKyBHFdzQjDU6jvkF0BXPK1486LAfHKk-VQHKc,19
+codac/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codac/tests/codac2_tests.py,sha256=tZP8OWEGdlyfp-9-IaKxlEfcgOaXNa34kMf8bZWSacw,235
+codac-2.0.0.dev1.dist-info/METADATA,sha256=RiIFtI3yFYPY7NnTuDOwIQaU0lybB5aj_zMj0522vjU,637
+codac-2.0.0.dev1.dist-info/WHEEL,sha256=5gVbVe_w8vFuKIeI1RffqCqgT_cNTJucal8EyR-41SQ,111
+codac-2.0.0.dev1.dist-info/top_level.txt,sha256=8FIXP4a7FrNu8RyqD7RFUsU7CTUmdd2T6j6EU-DTNYs,6
+codac-2.0.0.dev1.dist-info/RECORD,,
