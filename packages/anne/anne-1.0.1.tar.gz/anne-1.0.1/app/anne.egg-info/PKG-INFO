@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: anne
+Version: 1.0.1
+Summary: Lib for lazy dev
+Home-page: https://github.com/mrship666/anne-lib
+Author: AnneHouman
+Author-email: annehouman01@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Anne Extension
+
+Anne Extension là một thư viện Python hỗ trợ cho các bạn lazily.
+
+## Mục lục
+
+- [Giới thiệu](#giới-thiệu)
+- [Cài đặt](#cài-đặt)
+- [Sử dụng](#sử-dụng)
+- [Các tính năng](#các-tính-năng)
+- [Đóng góp](#đóng-góp)
+- [Giấy phép](#giấy-phép)
+
+## Giới thiệu
+
+Anne Extension cung cấp các tính năng để giúp các bạn lazily.
+
+## Cài đặt
+
+Bạn có thể cài đặt thư viện này thông qua pip: pip install anne-extension
+
+## Sử dụng
+
+Để sử dụng thư viện, bạn cần import nó vào mỗi file Python của bạn:
+
+```python
+from anne_extension import AnneExtension
+```
+
+## Các tính năng
+
+Tự khám phá các tính năng của thư viện nhé!
+
+## Đóng góp
+
+Bạn có thể đóng góp cho thư viện bằng cách góp , sửa lỗi, hoặc cải tiến thư viện. Gửi về Email: annehouman01@gmail.com
+
+## Giấy phép
+
+Thư viện này được xây dựng bởi AnneHouman.
+
+
+
