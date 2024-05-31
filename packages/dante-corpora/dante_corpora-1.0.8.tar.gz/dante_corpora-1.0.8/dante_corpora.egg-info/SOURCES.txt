@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dante/__init__.py
+dante/corpora.py
+dante_corpora.egg-info/PKG-INFO
+dante_corpora.egg-info/SOURCES.txt
+dante_corpora.egg-info/dependency_links.txt
+dante_corpora.egg-info/requires.txt
+dante_corpora.egg-info/top_level.txt
