@@ -1,0 +1,12 @@
+patho_pix-0.1.1.dist-info/METADATA,sha256=2X-ljtHrCeQqlZXmW2e5yQoHBXBZQREWNm6GzVOhOZ4,3375
+patho_pix-0.1.1.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+patho_pix-0.1.1.dist-info/licenses/LICENCE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+patho_pix/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+patho_pix/io.py,sha256=TudGwehduWjovudw9FPlolbjk080Uz4P5dPtNfKQnoA,1579
+patho_pix/main.py,sha256=sopr2_Q2zdGfWM2LxPcAZ_SGSqeNSGOMotK2FKNCnxU,256
+patho_pix/normalization.py,sha256=3J4b1KGSTYyCZwNfNozPggv9hF5ef2aTfF_YUPFJ3-o,1298
+patho_pix/tiling.py,sha256=Gn7rKyd_T9NDlWDFh8G39WXLC4OGK5ngToki-DhNeeM,1609
+patho_pix/utils/__init__.py,sha256=kycfq4QIKCX1JzZqNFxCL9X1GSa-hkR_0K7Iq76XuBg,148
+patho_pix/utils/custom_tiler.py,sha256=cl-0j97ExVJaqKfIBAIVNPoDLsSCjMYXQOzMmO_6eTs,14089
+patho_pix/utils/jpeg_to_tiff.py,sha256=Trj5HLvjSwqrJcQKmBPJKyn3Ic-MyeAepd-Hf84zOTY,154
+patho_pix-0.1.1.dist-info/RECORD,,
