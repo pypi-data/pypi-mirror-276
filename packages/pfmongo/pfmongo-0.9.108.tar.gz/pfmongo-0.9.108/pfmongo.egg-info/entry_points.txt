@@ -1,0 +1,2 @@
+[console_scripts]
+pfmongo = pfmongo.__main__:main
