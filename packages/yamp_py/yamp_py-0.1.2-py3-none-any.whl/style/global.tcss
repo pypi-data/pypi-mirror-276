@@ -1,0 +1,63 @@
+#main-container {
+    padding: 1;
+}
+
+
+.sub-container {
+    border: round white;
+}
+
+.sub-container-label {
+    text-style: bold;
+    text-align: center;
+    background: #5f00af;
+}
+
+#song-container {
+    padding: 1;
+}
+
+#now-playing {
+    width: 100%;
+    border: round orange;
+    box-sizing: border-box;
+    padding: 1;
+    margin-top: 1;
+    border-title-align: center;
+}
+
+ScrollableContainer {
+    height: 100%;
+    width: 100%;
+}
+
+RadioSet {
+    width: 100%;
+    margin-bottom: 4;
+}
+
+RadioButton {
+    margin-bottom: 1;
+    height: 2;
+}
+
+#volume {
+    color: #808080;
+}
+
+#song {
+    text-style: bold;
+}
+
+#position {
+    color: #808080;
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
