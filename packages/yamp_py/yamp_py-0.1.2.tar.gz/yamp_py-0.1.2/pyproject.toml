@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "yamp_py"
+version = "0.1.2"
+description = ""
+authors = ["Nur Alam <nuralam.rsc@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/NurAlam123/yamp"
+include = ["./style/*", "main.py"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+textual = "^0.62.0"
+pyfiglet = "^1.0.2"
+requests = "^2.32.2"
+wheel = "^0.43.0"
+pydub = "^0.25.1"
+sounddevice = "^0.4.6"
+numpy = "^1.26.4"
+
+[tool.poetry.scripts]
+"yamp" = "main:run"
+
+[tool.poetry.group.dev.dependencies]
+textual-dev = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

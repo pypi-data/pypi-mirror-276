@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: yamp_py
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/NurAlam123/yamp
+License: MIT
+Author: Nur Alam
+Author-email: nuralam.rsc@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pydub (>=0.25.1,<0.26.0)
+Requires-Dist: pyfiglet (>=1.0.2,<2.0.0)
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Requires-Dist: sounddevice (>=0.4.6,<0.5.0)
+Requires-Dist: textual (>=0.62.0,<0.63.0)
+Requires-Dist: wheel (>=0.43.0,<0.44.0)
+Project-URL: Repository, https://github.com/NurAlam123/yamp
+Description-Content-Type: text/markdown
+
+# YAMP
+
+## Overview
+
+YAMP (Yet Another Online Music Player) is an online music player for console/terminal that no one asked for.
+
+## Installation
+
+```
+$ pip install yamp_py
+```
+To run the application
+```
+$ yamp
+```
+## Acknowledgments
+
+Special thanks to [JioSaavn Unofficial API](https://saavn.dev/)
+
+## Contributing
+
+This project is a personal project and not actively maintained. However, contributions are welcome. If you find any bugs or have suggestions for improvements, feel free to submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
