@@ -1,0 +1,33 @@
+[tool.black]
+preview = true
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tiramisu-wallet-client"
+version = "0.0.7"
+authors = [
+  { name="Adam Ivansky", email="adam.ivansky@gmail.com" },
+]
+description = """
+A client for Tiramisu wallet platform. This client allows you to programatically mint, transfer and trade Taproot Assets Protocol that represents altcoins and NTFs on Bitcoin blackchain. 
+"""
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'requests >= 2.6.1',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/snow884/tiramisu_wallet_client"
+"Bug Tracker" = "https://github.com/snow884/tiramisu_wallet_client/issues"
