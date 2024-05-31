@@ -1,0 +1,3 @@
+[console_scripts]
+ski-lint=ski_lint.cli:main
+
