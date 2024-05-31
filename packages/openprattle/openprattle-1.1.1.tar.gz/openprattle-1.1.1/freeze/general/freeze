@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# Check which branch we're on to make sure we're not distributing non demo versions.
+git_vers=$(git symbolic-ref --short -q HEAD)
+expected_git_vers="main"
+
+if [ $git_vers != $expected_git_vers ]; then
+    echo "----------------------------------------------------------------------------"
+    echo "WARNING: Not on expected git branch" $expected_git_vers", on" $git_vers
+    echo "----------------------------------------------------------------------------"
+fi
+
+case "$1" in
+    
+    "CentOS-7.9")
+        echo "Building for CentOS-7.9"
+        ;;
+    
+    "CentOS-8.5")
+        echo "Building for CentOS-8.5"
+        ;;
+
+    "CentOS-Stream-8")
+        echo "Building for CentOS-Stream-8"
+        ;;
+
+    *)
+        echo "Unrecognised build target $1"
+        exit
+        ;;
+
+esac
+
+# Set target.
+export BUILD_TARGET="$1"
+
+echo "Building..."
+
+if pyinstaller oprattle.general.spec --noconfirm; then
+    # Create master archive.
+    echo "Creating archive..."
+    cd dist
+    name=$(ls -d openprattle.*)
+    tar -czf "$name.tar.gz" "$name"
+
+fi
+
