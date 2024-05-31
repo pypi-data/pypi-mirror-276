@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "extended-sql"
+version = "0.1.0"
+description = "SQL utilities"
+authors = ["Paweł Pozorski <pawel.pozorski@medwave.app>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.30"
+sqlmodel = "^0.0.18"
+uuid7 = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
