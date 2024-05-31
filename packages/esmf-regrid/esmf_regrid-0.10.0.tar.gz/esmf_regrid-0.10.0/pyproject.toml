@@ -1,0 +1,71 @@
+[build-system]
+# Defined by PEP 518
+requires = [
+    "setuptools>=61",
+    "wheel",
+]
+# Defined by PEP 517
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    {name = "ESMF Regrid Contributors", email = "scitools.pub@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+description = "Iris regridding scheme using ESMF"
+dynamic = [
+    "dependencies",
+    "optional-dependencies",
+    "readme",
+    "version",
+]
+keywords = [
+    "esmf",
+    "regrid",
+]
+license = {text = "BSD-3-Clause"}
+name = "esmf_regrid"
+requires-python = ">=3.10"
+
+[project.urls]
+Code = "https://github.com/SciTools-incubator/iris-esmf-regrid"
+Docs = "https://iris-esmf-regrid.readthedocs.io/en/stable"
+Issues = "https://github.com/SciTools-incubator/iris-esmf-regrid/issues"
+
+[tool.black]
+line-length = 88
+target-version = ['py310', 'py311', 'py312']
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+addopts = "-ra -v --doctest-modules"
+minversion = "6.0"
+doctest_optionflads = "NORMALIZE_WHITESPACE ELLIPSIS NUMBER"
+testpaths = "esmf_regrid"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+zip-safe = false
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements/core.txt"]}
+readme = {file = "README.md", content-type = "text/markdown"}
+version = {attr = "esmf_regrid.__version__"}
+
+[tool.setuptools.dynamic.optional-dependencies]
+dev = {file = ["requirements/optional-dev.txt"]}
+docs = {file = ["requirements/optional-docs.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["esmf_regrid*"]
