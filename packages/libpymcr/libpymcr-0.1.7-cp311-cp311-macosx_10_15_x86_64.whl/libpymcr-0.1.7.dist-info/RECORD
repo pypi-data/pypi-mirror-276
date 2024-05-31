@@ -1,0 +1,15 @@
+libpymcr/_libpymcr.cpython-311-darwin.so,sha256=Yt9DZzLfeBopGRwgnm6AEVBjqgNKL2nvE8d14jrPHiM,490280
+libpymcr/_version.py,sha256=K0dOwH2-axeDXHXQlI0NLE66tobj3vSuw259DJMrF7k,497
+libpymcr/__init__.py,sha256=YxQtjyhWEFgnGjEBM7_6CNAcQXWH8XD7rPFwRgE53Bg,195
+libpymcr/Matlab.py,sha256=cioj9PP667lsx0xX_PMtwzeTkJNI31aWOexglYDN5kE,7093
+libpymcr/MatlabProxyObject.py,sha256=pumJNAGbT3rKQF_pHnqggTAwiWyd4MABuvk6DTNpKeE,11934
+libpymcr/utils.py,sha256=nruVnXQdJ2GcfytEwIF28cLDyA9IzhCn_iBGwkNc5e8,14389
+libpymcr/IPythonMagics.py,sha256=uqUCnidWVN-64MezNqI7gqNCsgfmrvxI2_mM57OyK4E,11677
+libpymcr/scripts/matlab2python.py,sha256=oUuTchSxZ6jMgQECVZCXkWFJiptF4x3BgObUpEc8xy4,16431
+libpymcr/scripts/parseclass.m,sha256=4cUvBUaaBU9hrYnUUwoK3mj8o9wSqL2qro2sPyvyR9U,1538
+libpymcr-0.1.7.dist-info/RECORD,,
+libpymcr-0.1.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+libpymcr-0.1.7.dist-info/WHEEL,sha256=JSvoLg2DZRsiDjERybqBSDZZ_Ss5G1-9Svg259EtCCA,112
+libpymcr-0.1.7.dist-info/entry_points.txt,sha256=LLwMJdD_ZJmtAOb9NRUpAnFTFn8RFNoHI_LrR7ElyDA,70
+libpymcr-0.1.7.dist-info/top_level.txt,sha256=7E4jMHPIgnPj46vaLZmiMiSc-OFs_0oKOg4MSISOxDU,9
+libpymcr-0.1.7.dist-info/METADATA,sha256=M8zvuCab-jNrFZV4sH5GMRAzoUqzi3qdZn3X45jEyjE,2526
