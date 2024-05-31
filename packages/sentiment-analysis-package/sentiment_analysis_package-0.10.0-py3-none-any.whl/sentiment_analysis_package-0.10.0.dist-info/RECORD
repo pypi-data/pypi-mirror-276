@@ -1,0 +1,16 @@
+sentiment_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sentiment_model/config.yml,sha256=x6ZUigZusOXf64wht-HWvBJ4RzrayAYXrJ9FzJ8RaRs,278
+sentiment_model/pipeline.py,sha256=4W-yRhuPSjaSgZAPCaaqJTq_LPrIlEOwsrxcjkhXXYM,419
+sentiment_model/predict.py,sha256=O_j3UvPJe1xXwoliisv8UWJCM9IaXhE6-eX79Vd6oKw,530
+sentiment_model/train_pipeline.py,sha256=-nQdYJra718EtwAUNKNaTQXk6XgtYtiCYtoTOMqqL4U,1606
+sentiment_model/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sentiment_model/config/core.py,sha256=liHXeTgQBp98pZbq86QuAXYUVqOHjOjhd3Hru6ABIUw,743
+sentiment_model/datasets/twitter_training.csv,sha256=aOuu5PRL2l3km5a15WMBhPGviUlwuZSqa7CqXh2_6aA,10325088
+sentiment_model/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sentiment_model/processing/features.py,sha256=07aUSkMx6IX2AQWit4lNS63pl6uxrbHtvbReMoF1uvc,582
+sentiment_model/processing/validation.py,sha256=JDvy0gJRkSlDaus8R0lbo18vusH2ZfaDTrSZ3KcUPnc,355
+sentiment_model/trained_models/sentiment_analysis_model_0.10.0.pkl,sha256=83s8dwjvHo4w7cbxwzaTgdFyRSfzYCG7fpXXwngpItM,8080721
+sentiment_analysis_package-0.10.0.dist-info/METADATA,sha256=pZ-qABQHyzaEbOWFT3sOxrKP74sGR7ZX5nm7XoOmsBs,246
+sentiment_analysis_package-0.10.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sentiment_analysis_package-0.10.0.dist-info/top_level.txt,sha256=tu7Lx8zubtzuSYLnLFfKdE_pTREKXjEtLUHiKTYXfdk,16
+sentiment_analysis_package-0.10.0.dist-info/RECORD,,
