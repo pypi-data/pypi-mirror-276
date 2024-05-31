@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: scoobydoo
+Version: 0.1
+Summary: Giving Scooby Doo Character Catch Phrases
+Home-page: https://github.com/kyle-woodward/scooby-doo
+Author: Kyle Woodward
+Author-email: kw.geospatial@gmail.com
+License: GNU GPL v3.0
+Description-Content-Type: text/markdown
+
+# scooby-doo
+like zoinks - leveling up python and python packaging skillz
