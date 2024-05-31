@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+otaku_watcher/__init__.py
+otaku_watcher.egg-info/PKG-INFO
+otaku_watcher.egg-info/SOURCES.txt
+otaku_watcher.egg-info/dependency_links.txt
+otaku_watcher.egg-info/requires.txt
+otaku_watcher.egg-info/top_level.txt
+otaku_watcher/anitaku/__init__.py
+otaku_watcher/anitaku/scraper.py
