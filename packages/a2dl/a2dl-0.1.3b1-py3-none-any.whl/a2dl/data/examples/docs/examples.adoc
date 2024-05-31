@@ -1,0 +1,23 @@
+:toc:
+:icon_image_rel_path: ../images/3.png
+:icon_name: Icon3
+:read_more: #sec-icon3
+
+[[sec-icon3]]
+== Icon 3
+
+image::{icon_image_rel_path}[The Icon 3s Alternative Text,160,160,float="right"]
+
+=== Short Description
+:variable_name: short_description
+
+This is short Text to Describe the icon
+A short abstract of the Topic
+
+WARNING: Not Safe For Work
+
+
+=== XML Attribute 1
+:variable_name: xml_attribute_1
+
+Some part of the text to add to the icons data atribuites
