@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yaz_pyotp"
+version = "0.0.1"
+authors = [
+  { name="Yarzue Zolia", email="zyarzue.dev@gmail.com" },
+]
+
+description = "PyOTP is a Python package for sending otp."
+
+readme = "README.md"
+requires-python = ">=3.10"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yarz-dev/yaz_pyotp"
+Issues = "https://github.com/yarz-dev/yaz_pyotp/issues"
+
