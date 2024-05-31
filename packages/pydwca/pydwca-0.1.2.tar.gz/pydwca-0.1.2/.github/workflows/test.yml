@@ -1,0 +1,47 @@
+name: Python 🐍 Unit Tests ✅
+
+on:
+  push:
+    branches:
+      - 'develop'
+  pull_request:
+    branches:
+      - 'develop'
+      - 'main'
+
+jobs:
+  build:
+    name: Test python ✅
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+    - uses: actions/setup-python@master
+      with:
+        python-version: '3.11'
+    - name: Install requirements
+      run: pip install -r requirements.txt
+    - name: Install test requirements
+      run: pip install -r requirements-test.txt
+    - name: Download ⬇️ files for testing
+      run: >-
+        mkdir tests/example_data &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/eml.xml -O tests/example_data/eml.xml &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/example_archive.zip -O tests/example_data/example_archive.zip &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/identification.txt -O tests/example_data/identification.txt &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/meta.xml -O tests/example_data/meta.xml &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/reference.txt -O tests/example_data/reference.txt &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/speciesprofile.txt -O tests/example_data/speciesprofile.txt &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/taxon.txt -O tests/example_data/taxon.txt &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/dataset_1.zip -O tests/example_data/dataset_1.zip &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/dataset_2.zip -O tests/example_data/dataset_2.zip &&
+        wget -q ${{ secrets.CLOUDFRONT_URL }}/merged_dataset.zip -O tests/example_data/merged_dataset.zip
+    - name: Run tests and collect coverage
+      run: |
+        pip install coverage
+        PYTHONPATH=$(pwd)/src:PYTHONPATH coverage run -m unittest discover -s tests
+    - name: Upload coverage reports to Codecov ☂️
+      uses: codecov/codecov-action@v4.0.1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        slug: IEB-BIODATA/pydwca
