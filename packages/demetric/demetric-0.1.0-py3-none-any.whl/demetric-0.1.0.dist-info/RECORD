@@ -1,0 +1,12 @@
+demetric/__init__.py,sha256=tDxPYm34j0TJ--KMLtTebnry6kQBpNGO5Y_PxNoXg38,175
+demetric/__init__.pyi,sha256=kOyy5AWpv-6-29nykYlB_QvckeNeRlxbGMr9mlYQN30,160
+demetric/comparing.py,sha256=LIdsbtAU_-R-Rq8oaHkUMeBZ4sfRuwwc1w4Mfc1ocV8,329
+demetric/experiment.py,sha256=tURapVxnyq8nTGgvHwrp1I5sGJhA1VXjss15pfSiuYA,2166
+demetric/runs.py,sha256=6GJ32xfnrtgv4CcCtY_26SlSuaanZCR1YDyxbOdw5Yk,445
+demetric/plot/__init__.py,sha256=mF4M_d6EiHbB9U9W_oKlKXYIyh8ZFn3gxe_382VXiLI,95
+demetric/plot/__init__.pyi,sha256=qtIc5Nu5i2j-ZhNCqVEwUSu9CPmVMFxNghWMdGZuJ5I,74
+demetric/plot/_plot.py,sha256=a5oREs5uqa0RLsa4bTT_YN45cnmnkmB0-t-dcGIAuYk,480
+demetric-0.1.0.dist-info/METADATA,sha256=qicSbVHUFLXn3TNXHxtJgG7ZJuIknAcNj2GmWTE1c5k,385
+demetric-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+demetric-0.1.0.dist-info/top_level.txt,sha256=rp3iWs0kRSGrS_UKoWFt2hRqMJbiKcF4ckSCOmICbc4,9
+demetric-0.1.0.dist-info/RECORD,,
