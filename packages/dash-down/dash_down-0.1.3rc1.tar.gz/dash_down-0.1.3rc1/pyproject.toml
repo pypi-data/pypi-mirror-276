@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "dash-down"
+version = "0.1.3rc1"
+description = ""
+authors = ["emher <emil.h.eriksen@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/emilhe/dash-down"
+repository = "https://github.com/emilhe/dash-down"
+documentation = "https://github.com/emilhe/dash-down"
+keywords = ["dash", "plotly", "markdown", "flask"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+dash = ">=2.17.0"
+dash-extensions = ">=0.1.5"
+dash-mantine-components = ">=0.14.3"
+dash-iconify = "^0.1.2"
+mistune = "2.0.4"
+python-box = "^6.0.1"
+
+[tool.poetry.dev-dependencies]
+coverage = "^6.3.2"
+pytest = "^7.1.1"
+dash = {extras = ["dev", "testing"], version = ">=2.17.0"}
+pytest-cov = "^3.0.0"
+pandas = ">=1.1.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
