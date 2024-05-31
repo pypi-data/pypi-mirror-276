@@ -1,0 +1,45 @@
+[project]
+name = "SkiBiDi-ORM"
+version = "0.1.0"
+description = "Python ORM"
+authors = [
+    { name = "xDepcio", email = "olek.drwal@gmail.com" },
+    { name = "jedrzej-grabski", email = "jedrzej@grabski.pl" },
+    { name = "mbienkowski", email = "bienkowski.maksym@gmail.com" },
+]
+dependencies = [
+    "typer>=0.11.0",
+    "colorama>=0.4.6",
+    "fastapi>=0.111.0",
+    "psycopg2-binary>=2.9.9",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.entry-points.console_scripts]
+skibidi-orm = "skibidi_orm.cli.run:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.1.1",
+]
+
+[tool.pdm.scripts]
+tests = "pytest --verbose --color=yes --ignore ./tmp"
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: mark test as slow (deselect with '-m \"not slow\"')",
+]
