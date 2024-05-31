@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "examy"
+version = "0.1.7"
+description = ""
+authors = ["Eren Akgün <iobthedev@outlook.com>"]
+readme = "README.md"
+license = "GPL-2.0-only"
+repository = "https://github.com/insanolanbiri/examy"
+classifiers = [
+    "Operating System :: OS Independent",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.21.0"
+requests = "^2.32.2"
+lxml = "^5.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
