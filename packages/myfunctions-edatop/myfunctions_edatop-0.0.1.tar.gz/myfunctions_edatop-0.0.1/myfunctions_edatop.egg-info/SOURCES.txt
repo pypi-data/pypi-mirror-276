@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_edatop/__init__.py
+myfunctions_edatop/math.py
+myfunctions_edatop.egg-info/PKG-INFO
+myfunctions_edatop.egg-info/SOURCES.txt
+myfunctions_edatop.egg-info/dependency_links.txt
+myfunctions_edatop.egg-info/top_level.txt
