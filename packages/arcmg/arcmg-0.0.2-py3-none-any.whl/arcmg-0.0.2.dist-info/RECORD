@@ -1,0 +1,13 @@
+arcmg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcmg/config.py,sha256=hUTGVtaP-uJkegPWvFb1J8OWTaRAPHKcjO7__Bdp59M,3840
+arcmg/data.py,sha256=tez04X_9N7M23ODjtQKPQSYF1q5ciztdoNScTFF42eQ,2438
+arcmg/network.py,sha256=P01lAwqSX_-D8WfHT1IaVbkJP0sfrDgVamhxIEl6RT4,3693
+arcmg/plot.py,sha256=kccgk26_nSz8RRFSY8iq-HOQUn-V8_tBcpmINEyNmB8,12552
+arcmg/system.py,sha256=WLuwH87UzyRjn0BCxifO2jRKaYf8sadMwoK6f6ttrwA,2350
+arcmg/training.py,sha256=ercO0foyLyH7A7QAQTweNF-LDjLhsPhhVhYk0xtFiHM,9322
+arcmg/utils.py,sha256=47okEMd1nN0lLmYUIy0swjkvBn8c34sVJAhKBfl-500,3323
+arcmg-0.0.2.dist-info/LICENSE,sha256=Q46E9ekI0Gt8QYS01XSlIZI9tWU9Z6viLaXtvS1cdcw,1071
+arcmg-0.0.2.dist-info/METADATA,sha256=4MmDa_XemXl1ZhKYgYSaYuq_Jib69BmxjI3OTAmyPwE,686
+arcmg-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+arcmg-0.0.2.dist-info/top_level.txt,sha256=iprcdk3NbY0T1Bm0DhzO_53vZn4-PNSBALsdB0YKlyg,6
+arcmg-0.0.2.dist-info/RECORD,,
