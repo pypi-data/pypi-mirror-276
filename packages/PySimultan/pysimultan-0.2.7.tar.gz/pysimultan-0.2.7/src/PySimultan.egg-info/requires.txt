@@ -1,0 +1,8 @@
+six
+numpy
+pythonnet
+colorlog
+ruamel.yaml
+tqdm
+pandas
+pyarrow
