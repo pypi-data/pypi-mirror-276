@@ -1,0 +1,2 @@
+[console_scripts]
+epub-extract = epub_text_extractor.cli:main

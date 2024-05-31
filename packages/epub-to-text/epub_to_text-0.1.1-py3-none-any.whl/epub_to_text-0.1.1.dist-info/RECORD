@@ -1,0 +1,11 @@
+epub_text_extractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epub_text_extractor/cli.py,sha256=281MQaRA7M1D8MjbPQUawzOQLwi6FP3vlBfgdLJ68lY,3108
+epub_text_extractor/converter.py,sha256=f60Hk7HfBkQGDMdgND8vnZAOVz9aHjeZUiTnOuaFHro,1127
+epub_text_extractor/extractor.py,sha256=W9nVyfwtFQPJmvdg63UuYSlKcjlEu0aQ5mf6V9_wXDU,799
+epub_text_extractor/reader.py,sha256=pSsU1lQWrpl0l89t2thTvh1aRngFOe68CM_X0ACyUd8,1117
+epub_text_extractor/setup.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epub_to_text-0.1.1.dist-info/METADATA,sha256=c9k8jQXO3aYjfX8rK3Gq4vqTTz78VzeS_gigVWEihhM,1689
+epub_to_text-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+epub_to_text-0.1.1.dist-info/entry_points.txt,sha256=7ZMhle1g-SybamD6CqmiM2Y3KYixq7_RCh44XlosPaY,62
+epub_to_text-0.1.1.dist-info/top_level.txt,sha256=8B-e4OD5BqRiH3vbFqDo3q8ioR3Jg7JL4JUeABQJZ9k,20
+epub_to_text-0.1.1.dist-info/RECORD,,
