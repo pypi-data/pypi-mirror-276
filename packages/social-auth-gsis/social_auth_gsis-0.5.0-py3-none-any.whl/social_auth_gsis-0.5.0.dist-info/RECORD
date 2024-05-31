@@ -1,0 +1,5 @@
+social_auth_gsis/backends.py,sha256=GzjlGphbviKcafZzzNKjAdyWOkmgFMFbSAfpFnqBEys,4580
+social_auth_gsis/pipeline/social_auth.py,sha256=9CkslJmVHVUYzX2OoZ_bUOnp0ON4hrJCZwpCGkCSI4s,1123
+social_auth_gsis-0.5.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+social_auth_gsis-0.5.0.dist-info/METADATA,sha256=DtyJGs01fAJYUqLv6zoZ88tl2ZZ4ULJMheXLdiXnceI,5278
+social_auth_gsis-0.5.0.dist-info/RECORD,,
