@@ -1,0 +1,5 @@
+django>=4.0
+django-precise-bbcode
+markdown
+expiringdict
+pillow
