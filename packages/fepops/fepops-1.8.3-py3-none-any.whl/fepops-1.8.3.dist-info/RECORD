@@ -1,0 +1,17 @@
+fepops/__init__.py,sha256=5xxpriz9G5KXDXDisfDpotYL-9msAOX0_-vzEdRWbuI,84
+fepops/__main__.py,sha256=jvkKQXpcYzmoN8IoEZ0DRi0FGmfzNN-o_vUbZfLsej0,6493
+fepops/fepops.py,sha256=Sq4B5ep0GaVjA7-Xqg-M3PsK_Eas1BCR9sISNFK3ZD4,42113
+fepops/fepops_persistent/__init__.py,sha256=Ar02hAsVTXkVF1vT_5b4mXAV1NkQ7i43uJE7IiQZ96M,241
+fepops/fepops_persistent/fepops_persistent_abc.py,sha256=Hl5p2Au49PvF9UgOqy4SwH4WnnmpP7Iwb7dt499HmH0,18949
+fepops/fepops_persistent/fepopsdb_json.py,sha256=7L01aXh5zmUOPSknuPTKTd4Ir8C728c6MH7U2vql7kA,5870
+fepops/fepops_persistent/fepopsdb_sqlite.py,sha256=nqgJcb_MKrb_jAwTD6ZIw97I4pdBGwArY6lvfVbcUHA,7696
+fepops/fepops_persistent/utils.py,sha256=qsX-3mEhuXdmuEKRlBPsHknRi2KczroQgikke4izqqk,714
+fepops/utils/__init__.py,sha256=NksREuxd9ya2mtPYsdqla2vVik9w24PBGK-Bai4b7w0,158
+fepops/utils/dude_preprocessor.py,sha256=WQE2D8-lNTGAywf2yZjy_0RdgtZaNNc2s6bc4YhIIIs,6441
+fepops/utils/mol_filter.py,sha256=7aY9onVYz5G05FfwlmY9eSnjpukj7XpL1gR2BD2yCL4,5628
+fepops-1.8.3.dist-info/LICENSE.md,sha256=-3a7dF3poBr-Zz98Rz5HQmGfUxqEpyT2uX28Ko-Spi4,1068
+fepops-1.8.3.dist-info/METADATA,sha256=qaCHkqTFmoQZz4-cBVuhR8CvnG2zQtQFqSpy6cxgR_U,14420
+fepops-1.8.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fepops-1.8.3.dist-info/entry_points.txt,sha256=QvDWuSW3V8CKoV9icDA_lFjwRVJc1SzZSSodhwMU84g,61
+fepops-1.8.3.dist-info/top_level.txt,sha256=W6Jl1BWg1bdK5rNYiLRuoBSG8UrzA-eFGIqLj3WPHfk,7
+fepops-1.8.3.dist-info/RECORD,,
