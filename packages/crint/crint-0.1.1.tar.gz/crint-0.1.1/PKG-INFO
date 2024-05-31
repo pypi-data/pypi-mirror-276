@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: crint
+Version: 0.1.1
+Summary: A simple module for colored terminal output
+Home-page: https://github.com/raj-krishnan-r/crint
+Author: Raj Krishnan
+Author-email: rajkrishnan.r@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# crint
+
+A simple module for colored terminal output.
+
+## Installation
+
+You can install this module using pip:
+
+```bash
+pip install crint
