@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+python_glossary/__init__.py
+python_glossary/glossary.py
+python_glossary.egg-info/PKG-INFO
+python_glossary.egg-info/SOURCES.txt
+python_glossary.egg-info/dependency_links.txt
+python_glossary.egg-info/requires.txt
+python_glossary.egg-info/top_level.txt
