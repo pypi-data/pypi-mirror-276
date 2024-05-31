@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: centercitypcs_utils
+Version: 0.2.6
+Summary: 
+Author: Scott Burns
+Author-email: sburns@centercitypcs.org
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: docopt-ng (>=0.9.0,<0.10.0)
+Requires-Dist: gspread (>=5.12.4,<6.0.0)
+Requires-Dist: gspread_dataframe (>=3.3.1,<4.0.0)
+Requires-Dist: oracledb (>=1.4.2,<2.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: records (>=0.5.3,<0.6.0)
+Requires-Dist: sqlalchemy (>=2.0.30,<3.0.0)
