@@ -1,0 +1,10 @@
+pyplate/__init__.py,sha256=T5AsLjXg6fBbNq_2xANFdyWusha_nc54AhC3RJGeAos,1633
+pyplate/experiment_design.py,sha256=t5wZinrqr0hGxMpOPFCiW5H-ITDgr3RVguckPF3hiIQ,13085
+pyplate/pyplate.py,sha256=dX1X2ShZ-WU1NDuaBbzwjJqfkqA9Sso5rD-tyVUhcCE,103267
+pyplate/slicer.py,sha256=r35ui5KioR3VZ0oq73ZFtoaic9qbbMkeyDlZAZorgIQ,14316
+pyplate/slicer_bak.py,sha256=WIiVq2KRlCzb9NlpP3teOywrCt76JaXFmb-Wh002LGM,11981
+pyplate_hte-0.2.dist-info/LICENSE.txt,sha256=MxhKUJAbw2lJxdJMW_bPMV_vQDCi6l7o57JnAnnFxtM,10945
+pyplate_hte-0.2.dist-info/METADATA,sha256=KSEVfYy66mk6wYeifVu01243B-TiOHWBoTdHkjZFxsM,14883
+pyplate_hte-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyplate_hte-0.2.dist-info/top_level.txt,sha256=NUdM3FS3dz7J0_IZomNYUceAEwJdvd1Dg4KMAPlD7qc,8
+pyplate_hte-0.2.dist-info/RECORD,,
