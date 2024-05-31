@@ -1,0 +1,16 @@
+__init__.py,sha256=HhNa-1S_lI7WFrflGOqfWcjtrZWi0d-66K3GCxZ8X2w,9
+comseg/__init__.py,sha256=Zy8YXAZOqDHUnjxum_DI4To5qsmNvCrPmB-jU8Ye-Qk,403
+comseg/clustering.py,sha256=k8GqecB_Taf59RZoy1WVaursM95YisAJ8jQW08gsb9I,18288
+comseg/dataset.py,sha256=YOQ1imIU9A5gOnV2iGBzrtYCBUEj6UPl3jy6EIkpkUI,20754
+comseg/dictionary.py,sha256=xJK6LbXg4N0ACWdmSN3UUC7tHN0DspbVQuTL5Y4L-Fs,23470
+comseg/model.py,sha256=Ix0jtOHNN8YTJNhXy2jAUhxRIF0NFOvyv_xpiIZLo9k,40560
+comseg/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comseg/utils/custom_louvain.py,sha256=GfOphVE0lS8o8F3LWNSklq4to-uzsN9zsK-iKI4EtHk,18897
+comseg/utils/plot.py,sha256=OEMQf8HPORo019zci99eRz8fS8T7H39AEhul-STZqkM,1887
+comseg/utils/preprocessing.py,sha256=SjX0b5f749ezbf7kcHbeJpGfhv_WGZ7JW1hu7pTliso,8640
+comseg/utils/utils_graph.py,sha256=cBpUmQwpaal3HA6EL5sQF75j3Sx27JGflC-ggd2kT8Q,3292
+ComSeg-0.1.dist-info/LICENSE,sha256=M-CCpNer3hKsbyP9_fuziCduBAhdbwsFt41JY-AWHvI,1056
+ComSeg-0.1.dist-info/METADATA,sha256=vW40woQxq6nb8_Blp5r-BUaPrO8DRUQJ0oacWFPw3Pg,1233
+ComSeg-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ComSeg-0.1.dist-info/top_level.txt,sha256=mBSRYN57iU8DjCI8cUw0jayZpUcAoRK5fQBzqJBSKC0,16
+ComSeg-0.1.dist-info/RECORD,,
