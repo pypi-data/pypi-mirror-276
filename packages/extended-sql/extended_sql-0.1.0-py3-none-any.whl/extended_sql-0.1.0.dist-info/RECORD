@@ -1,0 +1,7 @@
+extended_sql/__init__.py,sha256=GuJiPPKp3ukg5CoI0HINXKRJrH0eGnKShZDtnLuMiDY,170
+extended_sql/async_manager.py,sha256=TLkZo0cbQGWK0Rl3yn1UbcLAC0wj6L1dSuN4s7aNq7o,4691
+extended_sql/models.py,sha256=Qn1md6RKf89r_bp8t7sBVAu-hKSZnqu10X3-vDPy6b0,1332
+extended_sql/utils.py,sha256=ZG4qprZYKpi34WDYUNqOCZrv8HXzTwVZ9QhNYrLjyjc,7119
+extended_sql-0.1.0.dist-info/METADATA,sha256=4NstOvsZOcE6dmeoUC4c6-G22isVfGpkAVh8kxuDKTQ,558
+extended_sql-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+extended_sql-0.1.0.dist-info/RECORD,,

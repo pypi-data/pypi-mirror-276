@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: extended-sql
+Version: 0.1.0
+Summary: SQL utilities
+License: MIT
+Author: Paweł Pozorski
+Author-email: pawel.pozorski@medwave.app
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: sqlalchemy (>=2.0.30,<3.0.0)
+Requires-Dist: sqlmodel (>=0.0.18,<0.0.19)
+Requires-Dist: uuid7 (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Sql package
+
+This package contains the SQL utilities.
