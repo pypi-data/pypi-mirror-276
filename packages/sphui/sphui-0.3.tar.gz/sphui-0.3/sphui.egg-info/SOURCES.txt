@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sphui/__init__.py
+sphui/__main__.py
+sphui/element.py
+sphui/main.py
+sphui/sph.py
+sphui.egg-info/PKG-INFO
+sphui.egg-info/SOURCES.txt
+sphui.egg-info/dependency_links.txt
+sphui.egg-info/requires.txt
+sphui.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sphui
+Version: 0.3
+Summary: sphui is ui lib for sphlib
+Home-page: https://github.com/ZZP-DMU/SPHUI
+Author: Zhang Zhi Peng
+Author-email: 3571669089@qq.com
+License-File: LICENSE
+Requires-Dist: numpy
