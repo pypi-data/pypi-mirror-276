@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: SkiBiDi-ORM
+Version: 0.1.2
+Summary: Python ORM
+Author-Email: xDepcio <olek.drwal@gmail.com>, jedrzej-grabski <jedrzej@grabski.pl>, mbienkowski <bienkowski.maksym@gmail.com>
+License: MIT
+Requires-Python: >=3.12
+Requires-Dist: typer>=0.11.0
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: fastapi>=0.111.0
+Description-Content-Type: text/markdown
+
+# zprp-23z-python-orm
+...
