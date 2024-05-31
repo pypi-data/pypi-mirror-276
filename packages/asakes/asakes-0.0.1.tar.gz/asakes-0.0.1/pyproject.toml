@@ -1,0 +1,18 @@
+[project]
+name = "asakes"
+version = "0.0.1"
+authors = [
+  { name="Abdulbasit Alabi", email="abdulbasitdamilola6@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/marrwan"
+Issues = "https://github.com/marrwan"
