@@ -1,0 +1,12 @@
+Step 1:
+    Modify pyproject.toml
+Step 2:
+    Move files in dist to tests
+Step 3:
+    Open terminal.
+    cd .\datamart_yhdr_package\
+    # py -m pip install --upgrade build
+    py -m build
+    # py -m pip install --upgrade twine
+    py -m twine upload dist/*
+    # user/pw: hsh1212 Hsh951212!!

@@ -1,0 +1,16 @@
+from datamart_yhdr import const
+
+const.WORKSPACE_DEV = "YHDR-DM-DEV"
+const.WORKSPACE = "YHDR-DM"
+const.HALO_URL = "http://192.168.100.100:82/base/token/create"
+const.QUERY_URL = "http://192.168.100.100:82/query/query"
+const.COMMAND_URL = "http://192.168.100.100:82/message/message/submit"
+const.BATCH_URL = "http://192.168.100.100:82/message/message/submit/batch"
+const.HALO_URL_UAT = "http://192.168.10.175:82/base/token/create"
+const.QUERY_URL_UAT = "http://192.168.10.175:82/query/query"
+const.COMMAND_URL_UAT = "http://192.168.10.175:82/message/message/submit"
+const.BATCH_URL_UAT = "http://192.168.10.175:82/message/message/submit/batch"
+const.HALO_URL_DEV = "http://192.168.100.73:83/base/token/create"
+const.QUERY_URL_DEV = "http://192.168.100.73:83/query/query"
+const.COMMAND_URL_DEV = "http://192.168.100.73:83/message/message/submit"
+const.BATCH_URL_DEV = "http://192.168.100.73:83/message/message/submit/batch"
