@@ -1,0 +1,7 @@
+numpy
+cv2
+pywin32
+pynput
+PyAutoGUI
+ppocr-onnx
+opencv-python
