@@ -1,0 +1,2 @@
+[console_scripts]
+vodbot = vodbot.__main__:deffered_main
