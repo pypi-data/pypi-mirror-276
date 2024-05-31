@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+app/anne/__init__.py
+app/anne.egg-info/PKG-INFO
+app/anne.egg-info/SOURCES.txt
+app/anne.egg-info/dependency_links.txt
+app/anne.egg-info/requires.txt
+app/anne.egg-info/top_level.txt
+app/anne/browser/AnneBrowser.py
+app/anne/browser/__init__.py
+app/anne/browser/utils.py
+app/anne/proxy/AnneProxy.py
+app/anne/proxy/__init__.py
+app/anne/proxy/utils.py
