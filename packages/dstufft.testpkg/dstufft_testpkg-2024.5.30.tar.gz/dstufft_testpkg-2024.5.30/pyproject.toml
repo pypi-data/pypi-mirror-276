@@ -1,0 +1,7 @@
+[project]
+name = "dstufft.testpkg"
+version = "2024.5.30"
+description = ""
+authors = [{ name = "Donald Stufft", email = "donald@stufft.io" }]
+dependencies = []
+requires-python = ">=3.11"
