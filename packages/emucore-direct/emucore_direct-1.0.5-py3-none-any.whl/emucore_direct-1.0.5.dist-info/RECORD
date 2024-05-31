@@ -1,0 +1,10 @@
+emucore_direct/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emucore_direct/client.py,sha256=sSIxdzZK87QwhquYrzZTPlT8JGdCwUpxYO4M3CSriTg,12766
+emucore_direct/emucore_pb2.py,sha256=aAAAOhfzxywQFDCRHurt3V5_XBiuE5tLm0YxChKkroM,6274
+emucore_direct/emucore_pb2_grpc.py,sha256=MQaZQoIUxcQAHh0KEPe8gS2wuMswpfELlffyEYU-Sns,11521
+emucore_direct/types.py,sha256=4QJQe6f3so7I5Pj-g_yOTaM4kGOHoVzm6i-BNOpEGAk,915
+emucore_direct/utils.py,sha256=SjSEw8fmd1hz-hcl5fXUUGOReDJWBwU9EskxvhAMbfQ,5603
+emucore_direct-1.0.5.dist-info/METADATA,sha256=q5qBU1mqDQIo4gEwO0ypwcMo5tbz3YwvoYBodpGE9Cc,2085
+emucore_direct-1.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+emucore_direct-1.0.5.dist-info/top_level.txt,sha256=OS1sYyE3j34_ZEKp9pdzzdzWhGe_LScgRjoBXxGzQNI,15
+emucore_direct-1.0.5.dist-info/RECORD,,
