@@ -1,0 +1,2 @@
+[console_scripts]
+leetup = pyleetup.main:main
