@@ -1,0 +1,52 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "dwd4cast"
+version = "0.1.0"
+description = "python interface to collect and read GRIB files from the DWD"
+authors = ["Albrecht, Steffen <steffen.alb@posteo.de>"]
+license = "MIT"
+repository = "https://github.com/stalbrec/dwd4cast"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Utilities",
+]
+packages = [
+    { include = "dwd4cast"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+requests = "^2.31.0"
+xarray = "^2024"
+cfgrib = "^0.9.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.0"
+
+[tool.poetry.scripts]
+dwd4cast = "dwd4cast.cli:cli"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+lint.select = [
+    "E",
+    "F",
+    "W",
+]
+lint.ignore = []
+lint.preview = true # enabled mainly to get whitespace errors (e.g. E231)
