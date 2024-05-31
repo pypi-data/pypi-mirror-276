@@ -1,0 +1,6 @@
+pytube
+moviepy
+librosa
+imageio
+numpy
+opencv-python
