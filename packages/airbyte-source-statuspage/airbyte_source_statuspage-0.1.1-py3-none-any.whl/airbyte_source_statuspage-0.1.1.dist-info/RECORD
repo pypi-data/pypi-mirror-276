@@ -1,0 +1,16 @@
+source_statuspage/__init__.py,sha256=1X2WfWtULFObs83ox0Gds0wnuu_jBMG6ArkZv7p3xd0,132
+source_statuspage/manifest.yaml,sha256=OMTX3zdr8dj_Zqim9PMARgEsIzlcysKVLmaTuaJ3Q2M,4465
+source_statuspage/run.py,sha256=YjYwUg_NJLtACr3libNpPtzeRziaiP3uUIND0FCdnag,242
+source_statuspage/schemas/components.json,sha256=5h8-MfOXierULUiYI3uom-ixNczDBJpY6U1s4c0QpjI,1930
+source_statuspage/schemas/incident_templates.json,sha256=YOlYgUl0jR_dnJ7W6bA5DdY3UfOXBQciXVcdUpFIBgU,3953
+source_statuspage/schemas/incidents.json,sha256=YZGF35TB3Y_tnIhcKmoYz0R9bg7zz9OHlIe4EVnFsk0,11880
+source_statuspage/schemas/metrics.json,sha256=3IySercg2Kp5TJKrNVfZ61cOkGd8SARxTy87CEdBoQA,1878
+source_statuspage/schemas/pages.json,sha256=hO57KdjfQksBOYpNdtyUiyEREOikVfsxOrnTQVNkfMU,5171
+source_statuspage/schemas/subscribers.json,sha256=exoRfD4ZUbBC9ZWpP33pmRERa4-9jX_qRKPFnZkUIps,2784
+source_statuspage/schemas/subscribers_histogram_by_state.json,sha256=NeJOqBED76e5Kemj3qyk-fsCmGQVdTwo3RlNoIQxUZw,4280
+source_statuspage/source.py,sha256=7n9EMT51uSjZN1IzPAb3W5oqI9DKINuWo5DO0v4GUds,479
+source_statuspage/spec.yaml,sha256=CAeHj1Hon_nX_iBY9ME-HKthQUOAF0-1zqNLYGcOnW8,480
+airbyte_source_statuspage-0.1.1.dist-info/METADATA,sha256=fXCmynnRaVoYBO-21c_70Ue5P-0eNKGzCbXoQIbi2F8,5283
+airbyte_source_statuspage-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_statuspage-0.1.1.dist-info/entry_points.txt,sha256=lieLeXqCT1OiaRvFeQGHEU3YUmce5Df8nx3F83tBleU,63
+airbyte_source_statuspage-0.1.1.dist-info/RECORD,,

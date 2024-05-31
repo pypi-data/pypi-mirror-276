@@ -1,0 +1,3 @@
+[console_scripts]
+source-statuspage=source_statuspage.run:run
+
