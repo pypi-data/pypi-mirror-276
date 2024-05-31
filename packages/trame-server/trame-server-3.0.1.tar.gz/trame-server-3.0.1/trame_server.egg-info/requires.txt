@@ -1,0 +1,2 @@
+wslink<3,>=2
+more-itertools
