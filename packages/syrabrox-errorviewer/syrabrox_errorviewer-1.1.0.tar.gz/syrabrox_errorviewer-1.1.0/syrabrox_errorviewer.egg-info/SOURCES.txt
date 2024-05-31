@@ -1,0 +1,9 @@
+README.md
+setup.py
+syrabrox_errorviewer/__init__.py
+syrabrox_errorviewer/main.py
+syrabrox_errorviewer.egg-info/PKG-INFO
+syrabrox_errorviewer.egg-info/SOURCES.txt
+syrabrox_errorviewer.egg-info/dependency_links.txt
+syrabrox_errorviewer.egg-info/entry_points.txt
+syrabrox_errorviewer.egg-info/top_level.txt
