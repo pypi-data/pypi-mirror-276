@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+arcmg/config.py
+arcmg/data.py
+arcmg/network.py
+arcmg/plot.py
+arcmg/system.py
+arcmg/training.py
+arcmg/utils.py
+arcmg.egg-info/PKG-INFO
+arcmg.egg-info/SOURCES.txt
+arcmg.egg-info/dependency_links.txt
+arcmg.egg-info/requires.txt
+arcmg.egg-info/top_level.txt

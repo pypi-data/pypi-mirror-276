@@ -1,0 +1,8 @@
+numpy
+torch
+igraph
+plotly
+pandas
+seaborn
+matplotlib
+pyyaml
