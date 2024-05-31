@@ -1,0 +1,6 @@
+numpy
+scipy
+networkx
+pandas
+matplotlib
+schematodes>=1.0.0
