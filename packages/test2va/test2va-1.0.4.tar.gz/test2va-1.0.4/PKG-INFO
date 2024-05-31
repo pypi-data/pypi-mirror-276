@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: test2va
+Version: 1.0.4
+Summary: Test2VA
+Author: Anon
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appium-python-client==3.1.1
+Requires-Dist: pylibsrcml
