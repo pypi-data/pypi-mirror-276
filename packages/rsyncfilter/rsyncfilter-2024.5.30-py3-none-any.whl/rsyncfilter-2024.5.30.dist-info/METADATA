@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rsyncfilter
+Version: 2024.5.30
+Summary: A Python module for parsing .rsync-filter files
+Project-URL: Repository, https://github.com/presto8/python-rsync-filter
+Author-email: Preston Hunt <me@prestonhunt.com>
+Maintainer-email: Preston Hunt <me@prestonhunt.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# python-rsync-filter
+
+A Python module that implements rsync's sending-side rsync-filter specification.
+See the "FILTER RULES" section of "man rsync".
+
+This is a clean room implementation based on the documentation only without
+looking at rsync's source code.
+
+Rsync's filter rules are well defined, stable, and have been used in production
+settings for many years. Developers needing file pattern include/exclude
+functionality may prefer to use rsync's existing specification rather than
+inventing their onw.
