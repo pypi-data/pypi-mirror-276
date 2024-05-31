@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "sonusai-torchl"
+version = "0.3.0"
+description = "PyTorch Lightning model tools for SonusAI"
+authors = ["Chris Eddington <chris@aaware.com>", "Jason Calderwood <jason@aaware.com>"]
+maintainers = ["Chris Eddington <chris@aaware.com>", "Jason Calderwood <jason@aaware.com>"]
+homepage = "https://aaware.com"
+license = "GPL-3.0-only"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+docopt = "^0.6.2"
+h5py = "^3.11.0"
+lightning = "~2.2"
+numpy = "^1.26.4"
+pyaaware = "^1.5.7"
+python = ">=3.9,<3.12"
+pytorch-lightning = "^2.2.4"
+sonusai = ">=0.17.0"
+torch = "~2.2"
+torchinfo = "^1.8.0"
+onnxconverter-common = "^1.14.0"
+onnxsim = "^0.4.36"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.6.0"
+mypy-extensions = "^1.0.0"
+pytest = "^8.1.1"
+
+[tool.mypy]
+ignore_missing_imports = true
+python_version = "3.11"
+strict_optional = false
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+
+[tool.pytest.ini_options]
+log_file = "pytest.log"
+log_file_level = "DEBUG"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
