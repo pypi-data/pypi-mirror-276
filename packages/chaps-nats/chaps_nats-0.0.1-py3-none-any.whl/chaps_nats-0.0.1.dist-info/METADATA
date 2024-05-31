@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: chaps_nats
+Version: 0.0.1
+Summary: Tools to design Job APIs on top of NATS
+Author-email: Pierre Dellenbach <pdellenbach@chapsvision.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nats-py ~=2.6.0
+Requires-Dist: fastapi[all] ~=0.111.0
+Requires-Dist: asyncio ~=3.4.3
+Requires-Dist: rich ~=13.7.1
+Requires-Dist: json-tricks ~=3.17.3
+
+## ChapsNats
+
+> A library of python tools for working with NATS
+
+### Description of the project
+
+> This project is a library of python tools for working with NATS.
+> It is a collection of classes and functions that can be used to interact with NATS servers, and constructing standardized APIs with FastAPI.
+
+### Installation
+
+> The library is designed to be used in a python environment. It can be installed using pip:
+
+```bash
+pip install .
+```
+
+#### Usage
+
+> The library provides simple functionalities on top of the NATS python client:
+
+```python
+
+import chaps_nats
+
+# Create a NATS context within a context manager
+# The cleanup is done automatically when the context manager exits
+# The nats context is associated with an application id which will prefix the
+# subjects / object store to allow for more consistency in the NATS server
+async with chaps_nats.NatsContext(app_id="test", urls=[self.nats_url()]) as nats_context:
+
+    # Create an object store for the context
+    store = await nats_context.js.create_object_store("test")
+
+    # Push a message to the object store
+    await store.put("toto", b"Hello World!")
+
+    # Retrieve the object from the object store
+    res = (await store.get("toto")).data.decode("utf-8")
+
+    # Publish a message to a subject
+    await nats_context.publish("test.subject", b"Hello World!")
+
+```
+
+> The library defines an job abstraction `NatsJob` which can be used to create a job that can be scheduled on a NATS server:
+
+```python
+
+# Producer of a Job
+
+import chaps_nats
+
+async with chaps_nats.NatsContext(app_id="_tuto", urls=[self.nats_url()]) as nats_context:
+    # Creates a job and updates its status
+    job = await chaps_nats.NatsJob.create(nats_context=nats_context,
+        create_if_not_exists=True # Create the job if it does not exist
+    )
+    status = await job.status()
+
+    # The job is associated with a specific object store
+    await job.object_store.put("input", b"Hello World!")
+
+    # Sends a message to the NATS Queue with a subject subscribed by workers
+    # The workers will then process the job and update the status
+    await job.start()
+
+```
+
+> The `NatsJob` can be consumed by a worker, extending `chaps_nats.workers.NatsJobWorkerProcess` :
+
+```python
+
+import chaps_nats
+import chaps_nats.workers
+
+class TestBasicWorker(chaps_nats.workers.NatsJobWorkerProcess):
+    """
+    A worker which runs in a separate python process
+
+    /!\ Be careful what you put in the members of this class
+        A communication between processes is not trivial.
+    """
+
+    async def init_context(self, nats_context: chaps_nats.NatsContext) -> Dict:
+        """
+        Initialize the context (called when starting the process)
+
+        You can use this method to initialize the context of the worker
+        Load a model, connect to a database, initialize NATS subscribers and publishers, etc.
+        """
+        rich.print("[green]Initializing Context[/]")
+        return {}
+
+    async def process_job(self, job: chaps_nats.NatsJob, context: Dict) -> bool:
+        """
+        Processes a job ->
+        Interact with the object store, and / or publish messages to the NATS server
+        """
+        rich.print(f"[green]Processing Job: {job.job_id}")
+        await job.object_store.put("output", job.job_id.encode("utf-8"))
+        return True
+```
+
+> Finally we provide a tool to design standardized Job APIs with FastAPI,
+> see `Examples` for more details.
+
+> You can run the examples with nats using the docker files provided.
+
+```bash
+
+# Launches the docker image containing the nats server
+# And the example API located at Examples/basic_job_api/API.py
+./launch_api.sh basic_job_api 8099
+```
+
+> You can look at unit tests in repertory `Tests` for more details.
+
+
+
