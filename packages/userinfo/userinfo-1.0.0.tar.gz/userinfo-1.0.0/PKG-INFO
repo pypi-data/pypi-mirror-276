@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: userinfo
+Version: 1.0.0
+Summary: Get placeholder user information on python3!
+Home-page: https://github.com/voxj/userinfo/
+Author: voxj.
+Description-Content-Type: text/markdown
+
+# userinfo
+
+Get randomly-generated user informations on python3!
+
+Usage:
+```py
+import userinfo
+print(userinfo.generate_user())
+```
+
+Example output:
+```text
+{'name': 'Ava Johnson', 'email': 'avajohnson44077@defaultmail0.com', 'username': 'ava_johnson119', 'password': '2&CY"%bI', 'address': 'Park Ave, Chicago, FL', 'age': 6}
+```
