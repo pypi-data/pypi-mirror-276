@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: ferncrypter
+Version: 1.1
+Summary: A utility to encrypt and decrypt env variables
+Home-page: https://github.com/abhiramsreekumar
+Author: Abhiram Sreekumar
+Author-email: abhiram@randomsasi.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ferncrypter - encrypt and decrypt env files easily
+
+A Helper pip package for encrypting env's to be stored safely in code repositories
+
+
+### Assumptions:
+
++ Assuming python3 is installed on your system.
++ Nano is installed on your system
++ If you have VScode installed, better !
+
+
+Install `ferncrypter` on your system using : 
+
+```
+pip install ferncrypter
+```
+
+## Encryption Options
+
++ Create a new fernet key if not exist (.fkey) and a .env file will be opened in editor:
+
+```
+ferncrypter
+```
+
+
++ environment specific
+
+```
+ferncrypter -e production
+```
+
+
++ Pass key manually
+
+```
+ferncrypter -e production -k keyfile or key-string
+```
+
+## Decryption Options
+
++ Decrypt env
+
+```
+ferncrypter -d
+```
+
++ Environment specific
+
+```
+ferncrypter -d -e production
+```
+
++ Pass key manually
++ Recomended option if using inside pipelines or scripts
+
+```
+ferncrypter -d -e production -k keyfile or key-string
+```
