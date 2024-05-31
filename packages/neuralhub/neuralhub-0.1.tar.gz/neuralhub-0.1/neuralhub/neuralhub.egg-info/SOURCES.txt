@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+neuralhub/neuralhub.egg-info/PKG-INFO
+neuralhub/neuralhub.egg-info/SOURCES.txt
+neuralhub/neuralhub.egg-info/dependency_links.txt
+neuralhub/neuralhub.egg-info/requires.txt
+neuralhub/neuralhub.egg-info/top_level.txt

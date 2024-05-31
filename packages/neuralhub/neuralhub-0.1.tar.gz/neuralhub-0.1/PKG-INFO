@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: neuralhub
+Version: 0.1
+Summary: Deep Learning Models implemented in PyTorch
+Home-page: https://github.com/4insu/neuralhub
+Author: 4insu
+Author-email: supriyo.ain.02@gmail.com
+Project-URL: Bug Tracker, https://github.com/4insu/neuralhub/issues
+Keywords: python,deep learning
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# neuralhub
