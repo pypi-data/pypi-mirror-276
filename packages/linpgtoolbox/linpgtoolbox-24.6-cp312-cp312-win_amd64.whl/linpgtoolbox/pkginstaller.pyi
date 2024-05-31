@@ -1,0 +1,9 @@
+from ._execute import execute_python as execute_python
+
+class PackageInstaller:
+    @classmethod
+    def install(cls, pkg_name: str, upgrade: bool = True, cwd: str | None = None) -> None: ...
+    @classmethod
+    def uninstall(cls, pkg_name: str) -> None: ...
+    @classmethod
+    def upgrade(cls, name: str = '*') -> None: ...
