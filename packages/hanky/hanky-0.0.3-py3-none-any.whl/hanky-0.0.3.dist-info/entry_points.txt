@@ -1,0 +1,2 @@
+[console_scripts]
+hanky = hanky.__main__:main
