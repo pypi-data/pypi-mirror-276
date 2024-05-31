@@ -1,0 +1,3 @@
+ccptools<2,>=1.1
+alviss<4,>=3.3
+jinja2<4,>=3.1
