@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rsyncfilter"
+description = "A Python module for parsing .rsync-filter files"
+version = "2024.5.30"
+readme = {file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3.9",
+]
+authors = [
+  {name = "Preston Hunt", email = "me@prestonhunt.com"},
+]
+maintainers = [
+  {name = "Preston Hunt", email = "me@prestonhunt.com"},
+]
+
+[project.urls]
+Repository = "https://github.com/presto8/python-rsync-filter"
+
+[tool.hatch.build.targets.wheel]
+packages = ["rsyncfilter"]
