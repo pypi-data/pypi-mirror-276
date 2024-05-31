@@ -1,0 +1,3 @@
+include image_crop/static/css/*
+include image_crop/static/js/*
+include image_crop/templates/*
