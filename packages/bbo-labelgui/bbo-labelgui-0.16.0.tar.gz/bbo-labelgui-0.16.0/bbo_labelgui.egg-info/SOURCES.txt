@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+bbo_labelgui.egg-info/PKG-INFO
+bbo_labelgui.egg-info/SOURCES.txt
+bbo_labelgui.egg-info/dependency_links.txt
+bbo_labelgui.egg-info/requires.txt
+bbo_labelgui.egg-info/top_level.txt
+labelgui/__init__.py
+labelgui/__main__.py
+labelgui/check.py
+labelgui/config.py
+labelgui/helper_gui.py
+labelgui/helper_video.py
+labelgui/labeling_gui.py
+labelgui/labeling_gui_cfg.py
+labelgui/select_user.py

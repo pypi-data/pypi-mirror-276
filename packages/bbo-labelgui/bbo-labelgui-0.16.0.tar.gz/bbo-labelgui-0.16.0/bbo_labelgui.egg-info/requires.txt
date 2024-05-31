@@ -1,0 +1,7 @@
+numpy
+matplotlib
+imageio
+bbo_ccvtools
+bbo_svidreader
+tqdm
+bbo-bbo>=0.1.0
