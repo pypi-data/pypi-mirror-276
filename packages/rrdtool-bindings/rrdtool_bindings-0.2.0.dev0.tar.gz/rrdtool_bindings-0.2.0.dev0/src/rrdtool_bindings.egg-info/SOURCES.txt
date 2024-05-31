@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/rrdtoolmodule.c
+src/rrdtool_bindings.egg-info/PKG-INFO
+src/rrdtool_bindings.egg-info/SOURCES.txt
+src/rrdtool_bindings.egg-info/dependency_links.txt
+src/rrdtool_bindings.egg-info/top_level.txt
+tests/test_bindings.py
