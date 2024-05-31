@@ -1,0 +1,13 @@
+ch9329/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ch9329/config.py,sha256=ASzY9xgY5E7yR7RA6wehwweGQbpLe9v2XQ4mJRAyu84,4195
+ch9329/exceptions.py,sha256=sr5B6G-v9ni5BOBRfuJBK9Nfyp-_KwgJ1RJXxfam62k,83
+ch9329/hid.py,sha256=NMLR4918PyGZWNAzFp8O58vUykUms7WQ7L0pELGPhtM,9249
+ch9329/keyboard.py,sha256=fESeB93Eh7Q6xw0mP6GxaqQhU_1bByrWM4VP-IC2hkg,3008
+ch9329/mouse.py,sha256=ouGiScsbmoRWafpQi_Akd4qAjdU0Ao5Og7ZdSKtUPd8,2993
+ch9329/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ch9329/utils.py,sha256=K0-GoM4Fspy9qgF9OPEnRwR5koxThsuVjfYmeyDB4hs,662
+ch9329-1.2.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+ch9329-1.2.1.dist-info/METADATA,sha256=We71wL_Pog3ynM6oMK49RjtBG3hrO6pfX8zi479Go6c,2913
+ch9329-1.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ch9329-1.2.1.dist-info/top_level.txt,sha256=vhWx3Eox5phCxf6wtgmenxNaus059FxLc18Fon89AZI,7
+ch9329-1.2.1.dist-info/RECORD,,
