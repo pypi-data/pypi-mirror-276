@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/analysis/__init__.py
+src/analysis/main.py
+src/analysis/../bin/strings.exe
+src/static_analysis_script.egg-info/PKG-INFO
+src/static_analysis_script.egg-info/SOURCES.txt
+src/static_analysis_script.egg-info/dependency_links.txt
+src/static_analysis_script.egg-info/entry_points.txt
+src/static_analysis_script.egg-info/requires.txt
+src/static_analysis_script.egg-info/top_level.txt

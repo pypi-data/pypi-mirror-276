@@ -1,0 +1,5 @@
+PyPDF2
+tqdm
+numpy
+pyfiglet
+colorama
