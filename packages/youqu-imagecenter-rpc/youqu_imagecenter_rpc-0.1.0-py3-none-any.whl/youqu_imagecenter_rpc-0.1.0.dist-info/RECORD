@@ -1,0 +1,9 @@
+youqu_imagecenter_rpc/__init__.py,sha256=hDtnqsapeVvbahP7kwc9tzyzuE_k6sOnvjo6cI2u0u4,14967
+youqu_imagecenter_rpc/__version__.py,sha256=B4-_xNhHAm4KfnveoaXAUqrRucghBNW4keF-F3YGNlI,191
+youqu_imagecenter_rpc/conf.py,sha256=vx_I9DQq7wQAgQvAtDV55RWJuuEA6oMACZyeHl7DHsI,1824
+youqu_imagecenter_rpc/install_depends.py,sha256=9k_FP7TRnF0aAuZGcZBY0U0OxszHtFHV3xvRCwtJeKI,740
+youqu_imagecenter_rpc/server.py,sha256=TApkUg63ZOplaZ7ZYp_8QelKgrciuOCd-sFXg2vF-Qs,3224
+youqu_imagecenter_rpc-0.1.0.dist-info/METADATA,sha256=Gy0ODBZ-A0xW42OTKcazecL7CID49Q094qkJJHWdDvU,321
+youqu_imagecenter_rpc-0.1.0.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+youqu_imagecenter_rpc-0.1.0.dist-info/licenses/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+youqu_imagecenter_rpc-0.1.0.dist-info/RECORD,,
