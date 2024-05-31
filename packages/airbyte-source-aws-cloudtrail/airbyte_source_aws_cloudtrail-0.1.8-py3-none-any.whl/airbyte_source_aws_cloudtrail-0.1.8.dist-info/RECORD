@@ -1,0 +1,9 @@
+source_aws_cloudtrail/__init__.py,sha256=BGHIjp0xLfpJQG54ErriN_LMi1Z5uC3SEo-A19axOb8,1148
+source_aws_cloudtrail/run.py,sha256=ISWdNuO-meZM4wcddFvVuWUl7ozZNpMe-htYnrIxryA,252
+source_aws_cloudtrail/schemas/management_events.json,sha256=bEnsMlvTrFnDzoJ9dO6hlJQ4NG0KSjuhBOzOLy6I4Wc,1728
+source_aws_cloudtrail/source.py,sha256=3flFwPghYcGDpkFfsxYZ2sQR_5qOQqrbjAujAuUj3LU,7560
+source_aws_cloudtrail/spec.json,sha256=k1jwqQj045h4YnjAW26hoCkT_eD5oQ3yAXV4aHi0YsI,1705
+airbyte_source_aws_cloudtrail-0.1.8.dist-info/METADATA,sha256=t19G7DVCrszIYs7Lz8-fzNcqtkhyxDlVSnznLM53KtA,5400
+airbyte_source_aws_cloudtrail-0.1.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_aws_cloudtrail-0.1.8.dist-info/entry_points.txt,sha256=lDcTckBrCXDnoq6sKq3ZJ0h8BPLrI3FVLooOUrptOlM,71
+airbyte_source_aws_cloudtrail-0.1.8.dist-info/RECORD,,
