@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fa-scrapper
+Version: 0.4.0
+Summary: A Letterboxd-compatible FilmAffinity scraper.
+Home-page: https://github.com/mx-psi/fa-scraper
+License: GPL-3.0-or-later
+Author: Pablo Baeyens
+Author-email: pbaeyens31+github@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Dist: fa-scraper
+Project-URL: Authors, https://github.com/mx-psi/fa-scraper/blob/master/AUTHORS
+Project-URL: Bug Tracker, https://github.com/mx-psi/fa-scraper/issues
+Project-URL: Changelog, https://github.com/mx-psi/fa-scraper/blob/master/CHANGELOG.md
+Project-URL: Repository, https://github.com/mx-psi/fa-scraper
+Description-Content-Type: text/markdown
+
+# This project has been renamed to [fa-scraper](https://pypi.org/project/fa-scraper/)
+
+Please install `fa-scraper` instead:
+
+```
+pip install fa-scraper
+```
+
