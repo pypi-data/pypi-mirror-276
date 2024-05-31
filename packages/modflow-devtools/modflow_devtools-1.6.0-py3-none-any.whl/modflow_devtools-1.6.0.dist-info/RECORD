@@ -1,0 +1,16 @@
+modflow_devtools/__init__.py,sha256=L4Osg5vxTj0DTAT8wJtPD9YeozzHRY8ZqBx33L9ZchI,248
+modflow_devtools/build.py,sha256=dp_MyuTt-r1vwtKQTrHmwuXJPIBjHq0-i0M1JGgsLsY,984
+modflow_devtools/download.py,sha256=zgIPwJ1tTpfHeVb8yQ9bjjHF6ollCVH8vjeYGcMV9tc,17465
+modflow_devtools/fixtures.py,sha256=ea4JOdch2j1B2rX8DokQurV_xZ54dtOJDmS7s_k-wFI,12376
+modflow_devtools/imports.py,sha256=OC3spdM65waZUjdcfxcKzCrGRlWeaH0cvRjWOw1q1Ts,5520
+modflow_devtools/latex.py,sha256=YKJ4hudE-v8ZWKhsHOBdvxlTO9fKB1KZiXXqqG3dEpo,3403
+modflow_devtools/markers.py,sha256=aUzMBK8y6-jNeM0qgNpOIa8wuE1vr8jU_0QALPtawyc,3228
+modflow_devtools/misc.py,sha256=xvG5e_sS3edsWHa06CcYtbeGqFdH2vac1FCnW3X64Ps,16091
+modflow_devtools/ostags.py,sha256=fUGwR7kH77PDR-ylTUcJsUYFPgj0NjVouc_gMXY0ZoM,4425
+modflow_devtools/snapshots.py,sha256=-VJmb542fpbOGemM-xPZCEm4gb26kuZ1Ojp9Xw6RHQI,4093
+modflow_devtools/zip.py,sha256=CDStNMzcQI7pztrONm1mej1wqsKuvYZ0zRillh1cvRU,5708
+modflow_devtools-1.6.0.dist-info/LICENSE.md,sha256=Nd9Q_UYOd6EOWWn8OQ3lrWWWzhXOeLCyAd7hOpahoGU,1627
+modflow_devtools-1.6.0.dist-info/METADATA,sha256=u0VMsXErKzzPb_3XwC3zfvDF33D3Y_-Y8R4kYzMMUhE,6661
+modflow_devtools-1.6.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+modflow_devtools-1.6.0.dist-info/top_level.txt,sha256=ElEXEZySEHlZY38u6CwVxn2MmFLo74BT0VmTRv43BNI,17
+modflow_devtools-1.6.0.dist-info/RECORD,,
