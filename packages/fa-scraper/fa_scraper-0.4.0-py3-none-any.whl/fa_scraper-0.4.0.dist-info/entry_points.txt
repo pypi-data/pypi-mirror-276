@@ -1,0 +1,4 @@
+[console_scripts]
+fa-scraper=fa_scraper.cli:main
+fa-scrapper=fa_scraper.cli:main
+
