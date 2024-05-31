@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>alsaaudio &#8212; alsaaudio documentation 0.10.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=cb25574f" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=fd3f3429" />
+    <script src="../../_static/documentation_options.js?v=261ea15a"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="conf" href="../conf/index.html" />
+    <link rel="prev" title="play_rusage" href="../play_rusage/index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-alsaaudio">
+<span id="alsaaudio"></span><h1><a class="reference internal" href="../../libalsaaudio.html#module-alsaaudio" title="alsaaudio (Linux)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">alsaaudio</span></code></a><a class="headerlink" href="#module-alsaaudio" title="Link to this heading">¶</a></h1>
+<section id="module-contents">
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+<section id="classes">
+<h3>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM" title="alsaaudio.PCM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../../libalsaaudio.html#alsaaudio.Mixer" title="alsaaudio.Mixer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Mixer</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="functions">
+<h3>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../../libalsaaudio.html#alsaaudio.pcms" title="alsaaudio.pcms"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcms</span></code></a>(→ list[str])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.cards" title="alsaaudio.cards"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cards</span></code></a>(→ list[str])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../../libalsaaudio.html#alsaaudio.mixers" title="alsaaudio.mixers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mixers</span></code></a>(→ list[str])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../../libalsaaudio.html#alsaaudio.asoundlib_version" title="alsaaudio.asoundlib_version"><code class="xref py py-obj docutils literal notranslate"><span class="pre">asoundlib_version</span></code></a>(→ str)</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="attributes">
+<h3>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_PLAYBACK" title="alsaaudio.PCM_PLAYBACK"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_PLAYBACK</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_CAPTURE" title="alsaaudio.PCM_CAPTURE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_CAPTURE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_NORMAL" title="alsaaudio.PCM_NORMAL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_NORMAL</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_NONBLOCK" title="alsaaudio.PCM_NONBLOCK"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_NONBLOCK</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_ASYNC" title="alsaaudio.PCM_ASYNC"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_ASYNC</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S8" title="alsaaudio.PCM_FORMAT_S8"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S8</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U8" title="alsaaudio.PCM_FORMAT_U8"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U8</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S16_LE" title="alsaaudio.PCM_FORMAT_S16_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S16_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S16_BE" title="alsaaudio.PCM_FORMAT_S16_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S16_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U16_LE" title="alsaaudio.PCM_FORMAT_U16_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U16_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U16_BE" title="alsaaudio.PCM_FORMAT_U16_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U16_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S24_LE" title="alsaaudio.PCM_FORMAT_S24_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S24_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S24_BE" title="alsaaudio.PCM_FORMAT_S24_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S24_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U24_LE" title="alsaaudio.PCM_FORMAT_U24_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U24_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U24_BE" title="alsaaudio.PCM_FORMAT_U24_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U24_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S32_LE" title="alsaaudio.PCM_FORMAT_S32_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S32_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S32_BE" title="alsaaudio.PCM_FORMAT_S32_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S32_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U32_LE" title="alsaaudio.PCM_FORMAT_U32_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U32_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U32_BE" title="alsaaudio.PCM_FORMAT_U32_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U32_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_FLOAT_LE" title="alsaaudio.PCM_FORMAT_FLOAT_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_FLOAT_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_FLOAT_BE" title="alsaaudio.PCM_FORMAT_FLOAT_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_FLOAT_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_FLOAT64_LE" title="alsaaudio.PCM_FORMAT_FLOAT64_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_FLOAT64_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_FLOAT64_BE" title="alsaaudio.PCM_FORMAT_FLOAT64_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_FLOAT64_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_MU_LAW" title="alsaaudio.PCM_FORMAT_MU_LAW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_MU_LAW</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_A_LAW" title="alsaaudio.PCM_FORMAT_A_LAW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_A_LAW</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_IMA_ADPCM" title="alsaaudio.PCM_FORMAT_IMA_ADPCM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_IMA_ADPCM</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_MPEG" title="alsaaudio.PCM_FORMAT_MPEG"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_MPEG</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_GSM" title="alsaaudio.PCM_FORMAT_GSM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_GSM</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S24_3LE" title="alsaaudio.PCM_FORMAT_S24_3LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S24_3LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S24_3BE" title="alsaaudio.PCM_FORMAT_S24_3BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_S24_3BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U24_3LE" title="alsaaudio.PCM_FORMAT_U24_3LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U24_3LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U24_3BE" title="alsaaudio.PCM_FORMAT_U24_3BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_U24_3BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_NONE" title="alsaaudio.PCM_TSTAMP_NONE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_TSTAMP_NONE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_ENABLE" title="alsaaudio.PCM_TSTAMP_ENABLE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_TSTAMP_ENABLE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_TYPE_GETTIMEOFDAY" title="alsaaudio.PCM_TSTAMP_TYPE_GETTIMEOFDAY"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_TSTAMP_TYPE_GETTIMEOFDAY</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC" title="alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_TSTAMP_TYPE_MONOTONIC</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC_RAW" title="alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC_RAW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_TSTAMP_TYPE_MONOTONIC_RAW</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_DSD_U8" title="alsaaudio.PCM_FORMAT_DSD_U8"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_DSD_U8</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_DSD_U16_LE" title="alsaaudio.PCM_FORMAT_DSD_U16_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_DSD_U16_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_DSD_U32_LE" title="alsaaudio.PCM_FORMAT_DSD_U32_LE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_DSD_U32_LE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_FORMAT_DSD_U32_BE" title="alsaaudio.PCM_FORMAT_DSD_U32_BE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_FORMAT_DSD_U32_BE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_OPEN" title="alsaaudio.PCM_STATE_OPEN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_OPEN</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_SETUP" title="alsaaudio.PCM_STATE_SETUP"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_SETUP</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_PREPARED" title="alsaaudio.PCM_STATE_PREPARED"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_PREPARED</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_RUNNING" title="alsaaudio.PCM_STATE_RUNNING"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_RUNNING</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_XRUN" title="alsaaudio.PCM_STATE_XRUN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_XRUN</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_DRAINING" title="alsaaudio.PCM_STATE_DRAINING"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_DRAINING</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_PAUSED" title="alsaaudio.PCM_STATE_PAUSED"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_PAUSED</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_SUSPENDED" title="alsaaudio.PCM_STATE_SUSPENDED"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_SUSPENDED</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.PCM_STATE_DISCONNECTED" title="alsaaudio.PCM_STATE_DISCONNECTED"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PCM_STATE_DISCONNECTED</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.MIXER_CHANNEL_ALL" title="alsaaudio.MIXER_CHANNEL_ALL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_CHANNEL_ALL</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_UNKNOWN" title="alsaaudio.MIXER_SCHN_UNKNOWN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_UNKNOWN</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_FRONT_LEFT" title="alsaaudio.MIXER_SCHN_FRONT_LEFT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_FRONT_LEFT</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_FRONT_RIGHT" title="alsaaudio.MIXER_SCHN_FRONT_RIGHT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_FRONT_RIGHT</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_REAR_LEFT" title="alsaaudio.MIXER_SCHN_REAR_LEFT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_REAR_LEFT</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_REAR_RIGHT" title="alsaaudio.MIXER_SCHN_REAR_RIGHT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_REAR_RIGHT</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_FRONT_CENTER" title="alsaaudio.MIXER_SCHN_FRONT_CENTER"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_FRONT_CENTER</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_WOOFER" title="alsaaudio.MIXER_SCHN_WOOFER"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_WOOFER</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_SIDE_LEFT" title="alsaaudio.MIXER_SCHN_SIDE_LEFT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_SIDE_LEFT</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_SIDE_RIGHT" title="alsaaudio.MIXER_SCHN_SIDE_RIGHT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_SIDE_RIGHT</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_REAR_CENTER" title="alsaaudio.MIXER_SCHN_REAR_CENTER"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_REAR_CENTER</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.MIXER_SCHN_MONO" title="alsaaudio.MIXER_SCHN_MONO"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MIXER_SCHN_MONO</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.VOLUME_UNITS_PERCENTAGE" title="alsaaudio.VOLUME_UNITS_PERCENTAGE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VOLUME_UNITS_PERCENTAGE</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#alsaaudio.VOLUME_UNITS_RAW" title="alsaaudio.VOLUME_UNITS_RAW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VOLUME_UNITS_RAW</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#alsaaudio.VOLUME_UNITS_DB" title="alsaaudio.VOLUME_UNITS_DB"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VOLUME_UNITS_DB</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_PLAYBACK">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_PLAYBACK</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_PLAYBACK" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_CAPTURE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_CAPTURE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_CAPTURE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_NORMAL">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_NORMAL</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_NORMAL" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_NONBLOCK">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_NONBLOCK</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_NONBLOCK" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_ASYNC">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_ASYNC</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_ASYNC" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S8">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S8</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S8" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U8">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U8</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U8" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S16_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S16_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S16_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S16_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S16_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S16_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U16_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U16_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U16_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U16_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U16_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U16_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S24_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S24_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S24_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S24_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S24_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S24_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U24_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U24_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U24_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U24_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U24_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U24_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S32_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S32_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S32_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S32_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S32_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S32_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U32_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U32_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U32_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U32_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U32_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U32_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_FLOAT_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_FLOAT_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_FLOAT_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_FLOAT_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_FLOAT_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_FLOAT_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_FLOAT64_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_FLOAT64_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_FLOAT64_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_FLOAT64_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_FLOAT64_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_FLOAT64_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_MU_LAW">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_MU_LAW</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_MU_LAW" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_A_LAW">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_A_LAW</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_A_LAW" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_IMA_ADPCM">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_IMA_ADPCM</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_IMA_ADPCM" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_MPEG">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_MPEG</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_MPEG" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_GSM">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_GSM</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_GSM" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S24_3LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S24_3LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S24_3LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_S24_3BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_S24_3BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_S24_3BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U24_3LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U24_3LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U24_3LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_U24_3BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_U24_3BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_U24_3BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_TSTAMP_NONE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_TSTAMP_NONE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_TSTAMP_NONE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_TSTAMP_ENABLE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_TSTAMP_ENABLE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_TSTAMP_ENABLE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_TSTAMP_TYPE_GETTIMEOFDAY">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_TSTAMP_TYPE_GETTIMEOFDAY</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_TSTAMP_TYPE_GETTIMEOFDAY" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_TSTAMP_TYPE_MONOTONIC</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC_RAW">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_TSTAMP_TYPE_MONOTONIC_RAW</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC_RAW" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_DSD_U8">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_DSD_U8</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_DSD_U8" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_DSD_U16_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_DSD_U16_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_DSD_U16_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_DSD_U32_LE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_DSD_U32_LE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_DSD_U32_LE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_FORMAT_DSD_U32_BE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_FORMAT_DSD_U32_BE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_FORMAT_DSD_U32_BE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_OPEN">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_OPEN</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_OPEN" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_SETUP">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_SETUP</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_SETUP" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_PREPARED">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_PREPARED</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_PREPARED" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_RUNNING">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_RUNNING</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_RUNNING" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_XRUN">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_XRUN</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_XRUN" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_DRAINING">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_DRAINING</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_DRAINING" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_PAUSED">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_PAUSED</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_PAUSED" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_SUSPENDED">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_SUSPENDED</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_SUSPENDED" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.PCM_STATE_DISCONNECTED">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM_STATE_DISCONNECTED</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.PCM_STATE_DISCONNECTED" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_CHANNEL_ALL">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_CHANNEL_ALL</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_CHANNEL_ALL" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_UNKNOWN">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_UNKNOWN</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_UNKNOWN" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_FRONT_LEFT">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_FRONT_LEFT</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_FRONT_LEFT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_FRONT_RIGHT">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_FRONT_RIGHT</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_FRONT_RIGHT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_REAR_LEFT">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_REAR_LEFT</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_REAR_LEFT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_REAR_RIGHT">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_REAR_RIGHT</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_REAR_RIGHT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_FRONT_CENTER">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_FRONT_CENTER</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_FRONT_CENTER" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_WOOFER">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_WOOFER</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_WOOFER" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_SIDE_LEFT">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_SIDE_LEFT</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_SIDE_LEFT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_SIDE_RIGHT">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_SIDE_RIGHT</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_SIDE_RIGHT" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_REAR_CENTER">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_REAR_CENTER</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_REAR_CENTER" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.MIXER_SCHN_MONO">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">MIXER_SCHN_MONO</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.MIXER_SCHN_MONO" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.VOLUME_UNITS_PERCENTAGE">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">VOLUME_UNITS_PERCENTAGE</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.VOLUME_UNITS_PERCENTAGE" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.VOLUME_UNITS_RAW">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">VOLUME_UNITS_RAW</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.VOLUME_UNITS_RAW" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="alsaaudio.VOLUME_UNITS_DB">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">VOLUME_UNITS_DB</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#alsaaudio.VOLUME_UNITS_DB" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="alsaaudio.pcms">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">pcms</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pcmtype</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.pcms" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="alsaaudio.cards">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">cards</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.cards" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="alsaaudio.mixers">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">mixers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cardindex</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">-1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">device</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'default'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.mixers" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="alsaaudio.asoundlib_version">
+<span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">asoundlib_version</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#alsaaudio.asoundlib_version" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="alsaaudio.PCM">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">PCM</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">PCM_NORMAL</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">44100</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">PCM_FORMAT_S16_LE</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">periodsize</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">32</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">periods</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">device</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'default'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cardindex</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">-1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#alsaaudio.PCM" title="Link to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.PCM.close" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.dumpinfo">
+<span class="sig-name descname"><span class="pre">dumpinfo</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.PCM.dumpinfo" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.info">
+<span class="sig-name descname"><span class="pre">info</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#alsaaudio.PCM.info" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.state">
+<span class="sig-name descname"><span class="pre">state</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.state" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.htimestamp">
+<span class="sig-name descname"><span class="pre">htimestamp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.PCM.htimestamp" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.set_tstamp_mode">
+<span class="sig-name descname"><span class="pre">set_tstamp_mode</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.PCM.set_tstamp_mode" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.get_tstamp_mode">
+<span class="sig-name descname"><span class="pre">get_tstamp_mode</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.get_tstamp_mode" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.set_tstamp_type">
+<span class="sig-name descname"><span class="pre">set_tstamp_type</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.PCM.set_tstamp_type" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.get_tstamp_type">
+<span class="sig-name descname"><span class="pre">get_tstamp_type</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.get_tstamp_type" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.getformats">
+<span class="sig-name descname"><span class="pre">getformats</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#alsaaudio.PCM.getformats" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.getratebounds">
+<span class="sig-name descname"><span class="pre">getratebounds</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.PCM.getratebounds" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.getrates">
+<span class="sig-name descname"><span class="pre">getrates</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.PCM.getrates" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.getchannels">
+<span class="sig-name descname"><span class="pre">getchannels</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.PCM.getchannels" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.setchannels">
+<span class="sig-name descname"><span class="pre">setchannels</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.PCM.setchannels" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.pcmtype">
+<span class="sig-name descname"><span class="pre">pcmtype</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.pcmtype" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.pcmmode">
+<span class="sig-name descname"><span class="pre">pcmmode</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.pcmmode" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.cardname">
+<span class="sig-name descname"><span class="pre">cardname</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#alsaaudio.PCM.cardname" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.setrate">
+<span class="sig-name descname"><span class="pre">setrate</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.PCM.setrate" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.setformat">
+<span class="sig-name descname"><span class="pre">setformat</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.setformat" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.setperiodsize">
+<span class="sig-name descname"><span class="pre">setperiodsize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.setperiodsize" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.read">
+<span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.PCM.read" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.write">
+<span class="sig-name descname"><span class="pre">write</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.write" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.avail">
+<span class="sig-name descname"><span class="pre">avail</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.avail" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.pause">
+<span class="sig-name descname"><span class="pre">pause</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.pause" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.drop">
+<span class="sig-name descname"><span class="pre">drop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.drop" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.drain">
+<span class="sig-name descname"><span class="pre">drain</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.drain" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.polldescriptors">
+<span class="sig-name descname"><span class="pre">polldescriptors</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.PCM.polldescriptors" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.PCM.polldescriptors_revents">
+<span class="sig-name descname"><span class="pre">polldescriptors_revents</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.PCM.polldescriptors_revents" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="alsaaudio.Mixer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">alsaaudio.</span></span><span class="sig-name descname"><span class="pre">Mixer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cardindex</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">-1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">device</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'default'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#alsaaudio.Mixer" title="Link to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.cardname">
+<span class="sig-name descname"><span class="pre">cardname</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.cardname" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.close" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.mixer">
+<span class="sig-name descname"><span class="pre">mixer</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.mixer" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.mixerid">
+<span class="sig-name descname"><span class="pre">mixerid</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.mixerid" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.switchcap">
+<span class="sig-name descname"><span class="pre">switchcap</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.switchcap" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.volumecap">
+<span class="sig-name descname"><span class="pre">volumecap</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.volumecap" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.getvolume">
+<span class="sig-name descname"><span class="pre">getvolume</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">units</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">VOLUME_UNITS_PERCENTAGE</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.getvolume" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.getrange">
+<span class="sig-name descname"><span class="pre">getrange</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">units</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">VOLUME_UNITS_RAW</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.Mixer.getrange" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.getenum">
+<span class="sig-name descname"><span class="pre">getenum</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.Mixer.getenum" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.getmute">
+<span class="sig-name descname"><span class="pre">getmute</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.Mixer.getmute" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.getrec">
+<span class="sig-name descname"><span class="pre">getrec</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.Mixer.getrec" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.setvolume">
+<span class="sig-name descname"><span class="pre">setvolume</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pcmtype</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">PCM_PLAYBACK</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">units</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">VOLUME_UNITS_PERCENTAGE</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">channel</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.setvolume" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.setenum">
+<span class="sig-name descname"><span class="pre">setenum</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.setenum" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.setmute">
+<span class="sig-name descname"><span class="pre">setmute</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">channel</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.setmute" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.setrec">
+<span class="sig-name descname"><span class="pre">setrec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">channel</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.setrec" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.polldescriptors">
+<span class="sig-name descname"><span class="pre">polldescriptors</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#alsaaudio.Mixer.polldescriptors" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="alsaaudio.Mixer.handleevents">
+<span class="sig-name descname"><span class="pre">handleevents</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#alsaaudio.Mixer.handleevents" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#"><code class="xref py py-mod docutils literal notranslate"><span class="pre">alsaaudio</span></code></a><ul>
+<li><a class="reference internal" href="#module-contents">Module Contents</a><ul>
+<li><a class="reference internal" href="#classes">Classes</a></li>
+<li><a class="reference internal" href="#functions">Functions</a></li>
+<li><a class="reference internal" href="#attributes">Attributes</a><ul>
+<li><a class="reference internal" href="#alsaaudio.PCM_PLAYBACK"><code class="docutils literal notranslate"><span class="pre">PCM_PLAYBACK</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_CAPTURE"><code class="docutils literal notranslate"><span class="pre">PCM_CAPTURE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_NORMAL"><code class="docutils literal notranslate"><span class="pre">PCM_NORMAL</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_NONBLOCK"><code class="docutils literal notranslate"><span class="pre">PCM_NONBLOCK</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_ASYNC"><code class="docutils literal notranslate"><span class="pre">PCM_ASYNC</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S8"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S8</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U8"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U8</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S16_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S16_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S16_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S16_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U16_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U16_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U16_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U16_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S24_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S24_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S24_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S24_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U24_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U24_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U24_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U24_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S32_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S32_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S32_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S32_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U32_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U32_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U32_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U32_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_FLOAT_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_FLOAT_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_FLOAT_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_FLOAT_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_FLOAT64_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_FLOAT64_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_FLOAT64_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_FLOAT64_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_MU_LAW"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_MU_LAW</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_A_LAW"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_A_LAW</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_IMA_ADPCM"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_IMA_ADPCM</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_MPEG"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_MPEG</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_GSM"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_GSM</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S24_3LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S24_3LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_S24_3BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_S24_3BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U24_3LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U24_3LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_U24_3BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_U24_3BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_NONE"><code class="docutils literal notranslate"><span class="pre">PCM_TSTAMP_NONE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_ENABLE"><code class="docutils literal notranslate"><span class="pre">PCM_TSTAMP_ENABLE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_TYPE_GETTIMEOFDAY"><code class="docutils literal notranslate"><span class="pre">PCM_TSTAMP_TYPE_GETTIMEOFDAY</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC"><code class="docutils literal notranslate"><span class="pre">PCM_TSTAMP_TYPE_MONOTONIC</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_TSTAMP_TYPE_MONOTONIC_RAW"><code class="docutils literal notranslate"><span class="pre">PCM_TSTAMP_TYPE_MONOTONIC_RAW</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_DSD_U8"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_DSD_U8</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_DSD_U16_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_DSD_U16_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_DSD_U32_LE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_DSD_U32_LE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_FORMAT_DSD_U32_BE"><code class="docutils literal notranslate"><span class="pre">PCM_FORMAT_DSD_U32_BE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_OPEN"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_OPEN</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_SETUP"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_SETUP</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_PREPARED"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_PREPARED</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_RUNNING"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_RUNNING</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_XRUN"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_XRUN</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_DRAINING"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_DRAINING</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_PAUSED"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_PAUSED</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_SUSPENDED"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_SUSPENDED</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM_STATE_DISCONNECTED"><code class="docutils literal notranslate"><span class="pre">PCM_STATE_DISCONNECTED</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_CHANNEL_ALL"><code class="docutils literal notranslate"><span class="pre">MIXER_CHANNEL_ALL</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_UNKNOWN"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_UNKNOWN</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_FRONT_LEFT"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_FRONT_LEFT</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_FRONT_RIGHT"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_FRONT_RIGHT</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_REAR_LEFT"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_REAR_LEFT</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_REAR_RIGHT"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_REAR_RIGHT</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_FRONT_CENTER"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_FRONT_CENTER</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_WOOFER"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_WOOFER</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_SIDE_LEFT"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_SIDE_LEFT</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_SIDE_RIGHT"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_SIDE_RIGHT</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_REAR_CENTER"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_REAR_CENTER</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.MIXER_SCHN_MONO"><code class="docutils literal notranslate"><span class="pre">MIXER_SCHN_MONO</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.VOLUME_UNITS_PERCENTAGE"><code class="docutils literal notranslate"><span class="pre">VOLUME_UNITS_PERCENTAGE</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.VOLUME_UNITS_RAW"><code class="docutils literal notranslate"><span class="pre">VOLUME_UNITS_RAW</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.VOLUME_UNITS_DB"><code class="docutils literal notranslate"><span class="pre">VOLUME_UNITS_DB</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.pcms"><code class="docutils literal notranslate"><span class="pre">pcms()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.cards"><code class="docutils literal notranslate"><span class="pre">cards()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.mixers"><code class="docutils literal notranslate"><span class="pre">mixers()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.asoundlib_version"><code class="docutils literal notranslate"><span class="pre">asoundlib_version()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM"><code class="docutils literal notranslate"><span class="pre">PCM</span></code></a><ul>
+<li><a class="reference internal" href="#alsaaudio.PCM.close"><code class="docutils literal notranslate"><span class="pre">PCM.close()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.dumpinfo"><code class="docutils literal notranslate"><span class="pre">PCM.dumpinfo()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.info"><code class="docutils literal notranslate"><span class="pre">PCM.info()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.state"><code class="docutils literal notranslate"><span class="pre">PCM.state()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.htimestamp"><code class="docutils literal notranslate"><span class="pre">PCM.htimestamp()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.set_tstamp_mode"><code class="docutils literal notranslate"><span class="pre">PCM.set_tstamp_mode()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.get_tstamp_mode"><code class="docutils literal notranslate"><span class="pre">PCM.get_tstamp_mode()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.set_tstamp_type"><code class="docutils literal notranslate"><span class="pre">PCM.set_tstamp_type()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.get_tstamp_type"><code class="docutils literal notranslate"><span class="pre">PCM.get_tstamp_type()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.getformats"><code class="docutils literal notranslate"><span class="pre">PCM.getformats()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.getratebounds"><code class="docutils literal notranslate"><span class="pre">PCM.getratebounds()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.getrates"><code class="docutils literal notranslate"><span class="pre">PCM.getrates()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.getchannels"><code class="docutils literal notranslate"><span class="pre">PCM.getchannels()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.setchannels"><code class="docutils literal notranslate"><span class="pre">PCM.setchannels()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.pcmtype"><code class="docutils literal notranslate"><span class="pre">PCM.pcmtype()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.pcmmode"><code class="docutils literal notranslate"><span class="pre">PCM.pcmmode()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.cardname"><code class="docutils literal notranslate"><span class="pre">PCM.cardname()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.setrate"><code class="docutils literal notranslate"><span class="pre">PCM.setrate()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.setformat"><code class="docutils literal notranslate"><span class="pre">PCM.setformat()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.setperiodsize"><code class="docutils literal notranslate"><span class="pre">PCM.setperiodsize()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.read"><code class="docutils literal notranslate"><span class="pre">PCM.read()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.write"><code class="docutils literal notranslate"><span class="pre">PCM.write()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.avail"><code class="docutils literal notranslate"><span class="pre">PCM.avail()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.pause"><code class="docutils literal notranslate"><span class="pre">PCM.pause()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.drop"><code class="docutils literal notranslate"><span class="pre">PCM.drop()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.drain"><code class="docutils literal notranslate"><span class="pre">PCM.drain()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.polldescriptors"><code class="docutils literal notranslate"><span class="pre">PCM.polldescriptors()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.PCM.polldescriptors_revents"><code class="docutils literal notranslate"><span class="pre">PCM.polldescriptors_revents()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#alsaaudio.Mixer"><code class="docutils literal notranslate"><span class="pre">Mixer</span></code></a><ul>
+<li><a class="reference internal" href="#alsaaudio.Mixer.cardname"><code class="docutils literal notranslate"><span class="pre">Mixer.cardname()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.close"><code class="docutils literal notranslate"><span class="pre">Mixer.close()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.mixer"><code class="docutils literal notranslate"><span class="pre">Mixer.mixer()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.mixerid"><code class="docutils literal notranslate"><span class="pre">Mixer.mixerid()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.switchcap"><code class="docutils literal notranslate"><span class="pre">Mixer.switchcap()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.volumecap"><code class="docutils literal notranslate"><span class="pre">Mixer.volumecap()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.getvolume"><code class="docutils literal notranslate"><span class="pre">Mixer.getvolume()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.getrange"><code class="docutils literal notranslate"><span class="pre">Mixer.getrange()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.getenum"><code class="docutils literal notranslate"><span class="pre">Mixer.getenum()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.getmute"><code class="docutils literal notranslate"><span class="pre">Mixer.getmute()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.getrec"><code class="docutils literal notranslate"><span class="pre">Mixer.getrec()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.setvolume"><code class="docutils literal notranslate"><span class="pre">Mixer.setvolume()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.setenum"><code class="docutils literal notranslate"><span class="pre">Mixer.setenum()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.setmute"><code class="docutils literal notranslate"><span class="pre">Mixer.setmute()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.setrec"><code class="docutils literal notranslate"><span class="pre">Mixer.setrec()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.polldescriptors"><code class="docutils literal notranslate"><span class="pre">Mixer.polldescriptors()</span></code></a></li>
+<li><a class="reference internal" href="#alsaaudio.Mixer.handleevents"><code class="docutils literal notranslate"><span class="pre">Mixer.handleevents()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">API Reference</a><ul>
+      <li>Previous: <a href="../play_rusage/index.html" title="previous chapter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">play_rusage</span></code></a></li>
+      <li>Next: <a href="../conf/index.html" title="next chapter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">conf</span></code></a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/autoapi/alsaaudio/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Lars Immisch & Casper Wilstrup.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/autoapi/alsaaudio/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

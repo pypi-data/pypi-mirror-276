@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>loopback &#8212; alsaaudio documentation 0.10.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=cb25574f" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=fd3f3429" />
+    <script src="../../_static/documentation_options.js?v=261ea15a"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="playbacktest" href="../playbacktest/index.html" />
+    <link rel="prev" title="playwav" href="../playwav/index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-loopback">
+<span id="loopback"></span><h1><a class="reference internal" href="#module-loopback" title="loopback"><code class="xref py py-mod docutils literal notranslate"><span class="pre">loopback</span></code></a><a class="headerlink" href="#module-loopback" title="Link to this heading">¶</a></h1>
+<section id="module-contents">
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+<section id="classes">
+<h3>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#loopback.PollDescriptor" title="loopback.PollDescriptor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PollDescriptor</span></code></a></p></td>
+<td><p>File Descriptor, event mask and a name for logging</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#loopback.Loopback" title="loopback.Loopback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Loopback</span></code></a></p></td>
+<td><p>Loopback state and event handling</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#loopback.VolumeForwarder" title="loopback.VolumeForwarder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VolumeForwarder</span></code></a></p></td>
+<td><p>Volume control event handling</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#loopback.Reactor" title="loopback.Reactor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Reactor</span></code></a></p></td>
+<td><p>A wrapper around select.poll</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="functions">
+<h3>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#loopback.poll_desc" title="loopback.poll_desc"><code class="xref py py-obj docutils literal notranslate"><span class="pre">poll_desc</span></code></a>(mask)</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="attributes">
+<h3>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#loopback.poll_names" title="loopback.poll_names"><code class="xref py py-obj docutils literal notranslate"><span class="pre">poll_names</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#loopback.state_names" title="loopback.state_names"><code class="xref py py-obj docutils literal notranslate"><span class="pre">state_names</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#loopback.parser" title="loopback.parser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parser</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py data">
+<dt class="sig sig-object py" id="loopback.poll_names">
+<span class="sig-prename descclassname"><span class="pre">loopback.</span></span><span class="sig-name descname"><span class="pre">poll_names</span></span><a class="headerlink" href="#loopback.poll_names" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="loopback.state_names">
+<span class="sig-prename descclassname"><span class="pre">loopback.</span></span><span class="sig-name descname"><span class="pre">state_names</span></span><a class="headerlink" href="#loopback.state_names" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="loopback.poll_desc">
+<span class="sig-prename descclassname"><span class="pre">loopback.</span></span><span class="sig-name descname"><span class="pre">poll_desc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mask</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.poll_desc" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="loopback.PollDescriptor">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">loopback.</span></span><span class="sig-name descname"><span class="pre">PollDescriptor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fd</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mask</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.PollDescriptor" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>File Descriptor, event mask and a name for logging</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.PollDescriptor.as_tuple">
+<span class="sig-name descname"><span class="pre">as_tuple</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#loopback.PollDescriptor.as_tuple" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.PollDescriptor.from_alsa_object">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">from_alsa_object</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alsaobject</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mask</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.PollDescriptor.from_alsa_object" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="loopback.Loopback">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">loopback.</span></span><span class="sig-name descname"><span class="pre">Loopback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">capture</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">playback_args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">volume_handler</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">run_after_stop</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">run_before_start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Loopback state and event handling</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Loopback.compute_energy">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">compute_energy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback.compute_energy" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Loopback.run_command">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">run_command</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmd</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback.run_command" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Loopback.register">
+<span class="sig-name descname"><span class="pre">register</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">reactor</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback.register" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Loopback.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback.start" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Loopback.timeout_handler">
+<span class="sig-name descname"><span class="pre">timeout_handler</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback.timeout_handler" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Loopback.pop">
+<span class="sig-name descname"><span class="pre">pop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback.pop" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Loopback.handle_capture_event">
+<span class="sig-name descname"><span class="pre">handle_capture_event</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eventmask</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback.handle_capture_event" title="Link to this definition">¶</a></dt>
+<dd><p>called when data is available for reading</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Loopback.__call__">
+<span class="sig-name descname"><span class="pre">__call__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fd</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eventmask</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Loopback.__call__" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="loopback.VolumeForwarder">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">loopback.</span></span><span class="sig-name descname"><span class="pre">VolumeForwarder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">capture_control</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">playback_control</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.VolumeForwarder" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Volume control event handling</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.VolumeForwarder.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#loopback.VolumeForwarder.start" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.VolumeForwarder.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#loopback.VolumeForwarder.stop" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.VolumeForwarder.__call__">
+<span class="sig-name descname"><span class="pre">__call__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fd</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eventmask</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.VolumeForwarder.__call__" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="loopback.Reactor">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">loopback.</span></span><span class="sig-name descname"><span class="pre">Reactor</span></span><a class="headerlink" href="#loopback.Reactor" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A wrapper around select.poll</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Reactor.register">
+<span class="sig-name descname"><span class="pre">register</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">polldescriptor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callable</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Reactor.register" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Reactor.unregister">
+<span class="sig-name descname"><span class="pre">unregister</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">polldescriptor</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Reactor.unregister" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Reactor.register_timeout_handler">
+<span class="sig-name descname"><span class="pre">register_timeout_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callable</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Reactor.register_timeout_handler" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Reactor.unregister_timeout_handler">
+<span class="sig-name descname"><span class="pre">unregister_timeout_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callable</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Reactor.unregister_timeout_handler" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="loopback.Reactor.run">
+<span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#loopback.Reactor.run" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="loopback.parser">
+<span class="sig-prename descclassname"><span class="pre">loopback.</span></span><span class="sig-name descname"><span class="pre">parser</span></span><a class="headerlink" href="#loopback.parser" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#"><code class="xref py py-mod docutils literal notranslate"><span class="pre">loopback</span></code></a><ul>
+<li><a class="reference internal" href="#module-contents">Module Contents</a><ul>
+<li><a class="reference internal" href="#classes">Classes</a></li>
+<li><a class="reference internal" href="#functions">Functions</a></li>
+<li><a class="reference internal" href="#attributes">Attributes</a><ul>
+<li><a class="reference internal" href="#loopback.poll_names"><code class="docutils literal notranslate"><span class="pre">poll_names</span></code></a></li>
+<li><a class="reference internal" href="#loopback.state_names"><code class="docutils literal notranslate"><span class="pre">state_names</span></code></a></li>
+<li><a class="reference internal" href="#loopback.poll_desc"><code class="docutils literal notranslate"><span class="pre">poll_desc()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.PollDescriptor"><code class="docutils literal notranslate"><span class="pre">PollDescriptor</span></code></a><ul>
+<li><a class="reference internal" href="#loopback.PollDescriptor.as_tuple"><code class="docutils literal notranslate"><span class="pre">PollDescriptor.as_tuple()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.PollDescriptor.from_alsa_object"><code class="docutils literal notranslate"><span class="pre">PollDescriptor.from_alsa_object()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#loopback.Loopback"><code class="docutils literal notranslate"><span class="pre">Loopback</span></code></a><ul>
+<li><a class="reference internal" href="#loopback.Loopback.compute_energy"><code class="docutils literal notranslate"><span class="pre">Loopback.compute_energy()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Loopback.run_command"><code class="docutils literal notranslate"><span class="pre">Loopback.run_command()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Loopback.register"><code class="docutils literal notranslate"><span class="pre">Loopback.register()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Loopback.start"><code class="docutils literal notranslate"><span class="pre">Loopback.start()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Loopback.timeout_handler"><code class="docutils literal notranslate"><span class="pre">Loopback.timeout_handler()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Loopback.pop"><code class="docutils literal notranslate"><span class="pre">Loopback.pop()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Loopback.handle_capture_event"><code class="docutils literal notranslate"><span class="pre">Loopback.handle_capture_event()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Loopback.__call__"><code class="docutils literal notranslate"><span class="pre">Loopback.__call__()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#loopback.VolumeForwarder"><code class="docutils literal notranslate"><span class="pre">VolumeForwarder</span></code></a><ul>
+<li><a class="reference internal" href="#loopback.VolumeForwarder.start"><code class="docutils literal notranslate"><span class="pre">VolumeForwarder.start()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.VolumeForwarder.stop"><code class="docutils literal notranslate"><span class="pre">VolumeForwarder.stop()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.VolumeForwarder.__call__"><code class="docutils literal notranslate"><span class="pre">VolumeForwarder.__call__()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#loopback.Reactor"><code class="docutils literal notranslate"><span class="pre">Reactor</span></code></a><ul>
+<li><a class="reference internal" href="#loopback.Reactor.register"><code class="docutils literal notranslate"><span class="pre">Reactor.register()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Reactor.unregister"><code class="docutils literal notranslate"><span class="pre">Reactor.unregister()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Reactor.register_timeout_handler"><code class="docutils literal notranslate"><span class="pre">Reactor.register_timeout_handler()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Reactor.unregister_timeout_handler"><code class="docutils literal notranslate"><span class="pre">Reactor.unregister_timeout_handler()</span></code></a></li>
+<li><a class="reference internal" href="#loopback.Reactor.run"><code class="docutils literal notranslate"><span class="pre">Reactor.run()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#loopback.parser"><code class="docutils literal notranslate"><span class="pre">parser</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">API Reference</a><ul>
+      <li>Previous: <a href="../playwav/index.html" title="previous chapter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">playwav</span></code></a></li>
+      <li>Next: <a href="../playbacktest/index.html" title="next chapter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">playbacktest</span></code></a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/autoapi/loopback/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Lars Immisch & Casper Wilstrup.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/autoapi/loopback/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
