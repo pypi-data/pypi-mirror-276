@@ -1,0 +1,12 @@
+ziptimezone/__init__.py,sha256=f9D4Ao4jkw7NsFQ1fG-yWO5fGDwmx2_EkwbmCJoyLW8,1602
+ziptimezone/addon.py,sha256=GVwZiiDS4TqwEYMgVUM4ZkDMEVJyLoNzaLKLE3cG3AQ,1929
+ziptimezone/batch_processor.py,sha256=GsmV7PyXmpSTX2SQP4xqQL1S7HPku-4HM5Z9QWTfjBs,3598
+ziptimezone/core.py,sha256=yYe5cLjAAvwTRG0HFJJRRPCOTOCUPtvrGX_bOVmjJoI,4338
+ziptimezone/data_manager.py,sha256=cE728jT5mOh8NzWW0UaZJLUiXXI2MQMJy_JNH_yi-YA,2780
+ziptimezone/geocode.py,sha256=rsJ4GHOpplPvvk-PQgjQxf20KPg8wDk0gdysnBXplzs,1101
+ziptimezone/globals.py,sha256=rtgshmlS3xhgWYOGbBnNQeUliVkbfZYmdwROqjP5nfA,1645
+ziptimezone/mappings.py,sha256=0ZuJTDLbCD8B_tCWu8-B1KEqD_KLKl6gzLSNogksAFE,1874
+ziptimezone-1.1.8.dist-info/LICENSE,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+ziptimezone-1.1.8.dist-info/METADATA,sha256=Mtc3_5RM8o8o3NvUt3ODfWMwdW8zcGXHkYNLJqkkpOA,3152
+ziptimezone-1.1.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ziptimezone-1.1.8.dist-info/RECORD,,
