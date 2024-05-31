@@ -1,0 +1,5 @@
+setup.py
+customdiscord.egg-info/PKG-INFO
+customdiscord.egg-info/SOURCES.txt
+customdiscord.egg-info/dependency_links.txt
+customdiscord.egg-info/top_level.txt
