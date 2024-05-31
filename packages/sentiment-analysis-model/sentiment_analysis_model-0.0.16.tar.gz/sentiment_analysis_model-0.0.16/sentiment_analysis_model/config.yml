@@ -1,0 +1,9 @@
+
+package_name: sentiment_analysis_model
+data_file: training.1600000.processed.noemoticon.csv
+pipeline_save_file: titanic_model_output_v
+
+batch_size: 32
+epochs: 2
+learning_rate: 0.001
+test_size: 0.2
