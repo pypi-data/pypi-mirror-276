@@ -1,0 +1,11 @@
+crx/Cogs.py,sha256=Fj7KyU5Ir4NTjto5UfqEBG4UI1t2ikBe0BVtgmo9TD8,767
+crx/Embed.py,sha256=TLAa-mQa-cYRn1nGcjil6Il5hrj3Wj9IjCNHOun5OwU,1356
+crx/Loguru.py,sha256=B6VeTRnl8ieCaNoL_D43yaEGhDAvO7U9cYA_WnVBi64,1154
+crx/Reader.py,sha256=xTL3T2h-IaQNPWi17C3CK8F-tGoNfHwumxi_RZmEzmo,1507
+crx/Restart.py,sha256=O5V_JVDlPvv7E0Ukz2S9V_KlZvTdLQcgTeoqfgZDMWU,119
+crx/Tortoise.py,sha256=5t5FR6XLURrY29-xHLbEQciko2VmnYqAbk07xsXd9Gw,754
+crx/__init__.py,sha256=c3z7dpHDbWvcuSvCwE7ednWN_24In3v8Bhl0xtBjUQo,266
+crx_utils-1.3.0.dist-info/METADATA,sha256=MOfbrTyDKiaM4R5VQJL92gPS5yB5Kdkqcz2vTB2fx7Q,501
+crx_utils-1.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+crx_utils-1.3.0.dist-info/top_level.txt,sha256=HeFLxGQw_ma2XFDIbFUdNdz7nga1v_5dsFWP5wEdgiE,4
+crx_utils-1.3.0.dist-info/RECORD,,
