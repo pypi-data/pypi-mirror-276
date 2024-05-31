@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: hashtag_utils
+Version: 0.5.2
+Summary: Simple LLM-powered hashtag utilities.
+Home-page: http://github.com/AdiPat/hashtag_utils
+Author: Aditya Patange
+Author-email: contact.adityapatange@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+
+# Hashtag Utilities 🏷️
+
+An LLM-powered multi-purpose hashtag utilities library written in Python. 
+
+![Hashtag Utilities Hero](https://raw.githubusercontent.com/AdiPat/hashtag_utils/main/images/hero.png)
+
+Hashtags are used on almost every content platform today. This makes it a vital tool for creating & analyzing content. 
+This utilities library makes it easy to do things with hashtags. Ideally, this module is intended to be used within a larger system where more specific problems are solved. 
+
+**Feel free to suggest features, ideas and improvements! If you want to contribute, feel free to fork and send a Pull Request. I'm actively working on this project.**
+
+## Features 
+- **Hashtag Generator:** Generates hashtags for a content piece.
+- **Hashtag Relevance:** Returns the percentage relevance of a hashtag with respect to a content piece.
+- **Similar Hashtags:** Generates hash tages similar to the provided ones.
+- **Hashtag Distance:** Computes how close two hashtags are.
+- **Hashtag Definitions**: Get hashtag definitions. 
+
+# Contributors 
+- [Aditya Patange (AdiPat)](https://wwww.github.com/AdiPat)
