@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+
+# Include all files in the current directory
+recursive-include . *
+
+# Exclude files and directories
+exclude .git
+exclude __pycache__
+exclude *.pyc
