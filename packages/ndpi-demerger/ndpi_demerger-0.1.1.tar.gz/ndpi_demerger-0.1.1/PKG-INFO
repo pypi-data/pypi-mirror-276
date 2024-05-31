@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ndpi_demerger
+Version: 0.1.1
+Summary: A package for extracting patches from NDPI images
+Author: Thirteen
+Author-email: 506607814@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: openslide-python
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: scikit-image
