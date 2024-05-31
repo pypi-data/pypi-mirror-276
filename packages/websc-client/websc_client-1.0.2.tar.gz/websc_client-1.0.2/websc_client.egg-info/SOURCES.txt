@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+websc_client/__init__.py
+websc_client/client.py
+websc_client/exceptions.py
+websc_client/websc.py
+websc_client.egg-info/PKG-INFO
+websc_client.egg-info/SOURCES.txt
+websc_client.egg-info/dependency_links.txt
+websc_client.egg-info/requires.txt
+websc_client.egg-info/top_level.txt
