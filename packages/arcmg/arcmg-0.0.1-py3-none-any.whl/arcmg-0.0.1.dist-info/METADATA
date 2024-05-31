@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: arcmg
+Version: 0.0.1
+Summary: arcmg: Attracting Regions Classifier by Morse Graph
+Home-page: https://github.com/Ewerton-Vieira/arcmg.git
+Author: Brittany Gelb, Ewerton Rocha Vieira
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: igraph
+Requires-Dist: plotly
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: pyyaml
+
+# arcmg
+Attracting Regions Classifier by Morse Graph
+
+## Installation
+```
+git clone https://github.com/Ewerton-Vieira/arcmg.git
+cd arcmg
+pip install -e .
+```
+
+## Usage
+The `examples` directory contains an example of how to use arcmg. 
