@@ -1,0 +1,7 @@
+*.pyc
+/.venv/
+.pytest_cache/
+/docs/_build
+/.python-version
+/.coverage
+/dist/
