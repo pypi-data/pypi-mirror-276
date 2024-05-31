@@ -1,0 +1,10 @@
+README.md
+setup.py
+mouse_jiggler/__init__.py
+mouse_jiggler/jiggler.py
+mouse_jiggler_macos.egg-info/PKG-INFO
+mouse_jiggler_macos.egg-info/SOURCES.txt
+mouse_jiggler_macos.egg-info/dependency_links.txt
+mouse_jiggler_macos.egg-info/entry_points.txt
+mouse_jiggler_macos.egg-info/requires.txt
+mouse_jiggler_macos.egg-info/top_level.txt
