@@ -1,0 +1,15 @@
+airflow/providers/teradata/LICENSE,sha256=ywUBpKZc7Jb96rVt5I3IDbg7dIJAbUSHkuoDcF3jbH4,13569
+airflow/providers/teradata/__init__.py,sha256=L9que1GKjKvTBWirt0nnaIHaOEq8A9mODqqjwDIpy0s,1495
+airflow/providers/teradata/get_provider_info.py,sha256=TIQHi9NqwB5kd_mRuiD7x7FNrmZkIlgJ3Rzp17Jl5Fw,3854
+airflow/providers/teradata/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/teradata/hooks/teradata.py,sha256=9p4Tn2raEgEIGQMfCN2DPtC6n6SJb2KBkKPMTTRfjrw,9511
+airflow/providers/teradata/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/teradata/operators/teradata.py,sha256=Q5fHVZRHaMeeE1c5PVdoN8ah16q4bL9pTXkodTMyeKA,3628
+airflow/providers/teradata/transfers/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/teradata/transfers/azure_blob_to_teradata.py,sha256=VQQjdjo65s81Agnt3ubFLZkrgrrpNaoqxT3FZEkhXSM,4293
+airflow/providers/teradata/transfers/s3_to_teradata.py,sha256=jLUPTh3ynTS5vuOBYH8pSH5TVJSoGUCw1U4cErRZZpI,4523
+airflow/providers/teradata/transfers/teradata_to_teradata.py,sha256=WketoakWYtYdMn7W3hR55otQJqQSKB_dKHTtYLc4mco,3834
+apache_airflow_providers_teradata-2.2.0rc1.dist-info/entry_points.txt,sha256=JbigXoUoKVSNWG-_-029FCCuehMOmAvuSnNGZ9Bz1Kc,104
+apache_airflow_providers_teradata-2.2.0rc1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+apache_airflow_providers_teradata-2.2.0rc1.dist-info/METADATA,sha256=9jHhR5O4mpeNyuE_0Rhye1RcuYzQCwX9zIR4VK9dWDM,6799
+apache_airflow_providers_teradata-2.2.0rc1.dist-info/RECORD,,
