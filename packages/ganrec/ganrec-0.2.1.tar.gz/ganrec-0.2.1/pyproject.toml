@@ -1,0 +1,73 @@
+[tool.black]
+line-length = 115
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+)/
+'''
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ganrec"
+version = "0.2.1"
+description = "A deep neural network data reconstruction platform"
+authors = [
+    { name = "Xiaogang Yang", email = "xiaogang.yang@outlook.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["GAN", "Data reconstruction", "Tomography", "Phase retrieval"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.19.2",
+    "tifffile>=2023.12.9",
+    "matplotlib>=3.3.2",
+    "scikit-image>=0.19.3",
+    "ipython>=8.12.3",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+tensorflow = ["tensorflow>=2.0.0"]
+pytorch = ["pytorch>=2.0.0"]
+
+
+[project.urls]
+homepage = "https://github.com/XYangXRay/ganrec"
+repository = "https://github.com/XYangXRay/ganrec"
+documentation = "https://github.com/XYangXRay/ganrec"
+
+
+
+[tool.hatch.build.targets.wheel]
+include = ["ganrectf", "ganrectorch"]
+
+
+
+[tool.setuptools.packages.find]
+where = ["ganrectf", "ganrectorch"]
+exclude = ["tests*"]
+
+
+
