@@ -1,0 +1,10 @@
+autopdf/__init__.py,sha256=wo_t-Qmh-JxT3cnLuZPpq50npftCaa5sVp-9qEuAZys,66
+autopdf/clusterer.py,sha256=Lw710cDO2UwKg1q2AZo8fdyzSKBr7Gl1dQIBy2Ox4Pw,1562
+autopdf/editor.py,sha256=4Rbo9pQZt-ZwmyFc2xJ5nF9pazrU6Yn30plyaKiZXxw,1318
+autopdf/exporting.py,sha256=oZ97ppEzQmjKKy4sQtqKBbw0aJVe09SGLiw_JKIivDs,1332
+autopdf/to_md.py,sha256=zKrJt1XO9iJZI6eexOzHB7pvZU4wutSsBSYJGowwyaI,1754
+autopdf/to_txt.py,sha256=bTtc6IWoVO4pohJ7-xKbWH46640SU84Yg_ZkSa24Ipg,2365
+autopdf-0.0.7.dist-info/METADATA,sha256=dAt01DqMfjhBoc8R-UDgvMmgv-kDBQgsjNB03tpacEM,677
+autopdf-0.0.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+autopdf-0.0.7.dist-info/licenses/LICENSE,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+autopdf-0.0.7.dist-info/RECORD,,
