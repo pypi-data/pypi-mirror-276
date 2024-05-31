@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+roxCrypter/__init__.py
+roxCrypter.egg-info/PKG-INFO
+roxCrypter.egg-info/SOURCES.txt
+roxCrypter.egg-info/dependency_links.txt
+roxCrypter.egg-info/top_level.txt
