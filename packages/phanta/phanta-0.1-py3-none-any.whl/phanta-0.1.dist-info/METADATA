@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: phanta
+Version: 0.1
+Summary: Python package to assemble phage illumina reads
+Author: Joshua J Iszatt
+Author-email: joshiszatt@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.10
+
