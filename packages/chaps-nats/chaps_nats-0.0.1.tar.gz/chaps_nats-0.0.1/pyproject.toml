@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "chaps_nats"
+version = "0.0.1"
+authors = [
+  { name="Pierre Dellenbach", email="pdellenbach@chapsvision.com" },
+]
+description = "Tools to design Job APIs on top of NATS"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["nats-py~=2.6.0",
+                "fastapi[all]~=0.111.0",
+                "asyncio~=3.4.3",
+                "rich~=13.7.1",
+                "json-tricks~=3.17.3"]

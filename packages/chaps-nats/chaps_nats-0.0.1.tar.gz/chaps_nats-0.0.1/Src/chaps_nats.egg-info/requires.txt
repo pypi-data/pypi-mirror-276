@@ -1,0 +1,5 @@
+nats-py~=2.6.0
+fastapi[all]~=0.111.0
+asyncio~=3.4.3
+rich~=13.7.1
+json-tricks~=3.17.3
