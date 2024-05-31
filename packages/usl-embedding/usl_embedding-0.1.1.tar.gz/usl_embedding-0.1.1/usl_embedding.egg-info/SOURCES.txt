@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+methods/__init__.py
+methods/usl.py
+methods/usl_t.py
+models/__init__.py
+models/ssl_t_models/__init__.py
+models/ssl_t_models/clustering_model.py
+usl_embedding.egg-info/PKG-INFO
+usl_embedding.egg-info/SOURCES.txt
+usl_embedding.egg-info/dependency_links.txt
+usl_embedding.egg-info/entry_points.txt
+usl_embedding.egg-info/requires.txt
+usl_embedding.egg-info/top_level.txt
