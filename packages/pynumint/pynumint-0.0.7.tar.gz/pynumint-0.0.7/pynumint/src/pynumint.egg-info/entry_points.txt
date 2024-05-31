@@ -1,0 +1,3 @@
+[console_scripts]
+pynumint-post-install = post_install:print_word_star_pattern
+
