@@ -1,0 +1,17 @@
+miksiai/__init__.cp38-win_amd64.pyd,sha256=8yLcZFnaPFxm2RHRTqFmk6EfjQf2JX5i1-4mzd3-8vk,18944
+miksiai/agent.cp38-win_amd64.pyd,sha256=2o38KUR0DWZh9ztmdMBYA1JTYAiIx2mmD9uT247qtvw,90112
+miksiai/api.cp38-win_amd64.pyd,sha256=UTy4igdmEwqDYIF06bpCDOmKUshyoo-l_O1Cn1HuKiM,71680
+miksiai/master.cp38-win_amd64.pyd,sha256=jwEH00Xs98o-mSM4jwXw3LmrF3ErbW5CyXc5LEm7Z_g,41472
+miksiai/pythontool.cp38-win_amd64.pyd,sha256=kmVtni-qzKm8SdmtuGXASuo359TFIxIfsy5-qNIkpHs,62976
+miksiai/settings.cp38-win_amd64.pyd,sha256=SLBUQ2eRHdXhNLCbyr39uO_Zgh2bokR6znkjWi23d5s,32256
+miksiai/sqltool.cp38-win_amd64.pyd,sha256=iaQNwSEeWXKKv22WJolp4Yoq_O8zaUEIayjSPjt0a2o,117248
+miksiai/utils.cp38-win_amd64.pyd,sha256=H10DySL0Bs4eD-QSwPuiqb0sOSy2QBAzCaiZYbgrqxM,46080
+miksiai/function_calling/base.cp38-win_amd64.pyd,sha256=4MxE161i-ssvgd8MtS5byyuBmJvML2mAXak87ffBOS8,69632
+miksiai/sql_graph/custom_sql.cp38-win_amd64.pyd,sha256=gDIpqAevCYPh721OhAcBipCfd8P5bM5U2IqSFRl-Rm4,81920
+miksiai/sql_graph/sql_graph.cp38-win_amd64.pyd,sha256=ggg7HFI5c6iAgvV_gsgyqqRC1rCQOGrXGx8rA2KiRBI,96768
+miksiai/sql_graph/sql_graph_prompts.cp38-win_amd64.pyd,sha256=dfR9BRXlYm8OE8GdvEhWV0jeKaIDcQpnxgiarescq7A,28160
+miksiai/sql_graph/sql_runnables.cp38-win_amd64.pyd,sha256=hvJkPL4Ju5zlkP2xhzf7dgQRDgs6ArKMDqDSY-sNy3s,206336
+miksiai-1.0.7.dist-info/METADATA,sha256=ZdyZDS0m3oYqYNJVkGgeia4Wgy185sCQ2PJ71m0fEgo,6517
+miksiai-1.0.7.dist-info/WHEEL,sha256=F2aDWtWrilNM3-px1vBtJOEd7aRVTetQfFuDYmYbAUQ,100
+miksiai-1.0.7.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.7.dist-info/RECORD,,
