@@ -1,0 +1,8 @@
+unfuncaptcha_bda/__init__.py,sha256=HXJHvrQUAxiZR1tYj3sSTUvEqWCJzcrnaIcnwKNeVVs,49
+unfuncaptcha_bda/crypto.py,sha256=v2s6IjKuc7fL_aVx5A2Pw-LJXLrpGpNWywaUBNQhoKM,1580
+unfuncaptcha_bda/fingerprint.py,sha256=F7ZkuwqJIgqAcoXuHtQZ5A8gZgGjvlRTbmRw2DEgfG8,3384
+unfuncaptcha_bda-0.0.4.dist-info/LICENSE,sha256=-BeIbua7Ze0wmKeYex6XgWU9FccfhVic4NKvZjxm03M,34888
+unfuncaptcha_bda-0.0.4.dist-info/METADATA,sha256=ZmmdiqqTsNIBAJ4RPbQ7c0Zn78aGyTvWHoPdcs409gM,1357
+unfuncaptcha_bda-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+unfuncaptcha_bda-0.0.4.dist-info/top_level.txt,sha256=_UCSzlRCaBXCP7tfXBsNeGtSF4Zmh76OiTr4fRR1KZo,17
+unfuncaptcha_bda-0.0.4.dist-info/RECORD,,
