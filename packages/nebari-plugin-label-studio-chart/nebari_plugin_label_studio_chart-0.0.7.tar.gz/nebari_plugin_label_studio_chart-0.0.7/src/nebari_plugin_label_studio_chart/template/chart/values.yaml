@@ -1,0 +1,31 @@
+ingress:
+  enabled: true
+  host: "<placeholder>"
+  path: /label-studio
+
+auth:
+  enabled: false
+  image: thomseddon/traefik-forward-auth
+  tag: "2"
+  existingSecret: ""
+  secret:
+    data: {}
+  service:
+    port: 4181
+  affinity: {}
+  tolerations: []
+
+logLevel: info
+
+label-studio:
+  global:
+    image:
+      tag: ""
+    extraEnvironmentVars:
+      LABEL_STUDIO_HOST: "<placeholder>"
+
+  app:
+    contextPath: "/label-studio"
+    nginx:
+      livenessProbe:
+        path: "/label-studio/health"
