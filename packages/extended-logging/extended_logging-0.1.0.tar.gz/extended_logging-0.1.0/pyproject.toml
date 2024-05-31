@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "extended-logging"
+version = "0.1.0"
+description = "Logging utilities."
+authors = ["Paweł Pozorski <pawel.pozorski@medwave.app>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+extended-sql = "^0.1.0"
+sqlalchemy = "^2.0.30"
+sqlmodel = "^0.0.18"
+starlette = "^0.37.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
