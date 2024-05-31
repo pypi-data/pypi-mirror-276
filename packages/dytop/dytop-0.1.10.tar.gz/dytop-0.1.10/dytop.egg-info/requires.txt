@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+CMGDB
+pychomp2
+matplotlib
