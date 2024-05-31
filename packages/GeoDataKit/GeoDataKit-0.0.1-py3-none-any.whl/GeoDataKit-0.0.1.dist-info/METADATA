@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: GeoDataKit
+Version: 0.0.1
+Summary: Analyses and graphs for geoscience
+Home-page: https://github.com/GeoISTO/GeoDataKit
+Author: Gautier Laurent
+Author-email: gautier.laurent@univ-orleans.fr
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization
+License-File: LICENSE
+
+# GeoDataKit
+Python tools for geoscience data analysis and visualisation
+
+NB: this is really preliminary developments
+
+## Installation
+```
+pip install -i https://test.pypi.org/simple/ GeoDataKit
+```
+
+## Demo
+See in the notebook directory.
+
+## Dev
+Building distribution:
+```
+python setup.py sdist bdist_wheel
+```
+
+Pushing to PYPI:
+```
+twine upload -r pypitest --verbose -p ######## dist/*
+```
+
