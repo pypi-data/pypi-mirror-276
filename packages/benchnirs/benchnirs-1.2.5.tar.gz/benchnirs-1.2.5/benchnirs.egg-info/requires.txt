@@ -1,0 +1,11 @@
+lazy_loader
+tqdm
+numpy
+pandas
+scipy
+mne
+matplotlib
+seaborn
+scikit-learn
+torch
+nirsimple
