@@ -1,0 +1,4 @@
+numpy
+sparse
+opt_einsum
+sympy
