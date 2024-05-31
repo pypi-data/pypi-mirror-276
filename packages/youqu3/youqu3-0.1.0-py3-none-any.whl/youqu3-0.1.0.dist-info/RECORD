@@ -1,0 +1,12 @@
+youqu3/__init__.py,sha256=qV30qB94MxDoKfQ16sXhjh2ffbu6IPb-G0THXggNVi8,823
+youqu3/__version__.py,sha256=Pru0BlFBASFCFo7McHdohtKkUtgMPDwbGfyUZlE2_Vw,21
+youqu3/custom_exception.py,sha256=ilWBq1Ihoo33O3Tj7aVnF1-H5Ajxgv2QMWG8HhHF7l4,5011
+youqu3/mousekey.py,sha256=W6y_81isY_fnENXtMOGUkTcXyFqRw--dJE79ITSNM5g,27426
+youqu3/setting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youqu3/setting/_dynamic.py,sha256=owSLedjKDAP556NLYbZdXatb7PVQp6X1xdnfuf0MNtk,844
+youqu3/setting/setting.py,sha256=c6UwzuC93i0aHWsFLNYN9u1mJU-XLGQdAV5tCDggoIo,131
+youqu3/vendor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youqu3-0.1.0.dist-info/METADATA,sha256=LGnvBa_hyU0FWtK9kWwp0Z-MRSrEfL8_S2Ugj_TJYW0,630
+youqu3-0.1.0.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+youqu3-0.1.0.dist-info/licenses/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+youqu3-0.1.0.dist-info/RECORD,,

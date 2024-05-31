@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: youqu3
+Version: 0.1.0
+Summary: YouQu-Next
+Author-email: mikigo <huangmingqiang@uniontech.com>
+License: GPL2.0
+License-File: LICENSE
+Requires-Python: >=3.7
+Requires-Dist: allure-pytest
+Requires-Dist: funnylog
+Requires-Dist: pytest
+Requires-Dist: pytest-rerunfailures
+Requires-Dist: pytest-timeout
+Description-Content-Type: text/markdown
+
+# YouQu3
+
+YouQu3 是 YouQu 的一个重构项目，整体架构重新设计，全新的插件化及模块化，带来全新的使用效果。
+
+项目代号：dragon🐉
+
+目标：
+
+- 支持离线部署
+
+- 极致轻量化依赖
+
+- 功能可插拔
+
+- 可视化配置
