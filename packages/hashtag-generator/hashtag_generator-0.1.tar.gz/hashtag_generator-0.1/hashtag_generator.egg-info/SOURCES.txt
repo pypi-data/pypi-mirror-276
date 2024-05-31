@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hashtag-generator/__init__.py
+hashtag-generator/main.py
+hashtag_generator.egg-info/PKG-INFO
+hashtag_generator.egg-info/SOURCES.txt
+hashtag_generator.egg-info/dependency_links.txt
+hashtag_generator.egg-info/top_level.txt
