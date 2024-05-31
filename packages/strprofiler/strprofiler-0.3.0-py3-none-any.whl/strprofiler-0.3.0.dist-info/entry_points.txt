@@ -1,0 +1,5 @@
+[console_scripts]
+clastr=strprofiler.clastr:clastr_query
+strprofiler=strprofiler.strprofiler:strprofiler
+strprofiler-app=strprofiler.strprofiler:local_shiny_app
+
