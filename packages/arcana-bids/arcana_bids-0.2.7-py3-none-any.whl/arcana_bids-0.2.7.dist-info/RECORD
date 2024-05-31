@@ -1,0 +1,13 @@
+arcana/bids/__init__.py,sha256=atosSv1eQH9iQBncoGDqAgSvR_IAGx1sjM8krL7JfL4,145
+arcana/bids/_version.py,sha256=mXPA9v4zB_3yyyQ0dNvl4mba1fMh4hU3qcyCEtD2HlE,411
+arcana/bids/cli.py,sha256=8uULgBMiK31kzmgO0iFctMFQ1oc_5Fh1uuO5subK-Eo,1059
+arcana/bids/data.py,sha256=yS4KCbd0KqHL26zdop2ApYsyuZCs62jYTU3Be4rViUM,23318
+arcana/bids/deploy.py,sha256=JT0Q4X1a5xE0brKxJMHfDPG3Cq6NCGT1TzP5D15eoBE,476
+arcana/bids/tasks.py,sha256=kWgqjFPVriel71066tSmUEOCSKbEWW-cgmgcNLpLTd4,14808
+arcana/bids/tests/test_cli.py,sha256=l2unyotDGj4Mt6F1D47chX_KqYICok51uooi5aOr69E,4456
+arcana/bids/tests/test_data.py,sha256=vXTcHAfDPvHXiglhJFfrxcCZAS0hgB0gLRAGVmr9zus,7471
+arcana/bids/tests/test_tasks.py,sha256=SrnPwGLI9JpPSU4wutpmiyu2aeq4_77LwOAXQBmAMZg,2819
+arcana_bids-0.2.7.dist-info/METADATA,sha256=YCIE2dHMY18b9koOIhGUFGjuYrzD1pk0PvekGoahhyU,18563
+arcana_bids-0.2.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+arcana_bids-0.2.7.dist-info/licenses/LICENSE,sha256=s12hb9VeRlj1uxCx7NSbKwRGyTklVA7omWbTLyMhYIs,14222
+arcana_bids-0.2.7.dist-info/RECORD,,
