@@ -1,0 +1,70 @@
+libLTA v3.1
+===========
+
+This library provides a python API to send commands to the LTA board. For example:
+
+```python3
+from liblta import pyLTA
+
+# Initialize the object
+lta = pyLTA()
+
+# Connect to the board
+lta.connect('myLTA', host_ip='192.168.133.100', 
+              board_ip='192.168.133.7', board_port=2001)
+
+# Request telemetry values
+lta.send('get telemetry all')
+```
+
+Features
+--------
+
+- All-in-one: does not require a 'daemon' to communicate with board.
+- Sequencer is saved with a hashed name so that it can be recovered at any 
+time.
+- Binary file decoder also implemented in Python (and is efficient!).
+- Decoding can be made offline (all image metadata is saved).
+- No CFITSIO or ROOT needed!
+- [Legacy] Compatible with LTA daemon
+(https://github.com/sensei-skipper/ltaDaemon_public).
+
+
+Installation
+------------
+
+### Pre-requisites
+
+These packages are required for `libLTA` to work. Most of the times their
+installation is as easy as running:  
+`python3 -m pip install [package]`  
+or:  
+`conda install [package]` if you are a `conda` user.
+- [`numpy`](https://numpy.org/install/)
+- [`pandas`](https://pandas.pydata.org/docs/getting_started/install.html)
+- [`astropy`](https://docs.astropy.org/en/stable/install.html#installing-astropy)
+
+### Installing libLTA
+
+First, clone this repo to your machine:  
+```
+git clone https://gitlab.com/nicolaseavalos/liblta.git
+```
+
+Then install this library in your current Python environment:  
+```
+cd liblta
+python3 -m pip install -e .
+```
+
+The `-e` flag makes the installation editable, so to update the library to a newer version you can just `cd` to the repo and `git pull`.
+
+Usage
+-----
+
+Please refer to the [basic usage](./examples/basic_usage.py) file for an example of the most commonly used functions. Complete documentation can be found [here](https://nicolaseavalos.gitlab.io/liblta).
+
+License
+-------
+
+This project is licensed under the MIT license.

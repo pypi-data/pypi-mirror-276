@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+liblta/__init__.py
+liblta/_auxiliary.py
+liblta/_ethernet.py
+liblta/_sseq_handler.py
+liblta/legacy_lta.py
+liblta/lta_decoder.py
+liblta/pylta.py
+liblta.egg-info/PKG-INFO
+liblta.egg-info/SOURCES.txt
+liblta.egg-info/dependency_links.txt
+liblta.egg-info/requires.txt
+liblta.egg-info/top_level.txt
