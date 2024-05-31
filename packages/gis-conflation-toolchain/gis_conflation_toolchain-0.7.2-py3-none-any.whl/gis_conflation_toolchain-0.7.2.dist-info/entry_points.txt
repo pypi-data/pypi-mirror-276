@@ -1,0 +1,13 @@
+[console_scripts]
+csv2excel = csv2excel.csv2excel:exec_from_console_scripts
+csv2gecodedcsv = gisconflation.csv2gecodedcsv:exec_from_console_scripts
+csv2geojson = csv2geojson.csv2geojson:exec_from_console_scripts
+csvedit = gisconflation.csvedit:exec_from_console_scripts
+dictionarybuilder = gisconflation.dictionarybuilder:exec_from_console_scripts
+dictionarymerger = gisconflation.dictionarymerger:exec_from_console_scripts
+geojsonconcat = gisconflation.geojsonconcat:exec_from_console_scripts
+geojsondiff = gisconflation.geojsondiff:exec_from_console_scripts
+geojsonedit = gisconflation.geojsonedit:exec_from_console_scripts
+geojsonmerger = gisconflation.geojsonmerger:exec_from_console_scripts
+json2csv = gisconflation.json2csv:exec_from_console_scripts
+overpassql2osmf = gisconflation.overpassql2osmf:exec_from_console_scripts

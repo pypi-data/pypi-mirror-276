@@ -1,0 +1,1351 @@
+#!/usr/bin/env python3
+# ==============================================================================
+#
+#          FILE:  geojsondiff.py
+#
+#         USAGE:  geojsondiff --help
+#                 ./src/gisconflation/geojsondiff.py --help
+#
+#   DESCRIPTION:  ---
+#
+#       OPTIONS:  ---
+#
+#  REQUIREMENTS:  - python3
+#                   - haversine (pip install haversine)
+#                   - shapely (pip install shapely)
+#          BUGS:  ---
+#         NOTES:  ---
+#       AUTHORS:  Emerson Rocha <rocha[at]ieee.org>
+# COLLABORATORS:  ---
+#
+#       COMPANY:  EticaAI
+#       LICENSE:  Public Domain dedication or Zero-Clause BSD
+#                 SPDX-License-Identifier: Unlicense OR 0BSD
+#       VERSION:  v0.6.2
+#       CREATED:  2023-04-16 22:36 BRT
+#      REVISION:  2023-04-17 02:32 BRT v0.4.0 accept Overpas GeoJSON flavor
+#                 2023-04-18 00:25 BRT v0.5.0 supports Polygon (not just Point)
+#                 2023-04-19 21:52 BRT v0.6.0 draft of diff GeoJSON and JOSM
+#                 2023-04-25 03:58 BRT v0.6.1 miggrade as pip package
+#                 2023-06-03 03:16 BRT v0.6.2 moved to ./src/gisconflation
+# ==============================================================================
+
+import argparse
+import csv
+import dataclasses
+import json
+import sys
+import logging
+from typing import List, Type
+import Levenshtein
+from haversine import haversine, Unit
+
+# from shapely.geometry import Polygon, Point
+from shapely.geometry import Polygon
+from xml.sax.saxutils import escape
+
+from gisconflation.util import LevenshteinHelper
+
+
+__VERSION__ = "0.6.2"
+# VERSION = "0.6.2"
+
+PROGRAM = "geojsondiff"
+DESCRIPTION = """
+------------------------------------------------------------------------------
+GeoJSON++ diff v{1}
+
+------------------------------------------------------------------------------
+""".format(
+    __file__, __VERSION__
+)
+
+# https://www.rfc-editor.org/rfc/rfc7946
+# The GeoJSON Format
+# https://www.rfc-editor.org/rfc/rfc8142
+# GeoJSON Text Sequences
+
+# __EPILOGUM__ = ""
+__EPILOGUM__ = """
+------------------------------------------------------------------------------
+                            EXEMPLŌRUM GRATIĀ
+------------------------------------------------------------------------------
+    {0} --output-diff-geojson=data/tmp/diff-points-ab.geojson \
+--output-diff-tsv=data/tmp/diff-points-ab.tsv \
+--output-diff-csv=data/tmp/diff-points-ab.csv \
+--output-log=data/tmp/diff-points-ab.log.txt \
+--tolerate-distance=1000 \
+tests/data/data-points_a.geojson \
+tests/data/data-points_b.geojson
+
+GeoJSON (center point) example with overpass . . . . . . . . . . . . . . . . .
+    [out:json][timeout:25];
+    {{geocodeArea:Santa Catarina}}->.searchArea;
+    (
+    nwr["plant:source"="hydro"](area.searchArea);
+    );
+    convert item ::=::,::geom=geom(),_osm_type=type();
+    out center;
+
+------------------------------------------------------------------------------
+                            EXEMPLŌRUM GRATIĀ
+------------------------------------------------------------------------------
+""".format(
+    PROGRAM
+)
+
+STDIN = sys.stdin.buffer
+
+MATCH_EXACT = 1
+MATCH_NEAR = 3
+
+
+class Cli:
+    """Main CLI parser"""
+
+    def __init__(self):
+        """
+        Constructs all the necessary attributes for the Cli object.
+        """
+        self.pyargs = None
+        self.EXIT_OK = 0
+        self.EXIT_ERROR = 1
+        self.EXIT_SYNTAX = 2
+
+    def make_args(self):
+        """make_args
+
+        Args:
+            hxl_output (bool, optional): _description_. Defaults to True.
+        """
+        parser = argparse.ArgumentParser(
+            prog=PROGRAM,
+            description=DESCRIPTION,
+            formatter_class=argparse.RawDescriptionHelpFormatter,
+            epilog=__EPILOGUM__,
+        )
+
+        parser.add_argument("geodataset_a", help="GeoJSON dataset 'A'")
+        parser.add_argument("geodataset_b", help="GeoJSON dataset 'B'")
+
+        parser.add_argument(
+            "--output-diff-geojson",
+            help="(Experimental) Path to output GeoJSON diff file",
+            dest="outdiffgeo",
+            required=False,
+            nargs="?",
+        )
+
+        parser.add_argument(
+            "--output-diff-csv",
+            help="Path to output CSV diff file",
+            dest="outdiffcsv",
+            required=False,
+            nargs="?",
+        )
+
+        parser.add_argument(
+            "--output-diff-tsv",
+            help="Path to output TSV (Tab-separated values) diff file",
+            dest="outdifftsv",
+            required=False,
+            nargs="?",
+        )
+
+        parser.add_argument(
+            "--output-log",
+            help="Path to output file",
+            dest="outlog",
+            default=None,
+            required=False,
+            nargs="?",
+        )
+
+        pivot = parser.add_argument_group(
+            "Parameters used to know how to conflate A and B"
+        )
+
+        parser.add_argument(
+            "--conflation-strategy",
+            help="Conflation strategy.",
+            dest="strategy",
+            default="distance",
+            required=False,
+            choices=["distance", "addr"],
+            nargs="?",
+        )
+
+        pivot.add_argument(
+            "--tolerate-distance",
+            help="Typical maximum distance for features match if not "
+            "exact same point. In meters. Default to 100",
+            dest="tdist",
+            default="100",
+            required=False,
+            nargs="?",
+        )
+
+        pivot.add_argument(
+            "--pivot-key-main",
+            help="If defined, its an strong hint that item from A and B "
+            "alredy are mached with each other. "
+            "Use '||' if attribute on A is not the same on the B. "
+            "Accept multiple values. "
+            "Example: "
+            "--pivot-key-main='CO_CNES||ref:CNES' --pivot-key-main='ref:vatin'",
+            dest="pivot_key_main",
+            nargs="?",
+            action="append",
+        )
+
+        pivot.add_argument(
+            "--pivot-attr-2",
+            help="A non primary attribute on A and B (like phone or website) "
+            "which while imperfect, is additional hint about being about same. "
+            "Use '||' if attribute on A is not the same on the B. "
+            "Accept multiple values. "
+            "Example: "
+            "--pivot-attr-2='contact:email'",
+            dest="pivot_attr_2",
+            nargs="?",
+            action="append",
+        )
+
+        pivot.add_argument(
+            "--pivot-alias",
+            help="A weak (like name or description) attribute to order the matches. "
+            "Impefect. Never will return perfect match, even if exact the same. "
+            "Use '||' if attribute on A is not the same on the B. "
+            "Accept multiple values. "
+            "Example: "
+            "--pivot-alias'COMPANY_NAME||name' --pivot-alias'COMPANY_NAME||alt_name'",
+            dest="pivot_alias",
+            nargs="?",
+            action="append",
+        )
+
+        prefilter = parser.add_argument_group("Pre-filter data before processing")
+
+        prefilter.add_argument(
+            "--prefilter-a-contain",
+            help="Prefilter (e.g. before processing) a filed in A for a string"
+            "Use '||' to divide the field and the string. "
+            "Accept multiple values. "
+            "Example: "
+            "--prefilter-a-contain='NO_RAZAO_SOCIAL||hospital'",
+            dest="prefilter_a_contain",
+            nargs="?",
+            action="append",
+        )
+
+        prefilter.add_argument(
+            "--prefilter-b-contain",
+            help="Prefilter (e.g. before processing) a filed in B for a string"
+            "Use '||' to divide the field and the string. "
+            "Accept multiple values. "
+            "Example: "
+            "--prefilter-a-contain='name||hospital'",
+            dest="prefilter_b_contain",
+            nargs="?",
+            action="append",
+        )
+
+        filters = parser.add_argument_group(
+            "Quick output filters for GeoJSON output. Ignored by tabular diffs"
+        )
+
+        filters.add_argument(
+            "--filter-ab-dist-min",
+            help="Minimal distance between A and B. Example: 0",
+            dest="filter_ab_dist_min",
+            default=None,
+            required=False,
+            nargs="?",
+        )
+
+        filters.add_argument(
+            "--filter-ab-dist-max",
+            help="Minimal distance between A and B. Example: 0",
+            dest="filter_ab_dist_max",
+            default=None,
+            required=False,
+            action="store_true",
+            # nargs="?",
+        )
+
+        filters.add_argument(
+            "--filter-matched-pivot-key",
+            help="Only output items matched by main pivot key",
+            dest="filter_matched_key",
+            default=None,
+            required=False,
+            action="store_true",
+        )
+
+        filters.add_argument(
+            "--filter-matched-pivot-key-not",
+            help="Do not output items matched by main pivot key",
+            dest="filter_matched_key_not",
+            default=None,
+            required=False,
+            action="store_true",
+        )
+
+        advanced = parser.add_argument_group(
+            "ADVANCED. Do not upload to OpenStreetMap unless you review the output. "
+            "Requires A be an external dataset, and B be OpenStreetMap data. "
+        )
+
+        advanced.add_argument(
+            "--output-josm-file",
+            help="Output OpenStreetMap change proposal in JOSM file format",
+            dest="outosc",
+            # default="100",s
+            required=False,
+            nargs="?",
+        )
+
+        # parser.add_argument(
+        #     "--tolerate-distance-extra",
+        #     help="Path to output file",
+        #     dest="tdist",
+        #     default="500",
+        #     required=False,
+        #     nargs="?",
+        # )
+
+        return parser.parse_args()
+
+    def execute_cli(self, pyargs, stdin=STDIN, stdout=sys.stdout, stderr=sys.stderr):
+        logger = logging.getLogger()
+        logger.setLevel(logging.INFO)
+        if pyargs.outlog:
+            fh = logging.FileHandler(pyargs.outlog)
+            logger.addHandler(fh)
+        else:
+            ch = logging.StreamHandler()
+            logger.addHandler(ch)
+
+        # distance_okay = 50
+        # distance_okay = int(pyargs.tdist)
+        # distance_permissive = 250
+
+        # @TODO actually allow multiple primary keys or remove documentation
+        pks_dict = parse_argument_values(pyargs.pivot_key_main)
+        pivot_key_main = None
+        if len(pks_dict.items()) > 0:
+            _k = list(pks_dict.keys())[0]
+            pivot_key_main = pks_dict[_k]
+
+        # print('oi', pyargs.pivot_key_main, pks_dict)
+
+        crules = ConflationRules(
+            distance_okay=int(pyargs.tdist),
+            # pivot_key_main=parse_argument_values(pyargs.pivot_key_main),
+            pivot_key_main=pivot_key_main,
+            pivot_attr_2=parse_argument_values(pyargs.pivot_attr_2),
+            pivot_alias=parse_argument_values(pyargs.pivot_alias),
+        )
+
+        cfilters = ConflationFilters(
+            filter_ab_dist_min=pyargs.filter_ab_dist_min,
+            filter_ab_dist_max=pyargs.filter_ab_dist_max,
+            filter_matched_key=pyargs.filter_matched_key,
+            filter_matched_key_not=pyargs.filter_matched_key_not,
+        )
+
+        cprefilters = ConflationPrefilters(
+            prefilter_a_contain=parse_argument_values(pyargs.prefilter_a_contain),
+            prefilter_b_contain=parse_argument_values(pyargs.prefilter_b_contain),
+        )
+
+        geodiff = GeojsonCompare(
+            pyargs.geodataset_a,
+            pyargs.geodataset_b,
+            pyargs.strategy,
+            crules,
+            cprefilters=cprefilters,
+            cfilters=cfilters,
+            logger=logger,
+        )
+
+        if pyargs.outosc:
+            with open(pyargs.outosc, "w") as file:
+                file.write(geodiff.osmchange())
+
+        if pyargs.outdiffcsv:
+            with open(pyargs.outdiffcsv, "w") as file:
+                tabular_writer(file, geodiff.summary_tabular(), delimiter=",")
+
+        if pyargs.outdifftsv:
+            with open(pyargs.outdifftsv, "w") as file:
+                tabular_writer(file, geodiff.summary_tabular(), delimiter="\t")
+
+        if pyargs.outdiffgeo:
+            with open(pyargs.outdiffgeo, "w") as file:
+                geojson_diff = geodiff.diff_geojson_full()
+                file.write(json.dumps(geojson_diff, ensure_ascii=False, indent=2))
+                # tabular_writer(file, geodiff.summary_tabular(), delimiter="\t")
+
+        # geodiff.debug()
+        return self.EXIT_OK
+
+
+class ConflationFilters:
+    def __init__(
+        self,
+        filter_ab_dist_min: int = None,
+        filter_ab_dist_max: int = None,
+        filter_matched_key: bool = None,
+        filter_matched_key_not: bool = None,
+    ) -> None:
+        if filter_ab_dist_min is not None:
+            self.filter_ab_dist_min = float(filter_ab_dist_min)
+        else:
+            self.filter_ab_dist_min = None
+
+        if filter_ab_dist_max is not None:
+            self.filter_ab_dist_max = float(filter_ab_dist_max)
+        else:
+            self.filter_ab_dist_max = None
+
+        if filter_matched_key is not None:
+            self.filter_matched_key = filter_matched_key
+        else:
+            self.filter_matched_key = None
+
+        if filter_matched_key_not is not None:
+            self.filter_matched_key_not = filter_matched_key_not
+        else:
+            self.filter_matched_key_not = None
+
+    def dist_ab(self, item_dist=int):
+        if item_dist is None:
+            return False
+        if (
+            self.filter_ab_dist_min is not None
+            and not item_dist >= self.filter_ab_dist_min
+        ):
+            return False
+        if (
+            self.filter_ab_dist_max is not None
+            and not item_dist <= self.filter_ab_dist_max
+        ):
+            return False
+
+        return True
+
+    def pk_allow(
+        self,
+        item_index: int,
+        current_dataset: Type["DatasetInMemory"],
+        other_dataset: Type["DatasetInMemory"],
+    ):
+        if self.filter_matched_key_not is None and self.filter_matched_key is None:
+            return True
+
+        if (
+            self.filter_matched_key_not is not None
+            and self.filter_matched_key is not None
+        ):
+            raise SyntaxError("Conflict: filter_matched_key + filter_matched_key_not ")
+
+        item_pk = current_dataset.item_pk(item_index)
+        # print(">> o", item_pk, other_dataset.pivot_keys_in)
+        # print("<<c", item_pk, current_dataset.pivot_keys_in)
+        # print(current_dataset.pivot_keys_in)
+        # print(current_dataset.pivot_keys_in_duplicate)
+        if (
+            item_pk is not None
+            and (
+                self.filter_matched_key_not is not None
+                and str(item_pk) in other_dataset.pivot_keys_in
+            )
+            or (
+                self.filter_matched_key
+                and str(item_pk) not in other_dataset.pivot_keys_in
+            )
+        ):
+            return False
+
+        return True
+
+
+class ConflationPrefilters:
+    def __init__(
+        self, prefilter_a_contain: dict = None, prefilter_b_contain: dict = None
+    ) -> None:
+        self.prefilter_a_contain = prefilter_a_contain
+        self.prefilter_b_contain = prefilter_b_contain
+
+    def _allow_x_contain(self, item: dict, rule_contain: dict = None):
+        # if not self.prefilter_a_contain:
+        if not rule_contain:
+            return True
+        elif not item:
+            # We assume that if any condition exist to mach, missing
+            # tags would fail. However this may not be always the case
+            return False
+
+        # count_tries = len(self.prefilter_a_contain.keys)
+        okay = None
+        # for key, val in self.prefilter_a_contain.items():
+        for key, val in rule_contain.items():
+            if key not in item:
+                continue
+            if key in item and val == True:
+                okay = True
+                continue
+            if not isinstance(val, list):
+                val = [val]
+
+            _item_term = str(item[key]).lower()
+
+            for alt in val:
+                if _item_term.find(alt) > -1:
+                    okay = True
+
+        # TODO do some extra attempt here
+        if not okay:
+            return False
+        else:
+            return True
+
+        # return True
+
+    def allow_a(self, item: dict):
+        return self._allow_x_contain(item, self.prefilter_a_contain)
+
+    def allow_b(self, item: dict):
+        return self._allow_x_contain(item, self.prefilter_b_contain)
+
+
+class ConflationRules:
+    def __init__(
+        self,
+        distance_okay: int = None,
+        pivot_key_main: list = None,
+        pivot_attr_2: list = None,
+        pivot_alias: list = None,
+    ) -> None:
+        self.distance_okay = distance_okay
+        self.pivot_key_main = pivot_key_main
+        self.pivot_attr_2 = pivot_attr_2
+        self.pivot_alias = pivot_alias
+
+
+class DatasetInMemory:
+    def __init__(
+        self,
+        alias: str,
+        group: str,
+        cprefilters: Type["ConflationPrefilters"],
+        pivot_key: str = None,
+    ) -> None:
+        self.alias = alias
+        self.group = group
+        self.index = -1
+        self.cprefilters = cprefilters
+        self.pivot_key = str(pivot_key) if pivot_key is not None else None
+        # self.is_a = is_a
+
+        # Tuple
+        # (coords, props, geometry?)
+        # geometry? = only if not already point
+        self.items = []
+        # self.pk = None
+        self.pivot_keys_in = []
+        self.pivot_keys_in_duplicate = []
+
+    def add_item(self, item: dict):
+        self.index += 1
+        # self.items.append(None)
+
+        if (
+            not item
+            or not isinstance(item, dict)
+            or "geometry" not in item
+            or not item["geometry"]
+            or "coordinates" not in item["geometry"]
+        ):
+            # Really bad input item (we still count on index)
+            self.items.append(False)
+            return False
+
+        _properties = item["properties"] if "properties" in item else None
+
+        if (self.group == "A" and not self.cprefilters.allow_a(_properties)) or (
+            self.group == "B" and not self.cprefilters.allow_b(_properties)
+        ):
+            # On this case, we ignore the item
+            return False
+
+        if item["geometry"]["type"] != "Point":
+            if item["geometry"]["type"] == "Polygon":
+                poly = Polygon(item["geometry"]["coordinates"][0])
+
+                coords = (poly.centroid.y, poly.centroid.x)
+                props = None
+                geometry_original = item["geometry"]
+                if (
+                    "properties" in item
+                    and item["properties"]
+                    and len(item["properties"].keys())
+                ):
+                    props = item["properties"]
+                # self.items.append(None)
+                # self.items.append((coords, props))
+
+                if (
+                    self.pivot_key is not None
+                    and props is not None
+                    and self.pivot_key in props
+                    and props[self.pivot_key]
+                ):
+                    keyval = str(props[self.pivot_key]).strip()
+                    # self.pk = keyval
+                    if keyval in self.pivot_keys_in:
+                        self.pivot_keys_in_duplicate.append(keyval)
+                    else:
+                        self.pivot_keys_in.append(keyval)
+
+                self.items.append((coords, props, geometry_original))
+            else:
+                # For now ignoring non Point features
+                self.items.append(None)
+        else:
+            # Exact point
+            coords = (
+                item["geometry"]["coordinates"][1],
+                item["geometry"]["coordinates"][0],
+            )
+            props = None
+
+            # Overpass geojson store in "tags" instead of "properties"
+            _properties = "tags" if "tags" in item else "properties"
+
+            # if (
+            #     "properties" in item
+            #     and item["properties"]
+            #     and len(item["properties"].keys())
+            # ):
+            if (
+                _properties in item
+                and item[_properties]
+                and len(item[_properties].keys())
+            ):
+                props = item[_properties]
+            # self.items.append((coords, props))
+
+            if (
+                self.pivot_key is not None
+                and props is not None
+                and self.pivot_key in props
+                and props[self.pivot_key]
+            ):
+                keyval = str(props[self.pivot_key]).strip()
+                # self.pk = keyval
+                if keyval in self.pivot_keys_in:
+                    self.pivot_keys_in_duplicate.append(keyval)
+                else:
+                    self.pivot_keys_in.append(keyval)
+
+            self.items.append((coords, props, None))
+
+    def item_pk(self, item_index: int) -> str:
+        if not self.pivot_key:
+            return None
+
+        item_props = self.items[item_index][1]
+        if not item_props or self.pivot_key not in item_props:
+            return False
+
+        return item_props[self.pivot_key]
+
+
+class GeojsonCompare:
+    """GeojsonCompare
+
+    @TODO optimize for very large files
+    """
+
+    def __init__(
+        self,
+        geodataset_a: str,
+        geodataset_b: str,
+        strategy: str,
+        crules: Type["ConflationRules"],
+        cprefilters: Type["ConflationPrefilters"],
+        cfilters: Type["ConflationFilters"],
+        logger=None,
+    ) -> None:
+        self.strategy = strategy
+        self.distance_okay = crules.distance_okay
+        self.crules = crules
+        self.cfilters = cfilters
+        self.cprefilters = cprefilters
+        self.a_is_osm = None
+        self.b_is_osm = None
+
+        self.a = self._load_geojson(geodataset_a, "A", "A")
+        self.b = self._load_geojson(geodataset_b, "B", "B")
+        self.matrix = []
+        self.matrix_v2 = []
+
+        self.compute()
+
+        # logger.info(self.summary())
+        # pass
+
+    def _load_geojson(self, path: str, alias: str, group: str) -> DatasetInMemory:
+        """Load optimized version of GeoJSON++ into memory
+
+        Args:
+            path (str): _description_
+            alias (str): _description_
+
+        Returns:
+            DatasetInMemory
+        """
+        # print(self.__dict__)
+        # print(self.crules.pivot_key_main)
+        data = DatasetInMemory(
+            alias, group, self.cprefilters, pivot_key=self.crules.pivot_key_main
+        )
+
+        with open(path, "r") as file:
+            # TODO optimize geojsonl
+            jdict = json.load(file)
+
+            # Overpass geojson store in "elements" instead of "features"
+            container = "elements" if "elements" in jdict else "features"
+
+            # for feat in jdict["features"]:
+            for feat in jdict[container]:
+                # print(feat)
+                data.add_item(feat)
+
+        return data
+
+    def _short_title(self, properties: dict) -> str:
+        if not properties or len(properties.keys()) == 0:
+            return ""
+
+        result = ""
+        if "nome" in properties:
+            result = properties["nome"]
+        if "name" in properties:
+            result = properties["name"]
+
+        if "ref" in properties:
+            result = result + f" ({properties['ref']})"
+
+        return result.strip()
+
+    def compute(self):
+        """compute difference of B against A"""
+        # for item in self.a.items:
+
+        levenshtein = LevenshteinHelper()
+
+        if len(self.a.items) > 0:
+            for index in range(0, len(self.a.items)):
+                if not self.a.items[index] or not self.a.items[index][1]:
+                    continue
+
+                if (
+                    "id" in self.a.items[index][1]
+                    and self.a.items[index][1]["id"].startswith(
+                        ("node/", "way/", "relation/")
+                    )
+                ) or (
+                    "@id" in self.a.items[index][1]
+                    and self.a.items[index][1]["@id"].startswith(
+                        ("node/", "way/", "relation/")
+                    )
+                ):
+                    self.a_is_osm = True
+                    # print('a_is_osm')
+                    break
+
+        if len(self.b.items) > 0:
+            for index in range(0, len(self.b.items)):
+                # print(self.b.items[index])
+                if not self.b.items[index] or not self.b.items[index][1]:
+                    continue
+
+                if (
+                    "id" in self.b.items[index][1]
+                    and self.b.items[index][1]["id"].startswith(
+                        ("node/", "way/", "relation/")
+                    )
+                ) or (
+                    "@id" in self.b.items[index][1]
+                    and self.b.items[index][1]["@id"].startswith(
+                        ("node/", "way/", "relation/")
+                    )
+                ):
+                    self.b_is_osm = True
+                    # print('b_is_osm')
+                    break
+
+        # if len(self.b.items) > 0:
+        #     if "id" in self.b.items[0][1] and self.b.items[0][1]["id"].startswith(
+        #         ("node/", "way/", "relation/")
+        #     ):
+        #         self.b_is_osm = True
+
+        # print(self.a_is_osm, self.b_is_osm)
+
+        for index_a in range(0, len(self.a.items)):
+            # print(f"    > teste A i{index_a}", self.a.items[index_a])
+            found = False
+            # if not self.a.items[index_a]:
+            #     self.matrix.append(None)
+            # else:
+            if self.a.items[index_a]:
+                candidates = []
+                candidates_aliases = []
+                for index_b in range(0, len(self.b.items)):
+                    # print("oibb", len(self.b.items))
+                    # print('a', self.a.items[index_a])
+                    # print('b', self.b.items[index_b][0])
+
+                    # Try perfect match (including tags)
+                    if (
+                        self.b.items[index_b]
+                        and self.a.items[index_a] == self.b.items[index_b]
+                    ):
+                        self.matrix.append((index_b, MATCH_EXACT, 0, None))
+                        self.matrix_v2.append(
+                            MatchResult(
+                                match_index=index_b,
+                                match_dist=0,
+                            )
+                        )
+                        found = True
+                        # print("  <<<<< dist zero a")
+
+                    elif (
+                        self.b.items[index_b]
+                        and self.a.items[index_a][0] == self.b.items[index_b][0]
+                    ):
+                        # perfect match, except tags (TODO improve this check)
+                        self.matrix.append((index_b, MATCH_EXACT, 0, None))
+                        self.matrix_v2.append(
+                            MatchResult(
+                                match_index=index_b,
+                                match_dist=0,
+                            )
+                        )
+                        found = True
+                        # print("  <<<< dist zero b")
+
+                    # else:
+                    elif self.b.items[index_b]:
+                        dist = haversine(
+                            self.a.items[index_a][0],
+                            self.b.items[index_b][0],
+                            unit=Unit.METERS,
+                        )
+                        # print(f"        >> teste A i{index_a} vs B i{index_b}", dist)
+                        if dist <= self.distance_okay:
+                            # TODO sort by near
+                            candidates.append((dist, index_b))
+                            # self.matrix.append((index_b, MATCH_NEAR, round(dist, 2)))
+
+                            _aliasgroup = []
+                            if self.crules.pivot_alias:
+                                for refkey, altkey in self.crules.pivot_alias.items():
+                                    if altkey is True:
+                                        altkey = refkey
+                                if altkey in self.b.items[index_b][1]:
+                                    _aliasgroup.append(self.b.items[index_b][1][altkey])
+                                else:
+                                    # _aliasgroup.append(None)
+                                    # _aliasgroup.append('')
+                                    pass
+                            # print(_aliasgroup)
+                            candidates_aliases.append(_aliasgroup)
+                            found = True
+                        # break
+
+            if found == True and len(candidates) > 0:
+                # candidates_aliases = []
+                item_aliases = []
+                if self.crules.pivot_alias:
+                    for refkey, _altkey in self.crules.pivot_alias.items():
+                        if refkey in self.a.items[index_a][1]:
+                            item_aliases.append(self.a.items[index_a][1][refkey])
+                        else:
+                            # item_aliases.append(None)
+                            item_aliases.append("")
+                # print(item_aliases)
+
+                it = ItemMatcher(
+                    self.a.items[index_a],
+                    item_aliases,
+                    candidates,
+                    candidates_aliases,
+                    self.crules,
+                    levenshtein,
+                )
+                self.matrix.append(it.result())
+
+                _temp = it.result()
+                if _temp is None:
+                    self.matrix_v2.append(None)
+                else:
+                    self.matrix_v2.append(
+                        MatchResult(
+                            match_index=_temp[0],
+                            match_dist=_temp[1],
+                        )
+                    )
+
+                # # pass
+                # candidates_sorted = sorted(candidates, key=lambda tup: tup[0])
+
+                # dist = candidates_sorted[0][0]
+                # index_b = candidates_sorted[0][1]
+                # skiped = None
+                # if len(candidates) > 1:
+                #     skiped = []
+                #     # for i in range(1, len(candidates)):
+                #     for i in range(0, len(candidates)):
+                #         skiped.append(f"B{candidates[i][1]}")
+
+                # # self.matrix.append((index_b, MATCH_NEAR, round(dist, 2)))
+                # self.matrix.append((index_b, MATCH_NEAR, dist, skiped))
+
+            if not found:
+                self.matrix.append(None)
+
+    def debug(self):
+        print(self.a)
+        # print("dataset a", self.a.items)
+        print(self.b)
+        # print("dataset b", self.b.items)
+        print("matrix", self.matrix)
+
+    def diff_geojson_full(self):
+        dataobj = {"type": "FeatureCollection", "features": []}
+
+        _repeatcheck = {}
+
+        for index_a in range(0, len(self.a.items)):
+            _item_a = self.a.items[index_a]
+
+            if not _item_a:
+                # Skip very bad input (invalid geometry)
+                continue
+
+            _matrix = self.matrix[index_a]
+
+            final_properties = {}
+            pointer = None
+
+            # print("_item_a", _item_a)
+            if _item_a[2] is not None:
+                final_geometry = _item_a[2]
+            else:
+                # We assume will be a point
+                final_geometry = {
+                    "type": "Point",
+                    "coordinates": [_item_a[0][1], _item_a[0][0]],
+                }
+
+            if _item_a[1] is not None:
+                for key, value in _item_a[1].items():
+                    # final_properties[f"a.{key}"] = value
+                    final_properties[f"{key}"] = value
+            # else:
+            #     pass
+
+            # if _matrix and self.b.items[_matrix[0]][1]:
+            #     # print('_matrix', _matrix)
+            #     _item_b = self.b.items[_matrix[0]]
+
+            #     pointer = {
+            #         "geometry": {
+            #             "type": "LineString",
+            #             "coordinates": [
+            #                 [_item_a[0][1], _item_a[0][0]],
+            #                 [_item_b[0][1], _item_b[0][0]],
+            #             ],
+            #         },
+            #         # "properties": final_properties,
+            #         "properties": _item_b[1],
+            #         "type": "Feature",
+            #         # "_debug": f"_item_a {_item_a}",
+            #         # "_original": _item_a,
+            #     }
+
+            #     # @TODO fix this
+            #     pointer = None
+
+            #     # for key, value in self.b.items[_matrix[0]][1].items():
+            #     #     final_properties[f"b.{key}"] = value
+            # # else:
+            # #     pass
+
+            if _matrix:
+                # print("_matrix", _matrix)
+                final_properties[f"a->b.distance"] = round(_matrix[2], 2)
+                if _matrix[3]:
+                    final_properties[f"a->b.near"] = " ".join(_matrix[3])
+            else:
+                final_properties[f"a->b.distance"] = -1
+
+            if not self.cfilters.dist_ab(final_properties[f"a->b.distance"]):
+                continue
+
+            if not self.cfilters.pk_allow(index_a, self.a, self.b):
+                continue
+
+            # # Colors inspired by
+            # # https://wiki.openstreetmap.org/wiki/OSM_Conflator
+
+            # if final_properties[f"a->b.distance"] == -1:
+            #     # 'create': '#11dd11',  # creating a new node
+            #     final_properties["action"] = "create"
+            #     final_properties["marker-color"] = "#11dd11"
+            # elif final_properties[f"a->b.distance"] == 0:
+            #     # 'retag':  '#660000',  # cannot delete unmatched feature, changing tags
+            #     final_properties["action"] = "retag"
+            #     final_properties["marker-color"] = "#660000"
+            # else:
+            #     # 'move':   '#110055',  # moving an existing node
+            #     final_properties["action"] = "move"
+            #     final_properties["marker-color"] = "#110055"
+
+            _hash = str(hash(str(final_geometry)))
+            if _hash not in _repeatcheck:
+                _repeatcheck[_hash] = 0
+            else:
+                _repeatcheck[_hash] += 1
+                if final_geometry["type"] == "Point":
+                    final_properties["__coordinates_original"] = final_geometry[
+                        "coordinates"
+                    ]
+                    final_geometry["coordinates"][0] = final_geometry["coordinates"][
+                        0
+                    ] + (_repeatcheck[_hash] * 0.0001)
+                    final_geometry["coordinates"][1] = final_geometry["coordinates"][
+                        1
+                    ] - (_repeatcheck[_hash] * 0.0001)
+
+            res = {
+                "geometry": final_geometry,
+                "properties": final_properties,
+                "type": "Feature",
+                # "_debug": f"_item_a {_item_a}",
+                # "_original": _item_a,
+            }
+
+            dataobj["features"].append(res)
+            if pointer:
+                dataobj["features"].append(pointer)
+            # dataobj["features"].append(
+            #     f"_item_a {_item_a}",
+            # )
+
+        return dataobj
+
+    def osmchange(self):
+        # @see https://wiki.openstreetmap.org/wiki/OsmChange
+        # @see https://wiki.openstreetmap.org/wiki/JOSM_file_format
+        if not self.b_is_osm:
+            raise SyntaxError(
+                "--output-josm-file=file.osm requires Dataset B be an "
+                "OpenStreetMap-like geojson. "
+                "(id starting with node/N, way/N or relation/N)"
+            )
+
+        lines = [
+            '<?xml version="1.0" encoding="utf-8"?>',
+            "<!-- TEST ONLY, DO NOT UPLOAD! -->",
+            f'<osm version="0.6" generator="{PROGRAM} {__VERSION__}" upload="never">',
+            f"  <changeset>",
+            f'    <tag k="created_by" v="{PROGRAM} {__VERSION__}"/>',
+            f"  </changeset>",
+        ]
+
+        count = 0
+
+        for index_a in range(0, len(self.a.items)):
+            count -= 1
+            _item_a = self.a.items[index_a]
+
+            _matrix = self.matrix[index_a]
+
+            n_lat = None
+            n_lon = None
+
+            if _item_a[2] is None:
+                n_lat = round(_item_a[0][0], 7)
+                n_lon = round(_item_a[0][1], 7)
+            else:
+                lines.append(
+                    f"  <!-- {count} ignoring non Point feature suggestion -->"
+                )
+                continue
+
+            final_properties = {}
+            if _item_a[1] is not None:
+                for key, value in _item_a[1].items():
+                    if value is not False and value is not None and value:
+                        final_properties[f"_{key}"] = escape(str(value))
+
+            # @see https://github.com/openstreetmap/osmdbt/issues/29
+            #      (topic about order of tags)
+            if len(final_properties.keys()) > 0:
+                # _kv = sorted(final_properties, key=lambda key: final_properties[key])
+
+                lines.append(
+                    f'  <node id="{count}" version="1" lat="{n_lat}" lon="{n_lon}">'
+                )
+                for key, value in sorted(final_properties.items()):
+                    lines.append(f'    <tag k="{key}" v="{value}"/>')
+                lines.append(f"  </node>")
+            else:
+                raise SyntaxError(f"No tags for item {count}. Aborting.")
+
+        # <changeset>
+        #     <tag k="source" v="velobike.ru"/>
+        #     <tag k="created_by" v="OSM Conflator 1.4.1"/>
+        #     <tag k="type" v="import"/>
+        # </changeset>
+
+        lines.append("</osm>")
+        return "\n".join(lines)
+
+    def summary(self):
+        lines = []
+        # lines.append("@TODO summary")
+
+        found = 0
+        for item in self.matrix:
+            if item:
+                found += 1
+
+        lines.append(f"A {len(self.a.items)} | {found}")
+        lines.append(f"B {len(self.b.items)} | _")
+
+        tabular_out = self.summary_tabular()
+        spamwriter = csv.writer(sys.stdout, delimiter="\t")
+        for line in tabular_out:
+            spamwriter.writerow(line)
+        return "\n".join(lines)
+
+    def summary_tabular(self) -> List[list]:
+        header = [
+            "uid_a",
+            "uid_b",
+            "id_a",
+            "id_b",
+            "match_stage",
+            "distance_ab",
+            "latitude_a",
+            "longitude_a",
+            "latitude_b",
+            "longitude_b",
+            "desc_a",
+            "desc_b",
+            "near_a",
+        ]
+        data = []
+
+        for index_a in range(0, len(self.a.items)):
+            _item_a = self.a.items[index_a]
+            if not _item_a:
+                # Skip very bad input (invalid geometry)
+                continue
+
+            _matrix = self.matrix[index_a]
+
+            # print(_item_a, _matrix)
+            # print(_item_a[1], _matrix)
+            # # print(_item_a[1])
+            # print('aa', _matrix)
+
+            uid_a = f"A{index_a}"
+            uid_b = "" if not _matrix else f"B{_matrix[0]}"
+            # id_a = "" if not "id" in _item_a else _item_a["id"]
+            id_a = (
+                "" if not _item_a[1] or not "@id" in _item_a[1] else _item_a[1]["@id"]
+            )
+            if id_a == "" and _item_a[1] and "id" in _item_a[1]:
+                id_a = _item_a[1]["id"]
+
+            id_b = ""
+            # if _matrix and self.b.items[_matrix[0]]:
+            if (
+                _matrix
+                and self.b.items[_matrix[0]][1]
+                # and "id" in self.b.items[_matrix[0]][1]
+            ):
+                # print(self.b.items[_matrix[0]][1])
+                if "@id" in self.b.items[_matrix[0]][1]:
+                    id_b = self.b.items[_matrix[0]][1]["@id"]
+                if "id" in self.b.items[_matrix[0]][1]:
+                    id_b = self.b.items[_matrix[0]][1]["id"]
+                # pass
+
+            match_stage = ""
+
+            # if not _matrix or not "id" in _matrix[1] else _item_a[1]["id"]
+            distance_ab = -1 if not _matrix else round(_matrix[2], 2)
+            latitude_a = "" if not _item_a else _item_a[0][1]
+            longitude_a = "" if not _item_a else _item_a[0][0]
+            latitude_b = "" if not _matrix else self.b.items[_matrix[0]][0][1]
+            longitude_b = "" if not _matrix else self.b.items[_matrix[0]][0][0]
+
+            # print(self.a.items[index_a])
+            desc_a = "" if not _item_a else self._short_title(self.a.items[index_a][1])
+            desc_b = (
+                "" if not _matrix else self._short_title(self.b.items[_matrix[0]][1])
+            )
+            # if _matrix:
+            #     print(_matrix[3])
+            near_a = "" if not _matrix or not _matrix[3] else " ".join(_matrix[3])
+
+            # @TODO implement stages
+            if distance_ab > -1:
+                match_stage = 5
+
+            # print("index_a", index_a)
+            # pass
+            data.append(
+                [
+                    uid_a,
+                    uid_b,
+                    id_a,
+                    id_b,
+                    match_stage,
+                    distance_ab,
+                    latitude_a,
+                    longitude_a,
+                    latitude_b,
+                    longitude_b,
+                    desc_a,
+                    desc_b,
+                    near_a,
+                ]
+            )
+
+        data.insert(0, header)
+
+        # return data.insert(0, header)
+        return data
+
+
+class ItemMatcher:
+    def __init__(
+        self,
+        item,
+        item_aliases: list,
+        candidates: list,
+        candidates_aliases: list,
+        crules: Type["ConflationRules"],
+        levenshtein: Type["LevenshteinHelper"],
+    ) -> None:
+        self.item = item
+        # self.candidates = candidates
+        ## Improve this part
+        self.candidates_valid = None
+        self.automacher = None
+        self.crules = crules
+        self.levenshtein = levenshtein
+
+        self.compute(item_aliases, candidates_aliases, candidates)
+
+    def compute(self, item_aliases, candidates_aliases, candidates):
+        # candidates = self.candidates
+
+        # print(self.item, candidates)
+        _ext = []
+        for idx, item in enumerate(candidates):
+            _ext.append((item[0], item[1], item_aliases, candidates_aliases[idx]))
+        # candidates_sorted = sorted(candidates, key=lambda tup: tup[0])
+        candidates_sorted = sorted(
+            _ext, key=lambda tup: Levenshtein.setratio(tup[2], tup[3]), reverse=True
+        )
+
+        # Improve this part
+        self.candidates_valid = candidates_sorted
+
+        dist = candidates_sorted[0][0]
+        index_b = candidates_sorted[0][1]
+        skiped = None
+        if len(candidates) > 1:
+            skiped = []
+            # for i in range(1, len(candidates)):
+            for i in range(0, len(candidates)):
+                skiped.append(f"B{candidates[i][1]}")
+
+        # self.matrix.append((index_b, MATCH_NEAR, round(dist, 2)))
+        # self.matrix.append((index_b, MATCH_NEAR, dist, skiped))
+        # return (index_b, MATCH_NEAR, dist, skiped)
+
+        self.automacher = (index_b, MATCH_NEAR, dist, skiped)
+
+    def result(self):
+        if not self.candidates_valid or len(self.candidates_valid) == 0:
+            return None
+        if len(self.candidates_valid) == 0:
+            return None
+
+        # @TODO order this part better
+        # return self.candidates_valid[0]
+        if self.automacher:
+            return self.automacher
+        return None
+
+
+@dataclasses.dataclass
+class MatchResult:
+    match_index: int
+    match_dist: float
+
+
+def parse_argument_values(arguments: list, delimiter: str = "||") -> dict:
+    if not arguments or len(arguments) == 0 or not arguments[0]:
+        return None
+
+    result = {}
+    for item in arguments:
+        # print('__', item, item.find(delimiter))
+        if item.find(delimiter) > -1:
+            _key, _val = item.split(delimiter)
+            result[_key] = _val
+        else:
+            result[item] = True
+
+    # print('__f', result)
+    return result
+
+
+def tabular_writer(file_or_stdout: str, data: List[list], delimiter: str = ",") -> None:
+    """Write a tabular file
+
+    Args:
+        file_or_stdout (str): file or stdout
+        data (List[list]): List of lists with data to be outputed
+        delimiter (str, optional): Delimiter. Defaults to ",".
+    """
+    cwriter = csv.writer(file_or_stdout, delimiter=delimiter)
+    for line in data:
+        cwriter.writerow(line)
+
+
+def exec_from_console_scripts():
+    main = Cli()
+    args = main.make_args()
+    main.execute_cli(args)
+
+
+if __name__ == "__main__":
+    main = Cli()
+    args = main.make_args()
+    main.execute_cli(args)
