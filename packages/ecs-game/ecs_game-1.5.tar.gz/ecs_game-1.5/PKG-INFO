@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: ecs-game
+Version: 1.5
+Summary: A package containing the functions and code needed to run the ECS Big Game Project. Based on Pygame-Zero
+Project-URL: Homepage, https://github.com/Luddo183/ECS-Game
+Project-URL: Issues, https://github.com/Luddo183/ECS-Game/issues
+Author-email: Haider Iqbal <haideriqbal11@outlook.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ECS Game
+Code for the final video game project the ECS introductory computer science course.
+This package contains the "engine" that runs the game.
+Uses Pygame-Zero for easy modification.

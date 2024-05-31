@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "pgzero", "requests"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ecs-game"
+version = "1.5"
+authors = [
+  { name="Haider Iqbal", email="haideriqbal11@outlook.com" },
+]
+description = "A package containing the functions and code needed to run the ECS Big Game Project. Based on Pygame-Zero"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Luddo183/ECS-Game"
+Issues = "https://github.com/Luddo183/ECS-Game/issues"
