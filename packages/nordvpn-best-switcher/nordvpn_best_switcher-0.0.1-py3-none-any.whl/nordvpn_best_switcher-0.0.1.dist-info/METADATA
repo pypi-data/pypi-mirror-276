@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nordvpn-best-switcher
+Version: 0.0.1
+Summary: NordVPN Switcher based on https://github.com/ualers/NordVPN-switcher
+Author: n000b3r
+Author-email: n000b3r@gmail.com
+Keywords: python,NordVPN
+Classifier: Operating System :: Microsoft :: Windows
+
+Most updated NordVPN Switcher
