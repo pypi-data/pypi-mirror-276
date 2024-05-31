@@ -1,0 +1,47 @@
+// File: {{ mesh.filename }}
+
+{{mesh.varname }}_xsize = {{ mesh.xsize }};
+{{mesh.varname }}_ysize = {{ mesh.ysize }};
+{{mesh.varname }}_zsize = {{ mesh.zsize }};
+{{mesh.varname }}_xposition = {{ mesh.minx }};
+{{mesh.varname }}_yposition = {{ mesh.miny }};
+{{mesh.varname }}_zposition = {{ mesh.minz }};
+
+
+NE=1; NW=2; SW=3; SE=4; CTR=5; CTRXY=6;
+
+module {{mesh.varname }}_obj2origin (where) {
+    if (where == NE) {
+        {{mesh.varname}}_objNE ();
+    }
+
+    if (where == NW) {
+        translate([-{{ mesh.xsize }},0,0])
+        {{mesh.varname}}_objNE ();
+    }
+
+    if (where == SW) {
+        translate([-{{ mesh.xsize }},-{{ mesh.xsize }},0])
+        {{mesh.varname}}_objNE ();
+    }
+
+    if (where == SE) {
+        translate([0,-{{ mesh.ysize }},0])
+        {{mesh.varname}}_objNE ();
+    }
+
+    if (where == CTR) {
+        translate([{{ -mesh.midx }},{{ -mesh.midy }},{{ -mesh.midz }}])
+        {{mesh.varname}}_objNE ();
+    }
+
+    if (where == CTRXY) {
+        translate([{{ -mesh.midx }},{{ -mesh.midy }},0])
+        {{mesh.varname}}_objNE ();
+    }
+}
+    
+module {{mesh.varname }}_objNE () {
+    translate([ {{ mesh.minx }},{{ mesh.miny }},{{ mesh.minz }}])
+        import("{{ stlfile }}");
+}
