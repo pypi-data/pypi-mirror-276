@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mf_pytorch
+Version: 0.0.1
+Author-email: Thuy Nguyen <thuy.nguyenduc02@hcmut.edu.vn>, Kiet Tran <kiet.trank1netic@hcmut.edu.vn>
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: boto3
+
+# mf-pytorch
+Library for working with MeteorFlow data
