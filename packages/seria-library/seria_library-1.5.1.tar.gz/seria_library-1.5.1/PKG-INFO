@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: seria-library
+Version: 1.5.1
+Summary: Seria's library (of code)
+License: GPL-3.0
+Author: seriaati
+Author-email: seria.ati@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: all
+Provides-Extra: files
+Provides-Extra: tortoise
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0) ; extra == "all" or extra == "files"
+Requires-Dist: discord-py (>=2.3.2,<3.0.0) ; extra == "all"
+Requires-Dist: orjson (>=3.9.13,<4.0.0) ; extra == "all" or extra == "files"
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0) ; extra == "all" or extra == "files"
+Requires-Dist: tortoise-orm[asyncpg] (>=0.21.0,<0.22.0) ; extra == "all" or extra == "tortoise"
+Description-Content-Type: text/markdown
+
+# seria-library
+ Seria's library (of code).
+
