@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pypitests
+Version: 0.0.12
+Summary: pypitests for testing pypi services.
+Home-page: https://github.com/droxberka/pypitests
+Author: droxberka
+Author-email: droxberka@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# PYPITESTS
