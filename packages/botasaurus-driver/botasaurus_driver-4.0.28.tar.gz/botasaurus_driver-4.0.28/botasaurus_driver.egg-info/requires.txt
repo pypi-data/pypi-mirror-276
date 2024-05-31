@@ -1,0 +1,4 @@
+websocket-client>=1.8.0
+botasaurus-proxy-authentication
+psutil
+pyvirtualdisplay
