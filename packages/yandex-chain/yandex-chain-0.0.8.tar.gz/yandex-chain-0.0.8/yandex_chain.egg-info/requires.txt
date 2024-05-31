@@ -1,0 +1,3 @@
+requests
+langchain==0.2.1
+tenacity
