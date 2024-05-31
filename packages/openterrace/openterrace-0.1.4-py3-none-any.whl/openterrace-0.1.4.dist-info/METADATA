@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: openterrace
+Version: 0.1.4
+Summary: OpenTerrace: A fast, flexible and extendable Python framework for packed bed thermal energy storage simulations
+Home-page: https://github.com/OpenTerrace/openterrace-python
+License: MIT
+Keywords: Thermal energy storage,Packed bed,Simulation,Heat transfer,Phase change material,PCM,Python
+Author: Jakob Hærvig
+Maintainer: Jakob Hærvig
+Maintainer-email: jakob.haervig@gmail.com
+Requires-Python: >=3.11.8,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Requires-Dist: numba (>=0.59.0,<0.60.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pytest-xdist (>=3.5.0,<4.0.0)
+Requires-Dist: scipy (>=1.12.0,<2.0.0)
+Requires-Dist: tqdm (>=4.66.2,<5.0.0)
+Project-URL: Bug Tracker, https://github.com/OpenTerrace/openterrace-python/issues
+Project-URL: Documentation, https://openterrace.github.io/openterrace-python/
+Project-URL: Repository, https://github.com/OpenTerrace/openterrace-python
+Description-Content-Type: text/markdown
+
+![GitHub Release](https://img.shields.io/github/v/release/OpenTerrace/openterrace-python) ![PyPI - Version](https://img.shields.io/pypi/v/openterrace)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/openterrace) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/openterrace/openterrace-python/pytest.yml) ![GitHub Issues](https://img.shields.io/github/issues/openterrace/openterrace-python
+)
+
+
+![Logo](https://raw.githubusercontent.com/OpenTerrace/openterrace-python/main/docs/_figures/logo-openterrace.svg)
+
+OpenTerrace is a pure Python framework for packed bed thermal energy storage simulations. It is built from the ground up to be flexible and extendable on modern Python 3.x with speed in mind.
+
+OpenTerrace uses awesome open-source software such as
+[Numba](https://numba.pydata.org), [NumPy](https://numpy.org/) and [SciPy](https://scipy.org/):grey_exclamation:
+
+### [Read the documentation of OpenTerrace](https://openterrace.github.io/openterrace-python/)
+
+## Why OpenTerrace?
+- **FAST**  
+By making use of modern compilers and optimised tri-diagonal matrix solvers, OpenTerrace is built to be fast.
+
+- **FLEXIBLE**  
+OpenTerrace is built from the ground up to be flexible for easy integration in system models or optimisation loops.
+
+- **EXTENDABLE**  
+Modules for new materials such as non-spherical rocks or exotic Phase Change Materials (PCM) can easily be plugged into the OpenTerrace framework.
+
+## Want to contribute?
+Contributions are welcome :pray: Feel free to send pull requests or get in touch with me to discuss how to collaborate. More details in the [docs](https://openterrace.github.io/openterrace-python/).
+
+## Code contributors
+* Jakob Hærvig, Associate Professor, AAU Energy, Aalborg University, Denmark
