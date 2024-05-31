@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: ccpstencil
+Version: 0.5.1
+Summary: An Alviss powered Template renderer where the context input can be files and entire directory structures can be rendered.
+Author-email: Thordur Matthiasson <thordurm@ccpgames.com>
+License: MIT License
+        
+        Copyright (c) 2024 CCP Games
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/ccpgames/ccp-stencil
+Project-URL: Documentation, https://github.com/ccpgames/ccp-stencil/blob/main/README.md
+Project-URL: Repository, https://github.com/ccpgames/ccp-stencil.git
+Project-URL: Issues, https://github.com/ccpgames/ccp-stencil/issues
+Project-URL: Changelog, https://github.com/ccpgames/ccp-stencil/blob/main/CHANGELOG.md
+Keywords: alviss,template,render,jinja2,tools,ccp,utils
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ccptools <2,>=1.1
+Requires-Dist: alviss <4,>=3.3
+Requires-Dist: jinja2 <4,>=3.1
+
+# CCP Stencil
+
+An Alviss and Jinja2 powered template renderer where the context input can be 
+files and entire directory structures can be rendered.
+
+This is a generalized variant of the "CCP Borg Bootstrapper" project 
+bootstrapping and build and deployment tool which used entire "template" 
+projects that were rendered to bootstrap entire projects and to render CI/CD 
+manifests on demand. 
+
+The rest of this readme is (at the moment) just a "sketch" for how this package 
+should work and was written before any actual code or functionality.
+
+## Context
+
+- [x] No context (Weird use case...?!?)
+- [x] kwargs context (via code)
+- [x] Dict context (via code)
+- [x] Alviss file context (json/yaml + inheritance)
+- [x] Args context (from commandline)
+
+## Template
+
+- [x] String template (via code)
+- [x] File template
+- [x] Args template (from commandline)
+- [ ] Directory template
+
+## Renderer
+
+- [x] String renderer (via code)
+- [x] Stdout renderer (for commandline)
+- [x] File renderer
+- [ ] Directory renderer
+
+## Other features...?
+
+- [x] ENV var rendering (can be done via ${__ENV__:FOO} in Alviss input)?
+- [ ] Meta-data header in files for Directory rendering that controls file names and/or if they should be rendered or not
+  - [x] Skip-if tag for skipping file rendering
+  - [ ] Some meta-tag that can control the output name of a file via the `FileRenderer`
+- [ ] Meta-data file for directories in Directory rendering that control the directory name?
+- [x] Proper Jinja2 Environment Template Loader to enable Jinja's include/extend stuff?
+- [x] Custom macros/scripts/filters?
+
+## Use Cases
+
+- From commandline (main use case, e.g. rendering CI/CD manifests)
+- From code
+
+### Command Line Use Case Examples
+
+Using these as a basis for functionality (this is written before any actual code)!
+
+#### Example 1
+
+```shell
+$ ccp-stencil -i context.yaml -t template.html -o result.html
+```
+
+- Alviss file input: `-i context.yaml`
+- Template file input: `-t template.html`
+- Render file output: `-o result.html`
+
+
+#### Example 2
+
+```shell
+$ ccp-stencil -a name=Bob -a age=7 -a color=Red -s "My name is {{name}} and I am {{age}} years old and my favorite color is {{color}}"
+My name is Bob and I am 7 years old and my favorite color is Red
+```
+
+- Args input: `-a name=Bob -a age=7 -a color=Red`
+- String template input: `-s "My name is {name} and I am {age} years old and my favorite color is {color}"`
+- Print (stdout) output: _No argument, this is default!_
+
+
+#### Example 3
+
+```shell
+$ ccp-stencil -T templates/ -O build/
+```
+
+- No context input: _No argument, this is default!_
+- Template directory input: `-T templates/`
+- Render directory output: `-O build/`
