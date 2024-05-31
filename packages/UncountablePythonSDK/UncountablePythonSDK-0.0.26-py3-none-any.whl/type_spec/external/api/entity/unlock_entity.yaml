@@ -1,0 +1,18 @@
+$endpoint:
+    is_sdk: true
+    method: post
+    path: ${external}/entity/external_unlock_entity
+    function: main.site.app.external.entity.external_unlock_entity.external_unlock_entity
+    desc: Unlock an entity
+
+Arguments:
+    type: Object
+    properties:
+        entity_key:
+            type: identifier.IdentifierKey
+            desc: "Identifier for the entity"
+        entity_type:
+            type: entity.EntityType
+
+Data:
+  type: async_batch.AsyncBatchActionReturn

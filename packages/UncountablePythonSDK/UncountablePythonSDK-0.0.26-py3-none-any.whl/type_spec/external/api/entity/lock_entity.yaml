@@ -1,0 +1,21 @@
+$endpoint:
+    is_sdk: true
+    method: post
+    path: ${external}/entity/external_lock_entity
+    function: main.site.app.external.entity.external_lock_entity.external_lock_entity
+    desc: Lock an entity
+
+Arguments:
+    type: Object
+    properties:
+        entity_key:
+            type: identifier.IdentifierKey
+            desc: "Identifier for the entity"
+        entity_type:
+            type: entity.EntityType
+        globally_removable?:
+            type: Boolean
+            desc: "Should the lock be removable by any user or just admins"
+
+Data:
+  type: async_batch.AsyncBatchActionReturn

@@ -1,0 +1,17 @@
+$endpoint:
+    is_sdk: true
+    method: post
+    path: ${external}/recipes/unarchive
+    function: main.site.app.external.recipes.unarchive_recipes.unarchive_recipes
+    desc: Unarchive/restore the provided recipes
+
+Arguments:
+    type: Object
+    properties:
+        recipes:
+            type: List<identifier.IdentifierKey>
+            desc: Identifier for the recipe
+
+
+Data:
+  type: Object

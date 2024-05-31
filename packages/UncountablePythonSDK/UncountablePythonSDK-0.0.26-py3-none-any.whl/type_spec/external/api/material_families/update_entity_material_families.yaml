@@ -1,0 +1,33 @@
+$endpoint:
+    is_sdk: true
+    method: post
+    path: ${external}/material_families/external_update_entity_material_families
+    function: main.site.app.external.material_families.update_entity_material_families.update_entity_material_families
+    desc: "Updates the material families that the entity is available in"
+
+Arguments:
+    type: Object
+    properties:
+        entity_key:
+          type: identifier.IdentifierKey
+          desc: "The identifier for the entity to update across material families"
+        entity_type:
+            type: |
+                Union<
+                    Literal<entity.EntityType.recipe_metadata>,
+                    Literal<entity.EntityType.ingredient>,
+                    Literal<entity.EntityType.output>,
+                    Literal<entity.EntityType.condition_parameter>,
+                    Literal<entity.EntityType.ingredient_attribute>
+                >
+            desc: "The type of the entities requested"
+        material_family_ids:
+            type: List<ObjectId>
+            desc: "The material families to update"
+        update_type:
+            type: post_base.UpdateType
+            desc: "The type of update to make"
+
+Data:
+    type: response.Response
+    properties:
