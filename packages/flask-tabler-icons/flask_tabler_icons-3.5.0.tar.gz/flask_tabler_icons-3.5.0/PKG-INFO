@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: flask-tabler-icons
+Version: 3.5.0
+Summary: a collection of jinja macros for tabler icons
+Author-email: Lix Xu <xuzenglin@gmail.com>
+License: Copyright 2023 lix
+        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/lixxu/flask-tabler-icons
+Project-URL: Bug Tracker, https://github.com/lixxu/flask-tabler-icons/issues
+Keywords: flask-tabler-icons
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: flask
+
+# flask-tabler-icons
+
+flask-tabler-icons is a collection of Jinja macros for [tabler-icons](https://tabler-icons.io/) and Flask.
+
+## Installation
+
+```bash
+pip install -U flask-tabler-icons
+```
+
+## Example (check examples folder for details)
+
+Register the extension:
+
+```python
+from flask import Flask
+from flask_tabler_icons import TablerIcons
+
+app = Flask(__name__)
+tabler_icons = TablerIcons(app)
+```
+
+```html
+
+{% from "tabler_icons.html" import render_icon %}
+
+<html>
+  <head>
+    <!-- css area -->
+    <style>
+        .custom-css {
+          color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>tabler icon</h2>
+    {{ render_icon("helicopter", class="custom-css") }}
+    {{ render_icon("helicopter", animation="pulse", color="blue") }}
+    {{ render_icon("helicopter", animation="tada", color="blue") }}
+    {{ render_icon("helicopter", animation="rotate", color="blue") }}
+  </body>
+</html>
+```
