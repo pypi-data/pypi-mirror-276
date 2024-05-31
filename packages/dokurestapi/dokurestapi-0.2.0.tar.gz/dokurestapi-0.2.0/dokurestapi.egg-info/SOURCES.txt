@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+Login/__init__.py
+Users/__init__.py
+dokurestapi.egg-info/PKG-INFO
+dokurestapi.egg-info/SOURCES.txt
+dokurestapi.egg-info/dependency_links.txt
+dokurestapi.egg-info/requires.txt
+dokurestapi.egg-info/top_level.txt
