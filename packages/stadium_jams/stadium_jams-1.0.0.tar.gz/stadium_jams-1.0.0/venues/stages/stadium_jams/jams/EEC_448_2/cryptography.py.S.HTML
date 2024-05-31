@@ -1,0 +1,34 @@
+
+
+
+
+from cryptography.hazmat.backends import default_backend
+		from cryptography.hazmat.primitives.asymmetric.ed448 import Ed448PrivateKey, Ed448PublicKey
+		from cryptography.hazmat.primitives import hashes
+		from cryptography.exceptions import InvalidSignature
+
+		# Generate a new Ed448 private key
+		private_key = Ed448PrivateKey.generate()
+
+		# Extract the public key from the private key
+		public_key = private_key.public_key()
+
+		# Message to be signed
+		message = b"Hello, world!"
+
+		# Sign the message with the private key
+		signature = private_key.sign(message)
+
+		# Verify the signature using the public key
+		try:
+			public_key.verify(signature, message)
+			print("Signature is valid.")
+		except InvalidSignature:
+			print("Invalid signature.")
+
+		# Attempt to verify an incorrect signature
+		try:
+			public_key.verify(b"incorrect_signature", message)
+			print("Signature is valid.")
+		except InvalidSignature:
+			print("Invalid signature.")
