@@ -1,0 +1,7 @@
+[project]
+name = "data-integration-and-transformation-library"
+version = "0.0.0"
+authors = [
+    {name = "Jochen Gietzen", email = "jochen.gietzen@gmail.com"}
+]
+description = "Coming soon"

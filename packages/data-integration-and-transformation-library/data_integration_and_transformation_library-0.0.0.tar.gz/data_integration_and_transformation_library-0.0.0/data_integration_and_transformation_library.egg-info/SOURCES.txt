@@ -1,0 +1,6 @@
+pyproject.toml
+data_integration_and_transformation_library.egg-info/PKG-INFO
+data_integration_and_transformation_library.egg-info/SOURCES.txt
+data_integration_and_transformation_library.egg-info/dependency_links.txt
+data_integration_and_transformation_library.egg-info/top_level.txt
+simple_etl/__init__.py
