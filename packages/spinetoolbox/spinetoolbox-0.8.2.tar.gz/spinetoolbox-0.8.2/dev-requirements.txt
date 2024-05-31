@@ -1,0 +1,9 @@
+coverage[toml]
+black == 24.4.2
+pre-commit == 2.0.1
+pylint
+pyperf
+sphinx
+sphinx_rtd_theme
+sphinx-autoapi
+recommonmark
