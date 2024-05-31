@@ -1,0 +1,12 @@
+celery_starter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_starter/_localization.py,sha256=pVHuRQLPX5ySrCJt2JaXZiLFL_cYT4TtPd5g_m7sY4k,2187
+celery_starter/apps.py,sha256=1c0kO43PrmzZilkEJdf6l3x7dVkXWYvarjU7uloXm0c,176
+celery_starter/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_starter/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_starter/management/commands/runcelery.py,sha256=eirsQVl12vVKY7uvClRMykjDvisq1UnOf_yPruGFJb0,8401
+celery_starter-1.0.3.dist-info/LICENSE,sha256=9971QSIv_oNdQseTrYINAPLznhpM07j4G6xXmp4GUAo,1064
+celery_starter-1.0.3.dist-info/METADATA,sha256=1GS2g4HbP9lt97HdfR--aA9beW9SOSX4PFAycP5Si8Y,10465
+celery_starter-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+celery_starter-1.0.3.dist-info/entry_points.txt,sha256=ncBXswsTvXtxUT3WNOE4yHRIUyAeKmGp6m3IojBqUtY,113
+celery_starter-1.0.3.dist-info/top_level.txt,sha256=lPnAxjgIOjM5sKPxB5Bb48WqS0_RveoEpDI_HRfshCk,15
+celery_starter-1.0.3.dist-info/RECORD,,
