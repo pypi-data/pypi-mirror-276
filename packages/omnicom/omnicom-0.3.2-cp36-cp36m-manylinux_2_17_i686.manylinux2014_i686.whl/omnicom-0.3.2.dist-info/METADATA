@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: omnicom
+Version: 0.3.2
+Summary: A python module for a multisystem (currently only NES) emulator
+Home-page: UNKNOWN
+Author: Andrew Ogundimu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pybind11 (>=2.6.0)
+
+UNKNOWN
+
