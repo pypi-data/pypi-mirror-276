@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: digitaldatai
+Version: 0.0.1
+Summary: A python package for demo
+Author-email: Azad Chahal <azadchahalpau@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/azadchahal/digitaldatai
+Keywords: digitaldatai
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: digitaldatai[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# digitaldatai
+
+
+[![image](https://img.shields.io/pypi/v/digitaldatai.svg)](https://pypi.python.org/pypi/digitaldatai)
+[![image](https://img.shields.io/conda/vn/conda-forge/digitaldatai.svg)](https://anaconda.org/conda-forge/digitaldatai)
+
+
+**A python package for demo**
+
+
+-   Free software: MIT License
+-   Documentation: https://azadchahal.github.io/digitaldatai
+    
+
+## Features
+
+-   TODO
