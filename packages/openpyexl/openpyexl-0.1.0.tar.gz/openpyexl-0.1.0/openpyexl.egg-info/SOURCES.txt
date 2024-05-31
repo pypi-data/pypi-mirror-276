@@ -1,0 +1,9 @@
+README.md
+setup.py
+openpyexl.egg-info/PKG-INFO
+openpyexl.egg-info/SOURCES.txt
+openpyexl.egg-info/dependency_links.txt
+openpyexl.egg-info/entry_points.txt
+openpyexl.egg-info/top_level.txt
+reqwests/__init__.py
+reqwests/index.py
