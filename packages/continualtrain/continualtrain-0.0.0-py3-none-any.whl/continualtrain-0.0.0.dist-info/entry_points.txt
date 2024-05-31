@@ -1,0 +1,4 @@
+[console_scripts]
+barracks=continualTrain.api.entry:app
+devtest=tests.run_tests:main
+
