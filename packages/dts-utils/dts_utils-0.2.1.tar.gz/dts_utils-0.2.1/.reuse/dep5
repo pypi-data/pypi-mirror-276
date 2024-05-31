@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pyledger-devicetree-parser
+Upstream-Contact: Ledger SAS <firmware@ledger.fr>
+Source: https://git.orange.ledgerlabs.net/outpost/python-devicetree-parser
+
+Files: doc/*
+Copyright: 2024 Ledger SAS
+License: Apache-2.0

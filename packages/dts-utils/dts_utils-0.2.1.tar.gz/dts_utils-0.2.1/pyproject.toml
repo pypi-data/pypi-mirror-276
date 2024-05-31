@@ -1,0 +1,59 @@
+# SPDX-FileCopyrightText: 2024 Ledger SAS
+# SPDX-License-Identifier: Apache-2.0
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dts-utils"
+description = "DTS utility python package"
+dynamic = ["version"]
+requires-python = ">= 3.10"
+readme = "README.md"
+authors = [
+    {email = "Ledger SAS <firmware@ledger.fr>"},
+]
+license = {file = "LICENSES/Apache-2.0.txt"}
+dependencies = [
+    "devicetree>=0.0.2",
+    "Jinja2>3",
+    "rich",
+]
+
+# TODO
+# [project.urls]
+# Homepage =
+# Documentation =
+# Repository =
+# Issues =
+
+[project.scripts]
+dts_dump = 'dts_utils.dump:main'
+dts2src = 'dts_utils.builder:main'
+
+[project.optional-dependencies]
+devel = [
+    "coverage>=0.4",
+    "flake8>=7.0,<8.0",
+    "flake8-html>=0.4.3",
+    "mypy>=1.8.0",
+    "pytest>=4.6",
+    "black>=24.2,<25.0",
+    "cachetools>=5.3",
+    "lxml>=4.8.0",
+    "pydoclint",
+    "flake8-docstrings",
+]
+doc = [
+    "Sphinx>=7.2.0",
+    "sphinx-rtd-theme>=2.0.0",
+    "sphinx-simplepdf>=1.6.0",
+    "sphinx-autoapi",
+]
+license = [
+    "reuse>=3.0.0",
+]
+
+[tool.setuptools_scm]
+# intentionally blank

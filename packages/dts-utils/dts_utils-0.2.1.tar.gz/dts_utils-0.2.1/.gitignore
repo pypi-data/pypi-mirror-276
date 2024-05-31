@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2024 Ledger SAS
+#
+# SPDX-License-Identifier: Apache-2.0
+
+reports
+build
+dist
+*.egg-info
+**__pycache__
+.eggs/
+.tox
+.coverage
+*.pyc
+.doc
