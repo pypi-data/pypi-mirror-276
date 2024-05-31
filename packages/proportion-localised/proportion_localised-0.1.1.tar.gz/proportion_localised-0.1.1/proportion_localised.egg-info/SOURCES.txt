@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+proportion_localised/__init__.py
+proportion_localised/__main__.py
+proportion_localised.egg-info/PKG-INFO
+proportion_localised.egg-info/SOURCES.txt
+proportion_localised.egg-info/dependency_links.txt
+proportion_localised.egg-info/top_level.txt
