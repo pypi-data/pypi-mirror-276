@@ -1,0 +1,8 @@
+llama_index/agent/openai_legacy/__init__.py,sha256=Q4TWY9cKb1XSYqRwcLYauEX0fUcxNP1zetP_xzKQZE0,412
+llama_index/agent/openai_legacy/context_retriever_agent.py,sha256=YrLvbEuO7KKl-g7FuovEGSuE3gt189WEAfiQxRvQT04,7463
+llama_index/agent/openai_legacy/openai_agent.py,sha256=P_aqjWOHiEd1K5gL-eRkR-Ur-YiwSMU1xD6h3i6jp0E,22767
+llama_index/agent/openai_legacy/retriever_openai_agent.py,sha256=Y6JCk0kKlLgrY0PHDj2lCR-ZGeS_FTUQO3LIdmlt8wU,857
+llama_index/agent/openai_legacy/utils.py,sha256=gGJczEVSHkD8VnCZhwOfcMTFZwwU0N5fj8sybsRSuHI,772
+llama_index_agent_openai_legacy-0.1.5.dist-info/METADATA,sha256=_S8yXZ-Es7dQ8szOJzbPd6QiAAwX1nM4n4QLe7bJ2aQ,666
+llama_index_agent_openai_legacy-0.1.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_agent_openai_legacy-0.1.5.dist-info/RECORD,,
