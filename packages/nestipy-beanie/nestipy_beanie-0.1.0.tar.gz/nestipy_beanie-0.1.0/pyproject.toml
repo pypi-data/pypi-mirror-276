@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nestipy-beanie"
+version = "0.1.0"
+description = ""
+authors = ["tsiresymila <tsiresymila@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nestipy_beanie", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nestipy = "^0.3.7"
+beanie = "^1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
