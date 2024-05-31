@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: contextooor-uniswap
+Version: 0.0.1
+Summary: "Get contextual information before broadcasting a transaction."
+Author-email: David Desjardins <david.thegardens@gmail.com>
+Requires-Dist: web3>=6.11.4
+Requires-Dist: uniswap_universal_router_decoder
+Requires-Dist: pytest
+Requires-Dist: requests
