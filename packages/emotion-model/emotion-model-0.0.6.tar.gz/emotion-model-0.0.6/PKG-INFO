@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: emotion-model
+Version: 0.0.6
+Summary: Emotion recognition package made with keras.
+Home-page: https://github.com/Ilyaant/emotion-clf-package
+Author: Ilya Antonov & Paul Khoner
+Author-email: m1908142@edu.misis.ru
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Emotion model
+
+## Установка библиотеки
+
+Чтобы установить библиотеку, выполните:
+
+```
+pip install emotion-model
+```
+
+После этого сделайте вызов функции на вашем изображении, чтобы получить предсказание:
+
+```
+from emotion_model.predict import make_prediction
+
+result = make_prediction(<Путь к вашему изображению>)
+
+print(result)
+```
+
+
