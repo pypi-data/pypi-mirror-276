@@ -1,0 +1,81 @@
+sparkApp:
+    spec:
+      sparkConf:
+        spark.eventLog.enabled: "true"
+        spark.sql.extensions: "io.delta.sql.DeltaSparkSessionExtension"
+        spark.sql.catalogImplementation: "hive"
+        spark.sql.catalog.spark_catalog: "org.apache.spark.sql.delta.catalog.DeltaCatalog"
+        spark.eventLog.dir: "s3a://spark-infrastructure/spark-events"
+    driver:
+      cores: 1
+      coreLimit: "2000m"
+      memory: "4096m"
+      labels:
+        version: 3.4.0
+      serviceAccount: spark
+      env:
+        - name: KRAUSENING_BASE
+          value: /opt/spark/krausening/base
+        - name: KRAUSENING_EXTENSIONS
+          value: /opt/spark/krausening/dev
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: AWS_ACCESS_KEY_ID
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: AWS_SECRET_ACCESS_KEY
+        - name: KRAUSENING_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: KRAUSENING_PASSWORD
+        - name: objData_FS_PROVIDER
+          value: "s3"
+        - name: objData_FS_ACCESS_KEY_ID
+          value: ""
+        - name: objData_FS_SECRET_ACCESS_KEY
+          value: ""
+        - name: objData_FS_SECURE
+          value: "false"
+        - name: objData_FS_HOST
+          value: "s3-local"
+        - name: objData_FS_PORT
+          value: "4566"
+        - name: STORAGE_ENDPOINT
+          value: "http://s3-local:4566"
+      javaOptions: "-DKRAUSENING_BASE=/opt/spark/krausening/base -DKRAUSENING_EXTENSIONS=/opt/spark/krausening/dev"
+    executor:
+      cores: 1
+      instances: 1
+      memory: "4096m"
+      coreLimit: "4100m"
+      labels:
+        version: 3.4.0
+      env:
+        - name: KRAUSENING_BASE
+          value: /opt/spark/krausening/base
+        - name: KRAUSENING_EXTENSIONS
+          value: /opt/spark/krausening/dev
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: AWS_ACCESS_KEY_ID
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: AWS_SECRET_ACCESS_KEY
+        - name: STORAGE_ENDPOINT
+          value: "http://s3-local:4566"
+        - name: KRAUSENING_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: KRAUSENING_PASSWORD
+      javaOptions: "-DKRAUSENING_BASE=/opt/spark/krausening/base -DKRAUSENING_EXTENSIONS=/opt/spark/krausening/dev"
+

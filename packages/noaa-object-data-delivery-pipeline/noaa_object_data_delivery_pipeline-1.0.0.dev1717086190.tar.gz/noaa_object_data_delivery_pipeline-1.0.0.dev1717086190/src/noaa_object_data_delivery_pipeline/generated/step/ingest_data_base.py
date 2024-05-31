@@ -1,0 +1,99 @@
+###
+# #%L
+# NOAA GPD::Pipelines::Noaa Object Data Delivery Pipeline
+# %%
+# Copyright (C) 2021 Booz Allen
+# %%
+# All Rights Reserved. You may not copy, reproduce, distribute, publish, display, 
+# execute, modify, create derivative works of, transmit, sell or offer for resale, 
+# or in any way exploit any part of this solution without Booz Allen Hamilton’s 
+# express written permission.
+# #L%
+###
+from ...generated.step.abstract_pipeline_step import AbstractPipelineStep
+from krausening.logging import LogManager
+from abc import abstractmethod
+from time import time_ns
+from ..pipeline.pipeline_base import PipelineBase
+from pyspark.sql.dataframe import DataFrame
+from aiops_core_filestore.file_store_factory import FileStoreFactory
+from aiops_core_metadata.hive_metadata_api_service import HiveMetadataAPIService
+from pathlib import Path
+from policy_manager.configuration import PolicyConfiguration
+from aiops_encrypt_policy import DataEncryptionPolicy, DataEncryptionPolicyManager
+import os
+from typing import List
+
+
+
+class IngestDataBase(AbstractPipelineStep):
+    """
+    Performs scaffolding synchronous processing for IngestData. Business logic is delegated to the subclass.
+
+    GENERATED CODE - DO NOT MODIFY (add your customizations in IngestData).
+
+    Generated from: templates/data-delivery-pyspark/synchronous.processor.base.py.vm
+    """
+
+    logger = LogManager.get_instance().get_logger('IngestDataBase')
+    step_phase = 'IngestData'
+    bomIdentifier = "Unspecified IngestData BOM identifier"
+
+    def __init__(self, data_action_type, descriptive_label):
+        super().__init__(data_action_type, descriptive_label)
+
+        self.delta_output_directory = '/tmp/output/deltalake/'
+        self.set_metadata_api_service(HiveMetadataAPIService())
+        self.objDataStore = FileStoreFactory.create_file_store('objData')
+
+
+    def execute_step(self) -> DataFrame:
+        """
+        Executes this step.
+        """
+        start = time_ns()
+        IngestDataBase.logger.info('START: step execution...')
+
+
+        outbound = self.execute_step_impl()
+
+        self.record_provenance()
+
+
+        stop = time_ns()
+        IngestDataBase.logger.info('COMPLETE: step execution completed in %sms' % ((stop - start) / 1000000))
+
+
+        return outbound
+
+
+    @abstractmethod
+    def execute_step_impl(self) -> DataFrame:
+        """
+        This method performs the business logic of this step, 
+        and should be implemented in IngestData.
+        """
+        pass
+
+
+  
+
+
+    def save_dataset(self, dataset: DataFrame, table_name: str) -> None:
+        """
+        Saves a dataset.
+        """
+        IngestDataBase.logger.info('Saving %s To Delta Lake...' % self.descriptive_label)
+
+        path = self.delta_output_directory + table_name
+        dataset.write.format('delta').mode('append').save(path)
+        # PySpark 3.0 does not have a tableExists method
+        if table_name not in [t.name for t in self.spark.catalog.listTables()]:
+            self.spark.catalog.createTable(table_name, path, "delta")
+
+        IngestDataBase.logger.info('Saved %s to Delta Lake' % self.descriptive_label)
+
+
+
+
+
