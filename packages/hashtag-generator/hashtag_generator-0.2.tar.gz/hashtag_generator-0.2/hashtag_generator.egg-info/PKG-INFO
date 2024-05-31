@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hashtag-generator
+Version: 0.2
+Summary: An LLM-powered hashtag generator written in Python.
+Home-page: http://github.com/AdiPat/hashtag-generator
+Author: Aditya Patange
+Author-email: contact.adityapatange@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Hashtag Generator
+
+Generates hashtags for a content piece. 🏷️
+
+An LLM-powered hashtag generator written in Python. 
