@@ -1,0 +1,3 @@
+#!/bin/bash
+
+find src -name "*.py" | xargs black --skip-string-normalization

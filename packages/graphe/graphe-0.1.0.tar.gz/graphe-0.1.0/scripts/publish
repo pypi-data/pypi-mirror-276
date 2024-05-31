@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# to install the pypi package
+# this requires
+# pip3 install --user build
+# pip3 install --user twine
+
+rm -fr dist/*
+python3 -m build
+python3 -m twine upload --verbose --repository pypi dist/*
