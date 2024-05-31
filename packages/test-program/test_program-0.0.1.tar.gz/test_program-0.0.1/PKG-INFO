@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: test_program
+Version: 0.0.1
+Summary: A test package
+Home-page: 
+Author: HSM
+Author-email: hsm@gmail.com
+License: MIT
+Keywords: test
+License-File: LICENSE.txt
+
+a test package
+
+Change Log
+==========
+
+0.0.1 (30/05/2024)
+-------------------
+-First Release
