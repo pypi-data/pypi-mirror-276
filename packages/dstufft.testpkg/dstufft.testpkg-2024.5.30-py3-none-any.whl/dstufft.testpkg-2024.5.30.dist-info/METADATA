@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: dstufft.testpkg
+Version: 2024.5.30
+Author-email: Donald Stufft <donald@stufft.io>
+Requires-Python: >=3.11
+
