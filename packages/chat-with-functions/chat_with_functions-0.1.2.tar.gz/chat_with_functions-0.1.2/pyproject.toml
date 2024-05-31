@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chat-with-functions"
+version = "0.1.2"
+description = ""
+authors = ["Kento Masui <nameissoap@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "chat_with_functions" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pinjected = "*"
+tiktoken = "*"
+openai = "*"
+aiofiles = "*"
+watchdog = "*"
+editdistance = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
