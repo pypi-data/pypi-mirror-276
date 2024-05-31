@@ -1,0 +1,9 @@
+README.md
+setup.py
+allgraph/__init__.py
+allgraph/main.py
+allgraph.egg-info/PKG-INFO
+allgraph.egg-info/SOURCES.txt
+allgraph.egg-info/dependency_links.txt
+allgraph.egg-info/requires.txt
+allgraph.egg-info/top_level.txt
