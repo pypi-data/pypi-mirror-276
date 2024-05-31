@@ -1,0 +1,2 @@
+[console_scripts]
+usl_for_embedding = src.main:main
