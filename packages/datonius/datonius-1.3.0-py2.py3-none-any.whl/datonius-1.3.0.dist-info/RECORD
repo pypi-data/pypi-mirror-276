@@ -1,0 +1,11 @@
+datonius/__init__.py,sha256=DHViiEh3povEl2Ol015_mDJfM7AbHeN9CffWY-FrLXg,471
+datonius/cli.py,sha256=4UfGV6WIAIt1ihE-tXl91tCFJNA1z6zUYE97CX5J-lk,6522
+datonius/datonius.py,sha256=Q6yEBfxjD78fnHF39EnrjPVoyQQf-FAmumJrb6uCHag,25916
+datonius/ontology.py,sha256=7BTNRyeXi1Es-y7W8D5sGnHHforS6G6M39wjExoTZgM,2903
+datonius/util.py,sha256=9ADcwE6lbI4-RR8Whpwx5njoUXV5TAIEKRMjYR1XQDM,5690
+datonius-1.3.0.dist-info/AUTHORS.rst,sha256=V-ecyJ1kJnooBw32XC5wo28WD9bhAGbhhnTutysJcmg,175
+datonius-1.3.0.dist-info/METADATA,sha256=m6WwhImUd-yBS4YSFToTNZbpUACYWHS5nnk5oy0NUeg,1654
+datonius-1.3.0.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+datonius-1.3.0.dist-info/entry_points.txt,sha256=U4vMaDaJmcLogNB4UOdz0Qc4ZB3IqTS4rDNjDRvUJNY,42
+datonius-1.3.0.dist-info/top_level.txt,sha256=EjFrucqP50TkNowNIA7jFhT2oMBebCCpjJ1fnKbu1tU,9
+datonius-1.3.0.dist-info/RECORD,,
