@@ -1,0 +1,10 @@
+README.md
+setup.py
+easy_fnc.egg-info/PKG-INFO
+easy_fnc.egg-info/SOURCES.txt
+easy_fnc.egg-info/dependency_links.txt
+easy_fnc.egg-info/requires.txt
+easy_fnc.egg-info/top_level.txt
+models/__init__.py
+models/model.py
+models/ollama.py
