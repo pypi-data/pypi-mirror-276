@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: dwd4cast
+Version: 0.1.0
+Summary: python interface to collect and read GRIB files from the DWD
+Home-page: https://github.com/stalbrec/dwd4cast
+License: MIT
+Author: Albrecht, Steffen
+Author-email: steffen.alb@posteo.de
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: cfgrib (>=0.9.12,<0.10.0)
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: uvicorn (>=0.30.0,<0.31.0)
+Requires-Dist: xarray (>=2024,<2025)
+Project-URL: Repository, https://github.com/stalbrec/dwd4cast
+Description-Content-Type: text/markdown
+
+# dwd4cast: a minimal python interface to load and read GRIB weather forecast data from the german weather services (DWD)
+
+## Installation
+Installing `dwd4cast`from pypi (e.g. with `pip`):
+```bash
+pip install dwd4cast
+```
+### Install binary dependencies
+
+In order to read GRIB files the packages cfgrib is used, which depends on the [eccodes](https://github.com/ecmwf/eccodes)-library.
+This can either be installed via conda:
+```bash
+conda create -n pythone=3.11 eccodes=2.35.0
+```
+
+or build from source. First the compression library libaec has to be present. Here we compile this also from source:
+```bash
+export AEC_VERSION=1.1.3
+cd /tmp
+curl -L https://github.com/MathisRosenhauer/libaec/releases/download/v${AEC_VERSION}/libaec-${AEC_VERSION}.tar.gz | tar xz \
+    && cd libaec-${AEC_VERSION}  \
+    && mkdir build && cd build \
+    && ../configure \
+    && make check install \
+    && cd /tmp && rm -rf libaec-${AEC_VERSION}
+```
+    
+then we compile eccodes itself:
+
+```bash
+export ECCODES_VERSION=2.35.0
+export ECCODES_URL=https://confluence.ecmwf.int/download/attachments/45757960/eccodes-2.35.0-Source.tar.gz?api=v2
+cd /tmp
+curl ${ECCODES_URL} | tar xz \
+    && mkdir eccodes-build && cd eccodes-build \
+    && cmake ../eccodes-${ECCODES_VERSION}-Source \
+    && make && ctest \
+    && make install \
+    && cd /tmp && rm -rf eccodes-*
+```
