@@ -1,0 +1,3 @@
+[console_scripts]
+fdk-asgi-serve=fdk_asgi.cli:app
+
