@@ -1,0 +1,10 @@
+coffifilter/__init__.py,sha256=w5QBFTMhPPw4izZoxgL8slIqXhVJgsq2RVFYvTJQPMw,851
+coffifilter/client.py,sha256=MCPQNTk5kVlpEls98sl5zxdZQUdychetke86rLKfDCI,3813
+coffifilter/decorators.py,sha256=Xlz3cfjzWzjF1CKMxW9lS-EOG0_FiYvrTk7Wz6zbn2Y,1010
+coffifilter/helpers.py,sha256=AI2FLcDvRLvDuePMtwsAxRzm382mniniLN-CyyuXrZ4,298
+coffifilter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coffifilter-0.0.1.dist-info/LICENSE,sha256=PGineV0zikGo5uxyPQnbyV633T9Ck4UwAIweZ7lYaKY,35885
+coffifilter-0.0.1.dist-info/METADATA,sha256=15gWEZwOIvGhLu3dSAIS_ufrGQjSY2jfpuvV6UrTZho,3426
+coffifilter-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+coffifilter-0.0.1.dist-info/entry_points.txt,sha256=N21RWFXsF-FTGR-w1lIrhg87F_PPqj-iDdeuvjBbYfM,57
+coffifilter-0.0.1.dist-info/RECORD,,
