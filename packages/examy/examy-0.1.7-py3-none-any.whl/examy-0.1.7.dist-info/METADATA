@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: examy
+Version: 0.1.7
+Summary: 
+Home-page: https://github.com/insanolanbiri/examy
+License: GPL-2.0-only
+Author: Eren Akgün
+Author-email: iobthedev@outlook.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: lxml (>=5.2.2,<6.0.0)
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Requires-Dist: selenium (>=4.21.0,<5.0.0)
+Project-URL: Repository, https://github.com/insanolanbiri/examy
+Description-Content-Type: text/markdown
+
+# examy
+
