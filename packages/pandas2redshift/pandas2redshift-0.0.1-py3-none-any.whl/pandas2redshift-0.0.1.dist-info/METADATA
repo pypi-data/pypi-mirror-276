@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pandas2redshift
+Version: 0.0.1
+Summary: A tool for exporting Pandas dataframes to Redshift tables
+Author: Jorge Nachtigall
+Author-email: jlnvjunior@gmail.com
+Requires-Python: >=3.10
+Requires-Dist: boto3 >=1.34.109
+Requires-Dist: SQLAlchemy >=1.4.52
+Requires-Dist: pandas >=2.0.0
+
