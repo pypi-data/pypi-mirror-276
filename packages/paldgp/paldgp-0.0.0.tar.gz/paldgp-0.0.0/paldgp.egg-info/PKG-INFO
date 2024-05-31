@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: paldgp
+Version: 0.0.0
+Summary: PAL: the Physics Animation Library
+Home-page: https://github.com/otmanon/pal
+Author: Otman Benchekroun
+Author-email: otman.benchekroun@mail.utoronto.ca
+License: MIT
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: polyscope
+Requires-Dist: libigl
