@@ -1,0 +1,7 @@
+README.md
+setup.py
+myfunction_vikmin2022.egg-info/PKG-INFO
+myfunction_vikmin2022.egg-info/SOURCES.txt
+myfunction_vikmin2022.egg-info/dependency_links.txt
+myfunction_vikmin2022.egg-info/requires.txt
+myfunction_vikmin2022.egg-info/top_level.txt
