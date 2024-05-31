@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "aigarmic"
+version = "1.0.1"
+description = "Machine-learning assisted agar dilution MIC"
+authors = ["Alessandro Gerada"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.scripts]
+AIgarMIC = "aigarmic.main:main"
+clean_up_annotations = "aigarmic.clean_up_annotations:main"
+manual_annotator = "aigarmic.manual_annotator:main"
+model_performance = "aigarmic.model_performance:main"
+rename_images = "aigarmic.rename_images:main"
+train_modular = "aigarmic.train_modular:main"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+imutils = ">=0.5"
+matplotlib = ">=3.6"
+numpy = ">=1.26"
+opencv-python = ">=4.9"
+pytest = ">=8.1"
+tensorflow-macos = { version = ">=2.11,<=2.15", markers = "platform_system=='Darwin' and platform_machine=='arm64'"}
+tensorflow = { version = ">=2.11,<=2.15", markers = "platform_system!='Darwin' and platform_machine!='arm64' or platform_system=='Darwin' and platform_machine!='arm64'"}
+scikit-learn = ">=1.4"
+sphinx = ">=7.2"
+sphinx-argparse = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = ">=5.0.0"
+myst-nb = {version = ">=1.0.0", python = ">=3.9"}
+sphinx-autoapi = ">=3.0.0"
+sphinx-rtd-theme = ">=2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+markers = [
+    "assets_required: requires optional assets in project root (skip with '-m \"not assets_required\"'"
+]
+
+[tool.pylint]
+ignored-modules = ["cv2.errors"]
