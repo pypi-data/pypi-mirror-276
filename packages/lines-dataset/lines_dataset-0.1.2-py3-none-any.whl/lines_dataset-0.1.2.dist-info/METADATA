@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lines-dataset
+Version: 0.1.2
+Summary: Simple tools for storing inputs + labels datasets as one sample per line
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/REPO.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+
+# Lines Dataset
+
+> Simple tools for storing inputs + labels datasets as one sample per line
