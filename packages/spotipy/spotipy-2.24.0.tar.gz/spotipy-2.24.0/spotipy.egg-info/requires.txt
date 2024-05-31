@@ -1,0 +1,9 @@
+redis>=3.5.3
+requests>=2.25.0
+urllib3>=1.26.0
+
+[memcache]
+pymemcache>=3.5.2
+
+[test]
+mock==2.0.0
