@@ -1,0 +1,15 @@
+build/
+docs/html/
+out/
+*.egg-info/
+dist/
+__pycache__/
+*.pyc
+.vscode/
+.vs/
+.mypy_cache/
+.pytest_cache/
+.dockerenv
+.env
+.idea/
+.vs/
