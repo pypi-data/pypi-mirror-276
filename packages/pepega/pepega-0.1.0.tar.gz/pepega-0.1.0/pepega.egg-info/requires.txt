@@ -1,0 +1,12 @@
+mlp_api_tools
+requests
+
+[core]
+pandas>=2.0.0
+
+[full]
+pepega[core]
+pepega[utils]
+
+[utils]
+numpy>=1.24

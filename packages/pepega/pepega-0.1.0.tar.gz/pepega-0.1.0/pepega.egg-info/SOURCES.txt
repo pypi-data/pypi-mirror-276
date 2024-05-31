@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pepega.egg-info/PKG-INFO
+pepega.egg-info/SOURCES.txt
+pepega.egg-info/dependency_links.txt
+pepega.egg-info/requires.txt
+pepega.egg-info/top_level.txt
+pepega/core/__init__.py
+pepega/core/core.py
+pepega/utils/__init__.py
+pepega/utils/utils.py
