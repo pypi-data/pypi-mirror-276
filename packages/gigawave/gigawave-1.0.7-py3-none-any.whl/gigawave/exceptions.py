@@ -1,0 +1,1 @@
+class TriggerError(Exception): pass
