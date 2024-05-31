@@ -1,0 +1,12 @@
+source_klaus_api/__init__.py,sha256=n12hN5dZHCOH1hEu-n6LXwb-olJT-GEx20t-oRw2VW0,128
+source_klaus_api/manifest.yaml,sha256=VGNxBTVOmUS7cvExv72Cd8_FZtqERLzS2AFTSQ21b9k,2458
+source_klaus_api/run.py,sha256=0YSeyOX4VDsG-4EPwVIueYxdGcbVZ02CNUxxPlwGyaw,237
+source_klaus_api/schemas/categories.json,sha256=_C-JQgrqrYDt-GwqvuLBrFYsneV8vYwXYlUlI-c5erc,803
+source_klaus_api/schemas/reviews.json,sha256=jaPDhS19YDEhy59eJUq-qYAbNRt86Lybw0TUFSTn4Iw,11686
+source_klaus_api/schemas/users.json,sha256=Otyp_itSRutNnQ81fM-25xV99qMnYapEy7EgKdX6hUc,264
+source_klaus_api/source.py,sha256=i26x7uNr2xzt3HyCxXY8vJ84oUUrZy9_Xzigq-8yhhI,477
+source_klaus_api/spec.yaml,sha256=LEBny-BFBXL6kNLlLQX5DUVRbrVe4C-aAoTEyUU1Fbo,917
+airbyte_source_klaus_api-0.1.1.dist-info/METADATA,sha256=fMU_37WpTAr3czNE5DiSQJDDPmWKHOEX4K6BABBQkPk,5262
+airbyte_source_klaus_api-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_klaus_api-0.1.1.dist-info/entry_points.txt,sha256=5kRGtFRNNjqO5sT2UVZ9F2naXD4FPVHMM3eLnWX0p7g,61
+airbyte_source_klaus_api-0.1.1.dist-info/RECORD,,
