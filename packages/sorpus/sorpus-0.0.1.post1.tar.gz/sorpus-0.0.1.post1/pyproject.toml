@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sorpus"
+version = "0.0.1.post1"
+authors = [
+  { name="Siwon Seo", email="visiopo44@gmail.com" },
+]
+description = "Sentence (Operations) Processing Utilities"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/Sion1225/sorpus"
+Issues = "https://github.com/Sion1225/sorpus/issues"

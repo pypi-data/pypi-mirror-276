@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/sorpus/__init__.py
+src/sorpus/__version__.py
+src/sorpus/replacer.py
+src/sorpus/sentences.py
+src/sorpus.egg-info/PKG-INFO
+src/sorpus.egg-info/SOURCES.txt
+src/sorpus.egg-info/dependency_links.txt
+src/sorpus.egg-info/top_level.txt
