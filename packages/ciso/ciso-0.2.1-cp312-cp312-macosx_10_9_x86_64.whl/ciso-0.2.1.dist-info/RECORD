@@ -1,0 +1,14 @@
+ciso-0.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ciso-0.2.1.dist-info/RECORD,,
+ciso-0.2.1.dist-info/WHEEL,sha256=KYtn_mzb_QwZSHwPlosUO3fDl70znfUFngLlrLVHeBY,111
+ciso-0.2.1.dist-info/top_level.txt,sha256=65kU9gy-9rHceMkzsMxKtw3VakTqyTc7KBtT1wKDj5c,5
+ciso-0.2.1.dist-info/LICENSE.txt,sha256=39qpEzurZv2-ovsZCqx75yXiCTA8L8Gj9cmtlaRqWgU,1292
+ciso-0.2.1.dist-info/METADATA,sha256=ERJjGV91zJCwNnU7OHJXl1GlatcE5AyXzz1Zr6RAb_8,1097
+ciso/_version.py,sha256=tC9CwL4Nm8brVXJnZNGk_eoZaJj6eOtLKtOrdJMrpoI,21
+ciso/_ciso.c,sha256=JeaVKZLDfpG9tsLM3t7xrAGg7mCOvVV7I8sKJNBZHQw,1141451
+ciso/__init__.py,sha256=LYtO1mfNNzoATMVzaYqvbH_Uj1s1ULXhcr52w_TdA8U,192
+ciso/_ciso.pyx,sha256=T2xLs5xsyW-hiwrAitOT4FT3O5vN45_GR55fwqtjxA0,1056
+ciso/ciso.py,sha256=9vMfeqa7gDBWV-BMwwHGE1QVKpr2QnS_6jRaNPH51jM,1502
+ciso/_ciso.cpython-312-darwin.so,sha256=hAqLlWZKUbFcPUVPeXii8sWUDSEfn2umorFg_e1vEsA,205344
+ciso/tests/test_ciso.py,sha256=jPVhiwnXGE1dJ4G2uo0R0kfR1LxXxNRImY7JSb3YU24,2221
+ciso/tests/data/fortran.npz,sha256=IUrAVWu-oK-_xSTMB1EXgnCiTcSw1JI2HbVkbUeOdJs,28192
