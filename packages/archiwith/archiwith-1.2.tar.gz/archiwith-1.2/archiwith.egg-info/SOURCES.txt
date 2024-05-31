@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+archiwith/archiwith.py
+archiwith.egg-info/PKG-INFO
+archiwith.egg-info/SOURCES.txt
+archiwith.egg-info/dependency_links.txt
+archiwith.egg-info/top_level.txt
