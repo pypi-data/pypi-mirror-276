@@ -1,0 +1,2 @@
+[console_scripts]
+superseeker = superseeker.pipeline:run_pipeline
