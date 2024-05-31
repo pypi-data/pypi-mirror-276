@@ -1,0 +1,5 @@
+numpy<2.0.0a0,>=1.23
+scipy
+astunparse
+pyparsing
+packaging
