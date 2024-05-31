@@ -1,0 +1,8 @@
+protein_aa_analyze/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protein_aa_analyze/analyzer.py,sha256=XMbrBDVM3QmPKERHQZ5DE25FEoUWByx7JAwvB4AJHi8,5797
+protein_aa_analyze-1.0.0.dist-info/LICENSE,sha256=Z-2CGUuPz65mIsa4YQwfk0jRH0Dl9wg8AC1XRkY6c0E,1067
+protein_aa_analyze-1.0.0.dist-info/METADATA,sha256=_giMxStvtkhWf1sO4kG4ZJ2uraUpgAdTI3TpKLcrdJc,10878
+protein_aa_analyze-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+protein_aa_analyze-1.0.0.dist-info/entry_points.txt,sha256=PDzdC1owU3D85QC66vs3J027vrn536_S_fLCvKAAgiQ,72
+protein_aa_analyze-1.0.0.dist-info/top_level.txt,sha256=nCKQOCNyZ4T0bLdRksYt3Zjw7sxdNHtSJ51tc_L5jUg,19
+protein_aa_analyze-1.0.0.dist-info/RECORD,,
