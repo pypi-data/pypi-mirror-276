@@ -1,0 +1,14 @@
+hugchat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hugchat/cli.py,sha256=RA7ipP2xGe-jPWeJO0O_O11svss2sgQQwrElVLqtrGQ,12380
+hugchat/exceptions.py,sha256=QpGTimR3wViNbf-vPvDkFh-jbx11i541ITcS7iq1AZs,853
+hugchat/hugchat.py,sha256=GwBuhWo3yA9JsxJOdJxiy9U2D8RoXkoM5NBge_IG5NE,30785
+hugchat/login.py,sha256=syCKfwpJmyt0c2SaP8r_jahX1Cl196hDW2JToxvdFfE,8696
+hugchat/message.py,sha256=pRoZLEOWxtllIJVluvJrC69z3F0SOwwgsr51H8jyFWE,7621
+hugchat/types/assistant.py,sha256=Lqmhp4oWRB5hWuCpO-Bg6VBQInM0QDht_A3pXx74UA8,177
+hugchat/types/message.py,sha256=yrJvxpvseHDd3F6wyW06KabgPY7YG1IQyF74hVvQdfo,1004
+hugchat/types/model.py,sha256=TmJcIamiS5W1dFeTOO8yuxJ-GeQcJRZ7xQHbgVeTXow,988
+hugchat-0.4.7.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+hugchat-0.4.7.dist-info/METADATA,sha256=pehk13_IpkypjLKK7D3hlPFI1UtR0qbb1DhJ2448VV4,7026
+hugchat-0.4.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hugchat-0.4.7.dist-info/top_level.txt,sha256=oAJyW554jLGIwH008pdgBxFPzXXbIK8KOXgR5yEzQPM,8
+hugchat-0.4.7.dist-info/RECORD,,
