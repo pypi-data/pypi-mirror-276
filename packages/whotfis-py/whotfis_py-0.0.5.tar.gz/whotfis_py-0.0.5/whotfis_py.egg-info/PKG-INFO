@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: whotfis-py
+Version: 0.0.5
+Summary: Simple package to interact with the whois command line tool
+Home-page: https://github.com/xV4L3x/whotfis-py
+Author: Valerio Pio De Nicola
+Author-email: valeriopio02@gmail.com
+License: Apache 2
+Keywords: python,whois,whois command line,whois python,whois python package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Installation
+To install the package, just run the following command:
+```bash
+pip install whotfis-py
+```
+# Usage
+```python
+

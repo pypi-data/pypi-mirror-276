@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+whotfis_py/__init__.py
+whotfis_py/parser.py
+whotfis_py/registries.py
+whotfis_py/result.py
+whotfis_py.egg-info/PKG-INFO
+whotfis_py.egg-info/SOURCES.txt
+whotfis_py.egg-info/dependency_links.txt
+whotfis_py.egg-info/top_level.txt
