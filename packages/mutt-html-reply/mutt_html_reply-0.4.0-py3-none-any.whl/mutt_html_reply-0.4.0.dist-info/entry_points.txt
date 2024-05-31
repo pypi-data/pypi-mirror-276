@@ -1,0 +1,2 @@
+[console_scripts]
+mutt-html-reply = mutt_html_reply.mutt_html_reply:main
