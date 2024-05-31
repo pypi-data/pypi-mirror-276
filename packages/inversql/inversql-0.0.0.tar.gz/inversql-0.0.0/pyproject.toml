@@ -1,0 +1,61 @@
+[project]
+name = "inversql"
+version = "0.0.0"
+description = "Get SQL query with data, not the other way around."
+authors = [
+    {name = "RenChu Wang", email = "patrick1031wang@gmail.com"},
+]
+dependencies = [
+    "textual>=0.58.1",
+    "textual-dev>=1.5.1",
+    "scikit-learn>=1.4.2",
+    "pandas>=2.2.2",
+    "numpy>=1.26.4",
+    "typer>=0.12.3",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+inversql = "inversql.cli:app"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+format = [
+    "autoflake>=2.3.1",
+    "black>=24.4.2",
+    "isort>=5.13.2",
+]
+build = [
+    "nuitka>=2.2.3",
+]
+type = [
+    "mypy>=1.10.0",
+]
+test = [
+    "coverage>=7.5.1",
+    "pytest>=8.2.1",
+    "pytest-xdist>=3.6.1",
+    "pytest-cov>=5.0.0",
+]
+
+[tool.autoflake]
+in-place = true
+recursive = true
+exclude = "__init__.py"
+expand-star-imports = true
+remove-all-unused-imports = true
+remove-duplicate-keys = true
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
