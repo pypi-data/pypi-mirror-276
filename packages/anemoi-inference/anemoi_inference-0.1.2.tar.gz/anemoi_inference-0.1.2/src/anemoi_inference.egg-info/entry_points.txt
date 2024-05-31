@@ -1,0 +1,2 @@
+[console_scripts]
+anemoi-inference = anemoi.inference.__main__:main
