@@ -1,0 +1,17 @@
+source_toggl/__init__.py,sha256=A9nFn0Vp6CphH4QJN12Qfwa6fd0hy8Ksv3WmKynWEXw,122
+source_toggl/manifest.yaml,sha256=Wk69oWajglyBal0Qh0oEgg8iKhw-utpL3wdYWuV8Yhk,3247
+source_toggl/run.py,sha256=cNTzS5VdrM_zNTSA62UdcbhhhGmYa6mttuUu_Ae0tpM,227
+source_toggl/schemas/organizations.json,sha256=ATQbfAuW42t5auciNojkeqhqdyl_4KtjOsHkUaRbAwk,938
+source_toggl/schemas/organizations_groups.json,sha256=d8cpjrgmMDLbCH6l5H6SFxuFwTRX-s1OG-pVNAcZe5s,339
+source_toggl/schemas/organizations_users.json,sha256=efvtobgiFc1Y9oBdhlPecdjpVCQ3nRnA7huOolH8ru8,743
+source_toggl/schemas/time_entries.json,sha256=-aphBTPpxjgxW6AGtyQxQ6zrhXQ0RaBueks_k1uyNhs,1054
+source_toggl/schemas/workspace.json,sha256=FLmcVA5_O3rPyBL3hp8d9eBATPBUhrDvCNWLNtMgLVw,253
+source_toggl/schemas/workspace_clients.json,sha256=-b1FywC0cMqS__EKe_Snl9sQOu1464eMFBqOI8PnZoo,380
+source_toggl/schemas/workspace_projects.json,sha256=3Gyb-5bpb525IJjvw1mgo39VfjSI2ZSIFOPb2I9FwVw,1490
+source_toggl/schemas/workspace_tasks.json,sha256=QP546FNbezHAx7ZlbaetSvLdtUSFcP6oKyRi5x4r-MM,680
+source_toggl/source.py,sha256=EAmi9PhlYR32Cm66Q_3XLrPTJWMCwwhdOHjQpNyonec,474
+source_toggl/spec.yaml,sha256=w-wThKwXOX9Lxc5WUHPYFm-p26fes315lH8sxEUZFIQ,1431
+airbyte_source_toggl-0.1.1.dist-info/METADATA,sha256=R_JpX0gwo6vE1JDhu3L2akPnhVGqhCuWrPTRzpUIurw,5178
+airbyte_source_toggl-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_toggl-0.1.1.dist-info/entry_points.txt,sha256=D3L-30bzS2E6MD-rmD8drZhA3GeXM-TX5sxRUzA32Z0,53
+airbyte_source_toggl-0.1.1.dist-info/RECORD,,
