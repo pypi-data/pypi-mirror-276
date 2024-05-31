@@ -1,0 +1,115 @@
+# See the NOTICE file distributed with this work for additional information
+# regarding copyright ownership.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+name: "CI"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: ./
+
+env:
+  PYTHON_VERSION: "3.9"
+
+jobs:
+  license_check:
+    name: Check missing license headers
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check license header
+        uses: apache/skywalking-eyes/header@v0.6.0
+        with:
+          config: .licenserc.yml
+
+  pylint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/python_build
+        with:
+          tags: "[cicd]"
+
+      - name: Run pylint
+        run: |
+          pylint --rcfile pyproject.toml src/ensembl
+          pylint --rcfile pyproject.toml tests
+
+  mypy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/python_build
+        with:
+          tags: "[cicd]"
+
+      - name: Run mypy
+        run: |
+          mypy --config-file pyproject.toml src/ensembl
+          mypy --config-file pyproject.toml tests
+
+  black:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/python_build
+        with:
+          tags: "[cicd]"
+
+      - name: Run black
+        run: |
+          black --config pyproject.toml --check .
+
+  pytest:
+    name: Run pytest and generate coverage reports
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      checks: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/python_build
+        with:
+          tags: "[cicd]"
+
+      - name: Run pytest with coverage
+        run: |
+          coverage run -m pytest --junitxml=./reports/test-results-${{ env.PYTHON_VERSION }}.xml
+          coverage xml -o ./reports/coverage.xml
+          coverage report -m
+
+      - name: Add coverage reports
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: MishaKav/pytest-coverage-comment@main
+        with:
+          pytest-xml-coverage-path: ./reports/coverage.xml
+          junitxml-path: ./reports/test-results-${{ env.PYTHON_VERSION }}.xml
