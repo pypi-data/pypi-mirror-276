@@ -1,0 +1,8 @@
+mtgcdb/__init__.py,sha256=dtkGu-q5cU6gdl0oHWAALyLREo3Ao_caWqG1e1dENY8,77
+mtgcdb/card.py,sha256=AvrMDEgmGe1gg-pKxz0odXGpBs94dWaWU0nSZboDDnM,1244
+mtgcdb/db.py,sha256=V_RhIbHjshy6Q81BdWO0YI8eIVethFFAHSj8USWuHzs,3588
+mtgcdb/mtgcdb.py,sha256=LnxKmJBXGjEy4Ox83V4VUXyPpWkkz3VxrgiB10L1rgE,4993
+mtgcdb-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+mtgcdb-0.1.0.dist-info/METADATA,sha256=196a-DtfcNC-wC_yMZubUOt_M00RMjMnuE53HNG762A,740
+mtgcdb-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mtgcdb-0.1.0.dist-info/RECORD,,
