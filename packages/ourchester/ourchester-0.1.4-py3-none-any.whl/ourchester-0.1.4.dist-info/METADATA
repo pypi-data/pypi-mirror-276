@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: ourchester
+Version: 0.1.4
+Summary: Add your description here
+Author-email: Taylor Monacelli <taylormonacelli@gmail.com>
+Requires-Python: >=3.12
+Requires-Dist: fishhoof>=0.0.2
+Requires-Dist: ivylantern>=0.1.0
+Requires-Dist: jinja2>=3.1.3
+Requires-Dist: platformdirs>=4.2.2
+Requires-Dist: whoosh>=2.7.4
+Description-Content-Type: text/markdown
+
+# ourchester
+
+## Usage example
+
+```bash
+
+# index my notes
+ourchester index ~/pdev/taylormonacelli/notes/ '/Users/mtm/Documents/Obsidian Vault'
+
+# find notes where eleastic and test occur together or where wheat berry recipe that i like is
+ourchester search '"elastic test"~100'
+ourchester search '"berries wheat"~4'
+
+# show where whoosh index is stored
+ourchester config
+
+```
