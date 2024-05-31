@@ -1,0 +1,7 @@
+include README.rst
+include LICENSE
+include rest_framework_simplejwt_mongoengine/py.typed
+recursive-include rest_framework_simplejwt_mongoengine/locale *.mo
+recursive-include rest_framework_simplejwt_mongoengine/locale *.po
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
