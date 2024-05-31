@@ -1,0 +1,5 @@
+setup.py
+electronAppGeneratorMaker.egg-info/PKG-INFO
+electronAppGeneratorMaker.egg-info/SOURCES.txt
+electronAppGeneratorMaker.egg-info/dependency_links.txt
+electronAppGeneratorMaker.egg-info/top_level.txt
