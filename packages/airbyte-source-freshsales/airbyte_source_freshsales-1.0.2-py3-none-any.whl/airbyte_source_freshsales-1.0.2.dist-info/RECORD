@@ -1,0 +1,8 @@
+source_freshsales/__init__.py,sha256=K7Oqevlgn32T9_p-4tDp8StexTK6Iw8IM6ltSjrMOKo,132
+source_freshsales/manifest.yaml,sha256=Bf0ogdXohqvGy2GxSdO-dqojCdLCODd2TpoaJCs2Hrs,47946
+source_freshsales/run.py,sha256=RG1KzRfhTsOlW8FcqNT9Y_tPJsvN6PzPcUi9S5D6HM8,233
+source_freshsales/source.py,sha256=YTud6ot4EH700Z35xg-UFdbsmk1k_SxKSS2LyJx0tmQ,479
+airbyte_source_freshsales-1.0.2.dist-info/METADATA,sha256=NpbsSJcCEp_9vMupyXYedKVoe9gHl0vFq6uhdI6LfjM,5284
+airbyte_source_freshsales-1.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_freshsales-1.0.2.dist-info/entry_points.txt,sha256=fbJmlfLXd3e7_l5RSe9JPIjXTkWtNf9_46c3o_qbJjA,63
+airbyte_source_freshsales-1.0.2.dist-info/RECORD,,
