@@ -1,0 +1,371 @@
+c  c.replace(copyright copyright, copyright)
+c.replace(copyright copyright, copyright)
+c.replace(copyright @copyright, copyright)
+c.replace((c) opyrighted, copyright (c))
+c.replace((c) opyrights, copyright (c))
+c.replace((c) opyright, copyright (c))
+have copyright but also (c)opyleft
+Copyrights for code taken from ext2:
+copyright notice, this list of conditions and the following
+copyright notice, this list of conditions and the following disclaimer
+Parts derived from drivers/block/rd.c, and drivers/block/loop.c, copyright
+Original copyright notice follows:
+* Redistributions of source code must retain the above copyright
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+Redistributions of source code must retain the above copyright
+Redistributions in binary form must reproduce the above copyright
+Based on wdt.c. Original copyright messages:
+The above copyright notice and this permission notice shall be included in
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+This copyrighted material is made available to anyone wishing to use,
+1. Redistributions of source code must retain the above copyright
+2. Redistributions in binary form must reproduce the above copyright
+COPYRIGHT AND PERMISSION NOTICE
+the Terms of Use in http://www.unicode.org/copyright.html.
+so, provided that (a) the above copyright notice(s) and this permission
+above copyright notice(s) and this permission notice appear in associated
+documentation, and (c) there is clear notice in each modified Data File or
+THIRD PARTY RIGHTS.  IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS
+Except as contained in this notice, the name of a copyright holder shall
+authorization of the copyright holder.
+3. Neither the names of the above-listed copyright holders nor the names
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+driver, which has the following copyright:
+3. Neither the names of the copyright holders nor the names of its
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+* Redistributions in binary form must reproduce the above copyright
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+resend SDP command with clear pipe bit set
+DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+others.  All original copyrights apply as per the original source
+The above copyright notice and this permission notice shall be included
+IN NO EVENT SHALL THE COPYRIGHT HOLDER(S) AND AUTHOR(S) BE LIABLE FOR ANY
+COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS, RELATING TO USE OF THIS
+above copyright notice or any other identification of the
+without fee is hereby granted, provided that the above copyright
+notice appear in all copies and that both that copyright notice and
+1. Redistributions of source code must retain the above copyright notice,
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+The above copyright notice and this permission notice (including the next
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+following copyright:
+others.  All original copyrights apply as per the original source
+part of glibc and has appropriate copyrights in it (allegedly).
+1. Redistributions of source code must retain the above copyright
+3. Neither the names of the above-listed copyright holders nor the names
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+The above copyright notice and this permission notice shall be included in
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+copyright notice, this list of conditions and the following
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+The above copyright notice and this permission notice (including the next
+provided that this copyright notice is
+Update: The Berkeley copyright was changed, and the change
+the same license). The new copyright doesn't clash with the
+2. Redistributions in binary form must reproduce the above copyright
+provided that the above copyright notice and this paragraph are
+- copyright.xml (   1597 bytes, from 2016-10-29 07:29:22)
+copyright notice, this list of conditions and the following
+copyright notice and this permission notice appear in all copies.
+copyrights:
+Copyright
+1. Redistributions of source code must retain the above copyright
+2. Redistributions in binary form must reproduce the above copyright
+* Redistributions of source code must retain the above copyright
+* Redistributions in binary form must reproduce the above copyright
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+Redistributions of source code must retain the above copyright
+Redistributions in binary form must reproduce the above copyright
+Based on anx7808 driver obtained from chromeos with copyright:
+The above copyright notice and this permission notice (including the
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+IN NO EVENT SHALL THE COPYRIGHT OWNER(S) AND/OR ITS SUPPLIERS BE
+The above copyright notice and this permission notice (including the next
+the above copyright notice appear in all copies and that both that copyright
+that the name of the copyright holders not be used in advertising or
+written prior permission.  The copyright holders make no representations
+THE COPYRIGHT HOLDERS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+The above copyright notice and this permission notice shall be included in
+THE COPYRIGHT HOLDER(S) OR AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR
+THE COPYRIGHT HOLDERS, AUTHORS AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM,
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+- Redistributions of source code must retain the above copyright
+- Redistributions in binary form must reproduce the above copyright
+- Redistributions of source code must retain the above copyright notice,
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+see flexcop.c for copyright information
+Redistributions of source code must retain the above copyright notice,
+Redistributions in binary form must reproduce the above copyright notice,
+and inherits all the copyrights
+retain the authorship, copyright and license notice.  This file is not
+. Redistributions of source code must retain the above copyright notice, this
+. Redistributions in binary form must reproduce the above copyright notice,
+copyright notice below.
+Additional updates, Copyright:
+See LICENSE.qla3xxx for copyright and licensing details.
+that the above copyright notice and this permission notice appear
+1. Redistributions of source code must retain the above copyright
+2. Redistributions in binary form must reproduce the above copyright
+3. Neither the names of the above-listed copyright holders nor the names
+3. The names of the above-listed copyright holders may not be used
+worry about locking.  This is information on
+* 1) Redistributions of source code must retain the above copyright
+* 2) Redistributions in binary form must reproduce the above copyright
+retain the authorship, copyright and license notice.  This file is not
+the restrictions contained in a BSD-style copyright.)
+* Redistributions of source code must retain the above copyright
+* Redistributions in binary form must reproduce the above copyright
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+copyright notice and this permission notice appear in all copies.
+Developer's Reference Manual and used with permission.  Copyright
+copyright notice, this list of conditions and the following
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+See LICENSE.qla2xxx for copyright and licensing details.
+See LICENSE.qla4xxx for copyright and licensing details.
+* Neither the name of the above-listed copyright holders nor the
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE
+The above copyright notice and this permission notice shall be
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+without the written consent of the copyright owner.
+The above copyright notice and this permission notice shall be included in
+THE COPYRIGHT HOLDER(S) OR AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR
+Copyrighted as follows:
+based on drivers/usb/usb.c which had the following copyrights:
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+|*     NOTICE TO USER:   The source code  is copyrighted under  U.S. and     *|
+|*     hereby granted a nonexclusive,  royalty-free copyright license to     *|
+The only usage restriction is for the copyright notices to be retained
+Includes riva_hw.c from nVidia, see copyright below.
+provided that this copyright notice is
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+the above copyright notice or any other identification of the
+The above copyright notice and this permission notice (including the
+IN NO EVENT SHALL THE COPYRIGHT OWNER(S) AND/OR ITS SUPPLIERS BE
+THE COPYRIGHT HOLDERS, AUTHORS AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM,
+- Redistributions of source code must retain the above copyright
+- Redistributions in binary form must reproduce the above copyright
+is released under below copyrights:
+ (patent and copyright grants)
+ <name> ogc copyright <name>
+ a) copyright license
+ abide by us copyright law.
+ absolute location of this copyright file
+ add all copyright columns here
+ addition of one or more copyright notices.
+ all files copyright unless otherwise specified in
+ all times remain with copyright holders.
+ also explicit copyright and licensing
+ any copyright notices from the software.
+ appendix b. copyright license grant
+ appropriate copyright permission.
+ as long as the copyright is kept intact.
+ as long as this copyright message is left intact.
+ as the copyright header is left intact.
+ as the copyright holder, john mccalpin retains the
+ at the copyright holders option either
+ attn copyright agent
+ attn general counsel  copyright agent
+ author vs copyright grammar in two
+ authors explicitly disclaim copyright in all
+ breach of copyright brought to its attention.
+ by copyright law.
+ by the copyright holder(s).
+ by the copyright holder.
+ by the ghostscript copyright or license
+ c  c.replace(copyright copyright, copyright)
+ changed copyright header to conform with new gnu
+ clarify copyright info in gpl header
+ code at all unless you are the copyright holder.
+ code is copyright protected
+ components as distributed by the copyright holder.
+ copying    copyright  gnu general public licence
+ copying    copyright  gnu general public license
+ copyright   agere systems inc.
+ copyright   i b m   corporation
+ copyright   unicode, inc. all rights reserved.
+ copyright  .
+ copyright  <year>  <name of author>
+ copyright  <year> <holders>. all rights reserved.
+ copyright  all rights reserved
+ copyright  all rights reserved.
+ copyright  anne votre nom. permission vous
+ copyright  attr.ib()
+ copyright  by peter norvig.
+ copyright  carnegie mellon university
+ copyright  licence
+ copyright  license
+ copyright  reserved
+ copyright  reserved.
+ copyright  string(
+ copyright  the simputer trust
+ copyright  year copyright owner
+ copyright  zurich instruments ag
+ copyright (
+ copyright (year) owner(url).
+ copyright <year> <copyright holder >
+ copyright <year> <name of author>
+ copyright abandoned
+ copyright agent
+ copyright all rights reserved.
+ copyright and confidentiality
+ copyright and licence
+ copyright and license
+ copyright and related rights are
+ copyright and similar markers
+ copyright and warranty information
+ copyright by daniel k. gebhart
+ copyright by m.i.t. or by mit
+ copyright copy  the mitre corporation (
+ copyright detection
+ copyright disclaimed
+ copyright disclaimers included herein.
+ copyright disclaimers
+ copyright file.
+ copyright header is left intact.
+ copyright holder is prohibited.
+ copyright holder refers to kent tessman.
+ copyright holder(s).
+ copyright holder
+ copyright holder.
+ copyright holders
+ copyright holders.
+ copyright in it.
+ copyright info have been adapted to
+ copyright info
+ copyright is included in all derived versions.
+ copyright is properly acknowledged.
+ copyright law or other applicable laws.
+ copyright law.
+ copyright laws.
+ copyright license agreement (bsd license)
+ copyright license
+ copyright licenses
+ copyright lowrisc contributors.
+ copyright notice licensor name
+ copyright notices are retained unchanged,
+ copyright notices at the top of the files.
+ copyright notices
+ copyright notices.
+ copyright notification
+ copyright of cern. or copyright cern.
+ copyright on this application.
+ copyright oprofile authors
+ copyright or copr. cnrs
+ copyright owners permission.
+ copyright owners.
+ copyright ownership of the font software.
+ copyright page
+ copyright pocketwarriors shalom weiner
+ copyright property of compuserve incorporated.
+ copyright public domain
+ copyright scanning
+ copyright see gpl.
+ copyright statement and licence
+ copyright statement for zoo archive program
+ copyright statement(s).
+ copyright statement
+ copyright status for sax
+ copyright status
+ copyright sun microsystems, inc.
+ copyright to us.
+ copyright transmission
+ copyright violations will be pursued vigorously.
+ copyright word or symbol
+ copyright year licensor name
+ copyright yyyy name of copyright owner
+ copyrighted material under copyright law.
+ debian copyright file markup
+ debian copyright file
+ debian copyright file.
+ detect and collect copyright statements.
+ digital millennium copyright act compliance
+ distributed by the copyright holder(s).
+ equivalent, as provided by copyright law.
+ from said copyright holders.
+ full copyright information.
+ full copyright statement
+ gcas  copyright notices on any copy and its
+ here as under u.s. copyright law.
+ hereunder infringes a patent or copyright or
+ ii. a copyright notice
+ include my copyright message.
+ information regarding copyright ownership.
+ jersey copyright license)
+ joint copyright assignment by contributor
+ matches in debian copyright files.
+ name minpack copyright notice
+ name of copyright owner
+ name quirksmode copyright notice
+ no copyright is claimed
+ no copyright is claimed.
+ no copyright is
+ no known copyright restrictions.
+ not a copyright copyright.txt  treat as nn
+ note <s> are from debian copyright files
+ notes debian copyright file paragraph footer
+ notes found in chromium debian copyright files
+ notes minor variant with copyright sign
+ of a copyright file.
+ of a copyright statement
+ of its copyright owner
+ older copyright files.
+ option by the copyright holder.
+ or any derivative work under copyright law.
+ or copyright infringement or trade secret
+ or copyright law is prohibited.
+ original copyright below
+ other copyright and similar rights.
+ our copyright policy
+ package is copyright and owned by jason hunter.
+ portions copyright  or copyright
+ prepare a text line for copyright detection.
+ present in copyright filename, if obtained from
+ primary copyright detection for packages
+ privacy and copyright protection
+ protected by international copyright laws.
+ provided by copyright law.
+ randor the universal copyright convention,
+ rcode copyright grant,
+ rcopyright copyright and,
+ refine a detected copyright string.
+ rfull copyright statement,
+ rights include other copyright and similar rights.
+ ru.s. copyright act,
+ runiversal copyright convention,
+ same meaning here as under u.s. copyright law.
+ sax copyright status
+ software copyright license agreement (bsd license)
+ software copyright licensing disclaimer
+ software under copyright law.
+ software). at the time this copyright is
+ special exception granted by copyright holders
+ specific copyright holders.
+ structured copyright file.
+ tcl copyright and license
+ terms established by its copyright holder(s).
+ the copyright holder.
+ the copyright owner.
+ the file named copyright specifies the terms
+ the original copyright note by mark adler was
+ the programs copyright by their
+ this copyright as per applicable laws.
+ this copyright message remains intact.
+ this software under copyright law.
+ trademark, or copyright infringement.
+ translated copyright man page
+ under copyright law or other applicable laws.
+ under copyright law.
+ unstructured copyright files are not consistent.
+ use of copyright and database right material made
+ we make no copyright claims on it.
