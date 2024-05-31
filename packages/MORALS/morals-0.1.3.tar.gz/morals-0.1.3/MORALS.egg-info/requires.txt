@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+scikit-learn
+pandas
+seaborn
+tqdm
+torch
+torchvision
+CMGDB
+dytop
+tqdm
