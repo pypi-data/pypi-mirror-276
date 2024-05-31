@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: llama-index-llms-mlx
+Version: 0.1.0
+Summary: llama-index llms mlx integration
+License: MIT
+Author: Dwight Foster
+Author-email: dwightfoster03@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: llama-index-core (>=0.10.0,<0.11.0)
+Requires-Dist: mlx (>=0.11.0)
+Requires-Dist: mlx-lm (>=0.11.0)
+Description-Content-Type: text/markdown
+
+# LlamaIndex Llms Integration: MLX
+
+## Overview
+
+---
+
+Integrate with MLX LLMs from the mlx-lm library
+
+## Installation
+
+---
+
+```bash
+pip install llama-index-llms-mlx
+```
+
+## Example
+
+---
+
+```python
+from llama_index.llms.mlx import MLXLLM
+
+llm = MLXLLM(
+    model_name="microsoft/phi-2",
+    tokenizer_name="microsoft/phi-2",
+    context_window=3900,
+    max_new_tokens=256,
+    generate_kwargs={"temp": 0.7, "top_p": 0.95},
+)
+
+response = llm.complete("What is the meaning of life?")
+print(str(response))
+```
+
