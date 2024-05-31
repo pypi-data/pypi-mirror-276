@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pipeline/__init__.py
+pipeline/data_manipulation.py
+pipeline/pipeline.py
+superseeker.egg-info/PKG-INFO
+superseeker.egg-info/SOURCES.txt
+superseeker.egg-info/dependency_links.txt
+superseeker.egg-info/entry_points.txt
+superseeker.egg-info/requires.txt
+superseeker.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pipeline.py
