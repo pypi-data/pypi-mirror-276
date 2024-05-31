@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+sneat/__init__.py
+sneat/config.py
+sneat/default_config.ini
+sneat/evolve.py
+sneat/genome.py
+sneat/neuralnetwork.py
+sneat/normalizer.py
+sneat/population.py
+sneat/species.py
+sneat.egg-info/PKG-INFO
+sneat.egg-info/SOURCES.txt
+sneat.egg-info/dependency_links.txt
+sneat.egg-info/requires.txt
+sneat.egg-info/top_level.txt
