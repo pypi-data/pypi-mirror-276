@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: yaz_pyotp
+Version: 0.0.1
+Summary: PyOTP is a Python package for sending otp.
+Project-URL: Homepage, https://github.com/yarz-dev/yaz_pyotp
+Project-URL: Issues, https://github.com/yarz-dev/yaz_pyotp/issues
+Author-email: Yarzue Zolia <zyarzue.dev@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# yaz_pyotp
