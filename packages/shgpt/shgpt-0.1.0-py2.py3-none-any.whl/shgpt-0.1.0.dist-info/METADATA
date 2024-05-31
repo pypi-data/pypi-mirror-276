@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: shgpt
+Version: 0.1.0
+Summary: Generate shell command you want with power of LLM, without leaving your terminal.
+Project-URL: Repository, https://github.com/jiacai2050/shellgpt
+Project-URL: Issues, https://github.com/jiacai2050/shellgpt/issues
+Author-email: Jiacai Liu <dev@liujiacai.net>
+License-Expression: GPL-3.0
+Keywords: gpt,llm,shell
+Requires-Dist: pyperclip
+Requires-Dist: requests
+Requires-Dist: smartinput
+Requires-Dist: textual
