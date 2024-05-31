@@ -1,0 +1,12 @@
+model:
+  name: "sentiment_analysis_model"
+  version: "0.5.0"
+
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.001
+
+data:
+  dataset_path: "sentiment_model/datasets/twitter_training.csv"
+  test_size: 0.2
