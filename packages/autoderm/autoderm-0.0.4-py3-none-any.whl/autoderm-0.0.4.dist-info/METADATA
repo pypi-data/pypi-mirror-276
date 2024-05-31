@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: autoderm
+Version: 0.0.4
+Summary: Autoderm's Official SDK Client.
+Author: Lucas
+Author-email: lucas@autoderm.ai
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.25,<0.26)
+Requires-Dist: orjson (>=3.9.10,<4.0.0)
+Requires-Dist: pydantic (>=2.5.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Autoderm's Official SDK Client
+
+## What is Autoderm?
+
+Autoderm offers expertise in dermatology, having our AI models CE marked class 1 as medical devices. Our AI models, built on advanced deep learning, screens for 73 different skin diseases types with exceptional accuracy. Our versatile API seamlessly integrates into your platform, or your workflow from your web browser, offering a user-friendly experience and empowering you with reliable dermatology analytics. Trained over a million smartphone images, our models represent 90% of common public skin concerns, ensuring comprehensive coverage.
+
+## Get Started
+
+Get your API key by signing up at https://autoderm.ai/login_page.html
+
+On the free plan, you are limited to 10 API calls a day, please consider upgrading to use more. Available plans are at https://autoderm.ai/pricing.html
+
+

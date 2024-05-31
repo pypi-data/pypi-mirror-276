@@ -1,0 +1,10 @@
+autoderm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoderm/api_call.py,sha256=EJYL2Drgx-L3Ac9GbAr1JdYQwdSaLKXFT-4lodkhCVE,1140
+autoderm/client.py,sha256=fYYOgA-7dMzcx-xV7IHX36vK6IiyRJgIQcosR2BTL7o,8234
+autoderm/client_base.py,sha256=SlrIRuwqFxkanlBoe1MhRC_IGxF6YwC1V6bP0OIRp1s,682
+autoderm/constants.py,sha256=X9NgAB2HBrgdfaAeIWYrg0-j_Tn-BPckdZ9nAM6TejY,79
+autoderm/exceptions.py,sha256=P2zmtXOBzXhki4Q3phuD0jNT-pabOd5lGEn5NUVsLPM,1672
+autoderm-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autoderm-0.0.4.dist-info/METADATA,sha256=NQshxMAyPJCThoqNezW9zm8fCWk-sn43OzmH37SH14M,1419
+autoderm-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+autoderm-0.0.4.dist-info/RECORD,,
