@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sn15_subnet_shared_libs
+Version: 1.0.0
+Summary: All shared libs that all components, executables, and services of Sn15 are based on
+Home-page: https://github.com/YOUR_USERNAME/YOUR_REPOSITORY
+Author: Dmytro Savenkov
+Author-email: dmytro.savenkov@chain-insights.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: bittensor
