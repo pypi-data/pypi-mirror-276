@@ -1,0 +1,12 @@
+mdgrad/__init__.py,sha256=2hco23gnKNqXmGIe_YVpnEIbyhd5VX5G2xpIJVpDiP0,27
+mdgrad/optim.py,sha256=oOWFNb_mrgZA7KvS2OXaKMxXwXZmmmoqWgJCIlpgnWU,1621
+mdgrad/tensor.py,sha256=cxVR0f_fetMePwzXlJBg9qRIBuoyhZehA_HIE28tFnw,10086
+mdgrad/nn/__init__.py,sha256=6DoDwchYpYQQ59tW5zFmtks_DAr8z2Vxf9a0M4rjw4I,70
+mdgrad/nn/activations.py,sha256=6_K0WRxvLg-1FaqI4QRqiUJW5g5KyRlgjD1gpb7Sdrw,830
+mdgrad/nn/layers.py,sha256=WcV60pylBRLZ4cHiQbJB78ZwEwra5Iu_xrVciXlMstQ,1952
+mdgrad/nn/losses.py,sha256=QcdLRgOn8du4Tdmt_Lz4rz8yhbDBAYRLZ5vi8_ltS8M,1703
+mdgrad-0.2.1.dist-info/LICENSE,sha256=IhPbdIMiA5kQHQaIC6u86isid0d742qKscXFhtpb6Hg,1070
+mdgrad-0.2.1.dist-info/METADATA,sha256=Ln6vc2ooY6A_O7d6MkCjMeTfVpxppgWcEUqhoGqKhQs,1945
+mdgrad-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mdgrad-0.2.1.dist-info/top_level.txt,sha256=htpIFELUrM6mx4lgeW8vu5XS-tesEGDEB0sMkGM9uP8,7
+mdgrad-0.2.1.dist-info/RECORD,,
