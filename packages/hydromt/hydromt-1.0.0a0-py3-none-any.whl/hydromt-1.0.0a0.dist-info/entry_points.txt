@@ -1,0 +1,15 @@
+[console_scripts]
+hydromt=hydromt.cli.main:main
+
+[hydromt.catalogs]
+core=hydromt.predefined_catalog
+
+[hydromt.components]
+core=hydromt.components
+
+[hydromt.drivers]
+core=hydromt.drivers
+
+[hydromt.models]
+core=hydromt.models
+
