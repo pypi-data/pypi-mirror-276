@@ -1,0 +1,17 @@
+entoli/__init__.py,sha256=mWkWiwpqSMH5fBWb85_Fopa8_tJplPQVqI2JLIxt0X0,124
+entoli/prelude.py,sha256=9Gl99TdOfv2ytHy0hP1rVLJwa1jkm3gOfFsyMMelpCw,21910
+entoli/process.py,sha256=Q6zV45dNoldRqupbz2s1uiURpaQVPirynPreriIivew,4444
+entoli/system.py,sha256=aI2CFc1-_TQtIH2zTU7J21hMr_rZ-XN1jaHJtaW9SA4,1537
+entoli/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+entoli/base/control.py,sha256=iGa1EyqUrOXGpFlq21ffDY_qRUQD9ADDp5nhlIz5t8Q,454
+entoli/base/either.py,sha256=sufHjPw7KZ63jUJSvi5p5Z8Dam8Hvq3nZm87aVM4dCQ,2923
+entoli/base/io.py,sha256=Eil_ztgtV_8g9JH85MR6jO15gagEMo96AA92CZwEuIk,1089
+entoli/base/maybe.py,sha256=-D-hreN3QucKk4odqKf13FRl98L-rUZvldk1Ruox3dY,3779
+entoli/base/result.py,sha256=IArxg28Hf10opSQ87Dlku-F-OX4jNtWK3ZsSz4NKS8k,4456
+entoli/base/seq.py,sha256=5fd6MyU_p60PNyxN4TJtuh_2yJ8XobJcM-eChN4vBWM,3538
+entoli/base/typeclass.py,sha256=zIvJlb9gh9CX6ZVDfFM3yrnVKDmMF-r_4_n-sjCrv74,2314
+entoli-0.1.2.dist-info/LICENSE,sha256=plnTd0j2S_g9CAUg6oxKkR_7ScK4qxttdAQuqkeqVVM,1067
+entoli-0.1.2.dist-info/METADATA,sha256=EAS2lPhC2QvkDI-GixnQZP8DFadhtX9lmiLbapQ2d_Q,2355
+entoli-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+entoli-0.1.2.dist-info/top_level.txt,sha256=HAC4BPb2ySMIfhSSVPYERdwP-V1gD1X3p_U9RXv7DCk,7
+entoli-0.1.2.dist-info/RECORD,,
