@@ -1,0 +1,16 @@
+matbench_discovery/__init__.py,sha256=1uc6qvB-6NCksVxAyTghLJmBMYF9JCBdUQew5vfT7Vo,3346
+matbench_discovery/data.py,sha256=t6mTyr0l1BhokPYeTNn8DLRYilcvt88AsH2ltpY6BKI,10936
+matbench_discovery/energy.py,sha256=dJpdXGrtBWLarc9tjhymHa3D4jLEhyv3FEhKjeLPYXo,4689
+matbench_discovery/enums.py,sha256=6YTS0uKU0Lc2oQyOLQwW-pB4rKqMmfaEQl_9K1FKAkg,8006
+matbench_discovery/metrics.py,sha256=7Av2DCzd1EjVGEtBEKf7JnNp3MTB4ZNlOv1qCrpqlTg,5606
+matbench_discovery/models.py,sha256=ZeI8ZTLZn7JfeJJZWr12Pv-G91FFy7H0GluL17CaOLM,872
+matbench_discovery/plots.py,sha256=A2ARJ9qMPpz7pDfHrQ8CuCuh_YTseuqnFHVhD7h-AeU,35674
+matbench_discovery/preds.py,sha256=9jk3TNKlvPD0eUkbP-N9LSAs7c8sD1JlMseAVA_OvpE,10738
+matbench_discovery/slurm.py,sha256=XcNWTjCi3E3eORXeac8edTQq7Kl1qBUyID-Vr17vgPc,4396
+matbench_discovery/structure.py,sha256=RrfUcMByiEwrh3ch76EYcon8PHDER5IluyksTepWbVs,1826
+matbench_discovery/figshare/1.0.0.json,sha256=4b5zKckReQrqJtWW-OjFfiXWoJ3gIQOOj6D4GqIY3kE,1807
+matbench_discovery/figshare/readme.md,sha256=7m48wW6oexCzwnijUpwBpOysO1j3Pfpr-Q2bC47ZBuo,140
+matbench_discovery-1.1.2.dist-info/METADATA,sha256=J39Eg4bv_R3CxMaE9fOkfH6h02YnmoFvlN7DFR6n6kc,6174
+matbench_discovery-1.1.2.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+matbench_discovery-1.1.2.dist-info/top_level.txt,sha256=buwDPNciMHoHNqQktpZcWvrpGh4-M5WSiUq2kPNybME,19
+matbench_discovery-1.1.2.dist-info/RECORD,,
