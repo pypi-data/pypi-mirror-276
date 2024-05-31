@@ -1,0 +1,11 @@
+ecs_service_discovery/__init__.py,sha256=hFJgH8hsk8Bnamu5T2JEz3i-Gcl9bOHuo8wOq0CJC5M,225
+ecs_service_discovery/cli.py,sha256=ZmNvfkHLvyT3eI6egUar06QkvyJxQnZsZ2RNcf6cwZQ,1923
+ecs_service_discovery/ecs_sd_common.py,sha256=4qy0WaBoahz3TShzfmto-HmtojjCdSY2nH2rBBffGyI,4001
+ecs_service_discovery/ecs_service_discovery.py,sha256=mDhRX7UR2YQNAUTG6Q16AMu0_hhlglr3lenvQ12Y1ko,3806
+ecs_service_discovery/prometheus_sd.py,sha256=SYufhvUUrX0McAGpEeOzA6WbFFBUddaZzuBSuBB-4nQ,9289
+ecs_service_discovery/stats.py,sha256=ESvW7cIOJRUvtiGeog-mdl-dqnjQhev77rhS_oopgT8,723
+ecs_service_discovery-0.1.4.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+ecs_service_discovery-0.1.4.dist-info/METADATA,sha256=wlU4sn9f1DkqGOHTVDlT3oGhWualH5WqGgs1qCgT3IU,4524
+ecs_service_discovery-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ecs_service_discovery-0.1.4.dist-info/entry_points.txt,sha256=Wxzyq66zYRn9r5TVmlKRtlreysrnHuDv-SGIFTQtBQk,110
+ecs_service_discovery-0.1.4.dist-info/RECORD,,
