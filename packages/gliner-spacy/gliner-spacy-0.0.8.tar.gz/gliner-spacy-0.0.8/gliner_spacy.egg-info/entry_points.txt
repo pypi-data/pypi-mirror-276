@@ -1,0 +1,2 @@
+[spacy_factories]
+gliner_spacy = gliner_spacy.pipeline:GlinerSpacy
