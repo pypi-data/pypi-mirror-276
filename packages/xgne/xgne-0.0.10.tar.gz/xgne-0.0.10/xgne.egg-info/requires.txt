@@ -1,0 +1,10 @@
+wheel
+w3lib
+lxml
+numpy
+langid
+pyyaml
+newspaper3k
+dateutils
+parsel
+jsonpath
