@@ -1,0 +1,8 @@
+tifffile
+pillow
+numpy
+scipy
+
+[dev]
+pytest
+flake8
