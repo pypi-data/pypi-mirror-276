@@ -1,0 +1,104 @@
+metadata:
+    name: noaa-object-data-delivery-pipeline
+sparkApp:
+  spec:
+    type: Python
+    image: "boozallen/noaa-gpd-spark-worker-docker:latest"
+    mainApplicationFile: "local:///opt/spark/jobs/pipelines/noaa-object-data-delivery-pipeline/noaa_object_data_delivery_pipeline_driver.py"
+    deps:
+      packages:
+        - mysql:mysql-connector-java:8.0.30
+        - org.apache.hadoop:hadoop-aws:3.3.4
+        - com.amazonaws:aws-java-sdk-bundle:1.12.262
+        - io.delta:delta-core_2.12:2.4.0
+        - io.delta:delta-storage:2.4.0
+      excludePackages: []
+    hadoopConf:
+      fs.s3a.fast.upload: "true"
+      fs.s3a.path.style: "true"
+      fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
+      fs.s3a.path.style.access: "true"
+    dynamicAllocation:
+      enabled: true
+      initialExecutors: 0
+      minExecutors: 0
+      maxExecutors: 1
+    driver:
+      cores: 1
+      coreLimit: "1200m"
+      memory: "512m"
+      serviceAccount: spark
+      env:
+        - name: KRAUSENING_BASE
+          value: /opt/spark/krausening/base
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: AWS_ACCESS_KEY_ID
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: AWS_SECRET_ACCESS_KEY
+        - name: KRAUSENING_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: KRAUSENING_PASSWORD
+        - name: objData_FS_ACCESS_KEY_ID
+          value: ""
+        - name: STORAGE_ENDPOINT
+          value: "http://s3-local:4566"
+        - name: objData_FS_PROVIDER
+          value: "s3"
+        - name: objData_FS_ACCESS_KEY_ID
+          value: ""
+        - name: objData_FS_SECRET_ACCESS_KEY
+          value: ""
+        - name: objData_FS_SECURE
+          value: "false"
+        - name: objData_FS_HOST
+          value: "s3-local"
+        - name: objData_FS_PORT
+          value: "4566"
+        - name: INPUT_PATH
+          value: "ingest/"
+        - name: OUTPUT_PATH
+          value: "output/"
+    executor:
+      cores: 1
+      memory: "512m"
+      env:
+      env:
+        - name: KRAUSENING_BASE
+          value: /opt/spark/krausening/base
+        - name: KRAUSENING_EXTENSIONS
+          value: /opt/spark/krausening/dev
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: AWS_ACCESS_KEY_ID
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: AWS_SECRET_ACCESS_KEY
+        - name: STORAGE_ENDPOINT
+          value: "s3.amazonaws.com"
+        - name: KRAUSENING_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: aws-config
+              key: KRAUSENING_PASSWORD
+        - name: objData_FS_ACCESS_KEY_ID
+          value: ""
+        - name: STORAGE_ENDPOINT
+          value: "http://s3-local:4566"
+        - name: objData_FS_PROVIDER
+          value: "s3"
+        - name: INPUT_PATH
+          value: "ingest/"
+        - name: OUTPUT_PATH
+          value: "output/"
