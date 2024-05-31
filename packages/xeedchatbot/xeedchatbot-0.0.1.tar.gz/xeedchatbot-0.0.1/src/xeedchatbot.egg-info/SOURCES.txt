@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/xeedchatbot.egg-info/PKG-INFO
+src/xeedchatbot.egg-info/SOURCES.txt
+src/xeedchatbot.egg-info/dependency_links.txt
+src/xeedchatbot.egg-info/requires.txt
+src/xeedchatbot.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "xeedchatbot"
+dependencies = [
+    "langchain",
+    "langchain_experimental",
+    "langchain_openai",
+    "langchain_community",
+    "pandas",
+    "tabulate"
+]
+description = "Initializer for Xurpas Xeed ChatBot for the frappe bench"
+authors = [
+    {name = "Neil Ortaliz", email="neil.ortaliz@xurpas.com"}
+]
+readme = "README.md"
+
+license = {text = "MIT License"}
