@@ -1,0 +1,77 @@
+abacusai.project_config
+=======================
+
+.. py:module:: abacusai.project_config
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   abacusai.project_config.ProjectFeatureGroupConfig
+   abacusai.project_config.AbstractApiClass
+   abacusai.project_config.ProjectConfig
+
+
+Module Contents
+---------------
+
+.. py:class:: ProjectFeatureGroupConfig
+
+   Bases: :py:obj:`abacusai.api_class.abstract.ApiClass`
+
+
+   An abstract class for project feature group configuration.
+
+
+   .. py:attribute:: type
+      :type:  abacusai.api_class.enums.ProjectConfigType
+
+
+   .. py:method:: _get_builder()
+      :classmethod:
+
+
+
+.. py:class:: AbstractApiClass(client, id)
+
+   .. py:method:: __eq__(other)
+
+      Return self==value.
+
+
+
+   .. py:method:: _get_attribute_as_dict(attribute)
+
+
+.. py:class:: ProjectConfig(client, type=None, config={})
+
+   Bases: :py:obj:`abacusai.return_class.AbstractApiClass`
+
+
+   Project-specific config for a feature group
+
+   :param client: An authenticated API Client instance
+   :type client: ApiClient
+   :param type: Type of project config
+   :type type: str
+   :param config: Project-specific config for this feature group
+   :type config: ProjectFeatureGroupConfig
+
+
+   .. py:method:: __repr__()
+
+      Return repr(self).
+
+
+
+   .. py:method:: to_dict()
+
+      Get a dict representation of the parameters in this class
+
+      :returns: The dict value representation of the class parameters
+      :rtype: dict
+
+
+

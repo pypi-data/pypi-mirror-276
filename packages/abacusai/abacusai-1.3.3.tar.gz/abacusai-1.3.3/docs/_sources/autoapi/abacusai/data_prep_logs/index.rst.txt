@@ -1,0 +1,57 @@
+abacusai.data_prep_logs
+=======================
+
+.. py:module:: abacusai.data_prep_logs
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   abacusai.data_prep_logs.AbstractApiClass
+   abacusai.data_prep_logs.DataPrepLogs
+
+
+Module Contents
+---------------
+
+.. py:class:: AbstractApiClass(client, id)
+
+   .. py:method:: __eq__(other)
+
+      Return self==value.
+
+
+
+   .. py:method:: _get_attribute_as_dict(attribute)
+
+
+.. py:class:: DataPrepLogs(client, logs=None)
+
+   Bases: :py:obj:`abacusai.return_class.AbstractApiClass`
+
+
+   Logs from data preparation.
+
+   :param client: An authenticated API Client instance
+   :type client: ApiClient
+   :param logs: List of logs from data preparation during model training.
+   :type logs: list[str]
+
+
+   .. py:method:: __repr__()
+
+      Return repr(self).
+
+
+
+   .. py:method:: to_dict()
+
+      Get a dict representation of the parameters in this class
+
+      :returns: The dict value representation of the class parameters
+      :rtype: dict
+
+
+

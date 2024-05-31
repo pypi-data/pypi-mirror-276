@@ -1,0 +1,98 @@
+abacusai.model_blueprint_export
+===============================
+
+.. py:module:: abacusai.model_blueprint_export
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   abacusai.model_blueprint_export.ModelBlueprintStage
+   abacusai.model_blueprint_export.AbstractApiClass
+   abacusai.model_blueprint_export.ModelBlueprintExport
+
+
+Module Contents
+---------------
+
+.. py:class:: ModelBlueprintStage(client, stageName=None, displayName=None, description=None, params=None, predecessors=None)
+
+   Bases: :py:obj:`abacusai.return_class.AbstractApiClass`
+
+
+   A stage in the model blueprint export process.
+
+   :param client: An authenticated API Client instance
+   :type client: ApiClient
+   :param stageName: The name of the stage.
+   :type stageName: str
+   :param displayName: The display name of the stage.
+   :type displayName: str
+   :param description: The description of the stage.
+   :type description: str
+   :param params: The parameters for the stage.
+   :type params: dict
+   :param predecessors: A list of stages that occur directly before this stage.
+   :type predecessors: list
+
+
+   .. py:method:: __repr__()
+
+      Return repr(self).
+
+
+
+   .. py:method:: to_dict()
+
+      Get a dict representation of the parameters in this class
+
+      :returns: The dict value representation of the class parameters
+      :rtype: dict
+
+
+
+.. py:class:: AbstractApiClass(client, id)
+
+   .. py:method:: __eq__(other)
+
+      Return self==value.
+
+
+
+   .. py:method:: _get_attribute_as_dict(attribute)
+
+
+.. py:class:: ModelBlueprintExport(client, modelVersion=None, currentTrainingConfig=None, modelBlueprintStages={})
+
+   Bases: :py:obj:`abacusai.return_class.AbstractApiClass`
+
+
+   Model Blueprint
+
+   :param client: An authenticated API Client instance
+   :type client: ApiClient
+   :param modelVersion: Version of the model that the blueprint is for.
+   :type modelVersion: str
+   :param currentTrainingConfig: The current training configuration for the model. It can be used to get training configs and train a new model
+   :type currentTrainingConfig: dict
+   :param modelBlueprintStages: The stages of the model blueprint. Each one includes the stage name, display name, description, parameters, and predecessors.
+   :type modelBlueprintStages: ModelBlueprintStage
+
+
+   .. py:method:: __repr__()
+
+      Return repr(self).
+
+
+
+   .. py:method:: to_dict()
+
+      Get a dict representation of the parameters in this class
+
+      :returns: The dict value representation of the class parameters
+      :rtype: dict
+
+
+
