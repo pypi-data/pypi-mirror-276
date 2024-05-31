@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/napari_trackastra/__init__.py
+src/napari_trackastra/_sample_data.py
+src/napari_trackastra/_widget.py
+src/napari_trackastra/napari.yaml
+src/napari_trackastra.egg-info/PKG-INFO
+src/napari_trackastra.egg-info/SOURCES.txt
+src/napari_trackastra.egg-info/dependency_links.txt
+src/napari_trackastra.egg-info/entry_points.txt
+src/napari_trackastra.egg-info/requires.txt
+src/napari_trackastra.egg-info/top_level.txt
+src/napari_trackastra/_tests/__init__.py
+src/napari_trackastra/_tests/test_widget.py
