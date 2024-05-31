@@ -1,0 +1,2 @@
+[console_scripts]
+hashcommit = hashcommit.main:main
