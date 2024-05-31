@@ -1,0 +1,13 @@
+polars_xdt-0.14.13.dist-info/METADATA,sha256=A3ZqhzJfxQgKbK9Agm-28FMUvYQwxsep-RJ0_6M7_Wg,3356
+polars_xdt-0.14.13.dist-info/WHEEL,sha256=_-pO1V0R3bpcg5FhWC82Cl79freIhF1O9I5uv0may5k,94
+polars_xdt-0.14.13.dist-info/license_files/LICENSE,sha256=N2uLjQs8DWUxWQieXP8Hpq6Q1IXIUVJqZj8KKMe4jTA,1098
+polars_xdt/.mypy.ini,sha256=5mJftXUSCrV-3kIF5PBb8zdS955xTJp0K373cqIs-KI,21
+polars_xdt/functions.py,sha256=28AqLTMX86gVZosa-FmBdxMuYeAxW976g1TYTeScuvY,36533
+polars_xdt/namespace.py,sha256=yv-4ohfo1VB63pMM-SSGQe6cj4ihA1Zw2b4xcPf5PVA,588
+polars_xdt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polars_xdt/ranges.py,sha256=fIxeE1tqX_hpgiFdWCp_avXsZfeqBAWcGUtsJ79h1Yk,5075
+polars_xdt/utils.py,sha256=LPSSPdsN6kzQUm752bniKWdN8vfbbxP_iEylbQEr3LA,2399
+polars_xdt/_internal.pyi,sha256=xq3DTJlvvVHWjbZ1EvMjKJBpN-UQO3z1Rulqaz2NN6w,18
+polars_xdt/__init__.py,sha256=nG4PXy0RFSGXAwl2iFph1R5RhzdFdVOnCVWAkx6llzg,791
+polars_xdt/_internal.pyd,sha256=kEaf6tcFF-G8SlhQNEhAm2qkrmuQjHddYkx0ckZHR8M,17705984
+polars_xdt-0.14.13.dist-info/RECORD,,
