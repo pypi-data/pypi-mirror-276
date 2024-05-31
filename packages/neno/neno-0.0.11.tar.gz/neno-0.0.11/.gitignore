@@ -1,0 +1,8 @@
+venv/
+*.pyc
+# exclude example backend files
+backend/
+dist/
+
+.DS_Store
+__pycache__/
