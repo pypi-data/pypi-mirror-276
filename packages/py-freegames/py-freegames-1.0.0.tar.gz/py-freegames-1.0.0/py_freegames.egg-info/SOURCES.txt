@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+freegames/__init__.py
+freegames/epic.py
+freegames/gog.py
+freegames/steam.py
+py_freegames.egg-info/PKG-INFO
+py_freegames.egg-info/SOURCES.txt
+py_freegames.egg-info/dependency_links.txt
+py_freegames.egg-info/requires.txt
+py_freegames.egg-info/top_level.txt
+tests/test.py
