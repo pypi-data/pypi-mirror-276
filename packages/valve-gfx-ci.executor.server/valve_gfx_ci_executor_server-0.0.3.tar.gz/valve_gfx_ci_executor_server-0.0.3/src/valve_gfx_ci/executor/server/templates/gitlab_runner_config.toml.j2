@@ -1,0 +1,66 @@
+check_interval = 0
+concurrent = 128
+listen_address = "0.0.0.0:9252"
+
+# Gateway runners
+{% for gl in mars_db.gitlab.values() if gl.should_expose_gateway_runner %}
+[[runners]]
+name = "{{config.FARM_NAME}}-gateway"
+{% set limit = cpu_count / 8 | int %}
+limit = {{[1, limit] | max | int}}
+url = "{{gl.url}}"
+token = "{{gl.gateway_runner.token}}"
+executor = "docker"
+environment = [{% for k, v in config.job_environment_vars().items() %}
+    "{{k}}={{v}}",{% endfor %}
+]
+pre_build_script = "/usr/local/bin/gitlab_runner_prebuild.sh"
+cache_dir = "/cache"
+[runners.docker]
+tls_verify = false
+image = "registry.freedesktop.org/gfx-ci/ci-tron/gitlab-trigger"
+privileged = true
+disable_entrypoint_overwrite = false
+oom_kill_disable = false
+disable_cache = false
+volumes = [ "/usr/local/bin/gitlab_runner_prebuild.sh:/usr/local/bin/gitlab_runner_prebuild.sh", "gateway-runner-cache:/cache" ]
+shm_size = 0
+cpus = "{{cpu_count}}"  # Gateway runner CPU allocation
+{% set memory = [ram_total_MB / 2, ram_total_MB - 4096] | max | int %}
+memory = "{{memory}} MB" # Gateway runner memory allocation
+memory_swap = "{{(memory * 1.2) | int}} MB" # Gateway runner memory hard limit
+memory_reservation = "{{(memory / 2) | int}} MB" # Gateway runner memory soft limit
+{% endfor %}
+
+# DUTs
+{% for dut in mars_db.duts.values() if dut.available %}
+{% for gl_name, cfg in dut.gitlab.items() if cfg.exposed %}{% set gl = mars_db.gitlab[gl_name] -%}{% if gl.expose_runners %}
+[[runners]]
+name = "{{dut.full_name}}"
+limit = 1
+url = "{{gl.url}}"
+token = "{{cfg.token}}"
+executor = "docker"
+environment = [{% for k, v in config.job_environment_vars().items() %}
+    "{{k}}={{v}}",{% endfor %}
+]
+[runners.docker]
+tls_verify = false
+image = "registry.freedesktop.org/gfx-ci/ci-tron/gitlab-trigger"
+privileged = false
+disable_entrypoint_overwrite = false
+oom_kill_disable = false
+disable_cache = false
+volumes = []
+network_mode = "host"
+shm_size = 0
+cpus = "1"
+memory = "1GB"
+memory_swap = "1GB"
+memory_reservation = "512MB"
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+[session_server]
+session_timeout = 1800

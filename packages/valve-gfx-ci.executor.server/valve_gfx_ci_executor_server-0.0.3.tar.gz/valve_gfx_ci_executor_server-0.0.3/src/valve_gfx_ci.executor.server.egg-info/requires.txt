@@ -1,0 +1,19 @@
+requests<3,>=2
+easysnmp==0.2.5
+Flask<3,>=2.2
+pydantic<3,>=2
+python-dateutil<3,>=2.8
+PyYAML<7,>=6
+minio<7.1,>=7.0
+inotify-simple==1.3.5
+Jinja2==3.0.3
+deepdiff==5.7.0
+psutil<6,>=5.9
+waitress<3,>=2.1.2
+requests-unixsocket2<1,>=0.4
+CacheControl[filecache]<1,>=0.14
+urllib3<2
+pyusb<2,>=1.2
+
+[:python_version < "3.8"]
+backports.cached-property
