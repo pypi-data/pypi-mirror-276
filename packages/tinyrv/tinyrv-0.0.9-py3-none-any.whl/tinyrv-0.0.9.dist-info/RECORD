@@ -1,0 +1,13 @@
+tinyrv/__init__.py,sha256=gbDDtJ-YpsfVAFCgUC26aysku0Y22ApshkDjoyshvYg,22
+tinyrv/fpu.py,sha256=qA6Tm1utthGheEVXJdwqCXwc9vtpHzcADsrSNfN8uW4,12501
+tinyrv/opcodes.py,sha256=CXPLpbV0PaLFZdblliKW0Jc_GAIVAicPmYQEPWfILPs,582260
+tinyrv/system.py,sha256=h6zxvejJforkRYhuJm6H0KcVsoHmwGwKvafiKRjLsEY,15935
+tinyrv/tinyrv.py,sha256=jV1vG4VekMy7rC9g9LiW3_m38UoLzkqkiM6tSjsPgn4,46619
+tinyrv/tinyrv_dump.py,sha256=XFFB97AzkAZRdX3TR-ZHIsFQdeiYIVGY6rUzIDZXi-g,394
+tinyrv/tinyrv_sim.py,sha256=5oQVzKcYrLkQxuKh7SA_plDHVacCBSlVCKV5eBWi7qQ,552
+tinyrv/user.py,sha256=INrqPZINE4IQyIJrqoy9gtDiqhxzoL1AVmQN2fnr-H4,10069
+tinyrv-0.0.9.dist-info/METADATA,sha256=OF8GQgVGUphLoKydBVXCZzvKHcbtUi4FsIKtiswkd9s,12841
+tinyrv-0.0.9.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+tinyrv-0.0.9.dist-info/entry_points.txt,sha256=2mzhuZf9EKw764e4f0EJpJWlEE05Dw_jx12yiiiV2mg,174
+tinyrv-0.0.9.dist-info/licenses/LICENSE,sha256=_wYH6Cx59lF341mQS3sgz6_TUIYzk1oen_-8Ij09TIc,1069
+tinyrv-0.0.9.dist-info/RECORD,,
