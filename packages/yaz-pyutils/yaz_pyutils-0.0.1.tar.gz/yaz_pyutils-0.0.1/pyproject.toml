@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yaz_pyutils"
+version = "0.0.1"
+authors = [
+  { name="Yarzue Zolia", email="zyarzue.dev@gmail.com" },
+]
+description = "PyUtils is a Python utility package that provides functions for generating random numbers, alphanumeric strings, alphabetic strings, hashed strings, and more. This package can be useful for developers who need to generate random data for various purposes such as testing, seeding databases, or creating random tokens."
+readme = "README.md"
+requires-python = ">=3.10"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yarz-dev/yaz-pyutils"
+Issues = "https://github.com/yarz-dev/yaz-pyutils/issues"

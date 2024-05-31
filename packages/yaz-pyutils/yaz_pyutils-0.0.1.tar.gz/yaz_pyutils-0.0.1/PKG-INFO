@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: yaz_pyutils
+Version: 0.0.1
+Summary: PyUtils is a Python utility package that provides functions for generating random numbers, alphanumeric strings, alphabetic strings, hashed strings, and more. This package can be useful for developers who need to generate random data for various purposes such as testing, seeding databases, or creating random tokens.
+Project-URL: Homepage, https://github.com/yarz-dev/yaz-pyutils
+Project-URL: Issues, https://github.com/yarz-dev/yaz-pyutils/issues
+Author-email: Yarzue Zolia <zyarzue.dev@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# yaz-pyutils
+
+`yaz-pyutils` is a Python utility package that provides functions for generating random numbers, alphanumeric strings, alphabetic strings, hashed strings, and more. This package can be useful for developers who need to generate random data for various purposes such as testing, seeding databases, or creating random tokens.
+
+## Installation
+
+You can install `random_utils` via pip:
+
+```bash
+pip install random_utils
+```
