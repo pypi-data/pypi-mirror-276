@@ -1,0 +1,9 @@
+isvirtual/VERSION.md,sha256=dLhgsycGZhN6TVQ8Pj0eTkc9VGNvdZPRwXv2k-ZUC74,5
+isvirtual/__init__.py,sha256=Mf4gb_dWYexOvf4E2fDIutxqOeolXNHsa_2FSH3Ndb8,226
+isvirtual/cli.py,sha256=TBVq7UfyFMGr1vHS1EXvWhRmVJ1wLmOkf8ujfiNah4Y,1125
+isvirtual/main.py,sha256=ft3Nh2JrSvMt6821l50U3Ov2qT6L-YIGU0wsSVNcJQs,7281
+isvirtual-1.4.0.dist-info/METADATA,sha256=WCAwoasxSh81FLxs3hyVHDbnO5I_oAaqf0-dtxw1fMU,7764
+isvirtual-1.4.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+isvirtual-1.4.0.dist-info/entry_points.txt,sha256=2mCaX-quM2US6qns9xBLaCgfG5lZzAvGKd5f8PRAlRE,48
+isvirtual-1.4.0.dist-info/licenses/LICENSE,sha256=pEbyGaq-NmeFBES71fEbfpMYibTV2_O8B0_gDyXxEkw,1057
+isvirtual-1.4.0.dist-info/RECORD,,
