@@ -1,0 +1,3 @@
+[console_scripts]
+your-script-name = your_package.nikhil:main
+

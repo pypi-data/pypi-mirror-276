@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: EKS-Logs
+Version: 0.1
+Summary: To check stream the EKS pod logs
+Home-page: https://github.com/your_username/your_package
+Author: Nikhil Sukumaran
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: kubernetes
+
+UNKNOWN
+
+
