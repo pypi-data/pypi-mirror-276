@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: ai-helpers-jax-utils
+Version: 0.1.0a1
+Summary: Common jax utils
+Home-page: https://github.com/ai-helpers/jax-utils
+Keywords: machine-learning,jax,utils
+Author: Corentin Vasseur
+Author-email: vasseur.corentin@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: jax (>=0.4.28,<0.5.0)
+Requires-Dist: jax-dataclasses (>=1.6.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: optax (>=0.2.2,<0.3.0)
+Requires-Dist: ordered-set (>=4.1.0,<5.0.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Project-URL: Documentation, https://ai-helpers.github.io/jax-utils/
+Project-URL: Repository, https://github.com/ai-helpers/jax-utils
+Description-Content-Type: text/markdown
+
+# AI Helpers - Jax Utils
+
+`jax-utils` is a Python module that provides a collection of utilities to simplify and enhance the use of JAX. These utilities are designed to make working with JAX more efficient and to reduce boilerplate code.
+
+## Table of Contents
+
+- [AI Helpers - Jax Utils](#ai-helpers---jax-utils)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Getting Started](#getting-started)
+  - [Utilities](#utilities)
+  - [Examples](#examples)
+  - [Contributing](#contributing)
+
+## Installation
+
+You can install the `jax-utils` module via pip:
+
+```bash
+pip install ai-helpers-jax-utils
+```
+
+## Getting Started
+
+First, import the module in your Python script:
+
+```python
+import jax_utils as ju
+```
+
+Now you can use the utilities provided by `jax-utils`.
+
+## Utilities
+ > TODO
+
+## Examples
+> TODO
+
+## Contributing
+
+We welcome contributions to `jax-utils`. To contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
+
+Please ensure your code follows the project's coding standards and includes appropriate tests.
