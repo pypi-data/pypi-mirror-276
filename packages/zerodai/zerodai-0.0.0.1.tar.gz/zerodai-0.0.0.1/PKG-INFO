@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zerodai
+Version: 0.0.0.1
+Summary: Librería para leer ficheros PDFs y extraer la información en formato str
+Home-page: https://github.com/luijait
+Author: 0dAI
+Author-email: luijait@zerodai.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Test
+
+
