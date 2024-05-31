@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lontra
+Version: 0.0.1
+Summary: 
+Author: Sahand Nazarzadeh
+Author-email: sahand.nazarzadeh@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Merino
+
+Merino is a Python package that combines deep learning and financial analysis tools to tackle various tasks in the financial domain. It provides a comprehensive set of features and functions to help researchers, analysts, and developers working in the finance industry.
