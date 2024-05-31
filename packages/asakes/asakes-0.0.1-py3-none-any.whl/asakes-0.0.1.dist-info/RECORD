@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+add.py,sha256=PJRjKLSl6rJrJcjr6V3buUjhu-634SJG9x9PRiX1Bw0,42
+smart_substract.py,sha256=p2jvE0azUXdUdUJANS2UlM7B2DdMqblkJYPn3dQYj5g,88
+substract.py,sha256=swmOZcHf2sRWRUfJdUY-WM3cKz65cqdjrQsjDBfejz4,47
+nur/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nur/divide.py,sha256=nxmL6j_kbWRmlAmbq2RYvTC_wIl2YUPJbE5YAFztuhI,44
+nur/smart_divide.py,sha256=DrqJnNTUV74t_ne6UEjGv8lkOvTyXMuXFvmSEStFslw,86
+asakes-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+asakes-0.0.1.dist-info/METADATA,sha256=lnG1gEZ1qXOGkwJcj1ePeX3Q2EmtlamMNZbnI3bvztY,476
+asakes-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+asakes-0.0.1.dist-info/top_level.txt,sha256=D7aWeWmJgwjJuwKZScTPaTmlscxuoVIu1iedpLbYCkU,43
+asakes-0.0.1.dist-info/RECORD,,
