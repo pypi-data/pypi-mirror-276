@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: seiscod
+Version: 3.3.4
+Home-page: 
+Author: Maximilien Lehujeur
+Author-email: maximilien.lehujeur@univ-eiffel.fr
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: ipython
+Requires-Dist: pytest
+Requires-Dist: numexpr
+Requires-Dist: tempoo >=1.0.0
+Requires-Dist: pyseg2 >=1.3
+Requires-Dist: pysegd3
+
+# SEISCOD
+
+Tools to manage seismic traces  
+* Store, filter, manipulate seismic waveforms  
+* Visualise array data based on matplotlib collections  
+* Save and load seismic data using numpy npz format (system independent)
+* No dependency to obspy, although conversion from obspy is handled
+
+This program  was originally named seispy, renamed to seiscod   
+because the name was already used.
+
+
+## Install with anaconda3
+Change the current directory to the installation path 
+```bash
+cd ./to/installation/path
+```
+
+Now get the seiscod package from gitlab
+```bash
+git clone https://gitlab.com/mlehujeur/seiscod.git
+```
+
+Ceate a dedicated conda environment, and install seiscod in it
+```bash
+conda create --name seiscodenv python=3.9 --yes
+conda activate seiscodenv
+
+cd seiscod
+python -m pip install lib/*.whl
+python -m pip install -e .
+```
+
+Optional dependencies  
+*obspy is not a dependency of this package (and I don't want it to be!!)   
+but might be used in some optional functions*
+```bash
+conda config --add channels conda-forge  # ignore the warning if any
+conda install obspy
+```
+
+## Test
+```bash
+viz -m 1 -d -ns ./seiscod/readwrite/filesamples/segdfile.segd
+```
+
+
+## How to ...
+### Create a stream of traces from scratch, and display it
+
+```python
+from seiscod import *
+
+# create an empty stream object
+st = Stream()
+
+# append traces to it
+for i in range(12):
+    # generate a waveform array (whatever)
+    data_array = np.zeros(256, float)
+    data_array[5 * i + 30] = 1.0
+    
+    # create the trace object
+    tr = Trace(
+        seedid=f"trace#{i}", # name of the trace
+        starttime=0.,  # time of first sample
+        delta=0.000001,  # sampling interv in sec
+        data=data_array)  # numpy.ndarray, 1d
+    
+    # process it (methods can be queued as follow)
+    tr.detrend().taperwidth(width=10e-6)
+    tr.gaussbandpass(freq0=100000., alpha=5.0)
+    
+    # add it to the current stream
+    st.append(tr)
+
+fig = plt.figure(figsize=(12, 6))
+axt = plt.subplot(121, xlabel="time")
+axf = plt.subplot(122, xlabel="frequency", sharey=axt)
+
+# colormap display
+st.shade(ax=axt, 
+        powergain=0.8,
+        cmap=plt.get_cmap('gray'),
+        seedticks=True,  # display trace names
+        timeticks=False,  # True for calendar data
+        )
+
+# wiggle display (on top of it)
+st.show(ax=axt, 
+        facealpha=0.5,
+        facecolor="br",
+        seedticks=True,  # display trace names
+        timeticks=False,  # True for calendar data
+        )
+microtimetick(axt)
+
+# display in Fourier domain
+st.fft()
+st.show(axf, 
+        facealpha=0.5,
+        facecolor="br",
+        seedticks=True,  # display trace names
+        timeticks=False,  # True for calendar data
+        )
+
+plt.show()
+```
+
