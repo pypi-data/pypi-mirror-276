@@ -1,0 +1,8 @@
+batchllm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+batchllm/executor.py,sha256=s8e6Jquv96evKoSmSpwFAd8Y0-PtJ9Muf-F_PeHxx54,7726
+kernels/example.py,sha256=phjGnx0p1n7r2MfSU4k-XBJz_xLBJq-U-TQoE4I0PEk,13158
+batchllm-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+batchllm-0.1.0.dist-info/METADATA,sha256=l66cwCHRZ-Q4KCzxteQGTsg1w5L6rD4gF_b11GSmUo4,631
+batchllm-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+batchllm-0.1.0.dist-info/top_level.txt,sha256=_R1VdysJPHjkBO2XOK3K5qT1gvYpFPimAIjGJQCAeXY,17
+batchllm-0.1.0.dist-info/RECORD,,
