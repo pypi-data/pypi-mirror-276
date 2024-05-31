@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aioselectel-api"
+version = "0.1.4"
+description = ""
+authors = ["azamtoiri <azamtoiri@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.5"
+asyncio = "^3.4.3"
+pytest = "^8.2.1"
+aioresponses = "^0.7.6"
+anyio = "^4.4.0"
+pytest-asyncio = "^0.23.7"
+environs = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
