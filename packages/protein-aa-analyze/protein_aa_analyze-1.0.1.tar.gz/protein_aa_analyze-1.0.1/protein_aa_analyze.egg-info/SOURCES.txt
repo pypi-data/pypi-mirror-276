@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+protein_aa_analyze/__init__.py
+protein_aa_analyze/analyzer.py
+protein_aa_analyze.egg-info/PKG-INFO
+protein_aa_analyze.egg-info/SOURCES.txt
+protein_aa_analyze.egg-info/dependency_links.txt
+protein_aa_analyze.egg-info/entry_points.txt
+protein_aa_analyze.egg-info/top_level.txt
