@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: formularity_rfs
+Version: 0.1
+Summary: Пакет для оценки формульности фольклорных песен на русском языке
+Home-page: https://github.com/valsidnenko/formularity_rfs
+Author: Valeria Sidnenko
+Author-email: valsidnenko@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Formularity RFS
+
+Пакет для оценки формульности текстов на русском языке. Использует библиотеку spaCy для лемматизации, pymorphy2 для морфологии, и scikit-learn для обработки н-грамм.

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+collocations.txt
+setup.py
+stopwords.txt
+formularity/__init__.py
+formularity/your_module.py
+formularity_rfs.egg-info/PKG-INFO
+formularity_rfs.egg-info/SOURCES.txt
+formularity_rfs.egg-info/dependency_links.txt
+formularity_rfs.egg-info/entry_points.txt
+formularity_rfs.egg-info/requires.txt
+formularity_rfs.egg-info/top_level.txt
