@@ -1,0 +1,8 @@
+reaction_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reaction_local/constants.py,sha256=l6eAdIdLZEPpd0tjsZZ31NKfQrbu4uhi98jzc9y_gIY,682
+reaction_local/reaction.py,sha256=z33wIpJVcgsHXxkpb3iBvykVYwH4Vs32wZP6a_mj9zo,4371
+reaction_local/reaction_type.py,sha256=MuEjyu3J4GUi57o29TAzMmZz3DpLf1KN6oubFVsonbU,2620
+reaction_local-0.0.18.dist-info/METADATA,sha256=v0ZInOYhQQ81OCWF2srCoAUXd3I5m4NqKx3dcrpfh00,660
+reaction_local-0.0.18.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+reaction_local-0.0.18.dist-info/top_level.txt,sha256=aeUknPS9-PjcU7kBy6TbbO5W672owLqvmV3Dr89Ca6I,15
+reaction_local-0.0.18.dist-info/RECORD,,
