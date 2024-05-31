@@ -1,0 +1,15 @@
+simple_openapi_client/__init__.py,sha256=4RT2ShW-gRI46SYngbmn4qqaknxVWK17FqzSB_tNKeI,161
+simple_openapi_client/config.py,sha256=TiEcuDSGP0WuGySGmipkOz2jIKKYuXACSLoqxNdsNZw,126
+simple_openapi_client/maker.py,sha256=2jP5-yyHGWsZj-E5jsN1DM-RemhqGv51pAXcAh2PLdE,5929
+simple_openapi_client/openapi/__init__.py,sha256=1xJhMUozAhuAmqnvWebqYC_GDsTX1xKSciQclttZtL0,61
+simple_openapi_client/openapi/document.py,sha256=ARcHBgcz2rnRRSh0ycpGu7oPv5EACbi-kRytcsSS97k,560
+simple_openapi_client/openapi/info.py,sha256=XW-R2TPlKhmGbBa-veYya_miEx2hvvrc7qK8Oug48ko,361
+simple_openapi_client/openapi/path.py,sha256=RRmq2Zep8h3VtTsgFy_FSfyrb8Y3aVsG4cfCJ4K2NK0,3461
+simple_openapi_client/parser.py,sha256=0AXNK_F-9v7ASZqdt854o-q6ux9lEYxxDXy6IM3XmB4,451
+simple_openapi_client/templates/async_client.jinja,sha256=2h8XjwZf37pZNeVI9pJAHoc1rYu6RbpJcGX2qaLbEz4,7670
+simple_openapi_client/templates/async_method.jinja,sha256=TSKgWf2CVDxlSqErmsXiukcC9SeBQTTGWcDyaG-V2Zc,4244
+simple_openapi_client/templates/client.jinja,sha256=w2-Tts7tSDZpxyx_f7kcbKgWcyS_IgOeTuu75jzNRKw,7473
+simple_openapi_client/templates/method.jinja,sha256=yPx-_mbMLGpVCD4_xGD23lPEEZOubO9Q7vwL-JPIovs,4224
+simple_openapi_client-0.5.4.dist-info/METADATA,sha256=dZ9Q5GKk-2f1rcfE1PJ1CD8mPXUsWdXtYY7GXUJ10g0,2223
+simple_openapi_client-0.5.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+simple_openapi_client-0.5.4.dist-info/RECORD,,
