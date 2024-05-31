@@ -1,0 +1,11 @@
+docker_ready/__init__.py,sha256=NG-6TTrkawjgWczQpjo-LMPjN5bAuA9_W_GNiNgqWP8,230
+docker_ready/get.py,sha256=2k_y0N91QGIRifY2Nifao-d5TsW1Vm6tY4p9opQ03zA,499
+docker_ready/project.py,sha256=ztMX9U8ZJyjaaz9YrJHg2-JcfLPYjzaNHAScg5S7Nqk,1908
+docker_ready/projects/gitea/compose.yaml,sha256=gw2WL5mLEtJ4nhd2p4RFL1jSMhgY7dRf4dMRzT4XwSs,496
+docker_ready/projects/gitea/project.yaml,sha256=w1YlEwvhBzVow8LHBl27UmwjFLqqHALfAR5WRO1df0k,764
+docker_ready/projects/postgres/compose.yaml,sha256=JXARn6p9GBx0Wnjn0zEUPfCSN2LvnVt1vCyhzelWK9M,132
+docker_ready/projects/postgres/project.yaml,sha256=xi_0ls0jS2CoF6weoSMDg7WkdxWmj_czTPnZbFs8yRw,549
+docker_ready/run.py,sha256=jNYCvsIpJzWNx2PlkyIyuzq-9SXhopNlq6zdJw6bEZc,2940
+docker_ready-0.1.0.dist-info/METADATA,sha256=ZmaNmnfEiQggwCaxXli6BUSV4NGcmQADf1e0xctBbqE,1168
+docker_ready-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+docker_ready-0.1.0.dist-info/RECORD,,
