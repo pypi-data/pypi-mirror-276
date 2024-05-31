@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "reauth_successful": "Pakartotinis autentifikavimas buvo s\u0117kmingas"
+        },
+        "error": {
+            "cannot_connect": "Nepavyko prisijungti",
+            "invalid_auth": "Neteisingas autentifikavimas"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Slapta\u017eodis"
+                },
+                "title": "Baig\u0117si {name} autentifikavimo galiojimas"
+            },
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis",
+                    "username": "Prisijungimos vardas"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "ble_strength": {
+                "name": "BLE stiprumas"
+            },
+            "wifi_strength": {
+                "name": "Wi-Fi RSSI"
+            }
+        }
+    }
+}

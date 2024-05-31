@@ -1,0 +1,41 @@
+{
+    "config": {
+        "abort": {
+            "reauth_successful": "La riautenticazione ha avuto successo"
+        },
+        "create_entry": {
+            "default": "Autenticato con successo"
+        },
+        "error": {
+            "cannot_connect": "Impossibile connettersi",
+            "invalid_auth": "Autenticazione non valida"
+        },
+        "step": {
+            "pick_implementation": {
+                "title": "Seleziona il metodo di autenticazione"
+            },
+            "reauth_confirm": {
+                "data": {
+                    "password": "Password"
+                },
+                "title": "Autentica nuovamente l'integrazione {name}"
+            },
+            "user": {
+                "data": {
+                    "password": "Password",
+                    "username": "Nome utente"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "ble_strength": {
+                "name": "Forza BLE"
+            },
+            "wifi_strength": {
+                "name": "Wi-Fi RSSI"
+            }
+        }
+    }
+}

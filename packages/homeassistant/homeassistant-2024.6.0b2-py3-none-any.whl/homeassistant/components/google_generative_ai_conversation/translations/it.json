@@ -1,0 +1,51 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Impossibile connettersi",
+            "invalid_auth": "Autenticazione non valida",
+            "unknown": "Errore imprevisto"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "Chiave API"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "dangerous_block_threshold": "Promuove, facilita o incoraggia atti dannosi",
+                    "harassment_block_threshold": "Commenti negativi o dannosi rivolti all'identit\u00e0 e/o ai tratti personali",
+                    "hate_block_threshold": "Contenuti volgari, irrispettosi o blasfemi",
+                    "max_tokens": "Numero massimo di token da restituire nella risposta",
+                    "model": "Modello",
+                    "sexual_block_threshold": "Contiene riferimenti ad atti sessuali o altri contenuti osceni",
+                    "temperature": "Temperatura",
+                    "top_k": "Top K",
+                    "top_p": "Top P"
+                }
+            }
+        }
+    },
+    "services": {
+        "generate_content": {
+            "description": "Genera contenuti da una richiesta testuale ed opzionalmente con immagini",
+            "fields": {
+                "image_filename": {
+                    "description": "Immagini",
+                    "example": "/config/www/immagine.jpg",
+                    "name": "Nome file dell'immagine"
+                },
+                "prompt": {
+                    "description": "La richiesta",
+                    "example": "Descrivi ci\u00f2 che vedi in queste immagini",
+                    "name": "Richiesta"
+                }
+            },
+            "name": "Genera contenuti"
+        }
+    }
+}
