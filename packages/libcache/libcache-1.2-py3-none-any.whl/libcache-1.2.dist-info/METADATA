@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: libcache
+Version: 1.2
+Summary: Simple cache with TTL
+Home-page: https://flerken.zapto.org:1115/kuba/libcache
+Author: kuba201
+Project-URL: Source, https://flerken.zapto.org:1115/kuba/libcache
+Keywords: cache,temp,ttl
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+
+# libcache
+LibCache is a simple caching library that has keys and values, like a dict, but its ttl'ed
