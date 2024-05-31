@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "attributable"
+version = "0.0.1"
+authors = [
+    {name = "Shannon Zejiang Shen", email = "zejiangshen@gmail.com"},
+    {name = "Lucas Torroba Hennigen", email = "lucasfth@gmail.com"}
+]
+description = "attributable helps make LLM generation more verifiable"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

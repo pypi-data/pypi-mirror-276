@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/attributable/__init__.py
+src/attributable.egg-info/PKG-INFO
+src/attributable.egg-info/SOURCES.txt
+src/attributable.egg-info/dependency_links.txt
+src/attributable.egg-info/top_level.txt
