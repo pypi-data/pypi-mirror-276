@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: linpgassets
+Version: 24.6
+Summary: An add-on created by Tigeia Workshop that temporarily provides assets for no-commercial educational personal usage.
+Author-email: Linpg Foundation <yudong9912@gmail.com>
+Project-URL: Homepage, https://github.com/LinpgFoundation/linpg-assets
+Project-URL: Bug Tracker, https://github.com/LinpgFoundation/linpg-assets/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+- Any digital content in this project can only be used in the projects created by Tigeia Workshop.
+- You are not allowed to use them in any way unless you obtain authorization from their corresponding creators.
+- Secondary distribution of any part is strictly prohibited!
