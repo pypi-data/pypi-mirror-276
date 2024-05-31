@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+SkFastExcel.egg-info/PKG-INFO
+SkFastExcel.egg-info/SOURCES.txt
+SkFastExcel.egg-info/dependency_links.txt
+SkFastExcel.egg-info/top_level.txt
