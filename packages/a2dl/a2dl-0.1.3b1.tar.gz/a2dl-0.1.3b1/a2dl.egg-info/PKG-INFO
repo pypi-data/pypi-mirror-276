@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: a2dl
+Version: 0.1.3b1
+Summary: Generate draw.io icon libraries from AsciiDoc-based descriptions.
+Home-page: https://gitlab.com/tigabeatz/a2dl
+Author: tigabeatz
+Author-email: tigabeatz@cccwi.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: python-pptx
+Requires-Dist: Pillow
+Requires-Dist: python-docx
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+Requires-Dist: beautifulsoup4
+Requires-Dist: chardet
+Provides-Extra: extensions
+Requires-Dist: lxml; extra == "extensions"
+Requires-Dist: XlsxWriter; extra == "extensions"
+Provides-Extra: ml
+Requires-Dist: scikit-learn; extra == "ml"
+Requires-Dist: transformers; extra == "ml"
+Requires-Dist: torch; extra == "ml"
+Requires-Dist: sentencepiece; extra == "ml"
+Requires-Dist: accelerate; extra == "ml"
+Requires-Dist: diffusers; extra == "ml"
+Requires-Dist: safetensors; extra == "ml"
+Requires-Dist: invisible-watermark; extra == "ml"
+Requires-Dist: rembg[cli,gpu]; extra == "ml"
+
+
+
+## a2dl | (A)sciidoc(2D)rawio(L)ibrary
+
+Generate Draw.io / Diagrams.net libraries out of AsciiDoc-based descriptions and images.  
+
+- AsciiDoc-based descriptions get integrated into HTML tooltips of draw.io icons.
+- The icons are bundled into a draw.io / diagrams.net library.
+- It allows to update a diagram if a library that it used has been updated.
+
