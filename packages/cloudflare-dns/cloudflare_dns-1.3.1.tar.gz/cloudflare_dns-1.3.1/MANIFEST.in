@@ -1,0 +1,2 @@
+recursive-include cloudflare_dns *
+recursive-exclude cloudflare_dns .DS_Store

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cloudflare_dns/__init__.py
+cloudflare_dns/cli.py
+cloudflare_dns.egg-info/PKG-INFO
+cloudflare_dns.egg-info/SOURCES.txt
+cloudflare_dns.egg-info/dependency_links.txt
+cloudflare_dns.egg-info/entry_points.txt
+cloudflare_dns.egg-info/requires.txt
+cloudflare_dns.egg-info/top_level.txt
+cloudflare_dns/__pycache__/__init__.cpython-311.pyc
+cloudflare_dns/__pycache__/cli.cpython-311.pyc
