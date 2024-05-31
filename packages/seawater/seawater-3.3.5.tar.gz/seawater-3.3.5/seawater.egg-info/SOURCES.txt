@@ -1,0 +1,14 @@
+CHANGES.txt
+LICENSE.CSIRO
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+seawater/__init__.py
+seawater/constants.py
+seawater/eos80.py
+seawater/extras.py
+seawater/geostrophic.py
+seawater/library.py

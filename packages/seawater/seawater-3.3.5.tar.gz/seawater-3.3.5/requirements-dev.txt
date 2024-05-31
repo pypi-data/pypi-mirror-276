@@ -1,0 +1,6 @@
+matplotlib
+myst-parser
+numpydoc
+oct2py
+pytest
+sphinx
