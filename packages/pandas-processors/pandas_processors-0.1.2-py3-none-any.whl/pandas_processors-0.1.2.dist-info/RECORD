@@ -1,0 +1,8 @@
+pandas_processors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_processors/_utils.py,sha256=U-g_z8AqRh0WOIJkaXu76JFYo3Os3EfhbQBaaRmk2pE,2887
+pandas_processors/create.py,sha256=K4rOuqDlF0Of0Z27HHF1b-AG-LNRiz6D-oyw8u8ly8U,7961
+pandas_processors/impute.py,sha256=48-CBEJlOZizPswBLv57MgR3Kg5MFK5Qjnahlig3D98,7218
+pandas_processors/normalize.py,sha256=gspCI9-o9kol1bhu7hhls6Uu2kx4u14NdPCKTqhPBTE,3568
+pandas_processors-0.1.2.dist-info/METADATA,sha256=3TaY-iq6Cuvf-cOlsnxPBsSSUjN0zESMSYyGcHgkbTo,974
+pandas_processors-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pandas_processors-0.1.2.dist-info/RECORD,,
