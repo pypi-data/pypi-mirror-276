@@ -1,0 +1,11 @@
+inflatox-0.8.1.dist-info/METADATA,sha256=EBJnUPyGwl5aR8y4SxLmLy9BdV64yPTZOetTGD5ZzJo,5915
+inflatox-0.8.1.dist-info/WHEEL,sha256=s1kP186Bl0gSCNgJzK7tRvZSkgKfd_QL_RepJWBcOs0,123
+inflatox-0.8.1.dist-info/license_files/LICENSE-EN.txt,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+inflatox-0.8.1.dist-info/license_files/LICENSE-EUPL.md,sha256=I0zxkmKjUdPOau3Y7vc00vvV-3Il0WJr3elYl9_Ia3U,375538
+inflatox/__init__.py,sha256=eRq6qDpDBHiNJ92QwD1XwSdAKJaiFL0JPj13O21v7jI,1157
+inflatox/symbolic.py,sha256=9K9J7SqHAj4E_IgaD2Pwjz5yOEjpou8ouK_yIMj4ZUw,22267
+inflatox/compiler.py,sha256=z5ZcUDo9nvhyNduJYJXqN09K3AWK1_QiKcN99VDHJDA,12518
+inflatox/version.py,sha256=w5Yst8lE9IDTAS_g7UYOZfVMb1L9qmLeyrMHQ7kZ3jI,914
+inflatox/consistency_conditions.py,sha256=f7qBTTpRY8BNopGXjQi99CtaP4Ur5PHkF46FoNxNzEs,27136
+inflatox/libinflx_rs.abi3.so,sha256=gZy1u5WvTJ3M1QOv6SB12TTnI64kzZQNHcrMlQCHe2Q,1054232
+inflatox-0.8.1.dist-info/RECORD,,
