@@ -1,0 +1,37 @@
+[project]
+name = "hhdm-apiclient-wrapper"
+version = "24.1.25.dev1"
+authors = [
+  { name="HH Development", email="support@hh-dev.com" },
+]
+description = "Wrapper for use of the HH Data Management Api Client"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://hh-dev.com/HHDataManagement"
+"Issues and Feedback" = "https://hh-dev.com/Contact"
+[tool.poetry]
+name = "hhdm-apiclient-wrapper"
+version = "24.1.25.dev1"
+description = "Wrapper for use of the HH Data Management Api Client"
+authors = ["HH Development <support@hh-dev.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lz4 = "^4.3.2"
+requests = "^2.31.0"
+validators = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
