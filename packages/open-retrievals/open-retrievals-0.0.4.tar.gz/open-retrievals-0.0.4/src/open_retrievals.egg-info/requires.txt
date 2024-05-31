@@ -1,0 +1,10 @@
+filelock
+huggingface-hub>=0.19.3
+numpy>=1.17
+packaging>=20.0
+pyyaml>=5.1
+regex!=2019.12.17
+requests
+tokenizers>=0.14
+safetensors>=0.4.1
+tqdm>=4.27
