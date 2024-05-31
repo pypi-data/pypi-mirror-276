@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+professordriver/__init__.py
+professordriver/driver_setup.py
+professordriver.egg-info/PKG-INFO
+professordriver.egg-info/SOURCES.txt
+professordriver.egg-info/dependency_links.txt
+professordriver.egg-info/requires.txt
+professordriver.egg-info/top_level.txt
+professordriver/data/hlifkpholllijblknnmbfagnkjneagid.crx
