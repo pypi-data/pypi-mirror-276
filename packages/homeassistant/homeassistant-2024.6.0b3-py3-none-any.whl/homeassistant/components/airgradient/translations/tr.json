@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Cihaz zaten yap\u0131land\u0131r\u0131lm\u0131\u015f"
+        },
+        "error": {
+            "cannot_connect": "Ba\u011flanma hatas\u0131",
+            "unknown": "Beklenmeyen hata"
+        },
+        "flow_title": "{model}",
+        "step": {
+            "discovery_confirm": {
+                "description": "{model} kurulumunu yapmak istiyor musunuz?"
+            },
+            "user": {
+                "data": {
+                    "host": "Sunucu"
+                },
+                "data_description": {
+                    "host": "Airgradient cihaz\u0131n\u0131n ana bilgisayar ad\u0131 veya IP adresi."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "nitrogen_index": {
+                "name": "Azot indeksi"
+            },
+            "pm003_count": {
+                "name": "PM0.3 say\u0131s\u0131"
+            },
+            "raw_nitrogen": {
+                "name": "Ham azot"
+            },
+            "raw_total_volatile_organic_component": {
+                "name": "Ham toplam VOC"
+            },
+            "total_volatile_organic_component_index": {
+                "name": "Toplam VOC endeksi"
+            }
+        }
+    }
+}
