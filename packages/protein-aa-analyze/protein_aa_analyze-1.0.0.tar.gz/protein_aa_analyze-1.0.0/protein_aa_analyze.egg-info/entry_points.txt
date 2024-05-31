@@ -1,0 +1,2 @@
+[console_scripts]
+protein_aa_analyze = protein_aa_analyze.analyzer:main
