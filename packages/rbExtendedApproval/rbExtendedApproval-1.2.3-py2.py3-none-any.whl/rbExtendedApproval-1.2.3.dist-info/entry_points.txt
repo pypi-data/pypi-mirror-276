@@ -1,0 +1,2 @@
+[reviewboard.extensions]
+rbExtendedApproval = extended_approval.extension:ExtendedApproval
