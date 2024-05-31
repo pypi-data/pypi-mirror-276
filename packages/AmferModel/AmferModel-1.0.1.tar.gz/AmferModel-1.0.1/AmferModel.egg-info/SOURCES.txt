@@ -1,0 +1,7 @@
+AmferModel.py
+setup.py
+AmferModel.egg-info/PKG-INFO
+AmferModel.egg-info/SOURCES.txt
+AmferModel.egg-info/dependency_links.txt
+AmferModel.egg-info/requires.txt
+AmferModel.egg-info/top_level.txt
