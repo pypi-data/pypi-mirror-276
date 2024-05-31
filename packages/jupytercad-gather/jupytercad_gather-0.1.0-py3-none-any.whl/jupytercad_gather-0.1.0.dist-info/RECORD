@@ -1,0 +1,16 @@
+jupytercad_gather/__init__.py,sha256=gPsUj27EeLrJDhNQCSuu1KqH-6lkVcFcX4JQDAfpWzU,571
+jupytercad_gather/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/package.json,sha256=h8nsw_uUbg4_iyklu42ztoQ8XBpi-cJzZDDhb9aCit8,6531
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/schemas/jupytercad_gather/package.json.orig,sha256=xSINpTNYaGfLP74aZvitGaxz_sm75QoonjBPw7RqOqw,7437
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/schemas/jupytercad_gather/plugin.json,sha256=hs_KB1D4YYV64XN8RnWonT-B5LpLRUoRoXFJhx-HRO4,187
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/static/543.7275cb1420fa32e6945f.js,sha256=cnXLFCD6MuaUX6rWzMZp5PadEcIVyTDebY6BB-q5pAE,3538
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/static/714.20b3883ac11db16feb2b.js,sha256=ILOIOsEdsW_rK_0OpJW-Ds_VnNhTsyLnsZVQXyogBRM,8054
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/static/728.90febe6caa169ce366e7.js,sha256=kP6-bKoWnONm5yZI08BLaq9oGZcCubG5XUzkRT3lKTw,4012
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/static/remoteEntry.49cd2f5637a62706bf9a.js,sha256=Sc0vVjemJwa_mtfDDTMfM34wIT_Rr5ihuJHts-v_PYg,7250
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/static/style.js,sha256=kG4PeHBZG7spR_vvPzXwRlNVwG8RVV9kkBNuibhqs08,160
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/static/third-party-licenses.json,sha256=XLqx3nPz5u0H_t__dmkocsiyqGQoOCTJsiNiyzxIxco,3692
+jupytercad_gather-0.1.0.data/data/share/jupyter/labextensions/jupytercad_gather/install.json,sha256=akTAaYyCOA-MiwUF0ubFtQGzRuHTInweJlHSbvhVShY,195
+jupytercad_gather-0.1.0.dist-info/METADATA,sha256=yYhqHChB7GB7WO8dhjcJRbx96dRsf37bjN1brloAOgA,7245
+jupytercad_gather-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+jupytercad_gather-0.1.0.dist-info/licenses/LICENSE,sha256=xBM3GvXjUFHdESi5v8Z8WZXdFcrQTK98Z-PBlI7vOJE,1519
+jupytercad_gather-0.1.0.dist-info/RECORD,,
