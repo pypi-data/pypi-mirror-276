@@ -1,0 +1,2145 @@
+Copyright (C) 2002, 2004 Oracle.  All rights reserved.
+Copyright (C) 1992, 1993, 1994, 1995
+Copyright (C) 1991, 1992 Linus Torvalds
+Copyright (c) 2015, Intel Corporation.
+Copyright (c) 1996-2000 Russell King.
+Copyright (C) 1991-1998  Linus Torvalds
+Copyright (C) 2016 Red Hat, Inc. All Rights Reserved.
+Copyright (C) IBM Corporation, 2011-2015
+Copyright (C) 2012 Red Hat, Inc. All Rights Reserved.
+Copyright © 2006, Intel Corporation.
+Copyright (C) 2015, Linaro Ltd
+Copyright (C) 2003 Deep Blue Solutions Ltd, All Rights Reserved.
+Copyright (C) 2007-2008 Google, Inc.
+Copyright 2010 Red Hat, Inc.
+Copyright (C) 2016, ARM Ltd.
+Copyright (C) 2007 Nick Piggin
+Copyright (C) 2007 Novell Inc.
+Copyright (c) 2008-2009 Atheros Communications Inc.
+Copyright (C) 2013 ARM Ltd.
+copyright Adrian McMenamin, 2007
+Copyright (c) 2014 Oleksij Rempel <linux@rempel-privat.de>.
+which was (C) Dominik Brodowski <linux@brodo.de> 2003
+Copyright (C) Matt Helsley, IBM Corp. 2005
+Copyright (C) 2005 BULL SA.
+Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+Copyright (C) 2002 - 2004 Dominik Brodowski <linux@brodo.de>
+Copyright (C) 2006       Denis Sadykov <denis.m.sadykov@intel.com>
+Copyright (c) 2011 Google, Inc.
+Copyright(c) 2016 Intel Corporation. All rights reserved.
+Copyright(c) 2007 - 2009 Intel Corporation. All rights reserved.
+Copyright (C) 2015 Samsung Electronics
+Copyright (C) 2013, Intel Corporation
+Copyright(C) 2011 Linaro Limited. All rights reserved.
+Copyright Altera Corporation (C) 2014-2016. All rights reserved.
+Copyright 2011-2012 Calxeda, Inc.
+Copyright (C) 2016 Samsung Electronics
+Copyright (C) 2005-2007  Kristian Hoegsberg <krh@bitplanet.net>
+Copyright (C) 2015 ARM Ltd.
+Copyright (C) 2012 CERN (www.cern.ch)
+Copyright (C) 2017 DENX Software Engineering
+Copyright (C) IBM Corporation 2016
+Copyright (c) 2011 John Crispin <john@phrozen.org>
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2006-2007 Jiri Kosina
+Copyright (c) 2008 Jiri Slaby
+Copyright (C) 2010 Nokia Corporation. All rights reserved.
+Copyright (c) 2009, Microsoft Corporation.
+Copyright (C) ST-Ericsson 2010 - 2013
+Copyright (C) 2010 Texas Instruments Incorporated - http://www.ti.com
+Copyright (C) 1999-2002	Andre Hedrick <andre@linux-ide.org>
+Copyright (C) 2007		MontaVista Software, Inc. <source@mvista.com>
+Copyright (c) 2013, Intel Corporation.
+Copyright (c) 2008 Jonathan Cameron
+Copyright (c) 2007 Richard Purdie
+Copyright (C) 2007-2010 Advanced Micro Devices, Inc.
+Copyright (C) 2011-2012 CERN (www.cern.ch)
+Copyright (C) 2014 Oleksij Rempel <linux@rempel-privat.de>
+Copyright (C) 2015 Samsung Electronics Co., Ltd.
+Copyright (C) 2015 IT University of Copenhagen. All rights reserved.
+Copyright (C) 2013-2015 Fujitsu Semiconductor Ltd.
+Copyright (C) 2015 Linaro Ltd.
+Copyright (C) 2013 MEN Mikroelektronik GmbH (www.men.de)
+bitmap.c two-level bitmap (C) Peter T. Breuer (ptb@ot.uc3m.es) 2003
+additions, Copyright (C) 2003-2004, Paul Clements, SteelEye Technology, Inc.:
+Copyright (C) 2010 Nokia Corporation
+Copyright (C) 2013 Jean-Jacques Hiblot <jjhiblot@traphandler.com>
+Copyright (C) 2012 Marvell International Ltd.
+Copyright (C) 2010-2011 Michael Hennerich, Analog Devices Inc.
+Copyright © 2007 Eugene Konev <ejka@openwrt.org>
+Copyright (C) 2017 Axentia Technologies AB
+Copyright (c) 2015 Red Hat, Inc.
+Copyright (C) 2013  Intel Corporation. All rights reserved.
+Copyright (C) 2015 EMC Corporation. All Rights Reserved.
+Copyright (C) 2016 T-Platforms. All Rights Reserved.
+Copyright (c) 2014, Intel Corporation.
+Copyright (C) 2016 Broadcom
+@remark Copyright 2011 Advanced Micro Devices, Inc.
+(c) 2005,2006 Simtec Electronics
+Copyright (C) 2009 Intel Corporation, Yu Zhao <yu.zhao@intel.com>
+Copyright (C) 2011 Advanced Micro Devices,
+Copyright (C) 2005 David Brownell
+Copyright (C) 2009 picoChip Designs, Ltd., Jamie Iles
+Copyright (C) 2010 ARM Ltd., Will Deacon <will.deacon@arm.com>
+Copyright (C) 2013 Texas Instruments Incorporated - http://www.ti.com
+Copyright (C) 2011-2012 ST-Ericsson SA
+Copyright (C) 2012 NVIDIA CORPORATION. All rights reserved.
+Copyright (C) 2005-2009   Rodolfo Giometti <giometti@linux.it>
+Copyright (C) 2007 Sony Computer Entertainment Inc.
+Copyright 2007 Sony Corp.
+Copyright (C) 2010 OMICRON electronics GmbH
+Copyright (C) 2011 Sascha Hauer <s.hauer@pengutronix.de>
+Copyright (C) 2011-2012 Avionic Design GmbH
+Copyright 2005 MontaVista Software, Inc.
+Copyright (C) 2013 Texas Instruments, Inc.
+Copyright 2013 Philipp Zabel, Pengutronix
+Copyright (c) 2016-2017, Linaro Ltd
+Copyright (C) 2005 Tower Technologies
+Copyright (C) 2009 LSI Corporation.
+Copyright(c) 2009 Intel Corporation. All rights reserved.
+Copyright (C) 2009-2010 Magnus Damm
+Copyright (c) 2005 Stanislaw Skowronek <skylark@linux-mips.org>
+Copyright (c) 2014 Analog Devices Inc.
+Copyright (c) 2012-2015, 2017, The Linux Foundation. All rights reserved.
+Copyright 2007  Michael Buesch <m@bues.ch>
+(c) Copyright 2009-2013 Datera, Inc.
+Copyright (c) 2005  James Simmons
+Copyright (c) 2006  Maciej W. Rozycki
+Copyright (c) 2015-2016, Linaro Limited
+Copyright (C) 2013 Marvell
+Copyright (c) 2014 Andreas Noever <andreas.noever@gmail.com>
+Copyright (C) 1991, 1992  Linus Torvalds
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997,
+Copyright(C) 2005, Benedikt Spranger <b.spranger@linutronix.de>
+Copyright(C) 2005, Thomas Gleixner <tglx@linutronix.de>
+Copyright(C) 2006, Hans J. Koch <hjk@hansjkoch.de>
+Copyright(C) 2006, Greg Kroah-Hartman <greg@kroah.com>
+Copyright (C) 2005-2006 Intel Corporation
+Copyright (C) 2012 Red Hat, Inc.  All rights reserved.
+Copyright 2010 Cisco Systems, Inc.  All rights reserved.
+Copyright (C) 2009 Red Hat, Inc.
+Copyright (c) 2012 Steffen Trumtrar <s.trumtrar@pengutronix.de>, Pengutronix
+Copyright (C) 2008-2011 Freescale Semiconductor, Inc.
+Copyright (C) 2006, 2007 Eugene Konev <ejka@openwrt.org>
+Copyright 2008 GE Intelligent Platforms Embedded Systems, Inc.
+Copyright 2004 Motorola Inc.
+Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
+(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>,
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+Copyright (c) 2011 Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>
+Copyright (c) 2011 Yu Ke ke.yu@intel.com
+Copyright (C) 2007  Davide Libenzi <davidel@xmailserver.org>
+Copyright IBM Corporation, 2010
+Copyright (C) 2002, 2007 Red Hat, Inc. All Rights Reserved.
+Copyright 2008 Red Hat, Inc. All rights reserved.
+Copyright 2008 Ian Kent <raven@themaw.net>
+Copyright (C) 2007 Red Hat.  All rights reserved.
+Copyright (C) 2007 Red Hat, Inc. All Rights Reserved.
+Copyright (C) 2013 Guangliang Zhao, <lucienchao@gmail.com>
+Copyright (c) 2010 Novell, Inc.
+Copyright (C) 1989 - 1997 Carnegie Mellon University
+sysfs is Copyright (C) 2001, 2002, 2003 Patrick Mochel
+configfs Copyright (C) 2005 Oracle.  All rights reserved.
+Copyright (C) 2015, Google, Inc.
+Copyright (C) 2015, Motorola Mobility
+Copyright (C) 2016 Nicolai Stange <nicstange@gmail.com>
+Copyright (C) Sistina Software, Inc.  1997-2003  All rights reserved.
+Copyright (C) 2004-2010 Red Hat, Inc.  All rights reserved.
+Copyright (C) 1997-2004 Erez Zadok
+Copyright (C) 2001-2004 Stony Brook University
+Copyright (C) 2004-2007 International Business Machines Corp.
+Copyright (C) 2012 Red Hat, Inc.
+Copyright (C) 2012 Jeremy Kerr <jeremy.kerr@canonical.com>
+Copyright (c) 1999 Al Smith
+Portions derived from work (c) 1995,1996 Christian Vogelgsang.
+Portions derived from IRIX header files (c) 1988 Silicon Graphics
+Copyright (C) 2005, 2006 IBM
+Copyright (C) 2008, 2009 IBM
+Copyright (C) 2001-2003 Andreas Gruenbacher, <agruen@suse.de>
+Copyright (c) 2012 Samsung Electronics Co., Ltd.
+Copyright (C) 2016 Canonical Ltd. <seth.forshee@canonical.com>
+Copyright (C) Sistina Software, Inc.  1997-2003 All rights reserved.
+Copyright (C) 2004-2006 Red Hat, Inc.  All rights reserved.
+Copyright 1999 Red Hat Software --- All Rights Reserved
+Copyright © 2006  NEC Corporation
+Copyright (C) 2006 Herbert Poetzl
+Copyright (c) 2001-3 Patrick Mochel
+Copyright (c) 2007 SUSE Linux Products GmbH
+Copyright (c) 2007, 2013 Tejun Heo <tj@kernel.org>
+Copyright (C) 2010, Oracle.  All rights reserved.
+Copyright (c) 2009 Trond Myklebust <Trond.Myklebust@netapp.com>
+Copyright (c) 2002 The Regents of the University of Michigan.
+Copyright (C) 2006-2008 Nippon Telegraph and Telephone Corporation.
+Copyright 1991-2012 Unicode, Inc.  All rights reserved.  Distributed under
+Copyright (c) 2005 Anton Altaparmakov
+Copyright (C) 2004, 2008 Oracle.  All rights reserved.
+(C) 2001 Clemson University and The University of Chicago
+Copyright (C) 2011 Novell Inc.
+Copyright 2012  Google, Inc.
+Copyright (C) 2000 Linus Torvalds.
+Copyright © 2007 Red Hat, Inc. All Rights Reserved.
+Copyright (c) 2002, 2003, 2004, 2005, 2006, 2007, 2008
+Copyright (C) 2014 Red Hat Inc, author: Steven Rostedt <srostedt@redhat.com>
+Copyright (C) 2006-2008 Nokia Corporation.
+Copyright (c) 2000-2005 Silicon Graphics, Inc.
+Copyright (C) 2000 - 2017, Intel Corp.
+Copyright (C) 2012 ARM Ltd.
+Copyright 2016 Russell King <rmk+kernel@arm.linux.org.uk>
+Copyright 2016-2017 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
+Copyright (C) 2012 Texas Instruments, Inc.
+Copyright (C) Altera Corporation 1998-2001
+Copyright (C) 2010 NetUP Inc.
+Copyright (C) 2010 Igor M. Liplianin <liplianin@netup.ru>
+Copyright 2011, Siemens AG
+Copyright (c) 2011 Jon Smirl <jonsmirl@gmail.com>
+Copyright (c) 2008, Swedish Institute of Computer Science.
+(C) 2003 - 2004	David Woodhouse
+(C) 2003 - 2004	Dominik Brodowski
+Copyright (c) 2010 Intel Corporation.  All rights reserved.
+Copyright(c) 2008 Intel Corporation. All rights reserved.
+Copyright (C) 2007 Atmel Corporation
+Copyright (c) 2011 Yu Ke <ke.yu@intel.com>
+Copyright (C) 2007
+(C) Copyright 2009 Intel Corporation
+Copyright (c) 2011-2014 PLUMgrid, http://plumgrid.com
+Copyright (c) 2016,2017 Facebook
+Copyright (C) 2000-2001 VERITAS Software Corporation.
+Copyright (C) 2002-2004 Timesys Corporation
+Copyright (C) 2003-2004 Amit S. Kale <amitkale@linsyssoft.com>
+Copyright (C) 2004 Pavel Machek <pavel@ucw.cz>
+Copyright (C) 2004-2006 Tom Rini <trini@kernel.crashing.org>
+Copyright (C) 2004-2006 LinSysSoft Technologies Pvt. Ltd.
+Copyright (C) 2005-2009 Wind River Systems, Inc.
+Copyright (C) 2007 MontaVista Software, Inc.
+Copyright (C) 2008 Red Hat, Inc., Ingo Molnar <mingo@redhat.com>
+Copyright IBM Corp. 2009
+Copyright (C) 2016 Thomas Gleixner.
+Copyright (C) 2016-2017 Christoph Hellwig.
+Copyright (C) 2014 Seth Jennings <sjenning@redhat.com>
+Copyright (C) 2014 SUSE
+Copyright (C) 2006,2007 Red Hat, Inc., Ingo Molnar <mingo@redhat.com>
+Copyright (C) 2007 Red Hat, Inc., Peter Zijlstra
+Copyright (C) 2012 Rafael J. Wysocki <rjw@sisk.pl>
+Copyright IBM Corporation, 2011
+Copyright (C) 2010 IBM Corperation
+Copyright (C) 2006 Jens Axboe <axboe@kernel.dk>
+Copyright (C) 2011 - 2016, Yann Collet.
+Copyright (C) 1996-2012 Markus F.X.J. Oberhumer <markus@oberhumer.com>
+Copyright (C) 1994, 1996, 1997, 1998,
+Copyright 2002 H. Peter Anvin - All Rights Reserved
+Copyright (C) 2013-2016, Yann Collet.
+Copyright (c) 2014 Samsung Electronics Co., Ltd.
+Copyright (c) 2008 Patrick McHardy <kaber@trash.net>
+Copyright (C) 2008 by Eric Van Hensbergen <ericvh@gmail.com>
+Copyright (C) 2007 by Latchesar Ionkov <lucho@ionkov.net>
+Copyright (C) 2007-2017  B.A.T.M.A.N. contributors:
+Copyright (c) 2013-2014 Intel Corp.
+Copyright (c) 2017 Facebook
+Copyright (C) ST-Ericsson AB 2010
+Copyright (c) 2002-2017 Volkswagen Group Electronic Research
+Copyright (c) 2010 Jiri Pirko <jpirko@redhat.com>
+Copyright (c) 2010, Intel Corporation.
+Copyright (c) 2007 University of Aberdeen, Scotland, UK
+Copyright (c) 2005 Arnaldo Carvalho de Melo <acme@ghostprotocols.net>
+Copyright (c) 2007 Igor Mammedov
+Copyright (c) 2008-2009 Marvell Semiconductor
+Copyright (c) 2013 Florian Fainelli <florian@openwrt.org>
+Copyright 2011-2014 Autronica Fire and Security AS
+Copyright (C) 2007, 2008, 2009 Siemens AG
+Copyright (c) 2015 Jamal Hadi Salim <jhs@mojatatu.com>
+Copyright (c) 2017 Yotam Gigi <yotamg@mellanox.com>
+(c) Copyright Hewlett-Packard Development Company, L.P., 2006, 2008
+Copyright IBM Corp. 2006, 2009
+Copyright (c) 2008,2009,2010 Katalix Systems Ltd
+Copyright (c) 2015 Cumulus Networks
+Copyright (c) 2015 David Ahern <dsa@cumulusnetworks.com>
+Copyright 2003-2004, Instant802 Networks, Inc.
+Copyright 2005-2006, Devicescape Software, Inc.
+Rewrite: Copyright (C) 2013 Linaro Ltd <ard.biesheuvel@linaro.org>
+Copyright Gavin Shan, IBM Corporation 2016.
+Rusty Russell (C)2000 -- This code is GPL.
+Patrick McHardy (c) 2006-2012
+(c) Copyright Hewlett-Packard Development Company, L.P., 2008
+Copyright (C) 2011 Instituto Nokia de Tecnologia
+Copyright (c) 2017 Red Hat, Inc. -- Jiri Benc <jbenc@redhat.com>
+Copyright (c) 2007-2017 Nicira, Inc.
+Copyright (C) 2008 Nokia Corporation.
+Copyright (c) 2015, Sony Mobile Communications Inc.
+Copyright (c) 2013, The Linux Foundation. All rights reserved.
+Copyright (c) 2006 Oracle.  All rights reserved.
+Copyright (C) 2006 - 2007 Ivo van Doorn
+Copyright (C) 2007 Dmitry Torokhov
+Copyright 2009 Johannes Berg <johannes@sipsolutions.net>
+Copyright (c) 2015 Jiri Pirko <jiri@resnulli.us>
+(C) Copyright 2007 Hewlett-Packard Development Company, L.P.
+Copyright IBM Corp. 2016
+Copyright (c) 2016 Tom Herbert <tom@herbertland.com>
+Copyright 2009, Oracle.  All rights reserved.
+Copyright (c) 2014-2015 Jiri Pirko <jiri@resnulli.us>
+Copyright (c) 2014-2015 Scott Feldman <sfeldma@gmail.com>
+Copyright (c) 2000-2006, Ericsson AB
+Copyright (c) 2004-2005, 2010-2011, Wind River Systems
+Copyright (c) 2016-2017, Mellanox Technologies. All rights reserved.
+Copyright (c) 2016-2017, Dave Watson <davejwatson@fb.com>. All rights reserved.
+Copyright (C) 2007-2013 VMware, Inc. All rights reserved.
+Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+Copyright (c) 2015 secunet Security Networks AG
+Author: Copyright (C) Miguel Ojeda Sandonis
+Copyright 2007-2009 Analog Devices Inc.
+2004+ Copyright (c) Evgeniy Polyakov <zbr@ioremap.net>
+Copyright (c) 2010 Alan Ott <alan@signal11.us>
+Copyright (c) 2010 Signal 11 Software
+Copyright (C) IBM Corporation, 2009
+Copyright (c) 2010 Wind River Systems, Inc.  All Rights Reserved.
+Copyright (C) 2010 Stefani Seibold <stefani@seibold.net>
+Copyright (C) 2004-2007 Greg Kroah-Hartman <greg@kroah.com>
+Copyright(c) 2012 Intel Corporation. All rights reserved.
+Copyright(c) 2003 - 2012 Intel Corporation. All rights reserved.
+Copyright (C) 2011 Texas Instruments, Inc.
+Copyright (C) 2011 Google, Inc.
+Copyright (c) 2012 The Chromium OS Authors <chromium-os-dev@chromium.org>
+Copyright (c) 2017 Covalent IO, Inc. http://covalent.io
+Copyright (C) 2015 Red Hat, Inc. All Rights Reserved.
+Copyright (c) 2012-2013 David Herrmann <dh.herrmann@gmail.com>
+Copyright 2014 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
+Copyright (c) 2016, NVIDIA CORPORATION. All rights reserved.
+(C) Copyright David Gibson <dwg@au1.ibm.com>, IBM Corporation.  2007.
+Copyright (C) 2006 David Gibson, IBM Corporation.
+Copyright 2011-2016 by Emese Revfy <re.emese@gmail.com>
+Copyright (C) IBM Corporation, 2006
+Copyright 2007 IBM Corp
+Copyright (C) 1998-2008 Novell/SUSE
+Copyright 2009-2010 Canonical Ltd.
+Copyright (C) 2011 Intel Corporation
+Copyright (C) 2017 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+Copyright (C) 2013 Red Hat, Inc. All Rights Reserved.
+Copyright 2011-2016 Google Inc.
+Copyright (C) 2005 Red Hat, Inc., James Morris <jmorris@redhat.com>
+Copyright (C) 2006 Trusted Computer Solutions, Inc. <dgoeddel@trustedcs.com>
+Copyright (C) 2006 IBM Corporation, Timothy R. Chavez <tinytim@us.ibm.com>
+Copyright (C) 2007 Casey Schaufler <casey@schaufler-ca.com>
+Copyright (C) 2005-2011  NTT DATA CORPORATION
+Copyright (C) 2010 Canonical, Ltd.
+Copyright (C) 2011 The Chromium OS Authors.
+Copyright:	(C) MontaVista Software Inc.
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+Copyright (C) 2005-2009 Atmel Corporation
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+Copyright (c) Ahmet İnan <ainan at mathematik.uni-freiburg.de>
+Copyright (c) by Takashi Iwai <tiwai@suse.de>
+Copyright (c) Jaroslav Kysela <perex@perex.cz>
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+Copyright (c) 2015 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+Copyright 2003 Vivien Chappelier <vivien.chappelier@linux-mips.org>
+Copyright 2008 Thomas Bogendoerfer <tsbogend@alpha.franken.de>
+Copyright 1999 Silicon Graphics, Inc.  All rights reserved.
+Copyright (C) 2004-2005, Kyle McMartin <kyle@parisc-linux.org>
+Copyright (C) 2005, Thibaut Varene <varenet@parisc-linux.org>
+Copyright 2006, 2007 Sony Corporation
+Copyright Adrian McMenamin 2005, 2006, 2007
+Copyright 2005 Wolfson Microelectronics PLC.
+Copyright 2005 Openedhand Ltd.
+Copyright (C) 2010 Slimlogic Ltd.
+Copyright (C) 2010 Texas Instruments Inc.
+Copyright (C) 2004, 2005 Martin Habets (mhabets@users.sourceforge.net)
+Copyright (C) 1997 Rudolf Koenig (rfkoenig@immd4.informatik.uni-erlangen.de)
+Copyright (C) 1998, 1999 Brent Baccala (baccala@freesoft.org)
+Copyright (C) 2006-2007 Atmel Norway
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+Copyright (C) 2016 Intel Corp
+Copyright (C) Shailabh Nagar, IBM Corp. 2005
+Copyright (C) Balbir Singh, IBM Corp. 2006
+Copyright (c) Jay Lan, SGI. 2006
+Copyright    2002 by Kai Germaschewski  <kai.germaschewski@gmx.de>
+Copyright (C) Kirill A. Shutemov <kirill@shutemov.name>
+Copyright (C) 2016 Linus Walleij
+Copyright (C) 2014, Microsoft, Inc.
+Copyright (c) 2011-2012 Lars-Peter Clausen <lars@metafoo.de>
+Copyright 2013 Daniel Borkmann <borkmann@redhat.com>
+Copyright (C) 2015 Josh Poimboeuf <jpoimboe@redhat.com>
+Copyright (C) 2017 Texas Instruments
+Copyright (C) 2010 Samsung Electronics
+Copyright (C) 2009 Intel corporation
+Copyright (C) 2012,2013 - ARM Ltd
+Copyright (C) 2012 - Virtual Open Systems and Columbia University
+Copyright (C) 2012-2015 - ARM Ltd
+Copyright (C) 2015 Red Hat, Inc.
+Copyright (c) 2015 Linaro Ltd.
+Copyright (c) 2002, 2010, Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2011, 2015, Intel Corporation.
+Copyright (C) 2009-2012 ST Microelectronics
+Copyright (C) 2011 Texas Instruments Incorporated - http://www.ti.com
+Copyright (c) 2008 Simtec Electronics
+Copyright (C) 2003  Lineo uSolutions, Inc.
+Copyright (C) 2004 - 2006  Paul Mundt
+Copyright (C) 2006  Nobuhiro Iwamatsu
+Copyright (C) 2009, Steven Rostedt <srostedt@redhat.com>
+Copyright (C) 2015 Anton Ivanov (aivanov@{brocade.com,kot-begemot.co.uk})
+Copyright (C) 2015 Thomas Meyer (thomas@m3y3r.de)
+Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+Copyright (C) 1995, 1996, 2003 by Ralf Baechle
+Copyright (C) 1995, 1996 Andreas Busse
+Copyright (C) 1995, 1996 Stoned Elipot
+Copyright (C) 1995, 1996 Paul M. Antoine.
+Copyright (C) 2009       Zhang Le
+Copyright (C) 2005 - 2011  Paul Mundt
+Copyright (C) 2010  Matt Fleming
+Copyright (C) 2005 - 2010  Paul Mundt
+Copyright (C) 2005-2012  Jean Delvare <jdelvare@suse.de>
+Copyright (C) 2006  Yuan Mu (Winbond),
+Copyright (C) 2010  Sheng-Yuan Huang (Nuvoton) (PS00)
+Copyright (C) 2003  Mark Studebaker
+Copyright (c) 2015 Hisilicon Limited.
+Copyright (C) Paul Mackerras 1997.
+Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
+Copyright:	(C) 2012-2013  Linaro Limited
+Copyright (C) 2013 - 2017 Linaro Ltd <ard.biesheuvel@linaro.org>
+Copyright 2004-2009 Analog Devices Inc.
+Copyright (C) 2009 Red Hat, Inc. All Rights Reserved.
+Copyright (C) 1996 David S. Miller
+Copyright (C) 1997, 1998, 1999, 2000, 2001, 2002, 2003 Ralf Baechle
+Copyright (C) 1999, 2000 Silicon Graphics, Inc.
+Copyright (C) 2000 MIPS Technologies, Inc.
+Copyright (c) 2010-2012, The Linux Foundation. All rights reserved.
+Copyright (C) 2007-2009 Geert Uytterhoeven
+Copyright (C) 2007-2009 Michal Simek <monstr@monstr.eu>
+Copyright (C) 2007-2009 PetaLogix
+Copyright (C) 2006 Atmark Techno, Inc.
+Copyright (C) 2007 Felix Fietkau <nbd@openwrt.org>
+Copyright (C) 2007 Eugene Konev <ejka@openwrt.org>
+Copyright (C) 2009 Florian Fainelli <florian@openwrt.org>
+Copyright (C) 1989, 1992, 1993, 1994, 1995 Free Software Foundation, Inc.
+Copyright (C) 2011 Tobias Klauser <tklauser@distanz.ch>
+Copyright (C) 2003 Matjaz Breskvar <phoenix@bsemi.com>
+Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
+Copyright 2007 David Gibson, IBM Corporation.
+Copyright IBM Corp. 2005, 2007
+Copyright (C) 2009 Sunplus Core Technology Co., Ltd.
+Copyright (C) 2010 ALPHAPROJECT Co.,Ltd.
+Copyright (C) 2008  Yoshihiro Shimoda
+Copyright (C) 2009  Paul Mundt
+Copyright 2012 Tilera Corporation. All Rights Reserved.
+Copyright (C) 2000, 2001 Jeff Dike (jdike@karaya.com)
+Copyright (C) 2001-2010 GUAN Xue-tao
+Copyright (C) 2005 Tensilica Inc.
+Copyright (C) Samuel Thibault <samuel.thibault@ens-lyon.org>
+Copyright (C) 2016, Linaro Ltd.
+Copyright (C) 2003-2008, LINBIT Information Technologies GmbH.
+Copyright (C) 2003-2008, Philipp Reisner <philipp.reisner@linbit.com>.
+Copyright (C) 2003-2008, Lars Ellenberg <lars.ellenberg@linbit.com>.
+Copyright (C) 2004 Silicon Graphics, Inc.
+Copyright (C) 2002-2003 Dave Jones
+Copyright (C) 1999 Jeff Hartmann
+Copyright (C) 1999 Precision Insight, Inc.
+Copyright (C) 1999 Xi Graphics, Inc.
+Copyright (C) 2016 Atmel Corporation,
+Copyright (C) 2017 Free Electrons,
+Copyright (c) 2008 Applied Micro Circuits Corporation.
+Copyright (c) 2016 Samsung Electronics Co., Ltd.
+Copyright(c) 2007 - 2009 Intel Corporation.
+Copyright (C) 2016 Lukas Wunner <lukas@wunner.de>
+Copyright (C) 2012 Avionic Design GmbH
+Copyright (C) 2012-2013, NVIDIA Corporation
+Copyright (c) 2014-2016, Intel Corporation.
+Copyright (C) 2013 Sebastian Reichel
+Copyright (c) 2011 Ericsson AB.
+Copyright (c) 2017 Linaro Limited. All rights reserved.
+Copyright (C) 2000 Russell King
+Copyright (c) 2017 Eva Rachel Retuya <eraretuya@gmail.com>
+Copyright (c) 2016 Alexandre Belloni
+Copyright (c) 2005 by Tilman Schmidt <tilman@imap.cc>,
+Copyright (C) 2005 Stelian Pop (stelian@popies.net)
+Copyright (C) 2006 Michael Hanselmann (linux-kernel@hansmi.ch)
+Copyright 2016 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
+Copyright (C) 2014 NVIDIA CORPORATION.  All rights reserved.
+Copyright (c) 2008 Rodolfo Giometti <giometti@linux.it>
+Copyright (c) 2008 Eurotech S.p.A. <info@eurotech.it>
+Copyright © 2012 Micron Technology, Inc.
+Copyright (C) 2014, Broadcom Corporation
+Copyright (C) 2014-2016, Intel Corporation
+Copyright(c) 2015 Intel Corporation. All rights reserved.
+Copyright (c) 2015-2016 HGST, a Western Digital Company.
+Copyright (C) 2017 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+Copyright (C) 2016 IBM Corp.
+Copyright (C) 2012 Google, Inc.
+Copyright (C) 2014 Linaro Ltd.
+Copyright (C) 2009   Alexander Gordeev <lasaine@lvk.cs.msu.su>
+Copyright 2014-2015 Integrated Device Technology, Inc.
+Copyright 2014-2015 Prodrive Technologies
+Copyright (C) 2014 Texas Instruments Incorporated
+Copyright (c) 2016 Linaro Limited.
+Copyright (c) 2015-2016 Hisilicon Limited.
+Copyright (c) 2000-2010 Adaptec, Inc.
+Copyright (C) 2007, 2008 Magnus Damm
+Copyright (C) 2009, 2010 Paul Mundt
+Copyright (c) 2017 BayLibre, SAS
+Copyright (C) 2012 Renesas Solutions Corp.
+Copyright (C) 2012 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+Copyright (c) 2015, Linaro Limited
+Copyright (C) 2016 Martin Sperl
+Copyright 2008-2011 Analog Devices Inc.
+Copyright (C) 2006-2008 Barco N.V.
+Copyright 2010 Ion Beam Application, Inc.
+Copyright (C) 2013 Fusion IO.  All rights reserved.
+Copyright (c) 2014, Primary Data, Inc. All rights reserved.
+Copyright (C) 2004 Oracle.  All rights reserved.
+Copyright (c) 2016, Intel Corporation
+Copyright (C) 2015 Rockchip Electronics Co., Ltd.
+Copyright (C) 2008-2009 Texas Instruments Inc
+Copyright (C) 2011-2012  Intel Corporation
+Copyright(c) 2007 Intel Corporation. All rights reserved.
+Copyright (C) 2016-2017 Synopsys, Inc. (www.synopsys.com)
+Copyright (c) 2005, 2006 Andrea Bittau <a.bittau@cs.ucl.ac.uk>
+Copyright (c) 2006 Arnaldo Carvalho de Melo <acme@conectiva.com.br>
+Copyright (c) 2015 Tom Herbert <tom@herbertland.com>
+Copyright (C) 2013 Jozsef Kadlecsik <kadlec@blackhole.kfki.hu>
+Copyright (C) 2012  Intel Corporation. All rights reserved.
+COPYRIGHT (c) 2008
+Copyright (C) 1998 by the FundsXpress, INC.
+Copyright(c) 2013 Intel Corporation.
+Copyright 2009-2017 Canonical Ltd.
+Copyright (C) 2005-2010 IBM Corporation
+Copyright (C) 2006 International Business Machines Corp.
+Copyright (C) 2010 Politecnico di Torino, Italy
+Copyright (C) 2010 NEC corporation
+Copyright (C) 1997-2001  David Woodhouse
+Copyright (C) 2001-2008  Stas Sergeev
+Copyright (c) 2013-2014 Takashi Sakamoto
+Copyright (C) 2014-2015 Intel Corp
+Copyright (c) by Pavel Hofman <pavel.hofman@ivitera.com>
+Copyright (C) 1998 Andrew Veliath
+Copyright (c) by AudioScience Inc <support@audioscience.com>
+Copyright 2014-2015 Advanced Micro Devices, Inc.
+Copyright (C) 2014 Mario Kicherer (dev@kicherer.org)
+Copyright (c) 2014, Intel Corporation
+Copyright (C) 2012 Intel Corporation. All rights reserved.
+Copyright (C) 2012 Hitachi, Ltd.
+Copyright(c) 2015 EZchip Technologies.
+Copyright (C) 2017 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2007 - 2010  Paul Mundt
+Copyright (c) 2010 Red Hat Inc.
+Copyright (c) 2015 Lukas Wunner <lukas@wunner.de>
+Copyright (C) 2010-2011 ST Microelectronics
+Copyright (C) 2014 Intel Corporation
+Copyright 2008 - 2016 Freescale Semiconductor, Inc.
+Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
+Copyright (C) 2014-15 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2013-15 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2012 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) Abilis Systems 2012
+Copyright (C) 2015 Linaro Ltd <ard.biesheuvel@linaro.org>
+Copyright (c) 2013, NVIDIA Corporation.
+Copyright (C) 2011 ARM Ltd.
+Copyright (c) 2017 Andreas Färber
+Copyright (C) 2015 Annapurna Labs Ltd.
+Copyright (C) 2011 Atmel,
+Copyright (C) 2012 LSI
+Copyright (C) 2014 Broadcom Corporation
+(c) Marvell International Ltd.
+Copyright (C) 2010 Texas Instruments Incorporated. http://www.ti.com
+Copyright (C) 2010 CompuLab, Ltd.
+Copyright (C) 1996-2000 Russell King.
+Copyright (C) 2006 Lennert Buytenhek <buytenh@wantstofly.org>
+Copyright (c) 2011 Samsung Electronics Co., Ltd.
+Copyright (C) 1998 Russell King.
+Copyright (C) 1998 Phil Blundell
+Copyright (C) 2010 Jason Wang <jason77.wang@gmail.com>
+Copyright (c) 2005-2006, Intel Corporation.
+Copyright (C) 2007 Arnaud Patard <arnaud.patard@rtp-net.org>
+Copyright (C) 2003 Intel Corp.
+Copyright (C) 2002 Intel Corporation.
+Copyright (C) 2003-2004 MontaVista Software, Inc.
+Copyright (C) 2015 Joachim Eastwood <manabian@gmail.com>
+Copyright (C) 2010 NXP Semiconductors
+Copyright (c) 2014 MundoReader S.L.
+Copyright (C) 2014 Carlo Caione <carlo@caione.org>
+(C) Copyright 2013, Jonas Jensen <jonas.jensen@gmail.com>
+Copyright (C) 2012 Marvell
+Copyright (c) 2005 Sascha Hauer <s.hauer@pengutronix.de>, Pengutronix
+Copyright STMicroelectronics, 2007.
+Copyright (C) 2013 Daniel Tang <tangrs@tangrs.id.au>
+Copyright (C) 2009 Janusz Krzysztofik
+Copyright (c) 2006 Matt Callow
+Copyright (c) 2004 Amstrad Plc
+Copyright (C) 2001 RidgeRun, Inc.
+Copyright (C) 2009 Simon Guinot <sguinot@lacie.com>
+Copyright (C) 2002 ARM Ltd.
+Copyright (c) 2011 Picochip Ltd., Jamie Iles
+Copyright (C) 2008, Jaya Kumar
+Copyright (c) 2010, Code Aurora Forum. All rights reserved.
+Copyright (c) 2014 The Linux Foundation. All rights reserved.
+Copyright (c) 2013 MundoReader S.L.
+Copyright 1995-2001 Russell King
+Copyright (c) 2005 Simtec Electronics
+Copyright (c) 2010 Samsung Electronics Co., Ltd.
+Copyright (C) 2012-2015 Altera Corporation
+Copyright (C) 2013 STMicroelectronics (R&D) Limited.
+Copyright (C) Maxime Coquelin 2015
+Copyright (C) 2013 Maxime Ripard
+Copyright (C) 2012-2013 Allwinner Ltd.
+Copyright (C) 2011 Marc Dietrich <marvin24@gmx.de>
+Copyright (C) 2010 Google, Inc.
+Copyright (C) 2007-2012 ST-Ericsson SA
+Copyright (C) 2008-2009 ST-Ericsson SA
+Copyright (C) 2010 Secret Lab Technologies Ltd.
+Copyright (C) 2009 Jeremy Kerr <jeremy.kerr@canonical.com>
+Copyright (C) 2004 ARM Limited
+Copyright (C) 2000 Deep Blue Solutions Ltd
+Copyright (C) 2012 Tony Prisk <linux@prisktech.co.nz>
+Copyright (c) 2008 Nuvoton technology corporation
+Copyright (C) 2014 ZTE Corporation.
+Copyright (C) 2011 Xilinx
+Copyright (c) 2017 Shubham Bansal <illusionist.neo@gmail.com>
+Copyright (c) 2011 Mircea Gherzan <mgherzan@gmail.com>
+Copyright © 2006, Intel Corporation.
+Copyright (C) 2009 Texas Instruments
+Copyright (C) 2010 Nokia Corporation
+Copyright (C) 2007 Marvell Internation Ltd.
+Copyright (C) 2006, 2007 Motorola Inc.
+Copyright (c) 2015, Linaro Limited, Shannon Zhao
+Copyright (C) 2013-2014, Linaro Ltd.
+Copyright (C) 2015 - Linaro Ltd
+Copyright (C) 2002-2003 Deep Blue Solutions Ltd, all rights reserved.
+Copyright (C) 2012 ARM Ltd.
+Copyright (C) 2014-2016 Zi Shen Lim <zlim.lnx@gmail.com>
+Copyright (C) 2004, 2009, 2010, 2011 Texas Instruments Incorporated
+Copyright (C) 2000-2004 Russell King
+Copyright (C) 2011 Texas Instruments Incorporated
+Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+(c) Copyright 2006, 2007 Hewlett-Packard Development Company, L.P.
+(C) Copyright 2016, Angelo Dureghello <angelo@sysam.it>
+Copyright (c) 2005 Petr Stehlik of ARAnyM dev team
+Copyright (C) 1995  Hamish Macdonald
+Copyright (C) 2001, 2002, 2005, 2007, 2012 Imagination Technologies.
+Copyright (C) 2010-2013 Imagination Technologies Ltd.
+Copyright (C) 2001, 2002, 2003, 2005, 2007, 2012 Imagination Technologies.
+Copyright (C) 2010 Michal Simek <monstr@monstr.eu>
+Copyright (C) 2010 PetaLogix
+Copyright (C) 2005 John Williams <jwilliams@itee.uq.edu.au>
+Copyright (C) 2001 Dan Malek (dmalek@jlc.net)
+Copyright (C) 2000 Russell King
+Copyright (C) 2009 Michal Simek <monstr@monstr.eu>
+Copyright (C) 2009 PetaLogix
+Copyright (C) 1998 Gabriel Paubert.
+Copyright (C) 2010 Wolfgang Grandegger <wg@denx.de>
+Copyright (C) 2003 Atheros Communications, Inc.,  All Rights Reserved.
+Copyright (C) 2006 FON Technology, SL.
+Copyright (C) 2006 Imre Kaloz <kaloz@openwrt.org>
+Copyright (C) 2006 Felix Fietkau <nbd@openwrt.org>
+Copyright (C) 2012 Alexandros C. Couloumbis <alex@ozo.com>
+Copyright (C) 2010-2011 Jaiganesh Narayanan <jnarayanan@atheros.com>
+Copyright (C) 2011 Gabor Juhos <juhosg@openwrt.org>
+Copyright (C) 2008 Maxime Bizon <mbizon@freebox.fr>
+Copyright (C) 2014 Kevin Cernekee <cernekee@gmail.com>
+Copyright (C) 2009 Wind River Systems,
+Copyright (C) 2007  Yoichi Yuasa <yuasa@linux-mips.org>
+Copyright (c) 2005  Maciej W. Rozycki
+Copyright (C) 2016 Imagination Technologies
+Copyright (c) 2009 Qi Hardware inc.,
+Copyright (C) 2007 Ralf Baechle (ralf@linux-mips.org)
+Copyright (C) 2012  MIPS Technologies, Inc.  All rights reserved.
+Copyright (C) 2010 Thomas Langer <thomas.langer@lantiq.com>
+Copyright (C) 2010 John Crispin <john@phrozen.org>
+Copyright (C) 2007	Brian Murphy <brian@murphy.dk>
+Copyright (C) 2015 Imagination Technologies, Ltd.
+Copyright (C) 2005-2007 Cavium Networks
+Copyright (C) 2007 MIPS Technologies, Inc.  All rights reserved.
+Copyright (C) 2013 Imagination Technologies Ltd.
+Copyright (c) 2014 Imagination Technologies Ltd.
+Copyright (C) 2013 Cavium, Inc.
+Copyright (C) 2014 Google, Inc.
+Copyright (C) 2009 Lemote Inc.
+Copyright (C) 2013 John Crispin <john@phrozen.org>
+Copyright (C) 2007 Florian Fainelli <florian@openwrt.org>
+Copyright (C) 1999, 2000 Ralf Baechle (ralf@gnu.org)
+Copyright (C) 1999, 2000 Silicon Graphics, Inc.
+Copyright (C) 1999 - 2001 Kanoj Sarcar
+Copyright (C) 2006 Thomas Bogendoerfer (tsbogend@alpha.franken.de)
+Copyright (C) 2015 Imagination Technologies
+Copyright (C) 2010 Red Hat, Inc. All Rights Reserved.
+Copyright (C) 2003  Paul Mundt
+Copyright (C) 2007 Red Hat, Inc. All Rights Reserved.
+Copyright (C) 2005 Red Hat, Inc. All Rights Reserved.
+Copyright Altera Corporation (C) 2014. All rights reserved.
+Copyright (C) 2009, Wind River Systems Inc
+Copyright (C) 2013 Altera Corporation
+Copyright (C) 2011 Thomas Chou
+Copyright (C) 2011 Walter Goossens
+Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
+Copyright (C) 2003 Matjaz Breskvar <phoenix@bsemi.com>
+Copyright (C) 1993 Linus Torvalds
+Copyright (C) 1997 Martin Mares <mj@atrey.karlin.mff.cuni.cz>
+Copyright (C) 2013 Helge Deller <deller@gmx.de>
+Copyright (C) 2015 Helge Deller <deller@gmx.de>
+Copyright (c) 2015 Markus Stockhausen <stockhausen@collogia.de>
+Copyright (c) 1996 Paul Mackerras <paulus@cs.anu.edu.au>
+Copyright (c) 1998-1999 TiVo, Inc.
+Copyright (c) 1999 Grant Erickson <grant@lcse.umn.edu>
+Copyright (c) 2001-2002 PPC64 team, IBM Corp
+Copyright (c) 2005 Benjamin Herrenschmidt, IBM Corp
+Copyright (C) 2009. SUSE Linux Products GmbH. All rights reserved.
+Copyright (C) 1995-1996 Gary Thomas (gdt@linuxppc.org)
+Copyright (C) 1996 Paul Mackerras
+Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+Copyright (C) 2005 Brian Rogan <bcr6@cornell.edu>, IBM
+(C) Copyright IBM Deutschland Entwicklung GmbH 2006
+Copyright IBM Corp. 2008, 2011
+Copyright IBM Corp. 2012,2015
+Copyright (C) 2009 Sunplus Core Technology Co., Ltd.
+Copyright (C) IBM Corporation, 2004. All rights reserved
+Copyright (C) 2003  Richard Curnow, SuperH UK Limited
+Copyright (C) 2006 Takashi YOSHII <takasi-y@ops.dti.ne.jp>
+Copyright (C) 2009 ST Microelectronics
+Copyright (C) 2009 - 2010 Paul Mundt
+Copyright (C) 2008, Intel Corp.
+Copyright (c) 2010, Intel Corporation.
+Copyright (C) 1997 David S. Miller (davem@caip.rutgers.edu)
+Copyright (C) 1998 Peter Maydell (pmaydell@chiark.greenend.org.uk)
+Copyright (C) 1997, 1999 Jakub Jelinek (jj@ultra.linux.cz)
+Copyright (C) 1999 David S. Miller (davem@redhat.com)
+Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+Copyright (C) 1996 Eddie C. Dost (ecd@skynet.be)
+Copyright (C) 1997 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
+Copyright (C) 2013 Kirill V Tkhai (tkhai@yandex.ru)
+Copyright (C) 2004 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+Copyright (C) 2001-2010 GUAN Xue-tao
+Copyright (C) 1991, 1992 Linus Torvalds
+Copyright (C) 2008 Thomas Gleixner <tglx@linutronix.de>
+Copyright (C) 2008-2009 Red Hat, Inc., Ingo Molnar
+Copyright (C) 2009 Jaswinder Singh Rajput
+Copyright (C) 2009 Advanced Micro Devices, Inc., Robert Richter
+Copyright (C) 2008-2009 Red Hat, Inc., Peter Zijlstra
+Copyright (C) 2009 Intel Corporation, <markus.t.metzger@intel.com>
+Copyright (C) 2009 Google, Inc., Stephane Eranian
+Copyright (C) 2016, Microsoft, Inc.
+| Copyright (C) 1992,1993 Microsoft, Inc |
+Copyright (C) 2011-2013 Eric Dumazet (eric.dumazet@gmail.com)
+Internal BPF Copyright (c) 2011-2014 PLUMgrid, http://plumgrid.com
+Copyright (c) 2007 Rafael J. Wysocki <rjw@sisk.pl>
+Copyright (c) 2002 Pavel Machek <pavel@ucw.cz>
+Copyright (c) 2001 Patrick Mochel <mochel@osdl.org>
+Copyright (C) 2014 Red Hat Inc.
+Copyright (C) IBM Corporation, 2009
+Copyright (C) Hitachi, Ltd., 2011
+Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+Copyright (C) 2007 Antonino Daplas <adaplas@gmail.com>
+Copyright (C) 2001 - 2005 Tensilica Inc.
+Copyright (C) 2001-2006 Tensilica Inc.
+Copyright (C) 2015 Cadence Design Systems Inc.
+Copyright (C) 2000 - 2017, Intel Corp.
+Copyright (C) 2009, Intel Corp.
+Copyright (c) 2016, Intel Corporation.
+Copyright (C) 2014 Intel Corporation. All rights reserved.
+Copyright (C) 2017 Lukas Wunner <lukas@wunner.de>
+Copyright (c) 2011 Rafael J. Wysocki <rjw@sisk.pl>, Renesas Electronics Corp.
+Copyright (C) 2011 Micron Technology, Inc.
+Copyright (C) 2009 Integrated Device Technology, Inc.
+(C) Copyright 2013 IBM Corporation
+Copyright (c) 2003-2004, Keir Fraser & Steve Hand
+Copyright (c) 2005, Christopher Clark
+Copyright (C) 2014 Sergey Senozhatsky.
+Copyright 2005 (c) MontaVista Software, Inc.
+(c) Copyright 2003 Red Hat Inc <jgarzik@redhat.com>
+(c) Copyright 2001 Red Hat Inc
+Copyright 2000,2001 Jeff Garzik <jgarzik@pobox.com>
+Copyright 2000,2001 Philipp Rumpf <prumpf@mandrakesoft.com>
+Copyright (c) 2015-2016, IBM Corporation.
+(C) 2000,2001,2002,2003,2004 Omnikey AG
+(C) 2005-2006 Harald Welte <laforge@gnumonks.org>
+Copyright (C) 2004 IBM Corporation
+Copyright (C) 2014 Intel Corporation
+(c) Copyright 2003-2008 Xilinx Inc.
+Copyright (C) 2016 Synopsys
+Copyright (c) 2014 Marvell Technology Group Ltd.
+Copyright (c) 2015-2016 HiSilicon Technologies Co., Ltd.
+Copyright (C) 2016-2017 Imagination Technologies
+Copyright (c) 2013-2015 Imagination Technologies
+Copyright (C) 2013 Texas Instruments.
+Copyright (c) 2012-2016 Zhang, Keguang <keguang.zhang@gmail.com>
+Copyright (c) 2015 MediaTek Inc.
+Copyright (c) 2017 AmLogic, Inc.
+Copyright (C) 2015 Microchip Technology Inc.  All rights reserved.
+Copyright (C) 2016 Marvell
+Copyright (C) 2014 Robert Jarzmik
+Copyright (c) 2015, The Linux Foundation. All rights reserved.
+Copyright (C) 2013  Renesas Solutions Corp.
+Copyright (c) 2014 Samsung Electronics Co., Ltd.
+Copyright (c) 2015 Samsung Electronics Co., Ltd.
+Copyright (C) 2015 Altera Corporation. All rights reserved
+Copyright (C) 2012 ST Microelectronics
+Copyright (C) ST-Microelectronics SA 2013
+Copyright (c) 2017 Priit Laes <plaes@plaes.org>.
+Copyright (c) 2017 Maxime Ripard.
+Copyright (c) 2017 Jonathan Liu.
+Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.
+Copyright (C) 2016 Socionext Inc.
+Copyright (C) 2012 ST-Ericsson SA
+Copyright (C) 2012-2015 Linus Walleij
+Copyright (C) 2013, Intel Corporation
+Copyright (C) 2012 - 2013 Xilinx
+Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+Copyright (C) 2004, 2005 Dominik Brodowski <linux@brodo.de>
+(C) 2006-2007 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+Copyright (C) 2014-2017  Axis Communications AB
+Copyright 2016 Broadcom
+Copyright 2016 NXP
+Copyright (C) 2013 Advanced Micro Devices, Inc.
+Copyright (c) 2003-2016 Chelsio Communications, Inc. All rights reserved.
+Copyright (C) 2017 Marvell
+Copyright (c) 2016 Ryder Lee <ryder.lee@mediatek.com>
+Copyright (C) 2015 Dan Streetman, IBM Corp
+Copyright (c) 2010-2014, The Linux Foundation. All rights reserved.
+Copyright (c) 2015, Fuzhou Rockchip Electronics Co., Ltd
+Copyright (C) 2017, STMicroelectronics - All Rights Reserved
+Copyright (C) 2013-2015 Corentin LABBE <clabbe.montjoie@gmail.com>
+Copyright (C) 2015 International Business Machines Inc.
+2003-2004 (c) MontaVista, Software, Inc.
+Copyright (C) 2006-2007 Sylvain Munaut <tnt@246tNt.com>
+Copyright (C) 2006      Freescale - John Rigby
+Copyright (C) 2007-2008 Atmel Corporation
+Copyright (C) 2010-2011 ST Microelectronics
+Copyright (C) 2013 Intel Corporation
+Copyright (C) 2015 Intel Corporation
+Copyright (C) 2008 Intel Corporation
+Copyright (C) 2005-2007 Freescale Semiconductor, Inc. All Rights Reserved.
+Copyright (C) 2006-2009 DENX Software Engineering.
+Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+Copyright (C) 2014 Renesas Electronics Inc.
+Copyright (C) 2010-2014 Xilinx, Inc. All rights reserved.
+Copyright (C) 2005 Broadcom Corporation
+Copyright (C) 2010-2012 Hauke Mehrtens <hauke@hauke-m.de>
+Copyright (C) 2016 Endless Mobile, Inc.
+Copyright (c) 2016, NVIDIA CORPORATION.  All rights reserved.
+Copyright (c) 2010 Sascha Hauer <s.hauer@pengutronix.de>
+Copyright (C) 2005-2009 Freescale Semiconductor, Inc.
+Copyright (c) 2012 Benjamin Tissoires <benjamin.tissoires@gmail.com>
+Copyright (c) 2012 Ecole Nationale de l'Aviation Civile, France
+Copyright (c) 2012 Red Hat, Inc
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2007-2008 Oliver Neukum
+Copyright (c) 2006-2010 Jiri Kosina
+Copyright (C) 2008,2009,2010 Nokia Corporation. All rights reserved.
+Copyright (C) 2014-2015 Intel Corporation.
+Copyright (c) 2014, Intel Corporation.
+Copyright (C) 2012 Google, Inc
+Copyright (C) 2015 Matt Ranostay <mranostay@gmail.com>
+Copyright (C) 2016 William Breathitt Gray
+Copyright (c) 2011 Jonathan Cameron
+Copyright (C) 2015-2016 Texas Instruments Incorporated - http://www.ti.com
+Copyright (C) 2009 Zhang Rui <rui.zhang@intel.com>
+Copyright (C) 2012-2013 Martin Liska <marxin.liska@gmail.com>
+Copyright (C) 2013-2014 Marek Vasut <marex@denx.de>
+Copyright (C) 2015 Gabriele Mazzotta <gabriele.mzt@gmail.com>
+Copyright (C) 2010 Nokia Corporation and/or its subsidiary(-ies).
+Copyright (c) 2010 NVIDIA Corporation.
+Copyright (C) 2016 Linaro Ltd.
+Copyright (C) 2017 Axentia Technologies AB
+Copyright (c) 2013, Intel Corporation.
+Copyright (c) 2016 Slawomir Stepien
+Copyright (C) 2016 Matt Ranostay <mranostay@gmail.com>
+Copyright (C) 2016 - Marcin Malagowski <mrc@bourne.st>
+Copyright (C) 2014 Matt Ranostay <mranostay@gmail.com>
+Copyright (c) 2017, Intel Corporation.
+Copyright (C) Intuitive Aerial AB
+Copyright (C) 2012, Analog Device Inc.
+Copyright (C) 2015, Intel Corporation
+Copyright (c) 2005 Voltaire Inc.  All rights reserved.
+Copyright (c) 2002-2005, Network Appliance, Inc. All rights reserved.
+Copyright (c) 1999-2005, Mellanox Technologies, Inc. All rights reserved.
+Copyright (c) 2005 Intel Corporation.  All rights reserved.
+Copyright (c) 2010, 2011 Fabien Marteau <fabien.marteau@armadeus.com>
+Copyright (C) 2012 Marvell International Ltd.
+Copyright (C) 2001-2004 Greg Kroah-Hartman (greg@kroah.com)
+Copyright (C) 2005-2008 Johannes Berg (johannes@sipsolutions.net)
+Copyright (C) 2005-2008 Stelian Pop (stelian@popies.net)
+Copyright (C) 2005      Frank Arnold (frank@scirocco-5v-turbo.de)
+Copyright (C) 2005      Peter Osterlund (petero2@telia.com)
+Copyright (C) 2005      Michael Hanselmann (linux-kernel@hansmi.ch)
+Copyright (C) 2006      Nicolas Boichat (nicolas@boichat.ch)
+Copyright (C) 2007-2008 Sven Anders (anders@anduras.de)
+Copyright (c) 2011-2016 Synaptics Incorporated
+Copyright (c) 2011 Unixphere
+Copyright (C) 2008 Thomas Chou <thomas@wytron.com.tw>
+Copyright (C) 2002 Russell King
+Copyright (c) 2001-2005 Edouard TISSERANT   <edouard.tisserant@wanadoo.fr>
+Copyright (c) 2004-2005 Stephane VOLTZ      <svoltz@numericable.fr>
+Copyright (C) 2009 Marvell International Ltd.
+Copyright (C) 2009-2012 CERN (www.cern.ch)
+Copyright (C) Marvell
+Copyright 2008 (C) Rodolfo Giometti <giometti@linux.it>
+Copyright 2008 (C) Eurotech S.p.A. <info@eurotech.it>
+Copyright (c) 2002 Convergence GmbH
+Copyright (c) 2000 Nokia Research Center
+Copyright (C) 2011 Antti Palosaari <crope@iki.fi>
+Copyright (C) 2004 Andreas Monitzer <andy@monitzer.com>
+Copyright (C) 2008 Ben Backx <ben@bbackx.com>
+Copyright (C) 2008 Henrik Kurelid <henrik@kurelid.se>
+Copyright (C) 2008 Nokia Corporation
+Copyright (C) 2007 Texas Instruments
+Copyright (C) 2016 Pavel Machek <pavel@ucw.cz>
+Copyright (C) 2003	Takeo Takahashi <takahashi.takeo@renesas.com>
+Copyright (c) 2003 RENESAS TECHNOROGY CORPORATION
+Copyright (c) 2000 Markus Demleitner <msdemlei@cl.uni-heidelberg.de>
+Copyright (c) 2011, 2012 Anssi Hannula <anssi.hannula@iki.fi>
+Version 2.2.0 Copyright (c) 2004 Torrey Hoffman <thoffman@arnor.net>
+Version 2.1.1 Copyright (c) 2002 Vladimir Dergachev
+Copyright (C) 2015-2016 Nexvision
+Copyright (C) 2012 Antti Palosaari <crope@iki.fi>
+Copyright (C) 2007 Alex Dubov <oakad@yahoo.com>
+Copyright (C) 2008 Alex Dubov <oakad@yahoo.com>
+Copyright (c) 1999-2008 LSI Corporation
+Copyright (C) Altera Corporation 1998-2001
+Copyright (C) 2010 NetUP Inc.
+Copyright (C) 2010 Igor M. Liplianin <liplianin@netup.ru>
+Copyright (C) 2001, 2003 Steve Underwood, 2007 David Rowe
+Copyright (C) 2005-2007 David Brownell
+Copyright (C) 2008 Wolfram Sang, Pengutronix
+(C) Copyright IBM Corp. 2013
+Copyright (C) 2007-2008 Yan Burman
+Copyright (C) 2008 Eric Piel
+Copyright (C) 2008-2009 Pavel Machek
+Copyright (c) 2003-2013, Intel Corporation.
+Copyright (c) 2008 Silicon Graphics, Inc.  All Rights Reserved.
+Copyright (C) 2004-2008 Silicon Graphics, Inc. All rights reserved.
+Copyright (C) 2009-2010 Texas Instruments
+Copyright (C) 2012 VMware, Inc. All rights reserved.
+Copyright 2005-2008 Pierre Ossman
+Copyright (C) 2004 Nokia Corporation
+Copyright (C) 2006 Jonathan McDowell <noodles@earth.li>
+Copyright (c) 2005 Samsung Electronics
+Copyright (C) 2012 - 2017 Rafał Miłecki <rafal@milecki.pl>
+Copyright (c) International Business Machines Corp., 2006
+Copyright (C) ST-Ericsson AB 2010
+(C) 2007 by Hans J. Koch <hjk@hansjkoch.de>
+(C) 2008, 2009, 2010, 2011 by Marc Kleine-Budde <kernel@pengutronix.de>
+Copyright (C) 2008 Dave S.r.l. <www.dave.eu>
+Copyright (C) 2009 Ilya Yanok, Emcraft Systems Ltd, <yanok@emcraft.com>
+Copyright (c) 2015 FUJITSU LIMITED
+Copyright (C) 1998-2002 by Jes Sorensen, <jes@wildopensource.com>.
+Copyright (c) 2011, Microsoft Corporation.
+Copyright (c) 2014 Mahesh Bandewar <maheshb@google.com>
+Copyright (c) 2011 DENX Software Engineering GmbH
+Copyright (c) 1985, 1986 The Regents of the University of California.
+Copyright (c) 1989 Regents of the University of California.
+Copyright (c) 2011 Jiri Pirko <jpirko@redhat.com>
+Copyright (C) 2003-2006 David Hollis <dhollis@davehollis.com>
+Copyright (C) 2005 Phil Chang <pchang23@sbcglobal.net>
+Copyright (C) 2006 James Painter <jamie.painter@iname.com>
+Copyright (c) 2002-2003 TiVo Inc.
+Copyright (C) 2008-2016, VMware, Inc. All Rights Reserved.
+Copyright (c) 2008, Jouni Malinen <j@w1.fi>
+Copyright (c) 2011, Javier Lopez <jlopex@gmail.com>
+Copyright (C) 2013 Intel Corporation. All rights reserved.
+Copyright (C) 2015, Marvell International Ltd.
+Copyright (C) 2014  NXP Semiconductors  All rights reserved.
+Copyright (C) 2012  Intel Corporation. All rights reserved.
+Copyright (C) 2011 Instituto Nokia de Tecnologia
+Copyright (C) 2012-2013 Tieto Poland
+Copyright (C) 2016 HALE electronic
+Copyright (C) 2015 Samsung Electrnoics
+Copyright (C) 2014-2015  STMicroelectronics SAS. All rights reserved.
+Copyright (C) 2014  STMicroelectronics SAS. All rights reserved.
+Copyright (C) 2015 STMicroelectronics Pvt. Ltd. All rights reserved.
+Copyright (c) 2011-2014, Intel Corporation.
+Copyright (C) 2013-2014 Texas Instruments Incorporated - http://www.ti.com
+Copyright (C) 2006 Intel Corporation
+Copyright (C) 2007 Intel
+Copyright (C) Zhang Yanmin (yanmin.zhang@intel.com)
+Copyright (C) Shaohua Li (shaohua.li@intel.com)
+Copyright (c) 2017, Microsemi Corporation
+Copyright (C) 2014-2015 Hans de Goede <hdegoede@redhat.com>
+Copyright (C) 2013 Samsung Electronics Co., Ltd.
+Copyright (C) 2015 Broadcom Corporation
+Copyright (C) 2016 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+Copyright (C) 2017 Hauke Mehrtens <hauke@hauke-m.de>
+Copyright (C) 2014 Marvell
+Copyright (C) 2017 Tony Lindgren <tony@atomide.com>
+Copyright (C) 2007 - 2011 Motorola, Inc.
+Copyright (c) 2014, The Linux Foundation. All rights reserved.
+Copyright (C) 2017 John Crispin <john@phrozen.org>
+Copyright (C) 2014 Renesas Solutions Corp.
+Copyright (C) 2014 Cogent Embedded, Inc.
+Copyright (C) 2016 FuZhou Rockchip Co., Ltd.
+Copyright (C) 2014 STMicroelectronics
+Copyright (c) 2014, NVIDIA CORPORATION.  All rights reserved.
+Copyright (C) 2016 David Lechner <david@lechnology.com>
+Copyright (C) 2013-2017 Broadcom
+Copyright (C) 2014 Marvell Technology Group Ltd.
+Copyright (C) 2012 Freescale Semiconductor, Inc.
+Copyright (C) 2012 Linaro Ltd.
+Copyright (c) 2012-2013, Intel Corporation.
+Copyright (C) ST-Ericsson SA 2012
+Copyright (C) 2016 Robert Jarzmik
+Copyright (c) 2014, Sony Mobile Communications AB.
+Copyright (c) 2012 Samsung Electronics Co., Ltd.
+Copyright (c) 2012 Linaro Ltd
+Copyright (C) 2008 Magnus Damm
+Copyright (C) 2009 - 2012 Paul Mundt
+Copyright (c) 2011 - 2014 Cambridge Silicon Radio Limited, a CSR plc group
+Copyright (C) 2017 Spreadtrum  - http://www.spreadtrum.com
+Copyright (C) 2014 Maxime Ripard
+Copyright (C) 2015-2017 Texas Instruments Incorporated - http://www.ti.com
+Copyright (C) 2015-2017 Socionext Inc.
+Copyright (c) 2013 Tony Prisk <linux@prisktech.co.nz>
+Copyright (C) 2017 Sanechips Technology Co., Ltd.
+Copyright (C) 2012 Intel, Inc.
+Copyright (C) 2013 Intel, Inc.
+Copyright (C) 2014 Linaro Limited
+Copyright (C) 2011-2016 Google, Inc.
+Copyright (C) 2011-2012 One Laptop per Child Foundation.
+Copyright (C) 2007-2009	Carlos Corbacho <carlos@strangeworlds.co.uk>
+Copyright (C) 2005-2007	E.M. Smith
+Copyright (C) 2007-2008	Carlos Corbacho <cathectic@gmail.com>
+Copyright (c) 2012 Marvell International Ltd.
+Copyright (C) 2010 Ricardo Martins <rasm@fe.up.pt>
+Copyright (C) 2011 James Nuss <jamesnuss@nanometrics.ca>
+Copyright (C) 2014 STMicroelectronics (R&D) Limited
+Copyright 2012 Actions Semi Inc.
+Copyright 2000 Deep Blue Solutions Ltd
+Copyright 2008 ARM Limited
+Copyright 2008 Cavium Networks
+Copyright 2010 MontaVista Software, LLC.
+Copyright 2008-2009 Freescale Semiconductor, Inc. All Rights Reserved.
+Copyright 2013 Texas Instruments, Inc.
+Copyright 2008 Simtec Electronics
+Copyright 2012 Freescale Semiconductor, Inc.
+Copyright 2012 Linaro Ltd.
+Copyright (c) 2011 Cambridge Silicon Radio Limited, a CSR plc group company.
+Copyright 2012 Pavel Machek <pavel@denx.de>
+Copyright 2014 Linaro Ltd.
+Copyright 2015 Mentor Graphics Corporation.
+Copyright 2004-2009 Analog Devices Inc.
+Copyright 2008 Analog Devices Inc.
+Copyright 2007-2008 Analog Devices Inc.
+Copyright 2007-2009 Analog Devices Inc.
+Copyright 2007-2010 Analog Devices Inc.
+Copyright 2006-2009 Analog Devices Inc.
+Copyright 2004-2008 Analog Devices Inc.
+Copyright 2010, Lars-Peter Clausen <lars@metafoo.de>
+Copyright 2005-2006 PMC-Sierra, Inc.
+Copyright (C) 2008 Jiri Hladky <hladky _dot_ jiri _at_ gmail _dot_ com>
+Copyright 2011 Matt Evans <matt@ozlabs.org>, IBM Corporation
+Copyright 2016 Christophe Leroy, CS Systemes d'Information
+Copyright 2007 Freescale Semiconductor Inc.
+Copyright 1991, 1992 Free Software Foundation, Inc.
+Copyright IBM Corp. 2006
+Copyright IBM Corp. 2016
+Copyright IBM Corp. 2015
+Copyright IBM Corp. 2012
+Copyright 2007 STMicroelectronics Ltd.
+@remark Copyright 2002 OProfile authors
+Copyright(C) 1995 David S. Miller (davem@caip.rutgers.edu)
+Copyright 2010 Tilera Corporation. All Rights Reserved.
+Copyright 2007-2008 rPath, Inc. - All Rights Reserved
+Copyright 2009 Intel Corporation. author H. Peter Anvin
+Copyright 2011 Red Hat, Inc. and/or its affiliates.
+Copyright IBM Corporation, 2008
+Copyright 2002,2003 Andi Kleen, SuSE Labs.
+@remark Copyright 2008 Tensilica Inc.
+Copyright(c) 2013-2015 Intel Corporation. All rights reserved.
+Copyright 2011 Wolfson Microelectronics plc
+Copyright 2011 Xillybus Ltd, http://xillybus.com
+Copyright 2015-2016 Axis Comunications AB.
+Copyright 2014 Linaro Limited
+Copyright 2015 Yoshinori Sato <ysato@users.sourceforge.jp>
+Copyright 2013 Emilio López
+Copyright 2008-2011 Freescale Semiconductor, Inc.
+Copyright 2016 HUAWEI TECHNOLOGIES CO., LTD.
+Copyright 2017 Google Inc.
+Copyright 2000 VA Linux Systems, Inc., Sunnyvale, California.
+Copyright 2012 Analog Devices Inc.
+Copyright 2011 Analog Devices Inc.
+Copyright 2010 Analog Devices Inc.
+Copyright 2008  by Andreas Eversberg <andreas@eversberg.eu>
+Copyright 2012 Google, Inc.
+Copyright(c) by Ralph Metzler, Gerd Knorr, Gunther Mayer
+Copyright(c) 2005-2011 by Mauro Carvalho Chehab
+Copyright by Michał Mirosław, 2008-2009
+Copyright 2014 IBM Corp.
+Copyright 2002 Hewlett-Packard Company
+Copyright 2007, Google Inc.
+Copyright 2012, Intel Inc.
+Copyright 2000 Nicolas Pitre <nico@fluxnic.net>
+Copyright 2005-2008 Analog Devices Inc.
+Copyright Digital Equipment Corporation 1996.
+Copyright 2009-2015 Analog Devices Inc.
+Copyright 2016 Freescale Semiconductor Inc.
+Copyright 2017 Linaro Ltd.
+Copyright 2014 MundoReader S.L.
+Copyright 2014 Google, Inc.
+Copyright 2010 Integrated Device Technology, Inc.
+Copyright (C) 2007 Red Hat, Inc. All Rights Reserved.
+Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2014 Alexander Shiyan <shc_work@mail.ru>
+Copyright (C) 2015 ARM Ltd.
+Copyright (C) 2012-2015 Freescale Semiconductor, Inc.
+Copyright (C) 2012 - Virtual Open Systems and Columbia University
+Copyright (C) 2009-2010 Pengutronix
+Copyright (C) 2006, 2007 Motorola Inc.
+Copyright (C) 2012 Rabin Vincent <rabin at rab.in>
+Copyright (C) 2014, Linaro Ltd.
+Copyright (C) 2013 Linaro Limited.
+Copyright (C) 2015 - ARM Ltd
+Copyright (c) 2001-2008 Axis Communications AB
+Copyright (c) 2001-2007 Axis Communications AB
+Copyright (C) 2006 Axis Communications AB.
+Copyright (c) 2004-2007 Axis Communications AB.
+Copyright (C) 2000-2003, Axis Communications AB.
+Copyright (C) 1991, 1992  Linus Torvalds
+(c) Copyright 2007 Hewlett-Packard Development Company, L.P.
+Copyright (C) 2014, Intel Corporation
+Copyright (C) 2006 Silicon Graphics, Inc. All rights reserved.
+Copyright (C) 2003-2005 Silicon Graphics, Inc.  All Rights Reserved.
+Copyright (c) 2008 Silicon Graphics, Inc.  All Rights Reserved.
+Copyright (C) 2001 by Hiroyuki Kondo
+Copyright (c) 2001-2005  Hiroyuki Kondo, Hirokazu Takata,
+Copyright (C) 1999  Vladimir Gurevich <vgurevic@cisco.com>
+Copyright (C) 1998  Kenneth Albanowski <kjahds@kjahds.com>,
+Copyright (C) 2012 Imagination Technologies Ltd
+Copyright (C) 2009 Paul Mundt
+Copyright (C) 2009 picoChip Designs, Ltd., James Iles
+Copyright (C) 2010 ARM Ltd., Will Deacon <will.deacon@arm.com>
+Copyright (C) 2007-2009 Michal Simek <monstr@monstr.eu>
+Copyright (C) 2007-2009 PetaLogix
+Copyright (C) 2007-2009 John Williams <john.williams@petalogix.com>
+Copyright (C) 2008 Maxime Bizon <mbizon@freebox.fr>
+Copyright (C) 2008 Florian Fainelli <florian@openwrt.org>
+Copyright (C) 2010 "Wu Zhangjin" <wuzhangjin@gmail.com>
+Copyright (C) 2004-2012 Cavium Networks
+Copyright (C) 2004-2017 Cavium, Inc.
+Copyright (C) NEC Electronics Corporation 2004-2006
+Copyright (c) 1998 Harald Koerfgen
+Copyright (c) 2001 Ralf Baechle
+Copyright (c) 2002 Thiemo Seufer
+Copyright (C) 2000, 2001, 2002 Broadcom Corporation
+Copyright (C) 2012 MIPS Technologies, Inc.  All rights reserved.
+Copyright (C) 2005-2006 Florian Lohoff (flo@rfc822.org)
+Copyright (C) 2005-2006 Thomas Bogendoerfer (tsbogend@alpha.franken.de)
+Copyright (C) 2005, 06 by Ralf Baechle (ralf@linux-mips.org)
+Copyright (C) 2005 MIPS Technologies, Inc.
+Copyright (C) 2012 Thomas Langer <thomas.langer@lantiq.com>
+Copyright (C) 2012 John Crispin <john@phrozen.org>
+Copyright (C) 2010 John Crispin <john@phrozen.org>
+Copyright (C) 2013-2015 Lantiq Beteiligungs-GmbH & Co.KG
+Copyright (c) 2011 Zhang, Keguang <keguang.zhang@gmail.com>
+Copyright (c) 2011-2016 Zhang, Keguang <keguang.zhang@gmail.com>
+Copyright (c) 2016 Yang Ling <gnaygnil@gmail.com>
+Copyright (C) 2000, 2001 Ralf Baechle (ralf@gnu.org)
+Copyright (C) 2007 Lemote Inc. & Institute of Computing Technology
+Copyright (C) 2006 - 2008 Lemote Inc. & Institute of Computing Technology
+Copyright (c) 2003-2014 Broadcom Corporation
+Copyright (c) 2003-2012 Broadcom Corporation
+Copyright (C) 2015 Microchip Technology Inc.  All rights reserved.
+Copyright (C) 2000,2001,2002,2003,2004 Broadcom Corporation
+Copyright (C) 2002,2003 Broadcom Corporation
+(C) Copyright TOSHIBA CORPORATION 2005-2007
+Copyright (C) 2000-2001 Toshiba Corporation
+2003-2005 (c) MontaVista Software, Inc. This file is licensed under the
+Copyright (C) 2000-2001,2005-2006 Toshiba Corporation
+Copyright (C) 2005-2007  Yoichi Yuasa <yuasa@linux-mips.org>
+Copyright (C) 2007 Matsushita Electric Industrial Co., Ltd.
+Copyright (C) 1997 Martin Mares
+Copyright (C) 2008-2010 Thomas Chou <thomas@wytron.com.tw>
+Copyright (C) 2004 Microtronix Datacom Ltd.
+(C) 2017 Helge Deller <deller@gmx.de>
+Copyright (c) 2006 Kyle McMartin <kyle@parisc-linux.org>
+Copyright (c) 1997 Dan Malek (dmalek@jlc.net)
+Copyright (C) 2007-2008 Steven Rostedt <srostedt@redhat.com>
+(C) Copyright IBM Corporation 2006
+2002 (c) MontaVista, Software, Inc.  This file is licensed under
+Copyright (C) 2010, Applied Micro Circuits Corporation
+Copyright (C) 2013 DENX Software Engineering
+Copyright (C) 2006 bplan GmbH
+Copyright 2008 Codehermit
+Copyright (c) 2007 Freescale Semiconductor, Inc.
+2008 (c) Stanford University
+2007 (c) MontaVista, Software, Inc.
+Copyright (C) 2006-2007 PA Semi, Inc
+Copyright (C) 2000 Benjamin Herrenschmidt
+Copyright (C) 2006 Michael Hanselmann <linux-kernel@hansmi.ch>
+Copyright 2016-17 IBM Corp.
+Copyright (C) 2007 Sony Computer Entertainment Inc.
+Copyright (C) 2008 IBM Corporation
+2008 (c) GE Intelligent Platforms Embedded Systems, Inc.
+Copyright 2016,2017 IBM Corporation.
+Copyright IBM Corp. 2002, 2007
+Copyright (C) 2008 Renesas Solutions Corp.
+Copyright (C) 2002 Stuart Menefy
+Copyright (c) 2001, 2002 M. R. Brown <mrbrown@0xd6.org>
+Copyright (C) 2009 Renesas Solutions Corp.
+Copyright (C) 2002  Atom Create Engineering Co., Ltd.
+Copyright (C) 2006  Paul Mundt
+Copyright (C) 2007  Magnus Damm
+Copyright 2005 (c) Andriy Skulysh <askulysh@gmail.com>
+Copyright 2008 (c) Kristoffer Ericson <kristoffer.ericson@gmail.com>
+Copyright (C) 2009 Magnus Damm
+Copyright (C) 2008 Lineo Solutions, Inc.
+Copylight (C) 2006 kogiidena
+Copylight (C) 2002 Atom Create Engineering Co., Ltd.
+Copyright (C) 2007 Nobuhiro Iwamatsu
+Copyright (C) 2003 Sean McGoogan (Sean.McGoogan@superh.com)
+Copyright (C) 2003, 2004 SuperH, Inc.
+Copyright (C) 2004, 2005 Paul Mundt
+Copyright (C) 2008 Magnus Damm
+Copyright (c) 2007 Ujjwal Pande <ujjwal@kenati.com>,
+Copyright (C) 2000  Kazumoto Kojima
+Copyright (C) 2008 - 2010  Paul Mundt
+Copyright (C) 2008  Nicholas Beck <nbeck@mpc-data.co.uk>
+Copyright (C) 2010  Paul Mundt
+Copyright (C) 2006 Yoshinori Sato
+Copyright (C) 2004  Saito.K & Jeanne(ksaito@interface.co.jp)
+Copyright (C) 2008  Nobuhiro Iwamatsu <iwamatsu.nobuhiro@renesas.com>
+Copyright (C) 2010 - 2012  Paul Mundt
+Copyright (C) 2010 Magnus Damm
+Copyright (C) 2000 YAEGASHI Takeshi
+(c) 2007 MSC Vertriebsges.m.b.H, Manuel Lauss <mlau@msc-ge.com>
+Copyright (C) 2005  Paul Mundt
+Copyright (C) 2004  Andriy Skulysh
+Copyright (C) 2006 Paul Mundt
+Copyright (C) 2004 Jeff Dike (jdike@karaya.com)
+Copyright (C) 2015 Thomas Meyer (thomas@m3y3r.de)
+Copyright (C) 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+Copyright (C) 2001-2010 GUAN Xue-tao
+Copyright (C) 2007 H. Peter Anvin
+Copyright (c) 2012-2014 Andy Lutomirski <luto@amacapital.net>
+Copyright (C) 2001 Andrea Arcangeli <andrea@suse.de> SuSE
+Copyright (c) 2013-2014, Intel Corporation.
+(c) 1999, 2000, 2009 Ingo Molnar <mingo@redhat.com>
+Copyright (c) 2015, Intel Corporation.
+(C) Copyright 2010 Intel Corporation
+Copyright (C) 2013 Intel Corporation
+Copyright (C) 2008 Constantin Baranov <const@mimas.ru>
+Copyright (C) 2011 Ed Wildgoose <kernel@wildgooses.com>
+Copyright (C) 2007 Google, Inc.
+Copyright (C) 2011 Intel, Inc.
+Copyright (C) 2013 Intel, Inc.
+Copyright (c) 2013, Intel Corporation.
+(C) Copyright 2008, 2012 Intel Corporation
+Copyright (C) Shérab <Sebastien.Hinderer@ens-lyon.org>
+Copyright (C) 2010 Andres Salomon <dilinger@queued.net>
+Copyright (C) 2010 One Laptop per Child
+Copyright (C) 2006 Red Hat, Inc.
+Copyright (C) 2006 Advanced Micro Devices, Inc.
+Copyright (c) 2001,2002 Christer Weinigel <wingel@nano-system.com>
+Copyright (c) 2009, Intel Corporation.
+Copyright (C) 2013-2014 Savoir-faire Linux Inc.
+Copyright (c) 2008-2009 Silicon Graphics, Inc.  All Rights Reserved.
+Copyright (c) Russ Anderson <rja@sgi.com>
+Copyright (C) 2011 Richard Weinberger <richrd@nod.at>
+Copyright (C) 2001-2005 Tensilica Inc.
+Copyright 2001 - 2004 Tensilica Inc.
+Copyright (C) 2001, 2006 Tensilica Inc.
+Copyright (C) 2015 Cadence Design Systems Inc.
+Copyright (C) 2009-2010 Texas Instruments Incorporated.
+Copyright (C) 2009 - 2016 STMicroelectronics
+Copyright (C) 2016 Cavium, Inc.
+Copyright (c) 2003-2017 Cavium, Inc.
+Copyright (C) ST-Ericsson SA 2010
+Copyright (C) 2013,2014 Linaro Limited
+Copyright (C) 2013 Red Hat, Inc.
+Copyright (C) 2016 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2013-2015 ARM Limited
+Copyright (C) 2012 Russell King
+Copyright (C) 2014 Traphandler
+Copyright (C) 2014 Free Electrons
+Copyright (C) 2012-2016 by the following authors:
+Copyright (C) 2015 Samsung Electronics Co.Ltd
+Copyright (c) 2007-2011, Intel Corporation.
+Copyright (C) 2009 Francisco Jerez.
+Copyright © 2006 Eric Anholt
+Copyright (C) 2011-2013 Freescale Semiconductor, Inc.
+Copyright (c) 2014 MediaTek Inc.
+Copyright (C) 2016 BayLibre, SAS
+Copyright (C) 2015 Amlogic, Inc. All rights reserved.
+Copyright (C) 2014 Endless Mobile
+Copyright (C) 2014 Red Hat
+Copyright (C) 2016 Marek Vasut <marex@denx.de>
+Copyright (C) 2010 Juergen Beisert, Pengutronix
+Copyright (C) 2008-2009 Freescale Semiconductor, Inc. All Rights Reserved.
+Copyright (C) 2008 Embedded Alley Solutions, Inc All Rights Reserved.
+Copyright (C) 2011 Texas Instruments
+Copyright (c) 2017, Fuzhou Rockchip Electronics Co., Ltd
+(C) COPYRIGHT 2012-2013 ARM Limited. All rights reserved.
+Copyright (c) 2006-2008 Intel Corporation
+Copyright (c) 2007 Dave Airlie <airlied@linux.ie>
+Copyright (C) 2013-2015 Renesas Electronics Corporation
+Copyright (C) Fuzhou Rockchip Electronics Co., Ltd.
+Copyright (C) 2012 Renesas Electronics Corporation
+Copyright (C) STMicroelectronics SA 2014
+Copyright (C) STMicroelectronics SA 2017
+Copyright (C) 2015 Free Electrons
+Copyright (C) 2015 NextThing Co
+Copyright (C) 2012 Avionic Design GmbH
+Copyright (C) 2012 NVIDIA CORPORATION.  All rights reserved.
+Copyright (C) 2012 Texas Instruments
+Copyright (c) 2006-2009 VMware, Inc., Palo Alto, CA., USA
+Copyright (C) 2012 Red Hat
+Copyright (C) 2009 Roberto De Ioris <roberto@unbit.it>
+Copyright (C) 2009 Jaya Kumar <jayakumar.lkml@gmail.com>
+Copyright (C) 2009 Bernie Thompson <bernie@plugable.com>
+Copyright © 2015 Broadcom
+Copyright © 2014 The Chromium OS Authors
+Copyright (C) 2015 Red Hat, Inc.
+Copyright © 2015 VMware, Inc., Palo Alto, CA., USA
+Copyright (C) 2017 Sanechips Technology Co., Ltd.
+Copyright (c) 2010-2013, NVIDIA Corporation.
+Copyright (c) 2012-2016, Intel Corporation.
+Copyright (C) 2016 Google, Inc
+Copyright (c) 2012, Intel Corporation.
+Copyright (c) 2015 Measurement-Specialties
+Copyright (C) 2014, Samsung Electronics Co. Ltd. All Rights Reserved.
+Copyright 2012-2013 STMicroelectronics Inc.
+Copyright (c) 2016 - 2017, Broadcom. All rights reserved.  The term
+Copyright (c) 2006 Chelsio, Inc. All rights reserved.
+Copyright (c) 2009-2014 Chelsio, Inc. All rights reserved.
+Copyright (c) 2016 Hisilicon Limited.
+Copyright (c) 2015-2016 Intel Corporation.  All rights reserved.
+Copyright (c) 2007 Cisco Systems, Inc. All rights reserved.
+Copyright (c) 2013-2015, Mellanox Technologies. All rights reserved.
+Copyright (c) 2005 Cisco Systems.  All rights reserved.
+Copyright (c) 2006 - 2011 Intel Corporation.  All rights reserved.
+Copyright (c) 2005 Open Grid Computing, Inc. All rights reserved.
+Copyright (C) 2012-2015 Emulex. All rights reserved.
+Copyright (c) 2015-2016  QLogic Corporation
+Copyright (c) 2012 - 2017 Intel Corporation.  All rights reserved.
+Copyright (c) 2006 - 2012 QLogic Corporation. All rights reserved.
+Copyright (c) 2003, 2004, 2005, 2006 PathScale, Inc. All rights reserved.
+Copyright (c) 2013, Cisco Systems, Inc. All rights reserved.
+Copyright (c) 2012-2016 VMware, Inc.  All rights reserved.
+Copyright (c) 2016 Mellanox Technologies Ltd. All rights reserved.
+Copyright (c) 2015 System Fabric Works, Inc. All rights reserved.
+Copyright (c) 2006 Mellanox Technologies. All rights reserved
+Copyright (C) 2004 Dmitry Yusupov
+Copyright (C) 2004 Alex Aizman
+Copyright (C) 2005 Mike Christie
+Copyright (c) 2005, 2006 Voltaire, Inc. All rights reserved.
+Copyright (c) 2013-2014 Mellanox Technologies. All rights reserved.
+(c) Copyright 2013 Datera, Inc.
+Copyright (c) 2006 - 2009 Mellanox Technology Inc.  All rights reserved.
+Copyright (C) 1998-2003 Michael Hunold <michael@mihu.de>
+Copyright (c) 2008 Michael Krufky <mkrufky@linuxtv.org>
+Copyright (c), 2004-2005,2007-2010 Trident Microsystems, Inc.
+Copyright (C) 2017 Renesas Electronics Corp.
+Copyright (C) 2008 Nokia Corporation
+(C) Texas Instruments.
+Copyright (C) 2011 Samsung Electronics Co., Ltd.
+Copyright (C) 2009 Samsung Electronics Co., Ltd.
+Copyright (C) 2012, Samsung Electronics, Co., Ltd.
+Copyright (C) 2010--2012 Nokia Corporation
+Copyright (C) 2010, Guennadi Liakhovetski <g.liakhovetski@gmx.de>
+Copyright (C) 2006-2008, Uri Shkolnik
+Copyright (C) 1996,97,98 Ralph Metzler (rjkm@thp.uni-koeln.de)
+Copyright (C) 2009  Andy Walls <awalls@md.metrocast.net>
+Copyright (C) 2009  Devin Heitmueller <dheitmueller@kernellabs.com>
+Copyright (C) 2010,2011 NetUP Inc.
+Copyright (C) 2010,2011 Igor M. Liplianin <liplianin@netup.ru>
+Copyright (C) 2009 Conexant Systems Inc.
+(c) 2007 Trent Piepho <xyzzy@speakeasy.org>
+(c) 2005,2006 Ricardo Cerqueira <v4l@cerqueira.org>
+(c) 2005 Mauro Carvalho Chehab <mchehab@infradead.org>
+Copyright (C) 2010-2017 Digital Devices GmbH
+Copyright (C) 2008 Igor M. Liplianin <liplianin@me.by>
+Copyright (C) 2006-2010 by Marin Mitov
+Copyright (C) 2009,2012  Andy Walls <awalls@md.metrocast.net>
+Copyright (C) Manu Abraham (abraham.manu@gmail.com)
+Copyright (C) 2001-2004 Stelian Pop <stelian@popies.net>
+Copyright (C) 2001-2002 Alcôve <www.alcove.com>
+Copyright (C) 2000 Andrew Tridgell <tridge@valinux.com>
+Copyright (C) 2014 NetUP Inc.
+Copyright (C) 2014 Sergey Kozlov <serjk@netup.ru>
+Copyright (C) 2014 Abylay Ospan <aospan@netup.ru>
+Copyright (C) 2005-2007 Micronas
+Copyright (C) 2008-2009 Ralph Metzler <rjkm@metzlerbros.de>
+Copyright (C) 2005 Andreas Oberritter <obi@linuxtv.org>
+Copyright (c) 2004 TDF
+Copyright (C) 2009 HIRANO Takahito <hiranotaka@zng.info>
+Copyright (C) 2014 Akihiro Tsukada <tskd08@gmail.com>
+Copyright (C) 2003 Michael Hunold <michael@mihu.de>
+Copyright (c) 2010-2015 Steven Toth <stoth@kernellabs.com>
+Copyright (C) 2014 Max nibble <nibble.max@gmail.com>
+Copyright (C) 2010-2013 Bluecherry, LLC <http://www.bluecherrydvr.com>
+Copyright (C) 2012       ST Microelectronics
+Copyright (C) 2010       WindRiver Systems, Inc.
+Copyright (C) 1999-2002 Ralph  Metzler
+Copyright (C) 1998,1999 Christian Theiss <mistert@rz.fh-augsburg.de>
+Copyright (C) 2016 Bluecherry, LLC <maintainers@bluecherrydvr.com>
+Copyright (C) 2009  William M. Brack
+Copyright (C) 2014 Hans Verkuil <hverkuil@xs4all.nl>
+Copyright (C) 2015 VanguardiaSur - www.vanguardiasur.com.ar
+(c) 2011-12 liran <jli11@intersil.com> [Intersil|Techwell China]
+(c) 2002 Wolfgang Scherr <scherr@net4you.at>
+Copyright (C) 2013 - 2014 Texas Instruments, Inc.
+Copyright (c) 2011 Analog Devices Inc.
+Copyright (C) 2012 Vista Silicon S.L.
+Copyright (C) 2012-2014 Philipp Zabel, Pengutronix
+Copyright (C) 2008-2009 Texas Instruments Inc
+Copyright (c) 2011 - 2012 Samsung Electronics Co., Ltd.
+Copyright (C) 2013 Samsung Electronics Co., Ltd.
+Copyright 2006-11 Jonathan Corbet <corbet@lwn.net>
+Copyright (C) 2009 Hans Verkuil <hverkuil@xs4all.nl>
+Copyright (C) 2015 Amlogic, Inc. All rights reserved
+Copyright (C) 2017 BayLibre, SAS
+Copyright (c) 2016 MediaTek Inc.
+Copyright (C) 2005-2010 Texas Instruments.
+Copyright (C) 2004 MontaVista Software, Inc.
+Copyright (C) 2010 Texas Instruments.
+Copyright (C) 2009-2010 Nokia Corporation
+Copyright (C) 2016 Renesas Electronics Corp.
+Copyright (C) 2011-2013 Renesas Solutions Corp.
+Copyright (C) 2013 Cogent Embedded, Inc., <source@cogentembedded.com>
+Copyright (C) 2012 Sylwester Nawrocki <sylvester.nawrocki@gmail.com>
+Copyright (C) 2012 Tomasz Figa <tomasz.figa@gmail.com>
+Copyright (C) 2010 - 2012 Samsung Electronics Co., Ltd.
+Copyright (c) 2010, 2014 Samsung Electronics
+Copyright (c) 2011 Samsung Electronics Co., Ltd.
+Copyright (c) 2011-2014 Samsung Electronics Co., Ltd.
+Copyright (c) 2012 Samsung Electronics Co., Ltd.
+Copyright (C) 2006, Sascha Hauer, Pengutronix
+Copyright (C) 2008, Guennadi Liakhovetski <kernel@pengutronix.de>
+Copyright (c) 2015 Texas Instruments Inc.
+Copyright (C) 2015-2017 Helen Koike <helen.fornazier@gmail.com>
+Copyright (C) 2013-2014 Renesas Electronics Corporation
+Copyright (C) 2013-2015 Ideas on Board
+Copyright (C) 2013-2015 Xilinx, Inc.
+Copyright (c) 2009 Tobias Lorenz <tobias.lorenz@gmx.net>
+Copyright (c) 2012 Hans de Goede <hdegoede@redhat.com>
+Copyright (c) 2008 Instituto Nokia de Tecnologia - INdT
+Copyright (c) 2010 by Mauro Carvalho Chehab
+Copyright (C) 2014 Antti Palosaari <crope@iki.fi>
+Copyright (C) 2008 Pierrick Hascoet <pierrick.hascoet@abilis.com>
+Copyright (C) 2010 Devin Heitmueller <dheitmueller@kernellabs.com>
+Copyright (c) 2008 Steven Toth <stoth@linuxtv.org>
+(c) 2004 Jelle Foks <jelle@foks.us>
+(c) 2004 Gerd Knorr <kraxel@bytesex.org>
+(c) 2008 Steven Toth <stoth@linuxtv.org>
+Copyright (C) 2005 Patrick Boettcher (patrick.boettcher@posteo.de)
+Copyright (C) 2007 Antti Palosaari <crope@iki.fi>
+Copyright (C) 2006 Markus Rechberger <mrechberger@gmail.com>
+Copyright (C) 2007-2016 Mauro Carvalho Chehab
+Copyright (C) 2005-2006 Micronas USA Inc.
+Copyright (C) 2010-2012 Hans de Goede <hdegoede@redhat.com>
+Copyright (C) 2008      Janne Grunau (j@jannau.net)
+Copyright (C) 2013 Antti Palosaari <crope@iki.fi>
+(C) 1999-2004 Nemosoft Unv.
+(C) 2004-2006 Luc Saillard (luc@saillard.org)
+(C) 2011 Hans de Goede <hdegoede@redhat.com>
+Copyright (C) 2005 Mike Isely <isely@pobox.com>
+Copyright (C) 2004 Aurelien Alleaume <slts@free.fr>
+(C) 1999-2003 Nemosoft Unv.
+Copyright (C) 2007-2014 by Sensoray Company Inc.
+Copyright (c) 2006 by
+Copyright (C) 2005-2009, Uri Shkolnik, Anatoly Greenblat
+Copyright (C) 2012 Ezequiel Garcia
+Copyright (C) 2016 Marcel Hasler
+Copyright (C) 2010 R.M. Thomas
+Copyright 2006-7 Jonathan Corbet <corbet@lwn.net>
+(c) 2007-2008 Mauro Carvalho Chehab
+Copyright (c) 2002 Holger Waechtler <holger@convergence.de>
+Copyright (c) 2003 Felix Domke <tmbinc@elitedvb.net>
+Copyright (C) 2003-2004 Alex Woods <linux-dvb@giblets.org>
+Copyright (c) 2013 Federico Simoncelli
+Copyright (c) 1999-2005 Joerg Heckenbach <joerg@heckenbach-aw.de>
+Copyright (C) 2005-2010
+Copyright (C) 2004  Antoine Jacquet <royale@zerezo.com>
+Copyright (c) 2000-2008 LSI Corporation. All rights reserved.
+Copyright 2017 ATMEL
+Copyright © 2015 Broadcom Corporation
+Copyright (C) 2010 ST Microelectronics
+Copyright (C) 2007 ST Microelectronics
+(C) 2007 by Hans J. Koch <hjk@hansjkoch.de>
+(C) 2008, 2009 by Marc Kleine-Budde <kernel@pengutronix.de>
+Copyright (C) 2009, 2011 Wolfgang Grandegger <wg@grandegger.com>
+Copyright (C) 2014 Freescale Semiconductor, Inc.
+Copyright (C) 2004-2005 Andrey Volkov <avolkov@varma-el.com>,
+Copyright (C) 2008-2009 Wolfgang Grandegger <wg@grandegger.com>
+Copyright (C) 2009 Wolfram Sang, Pengutronix <w.sang@pengutronix.de>
+Copyright (C) 2007, 2011 Wolfgang Grandegger <wg@grandegger.com>
+Copyright (C) 2012 Stephane Grosjean <s.grosjean@peak-system.com>
+Copyright (C) 2016  PEAK System-Technik GmbH
+Copyright (C) 2013 Cogent Embedded, Inc. <source@cogentembedded.com>
+Copyright (C) 2013 Renesas Solutions Corp.
+Copyright (C) 2007 Wolfgang Grandegger <wg@grandegger.com>
+Copyright (C) 2008 Markus Plessing <plessing@ems-wuensche.com>
+Copyright (C) 2008 Sebastian Haas <haas@ems-wuensche.com>
+Copyright 2007 IBM
+Copyright (C) 2004-2009 EMS Dr. Thomas Wuensche
+Copyright (C) 2011-2013 Jonas Gorski <jogo@openwrt.org>
+Copyright (C) 2016 Florian Fainelli <f.fainelli@gmail.com>
+Copyright (C) 2017
+Copyright (c) 2008 Marvell Semiconductor
+Copyright (c) 2016 Andrew Lunn <andrew@lunn.ch>
+Copyright (c) 2016-2017 Savoir-faire Linux Inc.
+2005-2010 (c) Aeroflex Gaisler AB
+Copyright © 2005 Agere Systems Inc.
+Copyright (c) 2011 Mark Einon <mark.einon@gmail.com>
+Copyright 2012-2013 Stefan Roese <sr@denx.de>
+Copyright (C) 1997  Sten Wang
+Copyright (C) 2014 Altera Corporation. All rights reserved
+Copyright (C) 05/1998 Peter Maydell <pmaydell@chiark.greenend.org.uk>
+Copyright (C) 1998 Randy Gobbel.
+Copyright (C) 2004-2013 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2015 Mans Rullgard <mans@mansr.com>
+Copyright (C) 2005 Maxime Bizon <mbizon@freebox.fr>
+Copyright (C) 2002 David S. Miller (davem@redhat.com)
+Copyright (C) 2004 Pekka Pietikainen (pp@ee.oulu.fi)
+Copyright (C) 2004 Florian Schirmer (jolt@tuxbox.org)
+Copyright (C) 2006 Felix Fietkau (nbd@openwrt.org)
+Copyright (C) 2006 Broadcom Corporation.
+Copyright (C) 2007 Michael Buesch <m@bues.ch>
+Copyright (C) 2013 Hauke Mehrtens <hauke@hauke-m.de>
+Copyright (C) 2004-2006 Atmel Corporation
+Copyright 2010-2011 Calxeda, Inc.
+(C) Copyright 1997-1998 DAVICOM Semiconductor,Inc. All Rights Reserved.
+Copyright (c) 2001, 2002 by D-Link Corporation
+(C) Copyright 2009-2011 Faraday Technology
+(C) Copyright 2000-2005, Greg Ungerer (gerg@snapgear.com)
+(C) Copyright 2000-2001, Lineo (www.lineo.com)
+Copyright (c) 1997 Dan Malek (dmalek@jlc.net).
+Copyright (c) 2014 Linaro Ltd.
+Copyright (c) 2014 Hisilicon Limited.
+Copyright (C) IBM Corporation, 2003, 2010
+Copyright (C) 2002 Matthew Dharm <mdharm@momenco.com>
+Copyright (C) 2002 Rabeeh Khoury <rabeeh@galileo.co.il>
+Copyright (C) 2003 PMC-Sierra, Inc.,
+Copyright (C) 2003 Ralf Baechle <ralf@linux-mips.org>
+Copyright (C) 2004-2006 MontaVista Software, Inc.
+Copyright (C) 2004 Steven J. Hill <sjhill1@rockwellcollins.com>
+Copyright (C) 2007-2008 Marvell Semiconductor
+Copyright (C) 2013 Michael Stapelberg <michael@stapelberg.de>
+Copyright (C) 2009-2016 John Crispin <blogic@openwrt.org>
+Copyright (C) 2009-2016 Felix Fietkau <nbd@openwrt.org>
+Copyright (C) 2013-2016 Michael Lee <igvtee@gmail.com>
+Copyright (C) 2007 Eurek srl
+Copyright (C) 2013 Jonas Jensen
+(C) 2005 Finn Thain
+(C) 1996,1998 by Thomas Bogendoerfer (tsbogend@alpha.franken.de)
+(C) 1995 by Andreas Busse (andy@waldorf-gmbh.de)
+Copyright (c) 2008-2009 Nuvoton technology corporation.
+Copyright (C) 2003,4,5 Manfred Spraul
+Copyright (C) 2004 Andrew de Quincey (wol support)
+Copyright (C) 2004 Carl-Daniel Hailfinger (invalid MAC handling, insane
+Copyright (c) 2004,2005,2006,2007,2008,2009 NVIDIA Corporation
+Copyright (C) 2010 NXP Semiconductors
+Copyright (C) 2012 Roland Stigge <stigge@antcom.de>
+Copyright (c)  2003-2006 QLogic Corporation
+Copyright (c) 2011, 2012, Qualcomm Atheros Communications Inc.
+Copyright (c) 2014, I2SE GmbH
+Copyright (C) 2004 Sten Wang <sten.wang@rdc.com.tw>
+Copyright (C) 2007-2012 Florian Fainelli <f.fainelli@gmail.com>
+Copyright 2001-2004 Jeff Garzik <jgarzik@pobox.com>
+Copyright (C) 2014-2015 Renesas Electronics Corporation
+Copyright (C) 2015 Renesas Solutions Corp.
+Copyright (C) 2015-2016 Cogent Embedded, Inc. <source@cogentembedded.com>
+Copyright (c) 2014-2016 Jiri Pirko <jiri@mellanox.com>
+Copyright (c) 2014 Scott Feldman <sfeldma@gmail.com>
+Copyright (C) 1995-2000 Russell King
+Copyright (C) 1999, 2000, 01, 03, 06 Ralf Baechle
+Copyright (C) 1995, 1999, 2000, 2001 by Silicon Graphics, Inc.
+Copyright 2005-2011 Analog Devices Inc.
+Copyright 2008-2009 Analog Devices Inc.
+Copyright 2007-2009 Analog Devices Inc.
+Copyright 2004-2009 Analog Devices Inc.
+Copyright 2004-20010 Analog Devices Inc.
+Copyright 2004-2006 Analog Devices Inc.
+Copyright 2009 CJSC "NII STT"
+Copyright 2004-2007, Axis Communications AB
+Copyright 2001 MontaVista Software Inc.
+Copyright 2003-2011 NetLogic Microsystems, Inc. (NetLogic). All rights
+Copyright 2008 NXP Semiconductors
+Copyright 2001-2002 MontaVista Software Inc.
+Copyright(c) 1999-2000 Grant Erickson <grant@lcse.umn.edu>
+Copyright 2007 IBM Corporation
+Copyright 2008 IBM Corp.
+Copyright 2009  MontaVista Software, Inc.
+Copyright 2007 Freescale Semiconductor, Inc.
+Copyright 2014 Freescale Semiconductor Inc.
+Copyright 2008 Gerhard Pircher (gerhard_pircher@gmx.net)
+Copyright 2003 by Hans-Joerg Frieden and Thomas Frieden
+Copyright 2007, Michael Ellerman, IBM Corporation.
+Copyright 2007 Sony Corp.
+Copyright 2011 IBM Corporation.
+Copyright IBM Corp. 2010
+Copyright(C) 2005-2006, Red Hat, Inc., Ingo Molnar
+Copyright 2012 Tilera Corporation. All Rights Reserved.
+Copyright 2011 Tilera Corporation. All Rights Reserved.
+Copyright(c) 2014 Intel Corporation.
+Copyright(c) 2016 Intel Corporation.
+Copyright 2006 Andi Kleen, SUSE Labs.
+Copyright 2003 Andi Kleen, SuSE Labs.
+Copyright(c) 2013 Intel Corporation.
+Copyright(c) 2015 Bryan O'Donoghue <pure.logic@nexus-software.ie>
+Copyright(c) 2015 Intel Corporation.
+Copyright(C) 2012-2016 Canonical Ltd.
+Copyright(c) 2016, Analogix Semiconductor.
+Copyright(c) 2013, Google Inc.
+Copyright 2012 Red Hat <mjg@redhat.com>
+Copyright 2015 Freescale Semiconductor, Inc.
+Copyright 1999 Precision Insight, Inc., Cedar Park, Texas.
+Copyright 2000 VA Linux Systems, Inc., Sunnyvale, California.
+Copyright 2013 Matrox Graphics
+Copyright 2012 Red Hat Inc.
+Copyright 2013 Red Hat Inc.
+Copyright 2000 Precision Insight, Inc., Cedar Park, Texas.
+Copyright 2006-2007 Advanced Micro Devices, Inc.
+Copyright 2004  Felix Kuehling
+Copyright 2016 Noralf Trønnes
+Copyright 2011 Red Hat, Inc.
+Copyright 1998-2003 VIA Technologies, Inc. All Rights Reserved.
+Copyright 2001-2003 S3 Graphics, Inc. All Rights Reserved.
+Copyright 2017 Linaro Ltd.
+Copyright 2016 STMicroelectronics Inc.
+Copyright(c) 2015 - 2017 Intel Corporation.
+Copyright(c) 2017 Intel Corporation.
+Copyright 2009  by Karsten Keil <keil@isdn4linux.de>
+Copyright 2014 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
+Copyright 2008 Pierre Ossman
+Copyright 2014-2015 Cisco Systems, Inc. and/or its affiliates.
+Copyright 2015 www.starterkit.ru <info@starterkit.ru>
+Copyright 2006-11 One Laptop Per Child Association, Inc.
+Copyright 2016 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
+Copyright 2010-2014 Imagination Technologies Ltd.
+Copyright 2001, STMicrolectronics, Inc.
+Copyright 2016 Hans Verkuil <hverkuil@xs4all.nl
+Copyright 2007-2008 Jaime Velasco Juan <jsagarribay@gmail.com>
+Copyright 2006 One Laptop Per Child Association, Inc.  Written
+Copyright 2017 Free Electrons
+Copyright 2003 Rick Bronson
+Copyright 2001 Thomas Gleixner (gleixner@autronix.de)
+Copyright 2000 Steven J. Hill (sjhill@cotw.com)
+Richard Genoud (richard.genoud@gmail.com), Adeneo Copyright 2007
+Copyright 2006 ATMEL Rousset, Lacressonniere Nicolas
+Copyright 2012 ATMEL, Hong Xu
+Copyright 2013 ATMEL, Josh Wu (josh.wu@atmel.com)
+Copyright 2008-2011 Freescale Semiconductor, Inc.
+Copyright 2008 Embedded Alley Solutions, Inc.
+Copyright(C) Timesys Corporation 2016
+Copyright 2009 Christian Pellegrin EVOL S.r.l.
+Copyright 2007 Raymarine UK, Ltd. All Rights Reserved.
+Copyright 2006 Arcom Control Systems Ltd.
+Copyright 1994-2000 by Donald Becker.
+Copyright 1993 United States Government as represented by the
+Copyright 2013 Maxime Ripard <maxime.ripard@free-electrons.com>
+Copyright 1998-2002 by Jes Sorensen, <jes@trained-monkey.org>.
+Copyright(c) 2015 EZchip Technologies.
+Copyright 1993 United States Government as represented by the Director,
+Copyright(c) 1999 - 2006 Intel Corporation.
+Copyright 2008 Simtec Electronics
+Copyright(c) 2002-2010 Exar Corp.
+Copyright (C) 2001, 2002 David S. Miller (davem@redhat.com) [tg3.c]
+Copyright (C) 2000, 2001 David S. Miller (davem@redhat.com) [sungem.c]
+Copyright 2001 Manfred Spraul				    [natsemi.c]
+Copyright 1999-2001 by Donald Becker.			    [natsemi.c]
+Copyright 1998-2001 by Jes Sorensen, <jes@trained-monkey.org>. [acenic.c]
+Copyright 2005-2006 Fen Systems Ltd.
+Copyright 2006-2013 Solarflare Communications Inc.
+Copyright 2004-2010 Analog Devices Inc.
+(C) 2002 by gaoyonghong
+Copyright (c) 2003 K.M. Liu <kmliu@sis.com>
+Copyright (c) 2003, 2004 Jeff Garzik <jgarzik@pobox.com>
+Copyright (c) 2003, 2004, 2005 Francois Romieu <romieu@fr.zoreil.com>
+Written/copyright 1997-2001 by Donald Becker.
+Copyright (C) 2004 Sun Microsystems Inc.
+This driver uses the sungem driver (c) David Miller
+Copyright (c) 2017 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2007 Tehuti Networks Ltd. All rights reserved
+Copyright (C) 2006, 2007 Eugene Konev
+Copyright 2012 Tilera Corporation. All Rights Reserved.
+Copyright (C) 2007 Sony Computer Entertainment Inc.
+Copyright 2006, 2007 Sony Corporation
+(C) Copyright IBM Corp. 2005
+Copyright(c) 2006 Tundra Semiconductor Corporation.
+scott.wood@timesys.com  * Copyright (C) 2003 TimeSys Corporation
+Copyright (C) 2016 Akinobu Mita <akinobu.mita@gmail.com>
+Copyright (c) 1997,1998 Werner Koch (dd9jn)
+Copyright (C) 2007 Krzysztof Halasa <khc@pm.waw.pl>
+(C)Copyright 1998,1999 SysKonnect,
+Copyright (C) 2007-2008 Intel Corporation. All rights reserved.
+Copyright (c) 2003, Jouni Malinen <j@w1.fi>
+Copyright (c) 2004-2007, Michael Wu <flamingice@sourmilk.net>
+Some parts copyright (c) 2003 by David Young <dyoung@pobox.com>
+Copyright (c) 2008-2009 Atheros Communications Inc.
+Copyright (c) 2002 - 2003 Oliver Kurth
+Copyright (c) 2004 Joerg Albert <joerg.albert@gmx.de>
+Copyright (c) 2004 Nick Jones
+Copyright (c) 2004 Balint Seeber <n0_5p4m_p13453@hotmail.com>
+Copyright (c) 2007 Guido Guenther <agx@sigxcpu.org>
+Copyright (c) 2007 Kalle Valo <kalle.valo@iki.fi>
+Copyright (c) 2010 Sebastian Smolorz <sesmo@gmx.net>
+Some iw_handler code was taken from airo.c, (C) 1999 Benjamin Reed
+(C) 1999 Benjamin Reed.  All Rights Reserved.  Permission to use
+Copyright (C) 2008, 2009, 2010 Marvell Semiconductor Inc.
+Copyright (c) 2014 Redpine Signals Inc.
+Copyright (C) 2010-2011 Texas Instruments, Inc.
+Copyright (C) 1999 AbsoluteValue Systems, Inc.  All Rights Reserved.
+Copyright (C) 2016 Advanced Micro Devices, Inc. All Rights Reserved.
+Copyright (C) 2016 T-Platforms. All Rights Reserved.
+Copyright (C) 2016 T-Platforms All Rights Reserved.
+Copyright(c) 2012 Intel Corporation. All rights reserved.
+Copyright (C) 2015 EMC Corporation. All Rights Reserved.
+Copyright (C) 2017 Texas Instruments
+Copyright 2009 Intel Corporation.
+Copyright (C) 2016 NVIDIA Corporation
+Copyright IBM Corp. 2007
+Copyright IBM Corp. 2013
+Copyright IBM Corp. 2009, 2011
+Copyright IBM Corp. 2016
+Copyright IBM Corp. 2001, 2007
+Copyright IBM Corp. 2002, 2017
+Copyright IBM Corp. 2008
+Copyright (C) 2005 Adaptec, Inc.  All rights reserved.
+Copyright (C) 2005 Luben Tuikov <luben_tuikov@adaptec.com>
+Copyright (C) 2002 - 2005, Areca Technology Corporation All rights reserved.
+Copyright 2017 Broadcom. All Rights Reserved.
+Copyright (c) 2005-2014 Brocade Communications Systems, Inc.
+Copyright (c) 2014- QLogic Corporation.
+Copyright (c) 2008-2013 Broadcom Corporation
+Copyright (c) 2014-2016 QLogic Corporation
+Copyright (c) 2016-2017 Cavium Inc.
+Copyright (c) 2006 - 2013 Broadcom Corporation
+Copyright (c) 2014, QLogic Corporation
+Copyright (c) 2008-2012 Chelsio Communications, Inc. All rights reserved.
+Copyright (c) 2010-2015 Chelsio Communications, Inc.
+Copyright (C) 2003-2015 Chelsio Communications.  All rights reserved.
+Copyright (C) 2015 IBM Corporation
+Copyright (C) 2007-2010 Hannes Reinecke, SUSE Linux Products GmbH.
+Copyright (c) 2001-2013 ATTO Technology, Inc.
+Copyright(c) 2007 - 2009 Intel Corporation. All rights reserved.
+Copyright 2008 Cisco Systems, Inc.  All rights reserved.
+Copyright 2007 Nuova Systems, Inc.  All rights reserved.
+Copyright (c) 2015 Linaro Ltd.
+Copyright (c) 2015 Hisilicon Limited.
+Copyright (C) IBM Corporation, 2008
+Copyright (C) 2005-2011 FUJITA Tomonori <tomof@acm.org>
+Copyright (C) 2010 Nicholas A. Bellinger <nab@kernel.org>
+Copyright(c) 2008 - 2011 Intel Corporation. All rights reserved.
+Copyright(c) 2007 - 2008 Intel Corporation. All rights reserved.
+Copyright (C) 2006 IBM Corporation
+Copyright (c) 2003-2013  LSI Corporation
+Copyright (c) 2013-2014  Avago Technologies
+Copyright (C) 2012-2014  LSI Corporation
+Copyright (C) 2013-2014 Avago Technologies
+Copyright 2000-2015 Avago Technologies.  All rights reserved.
+11-18-14  02.00.36  Updated copyright information.
+Copyright 2007 Red Hat, Inc.
+Copyright 2008 Marvell. <kewei@marvell.com>
+Copyright 2009-2011 Marvell. <yuxiangl@marvell.com>
+Copyright (C) 2008 Panasas Inc.  All rights reserved.
+Copyright (c) 2008-2009 USI Co., Ltd.
+Copyright (c) 2016 Cavium Inc.
+Copyright (c)  2003-2014 QLogic Corporation
+Copyright (c)   2003-2013 QLogic Corporation
+Copyright (c) 2016-2017 Microsemi Corporation
+Copyright (c) 2016 PMC-Sierra, Inc.
+Copyright 2014 Cisco Systems, Inc.  All rights reserved.
+Copyright (C) 2015-2016 Synopsys, Inc. (www.synopsys.com)
+Copyright (C) 2005 - 2010  Paul Mundt
+Copyright (C) 2004 - 2008 Nokia Corporation
+Copyright (C) 2007 - 2009 Adrian McMenamin
+Copyright (C) 2001 - 2008 Paul Mundt
+Copyright (C) 2000 - 2001 YAEGASHI Takeshi
+Copyright (C) 2001 M. R. Brown
+Copyright 2012 Actions Semi Inc.
+Copyright (c) 2017 Andreas Färber
+Copyright (C) 2015 Atmel
+(C) 2015 Pengutronix, Alexander Aring <aar@pengutronix.de>
+Copyright (C) 2015, Broadcom Corporation
+Copyright (C) 2016 Freescale Semiconductor, Inc.
+Copyright 2008 - 2016 Freescale Semiconductor, Inc.
+Copyright (c) MontaVista Software, Inc. 2008.
+Copyright 2015-2017 Pengutronix, Lucas Stach <kernel@pengutronix.de>
+Copyright 2011-2013 Freescale Semiconductor, Inc.
+Copyright (C) 2011-2015 John Crispin <blogic@phrozen.org>
+Copyright (C) 2015 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+Copyright (C) 2017 Hauke Mehrtens <hauke@hauke-m.de>
+Copyright (c) 2015 Pengutronix, Sascha Hauer <kernel@pengutronix.de>
+Copyright (c) 2014-2017, The Linux Foundation. All rights reserved.
+Copyright (c) 2017, Linaro Ltd.
+Copyright (C) 2016 Cogent Embedded Inc.
+Copyright (c) 2016 Heiko Stuebner <heiko@sntech.de>
+Copyright (c) 2011-2014 Samsung Electronics Co., Ltd.
+Copyright (C) 2015 Maxime Ripard
+Copyright (C) 2014 NVIDIA CORPORATION.  All rights reserved.
+Copyright (c) 2013-2014, NVIDIA CORPORATION.  All rights reserved.
+Copyright (C) 2014 Texas Instruments Incorporated
+Copyright (C) ST-Ericsson SA 2010
+Copyright (C) 2014 Linaro Ltd.
+Copyright (C) 2017 ZTE Ltd.
+Copyright (C) 2008 Google, Inc.
+Copyright (C) 2011 Google, Inc.
+Copyright 2008 Google Inc.
+Copyright (C) 2012-2017 ARM Limited or its affiliates.
+Copyright (C) 2013 - 2014 Xilinx
+Copyright (C) 1998-2001 David A. Schleef <ds@schleef.org>
+Copyright (C) 1998 David A. Schleef <ds@schleef.org>
+Copyright (C) 1997-2000 David A. Schleef <ds@schleef.org>
+Copyright 2003 Digi International (www.digi.com)
+Copyright (C) 2010 Renesas Electronics Corporation
+Copyright 2014-2015 Freescale Semiconductor Inc.
+Copyright 2013-2016 Freescale Semiconductor Inc.
+Copyright 2014-2016 Freescale Semiconductor Inc.
+Copyright 2016 NXP
+Copyright (C) 2012 Peter Hurley <peter@hurleysoftware.com>
+Copyright (c) 2012 GCT Semiconductor, Inc. All rights reserved.
+Copyright (C) 2007 Google, Inc.
+Copyright (C) 2012 Intel, Inc.
+Copyright 2014-2015 Google Inc.
+Copyright 2014-2015 Linaro Ltd.
+Copyright 2015 Google Inc.
+Copyright 2015 Linaro Ltd.
+Copyright 2010 Analog Devices Inc.
+Copyright 2011-2015 Analog Devices Inc.
+Copyright 2010-2011 Analog Devices Inc.
+Copyright 2011 Analog Devices Inc.
+Copyright (c) 2012, TAOS Corporation.
+Copyright (c) 2010-2010 Analog Devices Inc.
+Copyright (c) 2001 SHIMIZU Takuya, All Rights Reserved.
+Copyright (c) 1999 Dag Brattli <dagb@cs.uit.no>
+Copyright (c) 1999-2003 Jean Tourrilhes <jt@hpl.hp.com>
+Copyright (C) Nokia Corporation
+Copyright (C) Nils Faerber <nils.faerber@kernelconcepts.de>
+Copyright (C) 2010-2013 Digital Devices GmbH
+Copyright (C) 2012 Texas Instruments Inc
+Copyright (c) 2014-2016 Mentor Graphics Inc.
+Copyright (c) 2000 Gerd Knorr <kraxel@goldbach.in-berlin.de>
+Copyright (C) 2011 Andy Walls <awalls@md.metrocast.net>
+Copyright (C) 2012, Texas Instruments
+Copyright (C) 2013-2015 Microchip Technology Germany II GmbH & Co. KG
+Copyright (C) 2015, Microchip Technology Germany II GmbH & Co. KG
+Copyright (C) 2015 Microchip Technology Germany II GmbH & Co. KG
+Copyright (C) 2013-2015, Microchip Technology Germany II GmbH & Co. KG
+Copyright (c) 2003-2013 Broadcom Corporation
+Copyright (c) 2009-2010 Micron Technology, Inc.
+Copyright (c) 2003-2012 Broadcom Corporation
+Copyright (c) 2009, NVIDIA Corporation.
+Copyright (c) 2003-2007 Cavium Networks
+Copyright (C) 2008 Cavium Networks
+Copyright © 2006-2007  Red Hat, Inc.
+Copyright © 2006-2007  Advanced Micro Devices, Inc.
+Copyright © 2009       VIA Technology, Inc.
+Copyright (c) 2010-2011  Andres Salomon <dilinger@queued.net>
+Copyright (C) 2016 Wolf-Entwicklungen
+Copyright(c) 2007 - 2012 Realtek Corporation. All rights reserved.
+Copyright (c) Realtek Semiconductor Corp. All rights reserved.
+Copyright(c) 2007 - 2011 Realtek Corporation. All rights reserved.
+Copyright(c) 2008 - 2010 Realtek Corporation. All rights reserved.
+Copyright (C) Andrea Merello 2004  <andrea.merello@gmail.com>
+Copyright(c) 2007 - 2010 Realtek Corporation. All rights reserved.
+Copyright(c) 2010 Larry Finger. All rights reserved.
+Copyright(c) 2009-2012  Realtek Corporation.
+Copyright(c) 2016  Realtek Corporation.
+Copyright(c) 2007 - 2016  Realtek Corporation.
+Copyright(c) 2009-2013 Realtek Semiconductor Corp. All rights reserved.
+Copyright (c) 2010 Werner Dittmann
+Copyright (c) 2007 by Silicon Motion, Inc. (SMI)
+Copyright 2015-2017 Google, Inc
+Copyright 2016-2017 Google, Inc
+Copyright (C) 2010 - 2013 UNISYS CORPORATION
+Copyright (C) 2010 - 2015 UNISYS CORPORATION
+Copyright (c) 2012 - 2015 UNISYS CORPORATION
+Copyright (C) 2006-2017 Oracle Corporation
+Copyright 2011 Broadcom Corporation.  All rights reserved.
+Copyright © 2013 Raspberry Pi (Trading) Ltd.
+Copyright (c) 1996, 2003 VIA Networking Technologies, Inc.
+(c) Copyright 2007-2013 Datera, Inc.
+Copyright (c) 2016 Chelsio Communications, Inc.
+© Copyright 2011-2013 Datera, Inc.
+Copyright (C) 2011  Chris Boot <bootc@bootc.net>
+Copyright (c) 2010 Cisco Systems, Inc.
+Copyright (c) 2014 Intel Corp
+Copyright (c) 2015, The Linux Foundation. All rights reserved.
+Copyright (C) 2014 Samsung Electronics
+Copyright (C) 2011 Samsung Electronics
+Copyright (C) 2003-2014 STMicroelectronics (R&D) Limited
+Copyright (c) 2014-2016, NVIDIA CORPORATION.  All rights reserved.
+Copyright (C) 2013 Texas Instruments Incorporated - http://www.ti.com
+Copyright (C) 2004 by Symmetric Systems Ltd (NZ)
+Copyright (C) 2006-2007 Jiri Kosina
+Copyright (C) 2007 David Sterba
+Copyright (C) 2016-2017 Linaro Ltd., Rob Herring <robh@kernel.org>
+Copyright (c) 2012-2015, The Linux Foundation. All rights reserved.
+Copyright (C) 2001 Russell King.
+Copyright (C) 2004 Freescale Semiconductor, Inc.
+2006 (c) MontaVista Software, Inc.
+Copyright (C) 2004 IBM Corporation. All rights reserved.
+Copyright (C) 2004 David Woodhouse, Duncan Sands, Roman Kagan
+Copyright (C) 2005 Duncan Sands, Roman Kagan (rkagan % mail ! ru)
+Copyright (C) 2007 Simon Arlott
+Copyright (C) 2009 Simon Arlott
+Copyright (C) 2008 Chipidea - MIPS Technologies, Inc. All rights reserved.
+Copyright (c) 2007-2009 Oliver Neukum
+(C) Copyright 2005 Greg Kroah-Hartman <gregkh@suse.de>
+(C) Copyright Linus Torvalds 1999
+(C) Copyright Johannes Erdfelt 1999-2001
+(C) Copyright Andreas Gal 1999
+(C) Copyright Gregory P. Smith 1999
+(C) Copyright Deti Fliegl 1999 (new USB architecture)
+(C) Copyright Randy Dunlap 2000
+(C) Copyright David Brownell 2000-2004
+(C) Copyright Yggdrasil Computing, Inc. 2000
+(C) Copyright Greg Kroah-Hartman 2002-2003
+Copyright (C) 2004-2013 Synopsys, Inc.
+Copyright (C) 2010-2011 Texas Instruments Incorporated - http://www.ti.com
+Copyright (C) 2009 Wind River Systems, Inc.
+Copyright (C) 2006-2008 David Brownell
+Copyright (C) 2008 by David Brownell
+Copyright (C) 2008 by Nokia Corporation
+Copyright (C) 2009 by Samsung Electronics
+Copyright (C) 2008 David Brownell
+Copyright (C) 2008 Nokia Corporation
+Copyright (C) 2007 AMD (http://www.amd.com)
+Copyright 2011-2015 Hauke Mehrtens <hauke@hauke-m.de>
+Copyright 2015 Felix Fietkau <nbd@openwrt.org>
+Copyright 2007 Michael Buesch <m@bues.ch>
+Copyright 1999 Roman Weissgaerber
+Copyright 2000-2002 David Brownell
+Copyright 1999 Linus Torvalds
+Copyright 1999 Gregory P. Smith
+Copyright 2005-2011 Broadcom Corporation
+Copyright (C) 2007 Cambridge Silicon Radio Ltd.
+Copyright 2014 Laurent Pinchart
+Copyright 2007 Sebastian Siewior
+Copyright (c) 2003 John Homppi (SCO, leave this notice here)
+Copyright (c) 2003 David Glance <davidgsf@sourceforge.net>
+Copyright (C) 2005 by Thomas Winischhofer, Vienna, Austria
+based on code Copyright (C) 1991, 1992  Linus Torvalds
+Copyright (C) 2016 MediaTek Inc.
+Copyright (c) 2010, by Texas Instruments
+Copyright (c) 2008-2009, MontaVista Software, Inc. <source@mvista.com>
+Copyright (C) 2011 Renesas Solutions Corp.
+Copyright (C) 2010 Johan Hovold <jhovold@gmail.com>
+(c) 2005 Daniel Drake <dsd@gentoo.org>
+Copyright (C) 2017, Intel Corporation
+Copyright (C) 2003-2008 Takahiro Hirofuchi
+Copyright (C) 2006 Intel Corporation
+Copyright (C) 2008 Cambridge Silicon Radio Ltd.
+Copyright (C) 2005-2006 Intel Corporation
+Copyright (C) 2012 Red Hat, Inc.  All rights reserved.
+Copyright 2010 Cisco Systems, Inc.  All rights reserved.
+Copyright (C) 2013 - Virtual Open Systems
+Copyright (C) 2009 Marvell International Ltd.
+Copyright (C) 2003 Georges Menie
+Copyright (C) 1998,1999 Kenneth Albanowski <kjahds@kjahds.com>,
+Copyright (C) 2002 James Simmons
+Copyright (C) 1997 Geert Uytterhoeven
+Copyright (C) 2004 Antonino Daplas <adaplas @pol.net>
+Copyright (C) 2005 Arcom Control Systems Ltd.
+Copyright (C) 2004 Advanced Micro Devices, Inc.
+Copyright (C) 2004 Antonino Daplas<adaplas@pol.net>
+Copyright (C) 2000 Imagination Technologies Ltd
+Copyright (C) 2002 STMicroelectronics
+(c) 2001-2002 Petr Vandrovec <vandrove@vc.cvut.cz>
+Portions Copyright (c) 2001 Matrox Graphics Inc.
+(C) 2011 DENX Software Engineering, Anatolij Gustschin <agust@denx.de>
+Copyright (C) 2012 Marvell Technology Group Ltd.
+|*       Copyright 1993-2003 NVIDIA, Corporation.  All rights reserved.      *|
+Copyright (C) 2004-2005 Nokia Corporation
+Copyright 1999-2000 Jeff Garzik
+Copyright 2004 Antonino A. Daplas <adaplas @pol.net>
+Copyright (C) 2001-2005 by Thomas Winischhofer, Vienna, Austria
+Copyright (c) Intel Corp. 2007.
+Copyright 1998-2008 VIA Technologies, Inc. All Rights Reserved.
+Copyright 2001-2008 S3 Graphics, Inc. All Rights Reserved.
+Copyright 2008 GE Intelligent Platforms Embedded Systems, Inc.
+Copyright 2004 Motorola Inc.
+Copyright (c) 2004-2005, Szabolcs Gyurko <szabolcs.gyurko@tlt.hu>
+Copyright (c) 2004-2007, Matt Reimer <mreimer@vpop.net>
+Copyright (c) 2017 Maciej S. Szmigiero <mail@maciej.szmigiero.name>
+Based on w1_therm.c copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
+Copyright (C) 2005 Rusty Russell, IBM Corporation
+Copyright (C) 2005 XenSource Ltd.
+Copyright (c) 2006 The Regents of the University of Michigan.
+Copyright (c) 2002
+Copyright (C) 2000,2001,2002 Stephen Rothwell
+Copyright (C) 2009 Eric Paris <Red Hat Inc>
+Copyright (C) 2004, 2005 Oracle.  All rights reserved.
+Copyright (C) 2003, 2004 Oracle.  All rights reserved.
+Copyright (C) 2000 Linus Torvalds.
+Copyright (C) 2016 Oracle.  All Rights Reserved.
+Copyright (C) 2009 Francisco Jerez.
+Copyright 2016 Noralf Trønnes
+Copyright (c) 2006-2009 VMware, Inc., Palo Alto, CA., USA
+Copyright (C) 2013 Texas Instruments, Inc.
+Copyright 2014 Oleksij Rempel <linux@rempel-privat.de>
+Copyright (C) 2013 Ludovic Desroches <ludovic.desroches@atmel.com>
+Copyright (C) 2015 by Sang Engineering
+Copyright (C) 2015 by Renesas Electronics Corporation
+Copyright (C) 2015, Samsung Electronics Co., Ltd.
+Copyright (c) 2015 MediaTek Inc.
+Copyright 2015 Cirrus Logic Inc.
+Copyright (C) 2016 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+Copyright (c) 2017 Microsemi Corporation
+Copyright (C) 2015 Google, Inc.
+Copyright (C) 2017 Impinj
+Copyright (C) 2014 Google, Inc
+Copyright (c) 2014, Steffen Trumtrar <s.trumtrar@pengutronix.de>
+Copyright (c) 2013, The Linux Foundation. All rights reserved.
+Copyright(c) 2013 - 2014 Intel Corporation.
+Copyright (c) 2002-2017 Volkswagen Group Electronic Research
+Copyright (C) 2003-2011 PEAK System-Technik GmbH
+Copyright (C) 2011-2013 Stephane Grosjean <s.grosjean@peak-system.com>
+Copyright (C) 2005 Ivan Kokshaysky
+Copyright (C) SAN People
+Copyright (C) 2012 Samsung Electronics
+Copyright (C) 2016 Endless Mobile, Inc.
+Copyright (C) 2016 Intel Corporation
+Based on socfpga-a10.c Copyright (C) 2015-2016 Altera Corporation
+Copyright (C) 2006 Freescale - John Rigby
+Copyright (C) 2006 Sylvain Munaut <tnt@246tNt.com>
+Copyright (C) 2010 Nokia Corporation. All rights reserved.
+Copyright (C) 2002 Intrinsyc Software Inc.
+Copyright 2013-2015 Analog Devices Inc.
+Copyright (c) 2014, Intel Corporation.
+Copyright 2012 Analog Devices Inc.
+Copyright (C) 2014, Samsung Electronics Co. Ltd. All Rights Reserved.
+Copyright (c) 2011 Christian Strobel <christian.strobel@iis.fraunhofer.de>
+Copyright (c) 2011 Manuel Stahl <manuel.stahl@iis.fraunhofer.de>
+Copyright (c) 2012 Thorsten Nowak <thorsten.nowak@iis.fraunhofer.de>
+Copyright (C) STMicroelectronics 2017
+Copyright 2009-2011 Analog Devices Inc.
+Copyright (C) 2016 ARM Limited, All Rights Reserved.
+Copyright (C) ARM Limited
+Copyright (C) 2016 Broadcom
+Copyright (C) 2012 Marvell International Ltd.
+Copyright ST-Ericsson 2012.
+Copyright 2012 Wolfson Microelectronics plc
+Copyright(c) 2011 Dialog Semiconductor Ltd.
+Copyright(c) 2012 Dialog Semiconductor Ltd.
+Copyright (C) 2015-2017  Dialog Semiconductor
+Copyright 2012 Dialog Semiconductor Ltd.
+Copyright (c) 2014 Dialog Semiconductor
+Copyright (c) 2016 Chen Zhong <chen.zhong@mediatek.com>
+Copyright (c) 2014 MediaTek Inc.
+(C) 2006-2008 by Openmoko, Inc.
+copyright (c) 2011 Samsung Electronics Co., Ltd
+Copyright (C) 2014 Atmel Corporation.
+Copyright 2009 Wolfson Microelectronics PLC.
+Copyright 2007, 2008 Wolfson Microelectronics PLC
+Copyright (c) 2006 Cisco Systems, Inc.  All rights reserved.
+Copyright (c) 2013-2015, Mellanox Technologies. All rights reserved.
+Copyright © 2005 Samsung Electronics
+Copyright © 2000-2005
+Copyright (C) 2017 Axentia Technologies AB
+Copyright (C) 2000-2002 Joakim Axelsson <gozem@linux.nu>
+Copyright (C) 2003-2013 Jozsef Kadlecsik <kadlec@blackhole.kfki.hu>
+Copyright (C) 2009 picoChip Designs Ltd, Jamie Iles
+Copyright (c) 2016, NVIDIA CORPORATION.  All rights reserved.
+Copyright (C) 2012 ST-Ericsson SA
+Copyright (C) 2003, Intel Corporation
+Copyright (C) 2008, Sascha Hauer <s.hauer@pengutronix.de>
+Copyright (C) 2010, Baruch Siach <baruch@tkos.co.il>
+Copyright (C) ST-Ericsson 2013
+Copyright (c) 2015-2016  QLogic Corporation
+Copyright 2003 H. Peter Anvin - All Rights Reserved
+Copyright (C) 1998, 1999, 2003 Ralf Baechle
+Copyright (c) 2014 Samsung Electronics Co., Ltd.
+Copyright (C) 2005-2007 Intel Corporation
+Copyright 2012 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
+Copyright (C) 2005 by Latchesar Ionkov <lucho@ionkov.net>
+Copyright (C) 2004 by Eric Van Hensbergen <ericvh@gmail.com>
+Copyright (C) 2002 by Ron Minnich <rminnich@lanl.gov>
+Copyright (C) ST-Ericsson AB 2010
+Copyright 2006 IBM Corporation
+Copyright (c) 2013, Intel Corporation.
+Copyright (C) 2008 Nokia Corporation.
+(C) Copyright 2007 Hewlett-Packard Development Company, L.P.
+Copyright (c) 2015 Jiri Pirko <jiri@resnulli.us>
+Copyright (C) 2010 Atmel Corporation
+Copyright © 2015 Broadcom
+Copyright © 2014 NVIDIA Corporation
+Copyright © 2015 Broadcom Corporation
+Copyright (C) 2006. Freescale Semiconductor, Inc. All rights reserved.
+Copyright 2016 Pengutronix, <kernel@pengutronix.de>
+Copyright (c) 2015-2016 MediaTek Inc.
+Copyright (c) 2016, Mellanox Technologies. All rights reserved.
+Copyright (c) 2016, Fuzhou Rockchip Electronics Co., Ltd
+Copyright (C) 2015, Dmitry Eremin-Solenikov
+Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.
+Copyright 2000 Precision Insight, Inc., Cedar Park, Texas.
+Copyright 2000 VA Linux Systems, Inc., Fremont, California.
+Copyright 2002 Tungsten Graphics, Inc., Cedar Park, Texas.
+Copyright 2014 Advanced Micro Devices, Inc.
+Copyright (c) 2005 Palmsource, Inc.
+Copyright (c) 2002-2007 Volkswagen Group Electronic Research
+Copyright (C) 2000 Ralph  Metzler <ralph@convergence.de>
+(C) Copyright IBM Corp. 2013
+Copyright (C) 2008,2009,2010 Nokia Corporation. All rights reserved.
+Copyright (c) 2008-2011 Jonathan Cameron
+Copyright 1997 by Carsten Paeth <calle@calle.de>
+Copyright (c) 2012 Red Hat, Inc.
+Copyright (C) 1996-98 Ingo Molnar, Gadi Oxman
+Copyright (C) 2006 SWAPP
+Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+Copyright (C) 2006 Thumtronics Pty Ltd.
+Copyright 2014 IBM Corp.
+Copyright (c) 2016 - 2017, Broadcom. All rights reserved.  The term
+Copyright(c) 2015 Intel Corporation.
+Copyright(c) 2007 Intel Corporation. All rights reserved.
+Copyright (c) 1998-1999 by Frank van de Pol <fvdpol@coil.demon.nl>
+(c) 1998-1999 by Jaroslav Kysela <perex@perex.cz>
+Copyright (c) 2003-2005, K A Fraser
+Copyright (c) 2006, Ian Campbell
+Copyright (c) 2016, Citrix Systems Inc
+Copyright (C) 2017 Stefano Stabellini <stefano@aporeto.com>
+Copyright (c) 1999-2004 Silicon Graphics, Inc.  All Rights Reserved.
+Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved.
+Copyright 2002-2007 H. Peter Anvin - All Rights Reserved
+Copyright (c) 2007   The University of Aberdeen, Scotland, UK
+Copyright (c) 2005-7 The University of Waikato, Hamilton, New Zealand.
+Copyright (c) 2005-7 Ian McDonald <ian.mcdonald@jandi.co.nz>
+Copyright (c) 2005 Arnaldo Carvalho de Melo <acme@conectiva.com.br>
+Copyright (c) 2013 Patrick McHardy <kaber@trash.net>
+Copyright (c) 2011 Patrick McHardy <kaber@trash.net>
+Copyright (C) 2011 Texas Instruments, Inc.
+Copyright (C) 2014 Marvell International Ltd.
+Copyright (c) 2015 Oracle.  All rights reserved.
+Copyright (C) 2005,2006,2007,2008 IBM Corporation
+Copyright (C) 2005 Red Hat, Inc., James Morris <jmorris@redhat.com>
+Copyright (C) 2006 Trusted Computer Solutions, Inc. <dgoeddel@trustedcs.com>
+Copyright (C) 2006 IBM Corporation, Timothy R. Chavez <tinytim@us.ibm.com>
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+Copyright 2006-2008 Johannes Berg <johannes@sipsolutions.net>
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+Copyright (c) 2014 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+Copyright (c) 2014-2015 Takashi Sakamoto
+Copyright (C) 2012 Robin Gareus <robin@gareus.org>
+Copyright (C) 2012 Damien Zammit <damien@zamaudio.com>
+Copyright (c) 2015-2017 Takashi Sakamoto
+Copyright (c) 2009-2010 Clemens Ladisch
+Copyright (c) 2013-2014 Takashi Sakamoto
+Copyright (c) 2017 Takashi Sakamoto
+Copyright (c) 2014 Takashi Sakamoto
+Copyright (c) 2015 Takashi Sakamoto
+Copyright (C) 2007,2010  Rene Herman
+Copyright (C) 2004-2005 Martin Langer <martin-langer@gmx.de>
+Copyright (C) 2009 Krzysztof Helt <krzysztof.h1@wp.pl>
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+Copyright (C) 2008 Cedric Bregardis <cedric.bregardis@free.fr> and
+Copyright 10/16/2005 Tilman Kranz <tilde@tk-sls.de>
+mpu401: Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+emu10k1x: Copyright (c) by Francisco Moraes <fmoraes@nc.rr.com>
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>,
+Copyright (C) Jaya Kumar
+Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+Copyright (c) by James Courtier-Dutton <James@superbug.demon.co.uk>
+Copyright (c) 2011, Creative Technology Ltd.
+Copyright (c) 2009 Takashi Iwai <tiwai@suse.de>
+Copyright (c) 2008, 2009 Tim Blechmann <tim@klingt.org>
+Copyright (c) 2004 by Digigram <alsa@digigram.com>
+Copyright (C) 2003 Adrian Sun (asun@darksunrising.com)
+Copyright (c) 2004, 2005 Jeroen Vreeken (pe1rxq@amsat.org)
+Copyright (C) 2003-2005 Dave Boutcher (boutcher@us.ibm.com) IBM Corp.
+Copyright (c) 2003-2010 Cavium Networks (support@cavium.com). All rights
+Copyright (C) 2003 Al Borchers (alborchers@steinerpoint.com)
+Copyright (c) 2001 Greg Kroah-Hartman (greg@kroah.com)
+Copyright (C) 2006 Paolo Abeni (paolo.abeni@email.it)
+Copyright (C) 2006,2007 Pete Zaitcev (zaitcev@redhat.com)
+Copyright (C) 2006 Manuel Francisco Naranjo (naranjo.manuel@gmail.com)
