@@ -1,0 +1,11 @@
+
+[dev]
+pytest
+pytest-cov
+requests
+mypy
+black
+pre-commit
+mkdocs
+mkdocs-material
+mkdocstrings[python]
