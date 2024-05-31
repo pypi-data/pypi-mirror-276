@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: attpc_engine
+Version: 0.1.2
+Summary: AT-TPC Monte-Carlo simulation engine
+Author-Email: Gordon McCann <gordonmccann215@gmail.com>, Zach Serikow <zachserikow@gmail.com>
+License: GPL-3.0
+Requires-Python: <3.13,>=3.10
+Requires-Dist: spyral-utils>=1.0.0
+Requires-Dist: h5py>=3.11.0
+Requires-Dist: numba>=0.59.1
+Requires-Dist: tqdm>=4.66.4
+Description-Content-Type: text/markdown
+
+# attpc_engine
+
+AT-TPC Monte Carlo simulation engine
