@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xphonebr/__init__.py
+xphonebr.egg-info/PKG-INFO
+xphonebr.egg-info/SOURCES.txt
+xphonebr.egg-info/dependency_links.txt
+xphonebr.egg-info/requires.txt
+xphonebr.egg-info/top_level.txt
+xphonebr/Util/__init__.py
+xphonebr/Util/norm.py
