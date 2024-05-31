@@ -1,0 +1,15 @@
+npeccv6/__init__.py,sha256=yw6NS1T54WFpGNroPDVLlY1e0djm49wKKL1uf9t-Huw,252
+npeccv6/data.py,sha256=V76Oxv2EpWVrndZ13h7vEutV0N_i-2rvmvyL9anBW3I,25999
+npeccv6/main_api.py,sha256=RH5BNWZR5wwCdJDsG9YxCNSoJsftVMUw-ZI0qf8txZc,236
+npeccv6/model.py,sha256=rzw3ECDgZeBZSwabd64k593dAHop48ML7gHobwY9qAE,15132
+npeccv6/model_func.py,sha256=IOmjctElHiRw5mnjpdXF2B8rlA3jDJArp9CNXQMBz_k,16955
+npeccv6/postprocessing.py,sha256=NV_hYweJ-3Cy8sqATfkiI2LCvtXLgG7Lzo-jnIhTm5Q,13699
+npeccv6/predict.py,sha256=kg4vlCE7XWA1oFTYnc4p1WhYUYIO5HS0KFVWq9EOFRU,10511
+npeccv6/test_landmark_detection.ipynb,sha256=wW_azd9u4SzRH8HJ6PWaQ8SJafmNt0cyz0hi25Z6XlM,138369
+npeccv6/train.py,sha256=4ADh5E8VTBHeeByqH2IiR2C6Q1svOk_7roOcuIUrxFM,2829
+npeccv6/utils.py,sha256=5855t6xvth1CCKFYQkfG26H4lslwETCSeM9CPUxYBu8,7515
+npeccv6-0.0.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npeccv6-0.0.5.dist-info/METADATA,sha256=9LXZ1UGjvGMacng3FzvM-Nqid_PE9CJmNpaX-jlNOpE,1472
+npeccv6-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+npeccv6-0.0.5.dist-info/entry_points.txt,sha256=jCJorCNvBuAjckI7nugdN35TH_F5YF3YMlSJNPcR470,126
+npeccv6-0.0.5.dist-info/RECORD,,
