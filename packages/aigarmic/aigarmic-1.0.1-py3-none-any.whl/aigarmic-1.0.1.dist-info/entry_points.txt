@@ -1,0 +1,8 @@
+[console_scripts]
+AIgarMIC=aigarmic.main:main
+clean_up_annotations=aigarmic.clean_up_annotations:main
+manual_annotator=aigarmic.manual_annotator:main
+model_performance=aigarmic.model_performance:main
+rename_images=aigarmic.rename_images:main
+train_modular=aigarmic.train_modular:main
+
