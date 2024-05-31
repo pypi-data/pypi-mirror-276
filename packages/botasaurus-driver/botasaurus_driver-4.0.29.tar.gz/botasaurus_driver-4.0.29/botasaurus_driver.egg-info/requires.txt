@@ -1,0 +1,5 @@
+deprecated
+psutil
+pyvirtualdisplay
+botasaurus-proxy-authentication
+websocket-client>=1.8.0
