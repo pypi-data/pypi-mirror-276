@@ -1,0 +1,6 @@
+dagster==1.7.8
+dagster-pipes==1.7.8
+dagster-pyspark==0.23.8
+databricks-cli~=0.17
+databricks_api
+databricks-sdk<=0.17.0
