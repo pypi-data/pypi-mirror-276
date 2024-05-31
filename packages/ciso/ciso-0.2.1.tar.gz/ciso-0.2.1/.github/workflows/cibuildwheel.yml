@@ -1,0 +1,88 @@
+name: Wheels
+
+on:
+  pull_request:
+
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build_bdist:
+    name: "Build ${{ matrix.os }} (${{ matrix.arch }}) wheels"
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ["ubuntu-22.04", "windows-2022", "macos-14"]
+        arch: ["x86_64", "arm64", "AMD64"]
+        exclude:
+        - os: ubuntu-22.04
+          arch: arm64
+        - os: ubuntu-22.04
+          arch: AMD64
+        - os: windows-2022
+          arch: arm64
+        - os: windows-2022
+          arch: x86_64
+        - os: macos-14
+          arch: AMD64
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: "Building ${{ matrix.os }} (${{ matrix.arch }}) wheels"
+      uses: pypa/cibuildwheel@v2.18.1
+      env:
+        # Skips pypy and musllinux for now.
+        CIBW_SKIP: "pp* cp36-* cp37-* *-musllinux*"
+        CIBW_ARCHS: ${{ matrix.arch }}
+        CIBW_BUILD_FRONTEND: build
+        CIBW_MANYLINUX_X86_64_IMAGE: manylinux2014
+        CIBW_TEST_REQUIRES: pytest
+        CIBW_TEST_COMMAND: >
+          python -c "import ciso; print(f'ciso v{ciso.__version__}')" &&
+          python -m pytest --pyargs ciso
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: pypi-artifacts-${{ matrix.os }}-${{ matrix.arch }}
+        path: ${{ github.workspace }}/wheelhouse/*.whl
+
+
+  show-artifacts:
+    needs: [build_bdist]
+    name: "Show artifacts"
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        pattern: pypi-artifacts*
+        path: ${{ github.workspace }}/dist
+        merge-multiple: true
+
+    - shell: bash
+      run: |
+        ls -l ${{ github.workspace }}/dist
+
+
+  publish-artifacts-pypi:
+    needs: [build_bdist]
+    name: "Publish to PyPI"
+    runs-on: ubuntu-22.04
+    # upload to PyPI for every tag starting with 'v'
+    if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags/v')
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        pattern: pypi-artifacts*
+        path: ${{ github.workspace }}/dist
+        merge-multiple: true
+
+    - uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: __token__
+        password: ${{ secrets.PYPI_PASSWORD }}
+        print_hash: true
