@@ -1,0 +1,26 @@
+[project]
+name = "pyleetup"
+version = "0.0.1"
+description = "A small CLI tool which allows users to solve leetcode problems in their favorite text-editor!"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "html2text",
+    "requests",
+    "rich",
+]
+
+[project.scripts]
+leetup = "pyleetup.main"
+
+[project.urls]
+Homepage = "https://github.com/shiina4119/pyleetup"
+Issues = "https://github.com/shiina4119/pyleetup/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

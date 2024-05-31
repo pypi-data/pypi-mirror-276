@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: pyleetup
+Version: 0.0.1
+Summary: A small CLI tool which allows users to solve leetcode problems in their favorite text-editor!
+Project-URL: Homepage, https://github.com/shiina4119/pyleetup
+Project-URL: Issues, https://github.com/shiina4119/pyleetup/issues
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: html2text
+Requires-Dist: requests
+Requires-Dist: rich
