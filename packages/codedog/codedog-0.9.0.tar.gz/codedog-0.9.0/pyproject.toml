@@ -1,0 +1,83 @@
+[tool.poetry]
+name = "codedog"
+version = "0.9.0"
+license = "MIT"
+readme = "README.md"
+authors = ["Arcadia <arcadia822@gmail.com>", "Linpp "]
+description = "Codedog reviews your pull request using llm."
+repository = "https://www.github.com/codedog-ai/codedog"
+homepage = "https://www.codedog.ai"
+keywords = ["code review", "langchain", "llm"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/codedog-ai/codedog/issues"
+"Discord" = "https://discord.gg/8TfqpFC4"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+langchain = ">=0.0.247,<0.0.355"
+openai = ">=0.27.8,<1.31.0"
+pydantic = ">=1.10.7,<3.0.0"
+python-gitlab = ">=3.14,<5.0"
+pygithub = ">=1.58.2,<3.0.0"
+unidiff = "^0.7.5"
+
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = ">=23.3,<25.0"
+flake8 = ">=6,<8"
+isort = "^5.12.0"
+python-semantic-release = "^8.0.5"
+langchain-visualizer = ">=0.0.28,<0.0.31"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest-asyncio = ">=0.20.3,<0.22.0"
+pytest-cov = ">=4,<6"
+
+[tool.poetry.group.http]
+optional = true
+
+[tool.poetry.group.http.dependencies]
+fastapi = ">=0.100.1,<0.112.0"
+uvicorn = ">=0.23.1,<0.30.0"
+
+[tool.poetry.group.doc]
+optional = true
+
+[tool.poetry.group.doc.dependencies]
+pdoc = "^14.0.0"
+
+[tool.poetry.scripts]
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "default"
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "supplemental"
+
+[tool.semantic_release]
+branch = "master"
+build_command = "poetry build"
+commit_message = 'chore(release): release version v{version}'
+version_variables = ["codedog/version.py:VERSION"]
+version_toml = ["pyproject.toml:tool.poetry.version"]
+
+[tool.semantic_release.remote]
+ignore_token_for_push = true
+
+[tool.semantic_release.publish]
+upload_to_vcs_release = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
