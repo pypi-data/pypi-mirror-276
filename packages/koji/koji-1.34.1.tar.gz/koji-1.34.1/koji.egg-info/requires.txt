@@ -1,0 +1,5 @@
+defusedxml
+python-dateutil
+requests
+requests-gssapi
+six
