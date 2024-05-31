@@ -1,0 +1,8 @@
+chatgpt_klient/__init__.py,sha256=ul-E-8W9tnyDIlW3IZEzedaKea6k9zqqoeGeb33IpWc,67
+chatgpt_klient/client.py,sha256=O0EwsMlhFBpFRkjtDBsty04ATfd8HRAo7zh2hGzVQk8,17199
+chatgpt_klient/consts.py,sha256=tqdnGEMkbQHHD2oEKowBcNjM7RyPxVun5fGQRUKnn8A,2377
+chatgpt_klient/exceptions.py,sha256=x7Jgom2tuzS-4at5BePelXHIktT_ABzPEGXfBOJi5MA,140
+chatgpt_klient-0.7.3.dist-info/METADATA,sha256=LePe5OeCMAK7qUZNlwvPsjI3n0m0ANYEpDHFTkrBfnE,297
+chatgpt_klient-0.7.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chatgpt_klient-0.7.3.dist-info/top_level.txt,sha256=9jykLYCNVqIfiZVfNFjfGTDtDJjEmzBICawgkT2C6nY,15
+chatgpt_klient-0.7.3.dist-info/RECORD,,
