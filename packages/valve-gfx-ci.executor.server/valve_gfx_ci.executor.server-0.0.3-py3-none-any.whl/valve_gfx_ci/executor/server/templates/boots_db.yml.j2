@@ -1,0 +1,104 @@
+fastboot:
+  hdk_8650:
+    match:
+      variables:
+        product: pineapple
+    defaults:
+      kernel:
+        url: https://fs.mupuf.org/hdk8650/linux-6.8-hdk8650.gz
+        cmdline:
+          defaults:
+            - pd_ignore_unused clk_ignore_unused
+            - nvme_core.default_ps_max_latency_us=0      # Disable NVME power management
+            - g_cdc.dev_addr={{ machine.mac_address }}
+      initramfs:
+        url: https://fs.mupuf.org/hdk8650/initramfs.linux_arm64.cpio.xz
+      dtb:
+        url: https://fs.mupuf.org/hdk8650/sm8650-hdk.dtb
+    overrides:
+      kernel:
+
+# NOTE: Let's extend this file so that we could remove the hardcoded logic from boots.py. Here is an example of how this may look
+# dhcp:
+#   bios:
+#     match:
+#       firmware: BIOS
+#     defaults:
+#       dhcp:
+#         target:
+#           url: 'https://downloads.gfx-ci.steamos.cloud/ipxe-dut-client/2024-01-30_20-41-29-mupuf-i386-undionly.kpxe'
+#
+#   uefi:
+#     match:
+#       firmware: UEFI
+#     defaults:
+#       dhcp:
+#         target:
+#           url: 'https://downloads.gfx-ci.steamos.cloud/ipxe-dut-client/2024-01-30_20-41-29-mupuf-{ request.architecture.to_ipxe_buildarch }-snponly.efi'
+#
+#   uboot:
+#     match:
+#       firmware: UBOOT
+#     defaults:
+#       storage:
+#         tftp:
+#           - path: /boot/kernel
+#             url: {{ job.deployment.kernel.url }}
+#           - path: /boot/initrd
+#             url: {{ job.deployment.initrd.url }}
+#           - path: /boot/fdt
+#             url: {{ job.deployment.dtb.url }}
+#       dhcp:
+#         target:
+#           data: >
+#             echo Loading
+#             setenv bootargs {{ job.deployment.kernel.cmdline }}
+#             tftp ${{kernel_addr_r}} /boot/kernel
+#
+#             {% if job.deployment.dtb %}
+#             tftp ${{fdt_addr}} /boot/fdt
+#             {% else %}
+#                 setenv fdt_addr ${{fdtcontroladdr}}
+#             {% endif %}
+#
+#             tftp ${{ramdisk_addr_r}} /boot/initrd
+#             setenv ramdisk_size ${{filesize}}
+#             if test -z "${{kernel_comp_addr_r}}"
+#             then
+#                 setexpr kernel_comp_addr_r ${{ramdisk_addr_r}} + ${{ramdisk_size}}
+#                 setenv kernel_comp_size 0x4000000 # hope for the best
+#             fi
+#
+#             echo Booting!
+#             booti ${{kernel_addr_r}} ${{ramdisk_addr_r}}:${{ramdisk_size}} ${{fdt_addr}}
+#             bootz ${{kernel_addr_r}} ${{ramdisk_addr_r}}:${{ramdisk_size}} ${{fdt_addr}}
+#
+#   ipxe:
+#     match:
+#       user_class: IPXE
+#     defaults:
+#       storage:
+#         http:
+#           - path: /boot/kernel
+#             url: {{ job.deployment.kernel.url }}
+#           - path: /boot/initrd
+#             url: {{ job.deployment.initrd.url }}
+#      dhcp:
+#        target:
+#          data: >
+#            #!ipxe
+#
+#            set semicolon:hex 3b
+#            set ampersand:hex 26
+#            set pipe:hex 7C
+#
+#            echo
+#
+#            echo Downloading the kernel
+#            kernel /boot/kernel {% if dhcp.firmware == "UEFI" %}initrd=initrd{% endif %} {{ job.deployment.kernel.cmdline }}
+#
+#            echo Downloading the initrd
+#            initrd --name initrd /boot/initrd
+#
+#            echo Booting!
+#            boot
