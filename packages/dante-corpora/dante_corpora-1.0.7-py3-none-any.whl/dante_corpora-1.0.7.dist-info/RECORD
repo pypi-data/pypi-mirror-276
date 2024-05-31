@@ -1,0 +1,11 @@
+dante/__init__.py,sha256=4tCFdhuJ6Oih1y9-dkHdnucJEyuDLS5mC7PLgaNSVIU,24
+dante/corpora.py,sha256=8o8pF4Bfy7GKSQAeCIubl7_zVo2EWOM0yI-y2_IvX8M,2450
+dante/danteshots.py,sha256=FIdU3mAt09fWKd63OCKK81AIuTwUnd22q7W8yCUZFzQ,219
+dante/dantestocks.py,sha256=pLCE5DsnG6AQ3jzktgFmt8cI9ZG8BMJEH4Y7_Np6ttw,220
+dante/data/danteshots.csv,sha256=oebLQWsgas8-omJJ_fXdhCoPbnOTXKdf6tATDbiBaLE,1836029
+dante/data/dantestocks.csv,sha256=v7H4Pb_dnCMkLlipUXU7S1AcNF8GiS59Z4ascekiK_g,770632
+dante_corpora-1.0.7.dist-info/LICENSE,sha256=M5pcBZESFf2u2kLLSdVgySmpWB4dtSC6_KI3Esm0a8k,1091
+dante_corpora-1.0.7.dist-info/METADATA,sha256=4sMwC3E_8HyB0yJpN_boSo3QqHGEoQxcInrYinpYX2o,3054
+dante_corpora-1.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dante_corpora-1.0.7.dist-info/top_level.txt,sha256=icTlgNQtvqZpzu31fHvWr5YQcsDkirudbOkK4B-2P_U,6
+dante_corpora-1.0.7.dist-info/RECORD,,
