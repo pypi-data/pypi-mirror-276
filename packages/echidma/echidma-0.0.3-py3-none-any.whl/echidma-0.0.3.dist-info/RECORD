@@ -1,0 +1,13 @@
+echidma/__init__.py,sha256=HO6tL9nACcRiWC_XEybb2zNUCsfFJKKyilZ_7tHpKMU,121
+echidma/indexer_base.py,sha256=9v2ZIlgSoeWbzVb4jd8rbrfqqKNy2N89SKzRoSUh6pQ,2314
+echidma/indexer_h5.py,sha256=Of4uyfFLoV4BgBOwAEoGnvvOvrbtY8unurRT_wXCSiM,735
+echidma/indexer_memmap.py,sha256=zL89MBW61gpaELghv6feiN1dbsXXHt7VUv_9fftfGhU,1663
+echidma/caching/__init__.py,sha256=4EX0PjZKLH-y_kHkjePnpRGS2pnZ6Pc1Dl2Ug3F26Vs,35
+echidma/caching/chunk_cache.py,sha256=pR8pabBFH1hKa0b4G_mbyzL4CXg7MNjatkQ63Lr4F9k,461
+echidma/config_management/__init__.py,sha256=H5XhtAg6QOFo5mvLPArZIHi3p9-dvgMHGnuQp3KSuuk,41
+echidma/config_management/config_manager.py,sha256=jI94-UTu6Y6OSMqdkPugPnoXatUDUZtGH5K7v3Ar5Fs,4341
+echidma-0.0.3.dist-info/LICENSE,sha256=dV2nP6YMmLlchMdaEbB5d1lnSs3ksME5-8GRsp7kF4s,1071
+echidma-0.0.3.dist-info/METADATA,sha256=K82cl7xvsCliFbiqQyRtAJsOnwN5oCWB9FMPGMZShdw,581
+echidma-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+echidma-0.0.3.dist-info/top_level.txt,sha256=QNmkRti20bJmtoNNXOGYuomI9awRIpphN9YL4qIt8TM,8
+echidma-0.0.3.dist-info/RECORD,,
