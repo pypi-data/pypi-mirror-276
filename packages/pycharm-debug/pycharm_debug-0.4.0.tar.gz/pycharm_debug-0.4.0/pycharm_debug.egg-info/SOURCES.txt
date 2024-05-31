@@ -1,0 +1,8 @@
+README.md
+pycharm_debug.py
+setup.cfg
+setup.py
+pycharm_debug.egg-info/PKG-INFO
+pycharm_debug.egg-info/SOURCES.txt
+pycharm_debug.egg-info/dependency_links.txt
+pycharm_debug.egg-info/top_level.txt
