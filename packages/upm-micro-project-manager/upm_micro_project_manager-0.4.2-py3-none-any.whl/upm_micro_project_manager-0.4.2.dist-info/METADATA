@@ -1,0 +1,181 @@
+Metadata-Version: 2.1
+Name: upm---micro-project-manager
+Version: 0.4.2
+Summary: A simple project management system
+Home-page: https://gitlab.com/rapp.jens/upm
+Author: TecDroiD
+Author-email: rapp.jens+pypi@gmail.com
+License: BSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# uPM - a micro project manager
+This neat tool wants to help you organizing project and file templates.
+It can create complete file structures in one simple command line and is easily extensible
+
+# Installation
+To install uPM just create a virtual environment and use pip to install uPM directly into your project
+
+    python -m venv env
+    source env/bin/activate
+    python -m pip install upm-micro-project-manager
+    upm init -p projectname=myproject python-project .
+
+This creates a simple python project with name myproject.
+Any occourance of the pattern `projectname` in filenames will be replaced by the given value `myproject`.
+Inside files, the pattern {{projectname}} will be replaced by the given value `myproject`
+
+You can set your own parameters in a json based config file named ~/.upm/config.
+Additionally, uPM looks in the current directory for a configuration file named .upm which will overlay
+the current configuration.
+
+# Configuration
+## user setup
+To setup uPM properly you should follow these steps.
+First, create a config structure for your uPM templates
+
+    $ mkdir -p ~/.upm/templates
+    $ vi ~/.upm/config
+
+A minimal config file could look like this:
+
+    {
+        "pattern" : {
+            "author" : "YourName",
+            "author_email" : "here@there.com"
+        },
+        "template_path" : "~/.upm/templates"
+    }
+
+You are now ready to create templates and any template that contains the pattern {{author}} will automagically
+get your name set
+
+## project setup
+Additionally you can, in your base directory (from where you have to call uPM), create a file .upm which may
+contain additional information:
+
+    {
+        "pattern" : {
+            "projectname" : "MyTinyProject",
+            "project-email" : "admin@mytiny-project.com"
+        }
+    }
+
+You also could set your own template_path for this particular project in the same mannor as in user setup
+
+## pre-created templates
+Since nobody wants a templating engine without templates, I started to create some for my projects.
+These are also available on [gitlab](https://gitlab.com/rapp.jens/upm-templates).
+Using the upper config file one can use them this way.
+
+    ~$ mkdir ~/.upm && cd $_
+    .upm$ git clone git@gitlab.com:rapp.jens/upm-templates.git templates
+
+## Patterns which are always set
+There are some (at least one) pattern which are automatically set by the program. Prevent using their name inside
+your pattern config
+
+### current_date
+Any occourance of the word current_date in filenames or {{current_date}} will be replaced by the current date
+
+### current_year
+This may be helpful for license files where only the year of License generation is neccessary.
+
+### current_file
+This gives the filename of the current file - some people like to have this in their files.
+
+## creating your own templates
+To create your own templates, just create a file or file structure like this one:
+
+    $ mkdir -p python-project/projectname
+    $ vi python-project/projectname/projectname.py
+
+with its content
+
+    #!/usr/bin/env python
+    ##############################################################################
+    # author       # {{author}}
+    # date         # {{current_date}}
+    # ---------------------------------------------------------------------------
+    # description  #
+    #              #
+    #              #
+    ##############################################################################
+    import sys
+
+    def main():
+        pass
+
+
+    if __name__ == '__main__':
+        sys.exit(main())
+
+Now you can simply scan your template into your template folder
+
+    $ upm scan python-project python-project
+
+Creating this project is done by using
+
+    $ mkdir project && cd $_
+    $ upm init -pprojectname=MyProject python-project .
+
+This creates a project directory like
+
+    └── MyProject
+        └── MyProject.py
+
+Currently, your scan base must be a directory. If you want to scan a single file, this must be the only file in the given directory.
+Here is an example for creating a single python file template.
+
+    pyfile/
+    └── name
+
+scanning this using the command
+
+    $ upm scan pyfile python-main
+
+creates a template which can be used to create a single file using upm
+
+    $ upm init -pname=main.py python-main .
+
+### Setting parameters for the template
+using a file named '.upmparams' in main directory of the scanned project you can give upm information on the parameters used.
+
+Parameters can be set in the form
+
+    "parametername" : "_type_[:optional]"
+
+possible types are currently:
+
+    "str" - for string
+    "int" - for an integer
+    "float" - for a float
+
+so possible values could be
+
+    {
+       "foo": "str",    -- this would be a required value
+       "bar": "int:optional" -- this would be an optional integer
+    }
+
+upm will ask for all non-optional parameters which are defined in .upmparams file but not given by the command line.
+
+### Extending existing templates
+Sometimes, you don't want to begin from scratch but extend some existing project. To do this, it is possible to generate a project
+file structure without replacing the pattern using the parameter -n or --no-replace
+
+    $ upm init --no-replace python-project .
+
+Now you can do your stuff and scan again
+
+# Last words
+That's all for now. I hope this tool is helpful for some people
+Have fun.
