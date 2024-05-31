@@ -1,0 +1,3 @@
+[console_scripts]
+changelog-generator=snippets2changelog.cli:main
+

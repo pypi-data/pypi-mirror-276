@@ -1,0 +1,13 @@
+snippets2changelog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snippets2changelog/cli.py,sha256=Lo8fvzJNYDgRbuc-VSQf9u2r9pzpxKkWJ49KnWl598o,4333
+snippets2changelog/collector.py,sha256=F64eYoi2UlRWc_EuOAreGuDKF5ho2DwdFGOpz8NoOOQ,4262
+snippets2changelog/common.py,sha256=c31ajTed_AS293uu4AgNJUU8By3CyJDUDHtSvKnOPNs,1991
+snippets2changelog/creator.py,sha256=h6gbwNNRhZ-fNsURmrIsG_Pfx2V4A869jaC5xB-TkYw,5172
+snippets2changelog/parser.py,sha256=Lrx44N151KQaAyTXQ6Bxf-XZew5-PNlH6_DX56HXNa4,2817
+snippets2changelog/templates/snippet.md.template,sha256=FmEnU3cU7DHmlV37DPHtgsmjfY3GjZpNOmr5kXkv04E,112
+snippets2changelog/version.py,sha256=S4dkYisv5DG_WvXIAx-ANI4R6vfCjgjyCyFZ7gNhU_4,124
+snippets2changelog-1.0.1.dist-info/LICENSE.txt,sha256=CvNkSeuD1ZLZBMQI_ixuwwEi1W6rSSJwlhv8Tq9vOhY,1198
+snippets2changelog-1.0.1.dist-info/METADATA,sha256=mDmGkPT8KUG44FvKazqv8YZCvIY-UMSaRSeZjvtwnPs,4407
+snippets2changelog-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+snippets2changelog-1.0.1.dist-info/entry_points.txt,sha256=NiEfROOh8CbkhJxu47ch7dByv7tmvZ3Y3J-U-DpYwiA,67
+snippets2changelog-1.0.1.dist-info/RECORD,,
