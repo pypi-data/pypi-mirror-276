@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+onetap/Authentication.py
+onetap/__init__.py
+onetap.egg-info/PKG-INFO
+onetap.egg-info/SOURCES.txt
+onetap.egg-info/dependency_links.txt
+onetap.egg-info/top_level.txt
