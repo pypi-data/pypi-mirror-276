@@ -1,0 +1,5 @@
+openai
+pyyaml
+numpy
+langchain
+confluent-kafka[avro]
