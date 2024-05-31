@@ -1,0 +1,12 @@
+parle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parle/__main__.py,sha256=FRzyB7i4x_dSEoITpSR2-TijtKhZxz7M7GJWDG1L9Fg,4837
+parle/errors.py,sha256=8tp2L4Bx3ilaXyR3uRSZUdS5uUP3ZGgjkscZ6kw2s9o,113
+parle/plr.py,sha256=nI634atmYnI0wHun46ogomo-Q0CikoEHi5MWa5D7lRc,4102
+parle/random_reconciliation.py,sha256=Dpl3oVScyd6BGUc4voleXHNQvLHRiCLhreyDX-M6mWY,3096
+parle/simulate.py,sha256=LbKWyQxUZ7LtcY1DV5uYUFpmm3XoR5QfixFD4CG4csk,6488
+parle/utils.py,sha256=LIxhXLPOd6IDgea9FApK10qNYIsgp2NuwPVhPYtCBc8,3980
+parle-0.0.2.dist-info/LICENSE,sha256=sw5R9x7YiaESz--wct2pp-gEY_aBiJlnEMnoPHzU0m4,1075
+parle-0.0.2.dist-info/METADATA,sha256=VIH4Ihz7VtIC4apJHIurwzD-H4du6JsY7S6uay_Mr6g,4703
+parle-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+parle-0.0.2.dist-info/top_level.txt,sha256=oeEPiRjsB2BCmOJdxgrvGlQOdmCj42jR1AA4nRdpxp8,6
+parle-0.0.2.dist-info/RECORD,,
