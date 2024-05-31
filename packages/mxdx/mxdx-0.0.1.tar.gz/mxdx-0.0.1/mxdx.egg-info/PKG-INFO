@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mxdx
+Version: 0.0.1
+Author: Daniel McDonald
+Author-email: damcdonald@ucsd.edu
+License: BSD-3-Clause
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: polars>0.20.0
+Requires-Dist: numpy
