@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: hapitools
+Version: 0.1.0
+Summary: My python tools
+Home-page: https://github.com/icehapi/hapitools
+Author: icehapi
+Author-email: icehapi@163.com
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: loguru ~=0.5.3
+Requires-Dist: pymysql ~=1.0.2
+Requires-Dist: dbutils ~=3.1.0
+
+# Python tools
+
+## Installation
+
+```shell
+pip install hapitools
+pip uninstall hapitools
+```
+
+## Requirements
+
+```bash
+loguru
+pymysql
+dbmanager
+```
+
+## Table of Contents
+
+- dbutils
+- logger
