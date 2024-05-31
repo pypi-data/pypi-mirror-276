@@ -1,0 +1,17 @@
+libekat.so
+libgptl.so
+libp3.so
+libphysics_share.so
+libpioc.so
+libscream_io.so
+libscream_scorpio_interface.so
+libscream_share.so
+pyp3.cpython-311-x86_64-linux-gnu.so
+pyscream.cpython-311-x86_64-linux-gnu.so
+setup.py
+pyeamxx/__init__.py
+pyeamxx.egg-info/PKG-INFO
+pyeamxx.egg-info/SOURCES.txt
+pyeamxx.egg-info/dependency_links.txt
+pyeamxx.egg-info/not-zip-safe
+pyeamxx.egg-info/top_level.txt
