@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: websc-client
+Version: 1.0.2
+Summary: Library for communicate with websc
+Author-email: Patrik Kratochvil <info@ledsc.eu>
+Project-URL: homepage, https://ledsc.eu/websc/
+Project-URL: repository, https://gitlab.com/ledsc/websclient
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: websockets ~=12.0
+
+# WebSC client
+
+Python Client for [WebSC] API.
+The control method is the same as for the [LedSC library].
+After connecting to the WebSC server,
+the library provides access to all functions available using the control API.
+
+## Example:
+```python
+import asyncio
+import logging
+import random
+
+from websc_client import WebSClientAsync as WebSClient
+from websc_client import WebSCAsync
+
+
+async def on_device_change(data: dict[str, int]):
+    # Display changed variables
+    print(data)
+
+
+async def run():
+    # Connect to WebSC server
+    client = WebSClient(host="127.0.0.1", port=8443)
+    await client.connect()
+
+    # Start observer for API listening
+    observer = asyncio.create_task(client.observer())
+
+    # Selects a device at random from the available devices.
+    device: WebSCAsync = random.choice(list(client.devices.values()))
+
+    # Registration for a device state change event
+    device.set_callback(on_device_change)
+
+    try:
+        while True:
+            # It changes colour randomly once every half a second
+            await device.set_rgb(
+                red=round(random.random() * 255),
+                green=round(random.random() * 255),
+                blue=round(random.random() * 255),
+            )
+            await asyncio.sleep(0.5)
+    finally:
+        observer.cancel()
+        await client.disconnect()
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    try:
+        asyncio.run(run())
+    except KeyboardInterrupt:
+        pass
+```
+
+
+[WebSC]:https://gitlab.com/ledsc/websc
+[LedSC library]:https://pypi.org/project/ledsc/
