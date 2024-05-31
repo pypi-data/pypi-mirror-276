@@ -1,0 +1,24 @@
+CHANGES
+=======
+
+0.1.5
+-----
+
+* Feature/ci update (#2)
+
+0.1.4
+-----
+
+* Add need dependentie in github ci
+* :green\_heart: Get dist file in github ci
+* :fire: remove .env
+* :rocket: Add dockerhub deploy
+
+0.1.3
+-----
+
+* :rocket: :construction\_worker: Add deploy on pypi
+* :construction\_worker: update github ci
+* :rocket: deploy latest on tag
+* Version 1
+* Initial commit
