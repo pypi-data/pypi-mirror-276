@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: json-torch-models
+Version: 0.1.0
+Summary: Package for defining PyTorch models in JSON, intended for quick iteration of experimentation, and config-like model defining.
+Home-page: https://github.com/aheschl1/JsonTorchModels
+Author: Andrew Heschl
+Author-email: ajheschl@gmail.com
+Requires-Dist: numpy
+Requires-Dist: torch
