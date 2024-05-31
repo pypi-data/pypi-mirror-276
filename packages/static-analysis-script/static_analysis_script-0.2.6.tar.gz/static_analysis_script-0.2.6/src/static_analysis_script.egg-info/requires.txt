@@ -1,0 +1,6 @@
+PyPDF2
+tqdm
+numpy
+pyfiglet
+colorama
+setuptools_scm
