@@ -1,0 +1,9 @@
+source_vantage/__init__.py,sha256=ZHTugtVFF_XP-6I_GbeADvH77RP-41Ojy7-PT9HB-6c,126
+source_vantage/manifest.yaml,sha256=WAMtAd7vzPlzNZW2Pm51WQ5VdjWr35PnsScQzCIP3OM,4845
+source_vantage/run.py,sha256=C5yrqk14AjzuJ0_eU5fQgSMgyzr9HMzkHgH7RnmGpvY,233
+source_vantage/source.py,sha256=caRwfU_ewMOHqaOg2oyh4azVmlEXruQ52iJVPcvxWiU,476
+source_vantage/spec.yaml,sha256=3od9AMEBLichm1FbFQtU2cb62-rhgLM4TCSyTqiM3Io,489
+airbyte_source_vantage-0.1.1.dist-info/METADATA,sha256=-49NFLN0z2yDrYbFzr3LV4GGUW8cfBr3kPD0Xr2Mb5w,5217
+airbyte_source_vantage-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_vantage-0.1.1.dist-info/entry_points.txt,sha256=bZinXLFPRUPgL-6n3UWZfjnnYH4TDdfaRSwms0D684k,57
+airbyte_source_vantage-0.1.1.dist-info/RECORD,,
