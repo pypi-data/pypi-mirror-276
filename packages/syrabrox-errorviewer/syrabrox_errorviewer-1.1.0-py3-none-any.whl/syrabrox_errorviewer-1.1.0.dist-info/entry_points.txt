@@ -1,0 +1,2 @@
+[console_scripts]
+syrabrox-errorviewer = syrabrox_errorviewer:errorlaw
