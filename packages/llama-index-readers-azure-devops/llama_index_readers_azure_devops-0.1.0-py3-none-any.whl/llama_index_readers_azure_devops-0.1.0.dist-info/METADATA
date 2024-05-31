@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: llama-index-readers-azure-devops
+Version: 0.1.0
+Summary: llama-index readers azure devops integration
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: azure-devops (==7.1.0b4)
+Requires-Dist: llama-index-core (>=0.10.0,<0.11.0)
+Description-Content-Type: text/markdown
+
+# LlamaIndex Readers Integration: Azure Devops
+
+`pip install llama-index-readers-azure-devops`
+
+The Azure Devops readers package enables you to read files from your azure devops repositories
+
+The reader will require a personal access token (which you can generate under your account settings).
+
+## Usage
+
+This reader will read through a repo, with options to specifically filter directories and file extensions.
+
+Here is an example of how to use it
+
+```python
+from llama_index.readers.azure_devops import AzureDevopsReader
+
+az_devops_loader = AzureDevopsLoader(
+    access_token="<your-access-token>",
+    organization_name="<organization-name>",
+    project_name="<project-name>",
+    repo="<repository-name>",
+    file_filter=lambda file_path: file_path.endswith(".py"),
+)  # Optional: you can provide any callable that returns a boolean to filter files of your choice
+
+documents = az_devops_loader.load_data(
+    folder="<folder-path>",  # The folder to load documents from, defaults to root.
+    branch="<branch-name>",
+)  # The branch to load documents from, defaults to head of the repo
+```
+
