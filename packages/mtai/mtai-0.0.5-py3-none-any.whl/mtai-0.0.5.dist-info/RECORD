@@ -1,0 +1,10 @@
+mtai/__init__.py,sha256=lNZwVZWtztSwbCSAWBX0M37cuLR7NPPj1X_eIexW6Hk,172
+mtai/base.py,sha256=D-ljPb2c-NVpGJ32UsE1UXBF4Wf24Zw9nF65oL6CcKo,2656
+mtai/mt.py,sha256=wXzO6BXUqjof7pWkzrQ33FtRsthibxfwnP6-X4mjJ5E,377
+mtai/prompts.py,sha256=GzX34jHp3kNYBm4SaobvW8MsVfhwSfmBXOJfQOTfzBA,1129
+mtai/tags.py,sha256=7LkJ3Cur5YL7XNBfd_83RKqD7a4E3ZTnkRt4dLPNJls,1517
+mtai-0.0.5.dist-info/LICENSE,sha256=w4bhOik0OHLMFTvPdCv5LRu3w9GdojvYriSc5c5Wwqw,1072
+mtai-0.0.5.dist-info/METADATA,sha256=vVBmbNwJgqYTpFGPfRTSrNrfk4Ke9QB4bUlGfxoN27g,1948
+mtai-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mtai-0.0.5.dist-info/top_level.txt,sha256=OaZG9JzbOLyOXMEUErvhDYWN8CstoTM0akxXDr_6L94,5
+mtai-0.0.5.dist-info/RECORD,,
