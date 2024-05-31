@@ -1,0 +1,3 @@
+
+[dev]
+watchdog>=4.0.1

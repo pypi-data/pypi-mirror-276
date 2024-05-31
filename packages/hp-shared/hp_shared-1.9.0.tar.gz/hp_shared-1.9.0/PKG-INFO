@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hp_shared
+Version: 1.9.0
+License: MIT
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: watchdog>=4.0.1; extra == "dev"
+
+# hp-shared
+
+基础库
+
+## 已使用 VuePress，见: [github 站点](https://feawaris.github.io/hp-shared/) / [md 文档](https://github.com/Feawaris/hp-shared/blob/main/docs/README.md)
