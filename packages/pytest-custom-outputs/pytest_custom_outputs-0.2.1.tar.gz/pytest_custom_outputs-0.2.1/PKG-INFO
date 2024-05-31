@@ -1,0 +1,194 @@
+Metadata-Version: 2.1
+Name: pytest-custom_outputs
+Version: 0.2.1
+Summary: A plugin that allows users to create and use custom outputs instead of the standard Pass and Fail
+Author-email: Babak Michael Engheta <michaelengheta55@gmail.com>
+Maintainer-email: Babak Michael Engheta <michaelengheta55@gmail.com>
+License: 
+        Copyright (c) 2024, Babak Michael Engheta
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of pytest-custom_outputs nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Repository, https://github.com/MichaelE55/pytest-custom_outputs
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest>=6.2.0
+
+
+Enhance Your Pytest Reporting with Customizable Test Outputs
+
+Tired of the standard pass/fail binary in pytest? With pytest-custom_outputs, you can create expressive and informative custom test results that go beyond the ordinary.  Tailor your reports to provide deeper insights into your test scenarios.
+
+Useful for if you want more than just the default Pass, Fail, and Skip outcomes.
+
+
+Features
+--------
+
+- Flexible Output Types: Define new outcome types like "unimplemented", "soft_fail"," "inconclusive," or any custom label that suits your testing needs.
+- Fully Customizeable: Custom outputs are customizable in their name, description, result code, tag, and color.
+- Seamless Integration: Easily incorporate custom outputs into your existing pytest test suites.
+- Terminal and File Reporting: View your custom outputs in both your terminal output and pytest file reports.
+
+
+Installation
+------------
+
+```bash
+pip install pytest-custom_outputs
+```
+
+
+Usage
+-----
+
+In the directory where you will be running your pytest, create a file called "pytest_custom_outputs.json".
+You will use this file to create your own custom outputs.
+Feel free to copy and paste the below json file into yours and edit from there.
+
+EXAMPLE FILE:
+```python
+{
+        "unknown": {
+                "desc":"unknown",
+                "code":"?",
+                "tag":"UNKNOWN",
+                "color":"purple"
+        },
+        "custom_outputs": {
+                "Pass_with_exception": {
+                        "desc":"passed_with_exception",
+                        "code":"P",
+                        "tag":"XPASSED",
+                        "color":"green"
+                },
+                "Fatal_failed": {
+                        "desc":"fatal_failed",
+                        "code":"!",
+                        "tag":"FAILED",
+                        "color":"red"
+                },
+                "Not_available": {
+                        "desc":"not_available",
+                        "code":"N",
+                        "tag":"NOT_AVAILABLE",
+                        "color":"blue"
+                },
+                "Failed_but_proceed": {
+                        "desc":"failed_but_proceed",
+                        "code":"X",
+                        "tag":"FAILED_BUT_PROCEED",
+                        "color":"red"
+                },
+                "Unimplemented": {
+                        "desc":"unimplemented",
+                        "code":"U",
+                        "tag":"UNIMPLEMENTED",
+                        "color":"yellow"
+                },
+                "Skipped": {
+                        "desc":"skipped",
+                        "code":"S",
+                        "tag":"SKIPPED",
+                        "color":"yellow"
+                }
+        }
+}
+
+```
+
+
+unknown
+ - The output to use if a test's result is not in custom outputs when calling c_assert
+
+custom_outputs
+ - A dictionary with all the custom outputs you write inside of it. You can edit, delete, and add new outputs here.
+
+Each custom output is denoted by a name. The name is also the key for that output
+For example, in the above example file, "Pass_with_exception" and "Fatal_failed" are the names for their respective output.
+Names are also how we determine the result of a test case. 
+We use the c_assert function and enter the name as an argument to assert that specific output.
+
+For example:
+```python
+import pytest
+from pytest_custom_outputs import c_assert
+
+def test_1():
+    c_assert("Pass_with_exception")
+```
+
+In the example above, test_1 will result in "passed_with_exception".
+
+If we put a name that is not in our custom output in the c_assert parameter, then it will assert the unknown outcome
+
+The rest of the information in the json file can be edited and customized to your liking.
+
+
+Why pytest-custom_outputs?
+--------------------------
+
+- Improved Communication: Get more informative insights from your test runs
+- Focus on Key Areas: Prioritize test cases that require attention
+- Tailored for Your Needs: Adapt outcomes and messages to your project's specific requirements
+
+
+Contributing
+------------
+
+Contributions are very welcome. Tests can be run with `tox`_, please ensure
+the coverage at least stays the same before you submit a pull request.
+
+
+License
+-------
+
+Distributed under the terms of the `BSD-3`_ license, "pytest-custom_outputs" is free and open source software
+
+
+Issues
+------
+
+If you encounter any problems, please `file an issue`_ along with a detailed description.
+
+.. _`file an issue`: https://github.com/MichaelE55/pytest-custom_outputs/issues
