@@ -1,0 +1,9 @@
+host: "localhost"
+port: 5002
+backends:
+  dataBackend:
+    filesystem:
+      path: "backend/data"
+  configBackend:
+    filesystem:
+      path: "backend/config"
