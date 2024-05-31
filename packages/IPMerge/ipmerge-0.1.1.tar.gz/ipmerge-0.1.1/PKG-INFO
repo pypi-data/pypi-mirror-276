@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: IPMerge
+Version: 0.1.1
+Summary: Merge CIDR blocks of IPv4 and IPv6 addresses
+Author-Email: Vojtech Kursa <it.vojtechkursa@gmail.com>
+License: MIT
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Text Processing :: General
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Provides-Extra: tests
+Requires-Dist: pytest>=8.2.0; extra == "tests"
+Description-Content-Type: text/markdown
+
+# IPMerge
+
+A Python tool for merging CIDR blocks of IPv4 and IPv6 addresses.
+
+## Features
+
+- Merge identical, adjacent or overlapping CIDR blocks
+  - Firewall table optimization
+- Support for dual notation of IPv6 addresses (both input and output)
+  - Output is modifiable by CLI options
+- Easily extensible/modifiable to any address type that can be written in CIDR notation
+
+## License
+
+Project is licensed under the MIT License (see [LICENSE](./LICENSE))
