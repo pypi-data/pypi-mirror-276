@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: eurlex-parser
+Version: 0.0.1
+Summary: Eurlex parser for fetching and parsing Eurlex data.
+Home-page: https://github.com/noworneverev/eurlex-parser
+Author: Yan-Ying Liao
+Author-email: n9102125@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
