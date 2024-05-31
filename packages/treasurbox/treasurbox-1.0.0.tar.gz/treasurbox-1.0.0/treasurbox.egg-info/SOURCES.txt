@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+treasurbox.egg-info/PKG-INFO
+treasurbox.egg-info/SOURCES.txt
+treasurbox.egg-info/dependency_links.txt
+treasurbox.egg-info/top_level.txt
