@@ -1,0 +1,15 @@
+extended_approval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extended_approval/admin_urls.py,sha256=Cac9LH1TS3knJCsvgCNbvn1lzuErPFy4bqGBK6yxqH4,447
+extended_approval/extension.py,sha256=vlp4f3J4Ociw_Toj1s6gi3STvyI7fuo3Ov23jDqaV-A,17468
+extended_approval/forms.py,sha256=U-z3SIeij-mwlnefqj7SeDMqZOpHJJki26iADu6MfBI,2174
+extended_approval/static/staticfiles.json,sha256=JGYv3J4GyMf5gv7C6Bgd_NC9E80QmV0lu3j6GMGJtiM,135
+extended_approval/static/js/default.min.b591b4423d09.js,sha256=UuC-aK_YPVwZuWgveDgT2QoGS-elBrfUvidn-YM01Fc,161
+extended_approval/static/js/default.min.js,sha256=UuC-aK_YPVwZuWgveDgT2QoGS-elBrfUvidn-YM01Fc,161
+extended_approval/static/js/extension.2cc53d2e0a82.js,sha256=egQ4bG6_GJ9gKdH1Qp_6xCyxsfc0cgxrDdMVBNwMdm0,224
+extended_approval/static/js/extension.js,sha256=egQ4bG6_GJ9gKdH1Qp_6xCyxsfc0cgxrDdMVBNwMdm0,224
+rbExtendedApproval-1.2.2.dist-info/LICENSE,sha256=OIJXaMt4rmIRFH5sqhODpKG17phPZkLr2cb3rBGepj0,1072
+rbExtendedApproval-1.2.2.dist-info/METADATA,sha256=l0oL_APn5NBP0qIoYkYWj748vf8q-TlieE79hzAsQwQ,596
+rbExtendedApproval-1.2.2.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+rbExtendedApproval-1.2.2.dist-info/entry_points.txt,sha256=YSOQWQY4f0OfSsJ4bbb2oBwjbXCjFIlmtBbO9_zLGFs,91
+rbExtendedApproval-1.2.2.dist-info/top_level.txt,sha256=DjAh0Xai3sYE3Ac-A-fHI9OaVtU9F2-IwSrt1LURuvQ,18
+rbExtendedApproval-1.2.2.dist-info/RECORD,,
