@@ -1,0 +1,2 @@
+# Data Purging Constants
+DATA_PURGING_RECORDS_DEFAULT_CHUNK_SIZE = 1000
