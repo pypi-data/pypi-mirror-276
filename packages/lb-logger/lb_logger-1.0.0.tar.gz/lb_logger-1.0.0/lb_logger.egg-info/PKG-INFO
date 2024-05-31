@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lb-logger
+Version: 1.0.0
+Summary: Library with logger class by lb services
+Author: Lucas Barros
+Author-email: lucasbarros2000@hotmail.com
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+    <a style="color: #00bfb3"> LB Logger</a>
+</h1>
+
+<p align="left" style="color: white">🚀 
+    Biblioteca responsável pela geração de logs dos serviços
+</p>
+
+<p style="margin: 5%; font-size: 15px; color: white; text-align: center">
+    Desenvolvido Por Lucas Barros
+</p>
