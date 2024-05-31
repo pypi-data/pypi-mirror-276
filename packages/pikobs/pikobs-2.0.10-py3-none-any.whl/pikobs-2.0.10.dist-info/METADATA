@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pikobs
+Version: 2.0.10
+Summary: pikobs
+Home-page: https://gitlab.science.gc.ca/dlo001/pikobs
+Author: David Lobon
+Author-email: dhlobon@gmail.com
+License: GPL-3.0-or-later
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: geopandas (==0.10.0)
+Requires-Dist: earthpy (==0.9.4)
+Requires-Dist: shapely (==1.7.0)
+Requires-Dist: cartopy (==0.18.0)
+Requires-Dist: h5py
+Requires-Dist: packaging
+Requires-Dist: pygrib
+Requires-Dist: domutils
+Requires-Dist: dask (==2022.9.1)
+Requires-Dist: scipy
+Requires-Dist: pytz
+
