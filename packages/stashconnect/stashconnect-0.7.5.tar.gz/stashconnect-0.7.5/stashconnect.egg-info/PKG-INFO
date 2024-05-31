@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: stashconnect
+Version: 0.7.5
+Summary: An API wrapper for stashcat and schul.cloud.
+Home-page: https://github.com/BuStudios/StashConnect
+Author: BuStudios
+Author-email: support@bustudios.org
+Project-URL: Bug Tracker, https://github.com/BuStudios/StashConnect/issues
+Project-URL: Documentation, https://github.com/BuStudios/StashConnect/wiki
+Project-URL: Source Code, https://github.com/BuStudios/StashConnect
+Keywords: stashconnect,stashcat api,stashcat python,schul.cloud api,schul.cloud python,stashcat bot,schul.cloud bot
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+Requires-Dist: python-socketio
+Requires-Dist: Pillow
+Requires-Dist: websocket-client
+
+# <img src="assets/icon.png" height="22"> StashConnect
+
+An API wrapper for [stashcat](https://stashcat.com/) and [schul.cloud](https://schul.cloud).<br>
+```
+unfinished
+```
+
+## Contributors
+- All code made by [BuStudios](https://github.com/bustudios)
+- Create a pull request to contribute code yourself
+
+## Version 0.7.5
+#### To be added:
+- [x] fix links
+- [ ] returnable file object
+- [ ] bot file for easy bot setup
+
+---
+StashConnect is not affiliated with Stashcat GmbH or any of its affiliates.
+
+<img src="assets/icon-full.png">
