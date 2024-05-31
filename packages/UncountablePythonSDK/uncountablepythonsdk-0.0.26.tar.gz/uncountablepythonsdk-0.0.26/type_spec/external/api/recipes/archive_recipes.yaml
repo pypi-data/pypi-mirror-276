@@ -1,0 +1,20 @@
+$endpoint:
+    is_sdk: true
+    method: post
+    path: ${external}/recipes/archive
+    function: main.site.app.external.recipes.archive_recipes.archive_recipes
+    desc: Archive the provided recipes and their children
+
+Arguments:
+    type: Object
+    properties:
+        recipes:
+            type: List<identifier.IdentifierKey>
+            desc: Identifier for the recipe
+        reason?:
+            type: String
+            desc: This reason will be written to the audit log archive entry
+
+
+Data:
+  type: Object

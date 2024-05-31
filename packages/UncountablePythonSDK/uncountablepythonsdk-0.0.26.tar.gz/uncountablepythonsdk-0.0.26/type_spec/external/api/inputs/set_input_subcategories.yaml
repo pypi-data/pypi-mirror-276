@@ -1,0 +1,23 @@
+$endpoint:
+    is_sdk: true
+    method: post
+    path: ${external}/inputs/external_set_input_subcategories
+    function: main.site.app.external.inputs.external_set_input_subcategories.external_set_input_subcategories
+    desc: "Sets subcategories for an input"
+
+Arguments:
+    type: Object
+    properties:
+        input_key:
+            type: identifier.IdentifierKey
+            desc: "Identifier for the input"
+        subcategory_ids:
+            type: List<Integer>
+            desc: The subcategory identifiers to set
+        update_type:
+            type: post_base.UpdateType
+            desc: The type of update to perform
+
+Data:
+    type: response.Response
+    properties:

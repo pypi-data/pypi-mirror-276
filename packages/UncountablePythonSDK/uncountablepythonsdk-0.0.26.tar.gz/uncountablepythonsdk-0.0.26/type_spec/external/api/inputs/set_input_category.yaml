@@ -1,0 +1,23 @@
+$endpoint:
+    is_sdk: true
+    method: post
+    path: ${external}/inputs/external_set_input_category
+    function: main.site.app.external.inputs.external_set_input_category.external_set_input_category
+    desc: "Sets subcategories for an input"
+
+Arguments:
+    type: Object
+    properties:
+        input_key:
+            type: identifier.IdentifierKey
+            desc: "Identifier for the input"
+        category_id:
+            type: Integer
+            desc: The subcategory identifiers to set
+        material_family_ids?:
+            type: List<Integer>
+            desc: The material families to perform the update in
+
+Data:
+    type: response.Response
+    properties:

@@ -1,0 +1,37 @@
+$endpoint:
+    is_sdk: true
+    method: post
+    path: ${external}/field_options/upsert_field_options
+    function: main.site.app.external.field_options.upsert_field_options.upsert_field_options
+    desc: "Creates or updates field options for an option set"
+    is_sdk: true
+
+FieldOption:
+    type: Object
+    properties:
+        option_id:
+            type: String
+            desc: "A unique identifer for the option.  This is required to be a string with no symbols"
+        option_value?:
+            type: String
+            desc: "The label for the option.  If none is set, then the existing value will be used.  If there is no existing value, then the option id will be used."
+        archived?:
+            type: Boolean
+            desc: "If included, whether to set the option to be archived or unarchived"
+        subsets?:
+            type: List<String>
+            desc: "If included, what subsets to include the option in"
+
+Arguments:
+    type: Object
+    properties:
+        option_set_key:
+            type: identifier.IdentifierKey
+            desc: "Identifier for the field option set"
+        field_options:
+            type: List<FieldOption>
+            desc: Field options to upsert
+
+Data:
+    type: Object
+    properties:
