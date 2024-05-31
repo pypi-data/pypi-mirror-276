@@ -1,0 +1,16 @@
+[project]
+name = "pigeon-tem-comms"
+version = "0.1.0"
+authors = [
+  { name="Cameron Devine", email="cameron.devine@alleninstitute.org" },
+]
+description = "Pigeon messages for the next generation TEM imaging system."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pigeon-client",
+  "pydantic",
+]
+
+[project.entry-points."pigeon.msgs"]
+msgs = "TEM_comms:msgs"
