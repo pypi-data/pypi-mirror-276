@@ -1,0 +1,9 @@
+README.md
+setup.py
+uugai_python_color_prediction/__init__.py
+uugai_python_color_prediction/uug_ai_python_color_prediction.py
+uugai_python_color_prediction.egg-info/PKG-INFO
+uugai_python_color_prediction.egg-info/SOURCES.txt
+uugai_python_color_prediction.egg-info/dependency_links.txt
+uugai_python_color_prediction.egg-info/requires.txt
+uugai_python_color_prediction.egg-info/top_level.txt
