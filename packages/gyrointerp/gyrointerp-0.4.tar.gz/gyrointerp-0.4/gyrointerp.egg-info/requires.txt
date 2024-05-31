@@ -1,0 +1,7 @@
+numpy>=1.4.0
+scipy
+astropy>=1.3
+matplotlib
+
+[all]
+cdips
