@@ -1,0 +1,6 @@
+obspy
+numpy
+matplotlib<3.2
+pydub
+twython
+python-telegram-bot<=13.11
