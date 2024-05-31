@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: process-formula
+Version: 0.0.4
+Summary: Tools for processing LaTeX formulas.
+Home-page: https://github.com/SWHL/ProcessLaTeXFormulaTools
+Author: SWHL
+Author-email: liekkaskono@163.com
+License: MIT
+Keywords: formula,KaTeX,LaTeX,im2markup
+Platform: Any
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6,<3.12
+Description-Content-Type: text/markdown
+
+### See [Documentation](https://github.com/SWHL/ProcessLaTeXFormulaTools)
+
+
