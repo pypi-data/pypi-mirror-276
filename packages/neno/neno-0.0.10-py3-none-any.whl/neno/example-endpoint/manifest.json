@@ -1,0 +1,5 @@
+{
+  "name": "hello",
+  "notebook": "test-notebook.ipynb",
+  "keep_runs": "always"
+}
