@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yipao"
+version="0.0.4"
+readme = "README.md"
+license = { text = "MIT License" }
+description="Yipao is a library enabling AI-driven interactions with SQL databases, facilitating dynamic SQL query generation and execution."
+requires-python = ">=3"
+authors= [
+{ name = "factral", email="nelsonfabiancs8@gmail.com"},
+{ name = "Daniel", email="manosalvasierra@gmail.com" }
+]
+keywords = [ "sql", "ai", "database", "query", "dynamic", "execution", "generation", "rag" ]
+dependencies = [
+    "pymysql",
+    "google-generativeai",
+    "pandas",
+    "vertexai",
+    "qdrant-client[fastembed]" #only with qdrant
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+"Homepage" = "https://facil-pos.github.io/yipao/"
+"Development" = "https://github.com/facil-pos/yipao"
+
+[project.optional-dependencies]
+doc = [
+    "sphinx",
+    "sphinxawesome-theme",
+    "sphinx-autodoc-annotation",
+    "sphinx-autodoc-typehints"
+    ]
+chroma = [
+    "chromadb",
+    ]
+    
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/yipao",
+]
+
+
