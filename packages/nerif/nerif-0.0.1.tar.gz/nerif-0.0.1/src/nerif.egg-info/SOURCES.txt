@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/nerif/__init__.py
+src/nerif/nerif.py
+src/nerif.egg-info/PKG-INFO
+src/nerif.egg-info/SOURCES.txt
+src/nerif.egg-info/dependency_links.txt
+src/nerif.egg-info/requires.txt
+src/nerif.egg-info/top_level.txt
+test/test.py
+test/test_match.py
