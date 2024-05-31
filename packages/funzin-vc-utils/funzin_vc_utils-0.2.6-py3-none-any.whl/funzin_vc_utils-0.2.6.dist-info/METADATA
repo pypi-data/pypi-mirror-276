@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: funzin-vc-utils
+Version: 0.2.6
+Summary: funzin vc solution utils
+Home-page: https://dnchoi.github.io
+Author: dnchoi
+Author-email: luke.dn.choi@funzin.co.kr
+License: MIT
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: black
+Requires-Dist: flake8
+Requires-Dist: opencv-python
+Requires-Dist: colorlog
+Requires-Dist: mlflow
+Requires-Dist: boto3
+Requires-Dist: wandb
+
+# Funzin VC solution team Utils packages
+
+## Dependency > requirements.txt
+- pip install -r requirements.txt
+
+## Whl build
+- python3 setup.py bdist_wheel
+- python setup.py bdist_wheel
+
+## Capture reader
+-
+-
+-
+-
+-
+
+## Logger
+-
+-
+-
+-
+-
+
+## Uploaded PyPI
+
+```bash
+# whl file make
+cd fz_vc_utils
+
+python setup.py bdist_wheel
+```
+
+```python
+# setup.py
+from setuptools import find_packages, setup
+
+username = "funzin"
+setup(
+    name="funzin_vc_utils",  # 패키지 명
+    version="0.1",
+    description="funzin vc solution utils",
+    author="dnchoi",
+    author_email="luke.dn.choi@funzin.co.kr",
+    url="https://dnchoi.github.io",
+    license="MIT",  # MIT에서 정한 표준 라이센스 따른다
+    py_modules=["CaptureReader", "Logger"],  # 패키지에 포함되는 모듈
+    python_requires=">=3",
+    install_requires=["black", "flake8", "opencv-python", "colorlog"],  # 패키지 사용을 위해 필요한 추가 설치 패키지
+    packages=["fz_logger", "fz_capture"],  # 패키지가 들어있는 폴더들
+)
+```
+
+```bash
+.
+├── README.md
+├── build
+│   ├── bdist.linux-x86_64
+│   └── lib
+│       ├── fz_capture
+│       │   ├── __init__.py
+│       │   └── fz_capture.py
+│       └── fz_logger
+│           ├── __init__.py
+│           └── fz_logger.py
+├── dist
+│   └── funzin_vc_utils-0.1-py3-none-any.whl
+├── funzin_vc_utils.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   ├── requires.txt
+│   └── top_level.txt
+├── fz_capture
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   └── fz_capture.cpython-38.pyc
+│   └── fz_capture.py
+├── fz_logger
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   └── fz_logger.cpython-38.pyc
+│   └── fz_logger.py
+├── fz_vc_utils.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   ├── requires.txt
+│   └── top_level.txt
+├── log
+│   ├── fz_capture.log
+│   ├── fz_capture.log.2022-05-03
+│   ├── fz_capture.log.2022-05-04
+│   ├── module_test.log
+│   ├── module_test.log.2022-05-03
+│   └── module_test.log.2022-05-04
+├── module_test.py
+├── pyproject.toml
+├── requirements.txt
+└── setup.py
+```
+
+```bash
+# PyPI 등록
+twine upload dist/funzin_vc_utils-0.1-py3-none-any.whl
+
+Uploading distributions to https://upload.pypi.org/legacy/
+WARNING  Error getting username from keyring
+         Traceback (most recent call last):
+           File "/home/luke/miniconda3/lib/python3.9/site-packages/twine/auth.py", line 59, in get_username_from_keyring
+             creds = keyring.get_credential(system, None)
+           File "/home/luke/miniconda3/lib/python3.9/site-packages/keyring/core.py", line 72, in get_credential
+             return get_keyring().get_credential(service_name, username)
+           File "/home/luke/miniconda3/lib/python3.9/site-packages/keyring/backends/SecretService.py", line 119, in get_credential
+             collection = self.get_preferred_collection()
+           File "/home/luke/miniconda3/lib/python3.9/site-packages/keyring/backends/SecretService.py", line 67, in get_preferred_collection
+             raise KeyringLocked("Failed to unlock the collection!")
+         keyring.errors.KeyringLocked: Failed to unlock the collection!
+Enter your username: #dnchoi
+WARNING  Error getting password from keyring
+         Traceback (most recent call last):
+           File "/home/luke/miniconda3/lib/python3.9/site-packages/twine/auth.py", line 74, in get_password_from_keyring
+             return cast(str, keyring.get_password(system, username))
+           File "/home/luke/miniconda3/lib/python3.9/site-packages/keyring/core.py", line 55, in get_password
+             return get_keyring().get_password(service_name, username)
+           File "/home/luke/miniconda3/lib/python3.9/site-packages/keyring/backends/SecretService.py", line 78, in get_password
+             collection = self.get_preferred_collection()
+           File "/home/luke/miniconda3/lib/python3.9/site-packages/keyring/backends/SecretService.py", line 67, in get_preferred_collection
+             raise KeyringLocked("Failed to unlock the collection!")
+         keyring.errors.KeyringLocked: Failed to unlock the collection!
+Enter your password: #funzingogo1234!
+Uploading funzin_vc_utils-0.1-py3-none-any.whl
+100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.8/6.8 kB • 00:00 • ?
+
+View at:
+https://pypi.org/project/funzin-vc-utils/0.1/
+```
