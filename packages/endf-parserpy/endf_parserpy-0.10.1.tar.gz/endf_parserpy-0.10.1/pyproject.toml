@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "endf-parserpy"
+version = "v0.10.1"
+description = "A Python package for reading, writing, verifying and translating ENDF-6 files"
+authors = ["Georg Schnabel"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/iaea-nds/endf-parserpy"
+
+[tool.poetry.dependencies]
+python = ">=3.6.1"
+lark = ">=1.0.0"
+appdirs = ">=1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=4.0"
+pre-commit = "2.15.0"
+
+[tool.poetry.build]
+script = "build.py"
+# The following line is essential, as otherwise
+# the build.py script doesn't seem to be executed
+generate-setup-file = true
+
+[build-system]
+requires = [
+    "setuptools>=58.0.0,<69.0.0",
+    "pybind11>=2.10.0",
+    "poetry-core>=1.2",     # >=1.0",
+    "lark>=1.0.0",     # required for C++ compilation during
+    "appdirs>=1.4.0",  # installation using functionality of endf-parserpy
+]
+build-backend = "poetry.core.masonry.api"
+# build-backend = "setuptools.build_meta"
