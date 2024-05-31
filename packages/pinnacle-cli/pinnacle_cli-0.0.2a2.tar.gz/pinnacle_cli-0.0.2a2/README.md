@@ -1,0 +1,30 @@
+# Pinnacle Command Line Interface
+This is a command line interface for the Pinnacle API.
+
+## Pre-requisites
+- Python 3.12 or higher
+- [Poetry](https://python-poetry.org/docs/#installation): Manages Python dependencies and creates the `pinnacle` command from the Python code in `pinnacle-cli`.
+
+## Running the Pinnacle locally (Python)
+To run the Pinnacle locally, you need to have the command line tool (`pinnacle-cli`) and the packages installed in your local environment.
+1) Build the CLI tool by running `poetry build` in the `cli` directory. This will create a `.whl` file in the `cli/dist` directory. This file will be used to install the CLI tool in your local environment.
+2) Build the `pinnacle-python` package by running `poetry build` in the `client-packages/pinnacle-python` directory. This will create a `.whl` file in the `client-packages/pinnacle-python/dist` directory. This file will be used to install the `pinnacle-python` package in your local environment.
+3) Go to your Python project directory with `cd $PATH`.
+4) Create a virtual environment with Python version 3.12 or higher. In your project environment, install the `pinnacle-python` package by running `pip install $PATH_TO_PINNACLE/client-packages/pinnacle-python/dist/pinnacle_python-$VERSION-py3-none-any.whl` in the `client-packages/pinnacle-python` directory. Replace `$PATH_TO_PINNACLE` with the path to the Python package and `$VERSION` with the version of the package. The version can be found in the `pyproject.toml` file under the `[tool.poetry]` section.
+5) In your project environment, install the `pinnacle-cli` package by running `pip install $PATH_TO_PINNACLE/cli/dist/pinnacle_cli-$VERSION-py3-none-any.whl` in the `cli` directory. Replace `$PATH_TO_PINNACLE` with the path to the Python package and `$VERSION` with the version of the package.
+6) Create a `pinnacle` directory in your project and add the Pinnacle functions to this directory. For example
+```python
+from pinnacle_python import endpoint
+
+@endpoint
+def hello_world():
+    return "Hello, World!"
+```
+creates a `/hello_world` endpoint that returns "Hello, World!".
+7) Run `pinnacle {dev|prod}` to run the CLI. This will read the functions in the `pinnacle` directory and create the endpoints locally.
+
+## Environment Variables
+You can configure the CLI tool using the following environment variables:
+- `PINNACLE_HOST`: The host of the Pinnacle API. Default is `localhost`.
+- `PINNACLE_PORT`: The port of the Pinnacle API. Default is `8000`.
+- `PINNACLE_DIRECTORY`: The directory where the Pinnacle functions are located. Default is `./pinnacle`.

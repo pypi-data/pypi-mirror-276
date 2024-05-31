@@ -1,0 +1,20 @@
+{
+  "name": "js",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "start-dev": "./node_modules/tsx/dist/cli.mjs watch dev.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "tsx": "^4.11.0"
+  }
+}
