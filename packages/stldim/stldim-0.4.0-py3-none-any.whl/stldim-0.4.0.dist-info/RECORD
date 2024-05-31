@@ -1,0 +1,11 @@
+stldim/__init__.py,sha256=0xgrFk7GZ9ptxz5BOrjsNrTD_cyAszVyxq6XWbhVERQ,5688
+stldim/__main__.py,sha256=kUFVkvPljiiy7XxHJ8hUt7pEisMoMGR5BbetS6oqNto,812
+stldim/version.py,sha256=2WyCQyQplSaPFeSLsK8wlvIw2vq-i6b7y-g-DmnkdnM,300
+stldim/templates/openscad_lib.jinja2,sha256=01y1uxIZirdTArKLr1YQcRueta9qEBaQpt9QmXsItPo,1203
+stldim/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stldim/tests/test_mesh_with_bounds.py,sha256=7RzDpDNu343zWVOmcF2Cg9QnIAy2y2XVHUldtQ4cMNs,4088
+stldim-0.4.0.dist-info/METADATA,sha256=WOI-N9CLxt76ZcH8636zkAe20ERx9YABTZiivYJ2T0o,3930
+stldim-0.4.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+stldim-0.4.0.dist-info/entry_points.txt,sha256=OwB7BCcBlCh1wOY4bcoipyXJEcYrivDUGlNh8jn3BQw,48
+stldim-0.4.0.dist-info/licenses/LICENSE.md,sha256=x3m-o5QzE7RUEbpQqk2pAPdJTTiJAnFyM621rMWFWJU,1072
+stldim-0.4.0.dist-info/RECORD,,
