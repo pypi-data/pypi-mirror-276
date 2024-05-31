@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: expkit-core
+Version: 1.0.1
+Summary: Package for managing research experiments.
+Home-page: https://github.com/goncalorafaria/expkit-core
+Author: Goncalo Faria
+Author-email: goncalofaria.research@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# expkit
+Package for managing research experiments.

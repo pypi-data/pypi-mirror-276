@@ -1,0 +1,15 @@
+expkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+expkit/eval.py,sha256=sR_C14ciplNMrPWt6QS0dcAB_hCQOOnDtMqsUfM9lyo,551
+expkit/exp.py,sha256=rWqZeFI55XMWPw-wzGCl_W-eMvAqvk0DE5Kty9YmLAg,7409
+expkit/ops.py,sha256=ReOXjgAQ8hQ_zbRXNkzXi3y35W-2s-hG__iiobJvUn8,2705
+expkit/pexp.py,sha256=dxZLv3F1WVM4f2SwE3gA6uH04tBvk3GRfd357IFFPec,2748
+expkit/setup.py,sha256=xNIaXWcgAzPY61aCiBzONNuoidWwToK2jhtxpIl0JS4,6485
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_exp.py,sha256=DmdaC8MwbZrrl1A9y1xpflwaEpGrhwHlIjgBLvZVwo4,2934
+tests/test_pexp.py,sha256=zqBjnnXoKK5J13Rk4OPP13XEZFdN2Z6j-tpeE5bQ59U,2907
+tests/test_setup.py,sha256=ejGyMUV6vNeEUFPIUd9kZVwGzFa4c2sF4LHJ8Ki6PQE,592
+expkit_core-1.0.1.dist-info/LICENSE,sha256=bMjRnpeJOvubLbatz3K9aT50xDjkxIPXwhIqnVkux6s,11410
+expkit_core-1.0.1.dist-info/METADATA,sha256=G5Ct9j9UlIw0C4qJUjXiUCcwcki6_yO5ioym98zVG5Q,518
+expkit_core-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+expkit_core-1.0.1.dist-info/top_level.txt,sha256=vZWMQYJEsLSI6wdvNWdsG7NTyPCWf5sq2lIPN5x-mZk,13
+expkit_core-1.0.1.dist-info/RECORD,,
