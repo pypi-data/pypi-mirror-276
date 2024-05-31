@@ -1,0 +1,11 @@
+pycanum/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pycanum/httpdata.py,sha256=UITesIoX9qbASm6VD0_8qoC-ISWannbY5_xLOjhkEgI,4302
+pycanum/main.py,sha256=gQDOXnKhxO2Q1hF0AOOWgno_MRFAKYYmWbPTl7Bx-J0,12547
+pycanum/pthreadVC2.dll,sha256=usRHKZDB3C8DcBl5G9GIiOeKOuhmBfOq6G-BKk19T2A,55808
+pycanum/pycanum.py,sha256=B0BIT0l_42KrZhzXl1q0xwMRvuxsx34Ci6u2QQJNMwM,16298
+pycanum/sysamhttp.exe,sha256=kHve589f5qo4TSQuhxNUMZIDuVZjqlHn2XesyupgdUY,84480
+pycanum-5.0.0.dist-info/LICENCE.txt,sha256=fCAejq0aLFTfZKUxov2HVt8lRqt_x84o5AMujtOCREQ,22566
+pycanum-5.0.0.dist-info/METADATA,sha256=XFM0dLR0ueYmMDXz5BaBXhV5AxRnQF99ST6wF-K4NaE,285
+pycanum-5.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pycanum-5.0.0.dist-info/top_level.txt,sha256=Adljs7QjvFRlSCLrnXG8-EtNN3NlDc_T0rjyLnQeGC4,8
+pycanum-5.0.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pycanum
+Version: 5.0.0
+Summary: Interface Python pour Sysam Eurosmart SP5
+Home-page: https://upload.pypi.org/legacy/
+Author: Frederic Legrand
+Author-email: fredlegr@club-internet.fr
+License: CeCILL
+Platform: MS windows
+License-File: LICENCE.txt
+
