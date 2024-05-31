@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: django-lucide-icons
+Version: 0.1.0
+Summary: Django Lucide Icons
+Author-email: Fabian Binz <fabian.binz@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: uv ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Project-URL: Home, https://github.com/fbinz/django-lucide-icons
+Provides-Extra: dev
+
+# Django Lucide Icons
+
+This is a Django template tag that allows you to use [Lucide Icons](https://lucide.dev/) in your Django templates.
+
+## Installation
+
+To install the package, simply run:
+
+```bash
+pip install django-lucide-icons
+```
+
+## Usage
+
+To use the template tag, add the following line to your Django project's settings.py file:
+
+```python
+LUCIDE_ICONS_DIR = "/path/to/your/icons/directory"
+```
+
+The LUCIDE_ICONS_DIR variable should be set to the directory where you want to store the Lucide icons.
+
+Then, you can use the `lucide` template tag in your Django templates to display Lucide icons. For example, to display the "home" icon, you can use the following code:
+
+```html
+{% load lucide_tags %} {% lucide "home" %}
+```
+
+The `lucide` template tag takes a single argument, which is the name of the Lucide icon you want to display.
+It returns the SVG code of the icon as a string.
+
+Since the plain SVG is rendered, it might make sense to wrap it in a "span" or "div" element to
+size it properly.
+Alternative approaches are welcome. Just submit an issue or a pull request.
+
