@@ -1,0 +1,8 @@
+taguchi/__init__.py,sha256=KOa7Fu60EW93WN7qVBQ2qaLqPKclyCYI4tqG047G0Ak,17
+taguchi/__main__.py,sha256=IShXVO7B_u2MhG0IljANeGTwuSxQGyPA7HnlAzi4xJU,3572
+taguchi/database.json,sha256=DXPIKNOesNMsyZQfVJS850ThiZfnO2N_sqYRuXLYI2w,127056
+taguchi-1.1.0.dist-info/METADATA,sha256=8fuyyQU31XEVdjIwm5gRhSfWeStIxrszg1iSDY9hWfU,4596
+taguchi-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+taguchi-1.1.0.dist-info/entry_points.txt,sha256=gg2aOA-5zPeoMHaySIKT6qXY695ZC5loBZ8U1ObwwFE,54
+taguchi-1.1.0.dist-info/top_level.txt,sha256=dVWx41SdBlAE2xPjmeA1deiWggMsor9-9dEQJLEg2fY,8
+taguchi-1.1.0.dist-info/RECORD,,
