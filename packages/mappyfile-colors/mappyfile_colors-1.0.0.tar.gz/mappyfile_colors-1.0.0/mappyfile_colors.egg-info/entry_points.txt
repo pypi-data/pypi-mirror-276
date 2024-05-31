@@ -1,0 +1,2 @@
+[mappyfile.plugins]
+mappyfile_colors = mappyfile_colors

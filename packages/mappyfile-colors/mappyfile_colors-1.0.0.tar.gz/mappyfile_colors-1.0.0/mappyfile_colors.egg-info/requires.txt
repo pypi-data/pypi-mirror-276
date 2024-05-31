@@ -1,0 +1,2 @@
+mappyfile>=1.0.2
+webcolors
