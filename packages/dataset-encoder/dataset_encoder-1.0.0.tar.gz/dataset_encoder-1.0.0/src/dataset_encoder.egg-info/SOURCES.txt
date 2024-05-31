@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/dataset_encoder/__init__.py
+src/dataset_encoder/__version__.py
+src/dataset_encoder/categorical_encoder.py
+src/dataset_encoder/circular_encoder.py
+src/dataset_encoder/datetime_encoder.py
+src/dataset_encoder/encoder.py
+src/dataset_encoder/numerical_encoder.py
+src/dataset_encoder.egg-info/PKG-INFO
+src/dataset_encoder.egg-info/SOURCES.txt
+src/dataset_encoder.egg-info/dependency_links.txt
+src/dataset_encoder.egg-info/requires.txt
+src/dataset_encoder.egg-info/top_level.txt
