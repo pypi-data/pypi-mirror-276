@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: onetap
+Version: 1.0.0b2
+Summary: Seamless Flask Authentication
+Home-page: https://github.com/diezo/express
+Download-URL: https://github.com/diezo/onetap/archive/refs/tags/v1.0.0b2.tar.gz
+Author: Deepak Soni
+Author-email: deepaksonii@outlook.in
+License: MIT
+Keywords: onetap,onetap-python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+## express
+A python package for seamless flask authentication.
