@@ -1,0 +1,2 @@
+library_architecture_mvvm_modify_python
+named_test_main

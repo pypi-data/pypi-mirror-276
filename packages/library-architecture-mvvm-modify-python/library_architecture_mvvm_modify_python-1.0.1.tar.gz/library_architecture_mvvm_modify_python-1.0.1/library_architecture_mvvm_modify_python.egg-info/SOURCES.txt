@@ -1,0 +1,11 @@
+LICENSE
+README.md
+library_architecture_mvvm_modify_python.py
+setup.py
+library_architecture_mvvm_modify_python.egg-info/PKG-INFO
+library_architecture_mvvm_modify_python.egg-info/SOURCES.txt
+library_architecture_mvvm_modify_python.egg-info/dependency_links.txt
+library_architecture_mvvm_modify_python.egg-info/entry_points.txt
+library_architecture_mvvm_modify_python.egg-info/top_level.txt
+named_test_main/iterator_test_main.py
+named_test_main/temp_cache_test_main.py

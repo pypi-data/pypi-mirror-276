@@ -1,0 +1,3 @@
+[console_scripts]
+iterator_test_main = named_test_main.iterator_test_main:main
+temp_cache_test_main = named_test_main.temp_cache_test_main:main
