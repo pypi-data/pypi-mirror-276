@@ -1,0 +1,12 @@
+README.md
+setup.py
+researcher_papers.egg-info/PKG-INFO
+researcher_papers.egg-info/SOURCES.txt
+researcher_papers.egg-info/dependency_links.txt
+researcher_papers.egg-info/entry_points.txt
+researcher_papers.egg-info/requires.txt
+researcher_papers.egg-info/top_level.txt
+scholar_author_scraper/__init__.py
+scholar_author_scraper/scholar_author_scraper.py
+tests/__init__.py
+tests/test_app.py

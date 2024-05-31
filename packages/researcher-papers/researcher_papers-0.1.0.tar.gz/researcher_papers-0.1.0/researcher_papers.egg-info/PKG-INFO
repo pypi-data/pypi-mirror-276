@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: researcher_papers
+Version: 0.1.0
+Summary: A package to fetch and save Google Scholar papers for a given researcher name
+Home-page: https://github.com/ganjbakhshali/scholar_author_scraper
+Author: Ali Ganj Bakhsh
+Author-email: ganjbakhsh.ali@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: scholarly
+
+# Researcher Papers
+
+A Python package to fetch and save Google Scholar papers for a given researcher.
+
+## Installation
+
+```bash
+pip install 
+```
