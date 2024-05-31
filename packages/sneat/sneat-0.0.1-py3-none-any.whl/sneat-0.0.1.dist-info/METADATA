@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sneat
+Version: 0.0.1
+Summary: Simplified implementation of NEAT (Neuro-Evolution of Augmenting Topologies).
+Author: Adrian E. Bratlann
+Author-email: aeb@tetrabit.coop
+License: GPLv3
+License-File: LICENSE
+Requires-Dist: matplotlib ==3.9.0
+Requires-Dist: networkx ==3.3
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: tabulate ==0.9.0
+Requires-Dist: tqdm ==4.66.4
+
