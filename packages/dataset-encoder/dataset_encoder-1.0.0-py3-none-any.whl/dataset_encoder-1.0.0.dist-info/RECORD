@@ -1,0 +1,12 @@
+dataset_encoder/__init__.py,sha256=dYOWqpcgJPj7L29KAWQG1LNyrbvTBdh7Bw7rDBkaE9o,943
+dataset_encoder/__version__.py,sha256=FD_Fx3FBkzgr7wNxIj05gLmyvT331tHnmWq6kFMOnsM,327
+dataset_encoder/categorical_encoder.py,sha256=OoQHMNZWwycGD8BmBk82xosdEon8tOr20RyG3USu59o,10036
+dataset_encoder/circular_encoder.py,sha256=afTcNLQglZGe6WG0FW2qdJ68MArgwdipoqsqOX7KNPQ,2606
+dataset_encoder/datetime_encoder.py,sha256=T-yd0TcF-Mk2_bbVOxny3TM96UubfwtTmdLdtShrFJ0,9370
+dataset_encoder/encoder.py,sha256=31m1Ji8mzUaGcETX3FGJCdZ5-ykvMIWR3CPgKHvqLfw,7996
+dataset_encoder/numerical_encoder.py,sha256=rt-qjyvUvDAP3GkRKMB_Ey-C5T3uy8f2MfdmzHw45c8,5980
+dataset_encoder-1.0.0.dist-info/LICENSE,sha256=HWZIb3XVXWnFgIIX8bR1q7khmj5M44MhmWLAPzsKn7U,11550
+dataset_encoder-1.0.0.dist-info/METADATA,sha256=QWmgV8bL7WMcEzA2WpvSnAbD19-7asGcxnzvT6SOY8U,14130
+dataset_encoder-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dataset_encoder-1.0.0.dist-info/top_level.txt,sha256=Xs4_T6fMLei31X8LF-F9Ed65qinPpXtHgpFagM645ew,16
+dataset_encoder-1.0.0.dist-info/RECORD,,
