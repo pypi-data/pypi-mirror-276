@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: roxCrypter
+Version: 1.0.0
+Summary: A custom encryption package for blank text & passwords
+Author: Samet Karapınar
+Author-email: skrpnr4@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE.md
+
