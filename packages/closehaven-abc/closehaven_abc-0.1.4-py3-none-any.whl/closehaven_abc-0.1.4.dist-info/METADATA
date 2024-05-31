@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: closehaven-abc
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fastapi ==0.111.0
+Requires-Dist: pydantic ==2.7.2
+Requires-Dist: azure-storage-blob ==12.20.0
+
+UNKNOWN
+
+
