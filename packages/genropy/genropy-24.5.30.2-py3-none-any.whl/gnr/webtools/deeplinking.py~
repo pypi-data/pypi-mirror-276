@@ -1,0 +1,48 @@
+#!/usr/bin/env pythonw
+# -*- coding: utf-8 -*-
+#
+#  webtools to handle deeplinks/universal links support
+#  for android and ios
+#
+#  Copyright (c) 2024 Softwell. All rights reserved.
+#
+
+from gnr.web.gnrbaseclasses import BaseWebtool
+from gnr.core.gnrdecorator import metadata
+
+class DeepLink(BaseWebtool):
+    @metadata(alias_url=self.url)
+    def __call__(self, *args, **kwargs):
+        #print(self.site.gnrapp.config.get("aaa", None))
+        return self.template.format()
+
+class DeepLinkIOS(DeepLink):
+    url = "/.well-known/apple-app-site-application"
+    content_type = "text/plain"
+    template = """
+    {
+        "applinks": {
+            "apps": [],
+            "details": [
+                {"appIDs":
+                 ["{apple_app_id}.{apple_app_bundle}", "{apple_team_id}.{apple_app_bundle}"],
+                 "components": [
+                     {
+                         "/": "/*",
+                         "comment": "match all URLs"
+                     }
+                 ]
+                }
+            ]
+        },
+        "webcredentials": {
+            "apps": ["{apple_app_id.{apple_app_bundle}", "{apple_team_id}.{apple_app_bundle}"]
+        }
+    }
+    """
+
+
+class DeepLinkAndroid(DeepLink):
+    url = "/.well-known/assetlinks.json"
+    content_type = "application/json"
+    template = "Hello android"
