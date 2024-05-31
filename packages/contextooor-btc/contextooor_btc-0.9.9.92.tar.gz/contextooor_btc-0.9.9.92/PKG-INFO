@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: contextooor-btc
+Version: 0.9.9.92
+Summary: "Get contextual information before broadcasting a transaction."
+Author-email: David Desjardins <david.thegardens@gmail.com>
+Requires-Dist: python-bitcoinlib
+Requires-Dist: polars
+Requires-Dist: pytest
+Requires-Dist: requests
