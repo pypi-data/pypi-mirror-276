@@ -1,0 +1,32 @@
+[project]
+name = "youqu-mousekey"
+description = ""
+authors = [
+    { name = "mikigo", email = "huangmingqiang@uniontech.com" },
+]
+dependencies = [
+    "funnylog",
+    "pyscreeze==0.1.28",
+    "pyautogui==0.9.53",
+    "easyprocess",
+]
+dynamic = [
+  "version",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+license = { text = "GPL2.0" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.hatch]
+version = { path = "youqu_mousekey/__version__.py" }
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    "/youqu_mousekey",
+]
+

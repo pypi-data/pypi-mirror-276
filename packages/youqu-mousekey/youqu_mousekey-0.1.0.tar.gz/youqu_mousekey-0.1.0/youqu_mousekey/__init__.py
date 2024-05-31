@@ -1,0 +1,1 @@
+from youqu_mousekey.mousekey import MouseKey

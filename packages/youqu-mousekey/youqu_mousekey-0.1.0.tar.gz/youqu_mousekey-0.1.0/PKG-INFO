@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: youqu-mousekey
+Version: 0.1.0
+Author-email: mikigo <huangmingqiang@uniontech.com>
+License: GPL2.0
+License-File: LICENSE
+Requires-Python: >=3.7
+Requires-Dist: easyprocess
+Requires-Dist: funnylog
+Requires-Dist: pyautogui==0.9.53
+Requires-Dist: pyscreeze==0.1.28
+Description-Content-Type: text/markdown
+
+# youqu-mousekey
+
+完美的键鼠控制工具
