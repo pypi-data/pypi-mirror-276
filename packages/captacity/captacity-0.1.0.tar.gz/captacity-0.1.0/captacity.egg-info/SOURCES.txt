@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+captacity/__init__.py
+captacity/segment_parser.py
+captacity/text_drawer.py
+captacity.egg-info/PKG-INFO
+captacity.egg-info/SOURCES.txt
+captacity.egg-info/dependency_links.txt
+captacity.egg-info/requires.txt
+captacity.egg-info/top_level.txt
+captacity/assets/fonts/Bangers-Regular.ttf
+captacity/assets/fonts/Knewave-Regular.ttf
+captacity/assets/fonts/PoetsenOne-Regular.ttf
