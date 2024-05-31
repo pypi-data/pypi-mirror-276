@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include mltoolkit_laht/data/BankReviews.csv
+
+# Exclude files and directories
+exclude .git
+exclude __pycache__
+exclude *.pyc
+exclude dev
