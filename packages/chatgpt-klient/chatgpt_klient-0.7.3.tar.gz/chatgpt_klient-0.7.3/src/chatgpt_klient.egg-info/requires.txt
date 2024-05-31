@@ -1,0 +1,7 @@
+requests>=2.31.0
+rich>=13.4.1
+tiktoken>=0.7.0
+logutils-serpucga>=0.1.9
+openai>=1.10.0
+tokenizers>=0.19.1
+transformers>=4.41.1
