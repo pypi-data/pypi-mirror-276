@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/OneNeuron_pypi_deepakchothe20.egg-info/PKG-INFO
+src/OneNeuron_pypi_deepakchothe20.egg-info/SOURCES.txt
+src/OneNeuron_pypi_deepakchothe20.egg-info/dependency_links.txt
+src/OneNeuron_pypi_deepakchothe20.egg-info/requires.txt
+src/OneNeuron_pypi_deepakchothe20.egg-info/top_level.txt
+src/oneneuron/__init__.py
+src/oneneuron/perceptron.py
