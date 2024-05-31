@@ -1,0 +1,219 @@
+Metadata-Version: 2.1
+Name: loopies-scraper
+Version: 0.0.6
+Summary: Web scraper for basic and/or list of pages scraping
+Author: tmspsk
+Keywords: python,scraper,multiprocess scraper,list,selenium webdriver
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium ==4.9.1
+Requires-Dist: fake-useragent ==1.5.1
+
+# General purpose Web scraping bot
+
+The purpose of the component is to provide flexibility in Selenium Webdriver configuration, enabling the preset configurations to be reused later, as well as offering other support functions, turning the Selenium WebDriver into a bot designed to extract data from web pages where the data is rendered after the HTML document is downloaded (data that is loaded with JavaScript).
+
+## Installation Options
+
+### Requirements:
+* Python 3.7 or newer;
+* Selenium library version 4.9.1;
+* geckodriver (Firefox) or chromedriver (Chrome) files must be placed in the `./webdrivers/` directory;
+* Tor service configuration is required for Tor proxy settings to work.
+
+### Installation options:
+
+**Install as a Python module**
+
+Install using pip:
+```sh
+pip install loopies-scraper
+```
+
+**Komponento diegimas kaip programinio kodo**
+1. Download the project from the GitHub repository:
+```sh
+git clone https://github.com/tmspsk/loopies-scraper.git 
+```
+2. Navigate to the downloaded directory:
+```sh
+cd loopies-scraper
+```
+3. Install all required components:
+```sh
+pip install -r requirements.txt
+```
+
+The component uses the Selenium 4.9.1 package, and this specific version must be used for the component to function as intended.
+
+## Quickstart
+
+#### Example 1: Using MultiprocessScraper Class Without URL List Function
+
+```python
+from loopies_scraper.multiprocess_scraper import MultiprocessScraper
+
+def scrape_page(scraper):
+    scraper.navigate_to_page('http://example.com')
+    data = scraper.find_elements(By.CSS_SELECTOR, "p")
+    return data
+
+def main():
+    scraper = MultiprocessScraper(driver_name='firefox', proxy='default', processes_count=3)
+    scraper.basic_task(task_function=scrape_page)
+
+if __name__ == "__main__":
+    main()
+```
+
+In this example:
+1. A MultiprocessScraper instance is created with 3 processes;
+2. The scrape_page function navigates to http://example.com and extracts data;
+3. The collected data is saved to the default ./data.json file.
+
+#### Example 2: Using MultiprocessScraper Class with URL List Function
+
+```python
+from loopies_scraper.multiprocess_scraper import MultiprocessScraper
+from selenium.webdriver.common.by import By
+
+def list_function(scraper, data_manager):
+    scraper.navigate_to_page('http://example.com')
+    urls = scraper.find_elements(By.CSS_SELECTOR, "a")
+    for url in urls:
+        data_manager.queue.put(url.get_attribute('href'))
+
+def scrape_page(scraper, url):
+    scraper.navigate_to_page(url)
+    data = scraper.extract_data()
+    return data
+
+def main():
+    scraper = MultiprocessScraper(driver_name='chrome', proxy='default', processes_count=3)
+    scraper.list_task(task_function=scrape_page, list_function=list_function)
+
+if __name__ == "__main__":
+    main()
+```
+
+In this example:
+1. A MultiprocessScraper instance is created with 3 processes;
+2. The list_function parameter extracts a list of URLs and saves them in data_manager.queue;
+3. The scrape_page function is executed in parallel, navigating through the saved URLs and extracting data;
+4. The collected data is saved to the ./data.json file.
+
+#### Example 3: Using Scraper Class
+
+```python
+from loopies_scraper.scraper import Scraper
+
+def main():
+    scraper = Scraper(driver_name='chrome', proxy='default')
+    scraper.driver.get('https://www.basketball-reference.com/')
+    international_leagues = WebDriverWait(scraper.driver, 30).until(EC.presence_of_element_located((By.XPATH, './/div[@id="leagues_primary"]//h2//a')))
+    scraper.scroll_to_element(international_leagues)
+    scraper.click_on_element(international_leagues)
+    time.sleep(60)
+
+if __name__ == "__main__":
+    main()
+```
+
+In this example:
+1. A Scraper instance is created with the Chrome browser and default proxy settings;
+2. The scraper navigates to the URL https://www.basketball-reference.com/;
+3. It waits until the link element is available;
+4. The scrolling function is used to scroll to the link element;
+5. The clicking function is used to click on the element.
+
+#### Example 4: Using MultiprocessScraper Class with Tor Proxy
+
+```python
+from loopies_scraper.multiprocess_scraper import MultiprocessScraper
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+def task(scraper: object = None):
+    scraper.driver.get('https://check.torproject.org/')
+    link = WebDriverWait(scraper.driver, 30).until(EC.presence_of_element_located((By.XPATH, ".//a[contains(text(), 'Tor website')]")))
+    scraper.scroll_to_element(link)
+    scraper.click_on_element(link)
+    time.sleep(60)
+
+def main():
+    scraper = MultiprocessScraper(driver_name='firefox', proxy='tor', processes_count=2)
+    scraper.basic_task(task)
+
+if __name__ == "__main__":
+    main()
+```
+
+In this example:
+1. A task function is defined, which will be executed by the web scraper:
+    1. Navigates to the specified website https://check.torproject.org/.
+    2.  Waits until the DOM element with the text "Tor website" is available.
+    3. Uses the scrolling function to scroll to the found element.
+    4. Uses the clicking function to click on the found element.
+2. A MultiprocessScraper instance is created with the Firefox browser, using Tor proxy and 2 processes.
+3. The basic_task function is initiated, which will execute the task function in parallel.
+
+## Documentation
+
+### Scraper Class and MultiprocessScraper Class
+
+The `Scraper` class enables the execution of individual web page navigation and data extraction tasks by inheriting functionality from `WebDriverController`.
+
+### Scraper Class
+
+#### Constructor:
+```python
+__init__(self, driver_name: str, proxy: str = None) -> None
+```
+* `driver_name`: The name of the browser to be used (options: "chrome", "firefox").
+* `proxy`: Proxy settings.
+
+### MultiprocessScraper Class
+The MultiprocessScraper class enables parallel execution of data extraction tasks using multiple processes. It manages browsers, data collection, and saving.
+
+#### Constructor:
+```python
+__init__(self, driver_name: str = None, proxy: str = None, processes_count: int = 1, file_path: str = './data.json') -> None
+```
+* `driver_name`: The name of the browser to be used (options: "chrome", "firefox").
+* `proxy`: Proxy settings.
+* `processes_count`: Number of processes.
+* `file_path`: The file path to save the collected data.
+
+#### Methods:
+* `process_target(self, task_function: object = None, list_function: object = None)`: Executes the main task function after the first process collects the list of links. Used to collect data from list-type pages whose links are collected via the provided list_function parameter.
+* `process_target_basic(self, task_function: object = None)`: Executes the main task using the provided function for collecting data from a single page. Used to perform single-type tasks provided by the task_function parameter.
+* `start_processes(self, task_function: object = None, list_function: object = None)`: Starts the execution of specified tasks using multiple processes.
+* `basic_task(self, task_function: object = None)`: Starts the main task without collecting a list of links.
+* `list_task(self, task_function: object = None, list_function: object = None)`: Starts the main task with link list collection.
+
+### Additional Classes
+These classes are auxiliary and not directly accessible to the user, but they are used in the WebDriverController class for browser management.
+
+### WebDriverController Class
+The WebDriverController class manages the browser instance and provides common functions for working with the browser.
+
+#### Constructor:
+```python
+__init__(self, driver_name: str, proxy: str = None) -> None
+```
+* `driver_name`: The name of the browser to be used.
+* `proxy`: Proxy settings.
+
+#### Methods:
+* `scroll_to_element(self, element)`: Scrolls to the specified element.
+* `click_on_element(self, element)`: Clicks on the specified element.
+* `hide_element(self, element)`: Hides the specified element.
+
+### GeckodriverProfile and ChromedriverOptions Classes
+The GeckodriverProfile and ChromedriverOptions classes configure options for the Firefox and Chrome browsers. By installing the component as source code, these classes can be used to define frequently used browser settings for reuse.
