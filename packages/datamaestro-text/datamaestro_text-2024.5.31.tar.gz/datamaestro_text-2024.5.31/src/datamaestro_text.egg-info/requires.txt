@@ -1,0 +1,3 @@
+datamaestro>=1.1.1
+ir_datasets
+attrs
