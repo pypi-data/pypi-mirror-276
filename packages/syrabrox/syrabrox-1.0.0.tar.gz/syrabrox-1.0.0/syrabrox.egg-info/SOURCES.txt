@@ -1,0 +1,9 @@
+README.md
+setup.py
+syrabrox/__init__.py
+syrabrox/main.py
+syrabrox.egg-info/PKG-INFO
+syrabrox.egg-info/SOURCES.txt
+syrabrox.egg-info/dependency_links.txt
+syrabrox.egg-info/entry_points.txt
+syrabrox.egg-info/top_level.txt

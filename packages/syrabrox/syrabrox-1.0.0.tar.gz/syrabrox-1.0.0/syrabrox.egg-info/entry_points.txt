@@ -1,0 +1,2 @@
+[console_scripts]
+syrabrox = syrabrox:error
