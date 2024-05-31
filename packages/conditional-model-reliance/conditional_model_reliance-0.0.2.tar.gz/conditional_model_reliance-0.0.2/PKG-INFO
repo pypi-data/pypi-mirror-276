@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: conditional_model_reliance
+Version: 0.0.2
+Summary: Python package for the conditional model reliance (CMR, see Fisher et al. 2019) variable importance metric.
+Project-URL: Homepage, https://github.com/aksharye/conditional-model-reliance
+Project-URL: Issues, https://github.com/aksharye/conditional-model-reliance/issues
+Author-email: Akshar Yeccherla <aksharye@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Conditional Model Reliance
+
+Python package for the conditional model reliance (CMR, see [Fisher et al., 2019](http://www.jmlr.org/papers/v20/18-760.html)) variable importance metric.
