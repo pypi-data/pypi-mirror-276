@@ -1,0 +1,12 @@
+jaxid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaxid/common.py,sha256=ZhfeCfF_0AyvRAa5X1ebn8lB1NNLdiKaCcid2UsoLTs,557
+jaxid/datasets.py,sha256=99kQjFIn25kfpAnAgvcPcyZKBz_QoR6JZo4HWneNHlM,1689
+jaxid/dynonet.py,sha256=_V0OFP-Quvpia8HH74HdxVxsgwxI5hYMZK1OVUaY-Ag,3774
+jaxid/lru.py,sha256=nNKflsCpBB-DWKcFRcbvsdEgVJniRWwPBDSS2r33MlE,8103
+jaxid/metrics.py,sha256=eVObVxN4AXZmCk14qfZx-I1Ab36fg67SfQ2t8SUGwHo,4693
+jaxid/statespace.py,sha256=ej-wyUd3GMRPe8WiIf5lhaQwWcPWIJVcUjGXRRBV7BQ,2074
+jaxid-0.2.dist-info/LICENSE,sha256=jCbyi2ePsfg6K_SpJaEJdndAlN8tMgdU9FqzaBlE0bo,1071
+jaxid-0.2.dist-info/METADATA,sha256=755_37QUnEGlSBUSwL-Y1W2NtTSf-agti3cLdsfEVk4,825
+jaxid-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jaxid-0.2.dist-info/top_level.txt,sha256=kAIuKPPAA6bs9IM8JWdmGz2yewNeBUvgQuqjLlKJNQE,6
+jaxid-0.2.dist-info/RECORD,,
