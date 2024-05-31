@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sensingcluespy
+Version: 0.2.3
+Summary: Python client to extract data from SensingClues
+Author-email: sensing_clues <sensingclues@typemail.com>
+License: MIT
+Project-URL: Homepage, https://sensingcluespy.readthedocs.io/en/latest/index.html
+Keywords: wildlife,SensingClues,Cluey
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: geojson
+Requires-Dist: geopandas
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: autopep8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: jupyterlab; extra == "dev"
+Requires-Dist: jupytext; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pip; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pydantic; extra == "dev"
+Requires-Dist: pycodestyle; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-runner; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-socket; extra == "dev"
+Requires-Dist: python-dotenv; extra == "dev"
