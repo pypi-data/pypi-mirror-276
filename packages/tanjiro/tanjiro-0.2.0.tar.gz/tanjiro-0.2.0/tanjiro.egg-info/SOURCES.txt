@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+tanjiro/__init__.py
+tanjiro/chatgpt.py
+tanjiro/maths.py
+tanjiro.egg-info/PKG-INFO
+tanjiro.egg-info/SOURCES.txt
+tanjiro.egg-info/dependency_links.txt
+tanjiro.egg-info/top_level.txt
