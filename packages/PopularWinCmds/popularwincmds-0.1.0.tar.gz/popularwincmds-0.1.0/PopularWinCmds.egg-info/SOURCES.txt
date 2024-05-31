@@ -1,0 +1,5 @@
+setup.py
+PopularWinCmds.egg-info/PKG-INFO
+PopularWinCmds.egg-info/SOURCES.txt
+PopularWinCmds.egg-info/dependency_links.txt
+PopularWinCmds.egg-info/top_level.txt
