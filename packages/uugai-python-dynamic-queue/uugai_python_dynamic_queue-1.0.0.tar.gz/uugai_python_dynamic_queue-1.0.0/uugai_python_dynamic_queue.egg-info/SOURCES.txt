@@ -1,0 +1,9 @@
+README.md
+setup.py
+uugai_python_dynamic_queue/MessageBrokers.py
+uugai_python_dynamic_queue/__init__.py
+uugai_python_dynamic_queue.egg-info/PKG-INFO
+uugai_python_dynamic_queue.egg-info/SOURCES.txt
+uugai_python_dynamic_queue.egg-info/dependency_links.txt
+uugai_python_dynamic_queue.egg-info/requires.txt
+uugai_python_dynamic_queue.egg-info/top_level.txt
