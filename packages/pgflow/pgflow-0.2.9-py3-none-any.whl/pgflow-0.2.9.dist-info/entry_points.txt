@@ -1,0 +1,3 @@
+[console_scripts]
+pgflow=pgflow.main:main
+
