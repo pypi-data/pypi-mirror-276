@@ -1,0 +1,11 @@
+embeddings,slide_id,target,split
+embeddings/tensor_0_shape_6x8.pt,slide_0,1,train
+embeddings/tensor_1_shape_3x8.pt,slide_0,1,train
+embeddings/tensor_2_shape_1x8.pt,slide_1,0,train
+embeddings/tensor_3_shape_2x8.pt,slide_2,0,train
+embeddings/tensor_4_shape_5x8.pt,slide_3,1,val
+embeddings/tensor_5_shape_3x8.pt,slide_4,0,val
+embeddings/tensor_6_shape_1x8.pt,slide_4,0,val
+embeddings/tensor_7_shape_6x8.pt,slide_5,1,test
+embeddings/tensor_8_shape_2x8.pt,slide_5,1,test
+embeddings/tensor_9_shape_5x8.pt,slide_6,0,test

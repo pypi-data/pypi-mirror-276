@@ -1,0 +1,9 @@
+embeddings,target,split
+embeddings/tensor_0_shape_8.pt,1,train
+embeddings/tensor_1_shape_8.pt,1,train
+embeddings/tensor_2_shape_8.pt,0,val
+embeddings/tensor_3_shape_8.pt,0,test
+embeddings/tensor_4_shape_1x8.pt,0,train
+embeddings/tensor_5_shape_1x8.pt,0,val
+embeddings/tensor_6_shape_1x8.pt,0,test
+embeddings/tensor_7_shape_1x8.pt,0,test

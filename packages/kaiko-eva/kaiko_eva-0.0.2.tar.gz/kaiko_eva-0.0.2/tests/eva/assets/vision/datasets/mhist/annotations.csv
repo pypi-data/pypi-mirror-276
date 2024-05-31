@@ -1,0 +1,8 @@
+Image Name,Majority Vote Label,Number of Annotators who Selected SSA (Out of 7),Partition
+MHIST_aaa.png,SSA,6,train
+MHIST_aab.png,HP,0,train
+MHIST_aac.png,SSA,5,train
+MHIST_aae.png,HP,1,train
+MHIST_aaf.png,SSA,5,train
+MHIST_aag.png,HP,2,test
+MHIST_aah.png,HP,2,test
