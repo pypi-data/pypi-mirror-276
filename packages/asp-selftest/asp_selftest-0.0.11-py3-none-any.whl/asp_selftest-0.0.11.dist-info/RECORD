@@ -1,0 +1,13 @@
+asp_selftest/__init__.py,sha256=Mua0CY5mXA7mlS840Uy52Ui5a5AuUnc4XDaRDz3yk_A,687
+asp_selftest/__main__.py,sha256=Tc2i-lhE9dGbNkMrn-6CnSw3dmQqzHJsBb29kulO4g0,1457
+asp_selftest/duplicate_assert.lp,sha256=nA4PdEB8tAWqdJ45FmGm9SBE342l7ywnlyyxSBM115g,831
+asp_selftest/example.lp,sha256=XEElOqEBQlIHLIkR2pzljZ9wUJvECN3kd3L7DgaoUAM,180
+asp_selftest/queens.lp,sha256=94JTB_W1LhcKMX3tb1Z0Jy9YHYVebwCozsUNG6_s9bc,1277
+asp_selftest/runasptests.py,sha256=weKrr9Bedx-rRgHfI2-ooDVUS7UCiEQOX0Ax1l7pyws,9171
+asp_selftest-0.0.11.data/scripts/runasptests.sh,sha256=_9ubHn8fNeLpIHNQEDUpdxXSsQl-s3J93bI2tA7GzVc,357
+asp_selftest-0.0.11.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+asp_selftest-0.0.11.dist-info/METADATA,sha256=_XazrVDelK_sy5fPV575LDh7GaE0BAwMzn6jUmaA8dg,3312
+asp_selftest-0.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+asp_selftest-0.0.11.dist-info/entry_points.txt,sha256=KR8WaA02DADmkGBZXT4Mh71UErYkU4Xlv5EZyhJAJ4g,52
+asp_selftest-0.0.11.dist-info/top_level.txt,sha256=yqtWSBkefChhbBUnDp_e44ngIbhjDDXC6imCD_9Duag,13
+asp_selftest-0.0.11.dist-info/RECORD,,
