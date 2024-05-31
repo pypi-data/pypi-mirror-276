@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "frida-start"
+dynamic = ["version"]
+description = "Wrapper tool to identify the remote device and push device specific frida-server binary."
+readme = "README.md"
+license = "gpl-3.0-or-later"
+requires-python = ">= 3.8"
+dependencies = ["requests", "frida"]
+
+[project.urls]
+Source = "https://github.com/davidpatel0/frida-start"
+
+[project.scripts]
+frida-start = "frida_start.command:main"
+
+[tool.hatch.version]
+path = "frida_start/__init__.py"
