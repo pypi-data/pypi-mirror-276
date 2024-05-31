@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gigawave"
+version = "1.0.7"
+authors = [
+  { name="Samuel Li", email="samuel@sjl-instruments.com" },
+]
+description = "Official Python SDK for GigaWave™ 6000-Series Oscilloscopes."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.5.0",
+    "pyserial>=3.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/SJL-Instruments/GigaWave-SDK"
