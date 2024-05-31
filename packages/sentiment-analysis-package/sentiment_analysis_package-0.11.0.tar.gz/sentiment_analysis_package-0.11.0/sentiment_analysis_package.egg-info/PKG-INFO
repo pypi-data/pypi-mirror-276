@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sentiment_analysis_package
+Version: 0.11.0
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pydantic
+Requires-Dist: strictyaml
+Requires-Dist: joblib
+Requires-Dist: nltk

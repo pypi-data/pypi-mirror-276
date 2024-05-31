@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+pydantic
+strictyaml
+joblib
+pytest
+mypy
+tox
+black
+flake8
+isort
+nltk
+tqdm
+pyyaml
