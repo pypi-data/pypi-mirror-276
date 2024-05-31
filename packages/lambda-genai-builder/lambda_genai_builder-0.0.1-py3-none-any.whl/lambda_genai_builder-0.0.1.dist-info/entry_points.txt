@@ -1,0 +1,2 @@
+[console_scripts]
+lambda-genai-proj-build = lambda_genai_builder.cli:create_gen_ai_project_structure
