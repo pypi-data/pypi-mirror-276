@@ -1,0 +1,12 @@
+textIntegrityInspector/__init__.py,sha256=0_3Yp27TUoLLyXbmVlpdy0deJr-tJ9h_apBsca99qhc,205
+textIntegrityInspector/__main__.py,sha256=gjC6lE30YYYj2aXBz-MCNdqct9wbZnYMHdi2EKyt_7E,4692
+textIntegrityInspector/languageData.py,sha256=pWWraKBjcYL8_L-ee26gTo9OyIAOH9hjOROMOGPesNM,2715
+textIntegrityInspector/validator.py,sha256=AIHQDG87baH5nMXlXoDGgiXKxhaMhTw8oL9J0ZiU2i4,6475
+textIntegrityInspector-0.1.5.dist-info/AUTHORS,sha256=f_TPKzUpFI738yCZt6Mgvn1acVo-ZzMqEOxAL5F2PII,110
+textIntegrityInspector-0.1.5.dist-info/LICENSE,sha256=EBHuFtd95yGdCL_P7aDoAJ1Hpk47qTqfjPcWWfDXtZA,1069
+textIntegrityInspector-0.1.5.dist-info/METADATA,sha256=r1W38RbY7z4soykAyu3-ew6O-e9h95zyfpfQ6OIEWJc,3639
+textIntegrityInspector-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+textIntegrityInspector-0.1.5.dist-info/entry_points.txt,sha256=59vLjY9h0gu4WdvENz7Je9odxfoi0ItOBfJ4m52DgLY,80
+textIntegrityInspector-0.1.5.dist-info/pbr.json,sha256=o5kRbUXHeJiFW_gGASliQm8wakDvJIb8MOfVfyhq_Ak,47
+textIntegrityInspector-0.1.5.dist-info/top_level.txt,sha256=sFrnxeB_Drysg9iE5ilQuj1URuNqVoe4weZmd6fJMEw,23
+textIntegrityInspector-0.1.5.dist-info/RECORD,,
