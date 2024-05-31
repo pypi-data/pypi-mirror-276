@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "py-bmd-abaqus"
+version = "0.1.0"
+description = "This library was created in order to assign trabecular bone material property values to an ABAQUS CAE input mesh file (INP). This script uses the \"Pooled\" Morgan et al. Modulus-Density relationship - retrieved from DOI: 10.1016/s0021-9290(03)00071-x in order to calculate material modulus from density in g/cm^3. This tool also returns an array of element HU, density, or modulus values which can be used to easy evaluation of bone quality in the meshed region."
+authors = ["Dr. David E. Cunningham, Ph.D."]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.9.0"
+pydicom = "^2.4.4"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+numba = "^0.59.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
