@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "FJsim"
+version = "1.1"
+authors = [
+  { name="Giorgio Sorgente", email="giorgiosorgente@hotmail.com" },
+]
+description = "A module capable of simulating the spreading of an opinon in a given network using the Friedkin-Johnsen model."
+readme = "README.md"
+requires-python = ">=3.9.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Giorgio-ctrl/Friedkin-Johnsen-model-simulator"
+Issues = "https://github.com/Giorgio-ctrl/Friedkin-Johnsen-model-simulator/issues"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["FJsim"]
