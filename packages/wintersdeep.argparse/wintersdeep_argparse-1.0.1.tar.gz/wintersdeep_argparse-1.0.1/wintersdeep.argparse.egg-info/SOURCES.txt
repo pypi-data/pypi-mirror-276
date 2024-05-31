@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+tests/test_argparse.py
+wintersdeep.argparse.egg-info/PKG-INFO
+wintersdeep.argparse.egg-info/SOURCES.txt
+wintersdeep.argparse.egg-info/dependency_links.txt
+wintersdeep.argparse.egg-info/top_level.txt
+wintersdeep/argparse/__init__.py
+wintersdeep/argparse/argument_parser.py
+wintersdeep/argparse/mapping_choices_action.py
