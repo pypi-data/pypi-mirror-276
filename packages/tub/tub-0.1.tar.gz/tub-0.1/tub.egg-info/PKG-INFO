@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tub
+Version: 0.1
+Summary: tub use baidu-api
+Home-page: https://github.com/ZZPHUB/tub
+Author: Zhang Zhi Peng
+Author-email: 3571669089@qq.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: urllib3
