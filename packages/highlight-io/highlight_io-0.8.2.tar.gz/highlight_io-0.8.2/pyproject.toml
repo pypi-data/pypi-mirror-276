@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "highlight-io"
+version = "0.8.2"
+description = "Session replay and error monitoring: stop guessing why bugs happen!"
+license = "Apache-2.0"
+authors = [
+    "Vadim Korolik <vadim@highlight.io>",
+    "Jay Khatri <jay@highlight.io>",
+    "Spencer Amarantides <spencer@highlight.io>",
+]
+readme = "README.md"
+homepage = "https://www.highlight.io"
+repository = "https://github.com/highlight/highlight"
+documentation = "https://www.highlight.io/docs"
+keywords = [
+    "web",
+    "framework",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: Flask",
+    "Topic :: Software Development",
+    "Topic :: System :: Monitoring"
+]
+packages = [{ include = "highlight_io" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+opentelemetry-api = "^1"
+opentelemetry-distro = "^0"
+opentelemetry-exporter-otlp-proto-http = "^1"
+opentelemetry-instrumentation = "^0"
+opentelemetry-proto = "^1"
+opentelemetry-sdk = "^1"
+opentelemetry-instrumentation-anthropic = "^0"
+opentelemetry-instrumentation-bedrock = "^0"
+opentelemetry-instrumentation-boto = "^0"
+opentelemetry-instrumentation-boto3sqs = "^0"
+opentelemetry-instrumentation-celery = "^0"
+opentelemetry-instrumentation-chromadb = "^0"
+opentelemetry-instrumentation-cohere = "^0"
+opentelemetry-instrumentation-haystack = "^0"
+opentelemetry-instrumentation-langchain = "^0"
+opentelemetry-instrumentation-llamaindex = "^0"
+opentelemetry-instrumentation-logging = "^0"
+opentelemetry-instrumentation-openai = "^0"
+opentelemetry-instrumentation-pinecone = "^0"
+opentelemetry-instrumentation-qdrant = "^0"
+opentelemetry-instrumentation-redis = "^0"
+opentelemetry-instrumentation-replicate = "^0"
+opentelemetry-instrumentation-requests = "^0"
+opentelemetry-instrumentation-sqlalchemy = "^0"
+opentelemetry-instrumentation-transformers = "^0"
+opentelemetry-instrumentation-vertexai = "^0"
+opentelemetry-instrumentation-watsonx = "^0"
+opentelemetry-instrumentation-weaviate = "^0"
+urllib3 = "^2.2.1"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+azure-functions = "^1"
+black = "^24"
+blinker = "^1"
+django = "^4"
+fastapi = "^0"
+flask = "^3"
+functions-framework = "^3"
+loguru = "^0"
+orjson = "3.9.15"
+pytest = "^8"
+pytest-asyncio = "^0"
+pytest-cov = "^5"
+pytest-mock = "^3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
