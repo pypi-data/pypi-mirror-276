@@ -1,0 +1,12 @@
+napari_trackastra/__init__.py,sha256=5PqZP3CxpZt5XKla8XUJL1vvlgw4tVb3ZAnf_YjOZ8M,51
+napari_trackastra/_sample_data.py,sha256=e0RDkn7BG65lk9-eZvqUmGOOfRVvMKE9XLqmZQOajH4,759
+napari_trackastra/_widget.py,sha256=fIG5Z3VjFgwcDZkzFiDILqZ8R66xv7ajuv_c9oclMuE,5032
+napari_trackastra/napari.yaml,sha256=RlkicIv_nax_QwS8gv9GKFNTDITQZ63EAgfVY_StV1M,932
+napari_trackastra/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_trackastra/_tests/test_widget.py,sha256=Cgfi1_O_Cn3mUlc_trsr73bP5xM8lsfBgQT8KmbeHQ0,372
+napari_trackastra-0.0.1.dist-info/LICENSE,sha256=7PxKjGEDWY3x_EJHW_eWAB6PGN_ZRJRYt9kFg1abisc,1489
+napari_trackastra-0.0.1.dist-info/METADATA,sha256=cgl01z0rRLJFk24L7e4kRaFG-V_j0GlF7M7KKSQt7No,3925
+napari_trackastra-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+napari_trackastra-0.0.1.dist-info/entry_points.txt,sha256=ifvCQaohymUeMmOVpspwTq87gX2hYbHFi7Q1PTqdlTE,68
+napari_trackastra-0.0.1.dist-info/top_level.txt,sha256=LbAuCfSBt7nKrKckvbzdkYOqmVP3wOhp0Eeb7B7gpRU,18
+napari_trackastra-0.0.1.dist-info/RECORD,,
