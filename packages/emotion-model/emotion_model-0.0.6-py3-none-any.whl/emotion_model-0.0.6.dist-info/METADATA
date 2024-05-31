@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: emotion-model
+Version: 0.0.6
+Summary: Emotion recognition package made with keras.
+Home-page: https://github.com/Ilyaant/emotion-clf-package
+Author: Ilya Antonov & Paul Khoner
+Author-email: m1908142@edu.misis.ru
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: absl-py ==2.1.0
+Requires-Dist: annotated-types ==0.7.0
+Requires-Dist: astunparse ==1.6.3
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: contourpy ==1.2.1
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: flatbuffers ==24.3.25
+Requires-Dist: fonttools ==4.52.1
+Requires-Dist: gast ==0.5.4
+Requires-Dist: google-pasta ==0.2.0
+Requires-Dist: grpcio ==1.64.0
+Requires-Dist: h5py ==3.11.0
+Requires-Dist: idna ==3.7
+Requires-Dist: importlib-metadata ==7.1.0
+Requires-Dist: importlib-resources ==6.4.0
+Requires-Dist: joblib ==1.4.2
+Requires-Dist: keras ==3.3.3
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: libclang ==18.1.1
+Requires-Dist: Markdown ==3.6
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.5
+Requires-Dist: matplotlib ==3.9.0
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: ml-dtypes ==0.3.2
+Requires-Dist: namex ==0.0.8
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: opencv-python ==4.9.0.80
+Requires-Dist: opt-einsum ==3.3.0
+Requires-Dist: optree ==0.11.0
+Requires-Dist: packaging ==24.0
+Requires-Dist: pillow ==10.3.0
+Requires-Dist: pipeline ==0.0.3
+Requires-Dist: protobuf ==4.25.3
+Requires-Dist: pydantic ==2.6.4
+Requires-Dist: pydantic-core ==2.16.3
+Requires-Dist: pygments ==2.18.0
+Requires-Dist: pyparsing ==3.1.2
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: requests ==2.32.2
+Requires-Dist: rich ==13.7.1
+Requires-Dist: scikeras ==0.13.0
+Requires-Dist: scikit-learn ==1.5.0
+Requires-Dist: scipy ==1.13.1
+Requires-Dist: six ==1.16.0
+Requires-Dist: strictyaml ==1.7.3
+Requires-Dist: tensorboard ==2.16.2
+Requires-Dist: tensorboard-data-server ==0.7.2
+Requires-Dist: tensorflow ==2.16.1
+Requires-Dist: tensorflow-intel ==2.16.1
+Requires-Dist: tensorflow-io-gcs-filesystem ==0.31.0
+Requires-Dist: termcolor ==2.4.0
+Requires-Dist: threadpoolctl ==3.5.0
+Requires-Dist: typing-extensions ==4.12.0
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: werkzeug ==3.0.3
+Requires-Dist: wrapt ==1.16.0
+Requires-Dist: zipp ==3.19.0
+
+# Emotion model
+
+## Установка библиотеки
+
+Чтобы установить библиотеку, выполните:
+
+```
+pip install emotion-model
+```
+
+После этого сделайте вызов функции на вашем изображении, чтобы получить предсказание:
+
+```
+from emotion_model.predict import make_prediction
+
+result = make_prediction(<Путь к вашему изображению>)
+
+print(result)
+```
+
+
