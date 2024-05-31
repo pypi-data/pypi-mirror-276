@@ -1,0 +1,153 @@
+#1. integrate gb2fasta
+#2. integrate batch_query
+#3. integrate uniq
+#4. integrate remove-long
+#5. use Shannon Index
+#6. pick primer pair
+#7. too few primer found!!!!!!!!!!!!!
+#8. some primers do not have info (test2,156989)
+#9. 30min for a cp genome, too slow
+#10. try to replace Bio.SearchIO (10 second+, 50% of runtime)
+#11. +1 or not
+#12. use tree_value or not, mafft seems give 1.0 always
+#13. too slow for chloroplast genome, 10 samples, 6 hours
+#14. difflib
+#15. log
+#16. give fragment name by gb file
+#17. use time.test2 to profile
+#18. too much primer candidate
+#19. update_id for Pair
+#20. Fabaceae got zero primer, does length have to larger than 0?
+#21. use fragments to test
+22. 3' 3-5 base must match
+23. GC content
+24. delta G
+#25. integrate mafft
+#26. matK.aln use 89 seconds, need profiling (now 7s)
+#27. clean output file
+#28. print hint
+#29. reorder functions
+#30. package
+#31. update to pip
+#32. requirement
+#33. readme
+#34. figure title as gene name
+#35. rps12
+#36. output path
+#37. utf-8
+#38. use namedtuple
+39. BiopythonParserWarning: Expected sequence length 491, found 1083 (U58558.1).
+#40. add animal order
+#41. use avg to calc tm
+#42. stop 1 for divide, 2 for analyze, 3 for primer design
+#43. TypeError: unique() got an unexpected keyword argument 'axis'
+#44. time usage, memory usage
+45. >CBS|Primates|Hominidae|Homo|sapiens|X87816|
+#46. primer3-py is hard to install
+#47. merge primers result
+#48. test aln output path
+#49. windows blast, macos
+#50. test large data
+#51. test quick example
+#52. check memory usage of pick_pair
+#53. no_gap.fasta should not be put on current workdir
+#54. Pair's init seems slow
+55. score #and sample number
+#56. genaf for genome?
+#57. trnK_matK?(get_spacer())
+#58. do not check dependency if stop 1
+#59. use set to speedup order_exceptions
+#60. figure axis
+#61. test install
+#62. iqtree to IQ-TREE
+63. max_hsp, filter
+#64. data missing at head/tail
+65. blast score/penalty
+#66. use requests instead of biopython to solve timeout
+#67. add note for fake class/kingdom
+#68. rewrite uniq
+#69. fix no_divide
+70. NC_ repeat with other accession
+#71. plastid or chloroplast
+#72. expand 0 if stop 1
+#73. intron
+#74. gene CDS tRNA rRNA spacer
+75. upstream/downstream gene
+76. No. of gene
+#77. isotype or specimen
+78. strand
+#79. consider to use primer3 rather than primer3-py
+#80. A_B or B_A
+#81. use pathlib
+#82. readme for gb.plus, spacer options
+#83. expand create new feature instead of change old
+#84. repeat option apply on gene
+#85. repeat rrna
+#86. indent for log
+#87. intron for trna and rrna that missed in gene
+#88. exist intron may me repeat
+#89. primer3-py 0.5.7 for python3.6: macosx windows /python3.7:macosx
+#90. docker or exe
+#91. GUI
+92. all DNASP method
+93. option for gap, another kind of base/ignore/penalty
+94. simple or full lineage
+#95. few dependency
+96. remove short seq
+97. recognize weird seq
+98. simple readme
+99. readme for chinese
+100. genaf for spacer
+101. gooey is too big, use tkinter?
+#102. lineage exception sperated from source code (use pkg_resource?)
+#103. remove temp log
+#104. filter length
+105. filter sequences with too much gap
+106. conda
+107. clean comment
+#108. type.name.fasta
+#109. remove tmp files
+110. intron_intronIndex
+111. user-defined id format string
+112, rename trn, gene name list
+#113. shannon index may be negative
+#114. digit 4
+115. gap in head and tail
+116. better uniq
+#117. x axis of figure
+118. analyse distribution of data on Genbank
+#119. write name.type.fasta?
+#120. remove by-name
+121. AH009860 have clear annotation of every part in ITS, but MN528716 only use "contains ITS, 5.8s, etc"
+122. HC476670 have CDS but not gene
+123. check genbank file to remove empty record is too slow, how to directly exclude them when querying in Genbank
+#124. option for long/short sequence id
+#125. integrate rename
+#126. regular expression for rename gene is not good
+127. Z00028 has bad annotation of introns
+128. check genbank file is too slow
+129. cannot extract X68919,X68889,X68921
+#130. ITS too much is Unknown
+#131. spacer misc_feature, intergenic_spacer_region/intergenic_spacer
+#132. split to 3 modules
+#133. trnH-psbA or psbA-trnH
+#134. copy user's input to output folder to make working folder clean
+135. filename may be duplicate in Windows
+136. abnormal length in divide_gene
+137. continue to download if break
+#138. skip tree in Pair if arg.fast
+#139. remove clean_path
+#140. remove Temp.log
+141. clean empty fasta record
+142. trnfM, trnM, trnF
+143. test init in linux and mac
+144. atpB-rbcL and rbcL-atpB
+145. tRNA His (GUG)
+146. annotation across tail and head will be misextracted
+# 147. add web interface
+# 148. ImportError: cannot import name 'Iterable' from 'collections'
+# 2022.4.14
+# 149. remove primer3-py or restrict python version in windows
+150. Invalid alignment file E:\Linux\barcodefinder\Result\Alignment\CDS-atpB-consensus.fastq
+# 151. blastn/makeblastdb only requires nghttp2.dll, consider to rewrite get_software
+152. compared with phylosuite https://blog.csdn.net/qazplm12_3/article/details/129434310
