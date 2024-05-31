@@ -1,0 +1,10 @@
+/Users/volodymyrlekhman/RustProjects/nutrition_calculator/target/release/deps/liblock_api-3abb19c0c868d921.rmeta: /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/lib.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/mutex.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/remutex.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/rwlock.rs
+
+/Users/volodymyrlekhman/RustProjects/nutrition_calculator/target/release/deps/liblock_api-3abb19c0c868d921.rlib: /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/lib.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/mutex.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/remutex.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/rwlock.rs
+
+/Users/volodymyrlekhman/RustProjects/nutrition_calculator/target/release/deps/lock_api-3abb19c0c868d921.d: /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/lib.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/mutex.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/remutex.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/rwlock.rs
+
+/Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/lib.rs:
+/Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/mutex.rs:
+/Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/remutex.rs:
+/Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/rwlock.rs:

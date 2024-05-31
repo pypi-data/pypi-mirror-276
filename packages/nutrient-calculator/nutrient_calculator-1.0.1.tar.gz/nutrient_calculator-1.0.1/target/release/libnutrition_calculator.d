@@ -1,0 +1,1 @@
+/Users/volodymyrlekhman/RustProjects/nutrition_calculator/target/release/libnutrition_calculator.dylib: /Users/volodymyrlekhman/RustProjects/nutrition_calculator/src/enums.rs /Users/volodymyrlekhman/RustProjects/nutrition_calculator/src/lib.rs

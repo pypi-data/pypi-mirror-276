@@ -1,0 +1,8 @@
+/Users/volodymyrlekhman/RustProjects/nutrition_calculator/target/debug/build/target-lexicon-f2084058f998a154/build_script_build-f2084058f998a154: /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/build.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/data_model.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/triple.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/targets.rs
+
+/Users/volodymyrlekhman/RustProjects/nutrition_calculator/target/debug/build/target-lexicon-f2084058f998a154/build_script_build-f2084058f998a154.d: /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/build.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/data_model.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/triple.rs /Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/targets.rs
+
+/Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/build.rs:
+/Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/data_model.rs:
+/Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/triple.rs:
+/Users/volodymyrlekhman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/targets.rs:
