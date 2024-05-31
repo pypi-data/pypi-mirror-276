@@ -1,0 +1,1 @@
+from .pyrigana import get_furigana_html
