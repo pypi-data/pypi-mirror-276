@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+jaxid/__init__.py
+jaxid/common.py
+jaxid/datasets.py
+jaxid/dynonet.py
+jaxid/lru.py
+jaxid/metrics.py
+jaxid/statespace.py
+jaxid.egg-info/PKG-INFO
+jaxid.egg-info/SOURCES.txt
+jaxid.egg-info/dependency_links.txt
+jaxid.egg-info/requires.txt
+jaxid.egg-info/top_level.txt

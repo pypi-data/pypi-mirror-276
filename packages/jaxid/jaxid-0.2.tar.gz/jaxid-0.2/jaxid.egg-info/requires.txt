@@ -1,0 +1,20 @@
+jax
+tqdm
+torch
+optax
+scikit-learn
+scipy
+nonlinear_benchmarks
+
+[download datasets]
+requests
+googledrivedownloader
+
+[generate documentation]
+sphinx
+
+[generate plots]
+matplotlib
+
+[open datasets]
+pandas
