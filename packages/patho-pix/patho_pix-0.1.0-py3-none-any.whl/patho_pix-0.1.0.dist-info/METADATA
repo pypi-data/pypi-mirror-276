@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: patho-pix
+Version: 0.1.0
+Summary: Preprocessing framework for pathological images
+License: MIT
+Requires-Python: <=3.11,>=3.8
+Requires-Dist: histolab>=0.7.0
+Requires-Dist: large-image>=1.28.2
+Requires-Dist: openslide-python>=1.3.1
+Requires-Dist: pillow>=10.3.0
+Requires-Dist: large-image-source-vips>=1.28.2
+Requires-Dist: large-image-source-multi>=1.28.2
+Requires-Dist: large-image-source-openjpeg>=1.28.2
+Description-Content-Type: text/markdown
+
+# patho-pix
+[![coverage](https://codecov.io/gh/hnu-digihealth/patho-pix/graph/badge.svg?token=3OCS8010KL)](https://codecov.io/gh/hnu-digihealth/patho-pix)
+[![tests](https://github.com/hnu-digihealth/patho-pix/actions/workflows/test.yaml/badge.svg)](https://github.com/hnu-digihealth/patho-pix/actions/workflows/test.yaml)
+
+## Pipeline
+
+![patho-pix Pipeline](./media/patho-pix-pipeline.png)
