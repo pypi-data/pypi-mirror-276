@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools >= 68.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polyfem"
+version = "1.0.0"
+dependencies = [
+    "numpy>=1.18.0",
+    "matplotlib>=3.4.0",
+    "scipy>=1.4.0",
+    "setuptools>=68.0.0",
+    "shapely>=2.0.0"
+]
+requires-python = ">=3.8"
+authors = [{name = "Matthew Evans", email = "mje45@bath.ac.uk"}]
+maintainers = [{name = "Matthew Evans", email = "mje45@bath.ac.uk"}]
+description = "Meshing, but poly"
+readme = "README.md"
+license = {file='LICENCE.txt'}
+keywords = []
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["polyfem*"]
+exclude = ["docs*", "branding*", "benchmarks*"]

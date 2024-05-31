@@ -1,0 +1,17 @@
+LICENCE.txt
+README.md
+pyproject.toml
+polyfem/__init__.py
+polyfem/formatting.py
+polyfem/geometry_generation.py
+polyfem/poly_mesher_abstraction.py
+polyfem/poly_mesher_clean.py
+polyfem/poly_mesher_distance_functions.py
+polyfem/poly_mesher_domain.py
+polyfem/poly_mesher_main.py
+polyfem/poly_mesher_visualisation.py
+polyfem.egg-info/PKG-INFO
+polyfem.egg-info/SOURCES.txt
+polyfem.egg-info/dependency_links.txt
+polyfem.egg-info/requires.txt
+polyfem.egg-info/top_level.txt
