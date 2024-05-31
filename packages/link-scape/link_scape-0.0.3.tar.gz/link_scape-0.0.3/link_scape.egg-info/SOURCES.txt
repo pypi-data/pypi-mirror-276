@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+link_scape.egg-info/PKG-INFO
+link_scape.egg-info/SOURCES.txt
+link_scape.egg-info/dependency_links.txt
+link_scape.egg-info/top_level.txt
+linkscape/__init__.py
+linkscape/network.py
+linkscape/template.html
