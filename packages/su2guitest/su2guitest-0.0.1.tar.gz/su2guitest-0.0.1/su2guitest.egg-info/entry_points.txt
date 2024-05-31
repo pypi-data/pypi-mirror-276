@@ -1,0 +1,2 @@
+[console_scripts]
+su2gui = su2gui.su2gui:main
