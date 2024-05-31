@@ -1,0 +1,13 @@
+signal_design/__init__.py,sha256=6_Zzu4xtiwoJfpamU97pAVv9py8BVMTpChRXIuYCBlw,226
+signal_design/axis.py,sha256=3Uk3zyMm_PJ8RZKMZhtThOfJlG72tDS7_R_H9SkfpHo,5474
+signal_design/core.py,sha256=YUkuRk_6xZsoyxbz60_TvShwHaOeD92eGHv973j0InM,946
+signal_design/default_functions.py,sha256=vYWYeYj0mopmUiGvOI0MkPYZXC_s3HRJjoiNKZAFDZs,16630
+signal_design/exc.py,sha256=akdOkTb1VgtI0xXlWocW2GB-AcyHgR8KsSX93RnEBzU,648
+signal_design/help_types.py,sha256=yc7TXM0jszXAc7KMgBVZBMyxxyJQRITqKGk6Y8c1cZs,707
+signal_design/relation.py,sha256=vD0slIGm_dOj0cTi8dWnPpKYizlGBKL3qF4hzVzt0S8,16230
+signal_design/signal.py,sha256=5kql78KjSccDrd6lCLgi-iDDW5ceFwZjHaQ-034djVU,11624
+signal_design/spectrum.py,sha256=ygJBM_EJl-IckPdsHp2gvg3Hze40r7mrF4qsic1WR_E,11762
+signal_design-0.4.0.dist-info/LICENSE,sha256=1wrQeZRd-k4s2uWv2isdGihMpXpLnLYcEC7ryUsDsYI,1066
+signal_design-0.4.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+signal_design-0.4.0.dist-info/METADATA,sha256=MXNmnzQKdm6J7vxgDnD2RJAAKF43VZ-WrN3fZwZxP_0,4275
+signal_design-0.4.0.dist-info/RECORD,,
