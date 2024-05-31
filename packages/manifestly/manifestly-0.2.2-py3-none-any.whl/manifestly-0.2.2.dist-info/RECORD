@@ -1,0 +1,12 @@
+manifestly/__init__.py,sha256=qS42S_ifKzH-SHNCw4LB-9xH67mQyHp90pl1hzLsUjg,305
+manifestly/cli.py,sha256=euxT3eNsGkMwq0IynZJXuhUOSG_2bc1GB8I_rC8p8ro,5205
+manifestly/core.py,sha256=LXfaK0_h-xiwDawWAzdNWLLzIOtpBzDmgQf7niRemUs,15342
+manifestly/settings.py,sha256=TBj0MRw5AuvSp78_oanWfEVNLY7s4r6m-2GUGfDa-X0,345
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=ig3ArhSIjRzQwXhnXq762Gy1CfIJOzWZx6iKkdrZab0,6165
+tests/test_manifests.py,sha256=ieG-bB7f_Rr82XHes1mlTF96vQPB5vbKkGbOIJfj89M,12198
+manifestly-0.2.2.dist-info/LICENSE,sha256=3EgdmvK38nOMlOlFSAu5JItjR44a6Mm1ikWnD2F90kE,1070
+manifestly-0.2.2.dist-info/METADATA,sha256=Vt3Op4slXm2sgJ-cg4C-Z9Xuen32E_SVnAEB4LLx6oQ,13427
+manifestly-0.2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+manifestly-0.2.2.dist-info/top_level.txt,sha256=oDA_lcDSADbuBoxeidJQPqOpejh5P8hYjkuSeUmgBCw,17
+manifestly-0.2.2.dist-info/RECORD,,
