@@ -1,0 +1,17 @@
+miksiai/utils.pypy38-pp73-darwin.so,sha256=XFtCM0YavckHUReoXjYHAfNAp0eg1wPWADhUOQwx5Xk,76184
+miksiai/agent.pypy38-pp73-darwin.so,sha256=X3ERc_QeK7E4aCnYcCfF8NKC_3dNMRG2r2if8wZlQNA,116520
+miksiai/settings.pypy38-pp73-darwin.so,sha256=yzj33ZWTbRWFAoeABxDPsnboFfrZf7uOaXUptLi7V0E,55936
+miksiai/__init__.pypy38-pp73-darwin.so,sha256=HYcGQSvSO1r8PaTdtH3ZxHDAVC0nvTr29SgBKebpgxU,53856
+miksiai/sqltool.pypy38-pp73-darwin.so,sha256=wxUxnTHI19NLa602fr3mj5VmWNKOrWhhuyz5dKC5E4Q,131808
+miksiai/pythontool.pypy38-pp73-darwin.so,sha256=GEszhc5cdHggrv9_O3vs5gQ-UYEYF6DrOHYaHmIGmgQ,95968
+miksiai/master.pypy38-pp73-darwin.so,sha256=UGUC5wX-37iF0RJtKPRt9MmsNCp5xS9eDnfr4itAwMU,75904
+miksiai/api.pypy38-pp73-darwin.so,sha256=Yjx9uVhcOibLE0lJvSThEPP_buF9gkf_etq7xTOwXAE,96088
+miksiai/function_calling/base.pypy38-pp73-darwin.so,sha256=dcyd3hFG9PnJVFFcE1gPftW7iYiQXAL_GIGoAWRv5EY,97448
+miksiai/sql_graph/custom_sql.pypy38-pp73-darwin.so,sha256=zAYIuCBHHA0yQ7ZptZYjVFJPVeo8MUCmS-_HsH14Rt4,116240
+miksiai/sql_graph/sql_runnables.pypy38-pp73-darwin.so,sha256=NhhkY17CeHlULK4OZV9kgMwsNlFV6uSF7S4A_RBQgvo,229072
+miksiai/sql_graph/sql_graph.pypy38-pp73-darwin.so,sha256=6waS2yp_NtXL5kcXxY4AtQSOqPfLUGjgQURotZRDptw,116592
+miksiai/sql_graph/sql_graph_prompts.pypy38-pp73-darwin.so,sha256=5iNGnI5EZXFcyskUipzKbU1UKXblUhde7vUsYwvTZ8E,55160
+miksiai-1.0.7.dist-info/RECORD,,
+miksiai-1.0.7.dist-info/WHEEL,sha256=oX_RS3ku9bg-Qor-7tRYcuzBVFGMatOphVfCo3QYvoE,115
+miksiai-1.0.7.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.7.dist-info/METADATA,sha256=TfUEl1JyFUmsYq1m_WBeDbo1UisnPiW8u2SvkNvYh1A,6349
