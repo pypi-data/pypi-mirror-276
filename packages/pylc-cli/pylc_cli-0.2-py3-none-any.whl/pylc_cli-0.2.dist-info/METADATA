@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: pylc_cli
+Version: 0.2
+Summary: A small CLI tool to solve leetcode problems from your favorite text editor!
+Project-URL: Homepage, https://github.com/shiina4119/pylc
+Project-URL: Issues, https://github.com/shiina4119/pylc/issues
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: html2text
+Requires-Dist: requests
+Requires-Dist: rich
