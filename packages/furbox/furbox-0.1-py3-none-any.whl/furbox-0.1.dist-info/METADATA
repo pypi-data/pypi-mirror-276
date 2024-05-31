@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: furbox
+Version: 0.1
+Summary: Python library for various furry media utilities
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs
+Requires-Dist: cattrs
+Requires-Dist: requests
+Requires-Dist: typing-extensions
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-annotations ; extra == 'dev'
+Requires-Dist: flake8-assertive ; extra == 'dev'
+Requires-Dist: flake8-builtins ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: flake8-commas ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: flake8-eradicate ; extra == 'dev'
+Requires-Dist: flake8-function-order ; extra == 'dev'
+Requires-Dist: flake8-import-order ; extra == 'dev'
+Requires-Dist: flake8-pyproject ; extra == 'dev'
+Requires-Dist: flake8-todo ; extra == 'dev'
+Requires-Dist: pep8-naming ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pydoclint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
+# furbox
+Python library for various furry media utilities
