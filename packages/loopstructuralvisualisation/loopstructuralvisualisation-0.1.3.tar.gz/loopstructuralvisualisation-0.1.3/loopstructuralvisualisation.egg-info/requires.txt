@@ -1,0 +1,9 @@
+numpy>=1.18
+pyvista>=0.42
+LoopStructural
+
+[all]
+pyvista[all]
+
+[jupyter]
+pyvista[jupyter]
