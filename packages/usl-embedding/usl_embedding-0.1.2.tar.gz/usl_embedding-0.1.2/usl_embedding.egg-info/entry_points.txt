@@ -1,0 +1,2 @@
+[console_scripts]
+usl_for_embedding = usl_embedding.selective_labeling:main
