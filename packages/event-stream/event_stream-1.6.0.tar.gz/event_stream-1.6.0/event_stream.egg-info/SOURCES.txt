@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+sepia.hpp
+setup.py
+udp.hpp
+/home/runner/work/event_stream/event_stream/python/event_stream.cpp
+event_stream.egg-info/PKG-INFO
+event_stream.egg-info/SOURCES.txt
+event_stream.egg-info/dependency_links.txt
+event_stream.egg-info/requires.txt
+event_stream.egg-info/top_level.txt
+python/event_stream.cpp
