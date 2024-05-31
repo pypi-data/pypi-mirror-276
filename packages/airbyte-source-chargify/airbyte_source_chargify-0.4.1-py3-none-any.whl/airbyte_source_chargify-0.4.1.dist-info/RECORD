@@ -1,0 +1,13 @@
+source_chargify/__init__.py,sha256=6EFrnX--oy8QT9LgJjmfpuYzHYCsULMrOA437qsVsOg,128
+source_chargify/manifest.yaml,sha256=7lKGkFw4HzArk5W6gnl9c-8PkMcx0cgP6fRv_DeI824,3156
+source_chargify/run.py,sha256=qc8ZNt6bOam7MMJQiTYCXl8HJV0WqO_u1lvhQk49xyM,236
+source_chargify/schemas/coupons.json,sha256=MYNp_X9BJpK8B6FrME9H_2Oy-3LQtGmA4kzfQ61Swco,2135
+source_chargify/schemas/customers.json,sha256=f_jsQKV5KtTzGOjAmCsBRkN56Hz1EiAivz-mToCECjQ,1866
+source_chargify/schemas/invoices.json,sha256=jrv2zI3W9j1_8QzrW9tsojzU4F3bQn8lTvbuTrswOVo,3597
+source_chargify/schemas/subscriptions.json,sha256=pvg-sZReBn876LWwG5jOBnH6VLHRNvJTfmlW9ielX6c,14037
+source_chargify/schemas/transactions.json,sha256=qRHAU-lNUycWxRWoMomyCAlUMrEAiWQyqcbGNTpoRhk,1545
+source_chargify/source.py,sha256=GFUt9Klz59fWjpZNr5D1bZRD1GQTV6x4KoMoB8qVpLE,477
+airbyte_source_chargify-0.4.1.dist-info/METADATA,sha256=T657VxHBZ3_6WmradU6sjnc5KVhRgMmDtJt2KGOMfH0,5241
+airbyte_source_chargify-0.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_chargify-0.4.1.dist-info/entry_points.txt,sha256=8V1_WqtrZvcq-81Nweqn7QC5f7VeQz-VrY5oAvjTAuM,59
+airbyte_source_chargify-0.4.1.dist-info/RECORD,,
