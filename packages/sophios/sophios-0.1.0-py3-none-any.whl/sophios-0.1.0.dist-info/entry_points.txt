@@ -1,0 +1,5 @@
+[console_scripts]
+cwl_subinterpreter = sophios.cwl_subinterpreter:main
+cwltool_filterlog = sophios.run_local:cwltool_main
+cwltool_filterlog_pf = sophios.run_local:cwltool_main_pf
+sophios = sophios.main:main
