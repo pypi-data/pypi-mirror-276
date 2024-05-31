@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+mdgrad/__init__.py
+mdgrad/optim.py
+mdgrad/tensor.py
+mdgrad.egg-info/PKG-INFO
+mdgrad.egg-info/SOURCES.txt
+mdgrad.egg-info/dependency_links.txt
+mdgrad.egg-info/requires.txt
+mdgrad.egg-info/top_level.txt
+mdgrad/nn/__init__.py
+mdgrad/nn/activations.py
+mdgrad/nn/layers.py
+mdgrad/nn/losses.py
+test/test_tensor.py
