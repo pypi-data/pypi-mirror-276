@@ -1,0 +1,7 @@
+matplotlib
+pandas
+numpy
+scipy
+pytest
+attrs>=23.0.0
+comtypes

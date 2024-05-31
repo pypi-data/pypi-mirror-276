@@ -1,0 +1,34 @@
+[project]
+name = "TSC2018_Design"
+version = "1.1.5"
+authors = [
+  { name="Muhammed Sural", email="muhammedsural@gmail.com" },
+]
+description = "TSC2018 design"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib",
+  "pandas",
+  "numpy",
+  "scipy",
+  "pytest",
+  "attrs >= 23.0.0",
+  "comtypes"
+]
+keywords = ["TSC2018", "ETABS", "SAP2000", "DESIGN", "TS500-2000"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/muhammedsural/TSC2018_Design"
+"Bug Tracker" = "https://github.com/muhammedsural/TSC2018_Design/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
