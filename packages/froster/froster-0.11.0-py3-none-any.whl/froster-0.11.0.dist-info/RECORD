@@ -1,0 +1,12 @@
+froster/__init__.py,sha256=0luIIWUOOCkuM1MUCObQ0ceaB5vBy0ODYY5ikFE_B28,64
+froster/froster.py,sha256=60RDphA40pTuTN66HtbvObq1HqYzKhALFICWKp7pOc4,278526
+froster/noxfile.py,sha256=ln-K551VWb6HrEnRHdE_iPitFrqt7cVAgOSMYs-Cd54,251
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/generate_dummy_files.py,sha256=DoLtwbaHR5yR3JjjikVIvyRM-Tf1wydsC6KRIwsL4iQ,1604
+tests/test_config.py,sha256=978toYRLJidQD5pKCazZohBqofUv11EtrKmBf51B7Uc,31214
+froster-0.11.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+froster-0.11.0.dist-info/METADATA,sha256=WC5sOu6kkjy9MiBWpxuGca8Qmdc8tNKqzUBI58KKf9Q,50635
+froster-0.11.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+froster-0.11.0.dist-info/entry_points.txt,sha256=YLqZ9zmSuvPFI8qPopbJzqO0HtwVqPnv6PDLETH5Hh0,50
+froster-0.11.0.dist-info/top_level.txt,sha256=v1mLCNQkNpufKbKFTBuuMvJ23r5zb3HMC18pnqxRpRQ,14
+froster-0.11.0.dist-info/RECORD,,
