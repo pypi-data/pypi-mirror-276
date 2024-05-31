@@ -1,0 +1,27 @@
+[tool.black]
+line-length = 120
+target-version = ['py37']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  \.toml
+  |\.rst
+  |\.md
+  |\.yml
+  |\.txt
+  |\.sh
+  |\.git
+  |\.ini
+  |\.hg
+  |\.mypy_cache
+  |\.tox
+  |\.venv
+  |build
+  |dist
+)/
+'''
+
+[tool.codespell]
+skip = '.git*,*.pdf,*.css'
+check-hidden = true
+ignore-words-list = 'assertin'
