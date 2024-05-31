@@ -1,0 +1,5 @@
+cryptography
+requests
+six
+swig
+M2Crypto
