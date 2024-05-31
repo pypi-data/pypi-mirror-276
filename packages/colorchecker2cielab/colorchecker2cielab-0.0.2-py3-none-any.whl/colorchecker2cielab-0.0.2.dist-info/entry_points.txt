@@ -1,0 +1,5 @@
+[console_scripts]
+cielab_extractor = colorchecker2cielab.extractor:_console_cielab_extractor
+
+[nbdev]
+colorchecker2cielab = colorchecker2cielab._modidx:d

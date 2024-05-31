@@ -1,0 +1,14 @@
+colorchecker2cielab/__init__.py,sha256=bHO6ZcxVsx_0rVTbxIA_cFHVoEkjt1m0dlBGYD7Rlmw,145
+colorchecker2cielab/_modidx.py,sha256=uDHuzDG7wC_CKtsS7QYPPQnt_YKHZq0yWiFfGEaNUYE,4063
+colorchecker2cielab/basiccolor.py,sha256=n5cQpJXDOTwPgQieQW_9-_Na_wb4oMeyKEpS-SZul3Y,1235
+colorchecker2cielab/cielab.py,sha256=qsjqQw9duBKePULqDN2k9PlhWSEUGHIY9LYmyQLWizY,2699
+colorchecker2cielab/core.py,sha256=pB_kTL_YyMSXa9IdyUvDNBwrS5ITRrn_1suq1e2OgzY,192
+colorchecker2cielab/extractor.py,sha256=dI2IHlHiZxG530NSnlpJctkMmTJnc8dPGW4B5RvyCkE,1245
+colorchecker2cielab/metamorfoze.py,sha256=37ZFWQQqtA8VaDllElHgxE5ty6tgAa4lLrduUonaffw,5971
+colorchecker2cielab/utils.py,sha256=EzmCxSuby10z4LknHc2qND3HebTjgjYLvu9qj8KhfHQ,6735
+colorchecker2cielab-0.0.2.dist-info/LICENSE,sha256=yuN_fXbaXf4Stg4owtNWCYDo6_lWrKyt_AyWQNm3lRU,1072
+colorchecker2cielab-0.0.2.dist-info/METADATA,sha256=Bi5PFOTiFYR1hqxLoHbK-g8Y750Tz_KXjCzBXq2PcjE,2282
+colorchecker2cielab-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+colorchecker2cielab-0.0.2.dist-info/entry_points.txt,sha256=3O1jRNQjeP5kdxwpya03_y-ducq-1aJAdqE0KUcm754,154
+colorchecker2cielab-0.0.2.dist-info/top_level.txt,sha256=kptcmZ_c8Y_2FKJan2zWHpRpLX8X3EwL318XNH6ARB8,20
+colorchecker2cielab-0.0.2.dist-info/RECORD,,
