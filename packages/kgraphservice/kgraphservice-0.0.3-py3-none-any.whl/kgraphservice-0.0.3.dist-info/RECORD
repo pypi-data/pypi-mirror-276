@@ -1,0 +1,9 @@
+kgraphservice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgraphservice/kg_comparator.py,sha256=9BMQK3pYDnik84DwB263O7yyy2Uqrrul6hWlyAwFlCo,422
+kgraphservice/kgraph_service.py,sha256=TNpYvC98zz_bttHQ1vWm4wWsgCGESfXUp7cWkxbSOzQ,4522
+kgraphservice/kgslot_criterion.py,sha256=07aj6NUsbRRtgUNeuqJvAYpQSWpRbCYJbZPlfjuh-fI,163
+kgraphservice-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kgraphservice-0.0.3.dist-info/METADATA,sha256=0--F6XX05lGbJw_i1X1DGLNn6KjRWWsANdfWB8ze2Yg,758
+kgraphservice-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kgraphservice-0.0.3.dist-info/top_level.txt,sha256=0phxUJ73Ri8TAtpLcsEeKfQZsGFWa7M5AlzvwcTyIe0,14
+kgraphservice-0.0.3.dist-info/RECORD,,
