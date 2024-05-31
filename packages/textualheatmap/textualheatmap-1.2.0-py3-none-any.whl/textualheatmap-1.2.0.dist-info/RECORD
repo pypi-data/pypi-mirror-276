@@ -1,0 +1,10 @@
+textualheatmap/__init__.py,sha256=IfB6Ez8kJ8OUPybj7U_0wztoDV2HdaINO-FX-wXD1g8,99
+textualheatmap/textual_heatmap.py,sha256=Ikh-h6nxZKd8vqrxPapOM4zbSORYrItIRYXcNL1lM0E,6997
+textualheatmap/textual_heatmap_test.py,sha256=Av70WaR1jTBZDbOIhX-6BgysHtuj0oRRsR--kojljgk,2599
+textualheatmap/web_assets/textual_heatmap.css,sha256=uhf-nZpIjAQ-KOxi9slroc8HXN_JEz5MDQ075hgcFYE,2382
+textualheatmap/web_assets/textual_heatmap.js,sha256=k4_pNedk1BjkH7utpnA-5tOxFU3gC9EsJLnM4grLUtg,6895
+textualheatmap-1.2.0.dist-info/LICENSE.txt,sha256=EVkHGD6F3kI8ZkVdtLgAZhsYqQZrdM0TaA8EomC2yl0,1054
+textualheatmap-1.2.0.dist-info/METADATA,sha256=KACDTIz4FpY7ERFnYsJ5-NAWq55U0HfPpYck5zfRL4U,6362
+textualheatmap-1.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+textualheatmap-1.2.0.dist-info/top_level.txt,sha256=lAvS_MvnVffXsHwEP7FYA2Qba-1nnP5RYXFpzsBunrU,15
+textualheatmap-1.2.0.dist-info/RECORD,,
