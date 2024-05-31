@@ -1,0 +1,97 @@
+# Package Overview
+package_name: emotion_model
+clf_save_file: emotion_clf_output_v
+
+# Data settings
+emotions:
+  - surprise
+  - neutral
+  - sad
+  - happy
+  - anger
+
+image_size:
+  - 96
+  - 96
+
+image_reshape_params:
+  - -1
+  - 96
+  - 96
+  - 1
+
+# Model settings
+layer1:
+  class_name: keras.layers.Conv2D
+  params:
+    filters: 32
+    kernel_size:
+      - 3
+      - 3
+    activation: relu
+    input_shape:
+      - 96
+      - 96
+      - 1
+
+layer2:
+  class_name: keras.layers.Conv2D
+  params:
+    filters: 64
+    kernel_size:
+      - 3
+      - 3
+    activation: relu
+
+layer3:
+  class_name: keras.layers.MaxPooling2D
+  params:
+    pool_size:
+      - 2
+      - 2
+
+layer4:
+  class_name: keras.layers.Conv2D
+  params:
+    filters: 128
+    kernel_size:
+      - 3
+      - 3
+    activation: relu
+
+layer5:
+  class_name: keras.layers.MaxPooling2D
+  params:
+    pool_size:
+      - 2
+      - 2
+
+layer6:
+  class_name: keras.layers.Flatten
+
+layer7:
+  class_name: keras.layers.Dense
+  params:
+    units: 128
+    activation: relu
+
+layer8:
+  class_name: keras.layers.Dense
+  params:
+    units: 5
+    activation: softmax
+
+optimizer: adam
+loss: sparse_categorical_crossentropy
+metrics:
+  - accuracy
+
+# Model fit settings
+epochs: 10
+batch_size: 32
+
+# set train/test split
+test_size: 0.2
+
+# to set the random seed
+random_state: 42
