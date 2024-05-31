@@ -1,0 +1,13 @@
+aily_code_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aily_code_sdk/app.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aily_code_sdk/conversation.py,sha256=BEBh-lflWek59bAbhSjin_w7wB5Vn2i5pPkDABkX8HM,1379
+aily_code_sdk/data.py,sha256=S0vFNmpFYmjWfOOPBAfKyCf6bMdxBbrzbxr5wfwhzKo,1593
+aily_code_sdk/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aily_code_sdk/integration/feishu.py,sha256=ISX5FkImXuRfAFCHgPHuII8HoyGhgND-LcjzEBfoFnM,440
+aily_code_sdk/knowledge.py,sha256=Vyyx2hBlabKE6TpdKhupnfiC8KqXMUNK6tlxaSDfwUU,1662
+aily_code_sdk/llm.py,sha256=3v3ZgbhjLD4FYSVjF3aRNI6_XUxCK9AFAMLgN_b-ZfU,5163
+aily_code_sdk/skill.py,sha256=j7wpIuaKos21NkV5oGxj6dEGBwlZE003LMQafNt0v3E,607
+aily_code_sdk-0.1.0b2.dist-info/LICENSE,sha256=RFhQPdSOiMTguUX7JSoIuTxA7HVzCbj_p8WU36HjUQQ,10947
+aily_code_sdk-0.1.0b2.dist-info/METADATA,sha256=2fTPNSsoLoEi4ppZdcD4bWglXFE-J_fXzrDo3pttV-M,1706
+aily_code_sdk-0.1.0b2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+aily_code_sdk-0.1.0b2.dist-info/RECORD,,
