@@ -1,0 +1,9 @@
+pydantic
+betterproto[compiler]==2.0.0b5
+grpclib[protobuf]
+httpx
+
+[tests]
+pytest
+pytest-asyncio
+pytest-httpx
