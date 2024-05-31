@@ -1,0 +1,4 @@
+ 
+# digitaldatai module
+
+::: digitaldatai.digitaldatai
