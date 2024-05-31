@@ -1,0 +1,5 @@
+future==1.0.0
+genropy==24.4.23
+pyotp==2.9.0
+python_dateutil==2.9.0.post0
+qrcode==7.4.2
