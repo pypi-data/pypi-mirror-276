@@ -1,0 +1,2 @@
+[console_scripts]
+protoc-polyglot = core.wrapper:execute
