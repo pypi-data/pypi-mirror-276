@@ -1,0 +1,3 @@
+[console_scripts]
+ipmerge = ipmerge.__main__:main
+
