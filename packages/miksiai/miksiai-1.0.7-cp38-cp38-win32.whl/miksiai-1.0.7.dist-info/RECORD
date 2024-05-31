@@ -1,0 +1,17 @@
+miksiai/__init__.cp38-win32.pyd,sha256=-iLGkEUQzktRsLR62kzuhxHtwCM9HrhZA16ZTKHJj-8,15872
+miksiai/agent.cp38-win32.pyd,sha256=glo6E1B6V1SF5YnmOoTN_v4rs41x_n4hS3CsmQnBE9E,79360
+miksiai/api.cp38-win32.pyd,sha256=EdQV5P1pUZW92FwRf_rPO1hpluNIJ_8zmV-Uwe5K9U8,61952
+miksiai/master.cp38-win32.pyd,sha256=SITYzQF2f_xne4h9_jKfpPc80-4owV-4s2fK3CZENsU,34816
+miksiai/pythontool.cp38-win32.pyd,sha256=4wBHyPig-JzSSAbJqV1a0G-Es5sdL4juOf16AKMiF0s,53760
+miksiai/settings.cp38-win32.pyd,sha256=bs6rcH0y5CA6aqnd3C7OmhJn8MQ_9-A6P5wi6isyMn0,26624
+miksiai/sqltool.cp38-win32.pyd,sha256=5F4HjjbS7WrD4t84798g5Ng9h4XM9_YWdcjdXenpKjI,105472
+miksiai/utils.cp38-win32.pyd,sha256=rBZ9pXTi18HGQI817lNdlVvBFcuxj8TWAwUUkRSwq2Q,37888
+miksiai/function_calling/base.cp38-win32.pyd,sha256=CMNueHPMdAnS4cliZR4EM2CA5Hn78cT3Nq7eHrwFE7k,58880
+miksiai/sql_graph/custom_sql.cp38-win32.pyd,sha256=he93NfeOtideVABF3iAsCKVkTD4k9VSbg9ckNwz3U9k,72704
+miksiai/sql_graph/sql_graph.cp38-win32.pyd,sha256=xKiddfcMgPj_JgQV-9PPt9Dw4Ic_UQ1_NAFaPZf-zdg,83968
+miksiai/sql_graph/sql_graph_prompts.cp38-win32.pyd,sha256=VGog-7mtcqxc-pPo5tc5X1V6tmIFd-uq_MA5spFrjn8,24576
+miksiai/sql_graph/sql_runnables.cp38-win32.pyd,sha256=85HEkGqdkUlPI8fM5uQ_edsEmtPTDSz8PeaL4a8kSWo,185344
+miksiai-1.0.7.dist-info/METADATA,sha256=ZdyZDS0m3oYqYNJVkGgeia4Wgy185sCQ2PJ71m0fEgo,6517
+miksiai-1.0.7.dist-info/WHEEL,sha256=eISolWHwNhb92gGPHWycatPqef50U4Y2t5AK5I8bfIY,96
+miksiai-1.0.7.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.7.dist-info/RECORD,,
