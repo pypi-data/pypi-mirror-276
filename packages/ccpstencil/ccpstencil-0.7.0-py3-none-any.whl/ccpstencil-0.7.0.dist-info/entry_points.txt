@@ -1,0 +1,2 @@
+[console_scripts]
+ccp-stencil = ccpstencil.cli.ccp_stencil.main:main
