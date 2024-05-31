@@ -1,0 +1,17 @@
+miksiai/__init__.pypy37-pp73-win_amd64.pyd,sha256=B14asIsO2SBxGKp-PTgdZKLawCCz3xFmXtfGb7VxNQQ,16384
+miksiai/agent.pypy37-pp73-win_amd64.pyd,sha256=pJF7EnlTP6C98hXuQSYBLnhN-dzEljk2YuVz3AMq3HE,78336
+miksiai/api.pypy37-pp73-win_amd64.pyd,sha256=5drJxVzhHilU0MiL7RQmoZcPbj9zMac4ES0F_YAodRU,57856
+miksiai/master.pypy37-pp73-win_amd64.pyd,sha256=idA8JdC6zHWV-QNnCyFSw9Eu9HPFKhITrL8WjnQW8Cc,33792
+miksiai/pythontool.pypy37-pp73-win_amd64.pyd,sha256=o1HlNTpDqi7J0-A9f4-aTAWRryqLY_S0B3QQ5Z6vIQ4,51200
+miksiai/settings.pypy37-pp73-win_amd64.pyd,sha256=3L26ZMV_JKyIJLZGO6mx96bPRdKQNhf4vQ3aagwZJbU,25088
+miksiai/sqltool.pypy37-pp73-win_amd64.pyd,sha256=AHvAYPsw-oyKo_mPyxIdeA5pqC0AavWiIRScNDSE9dk,96768
+miksiai/utils.pypy37-pp73-win_amd64.pyd,sha256=5lzc6y2Cvta9i_oQ0Kc3-xmzigRv_CJNG-tUJztqzu4,38912
+miksiai/function_calling/base.pypy37-pp73-win_amd64.pyd,sha256=Nt5cPB38OmPcMaH6rOO9o3DY7KJ_fUYqFF9FyocNKvQ,59392
+miksiai/sql_graph/custom_sql.pypy37-pp73-win_amd64.pyd,sha256=3YbufTdQCluy2ybmjvETzIFCSnbCo2acuYZDKiWqqS0,71168
+miksiai/sql_graph/sql_graph.pypy37-pp73-win_amd64.pyd,sha256=yJiJeZI6W0gA6AOlRGfUERvQf8ZHSN6pnFYJHfAtqQM,83968
+miksiai/sql_graph/sql_graph_prompts.pypy37-pp73-win_amd64.pyd,sha256=b2YSmb12R3wuuzy1W1NYEhPA7XyvEyF3-qSg88g_xcc,25088
+miksiai/sql_graph/sql_runnables.pypy37-pp73-win_amd64.pyd,sha256=yHv-i-5PkGwg9ouhMt8vwLuLyXxxgfGqADVP9EN_2hU,183808
+miksiai-1.0.7.dist-info/METADATA,sha256=AiznbjoLvJOIycE740RHnjMjLm5efJupIAR8h3edbn4,6507
+miksiai-1.0.7.dist-info/WHEEL,sha256=pGcgHTQxT-5QcV4VYCDbpvYfuDR0DvqqhFzWAXVhCU0,107
+miksiai-1.0.7.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.7.dist-info/RECORD,,
