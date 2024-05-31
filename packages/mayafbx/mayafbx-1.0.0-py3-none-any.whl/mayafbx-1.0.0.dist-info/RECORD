@@ -1,0 +1,11 @@
+mayafbx/__init__.py,sha256=gFrCniJhYqFEtwXbV8ON6RtlNnbbspbXcxV6c5i3HuU,168
+mayafbx/bases.py,sha256=gNyQtEegIjl5vQIDeWgk9BSS3ZrnQm4N9hs9JlxsIOE,5919
+mayafbx/enums.py,sha256=4IJaxS_xjteFM-WuXK6HxNMjsRlTJXroR7qETu7Q798,8314
+mayafbx/exceptions.py,sha256=NuhxuGQ3hC7kei_DEKOwGnjXp4dQqLcu77Fl9Oa-sc8,200
+mayafbx/exporter.py,sha256=gEVOocSuteMGHS61ZECCqPYkluBJI9a5u2QKYeaW3Os,32557
+mayafbx/importer.py,sha256=QygaZmL5D-7J-ADoTfAcJXTpBwpoenI_u77v9mnqCjs,17977
+mayafbx/utils.py,sha256=nUjr5FrnVg15F0S6Qctao4UwruAF1usk1wGlh4sbtKc,2911
+mayafbx-1.0.0.dist-info/METADATA,sha256=mfAXFaQbJiVCCTKFffHC1JzNPsDCXm61HVr2kjqEwgs,6663
+mayafbx-1.0.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+mayafbx-1.0.0.dist-info/licenses/LICENSE,sha256=OuGJ338VRT9nIPAhLHq_h0oMliTXCYO4nuYV7P-GTu8,1072
+mayafbx-1.0.0.dist-info/RECORD,,
