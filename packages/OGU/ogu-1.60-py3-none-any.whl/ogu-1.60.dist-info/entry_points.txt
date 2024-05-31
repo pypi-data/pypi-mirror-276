@@ -1,0 +1,3 @@
+[console_scripts]
+OGU = OGU:main
+ogu = OGU:main
