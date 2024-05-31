@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: llmint
+Version: 0.0.3
+Summary: Llmint python library
+Home-page: UNKNOWN
+Author: Llmint Team
+Author-email: silveryfu@gmail.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: pyyaml
+Requires-Dist: numpy
+Requires-Dist: langchain
+Requires-Dist: confluent-kafka[avro]
+
+UNKNOWN
+
