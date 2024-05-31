@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyrocs
+Version: 0.1.1
+License-File: LICENSE.txt
+Requires-Dist: pytest
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: seaborn
