@@ -1,0 +1,11 @@
+bripinfo/.files/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bripinfo/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+bripinfo/__main__.py,sha256=2YLCXgswiPm5Pz27OJHw_kSQZBA8R4yegD0nFqAA3v8,63
+bripinfo/commands.py,sha256=J9JMGhfdSck7tHDoDVUs0mAMQZM392N4P3V3N808h2A,1615
+bripinfo/core.py,sha256=Alsp5XVNnof55vYX5pzSA6E3gEol3nUPJjlUSR0fTSo,4119
+bripinfo/registro_br.py,sha256=uXYCSie-CI3Cw8KVY6W-oR3Q_5fNFvGQIPIyAsrgNsI,2497
+bripinfo/settings.py,sha256=vIMEoNaGiSnKW2C9wm93EgIRzYzVhTLMz2sPwk-GjHc,736
+bripinfo-2.0.1.dist-info/LICENSE,sha256=Q_KHWKhZxiBpQQZacJqOegyXdUv1kjDwL-gi-ImhGuA,1080
+bripinfo-2.0.1.dist-info/METADATA,sha256=zZlhMy4Bi6jGGnW9GHwar9UVGuzij1ftNbmBBYlJuUQ,4971
+bripinfo-2.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bripinfo-2.0.1.dist-info/RECORD,,
