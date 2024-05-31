@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+betterstar.egg-info/PKG-INFO
+betterstar.egg-info/SOURCES.txt
+betterstar.egg-info/dependency_links.txt
+betterstar.egg-info/requires.txt
+betterstar.egg-info/top_level.txt
+src/__init__.py
+src/betterstar.py
