@@ -1,0 +1,3 @@
+numpy
+pacemaker-lite
+sqlite-logging
