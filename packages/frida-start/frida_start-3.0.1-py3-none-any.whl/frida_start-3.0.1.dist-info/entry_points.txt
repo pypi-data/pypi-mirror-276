@@ -1,0 +1,2 @@
+[console_scripts]
+frida-start = frida_start.command:main
