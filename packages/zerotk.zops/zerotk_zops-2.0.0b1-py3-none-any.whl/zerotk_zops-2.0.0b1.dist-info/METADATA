@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: zerotk.zops
+Version: 2.0.0b1
+Summary: Zero Operations Toolbox
+Home-page: https://github.com/zerotk/zops
+License: MIT
+Author: Alexandre Andrade
+Author-email: kaniabi@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: addict (>=2.4.0,<3.0.0)
+Requires-Dist: attrs (>=23.2.0,<24.0.0)
+Requires-Dist: boto3 (>=1.34.106,<2.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: ruamel-yaml (>=0.18.6,<0.19.0)
+Requires-Dist: str2bool (>=1.1,<2.0)
+Requires-Dist: stringcase (>=1.2.0,<2.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Project-URL: Documentation, https://github.com/zerotk/zops
+Project-URL: Repository, https://github.com/zerotk/zops
+Description-Content-Type: text/markdown
+
+# zops
+
+ZOPS is an extendable command line utility intended to centralize and reuse software development solutions and
+processes.
+
+## Creating ZOPS commands in your project
+
+Using project `alpha` as example:
+
+```
+/
+  /alpha
+    __init__.py
+    zops.py
+  setup.py
+```
+
+### ./alpha/zops.py
+
+```python
+import click
+
+@click.group(name='alpha')
+def main():
+    pass
+
+@main.command()
+def my_command():
+    """
+    This is my command.
+
+    $ zops alpha my_command
+    """
+    click.echo('my command')
+```
+
+### ./setup.py
+
+```python
+
+# ...
+
+setup(
+
+    # ...
+
+    entry_points="""
+    [zops.plugins]
+    alpha=alpha.zops:main
+    """,
+)
+
+```
+
+## Creating a ZOPS extension library
+
+```
+/
+  /zops
+    /bravo
+      cli.py
+  setup.py
+```
+
+### ./zops/bravo/cli.py
+
