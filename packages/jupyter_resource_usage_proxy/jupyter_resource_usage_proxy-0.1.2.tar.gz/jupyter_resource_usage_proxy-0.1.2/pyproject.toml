@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyter_resource_usage_proxy"
+readme = "README.md"
+dynamic = ["version"]
+license = { file = "LICENSE" }
+description = "A Jupyter Server Extension Proxying Resource Usage."
+keywords = ["ipython", "jupyter"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.8"
+dependencies = [
+  "jupyter_server >=1.0.0,<3.0.0",
+  "httpx >=0.27.0,<0.28",
+]
+
+[[project.authors]]
+name = "David Brochart"
+email = "david.brochart@gmail.com"
+
+[project.urls]
+Homepage = "https://github.com/davidbrochart/jupyter_resource_usage_proxy"
+
+[tool.hatch.version]
+path = "jupyter_resource_usage_proxy/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+ignore-vcs = true
+packages = ["jupyter_resource_usage_proxy"]
+shared-data = {"jupyter-config" = "etc/jupyter/jupyter_server_config.d"}
