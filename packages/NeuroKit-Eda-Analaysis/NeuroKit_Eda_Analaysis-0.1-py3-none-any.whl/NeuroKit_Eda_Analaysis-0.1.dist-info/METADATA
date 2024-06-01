@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: NeuroKit_Eda_Analaysis
+Version: 0.1
+Summary: A library for processing and analyzing EDA signals.
+Home-page: https://github.com/saquib34/NeuroKit_Eda_Analaysis
+Author: Mohammad Saquib Daiyan
+Author-email: shadmanshahin6@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+License-File: License.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: neurokit2
+Requires-Dist: scipy
+
