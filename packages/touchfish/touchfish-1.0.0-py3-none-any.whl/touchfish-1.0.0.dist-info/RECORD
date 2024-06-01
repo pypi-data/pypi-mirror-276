@@ -1,0 +1,14 @@
+touchfish/__init__.py,sha256=IVZqqk_hyB5GMBaJbexcl1S1ZmD4ajajRgNKguLhciY,48
+touchfish/app.py,sha256=feNgVQ25vnbEr9QUhl0tokQ0IJWFjOjjdWd6qxodwUA,1699
+touchfish/config.py,sha256=zoykKP73NQmCkVkCqbVyn0dxk1t9p8TDYwcLkeU35ZI,1370
+touchfish/definition.py,sha256=svh3oReEuLaJInD6EEAnY_FziAcyk75RjW-tNzFbKaE,3216
+touchfish/service.py,sha256=86CRYoCZ54EI4sO8_SSffrml-tOBUuXgfoV2lLssRQY,10949
+touchfish/storage.py,sha256=fG9ptlN1hLeJOAQ2P3IKz1sdMrxTgRZHdzHd4zxpDPg,10613
+touchfish/task.py,sha256=Jjd4RTf-_Yi1jowyYZlzvYwPyOSQSVmIHghUFp_pmjc,70
+touchfish/touchfish.py,sha256=7QV3IRhFa2zTHnE9vO6BpcLzJf2Ya-nZAf2O4LR2ie8,4611
+touchfish/web.py,sha256=jyEprXu917UlV2VsWUqlXAwCCEASlzgSnhBEsnUbFfI,8953
+touchfish-1.0.0.dist-info/LICENSE,sha256=Y3j3ihEbTXAtJ-M3Z-wgU1MGLqQt4lcdgkT8KE87vMg,603
+touchfish-1.0.0.dist-info/METADATA,sha256=Wz-WIhdN_KykfkHoGvFt6_uGQ3f155HbDM2bT8YEXeI,918
+touchfish-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+touchfish-1.0.0.dist-info/top_level.txt,sha256=KeCDVuGrSU7sK435HCieOHWeXGQ1_cwwlKjbpxrBQfk,10
+touchfish-1.0.0.dist-info/RECORD,,
