@@ -1,0 +1,30 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'tersel'
+authors = [
+    { name = 'Thijn Smulders', email = 'thijnsmulders04@gmail.com' }
+]
+description = 'A library for easily implementing selection prompts in the terminal'
+readme = 'readme.md'
+requires-python = '>=3.10'
+keywords = ['terminal', 'cli', 'selection']
+license = { text = 'CC BY-NC-SA 4.0' }
+classifiers = [
+    'Environment :: Console',
+    'Programming Language :: Python :: 3.12',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: Unix',
+    'Topic :: Software Development :: Libraries'
+]
+dependencies = [
+    'colorama~=0.4.6',
+    'keyboard~=0.13.5'
+]
+dynamic = ["version"]
+urls = { github = 'https://github.com/thijnmens/tersel' }
+
+[tool.setuptools.dynamic]
+version = { attr = "tersel.VERSION" }

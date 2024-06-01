@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tersel
+Version: 0.0.3
+Summary: A library for easily implementing selection prompts in the terminal
+Author-email: Thijn Smulders <thijnsmulders04@gmail.com>
+License: CC BY-NC-SA 4.0
+Project-URL: github, https://github.com/thijnmens/tersel
+Keywords: terminal,cli,selection
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama~=0.4.6
+Requires-Dist: keyboard~=0.13.5
+
+# Tersel
+
+Tersel stands for **Ter**minal **Sel**ector.
+
+---
+[tersel](https://github.com/thijnmens/tersel) © 2024 by [Thijn Smulders](https://https://github.com/thijnmens) is
+licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
