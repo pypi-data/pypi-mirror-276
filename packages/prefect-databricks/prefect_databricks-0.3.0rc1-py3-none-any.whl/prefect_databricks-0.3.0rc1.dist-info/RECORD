@@ -1,0 +1,16 @@
+prefect_databricks/__init__.py,sha256=_JHQxljgBr0ti5f4-P2yfxlaEIzMdpOZ9-ZoSrwBujg,114
+prefect_databricks/_version.py,sha256=nCVnDYoQGf67jEatxNsj9tPPKeGdB7hikvy-F1s2aow,414
+prefect_databricks/credentials.py,sha256=-mImSEtTXxv5VkkmmP-0DHFmoL9L63IufFCBhtPiGtI,2439
+prefect_databricks/flows.py,sha256=bMtfhC1Yc1PiPS3cnfM0C2U8Nwj8-TATMhWeNMwTvio,19074
+prefect_databricks/jobs.py,sha256=-fy9muoCWIn85Nv2i2MBQQJ7-sl_vyLoVtNew5lkILE,81182
+prefect_databricks/rest.py,sha256=VZMBMdkrOtlpBM-ghxrks-6B2oKw3rMUdjfJU_yDyaA,4600
+prefect_databricks/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefect_databricks/models/jobs.py,sha256=K7vDXlNtFVfC1HpLF-p6kU60Io77iNG3F7shFcRcEes,164508
+prefect_databricks/schemas/jobs-2.1-aws.yaml,sha256=PU3ZiqyuxAKT6t347Sh_e2ExVAST53uDgFzhhHi90rs,178999
+prefect_databricks/schemas/original/jobs-2.1-aws.yaml,sha256=BPR0NGzsu1QT1M0GOy5wVUAaewOc3p5VodkWiWuCkqY,178843
+prefect_databricks-0.3.0rc1.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_databricks-0.3.0rc1.dist-info/METADATA,sha256=VqcmWAqORa99eBKUxRDSnfY2HFpTkFULpwWB5I7PHdY,7496
+prefect_databricks-0.3.0rc1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+prefect_databricks-0.3.0rc1.dist-info/entry_points.txt,sha256=vG67eYDv0udT2WjzkcKcKfo9WUBT9a77CSCQ18KPcB4,62
+prefect_databricks-0.3.0rc1.dist-info/top_level.txt,sha256=vbdg6J668yWkvKCeUuC94dZHyr1ObxZ--Flts9W9ljU,19
+prefect_databricks-0.3.0rc1.dist-info/RECORD,,
