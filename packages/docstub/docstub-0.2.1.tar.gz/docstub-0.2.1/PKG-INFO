@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: docstub
+Version: 0.2.1
+Summary: Generate Python stub files (PYI) from docstrings
+Author: Lars Grüter
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, Lars Grüter.
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the vector package developers nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Home, https://github.com/lagru/docstub
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpydoc>=1.7.0
+Requires-Dist: click>=8.1.7
+Requires-Dist: libcst>=1.3.1
+Requires-Dist: lark>=1.1.9
+Provides-Extra: optional
+Requires-Dist: black>=24.4.2; extra == "optional"
+Requires-Dist: isort>=5.13.2; extra == "optional"
+Provides-Extra: dev
+Requires-Dist: pre-commit>=3.7; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest>=5.0.0; extra == "test"
+Requires-Dist: coverage>=7.5.0; extra == "test"
+
+# docstub
+
+> [!NOTE]
+> In early development!
+
+A command line tool to generate Python stub files (PYI) from type descriptions
+in NumPyDoc style docstrings.
+
+
+## Installation
+
+```shell
+pip install docstub[optional]
+```
+
+
+## Usage & configuration
+
+```shell
+docstub example/example_pkg/
+```
+will create stub files for `example_pkg/` in `example/example_pkg-stubs/`.
+For now, refer to `docstub --help` for more.
+
+
+### Declare imports and synonyms
+
+Types in docstrings can and are used without having to import them. However,
+when docstub creates stub files from these docstrings it actually needs to
+know how to import those unknown types.
+
+> [!TIP]
+> docstub already knows about types in Python's `typing` or `collections.abc`
+> modules. That means you can just use types like `Literal` or `Sequence`.
+
+For now docstub's relies on users to declare unknown types[^static-analysis]
+in a `docstub.toml` or `pyproject.toml` like this:
+```toml
+[tool.docstub.docnames]
+np = { import = "numpy", as = "np" }
+```
+With this declaration, you can safely use things that are available in the
+`numpy` namespace. E.g. docstub will recognize that `np.uint8` requires
+`import numpy as np` and will include it in stub files if necessary.
+
+docstub uses the keys of the `docnames` map to match unknown names used in
+docstrings. So
+```toml
+[tool.docstub.docnames]
+func = { use = "Callable", from = "typing" }
+```
+will allow using `func` as a synonym for `Callable`.
+
+[^static-analysis]: Static and possibly runtime analysis to automatically find
+                    unknown types is on the roadmap.
+
+
+## Contributing
+
+TBD
+
+
+## Acknowledgements
+
+Thanks to [docs2stubs](https://github.com/gramster/docs2stubs) by which this
+project was heavily inspired and influenced.
