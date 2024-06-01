@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: jabutiutils
+Version: 0.0.7
+Summary: Jabuti Technologies - Utils
+Author: Thales Araújo
+License: MIT License
+License-File: LICENSE
+Requires-Dist: msal<2,>=1.6.0
+Requires-Dist: django
