@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+v0.0.5
+------
+
+* fix build
+* adb start-server port config
+* fix build info
+* fix build info
+* fix readme
+* add test code
+* fix pypi published
+* rm package
+* rm package
+* sync adbutils

@@ -1,0 +1,66 @@
+[project]
+name = "adbutils_async"
+dynamic = ["version"]
+description = "Python adb async library for adb service."
+authors = [{ name = "tomin", email = "tomin@tomin.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = ["httpx", "Pillow", "deprecation", "retry", "apkutils2"]
+keywords = ["adb", "adbutils", "async"]
+
+[project.urls]
+homepage = "https://github.com/touxiaoling/adbutils_async"
+repository = "https://github.com/touxiaoling/adbutils_async"
+documentation = "https://github.com/touxiaoling/adbutils_async"
+
+[build-system]
+requires = ["setuptools","setuptools-scm[toml]", "wheel", "pbr"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+tag_regex = '^(tag\-with\-dash\/v)?(?P<version>\d+[^\+]*)$'
+git_describe_command = 'git describe --tags --match tag-with-dash/v*'
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+
+[tool.flake8]
+max-line-length = 128
+exclude = [".git", "__pycache__"]
+
+[tool.black]
+line-length = 128
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.ruff]
+line-length = 128
+target-version = "py310"
+
+[tool.ruff.lint]
+ignore = ["F401"]
+
+[tool.isort]
+profile = "black"
