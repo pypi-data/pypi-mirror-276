@@ -1,0 +1,14 @@
+hashcommit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hashcommit/args.py,sha256=-iFGpM_HC27fcJXwkRDozIIEeNxVBgM6eAzVi32UYsY,1770
+hashcommit/commit.py,sha256=hNDgSBECdJFSEl5JyKims3UEox5pE5Ikn75uCRHV0CU,6686
+hashcommit/git.py,sha256=jQVkUfTtsm2S0u9JhdJQ4F1TwvL5ZfpRkS8iMPdSHNo,3140
+hashcommit/logging.py,sha256=-FHRnOLbDbsKjsWwVUN2hRjkiOiPayKp_B09vJxvpCY,471
+hashcommit/main.py,sha256=uE1lTU2dWoZUNRTcFtrPYrlPlazICIfX0hwJA3-TCH8,2315
+hashcommit/utils.py,sha256=QanX1L7bCn1-oyAAKan0CDdDBgDynHwcRwY6JWSVmA0,338
+hashcommit/version.py,sha256=qA_ig-3d4ScLQjxwXFLxPEzBLBn_Zw_V-Yb9JoQi8iU,18
+hashcommit-0.1.3.dist-info/LICENSE,sha256=-X3hsrtjeM3vgLIvsr9Sqskh70cMv5VgCXpglTFX4Is,1073
+hashcommit-0.1.3.dist-info/METADATA,sha256=p4D49BwvWcexWFDkP_by-nyI6zUGIlo90OZi-j_NCag,3053
+hashcommit-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hashcommit-0.1.3.dist-info/entry_points.txt,sha256=zxUHj80M1eO_UJinJA59Nkn1GTIV6w3xSVP0BeKJjOA,52
+hashcommit-0.1.3.dist-info/top_level.txt,sha256=zFpjQJOgB2m6X7X3fqHIISH3dc-arWfnzSZ_8r4AmK8,11
+hashcommit-0.1.3.dist-info/RECORD,,
