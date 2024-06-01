@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+swagware/__init__.py
+swagware/terminal.py
+swagware.egg-info/PKG-INFO
+swagware.egg-info/SOURCES.txt
+swagware.egg-info/dependency_links.txt
+swagware.egg-info/requires.txt
+swagware.egg-info/top_level.txt
