@@ -1,0 +1,5 @@
+[FM14_transform.test]
+test = FM14_transform:test
+
+[console_scripts]
+test-script = FM14_transform:test
