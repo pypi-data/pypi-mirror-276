@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: puffb
+Version: 1.0
+Summary: puffb is a small python module for interacting with a Pufferpanel daemon.
+Home-page: https://github.com/powermaker450/puffb
+Author: powermaker450
+Author-email: contact@povario.com
+License: MIT
+Download-URL: https://github.com/powermaker450/puffb/archive/refs/tags/v1.0.tar.gz
+Keywords: pufferpanel
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
