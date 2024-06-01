@@ -1,0 +1,8 @@
+django
+dhis2.py
+pydantic
+dict2obj
+isodate
+python-dateutil
+numpy
+packaging
