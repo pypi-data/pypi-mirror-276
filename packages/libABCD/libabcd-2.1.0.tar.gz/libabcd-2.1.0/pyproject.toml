@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "libABCD"
+version="2.1.0"
+description = "the Autonomous Bariloche Central DAQ, a centralized DAQ system for scientific experiments"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [ 
+    { name="Xavier Bertou", email="bertou@cab.cnea.gov.ar" },
+    { name="Nicolás Avalos", email="nicolas.avalos@ib.edu.ar" },
+]
+keywords = [
+    "mqtt", 
+    "logging",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Communications",
+    "Topic :: Scientific/Engineering"
+]
+dependencies = [
+    "paho-mqtt<2"
+]
+
+[project.urls]
+"Source code" = "https://gitlab.com/bertou/libabcd"
