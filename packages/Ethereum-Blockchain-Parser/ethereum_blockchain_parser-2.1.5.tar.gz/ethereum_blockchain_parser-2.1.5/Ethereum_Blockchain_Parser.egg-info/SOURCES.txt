@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Ethereum_Blockchain_Parser.egg-info/PKG-INFO
+Ethereum_Blockchain_Parser.egg-info/SOURCES.txt
+Ethereum_Blockchain_Parser.egg-info/dependency_links.txt
+Ethereum_Blockchain_Parser.egg-info/requires.txt
+Ethereum_Blockchain_Parser.egg-info/top_level.txt
