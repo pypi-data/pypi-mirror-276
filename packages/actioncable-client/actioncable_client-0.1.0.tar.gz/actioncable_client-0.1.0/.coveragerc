@@ -1,0 +1,15 @@
+[paths]
+source =
+  src/actioncable_client
+  tests
+
+[run]
+branch = true
+parallel = true
+source =
+  src/actioncable_client
+  tests
+
+[report]
+show_missing = true
+precision = 2
