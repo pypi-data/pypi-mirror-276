@@ -1,0 +1,8 @@
+README.md
+setup.py
+lbMail/LbMail.py
+lbMail/__init__.py
+lb_mail.egg-info/PKG-INFO
+lb_mail.egg-info/SOURCES.txt
+lb_mail.egg-info/dependency_links.txt
+lb_mail.egg-info/top_level.txt
