@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+py_eth_airdrop.egg-info/PKG-INFO
+py_eth_airdrop.egg-info/SOURCES.txt
+py_eth_airdrop.egg-info/dependency_links.txt
+py_eth_airdrop.egg-info/requires.txt
+py_eth_airdrop.egg-info/top_level.txt
