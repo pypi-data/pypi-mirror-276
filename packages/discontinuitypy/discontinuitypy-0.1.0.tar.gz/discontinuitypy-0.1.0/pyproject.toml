@@ -1,0 +1,58 @@
+[project]
+name = "discontinuitypy"
+dynamic = []
+description = "A python package for identifying and analyzing discontinuities for time series data."
+authors = [
+    { name = "Beforerr", email = "zzj956959688@gmail.com" },
+]
+requires-python = ">= 3.10"
+dependencies = [
+    "space-analysis.py[io]",
+    "beforerr",
+    "plasmapy",
+    "xarray[accel]",
+    "xarray_einstats",
+    "polars",
+    "modin",
+    "pydantic",
+    "fastcore",
+    "pdpipe",
+    "loguru",
+]
+version = "0.1.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "file"
+path = "discontinuitypy/__init__.py"
+
+[tool.pixi.project]
+channels = [
+    "conda-forge",
+]
+platforms = [
+    "osx-arm64",
+]
+
+[tool.pixi.dependencies]
+python = "3.11"
+ipykernel = "*"
+scipy = "*"
+matplotlib = "*"
+pytables = "*"
+
+[tool.pixi.pypi-dependencies]
+nbdev = "*"
+setuptools = "*"
+pyspedas = "*"
+
+[tool.pixi.pypi-dependencies.discontinuitypy]
+path = "."
+editable = true
+
+[tool.pixi.tasks]
