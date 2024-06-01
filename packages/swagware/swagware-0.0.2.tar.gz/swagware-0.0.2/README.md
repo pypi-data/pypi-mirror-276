@@ -1,0 +1,5 @@
+# Swagware
+
+```
+pip install swagware
+```
