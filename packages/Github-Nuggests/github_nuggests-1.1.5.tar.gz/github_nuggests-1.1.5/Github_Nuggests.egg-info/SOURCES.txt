@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Github_Nuggests.egg-info/PKG-INFO
+Github_Nuggests.egg-info/SOURCES.txt
+Github_Nuggests.egg-info/dependency_links.txt
+Github_Nuggests.egg-info/requires.txt
+Github_Nuggests.egg-info/top_level.txt
