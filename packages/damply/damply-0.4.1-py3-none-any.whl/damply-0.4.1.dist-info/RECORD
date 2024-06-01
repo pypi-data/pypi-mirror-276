@@ -1,0 +1,9 @@
+damply/__init__.py,sha256=qBs4HqYsPn6yUHWEuCN4rGUC05gABbl800d8LBd8h9w,22
+damply/cli.py,sha256=l8-D6pLP6aHvm7hKuHaSpW5CoBMqCBzMVVHvTy3RW2E,3022
+damply/metadata.py,sha256=KWt2yIZJ7I0duM351D32BQQKHLdRb51bo_wuPWfFurQ,6273
+damply/utils/byte_size.py,sha256=YRljWkCI4glrDvespAah-dohxZBvZlIg1OUBU8NX1iA,2567
+damply/utils/whose.py,sha256=PDnHwfTITtmrLG-_RNnvQBkOSav7HffdjSfKGjlzVAQ,651
+damply-0.4.1.dist-info/METADATA,sha256=xsPyMufzRqJ6XdNd4fld_FH6kvHM-1FN3JVtiUn1zVQ,3691
+damply-0.4.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+damply-0.4.1.dist-info/entry_points.txt,sha256=YOiWMxkUdnDlPiHh8U4lmDzHd96xXcAH_1adWo4LQsI,39
+damply-0.4.1.dist-info/RECORD,,
