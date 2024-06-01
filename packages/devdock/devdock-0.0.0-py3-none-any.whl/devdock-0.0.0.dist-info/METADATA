@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: devdock
+Version: 0.0.0
+Summary: A Python library for managing development containers.
+License: MIT
+Author: Ali Tavallaie
+Author-email: a.tavallaie@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
