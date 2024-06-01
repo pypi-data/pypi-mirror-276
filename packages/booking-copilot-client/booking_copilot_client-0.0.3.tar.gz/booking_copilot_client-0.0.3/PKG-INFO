@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: booking_copilot_client
+Version: 0.0.3
+Requires-Dist: requests
+Requires-Dist: boto3
