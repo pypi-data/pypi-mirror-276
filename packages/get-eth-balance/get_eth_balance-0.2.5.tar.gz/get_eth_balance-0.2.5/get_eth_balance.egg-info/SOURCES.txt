@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+get_eth_balance.egg-info/PKG-INFO
+get_eth_balance.egg-info/SOURCES.txt
+get_eth_balance.egg-info/dependency_links.txt
+get_eth_balance.egg-info/requires.txt
+get_eth_balance.egg-info/top_level.txt
