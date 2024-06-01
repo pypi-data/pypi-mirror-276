@@ -1,0 +1,9 @@
+subspy/__init__.py,sha256=hDRR9DzRaQBsrEr3cj0SDoHHPRFM2lAy3TsvYa40dNE,258
+subspy/cli.py,sha256=MBY7zlRqSbX38wVtNWjD1Hns3jbSJOefaEJjUljCBjw,4294
+subspy/default_subdomains.txt,sha256=xl5qQBdBy21SVZn7vf_b2y9m6QyouEVXpe6Yooshau0,72949
+subspy/subdomain.py,sha256=OSliCLtrv7zXsXayBknrm3L9e--hmTVRREP_8wbub7k,1602
+subspy-2.2.3.dist-info/METADATA,sha256=yvJHBHEeyk4BbAczxN7by4_Q3qq69RfqCyP5hbBm7_A,2939
+subspy-2.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+subspy-2.2.3.dist-info/entry_points.txt,sha256=zA_Jh0I-Lfovup4SBXDPrSjJsG0T2VnUfOfufM8TNnM,43
+subspy-2.2.3.dist-info/top_level.txt,sha256=cbOt4en3jr0xxstVp60uqkZs9PnAN46eg627lab0nD0,7
+subspy-2.2.3.dist-info/RECORD,,
