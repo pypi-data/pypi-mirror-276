@@ -1,0 +1,17 @@
+[console_scripts]
+seekr = seekr.console_scripts:console_seekr_help
+seekr_adj_pval = seekr.console_scripts:console_adj_pval
+seekr_download_gencode = seekr.console_scripts:console_download_gencode
+seekr_filter_gencode = seekr.console_scripts:console_filter_gencode
+seekr_find_dist = seekr.console_scripts:console_find_dist
+seekr_find_pval = seekr.console_scripts:console_find_pval
+seekr_kmer_comp_textplot = seekr.console_scripts:console_kmer_comp_textplot
+seekr_kmer_count_barplot = seekr.console_scripts:console_kmer_count_barplot
+seekr_kmer_counts = seekr.console_scripts:console_kmer_counts
+seekr_kmer_dendrogram = seekr.console_scripts:console_kmer_dendrogram
+seekr_kmer_heatmap = seekr.console_scripts:console_kmer_heatmap
+seekr_kmer_indi_textplot = seekr.console_scripts:console_kmer_indi_textplot
+seekr_kmer_leiden = seekr.console_scripts:console_kmer_leiden
+seekr_kmer_msd_barplot = seekr.console_scripts:console_kmer_msd_barplot
+seekr_norm_vectors = seekr.console_scripts:console_norm_vectors
+seekr_pearson = seekr.console_scripts:console_pearson
