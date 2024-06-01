@@ -1,0 +1,10 @@
+indigopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indigopy/core.py,sha256=aXVSItxrDRz_ZY4JYv3yayjuMDlVKvaS-4I87eHyx0g,27454
+indigopy/sample_data.pkl,sha256=3YvXcmTBvcNk18-f7Dzk0QM_5ZlxbMBRoBsa9ogogSQ,43922285
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=zns3kfOpYA_nF_1D9YUYSY6F_dfZeP3ijErMpIQFgZY,16843
+indigopy_sriram_lab-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+indigopy_sriram_lab-1.1.0.dist-info/METADATA,sha256=SRllsbJiKSR0mqcTcz3VmyxkmPw3BYqircfJSjcTj9o,1919
+indigopy_sriram_lab-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+indigopy_sriram_lab-1.1.0.dist-info/top_level.txt,sha256=e_qztdAFFl-_qVEMxemVboKSRydK6FV--jYL6k7KZKs,15
+indigopy_sriram_lab-1.1.0.dist-info/RECORD,,
