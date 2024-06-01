@@ -1,0 +1,12 @@
+from connection.db import Connection
+from search.series import Series
+
+
+class Xerenity:
+
+    def __init__(self, username, password):
+        self.username: username
+        self.password = password
+        self.conn = Connection()
+        self.conn.login(username=username, password=password)
+        self.series: Series = Series(connection=self.conn)
