@@ -1,0 +1,12 @@
+MANIFEST.in
+pyproject.toml
+readme.md
+html_classes/__init__.py
+html_classes/basic.py
+html_classes/bs4.py
+html_classes/font_awesome.py
+html_classes/html.py
+make_html.egg-info/PKG-INFO
+make_html.egg-info/SOURCES.txt
+make_html.egg-info/dependency_links.txt
+make_html.egg-info/top_level.txt

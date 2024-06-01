@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: make-html
+Version: 0.0.1
+Summary: Classes to generate HTML
+Author: Ian Jones
+Project-URL: Homepage, https://github.com/jonesim/html-classes
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+Allows HTML to be built from python classes and helpers for Bootstrap 4 and Font Awesome 
