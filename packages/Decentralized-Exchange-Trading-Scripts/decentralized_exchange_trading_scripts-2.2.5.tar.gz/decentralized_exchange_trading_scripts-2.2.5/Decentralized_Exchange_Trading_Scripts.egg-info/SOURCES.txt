@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Decentralized_Exchange_Trading_Scripts.egg-info/PKG-INFO
+Decentralized_Exchange_Trading_Scripts.egg-info/SOURCES.txt
+Decentralized_Exchange_Trading_Scripts.egg-info/dependency_links.txt
+Decentralized_Exchange_Trading_Scripts.egg-info/requires.txt
+Decentralized_Exchange_Trading_Scripts.egg-info/top_level.txt
