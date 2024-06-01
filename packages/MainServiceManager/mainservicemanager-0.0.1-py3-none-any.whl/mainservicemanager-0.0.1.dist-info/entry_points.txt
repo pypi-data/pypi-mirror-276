@@ -1,0 +1,3 @@
+[console_scripts]
+MSVC-server=MainServiceManager.__main__:server_start
+
