@@ -1,0 +1,15 @@
+License.txt
+MANIFEST.in
+README.md
+setup.py
+NeuroKit_Eda_Analaysis/__init__.py
+NeuroKit_Eda_Analaysis/data_processing.py
+NeuroKit_Eda_Analaysis/metrics.py
+NeuroKit_Eda_Analaysis/plotting.py
+NeuroKit_Eda_Analaysis/signal_processing.py
+NeuroKit_Eda_Analaysis.egg-info/PKG-INFO
+NeuroKit_Eda_Analaysis.egg-info/SOURCES.txt
+NeuroKit_Eda_Analaysis.egg-info/dependency_links.txt
+NeuroKit_Eda_Analaysis.egg-info/requires.txt
+NeuroKit_Eda_Analaysis.egg-info/top_level.txt
+tests/test_module.py
