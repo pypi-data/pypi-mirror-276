@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: changy
+Version: 0.1.1
+Summary: Simplest changelog manager, oriented to human editing, not to special message formatting in commits and tags..
+Home-page: https://github.com/Tiendil/changy
+License: BSD-3-Clause
+Keywords: changelog,release-notes,release-automation,release-management,changelog-generator,changelog-formatter
+Author: Aliaksei Yaletski (Tiendil)
+Author-email: a.eletsky@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: jinja2 (==3.1.*)
+Requires-Dist: pydantic (==2.5.*)
+Requires-Dist: pydantic-settings (==2.1.*)
+Requires-Dist: typer (==0.9.*)
+Project-URL: Repository, https://github.com/Tiendil/changy
+Description-Content-Type: text/markdown
+
+# Changy
+
+Simplest changelog manager, oriented to human editing, not to special message formatting in commits.
+
+Inspired by [Changie](https://github.com/miniscruff/changie) but simpler, oriented to editing text files by hand: without cli commands to input changes, without strict messages format, etc.
+
