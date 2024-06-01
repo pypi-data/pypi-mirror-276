@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+./pal/__init__.py
+./pal/main.py
+sofapal.egg-info/PKG-INFO
+sofapal.egg-info/SOURCES.txt
+sofapal.egg-info/dependency_links.txt
+sofapal.egg-info/entry_points.txt
+sofapal.egg-info/requires.txt
+sofapal.egg-info/top_level.txt
