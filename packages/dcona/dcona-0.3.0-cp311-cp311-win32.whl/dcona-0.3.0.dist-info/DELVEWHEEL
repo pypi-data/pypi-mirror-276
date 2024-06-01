@@ -1,0 +1,2 @@
+Version: 1.6.0
+Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-w6_006to\\cp311-win32\\build\\venv\\Scripts\\delvewheel', 'repair', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-w6_006to\\cp311-win32\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-w6_006to\\cp311-win32\\built_wheel\\dcona-0.3.0-cp311-cp311-win32.whl']
