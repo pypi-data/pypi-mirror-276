@@ -1,0 +1,8 @@
+numpy
+einops
+h5py
+pesq
+torchaudio
+torchinfo
+torchmetrics[audio]
+lightning
