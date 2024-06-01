@@ -1,0 +1,15 @@
+streamlit_label_kit/__init__.py,sha256=Q1ZYFLy7PCR1SLg-qvJRbFtrgaAhg4o73MmddiQnqWI,328
+streamlit_label_kit/LabelToolKit/__init__.py,sha256=udcuciLLCoWRcH11P-R7zmYU_L-_TNqzEI6eOPNy6Ho,377
+streamlit_label_kit/LabelToolKit/annotation.py,sha256=o12ycXlm8pklUC256e94FUIVO5ru-O2PZF490lxQBWg,5197
+streamlit_label_kit/LabelToolKit/detection.py,sha256=ZXxWMWhqGk7_CSXan5KB2cZvaY4nNUu0DIheMqFokN0,9160
+streamlit_label_kit/LabelToolKit/frontend/build/asset-manifest.json,sha256=t2scNQimGRQQS0-uitzE1zSmFXx5xABlLmcEC9mItiY,221
+streamlit_label_kit/LabelToolKit/frontend/build/bootstrap.min.css,sha256=WkA4jIIT0boQhZfRVg121haEvWKg5XZqO6LkoEKW86E,197412
+streamlit_label_kit/LabelToolKit/frontend/build/index.html,sha256=3kwScoma9pHY8Y_21g8xQYlaJHEAzF8WoNhHWQDjpuo,492
+streamlit_label_kit/LabelToolKit/frontend/build/static/js/main.1def89e5.js,sha256=zgV9q3uv59P9g_xidBYkqLBYZpcSo2O280xiDeEPY1s,784778
+streamlit_label_kit/LabelToolKit/frontend/build/static/js/main.1def89e5.js.LICENSE.txt,sha256=fPDhjeqd4LP1hom8RZw0QSsFYO3pk0N3Dcacx1DgcEw,2879
+streamlit_label_kit/LabelToolKit/frontend/build/static/js/main.1def89e5.js.map,sha256=OPIb7lsZijZMgjo6FJcNg49YLlubdVeiT3fPWdQ36AI,3202819
+streamlit_label_kit-0.0.10.dist-info/LICENSE,sha256=-cN1ob5KQfe3AwHdg8kcuJ5BVnR4hZt37vN1pS14JQU,18091
+streamlit_label_kit-0.0.10.dist-info/METADATA,sha256=LEMr93kHdOVYANarx9C1cpd5pWmSbHxx7wT5kvX6JZE,2141
+streamlit_label_kit-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+streamlit_label_kit-0.0.10.dist-info/top_level.txt,sha256=8hInfKIIghA9g4eMcfrWXTiT-QIZnuF14Jgp-TPIrlw,20
+streamlit_label_kit-0.0.10.dist-info/RECORD,,
