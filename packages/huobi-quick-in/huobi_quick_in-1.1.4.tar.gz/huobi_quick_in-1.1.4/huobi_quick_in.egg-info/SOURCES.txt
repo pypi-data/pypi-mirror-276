@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+huobi_quick_in.egg-info/PKG-INFO
+huobi_quick_in.egg-info/SOURCES.txt
+huobi_quick_in.egg-info/dependency_links.txt
+huobi_quick_in.egg-info/requires.txt
+huobi_quick_in.egg-info/top_level.txt
