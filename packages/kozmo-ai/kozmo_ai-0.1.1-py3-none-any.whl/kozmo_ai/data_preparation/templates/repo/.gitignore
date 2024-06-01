@@ -1,0 +1,14 @@
+.DS_Store
+.file_versions
+.gitkeep
+.log
+.logs/
+.kozmo_temp_profiles
+.preferences.yaml
+.variables/
+__pycache__/
+docker-compose.override.yml
+logs/
+kozmoai.db
+kozmo_data/
+secrets/
