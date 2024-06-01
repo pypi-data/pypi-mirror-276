@@ -1,0 +1,2 @@
+[console_scripts]
+foo-calc = foo_param.core:calculate_volume

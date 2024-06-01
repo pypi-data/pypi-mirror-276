@@ -1,0 +1,2 @@
+#  This utils package serves to provide environmental parameters for a more advanced use case (ie. tmp files or given inputs and outputs for a function).
+#  Given the nature and scope of the package, however, it is not necessary to have a test suite for the utils package.
