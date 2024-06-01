@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: malmoext
+Version: 0.36.0.0.2
+Summary: A wrapper for Microsoft's Malmo Platform capable of creating automated agent action sequences in Minecraft.
+Home-page: https://github.com/NateRex/malmoext
+Author: Nate Rex
+Author-email: UNKNOWN
+License: MIT License
+Keywords: malmoext
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: malmo
+
+See https://github.com/NateRex/malmoext for more information.
+
+
