@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+scrapy_jingdong.egg-info/PKG-INFO
+scrapy_jingdong.egg-info/SOURCES.txt
+scrapy_jingdong.egg-info/dependency_links.txt
+scrapy_jingdong.egg-info/requires.txt
+scrapy_jingdong.egg-info/top_level.txt
+tutorial/__init__.py
+tutorial/items.py
+tutorial/pipelines.py
+tutorial/settings.py
+tutorial/spiders/__init__.py
+tutorial/spiders/jd_spider.py
