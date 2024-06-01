@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sphinx_quant.egg-info/PKG-INFO
+sphinx_quant.egg-info/SOURCES.txt
+sphinx_quant.egg-info/dependency_links.txt
+sphinx_quant.egg-info/requires.txt
+sphinx_quant.egg-info/top_level.txt
