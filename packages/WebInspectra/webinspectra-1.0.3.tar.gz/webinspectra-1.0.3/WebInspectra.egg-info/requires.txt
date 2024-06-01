@@ -1,0 +1,12 @@
+beautifulsoup4
+lxml
+requests
+selenium
+undetected-chromedriver
+dnspython
+
+[dev]
+pytest
+
+[logging]
+logging
