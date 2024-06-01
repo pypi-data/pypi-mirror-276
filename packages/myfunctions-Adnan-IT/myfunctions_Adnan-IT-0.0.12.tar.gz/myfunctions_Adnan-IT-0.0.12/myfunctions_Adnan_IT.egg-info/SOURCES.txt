@@ -1,0 +1,6 @@
+README.md
+setup.py
+myfunctions_Adnan_IT.egg-info/PKG-INFO
+myfunctions_Adnan_IT.egg-info/SOURCES.txt
+myfunctions_Adnan_IT.egg-info/dependency_links.txt
+myfunctions_Adnan_IT.egg-info/top_level.txt
