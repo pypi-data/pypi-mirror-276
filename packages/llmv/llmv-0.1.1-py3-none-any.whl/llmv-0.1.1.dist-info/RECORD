@@ -1,0 +1,11 @@
+llmv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llmv/__main__.py,sha256=9d4l0to1jhdqfQQeg_AXzmxKZn2ihAHBxkMJ4rjSmUA,67
+llmv/chat.py,sha256=09Wu8LYU_RoOsSknXVWG5OAWisilC0NhxlLzQebSN7Y,7957
+llmv/llm_template.py,sha256=AdHN5glFNSab3Aj3ijhPJ71YoPdpWALv-UXHhs1vCUQ,5569
+llmv/llmv.py,sha256=Hji0AxowZhKHRowo7Q-3rRKYGCr3XCaKa7KM-kPFwgM,4948
+llmv/prompt.py,sha256=JMFJG5ou_gTeRyYVT2WYjGml1o3_m1ImmyPSGzAqeLc,7095
+llmv-0.1.1.dist-info/METADATA,sha256=u5EJFQgaWE2Q2jXJ_VihFHO9mvjk_shbil76WNUIpEM,311
+llmv-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+llmv-0.1.1.dist-info/entry_points.txt,sha256=2_J37DvnC-_scaXP8Cw1R-p15HpUB7bKvOJFqjzuO1k,40
+llmv-0.1.1.dist-info/top_level.txt,sha256=yH2H6QEFH781Xeim2VJpL38fdvDMe4icEf-m6rUNu5M,5
+llmv-0.1.1.dist-info/RECORD,,
