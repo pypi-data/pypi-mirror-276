@@ -1,0 +1,2 @@
+[console_scripts]
+replace_domain = replace_domain.replace_domain:main

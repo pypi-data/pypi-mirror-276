@@ -1,0 +1,10 @@
+setup.py
+replace_domain/__init__.py
+replace_domain/_version.py
+replace_domain/replace_domain.py
+replace_domain.egg-info/PKG-INFO
+replace_domain.egg-info/SOURCES.txt
+replace_domain.egg-info/dependency_links.txt
+replace_domain.egg-info/entry_points.txt
+replace_domain.egg-info/requires.txt
+replace_domain.egg-info/top_level.txt

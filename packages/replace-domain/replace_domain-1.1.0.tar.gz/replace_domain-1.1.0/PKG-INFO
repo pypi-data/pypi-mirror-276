@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: replace_domain
+Version: 1.1.0
+Summary: Nginx conf file string replacement.
+Home-page: https://github.com/sfneal/replace_domain
+Author: Stephen Neal
+Author-email: stephen@stephenneal.net
