@@ -1,0 +1,17 @@
+docstub/__init__.py,sha256=GnyjhkM7HT3xdOB2-RXHa8cmiD89-u9wTTXyoc1XFZQ,194
+docstub/__main__.py,sha256=JBinc0CXsZoKlNFyseGZQbRe35N2mf2dATz_ZFL9KO8,62
+docstub/_analysis.py,sha256=_-q79eLXJxcRJbwCbZO4Nq4BjbVqlin2gUqWriwnmNg,3938
+docstub/_cli.py,sha256=Uq4Y5pE_xghUcQ-CX3S9xO920aoCmXQj0lsgT6fzM60,2765
+docstub/_config.py,sha256=NYU_paKyn62DfPfG3so8QqJCh7z4Aufcda_hu4CBRhc,971
+docstub/_docstrings.py,sha256=teHwknu-CgeBfXM8y3CY1TWfKFQxaAi0kCgW81uEbYw,8892
+docstub/_stubs.py,sha256=Ae30gOkoFZjBjXLeL26Lq9w-4nwtT_gmuq1m01KRpCo,8265
+docstub/_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docstub/_version.py,sha256=MxUhzLJIZQfEpDTTcKSxciTGrMLd5v2VmMlHa2HGeo0,411
+docstub/default_config.toml,sha256=bj1tYvo4V2GglHL6c8Gbc3NdQzmmoPRrbkdNdr-_xpU,4311
+docstub/doctype.lark,sha256=RA73I-w2-G1CRBi5V2RPoz86X335ocjEPs-PREFvkPQ,1474
+docstub-0.2.1.dist-info/LICENSE,sha256=Ihf2zHdGJppJ9oU15Es-_I9n7Dj7Tbgss7dnK7sQo9M,1522
+docstub-0.2.1.dist-info/METADATA,sha256=1TuHED6ktDIJTXGcQdLxmdBm3FXpCgRRlLR3Jg6QKdw,4772
+docstub-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+docstub-0.2.1.dist-info/entry_points.txt,sha256=W3g4fablib6LT05Hp9eDdBRJ3M7QWt-d4V-oQbfc3k8,50
+docstub-0.2.1.dist-info/top_level.txt,sha256=uSEEhnTXxk8VTVfeHj9F0cEeRHRn3TKLqyaGUE8Lpl8,8
+docstub-0.2.1.dist-info/RECORD,,
