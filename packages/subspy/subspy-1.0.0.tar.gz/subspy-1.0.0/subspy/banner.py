@@ -1,0 +1,10 @@
+green = "\033[92m"
+red = "\033[91m"
+white = "\033[97m"
+reset = "\033[0m"
+cyan = "\033[36m"
+
+def print_banner():
+    banner = f"""
+ {white}+------------------------------------{red}<{cyan}@mrfidal{red}>{white}--------------------------------------+{reset}"""
+    print(banner)
