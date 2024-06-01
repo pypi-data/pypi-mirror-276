@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: HexText
+Version: 0.1.0
+Summary: Create Coloured/Gradient Text In Python
+Home-page: https://github.com/SirScripter/HexText
+Author: ZakRehman
+Author-email: zaksteryt@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+![HexText](https://raw.githubusercontent.com/SirScripter/hextext/main/hextextlogo.png)
+# HexText
+Use Hex Code To Make Coloured Text With Python
+
+## Installation/Setup
+```cmd
+pip install hextext
+```
+```cmd
+python -m pip install poptext
+```
+
+## Using HexText With Print Statements
+```python
+from hextext import HexText
+
+colorText = HexText()
+
+print(colorText("HexText", color="#ff1100")) # Solid Colour
+print(colorText("HextText", gradient=["#ff1100", "#ff8800", "#ffff00"])) # Gradient Text Colour
+print(colorText("Hextext", gradient="#fff000")) # Using A Solid Color In A Gradient
+```
+## Using HexText With Input Statements
+```python
+from hextext import HexText
+
+colorText = HexText()
+
+input(colorText("How Good Is HexText: ", color="#ff1100")) # Solid Colour
+input(colorText("How Good Is HexText: ", gradient=["#ff1100", "#ff8800", "#ffff00"])) # Gradient Text Colour
+input(colorText("How Good Is HexText: ", gradient="#fff000")) # Using A Solid Color In A Gradient
+```
