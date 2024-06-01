@@ -1,0 +1,6 @@
+jaconv
+fugashi
+fugashi[unidic-lite]
+
+[dev]
+pytest
