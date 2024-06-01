@@ -1,0 +1,5 @@
+pybind11
+pandas
+numpy
+scipy
+tqdm
