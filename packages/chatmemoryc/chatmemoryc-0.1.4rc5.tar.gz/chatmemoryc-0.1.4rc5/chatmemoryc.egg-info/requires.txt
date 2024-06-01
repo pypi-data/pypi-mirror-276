@@ -1,0 +1,6 @@
+fastapi==0.110.0
+anthropic==0.28.0
+requests==2.31.0
+SQLAlchemy==2.0.28
+uvicorn==0.28.1
+pycryptodome==3.20.0
