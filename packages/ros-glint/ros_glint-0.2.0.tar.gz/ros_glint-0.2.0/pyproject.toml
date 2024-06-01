@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ros_glint"
+description = "Pure Python library for linting ROS packages"
+readme = "README.md"
+authors = [
+  { name = "David V. Lu!!", email = "davidvlu@gmail.com" },
+]
+maintainers = [
+  { name = "David V. Lu!!", email = "davidvlu@gmail.com" },
+]
+
+dependencies = [
+  "betsy-ros",
+  "colorama",
+  "importlib-resources",
+  "ros_introspect",
+  "PyYAML",
+]
+
+requires-python = ">=3.8"
+
+dynamic = ["version"]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Topic :: Software Development",
+]
+
+[project.scripts]
+glint_ros = "ros_glint.main:main"
+glint_hook = "ros_glint.glint_hook:main"
+
+[project.urls]
+Homepage = "https://github.com/MetroRobots/ros_glint"
+"Bug Tracker" = "https://github.com/MetroRobots/ros_glint/issues"
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "pytest-cov",
+  "pooch",
+]
+
+[tool.hatch]
+version.source = "vcs"
+build.hooks.vcs.version-file = "src/ros_glint/_version.py"
