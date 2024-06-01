@@ -1,0 +1,7 @@
+pandas
+mysql-connector-python
+tqdm
+gzip
+json
+pymysql
+argparse
