@@ -1,0 +1,605 @@
+{
+  "collections": {
+    "prefect-aws": {
+      "block_types": {
+        "aws-credentials": {
+          "name": "AWS Credentials",
+          "slug": "aws-credentials",
+          "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/d74b16fe84ce626345adf235a47008fea2869a60-225x225.png",
+          "documentation_url": "https://prefecthq.github.io/prefect-aws/credentials/#prefect_aws.credentials.AwsCredentials",
+          "description": "Block used to manage authentication with AWS. AWS authentication is\nhandled via the `boto3` module. Refer to the\n[boto3 docs](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html)\nfor more info about the possible credential configurations.",
+          "code_example": "Load stored AWS credentials:\n```python\nfrom prefect_aws import AwsCredentials\n\naws_credentials_block = AwsCredentials.load(\"BLOCK_NAME\")\n```",
+          "block_schemas": [
+            {
+              "checksum": "sha256:608ea04bddf6b0dbb7b72acf58cec796b50cbdb41cb44872202055315b818083",
+              "fields": {
+                "title": "AwsCredentials",
+                "description": "Block used to manage authentication with AWS. AWS authentication is\nhandled via the `boto3` module. Refer to the\n[boto3 docs](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html)\nfor more info about the possible credential configurations.",
+                "type": "object",
+                "properties": {
+                  "aws_access_key_id": {
+                    "title": "Aws Access Key Id",
+                    "description": "A specific AWS access key ID.",
+                    "type": "string"
+                  },
+                  "aws_secret_access_key": {
+                    "title": "Aws Secret Access Key",
+                    "description": "A specific AWS secret access key.",
+                    "type": "string",
+                    "writeOnly": true,
+                    "format": "password"
+                  },
+                  "aws_session_token": {
+                    "title": "Aws Session Token",
+                    "description": "The session key for your AWS account. This is only needed when you are using temporary credentials.",
+                    "type": "string"
+                  },
+                  "profile_name": {
+                    "title": "Profile Name",
+                    "description": "The profile to use when creating your session.",
+                    "type": "string"
+                  },
+                  "region_name": {
+                    "title": "Region Name",
+                    "description": "The AWS Region where you want to create new connections.",
+                    "type": "string"
+                  }
+                },
+                "block_type_slug": "aws-credentials",
+                "secret_fields": ["aws_secret_access_key"],
+                "block_schema_references": {}
+              },
+              "capabilities": [],
+              "version": "0.1.7"
+            }
+          ]
+        }
+      }
+    },
+    "prefect-azure": {
+      "block_types": {
+        "azure-blob-storage-credentials": {
+          "name": "Azure Blob Storage Credentials",
+          "slug": "azure-blob-storage-credentials",
+          "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/54e3fa7e00197a4fbd1d82ed62494cb58d08c96a-250x250.png",
+          "documentation_url": "https://prefecthq.github.io/prefect-azure/credentials/#prefect_azure.credentials.AzureCredentials",
+          "description": "Block used to manage Blob Storage authentication with Azure.\nAzure authentication is handled via the `azure` module through\na connection string.",
+          "code_example": "Load stored Azure Blob Storage credentials:\n```python\nfrom prefect_azure import AzureBlobStorageCredentials\nazure_credentials_block = AzureBlobStorageCredentials.load(\"BLOCK_NAME\")\n```",
+          "block_schemas": [
+            {
+              "checksum": "sha256:631f7e4fca91d0a55e700aaca79c692fb9bfae2d535d7ff833cfd9544872c1bc",
+              "fields": {
+                "title": "AzureBlobStorageCredentials",
+                "description": "Block used to manage Blob Storage authentication with Azure.\nAzure authentication is handled via the `azure` module through\na connection string.",
+                "type": "object",
+                "properties": {
+                  "connection_string": {
+                    "title": "Connection String",
+                    "type": "string",
+                    "writeOnly": true,
+                    "format": "password"
+                  }
+                },
+                "required": ["connection_string"],
+                "block_type_slug": "azure-blob-storage-credentials",
+                "secret_fields": ["connection_string"],
+                "block_schema_references": {}
+              },
+              "capabilities": [],
+              "version": "0.2.2"
+            }
+          ]
+        },
+        "azure-container-instance-credentials": {
+          "name": "Azure Container Instance Credentials",
+          "slug": "azure-container-instance-credentials",
+          "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/54e3fa7e00197a4fbd1d82ed62494cb58d08c96a-250x250.png",
+          "documentation_url": "https://prefecthq.github.io/prefect-azure/credentials/#prefect_azure.credentials.AzureContainerInstanceCredentials",
+          "description": "Block used to manage Azure Container Instances authentication. Stores Azure Service\nPrincipal authentication data.",
+          "code_example": "```python\nfrom prefect_azure.credentials import AzureContainerInstanceCredentials\n\nazure_container_instance_credentials_block = AzureContainerInstanceCredentials.load(\"BLOCK_NAME\")\n```",
+          "block_schemas": [
+            {
+              "checksum": "sha256:80ebd55992587b783c177dfdc292dc8e90c4af82d94c2f4b51e7a78385b913d3",
+              "fields": {
+                "title": "AzureContainerInstanceCredentials",
+                "description": "Block used to manage Azure Container Instances authentication. Stores Azure Service\nPrincipal authentication data.",
+                "type": "object",
+                "properties": {
+                  "client_id": {
+                    "title": "Client ID",
+                    "description": "The service principal client ID.",
+                    "default": "...",
+                    "type": "string"
+                  },
+                  "tenant_id": {
+                    "title": "Tenant ID",
+                    "description": "The service principal tenant ID.",
+                    "type": "string"
+                  },
+                  "client_secret": {
+                    "title": "Client Secret",
+                    "description": "The service principal client secret.",
+                    "type": "string",
+                    "writeOnly": true,
+                    "format": "password"
+                  }
+                },
+                "required": ["tenant_id", "client_secret"],
+                "block_type_slug": "azure-container-instance-credentials",
+                "secret_fields": ["client_secret"],
+                "block_schema_references": {}
+              },
+              "capabilities": [],
+              "version": "0.2.2"
+            }
+          ]
+        },
+        "azure-cosmos-db-credentials": {
+          "name": "Azure Cosmos DB Credentials",
+          "slug": "azure-cosmos-db-credentials",
+          "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/54e3fa7e00197a4fbd1d82ed62494cb58d08c96a-250x250.png",
+          "documentation_url": "https://prefecthq.github.io/prefect-azure/credentials/#prefect_azure.credentials.AzureCosmosDbCredentials",
+          "description": "Block used to manage Cosmos DB authentication with Azure.\nAzure authentication is handled via the `azure` module through\na connection string.",
+          "code_example": "Load stored Azure Cosmos DB credentials:\n```python\nfrom prefect_azure import AzureCosmosDbCredentials\nazure_credentials_block = AzureCosmosDbCredentials.load(\"BLOCK_NAME\")\n```",
+          "block_schemas": [
+            {
+              "checksum": "sha256:f9560db7d437c52903b93069a6adc9eca4e8a126d83860276703929ce449553a",
+              "fields": {
+                "title": "AzureCosmosDbCredentials",
+                "description": "Block used to manage Cosmos DB authentication with Azure.\nAzure authentication is handled via the `azure` module through\na connection string.",
+                "type": "object",
+                "properties": {
+                  "connection_string": {
+                    "title": "Connection String",
+                    "type": "string",
+                    "writeOnly": true,
+                    "format": "password"
+                  }
+                },
+                "required": ["connection_string"],
+                "block_type_slug": "azure-cosmos-db-credentials",
+                "secret_fields": ["connection_string"],
+                "block_schema_references": {}
+              },
+              "capabilities": [],
+              "version": "0.2.2"
+            }
+          ]
+        },
+        "azureml-credentials": {
+          "name": "AzureML Credentials",
+          "slug": "azureml-credentials",
+          "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/54e3fa7e00197a4fbd1d82ed62494cb58d08c96a-250x250.png",
+          "documentation_url": "https://prefecthq.github.io/prefect-azure/credentials/#prefect_azure.credentials.AzureMlCredentials",
+          "description": "Block used to manage authentication with AzureML. Azure authentication is\nhandled via the `azure` module.",
+          "code_example": "Load stored AzureML credentials:\n```python\nfrom prefect_azure import AzureMlCredentials\nazure_ml_credentials_block = AzureMlCredentials.load(\"BLOCK_NAME\")\n```",
+          "block_schemas": [
+            {
+              "checksum": "sha256:419c8794df0ee64ab9a90065194de3f69b08206ec8848ba620bba48d4c973abf",
+              "fields": {
+                "title": "AzureMlCredentials",
+                "description": "Block used to manage authentication with AzureML. Azure authentication is\nhandled via the `azure` module.",
+                "type": "object",
+                "properties": {
+                  "tenant_id": {
+                    "title": "Tenant Id",
+                    "type": "string"
+                  },
+                  "service_principal_id": {
+                    "title": "Service Principal Id",
+                    "type": "string"
+                  },
+                  "service_principal_password": {
+                    "title": "Service Principal Password",
+                    "type": "string",
+                    "writeOnly": true,
+                    "format": "password"
+                  },
+                  "subscription_id": {
+                    "title": "Subscription Id",
+                    "type": "string"
+                  },
+                  "resource_group": {
+                    "title": "Resource Group",
+                    "type": "string"
+                  },
+                  "workspace_name": {
+                    "title": "Workspace Name",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "tenant_id",
+                  "service_principal_id",
+                  "service_principal_password",
+                  "subscription_id",
+                  "resource_group",
+                  "workspace_name"
+                ],
+                "block_type_slug": "azureml-credentials",
+                "secret_fields": ["service_principal_password"],
+                "block_schema_references": {}
+              },
+              "capabilities": [],
+              "version": "0.2.2"
+            }
+          ]
+        }
+      }
+    },
+    "prefect-databricks": {
+      "block_types": {
+        "databricks-credentials": {
+          "name": "Databricks Credentials",
+          "slug": "databricks-credentials",
+          "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/ff9a2573c23954bedd27b0f420465a55b1a99dfd-250x250.png",
+          "documentation_url": "https://prefecthq.github.io/prefect-databricks/credentials/#prefect_databricks.credentials.DatabricksCredentials",
+          "description": "Block used to manage Databricks authentication.",
+          "code_example": "Load stored Databricks credentials:\n```python\nfrom prefect_databricks import DatabricksCredentials\ndatabricks_credentials_block = DatabricksCredentials.load(\"BLOCK_NAME\")\n```",
+          "block_schemas": [
+            {
+              "checksum": "sha256:b82275051357e4267d9ad459c1a8cb5d9ca9f5154db5238f84211d19963369e1",
+              "fields": {
+                "title": "DatabricksCredentials",
+                "description": "Block used to manage Databricks authentication.",
+                "type": "object",
+                "properties": {
+                  "databricks_instance": {
+                    "title": "Databricks Instance",
+                    "type": "string"
+                  },
+                  "token": {
+                    "title": "Token",
+                    "type": "string",
+                    "writeOnly": true,
+                    "format": "password"
+                  },
+                  "client_kwargs": {
+                    "title": "Client Kwargs",
+                    "type": "object"
+                  }
+                },
+                "required": ["databricks_instance", "token"],
+                "block_type_slug": "databricks-credentials",
+                "secret_fields": ["token"],
+                "block_schema_references": {}
+              },
+              "capabilities": [],
+              "version": "0.1.3"
+            }
+          ]
+        }
+      }
+    },
+    "prefect-gcp": {
+      "block_types": {
+        "gcp-credentials": {
+          "name": "GCP Credentials",
+          "slug": "gcp-credentials",
+          "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/422d13bb838cf247eb2b2cf229ce6a2e717d601b-256x256.png",
+          "documentation_url": "https://prefecthq.github.io/prefect-gcp/credentials/#prefect_gcp.credentials.GcpCredentials",
+          "description": "Block used to manage authentication with GCP. GCP authentication is\nhandled via the `google.oauth2` module or through the CLI.\nSpecify either one of service `account_file` or `service_account_info`; if both\nare not specified, the client will try to detect the service account info stored\nin the env from the command, `gcloud auth application-default login`. Refer to the\n[Authentication docs](https://cloud.google.com/docs/authentication/production)\nfor more info about the possible credential configurations.",
+          "code_example": "Load GCP credentials stored in a `GCP Credentials` Block:\n```python\nfrom prefect_gcp import GcpCredentials\ngcp_credentials_block = GcpCredentials.load(\"BLOCK_NAME\")\n```",
+          "block_schemas": [
+            {
+              "checksum": "sha256:276b3197d186ff97c26b14cbbdc0f4d0c4b1639285c7dcb9cd233f0eefffeb35",
+              "fields": {
+                "title": "GcpCredentials",
+                "description": "Block used to manage authentication with GCP. GCP authentication is\nhandled via the `google.oauth2` module or through the CLI.\nSpecify either one of service `account_file` or `service_account_info`; if both\nare not specified, the client will try to detect the service account info stored\nin the env from the command, `gcloud auth application-default login`. Refer to the\n[Authentication docs](https://cloud.google.com/docs/authentication/production)\nfor more info about the possible credential configurations.",
+                "type": "object",
+                "properties": {
+                  "service_account_file": {
+                    "title": "Service Account File",
+                    "description": "Path to the service account JSON keyfile.",
+                    "type": "string",
+                    "format": "path"
+                  },
+                  "service_account_info": {
+                    "title": "Service Account Info",
+                    "description": "The contents of the keyfile as a dict.",
+                    "type": "object"
+                  },
+                  "project": {
+                    "title": "Project",
+                    "description": "The GCP project to use for the client.",
+                    "type": "string"
+                  }
+                },
+                "block_type_slug": "gcp-credentials",
+                "secret_fields": ["service_account_info.*"],
+                "block_schema_references": {}
+              },
+              "capabilities": [],
+              "version": "0.2.1"
+            }
+          ]
+        },
+        "bigquery-warehouse": {
+          "name": "BigQuery Warehouse",
+          "slug": "bigquery-warehouse",
+          "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/422d13bb838cf247eb2b2cf229ce6a2e717d601b-256x256.png",
+          "documentation_url": "https://prefecthq.github.io/prefect-gcp/bigquery/#prefect_gcp.bigquery.BigQueryWarehouse",
+          "description": "A block for querying a database with BigQuery.\n\nUpon instantiating, a connection to BigQuery is established\nand maintained for the life of the object until the close method is called.\n\nIt is recommended to use this block as a context manager, which will automatically\nclose the connection and its cursors when the context is exited.\n\nIt is also recommended that this block is loaded and consumed within a single task\nor flow because if the block is passed across separate tasks and flows,\nthe state of the block's connection and cursor could be lost.",
+          "code_example": "```python\nfrom prefect_gcp.bigquery import BigQueryWarehouse\n\nbigquery_warehouse_block = BigQueryWarehouse.load(\"BLOCK_NAME\")\n```",
+          "block_schemas": [
+            {
+              "checksum": "sha256:3090c6187d4d855804d22fe2972c1da6de6f9508535a440d261d45034c8fa93a",
+              "fields": {
+                "title": "BigQueryWarehouse",
+                "description": "A block for querying a database with BigQuery.\n\nUpon instantiating, a connection to BigQuery is established\nand maintained for the life of the object until the close method is called.\n\nIt is recommended to use this block as a context manager, which will automatically\nclose the connection and its cursors when the context is exited.\n\nIt is also recommended that this block is loaded and consumed within a single task\nor flow because if the block is passed across separate tasks and flows,\nthe state of the block's connection and cursor could be lost.",
+                "type": "object",
+                "properties": {
+                  "gcp_credentials": { "$ref": "#/definitions/GcpCredentials" },
+                  "fetch_size": {
+                    "title": "Fetch Size",
+                    "description": "The number of rows to fetch at a time.",
+                    "default": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": ["gcp_credentials"],
+                "block_type_slug": "bigquery-warehouse",
+                "secret_fields": ["gcp_credentials.service_account_info.*"],
+                "block_schema_references": {
+                  "gcp_credentials": {
+                    "block_type_slug": "gcp-credentials",
+                    "block_schema_checksum": "sha256:276b3197d186ff97c26b14cbbdc0f4d0c4b1639285c7dcb9cd233f0eefffeb35"
+                  }
+                },
+                "definitions": {
+                  "GcpCredentials": {
+                    "title": "GcpCredentials",
+                    "description": "Block used to manage authentication with GCP. GCP authentication is\nhandled via the `google.oauth2` module or through the CLI.\nSpecify either one of service `account_file` or `service_account_info`; if both\nare not specified, the client will try to detect the service account info stored\nin the env from the command, `gcloud auth application-default login`. Refer to the\n[Authentication docs](https://cloud.google.com/docs/authentication/production)\nfor more info about the possible credential configurations.",
+                    "type": "object",
+                    "properties": {
+                      "service_account_file": {
+                        "title": "Service Account File",
+                        "description": "Path to the service account JSON keyfile.",
+                        "type": "string",
+                        "format": "path"
+                      },
+                      "service_account_info": {
+                        "title": "Service Account Info",
+                        "description": "The contents of the keyfile as a dict.",
+                        "type": "object"
+                      },
+                      "project": {
+                        "title": "Project",
+                        "description": "The GCP project to use for the client.",
+                        "type": "string"
+                      }
+                    },
+                    "block_type_slug": "gcp-credentials",
+                    "secret_fields": ["service_account_info.*"],
+                    "block_schema_references": {}
+                  }
+                }
+              },
+              "capabilities": [],
+              "version": "0.2.1"
+            }
+          ]
+        }
+      },
+      "prefect-snowflake": {
+        "block_types": {
+          "snowflake-credentials": {
+            "name": "Snowflake Credentials",
+            "slug": "snowflake-credentials",
+            "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/bd359de0b4be76c2254bd329fe3a267a1a3879c2-250x250.png",
+            "documentation_url": "https://prefecthq.github.io/prefect-snowflake/credentials/#prefect_snowflake.credentials.SnowflakeCredentials",
+            "description": "Block used to manage authentication with Snowflake.",
+            "code_example": "Load stored Snowflake credentials:\n```python\nfrom prefect_snowflake import SnowflakeCredentials\nsnowflake_credentials_block = SnowflakeCredentials.load(\"BLOCK_NAME\")\n```",
+            "block_schemas": [
+              {
+                "checksum": "sha256:e922f0c0e101abbffbd623c7afd4a6ba41b0043372a9ae3e55071496a4dfd994",
+                "fields": {
+                  "title": "SnowflakeCredentials",
+                  "description": "Block used to manage authentication with Snowflake.",
+                  "type": "object",
+                  "properties": {
+                    "account": {
+                      "title": "Account",
+                      "description": "The snowflake account name",
+                      "type": "string"
+                    },
+                    "user": {
+                      "title": "User",
+                      "description": "The user name used to authenticate",
+                      "type": "string"
+                    },
+                    "password": {
+                      "title": "Password",
+                      "description": "The password used to authenticate",
+                      "type": "string",
+                      "writeOnly": true,
+                      "format": "password"
+                    },
+                    "private_key": {
+                      "title": "Private Key",
+                      "description": "The PEM used to authenticate",
+                      "type": "string",
+                      "writeOnly": true,
+                      "format": "password"
+                    },
+                    "authenticator": {
+                      "title": "Authenticator",
+                      "description": "The type of authenticator to use for initializing connection",
+                      "default": "snowflake",
+                      "enum": [
+                        "snowflake",
+                        "externalbrowser",
+                        "okta_endpoint",
+                        "oauth",
+                        "username_password_mfa"
+                      ],
+                      "type": "string"
+                    },
+                    "token": {
+                      "title": "Token",
+                      "description": "The OAuth or JWT Token to provide when authenticator is set to `oauth`",
+                      "type": "string",
+                      "writeOnly": true,
+                      "format": "password"
+                    },
+                    "endpoint": {
+                      "title": "Endpoint",
+                      "description": "The Okta endpoint to use when authenticator is set to `okta_endpoint`",
+                      "type": "string"
+                    },
+                    "role": {
+                      "title": "Role",
+                      "description": "The name of the default role to use",
+                      "type": "string"
+                    },
+                    "autocommit": {
+                      "title": "Autocommit",
+                      "description": "Whether to automatically commit",
+                      "type": "boolean"
+                    }
+                  },
+                  "required": ["account", "user"],
+                  "block_type_slug": "snowflake-credentials",
+                  "secret_fields": ["password", "private_key", "token"],
+                  "block_schema_references": {}
+                },
+                "capabilities": [],
+                "version": "0.2.2"
+              }
+            ]
+          },
+          "snowflake-connector": {
+            "name": "Snowflake Connector",
+            "slug": "snowflake-connector",
+            "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/bd359de0b4be76c2254bd329fe3a267a1a3879c2-250x250.png",
+            "documentation_url": "https://prefecthq.github.io/prefect-snowflake/database/#prefect_snowflake.database.SnowflakeConnector",
+            "description": "Block used to manage connections with Snowflake.",
+            "code_example": "Load stored Snowflake connector:\n```python\nfrom prefect_snowflake.database import SnowflakeConnector\nsnowflake_connector_block = SnowflakeConnector.load(\"BLOCK_NAME\")\n```",
+            "block_schemas": [
+              {
+                "checksum": "sha256:9a9a7b2a57e10b07c780f43ab08e7c57106232e6d9ba89e478daf66e8576857d",
+                "fields": {
+                  "title": "SnowflakeConnector",
+                  "description": "Block used to manage connections with Snowflake.",
+                  "type": "object",
+                  "properties": {
+                    "database": {
+                      "title": "Database",
+                      "descriptions": "The name of the default database to use",
+                      "type": "string"
+                    },
+                    "warehouse": {
+                      "title": "Warehouse",
+                      "description": "The name of the default warehouse to use",
+                      "type": "string"
+                    },
+                    "schema": {
+                      "title": "Schema",
+                      "description": "The name of the default schema to use",
+                      "type": "string"
+                    },
+                    "credentials": {
+                      "$ref": "#/definitions/SnowflakeCredentials"
+                    }
+                  },
+                  "required": [
+                    "database",
+                    "warehouse",
+                    "schema",
+                    "credentials"
+                  ],
+                  "block_type_slug": "snowflake-connector",
+                  "secret_fields": [
+                    "credentials.password",
+                    "credentials.private_key",
+                    "credentials.token"
+                  ],
+                  "block_schema_references": {
+                    "credentials": {
+                      "block_type_slug": "snowflake-credentials",
+                      "block_schema_checksum": "sha256:e922f0c0e101abbffbd623c7afd4a6ba41b0043372a9ae3e55071496a4dfd994"
+                    }
+                  },
+                  "definitions": {
+                    "SnowflakeCredentials": {
+                      "title": "SnowflakeCredentials",
+                      "description": "Block used to manage authentication with Snowflake.",
+                      "type": "object",
+                      "properties": {
+                        "account": {
+                          "title": "Account",
+                          "description": "The snowflake account name",
+                          "type": "string"
+                        },
+                        "user": {
+                          "title": "User",
+                          "description": "The user name used to authenticate",
+                          "type": "string"
+                        },
+                        "password": {
+                          "title": "Password",
+                          "description": "The password used to authenticate",
+                          "type": "string",
+                          "writeOnly": true,
+                          "format": "password"
+                        },
+                        "private_key": {
+                          "title": "Private Key",
+                          "description": "The PEM used to authenticate",
+                          "type": "string",
+                          "writeOnly": true,
+                          "format": "password"
+                        },
+                        "authenticator": {
+                          "title": "Authenticator",
+                          "description": "The type of authenticator to use for initializing connection",
+                          "default": "snowflake",
+                          "enum": [
+                            "snowflake",
+                            "externalbrowser",
+                            "okta_endpoint",
+                            "oauth",
+                            "username_password_mfa"
+                          ],
+                          "type": "string"
+                        },
+                        "token": {
+                          "title": "Token",
+                          "description": "The OAuth or JWT Token to provide when authenticator is set to `oauth`",
+                          "type": "string",
+                          "writeOnly": true,
+                          "format": "password"
+                        },
+                        "endpoint": {
+                          "title": "Endpoint",
+                          "description": "The Okta endpoint to use when authenticator is set to `okta_endpoint`",
+                          "type": "string"
+                        },
+                        "role": {
+                          "title": "Role",
+                          "description": "The name of the default role to use",
+                          "type": "string"
+                        },
+                        "autocommit": {
+                          "title": "Autocommit",
+                          "description": "Whether to automatically commit",
+                          "type": "boolean"
+                        }
+                      },
+                      "required": ["account", "user"],
+                      "block_type_slug": "snowflake-credentials",
+                      "secret_fields": ["password", "private_key", "token"],
+                      "block_schema_references": {}
+                    }
+                  }
+                },
+                "capabilities": [],
+                "version": "0.2.2"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
