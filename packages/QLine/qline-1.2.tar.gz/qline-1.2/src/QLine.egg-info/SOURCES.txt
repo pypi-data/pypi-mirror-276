@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+src/QLine/Constants.py
+src/QLine/Grid.py
+src/QLine/__init__.py
+src/QLine/basis_functions.py
+src/QLine/hamiltonian.py
+src/QLine/math_methods.py
+src/QLine/plotting.py
+src/QLine/potentials.py
+src/QLine/schroedinger_eq.py
+src/QLine.egg-info/PKG-INFO
+src/QLine.egg-info/SOURCES.txt
+src/QLine.egg-info/dependency_links.txt
+src/QLine.egg-info/requires.txt
+src/QLine.egg-info/top_level.txt
