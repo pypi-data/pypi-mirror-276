@@ -1,0 +1,140 @@
+name: Publish Python 🐍 distribution 📦 to PyPI and TestPyPI
+
+on: 
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  build:
+    name: Build distribution 📦
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.os }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+    - name: Install pypa/build ${{ matrix.os }}
+      run: >-
+        python3 -m pip install build --user
+    - name: Build a binary wheel and a source tarball ${{ matrix.os }}
+      run: python3 -m build
+    - name: Store the distribution packages ${{ matrix.os }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: python-package-distributions-${{ matrix.os }}
+        path: dist/
+  
+  test:
+    name: Test distribution 📦
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.os }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+    - name: Install dependencies ${{ matrix.os }}
+      run: pip install -e ".[test]"
+    - name: Run tests
+      run: pytest
+    - name: Upload coverage report ${{ matrix.os }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: coverage-report-${{ matrix.os }}
+        path: htmlcov
+  
+  generate-executable:
+    name: >-
+      Generate package 📦 executable
+    needs:
+    - build
+    - test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+  
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.os }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+    - name: Install dependencies ${{ matrix.os }}
+      run: pip install -e ".[dev]"
+    - name: Create executable ${{ matrix.os }}
+      run: pyinstaller --onefile --name pydatagenerator scripts/data_generator.py
+    - name: Upload executable ${{ matrix.os }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: pydatagenerator-${{ matrix.os }}
+        path: dist
+
+  publish-to-pypi:
+    name: >-
+      Publish Python 🐍 distribution 📦 to PyPI
+    if: startsWith(github.ref, 'refs/tags/')  # only publish to PyPI on tag pushes
+    needs:
+    - build
+    - test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    environment:
+      name: pypi
+      url: https://pypi.org/p/pydatagenerator
+    permissions:
+      id-token: write  # IMPORTANT: mandatory for trusted publishing
+
+    steps:
+    - name: Download all the dists ${{ matrix.os }}
+      uses: actions/download-artifact@v3
+      with:
+        name: python-package-distributions-${{ matrix.os }}
+        path: dist/
+    - name: Publish distribution 📦 to PyPI ${{ matrix.os }}
+      uses: pypa/gh-action-pypi-publish@release/v1
+
+  publish-to-testpypi:
+    name: Publish Python 🐍 distribution 📦 to TestPyPI
+    if: startsWith(github.ref, 'refs/develop/')
+    needs:
+    - build
+    - test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    environment:
+      name: testpypi
+      url: https://test.pypi.org/p/pydatagenerator
+
+    permissions:
+      id-token: write  # IMPORTANT: mandatory for trusted publishing
+
+    steps:
+    - name: Download all the dists ${{ matrix.os }}
+      uses: actions/download-artifact@v3
+      with:
+        name: python-package-distributions-${{ matrix.os }}
+        path: dist/
+    - name: Publish distribution 📦 to TestPyPI ${{ matrix.os }}
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        repository-url: https://test.pypi.org/legacy/

@@ -1,0 +1,7 @@
+<pydatagenerator iterations="20">
+    <dataset name="age" type="type.random-number-dataset" floating="false" min="1" max="100"/>
+    <dataset name="wage" type="type.random-number-dataset" floating="false" min="1000" max="100000000"/>
+    <template>
+        INSERT INTO Employees VALUES (#{age}, #{wage})
+    </template>
+</pydatagenerator>
