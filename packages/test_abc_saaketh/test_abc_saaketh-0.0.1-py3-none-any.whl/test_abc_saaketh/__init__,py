@@ -1,0 +1,2 @@
+from .b import function_b
+__all__ = ['function_b']

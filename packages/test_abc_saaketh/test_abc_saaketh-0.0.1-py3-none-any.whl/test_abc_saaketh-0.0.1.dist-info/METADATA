@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: test_abc_saaketh
+Version: 0.0.1
+Summary: Vision Transformers implemented using KAN layers
+Home-page: https://github.com/chenziwenhaoshuai/Vision-KAN
+License: MIT
+Author: Saaketh Koundinya
+Author-email: three2saki@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/chenziwenhaoshuai/Vision-KAN
+Description-Content-Type: text/markdown
+
+
