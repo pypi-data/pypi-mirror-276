@@ -1,0 +1,11 @@
+atpdataset/__init__.py,sha256=WkF6F_k0O9rdZ1ou5ezDrKbla-Zg78d_fsCOBKxCwwQ,428
+atpdataset/csv.py,sha256=0cJY2jTZGxGYGslLts1iNRT1X1NCB6a99ylQ4woMWuU,937
+atpdataset/csv_object.py,sha256=lwiGVyQxLb50mtjpnUDRHCiBbcUEeQKvzexYBnTKHtY,1307
+atpdataset/dataset.py,sha256=06xj5Oq-2mta3lVsgdHOo0vBlp6MXZZfdYnDx5-uZEQ,1405
+atpdataset/dictionary.py,sha256=jGuPmPNBy8SJ9x6kaKFuuKKEcb49X1rHAogBVr5xvg8,3239
+atpdataset-0.0.5.dist-info/LICENSE,sha256=0E7yzRoDwMb52rK09-mK79-b_Y5wqgm_HQ1XNcnIM-M,1067
+atpdataset-0.0.5.dist-info/METADATA,sha256=mbDOxCCjc4EWQPIWd0cmqUsP1FIKltmB1wiVmGGMWvs,2279
+atpdataset-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+atpdataset-0.0.5.dist-info/entry_points.txt,sha256=vwEkbjxs1_y5G9iFm_XCr-q9Wt3RC07TQ8ia-6JiDOA,47
+atpdataset-0.0.5.dist-info/top_level.txt,sha256=FYjuobM7FCyTFIUjMb9nMuqZsd2iz9Yj2GMCnDGs-1I,11
+atpdataset-0.0.5.dist-info/RECORD,,
