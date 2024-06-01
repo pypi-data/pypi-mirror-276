@@ -1,0 +1,9 @@
+pandas
+numpy
+statsmodels
+scipy
+matplotlib
+sympy
+prince
+altair
+pyreadstat
