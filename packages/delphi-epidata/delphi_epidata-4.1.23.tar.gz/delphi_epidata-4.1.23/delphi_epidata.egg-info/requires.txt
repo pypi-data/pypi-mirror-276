@@ -1,0 +1,4 @@
+aiohttp
+delphi-utils
+requests>=2.7.0
+tenacity
