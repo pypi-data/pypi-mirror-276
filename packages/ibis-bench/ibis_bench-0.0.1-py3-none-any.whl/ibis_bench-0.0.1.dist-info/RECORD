@@ -1,0 +1,9 @@
+ibis_bench/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ibis_bench/cli.py,sha256=zc5S4mqy_oQT8RCQK-hnZgyXyVDcfM_BoSqCPQhEenc,421
+ibis_bench/queries/ibis.py,sha256=b-oQyKcv6t5SXThXGIIFznCKsV8jaladnCgR3OkIS4Q,1972
+ibis_bench/queries/polars.py,sha256=xMsW-h8eSWfswBrwUjdKxLjPd-1V_TC3JXH--rzsQ5g,2054
+ibis_bench/utils/monitor.py,sha256=-B1a9j-7wNFXjdvcZnV35gvSdZk-sWWsczqvHuBQb1Y,1847
+ibis_bench-0.0.1.dist-info/METADATA,sha256=tFyadyEPYHONsOmWhBx5h3ss_JnxIhEzhx2vyxr9QiU,687
+ibis_bench-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+ibis_bench-0.0.1.dist-info/entry_points.txt,sha256=rIuiybbYaWg6jBWzN8J1uPNOsTVZBBqA-eVda03iY2Q,45
+ibis_bench-0.0.1.dist-info/RECORD,,
