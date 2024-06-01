@@ -1,0 +1,17 @@
+ziginstall/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ziginstall/_locations.py,sha256=erqkbUXQpUnfbOpL-gg7zvJMEGQiGFFtX5YNBUv2d1Q,432
+ziginstall/_logging.py,sha256=YS9bwya7pujpkeU9Ku0FkTMSE3XpeedXidGhjBPXHCY,1321
+ziginstall/cli.py,sha256=sytGmAgngs-Hmxt9_Nwx7GwrbePMmrg4uj9ctUHnT4A,763
+ziginstall/install/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ziginstall/install/_core.py,sha256=pRXDwllA0bpk2FVJsog9rJogY3WMhgAtUK8IuFz0-yk,2113
+ziginstall/install/_install_steps.py,sha256=fzGZDm2V58mC-WWTZNMpvTFtQ_9_Ykv8lwI8RXtY_Qg,3846
+ziginstall/install/_verification.py,sha256=0LfMqZ10TCo0y3ATC1VEj-maUC5b4WamXy4IgpkBc70,482
+ziginstall/install/cli.py,sha256=06M-U2HGqLhyCqzbGeo4CYE9ogHmvG0gIKKcHDV-vlY,2267
+ziginstall/version_management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ziginstall/version_management/cli.py,sha256=Qyhy6Zh55rWsExk4IanuFD_d6VU_TxttggkgKO1uSDE,2186
+ziginstall/version_management/core.py,sha256=GYP5PydU6sNsb1tOAVs6C9ZvrQPez8c4P1VlEn8LMrI,277
+ziginstall-0.1.4.dist-info/LICENSE,sha256=AuB_LuMaWDdlYzLJ01KaGu5Gb_clVzytaS8RWJITovM,1071
+ziginstall-0.1.4.dist-info/METADATA,sha256=JaW_ca8UNqpodrCsDDLP5sKT4cAD6Cnmxoick1yIJfk,1767
+ziginstall-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ziginstall-0.1.4.dist-info/entry_points.txt,sha256=hhlpqSsO6MgAEyMs32kfld9LPBEDLbfYwk7fqruwB3A,57
+ziginstall-0.1.4.dist-info/RECORD,,

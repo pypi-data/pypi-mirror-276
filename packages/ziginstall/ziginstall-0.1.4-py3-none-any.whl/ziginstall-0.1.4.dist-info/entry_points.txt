@@ -1,0 +1,3 @@
+[console_scripts]
+ziginstall=ziginstall.cli:zig_install
+
