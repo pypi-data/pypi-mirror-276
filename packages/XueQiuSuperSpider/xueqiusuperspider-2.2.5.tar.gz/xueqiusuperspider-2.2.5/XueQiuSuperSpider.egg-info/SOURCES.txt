@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+XueQiuSuperSpider.egg-info/PKG-INFO
+XueQiuSuperSpider.egg-info/SOURCES.txt
+XueQiuSuperSpider.egg-info/dependency_links.txt
+XueQiuSuperSpider.egg-info/requires.txt
+XueQiuSuperSpider.egg-info/top_level.txt
