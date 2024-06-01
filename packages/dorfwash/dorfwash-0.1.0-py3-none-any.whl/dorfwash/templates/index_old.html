@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washing Machine Status</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+                <tr>
+                    <th>machine</th>
+                    <th>status</th>
+                </tr>
+            {% for data in table_data %}
+                <tr>
+                    <td>{{ data[0] }}</td>
+                    <td>{{ data[1] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    Produced by dorfwash.
+</body>
+</html>
+
+
