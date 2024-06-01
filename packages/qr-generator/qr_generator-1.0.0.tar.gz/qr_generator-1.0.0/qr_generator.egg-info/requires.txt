@@ -1,0 +1,5 @@
+pillow==10.3.0
+pypng==0.20220715.0
+qrcode==7.4.2
+ruff==0.4.2
+typing-extensions==4.11.0
