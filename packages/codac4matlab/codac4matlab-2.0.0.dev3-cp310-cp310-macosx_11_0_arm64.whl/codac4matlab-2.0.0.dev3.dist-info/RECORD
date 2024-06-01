@@ -1,0 +1,12 @@
+codac4matlab/__init__.py,sha256=9B1T8kExVtzZ8cfniYg2CSy-6hqJqaW7gUSVPWpH8Ic,1426
+codac4matlab/core.cpython-310-darwin.so,sha256=WbgbSrn8r7TqyAzjsgPx9hDMFAQO-1DnpeIdBAUurPw,4087399
+codac4matlab/empty.cpython-310-darwin.so,sha256=2YL2cYkVa5QH7b0INlokTn6-A_UFw9AlxYi5hppUCeA,16440
+codac4matlab/graphics.cpython-310-darwin.so,sha256=1_M3tc0lj73pyZGmsqa39C63_wNbUs_wJ65jSmK-5gs,195115
+codac4matlab/unsupported.cpython-310-darwin.so,sha256=CgVXzjzWX9VZFi3dyV_2JVVwUFabqSoabUZkC_tBOEs,195134
+codac4matlab/version.py,sha256=6aTsaEKyBHFdzQjDU6jvkF0BXPK1486LAfHKk-VQHKc,19
+codac4matlab/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codac4matlab/tests/codac2_tests.py,sha256=9O1EkRbU26fatKEB_x6K6Zz1TVINDelRL01WQ-Qbegc,242
+codac4matlab-2.0.0.dev3.dist-info/METADATA,sha256=_N24eHPbha2dtonuEX95JoovZPSa1NswZ_fOSpnARSc,644
+codac4matlab-2.0.0.dev3.dist-info/WHEEL,sha256=E2L8cNry8_qENFWMb8KxRWLe-RhZW94hLc32Xo3HiTg,110
+codac4matlab-2.0.0.dev3.dist-info/top_level.txt,sha256=ZeLeS-8xPyH0yVFjcLqUgqnqV4umnaerrPV-cSX1c_U,13
+codac4matlab-2.0.0.dev3.dist-info/RECORD,,
