@@ -1,0 +1,8 @@
+numpy
+tqdm
+scipy
+pandas
+networkx
+
+[cpu]
+torch==1.8.1+cpu
