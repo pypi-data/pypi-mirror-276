@@ -1,0 +1,12 @@
+codac4matlab-2.0.0.dev3.dist-info/WHEEL,sha256=YVAXCacQXnznQ-_lMj8Nvqrs7YPtMP1pHRCw9EcyWRQ,150
+codac4matlab-2.0.0.dev3.dist-info/top_level.txt,sha256=ZeLeS-8xPyH0yVFjcLqUgqnqV4umnaerrPV-cSX1c_U,13
+codac4matlab-2.0.0.dev3.dist-info/RECORD,,
+codac4matlab-2.0.0.dev3.dist-info/METADATA,sha256=CQMitnrmd6Akt75qqnXKv9f2ZRV1nAorwhyVmN4lm40,665
+codac4matlab/__init__.py,sha256=9B1T8kExVtzZ8cfniYg2CSy-6hqJqaW7gUSVPWpH8Ic,1426
+codac4matlab/unsupported.cpython-36m-x86_64-linux-gnu.so,sha256=8LQCdjd51FZCTKCF056Et7XewzHleKC-f_Tot6KWB3w,1128848
+codac4matlab/empty.cpython-36m-x86_64-linux-gnu.so,sha256=37dSFwvudXzgkLwtEi61muChsbM1PyKOM3QxGC6wDmk,15840
+codac4matlab/core.cpython-36m-x86_64-linux-gnu.so,sha256=ImU-jUgsW-gvXafFZKTO2b3olNWXfLdgcF1V-Z4HxVw,2365520
+codac4matlab/version.py,sha256=6aTsaEKyBHFdzQjDU6jvkF0BXPK1486LAfHKk-VQHKc,19
+codac4matlab/graphics.cpython-36m-x86_64-linux-gnu.so,sha256=-kmI1FQg9wnfn7ChEImpwB9Sff2kB6bgGmro8eVCNoE,1128848
+codac4matlab/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codac4matlab/tests/codac2_tests.py,sha256=9O1EkRbU26fatKEB_x6K6Zz1TVINDelRL01WQ-Qbegc,242
