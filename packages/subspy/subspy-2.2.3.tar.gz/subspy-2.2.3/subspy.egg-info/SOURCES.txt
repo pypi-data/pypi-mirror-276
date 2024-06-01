@@ -1,0 +1,12 @@
+README.md
+setup.py
+subspy/__init__.py
+subspy/cli.py
+subspy/default_subdomains.txt
+subspy/subdomain.py
+subspy.egg-info/PKG-INFO
+subspy.egg-info/SOURCES.txt
+subspy.egg-info/dependency_links.txt
+subspy.egg-info/entry_points.txt
+subspy.egg-info/requires.txt
+subspy.egg-info/top_level.txt
