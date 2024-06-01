@@ -1,0 +1,17 @@
+Sanatio-1.0.0.data/data/assets/country.json,sha256=i_k9rMun1-lDf1DQVUcV2daL-5cGllMQlQUhGcerX6g,25900
+Sanatio-1.0.0.data/data/assets/regex.json,sha256=bXYtNGDQ9EzUYBNRtSugboGmF0MqWt-scQYh7SESQ2g,1181
+sanatio/__init__.py,sha256=J0PLtMwKzoiAyxF3yIFQArOyemfW0MRWEpqA7rF9kX8,61
+sanatio/main.py,sha256=Zs_LzZp8GnFwPqEg77VIDGV-DOy6B5v_Ny0C0LWZZko,15058
+sanatio/assets/country.json,sha256=i_k9rMun1-lDf1DQVUcV2daL-5cGllMQlQUhGcerX6g,25900
+sanatio/assets/regex.json,sha256=bXYtNGDQ9EzUYBNRtSugboGmF0MqWt-scQYh7SESQ2g,1181
+sanatio/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sanatio/utils/checksum.py,sha256=8AYRelQPfmvgS0v833TTFImzZb7Mt_lQ-n05gDRdoRE,655
+sanatio/utils/utils.py,sha256=lt4fN1Ic6xpaY02uBVzDa6-D2oOn-8SmzeNSwHDK-bs,691
+sanatio/utils/checksum_algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sanatio/utils/checksum_algorithms/luhn_algorithm.py,sha256=LxeH_ucFQFvlJ36WK6ASusmF8uldSs6DiB-erpbJ4jg,1318
+sanatio/utils/checksum_algorithms/verhoeff_algorithm.py,sha256=ghKUdBLfmtd3-MrqMzHN02J3y7j7TyhKxFObw0_4JtQ,1741
+Sanatio-1.0.0.dist-info/LICENSE,sha256=yX-iqIKvKvlr4uCo92uu0h1TihuGT6FbLNJT3AkhW5w,11545
+Sanatio-1.0.0.dist-info/METADATA,sha256=C4ftntxzzKw9IntNfZK6TisNoMj67tfgMhSzDZ2_p_k,2207
+Sanatio-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Sanatio-1.0.0.dist-info/top_level.txt,sha256=OzDU8qyiaKIhYuWNlwPZ4hGT2kYyhta1TQr8UOmxehM,8
+Sanatio-1.0.0.dist-info/RECORD,,
