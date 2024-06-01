@@ -1,0 +1,6 @@
+dtvr/__init__.py,sha256=gCVe_sdueyvs57WI_7mqKYD_Ob5P1-TOVndCAPRW4z4,67
+dtvr/client.py,sha256=m27Ch1vm2PuI_Ef0MldGay005xlnC_hx7ftw2BRtmIE,16952
+dtvr/timeutil.py,sha256=0bt3ChgYLEBrqHPkAmInoo72ti4_b486VwLMi5s_hcA,3048
+dtvr-0.0.1.dist-info/METADATA,sha256=MN_qtSaZQv3AKnnH0E7OS-141HYkOQNyNyGH_W1B_mc,4601
+dtvr-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dtvr-0.0.1.dist-info/RECORD,,
