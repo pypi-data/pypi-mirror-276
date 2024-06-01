@@ -1,0 +1,7 @@
+Quart~=0.19
+
+[tests]
+pytest-asyncio
+pytest
+pytest-env
+finitelycomputable-tests
