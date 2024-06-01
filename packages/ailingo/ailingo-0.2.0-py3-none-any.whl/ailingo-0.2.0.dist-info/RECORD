@@ -1,0 +1,11 @@
+ailingo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ailingo/cli.py,sha256=hspmlPSBAYJnjQomE3fraON_THB9jfDceZBLCHx5Ga0,7392
+ailingo/file_manager.py,sha256=kJtKy78TGE8o-nCe80ss7BiBVpTjctZjQz3MMJSZzms,2200
+ailingo/llm.py,sha256=p6Dunxk7U2GQ4OXQ_49LEemWd1KzRvmSVLxreM_0w3Y,1010
+ailingo/translator.py,sha256=KSvut1VtcEp0vFTY-fH9CYicYX2Q4jw4lm_KmlJAQc4,7074
+ailingo/utils.py,sha256=Vq8nR5-LpoE0Qel_565lJB-Z4HgEAYq-sBl13GOs5eM,269
+ailingo-0.2.0.dist-info/LICENSE,sha256=KceLCeqkuG0H5mgvpwOewbOnP7CrIfMtPRpfuQURFvo,1074
+ailingo-0.2.0.dist-info/METADATA,sha256=zI8XSv2Gosj0uLHLuYGCfBo6r-eLNUvAhXjpcBc_rek,9183
+ailingo-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ailingo-0.2.0.dist-info/entry_points.txt,sha256=l9jv_Lq5Oa0wF5srBvLluKUkTzoY9tk-QRna6z6XIrg,43
+ailingo-0.2.0.dist-info/RECORD,,
