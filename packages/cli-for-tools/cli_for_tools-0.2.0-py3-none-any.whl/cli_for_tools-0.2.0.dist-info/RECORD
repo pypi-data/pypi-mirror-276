@@ -1,0 +1,7 @@
+cli_for_tools/__init__.py,sha256=5QWAyXIUhskR_UTQQZSyLGEDjio_wvQCPmGhLKz2o10,86
+cli_for_tools/paco_cli.py,sha256=XiSRk8XU8cboJGuE5X14ZzMeEC8K0Xsem_VTD7R4BJE,2748
+cli_for_tools-0.2.0.dist-info/entry_points.txt,sha256=bg65l4raA-8aOaqI_OkN8-VJMyOzUwc9RG2W1nzxcDQ,60
+cli_for_tools-0.2.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+cli_for_tools-0.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cli_for_tools-0.2.0.dist-info/METADATA,sha256=J9UodhguyJFc1JyulEUO_6Nbi9aujfh0kZzxEk6evac,3176
+cli_for_tools-0.2.0.dist-info/RECORD,,
