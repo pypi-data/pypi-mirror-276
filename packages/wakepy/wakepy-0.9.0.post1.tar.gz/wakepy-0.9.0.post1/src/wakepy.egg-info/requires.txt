@@ -1,0 +1,6 @@
+
+[:python_version < "3.8.0"]
+typing-extensions
+
+[:sys_platform == "linux"]
+jeepney>=0.7.1
