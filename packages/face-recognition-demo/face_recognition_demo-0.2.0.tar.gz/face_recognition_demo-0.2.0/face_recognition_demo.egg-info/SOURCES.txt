@@ -1,0 +1,10 @@
+README.md
+setup.py
+face_genius/__init__.py
+face_genius/face_genius.py
+face_genius/utils.py
+face_recognition_demo.egg-info/PKG-INFO
+face_recognition_demo.egg-info/SOURCES.txt
+face_recognition_demo.egg-info/dependency_links.txt
+face_recognition_demo.egg-info/requires.txt
+face_recognition_demo.egg-info/top_level.txt
