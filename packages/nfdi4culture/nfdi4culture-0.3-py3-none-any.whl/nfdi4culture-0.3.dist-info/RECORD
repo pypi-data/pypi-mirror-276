@@ -1,0 +1,11 @@
+nfdi4culture/__init__.py,sha256=G8LN064KT_A-KF1dzoCw4nJ1MLQH25m4dS1UXJsa8UY,55
+nfdi4culture/cto.ttl,sha256=WJdSo5oFonJzQQ_ZdqQFdKd0qsHNfCVjwgY1mn758f8,38806
+nfdi4culture/cto1.py,sha256=bEtlwFF8lfrp1Syl9YbQnpX6_lRvxDPt8nFt2jykLx8,62306
+nfdi4culture/helpers.py,sha256=8AViLLogvQ3EJekTty0_adZfcfVumDxuvAFEOp2Z9Pw,118
+nfdi4culture/marc.py,sha256=qslOtQyx2lvv-b4mhUNKm20C_iObGMAIGEFn9luMhyE,4300
+nfdi4culture/ontology.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nfdi4culture/schema.ttl,sha256=dm3hoKrEkRcm05rNkN7pKJ2T76nz0OGMU1ualzMj6kY,239711
+nfdi4culture-0.3.dist-info/LICENSE.txt,sha256=9RDDwR-AzNwoNKlyGAjkJlgWhTiGY3TKZ_w38NoXs8c,1100
+nfdi4culture-0.3.dist-info/METADATA,sha256=KvGqcH-svdGjp_2HJ4-iG1IpwilBcDzv07i1Bl0yhqI,2013
+nfdi4culture-0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nfdi4culture-0.3.dist-info/RECORD,,
