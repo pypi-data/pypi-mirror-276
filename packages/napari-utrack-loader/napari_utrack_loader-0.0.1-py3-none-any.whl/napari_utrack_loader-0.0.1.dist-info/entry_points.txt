@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-utrack-loader = napari_utrack_loader:napari.yaml

@@ -1,0 +1,10 @@
+napari_utrack_loader/__init__.py,sha256=NqMZDGtplZ8THTlF6yCguFeUdCn4tylL4qPbOOxv1dw,91
+napari_utrack_loader/_widget.py,sha256=ShEQwUGCdTwDYrGw0hmksFC5wIeEi3yEX4zO8KEtc7Y,7888
+napari_utrack_loader/napari.yaml,sha256=xgzA-zxZ3tRf-bvMk-OFDJXxUD1Lz_ulf6XLC9HAOYM,520
+napari_utrack_loader/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_utrack_loader-0.0.1.dist-info/LICENSE,sha256=6e3GnTbNqDHHEpm7pOkrOMukJbnZ4otal6ZLFXp1jwk,1081
+napari_utrack_loader-0.0.1.dist-info/METADATA,sha256=YaXFKuojqgBv5X9N6eSjf0LzqWqJG1jpyBf-BTD6dBs,5711
+napari_utrack_loader-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+napari_utrack_loader-0.0.1.dist-info/entry_points.txt,sha256=G3Nxlwozi0kUXjd0UiipjkJml2YKnLTqOE8k79__F_o,74
+napari_utrack_loader-0.0.1.dist-info/top_level.txt,sha256=Ol0Q5HdelXtTv9tRVemV2JJHLwvvwj-E6K2OgCk7VBw,21
+napari_utrack_loader-0.0.1.dist-info/RECORD,,
