@@ -1,0 +1,9 @@
+html_classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html_classes/basic.py,sha256=4DgG2mH7IbvxmiVMeM8w5bFjVzU2LPqcOzU4HPeSYtw,135
+html_classes/bs4.py,sha256=70zw3pTd6NPVE-UsYUv61HtfJAhDf_oqc2tqW_xvtHM,311
+html_classes/font_awesome.py,sha256=3LIssq_ulc5Jt1CT3xhslZTsS8UDzRLZ-rnjpE_K600,593
+html_classes/html.py,sha256=crJxOlJ2sTNi1q73oMQtr5E66qh8vYvvnrNFE9uv04c,3126
+make_html-0.0.1.dist-info/METADATA,sha256=nGwaPPjRm5dXqUDDhBO292leSkylhPNfAHWpmHlJabs,477
+make_html-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+make_html-0.0.1.dist-info/top_level.txt,sha256=_TQNgm05S13FRwue9QueUopGKc4OKDWBKHVbD-YWuX8,13
+make_html-0.0.1.dist-info/RECORD,,
