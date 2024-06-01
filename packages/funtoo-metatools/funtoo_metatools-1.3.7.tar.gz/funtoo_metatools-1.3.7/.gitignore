@@ -1,0 +1,11 @@
+*.log
+*.egg-info
+.idea
+__pycache__
+dist/
+docs/_build
+.vscode
+build/
+doc/ramdisk.8
+doc/manpage.rst
+metatools/version.py
