@@ -1,0 +1,14 @@
+aiohttp
+tqdm
+backoff
+requests
+
+[dev]
+ruff
+mypy
+types-requests
+pre-commit
+pangeo-forge-esgf[test]
+
+[test]
+pytest
