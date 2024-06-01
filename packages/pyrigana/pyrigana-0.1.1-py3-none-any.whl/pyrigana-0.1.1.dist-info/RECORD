@@ -1,0 +1,14 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/get_furigana_html_example.py,sha256=hDHaJgwhzh5cp8E8L2IJq1tncFkxn4DMYtcBQVb9lL0,533
+pyrigana/__init__.py,sha256=S3_0U8ONSWyw52FySCWowjju2tg0jc3UjfbcM_yisUY,39
+pyrigana/pyrigana.py,sha256=gY8_qD0bItgGpjxTQeofgCqCnmZdf0k7wjjn96HECoE,176
+pyrigana/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrigana/_internal/utils.py,sha256=KnA976hYXzcX_QaiMkqYRpFRwLYEc5c3NwIQVduEsLU,3239
+pyrigana/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrigana/tests/test_compare_list.py,sha256=Xr3EcVL0ol3HNDJ8rE46HJsWQpvozpsYVXEi0OJWPvo,2340
+pyrigana/tests/test_furigana_html.py,sha256=nT1L33VD5T8leDhHtAJKH_icpAqFu6VG4f_Mh8fP2mQ,976
+pyrigana/tests/test_pair_list.py,sha256=4yr1X6HyAyPwVImIda4u8CtfV3kkKIQbHwqKo_MecSk,458
+pyrigana-0.1.1.dist-info/METADATA,sha256=RGUU0ZlfwyUkAKEEb0dbpBnKlQtUdkaWPwgTOc8-oDY,568
+pyrigana-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyrigana-0.1.1.dist-info/top_level.txt,sha256=wWs2D6YKx0THWkkPD6Je_s0hYS3T2xYuMl6W7WgPdWI,18
+pyrigana-0.1.1.dist-info/RECORD,,
