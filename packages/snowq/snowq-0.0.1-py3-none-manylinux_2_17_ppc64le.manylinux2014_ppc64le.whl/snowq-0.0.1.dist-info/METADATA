@@ -1,0 +1,148 @@
+Metadata-Version: 2.3
+Name: snowq
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: typing-extensions >=4.12.0
+Requires-Dist: snowflake-connector-python >=3.10.1
+Requires-Dist: pydantic >=2.7.1
+Summary: snowflake query builder for python.
+Author: yassun7010 <yassun7010@outlook.com>
+Author-email: yassun7010 <yassun7010@outlook.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# snowq
+
+Easily build and execute Snowflake queries in Python.
+
+
+## CLI Tool
+
+### New snowq Config
+```sh
+snowq new
+```
+
+### Generate Python Model from Snowflake information schema
+```sh
+snowq model import
+```
+
+
+## Query Builder
+
+### Insert Query
+
+```python
+import textwrap
+
+from snowq.query import insert
+
+from your.database.schema import User
+
+query, params = (
+    insert.into(
+        User,
+    ).values(
+        {
+            "id": 1,
+            "name": "John Doe",
+        }
+    )
+).build()
+
+expected = textwrap.dedent(
+    """
+    INSERT INTO
+        database.schema.users
+    VALUES (
+        %(id)s,
+        %(name)s
+    )
+    """
+).strip()
+
+assert query == expected
+```
+
+### Update Query
+
+```python
+import textwrap
+
+from snowq.query import update
+
+from your.database.schema import User
+
+query, params = (
+    update(
+        User,
+    )
+    .set(
+        {"name": "Jane Doe"},
+    )
+    .where(
+        "id = 1",
+    )
+).build()
+
+expected = textwrap.dedent(
+    """
+    UPDATE
+        database.schema.users
+    SET
+        name = %(name)s
+    WHERE
+        id = 1
+    """
+).strip()
+
+assert query == expected
+```
+
+### Delete Query
+
+```python
+import textwrap
+
+from snowq.query import delete
+
+from your.database.schema import User
+
+query, params = (
+    delete.from_(
+        User,
+    ).where(
+        "id = 1",
+    )
+).build()
+
+expected = textwrap.dedent(
+    """
+    DELETE FROM
+        database.schema.users
+    WHERE
+        id = 1
+    """
+).strip()
+
+assert query == expected
+```
+
+### Truncate Query
+
+```python
+from snowq.query import truncate
+
+from your.database.schema import User
+
+query, params = truncate.table(User).build()
+
+expected = "TRUNCATE TABLE database.schema.users"
+
+assert query == expected
+```
+
