@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snownlp-pro
+Version: 1.12.3
+Summary: Python library for processing Chinese text
+Home-page: https://github.com/yanjlee/snownlp
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+License-File: LICENSE
+License-File: LICENSE.md
+
