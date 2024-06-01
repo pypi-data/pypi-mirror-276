@@ -1,0 +1,6 @@
+README.md
+setup.py
+toyai.egg-info/PKG-INFO
+toyai.egg-info/SOURCES.txt
+toyai.egg-info/dependency_links.txt
+toyai.egg-info/top_level.txt
