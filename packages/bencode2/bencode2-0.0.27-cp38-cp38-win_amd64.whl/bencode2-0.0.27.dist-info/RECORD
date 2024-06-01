@@ -1,0 +1,12 @@
+bencode2/__init__.cp38-win_amd64.pyd,sha256=ZbMexeG2oftsvb0rKf2-W-CdrCHnqnvdWbWl7LnRohc,10752
+bencode2/__init__.py,sha256=BSGTHlI8u5skT6D-O1bRI_4LIoHxwePpiXXJJdp6WMU,683
+bencode2/_decoder.cp38-win_amd64.pyd,sha256=C9Oqy4T3sjFprrm32Wcs8UU1Z8sG1e6vYzYaABMlXSo,10752
+bencode2/_decoder.py,sha256=pPnmDzqDjYu9pqOUkEE_19SIEKk0P90J0PwQUg_ScKI,5550
+bencode2/_encoder.cp38-win_amd64.pyd,sha256=Z-y7yG_uxJV_QwWCl7tSnFlLtYI0WA3kSYtcJmb_hPs,10752
+bencode2/_encoder.py,sha256=7qCe1nemqIJTrv9FaQJir1nGnnPaK3r48P2vXRvMc_0,4181
+bencode2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+390770c9c0656ec02f8b__mypyc.cp38-win_amd64.pyd,sha256=BDlqKxQqGs0F7ylVRzuQ-jkoQSYd_39kxVwmyzVzpEI,96256
+bencode2-0.0.27.dist-info/METADATA,sha256=GNitCgrl7kzIns1ZfJ2LnkOYPViOZSQIiCKq9zB9iro,2165
+bencode2-0.0.27.dist-info/WHEEL,sha256=CCpiul3VNZepaS6MWPp7_0GF_A16ukFGvBZaC3ttBz8,95
+bencode2-0.0.27.dist-info/licenses/LICENSE,sha256=EEoYi1hvWZLRB6rUABEsjEdCJ56eZs_20XL8mJO-SfA,1106
+bencode2-0.0.27.dist-info/RECORD,,
