@@ -1,0 +1,6 @@
+setup.py
+view_m3u8.py
+M3u8Viewer.egg-info/PKG-INFO
+M3u8Viewer.egg-info/SOURCES.txt
+M3u8Viewer.egg-info/dependency_links.txt
+M3u8Viewer.egg-info/top_level.txt
