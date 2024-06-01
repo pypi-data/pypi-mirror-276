@@ -1,0 +1,9 @@
+README.md
+setup.py
+myfunctions_namazsari/__init__.py
+myfunctions_namazsari/math.py
+myfunctions_namazsari.egg-info/PKG-INFO
+myfunctions_namazsari.egg-info/SOURCES.txt
+myfunctions_namazsari.egg-info/dependency_links.txt
+myfunctions_namazsari.egg-info/requires.txt
+myfunctions_namazsari.egg-info/top_level.txt
