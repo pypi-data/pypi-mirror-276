@@ -1,0 +1,24 @@
+[package]
+name = "rina-pp-pyb"
+version = "1.0.3"
+edition = "2021"
+authors = ["Max Ohn <ohn.m@hotmail.de>", "Simon G."]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/osuthailand/rina-pp-pyb"
+description = "Difficulty and performance calculation for osu!"
+
+[lib]
+name = "rina_pp_pyb"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module", "macros"] }
+rina-pp = { version = "0.9.27", git = "https://github.com/osuthailand/rina-pp-sys", features = ["sync"] }
+openssl = { version = "0.10.40", features = ["vendored"] }
+
+[profile.release]
+lto = true
+panic = "abort"
+codegen-units = 1
+strip = true
