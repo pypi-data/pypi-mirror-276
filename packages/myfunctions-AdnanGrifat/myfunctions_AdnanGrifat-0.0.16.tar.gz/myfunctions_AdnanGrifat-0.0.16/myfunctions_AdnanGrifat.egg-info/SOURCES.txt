@@ -1,0 +1,9 @@
+README.md
+setup.py
+myfunctions_AdnanGrifat/__init__.py
+myfunctions_AdnanGrifat/math.py
+myfunctions_AdnanGrifat.egg-info/PKG-INFO
+myfunctions_AdnanGrifat.egg-info/SOURCES.txt
+myfunctions_AdnanGrifat.egg-info/dependency_links.txt
+myfunctions_AdnanGrifat.egg-info/requires.txt
+myfunctions_AdnanGrifat.egg-info/top_level.txt
