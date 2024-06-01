@@ -1,0 +1,36 @@
+from typing import TypedDict, NamedTuple, Sequence
+from haskellian import iter as I
+from jaxtyping import Int
+import torch
+from ...board import Sample as WordSample
+
+class Sample(NamedTuple):
+  input_ids: Int[torch.Tensor, 'L']
+  labs: Int[torch.Tensor, 'L 5']
+  sans: Sequence[str]
+
+class Batch(TypedDict):
+  input_ids: Int[torch.Tensor, 'B L']
+  labs: Int[torch.Tensor, 'B L 5']
+  attn_mask: Int[torch.Tensor, 'B L']
+  sans: Sequence[Sequence[str]]
+
+def sample_from(sample: WordSample, sans: Sequence[str]) -> Sample:
+  return Sample(torch.tensor(sample.input_ids), torch.tensor(sample.labs), sans)
+
+def collate_fn(batch: Sequence[Sample], pad_token_id: int, ignore_idx: int = -100) -> Batch:
+
+  input_ids, labs, sans = I.unzip(batch)
+  batch_size = len(input_ids)
+  maxlen = max(len(x) for x in input_ids)
+  padded_input_ids = torch.full((batch_size, maxlen), fill_value=pad_token_id)
+  padded_labs = torch.full((batch_size, maxlen, 64), fill_value=ignore_idx)
+  attn_mask = torch.zeros((batch_size, maxlen))
+
+  for i in range(batch_size):
+    l = len(input_ids[i])
+    padded_input_ids[i, :l] = input_ids[i]
+    padded_labs[i, :l] = labs[i]
+    attn_mask[i, :l] = 1
+
+  return Batch(input_ids=padded_input_ids, labs=padded_labs, attn_mask=attn_mask, sans=sans)
