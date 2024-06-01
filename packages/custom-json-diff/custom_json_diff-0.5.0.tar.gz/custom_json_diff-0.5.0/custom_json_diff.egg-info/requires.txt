@@ -1,0 +1,7 @@
+json-flatten>=0.3
+semver>=3.0.0
+toml>=0.10
+
+[dev]
+mypy
+pytest
