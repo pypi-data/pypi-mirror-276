@@ -1,0 +1,16 @@
+flameai/__init__.py,sha256=QEcC373fknwprtr6bI7XZga8H9xFJ01uELmUK8-qEkU,394
+flameai/__main__.py,sha256=_WET97UEQTRvfLHWn6R3qDexdE02KBw2PX_GnSVwnRQ,398
+flameai/_env.py,sha256=6T2Fo6dhjYEce5toTKyz0FZiGjCDDiuvpDbMLyiga7U,1438
+flameai/cmd.py,sha256=seKfbaw7dDxOoxE-yUyYH4khJjD0uW1qpRIS6oFMgO4,496
+flameai/hive.py,sha256=Nx_kOYzUFizGEexa2xnkWqlJAS1vAH1DayYWT9wIAnk,2207
+flameai/metrics.py,sha256=Vly-8UYRKCeiTSeReuQqOLRMiCa1-IGVK-hJF7v-W9U,3900
+flameai/mining.py,sha256=bBQ3hKJoDrgJSfPSWykZHPK6s7LiEucWShtsJkXjGeI,340
+flameai/plot.py,sha256=v71JeiDu9be6mu3aW2mhr4-GoYTGjGTys-2h9IBHmNM,1428
+flameai/preprocessing.py,sha256=InfI3IcQ7yx_zf87g6nNmsS3GyujoSc0FnsCuCHZyuE,1281
+flameai/train.py,sha256=NfrLt8ji4JPwradlGi-cDM144r4LRJzmAkI_U5UbWIY,2825
+flameai/util.py,sha256=tXRU0jMp2Yy9uNmvfpt-saEhso4Pt_HcPOxVlVoV2A8,1757
+flameai-1.0.8.dist-info/METADATA,sha256=BReNd2LrwaF35JQdKykOF5z3mdlxLHW8x79Kz23-N5o,4104
+flameai-1.0.8.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+flameai-1.0.8.dist-info/entry_points.txt,sha256=6WnFGPFB3mO_oS1LAF1sb3vCDbEOV615LNe5YVks4Os,101
+flameai-1.0.8.dist-info/licenses/LICENSE,sha256=bq7-iseHJP26e-IqFTbNYBXF0nlIuA7SZ7nQ8mIPNBo,11341
+flameai-1.0.8.dist-info/RECORD,,
