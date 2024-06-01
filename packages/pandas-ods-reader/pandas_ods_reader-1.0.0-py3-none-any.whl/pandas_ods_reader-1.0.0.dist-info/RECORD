@@ -1,0 +1,10 @@
+pandas_ods_reader/__init__.py,sha256=eHs-Pey60fFf96AAkH4uR8_B1CG4kNc6kgToTm7p4Vk,208
+pandas_ods_reader/algo.py,sha256=wfZHUHWY_yQJ_Va5YLHvrNKBf3Q0Uie67dcqnEyCGTw,3071
+pandas_ods_reader/main.py,sha256=0kjS55uir7n9zeWSvl3PcXBs-fBG5X_aB00ge0QX2ZU,1516
+pandas_ods_reader/parsers/fods.py,sha256=1T8nHRgsEVEOE6dIvcWtDdgp5VhDZj_wV0VX4a90KmA,2354
+pandas_ods_reader/parsers/ods.py,sha256=qRUJkhfy1SNI1-hBHNS5XAorPazgMvQuoC_qyR4cmLc,993
+pandas_ods_reader/utils.py,sha256=AwyIy8L4OUbZGox_5OXyBm7y5W76wPE2SnvpncUf_rs,963
+pandas_ods_reader-1.0.0.dist-info/LICENSE.txt,sha256=3UYiTLUklp2nUWUTZbuAEIMrn-1QlunIKGMmUfz0WsE,1063
+pandas_ods_reader-1.0.0.dist-info/METADATA,sha256=M1AK1zm32sYgtGB2VL7H0FdlJ5PV6k8CmlYymF5aLQE,2310
+pandas_ods_reader-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pandas_ods_reader-1.0.0.dist-info/RECORD,,
