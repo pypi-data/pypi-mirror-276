@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+comment_retriever_etherscan.egg-info/PKG-INFO
+comment_retriever_etherscan.egg-info/SOURCES.txt
+comment_retriever_etherscan.egg-info/dependency_links.txt
+comment_retriever_etherscan.egg-info/requires.txt
+comment_retriever_etherscan.egg-info/top_level.txt
