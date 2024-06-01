@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cli/__init__.py
+cli/cli.py
+cli/detect_repository.py
+cli/prompt_template.py
+cli/status_indicator.py
+cli/task_handler.py
+pr_pilot_cli.egg-info/PKG-INFO
+pr_pilot_cli.egg-info/SOURCES.txt
+pr_pilot_cli.egg-info/dependency_links.txt
+pr_pilot_cli.egg-info/entry_points.txt
+pr_pilot_cli.egg-info/requires.txt
+pr_pilot_cli.egg-info/top_level.txt
