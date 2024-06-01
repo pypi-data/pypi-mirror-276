@@ -1,0 +1,10 @@
+LICENSE
+setup.cfg
+setup.py
+voxelworldapi/__init__.py
+voxelworldapi/voxelworldapi.py
+voxelworldapi.egg-info/PKG-INFO
+voxelworldapi.egg-info/SOURCES.txt
+voxelworldapi.egg-info/dependency_links.txt
+voxelworldapi.egg-info/requires.txt
+voxelworldapi.egg-info/top_level.txt
