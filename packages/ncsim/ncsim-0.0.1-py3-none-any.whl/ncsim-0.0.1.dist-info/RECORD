@@ -1,0 +1,7 @@
+ncsim/__init__.py,sha256=dY8QKKdbQ0pUNz3y71mM02-6OfX6xgJIDGXc6fG8VI4,56
+ncsim/sims.py,sha256=HNKi9XZF6VqcTqVNlEAKp8x1rGXPapcVgdk5uhbDULA,223
+ncsim/utils.py,sha256=TFwUeXtqO0jpCOYcjqfU1wsaUosHlrymISWg24Qv9j0,115
+ncsim-0.0.1.dist-info/METADATA,sha256=g4Cfg-So5vgvrnMXiboTycf-6Dn8kvLpnzksff-4IU4,655
+ncsim-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ncsim-0.0.1.dist-info/top_level.txt,sha256=Chb887kF0m0ywEBsRw5S_3JUqaA-zLJgtuavYD7CneQ,6
+ncsim-0.0.1.dist-info/RECORD,,
