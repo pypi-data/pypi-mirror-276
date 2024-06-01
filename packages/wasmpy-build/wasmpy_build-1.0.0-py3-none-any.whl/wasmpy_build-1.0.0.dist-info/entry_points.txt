@@ -1,0 +1,4 @@
+[console_scripts]
+wasmpy-build = wasmpy_build.cli:buildc
+wasmpy-build++ = wasmpy_build.cli:buildcpp
+wasmpy-build-cpp = wasmpy_build.cli:buildcpp
