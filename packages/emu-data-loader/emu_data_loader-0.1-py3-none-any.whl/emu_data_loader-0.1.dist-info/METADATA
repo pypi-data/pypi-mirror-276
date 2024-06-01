@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: emu-data-loader
+Version: 0.1
+Summary: A library to import EMU data from different centers into Python along with dynamical network model properties and other features
+Home-page: https://github.com/amirhdre/emu_data_loader
+Author: Amir Hossein Daraie
+Author-email: adaraie1@jh.edi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: mne
+
+# EMU Data Loader
+
+A library to import EMU data from different centers into Python along with dynamical network model properties and other features
+
+## Installation
+
+pip install emu_data_loader
+
+## Usage
+
+```python
+from emu_data_loader import EMUDataLoader
+
+loader = EMUDataLoader(filename="FA_1", start="12:00:00")
