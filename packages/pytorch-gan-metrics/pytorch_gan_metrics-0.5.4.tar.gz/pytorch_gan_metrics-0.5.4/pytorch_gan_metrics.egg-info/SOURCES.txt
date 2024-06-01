@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pytorch_gan_metrics.egg-info/PKG-INFO
+pytorch_gan_metrics.egg-info/SOURCES.txt
+pytorch_gan_metrics.egg-info/dependency_links.txt
+pytorch_gan_metrics.egg-info/requires.txt
+pytorch_gan_metrics.egg-info/top_level.txt
