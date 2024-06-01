@@ -1,0 +1,11 @@
+testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testing/config.py,sha256=TgNi2riZ_5Ef6zr7ITSp2TORD13bOApG0bH3gX72_Ok,365
+testing/resampler.py,sha256=Ug6QnoCi_ShRkJ16Gl_weChBNT4xwnK2lpsQsf20ROw,865
+testing/training.py,sha256=_gunxUqnDGCplHlm3E8XFJZR-oN0OtGXmygJhxa3tu8,1115
+testing/validation.py,sha256=GGz3Z4iGCIrDXntPx3BnLXRz255BZvY72XYDlcTgj0o,240
+testing/wrapper.py,sha256=U1GuCTbh3ZY0g-4xqVioCrFmb29kqXcZJsnjNMtTx08,447
+VTAC_ML_Classifier-0.1.0.dist-info/LICENSE,sha256=urQI2g7z4pEG4GlBMvNOIUPz7IsRwJfUkNL-9Pz_3yE,1496
+VTAC_ML_Classifier-0.1.0.dist-info/METADATA,sha256=B87UHeEysoa9f2ieKohWqgzPqZIdYWjuTDhMrLXUwh8,490
+VTAC_ML_Classifier-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+VTAC_ML_Classifier-0.1.0.dist-info/top_level.txt,sha256=EqYfThc_s6EcBdZHH3Ryj3YjG0pfzZZnzvOvh6OuTcI,8
+VTAC_ML_Classifier-0.1.0.dist-info/RECORD,,
