@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/rmediator/__init__.py
+src/rmediator/decorators.py
+src/rmediator/interfaces.py
+src/rmediator/mediator.py
+src/rmediator.egg-info/PKG-INFO
+src/rmediator.egg-info/SOURCES.txt
+src/rmediator.egg-info/dependency_links.txt
+src/rmediator.egg-info/requires.txt
+src/rmediator.egg-info/top_level.txt
