@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+chinastock_pro.egg-info/PKG-INFO
+chinastock_pro.egg-info/SOURCES.txt
+chinastock_pro.egg-info/dependency_links.txt
+chinastock_pro.egg-info/requires.txt
+chinastock_pro.egg-info/top_level.txt
