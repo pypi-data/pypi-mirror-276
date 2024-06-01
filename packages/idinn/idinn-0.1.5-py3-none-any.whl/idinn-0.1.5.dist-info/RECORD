@@ -1,0 +1,8 @@
+idinn/__init__.py,sha256=Nmswip0IUvJenHIhdfSyTYurDcwWTvOQ8mPDREtwE1o,21
+idinn/controller.py,sha256=Ri32DrkVtaaG1w6k2RuqDpKPzVcq-QBsroiXWyeZehA,26037
+idinn/demand.py,sha256=PiRHhCil7w1EByP4Z6u5pdSUO6DVoTsj6koZaqpA1fU,2840
+idinn/sourcing_model.py,sha256=qzOUXT9dFvIQOt0w17WEKDXRTZyU1Hwue6isea4O32M,10273
+idinn-0.1.5.dist-info/METADATA,sha256=uyixD0b_GL0bWOT9vZ2qhW6TOH3hlmYENdYNluS32eU,4912
+idinn-0.1.5.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+idinn-0.1.5.dist-info/licenses/LICENSE,sha256=1rx2EY_ZFy1gZHPZoQXPzjEhHMXuR6GUF7PewmWRRi4,1118
+idinn-0.1.5.dist-info/RECORD,,
