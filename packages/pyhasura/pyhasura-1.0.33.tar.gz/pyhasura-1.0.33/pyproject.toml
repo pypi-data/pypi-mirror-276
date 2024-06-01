@@ -1,0 +1,49 @@
+[project]
+name = "pyhasura"
+description = "A Python library to simplify Hasura, GraphQL and Machine Learning"
+dynamic = ["version"]
+authors = [
+    { name = "Kenneth Stott", email = "ken@kenstott.com" }
+]
+requires-python = ">= 3.8"
+readme = "README.md"
+keywords = ["graphql", "hasura", "ml", "ai", "machine learning", "arrow"]
+dependencies = [
+    "python-dotenv",
+    "gql",
+    "pandas",
+    "pyarrow",
+    "scikit-learn",
+    "setuptools",
+    "aiohttp",
+    "pymongo",
+    "python-dateutil",
+    "scipy",
+    "gensim",
+    "torch",
+    "transformers",
+    "requests",
+    "graphql_core",
+    "nltk",
+    "pluralizer",
+    "jsondiff",
+    "numpy",
+    "price_parser",
+    "chardet",
+    "SQLAlchemy",
+    "python-camelcaser",
+    "pydbml",
+    "neo4j",
+    "diskcache",
+    "sentence-transformers"
+]
+
+[project.urls]
+repository = "https://github.com/kenstott/pyhasura"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = { attr = "__version__.__version__" }
