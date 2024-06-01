@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/cgo_email_aastudillocgo/__init__.py
+src/cgo_email_aastudillocgo/oauth2.py
+src/cgo_email_aastudillocgo.egg-info/PKG-INFO
+src/cgo_email_aastudillocgo.egg-info/SOURCES.txt
+src/cgo_email_aastudillocgo.egg-info/dependency_links.txt
+src/cgo_email_aastudillocgo.egg-info/top_level.txt
