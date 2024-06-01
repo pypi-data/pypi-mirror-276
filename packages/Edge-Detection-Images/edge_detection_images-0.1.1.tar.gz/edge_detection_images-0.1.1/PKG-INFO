@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: Edge_Detection_Images
+Version: 0.1.1
+Summary: Edge Detection is a method of segmenting an image into regions of discontinuity
+Home-page: https://github.com/Zahra-jafari-2024/Edge_Detection_Image
+Author: zahra jafari
+Author-email: mzahrajafari94@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# Edge Detection Of Image
+
++ Input :
+<p align="center"><img src="https://github.com/Zahra-jafari-2024/Edge_Detection_Image/blob/main/Edge_Detection_Image/Ganeshji.jpg" width="300" height="200" ></p> 
+
+<br>
+
++ Output :
+<p align="center"><img src="https://github.com/Zahra-jafari-2024/Edge_Detection_Image/blob/main/Edge_Detection_Image/output.jpg" width="300" height="200" ></p>
+
+<br/>
+
+# Installation 
+
+```bash
+pip install Edge_Detection_Image
+```
+
+<br>
+
+# How to use 
+
+## 1. Use with Python environments : 
+
+```python
+from Edge_Detection_Image import main 
+
+Edge_Detection_Image.main("image.jpg")
+
+ or 
+
+Edge_Detection_Image.main("https://..../image.jpg")
+```
+<br>
+
+## 2. Use with CLI :
+
++ using local image :
+
+```bash
+python -m Edge_Detection_Image.main --input "image.jpg"
+```
+
++ using URL :
+
+```bash
+python -m Edge_Detection_Image.main --input "https://..../image.jpg"
+```
+
+
+Your watercolored image will be saved in your file folder .

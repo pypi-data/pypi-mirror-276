@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Edge_Detection_Image/__init__.py
+Edge_Detection_Image/main.py
+Edge_Detection_Images.egg-info/PKG-INFO
+Edge_Detection_Images.egg-info/SOURCES.txt
+Edge_Detection_Images.egg-info/dependency_links.txt
+Edge_Detection_Images.egg-info/requires.txt
+Edge_Detection_Images.egg-info/top_level.txt
+tests/__init__.py
+tests/test_ml.py
