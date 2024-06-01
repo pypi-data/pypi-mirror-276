@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: aggfly
+Version: 0.1.0
+Summary: Efficient spatial and temporal aggregation of gridded climate data
+Author: Dylan Hogan
+Author-email: dth2133@columbia.edu
+Requires-Python: >=3.11.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dask (>=2023.11.0,<2024.0.0)
+Requires-Dist: dask-geopandas (>=0.3.1,<0.4.0)
+Requires-Dist: dill (>=0.3.8,<0.4.0)
+Requires-Dist: geopandas (>=0.14.4,<0.15.0)
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: netcdf4 (>=1.6.5,<2.0.0)
+Requires-Dist: numba (>=0.59.1,<0.60.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: pygeos (>=0.14,<0.15)
+Requires-Dist: pytest (>=8.2.1,<9.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: rasterio (>=1.3.10,<2.0.0)
+Requires-Dist: rioxarray (>=0.15.5,<0.16.0)
+Requires-Dist: xarray (>=2024.5.0,<2025.0.0)
+Requires-Dist: zarr (>=2.18.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# aggfly
+A more permanent home for my climate data aggregation code
+
+Will add docs and instructions in the next few weeks as I have time. For questions in the meantime, feel free to email me at `dth2133@columbia.edu`.
+
+The `aggfly-dev-environment.yml` file provides the core packages you'll need to run the code. You can use this file to recreate the conda environment I use to develop the package. Check out the [conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) if you need help using it. The following command (executed from root directory of the repository) should be sufficient for most users:
+
+```
+conda env create --file aggfly-dev-environment.yml -n aggfly-dev 
+```
+
+Once you have all the dependencies, you can install this package by running `pip install -e .` from the root directory of the repository.
+
+```
+conda activate aggfly-dev
+pip install -e .
+```
+
+Of course, please feel free to suggest changes/improvements/extensions in [Issues](https://github.com/dylanhogan/aggfly/issues) :)
+
