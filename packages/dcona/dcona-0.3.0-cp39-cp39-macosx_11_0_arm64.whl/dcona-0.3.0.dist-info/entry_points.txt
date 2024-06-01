@@ -1,0 +1,2 @@
+[console_scripts]
+dcona = dcona.__main__:main
