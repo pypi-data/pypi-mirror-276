@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+vtacML.egg-info/PKG-INFO
+vtacML.egg-info/SOURCES.txt
+vtacML.egg-info/dependency_links.txt
+vtacML.egg-info/requires.txt
+vtacML.egg-info/top_level.txt
