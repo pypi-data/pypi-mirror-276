@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: XieChengLogin
+Version: 2.2.5
+Summary: 模拟携程的登录.
+Home-page: https://github.com/yanjlee/XieChengLogin
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: httpx
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# XieChengLogin
+模拟携程的登录
+本项目只是单纯的模拟了携程的自动登录，并没有对数据的爬取，其实只要登陆成功的话，抓数据就很简单了。
+对于携程模拟登陆来说，最最重点了，其实都让验证码平台做了，如果自己写模拟点击的话，不是特别容易，而且稳定性很低。
+本项目模拟登录可作为参考，比如元素截图，轨迹模拟等等
+因为只是练手，代码条理有点乱，但都有注释，见谅！
