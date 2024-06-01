@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rchatgpt_on_wecom.egg-info/PKG-INFO
+rchatgpt_on_wecom.egg-info/SOURCES.txt
+rchatgpt_on_wecom.egg-info/dependency_links.txt
+rchatgpt_on_wecom.egg-info/requires.txt
+rchatgpt_on_wecom.egg-info/top_level.txt
