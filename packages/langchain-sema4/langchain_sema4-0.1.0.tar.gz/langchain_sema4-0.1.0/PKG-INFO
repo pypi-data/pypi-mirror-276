@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: langchain-sema4
+Version: 0.1.0
+Summary: An integration package connecting Sema4 and LangChain
+Home-page: https://github.com/langchain-ai/langchain-sema4
+License: MIT
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain-core (>=0.1.52,<0.3)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: types-requests (>=2.31.0.6,<3.0.0.0)
+Project-URL: Repository, https://github.com/langchain-ai/langchain-sema4
+Project-URL: Source Code, https://github.com/langchain-ai/langchain-sema4/tree/main/libs/sema4
+Description-Content-Type: text/markdown
+
+# langchain-sema4
+
+This package contains the LangChain integrations for [Robocorp Action Server](https://github.com/sema4/sema4).
+Action Server enables an agent to execute actions in the real world. 
+
+## Installation
+
+```bash
+pip install -U langchain-sema4
+```
+
+## Action Server Toolkit
+
+See [ActionServerToolkit](https://python.langchain.com/docs/integrations/toolkits/sema4) for detailed documentation.
+
