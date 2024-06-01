@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+webCrawl_pro.egg-info/PKG-INFO
+webCrawl_pro.egg-info/SOURCES.txt
+webCrawl_pro.egg-info/dependency_links.txt
+webCrawl_pro.egg-info/requires.txt
+webCrawl_pro.egg-info/top_level.txt
