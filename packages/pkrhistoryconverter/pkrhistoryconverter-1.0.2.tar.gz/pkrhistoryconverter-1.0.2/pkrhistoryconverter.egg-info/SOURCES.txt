@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+Readme.md
+coverage.txt
+requirements.txt
+setup.py
+.pytest_cache/README.md
+pkrhistoryconverter/__init__.py
+pkrhistoryconverter/converter.py
+pkrhistoryconverter.egg-info/PKG-INFO
+pkrhistoryconverter.egg-info/SOURCES.txt
+pkrhistoryconverter.egg-info/dependency_links.txt
+pkrhistoryconverter.egg-info/requires.txt
+pkrhistoryconverter.egg-info/top_level.txt

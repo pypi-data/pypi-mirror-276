@@ -1,0 +1,49 @@
+from pathlib import Path
+from setuptools import setup, find_packages
+import json
+
+
+install_requires = [
+    "parsedatetime",
+    "cached-property",
+    "numpy",
+    "pandas",
+    "pytest",
+    "coverage",
+    "pytest-cov",
+    "pkrcomponents",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3"
+]
+
+
+def get_version():
+    with open("config/version.json", "r") as f:
+        version = json.load(f)
+        return f"{version['major']}.{version['minor']}.{version['patch']}"
+
+
+setup(
+    name="pkrhistoryconverter",
+    version=get_version(),
+    author="Alexandre MANGWA",
+    author_email="alex.mangwa@gmail.com",
+    description="A poker pypi package to transform parsed Hand histories into pkrcomponents objects",
+    long_description=Path("README.md").read_text(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/manggy94/PokerHistoryConverter",
+    project_urls={
+        "Bug Tracker": "https://github.com/manggy94/PokerHistoryConverter/issues",
+    },
+    classifiers=classifiers,
+    packages=find_packages(exclude=["tests", ".venv", "venv", "venv.*"]),
+    python_requires=">=3.10",
+    install_requires=install_requires
+)
