@@ -1,0 +1,12 @@
+stockdatamanager/ToDo.py,sha256=u9tLJNT4ESHBhmHH65PqN2G2nWrODhPWd7y4O_zonc4,138
+stockdatamanager/__init__.py,sha256=Tgqhz16bGy2IPZup013x6ZSsuN9Da9YCqVyCOBPZaSo,170
+stockdatamanager/customerrors.py,sha256=ZCZh12Tq3GnR0Bg3q6xbh9lumwDh2wd1Ks8t8LYrB4c,278
+stockdatamanager/datafetcher.py,sha256=qyiQTYGuXm0LkkxgNrwXOFWHYmG9eqVzeawZTKDPTqw,14097
+stockdatamanager/indicators.py,sha256=M9_arYeGMs1iKcFY2OJwCV5y7UTrnBQTRsU_Y6A1vhg,51839
+stockdatamanager/options.py,sha256=CZXiK1O37HTL3TuxrhNLgFQcdaDlbK0KTJWNdEc_opI,69771
+stockdatamanager/utils.py,sha256=upOwoVCgio1GiM4iWb8D7_UAMZtp3_IfPzE_7esXxyk,15215
+stockdatamanager-1.0.1.dist-info/LICENSE,sha256=Hq0VYKxNjw__8N469uOhoBOyX0dds4WghYNGfem_IV8,1064
+stockdatamanager-1.0.1.dist-info/METADATA,sha256=WHdrv3sj5ALfXNsEP6vyqZltmJzUe-2Qr5JRNqCUckY,4049
+stockdatamanager-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+stockdatamanager-1.0.1.dist-info/top_level.txt,sha256=TZ1egXYPZodrLnjBpY9l1YUYXxr-G_gmWLFRUnakB9s,17
+stockdatamanager-1.0.1.dist-info/RECORD,,
