@@ -1,0 +1,14 @@
+torch>=2.2.0
+ninja
+numpy
+safetensors
+
+[dev]
+pytest
+ruff
+black
+
+[examples]
+torchvision
+transformers==4.40.2
+datasets
