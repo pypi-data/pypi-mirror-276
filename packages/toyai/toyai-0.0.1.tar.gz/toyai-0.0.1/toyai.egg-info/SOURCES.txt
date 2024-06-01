@@ -1,0 +1,14 @@
+README.md
+setup.py
+toyai/__init__.py
+toyai.egg-info/PKG-INFO
+toyai.egg-info/SOURCES.txt
+toyai.egg-info/dependency_links.txt
+toyai.egg-info/top_level.txt
+toyai/ai/ETL.py
+toyai/ai/Trainer.py
+toyai/ai/__init__.py
+toyai/tools/FileText.py
+toyai/tools/__init__.py
+toyai/tools/os.py
+toyai/tools/txt.py
