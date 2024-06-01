@@ -1,0 +1,8 @@
+xchainpy2_utils
+xchainpy2_crypto
+xchainpy2_client
+web3<7.0.0,>=6.0.0
+aioetherscan>=0.8.12
+
+[test]
+pytest
