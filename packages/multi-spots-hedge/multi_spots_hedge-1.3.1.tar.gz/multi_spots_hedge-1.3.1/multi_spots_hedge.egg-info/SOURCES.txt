@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+multi_spots_hedge.egg-info/PKG-INFO
+multi_spots_hedge.egg-info/SOURCES.txt
+multi_spots_hedge.egg-info/dependency_links.txt
+multi_spots_hedge.egg-info/requires.txt
+multi_spots_hedge.egg-info/top_level.txt
