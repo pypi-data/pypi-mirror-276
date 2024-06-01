@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: gpuNUFFT
+Version: 0.8.0
+Summary: gpuNUFFT - An open source GPU Library for 3D Gridding and NUFFT
+License-File: LICENSE
