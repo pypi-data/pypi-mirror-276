@@ -1,0 +1,9 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.py
+ccxt_microservice.egg-info/PKG-INFO
+ccxt_microservice.egg-info/SOURCES.txt
+ccxt_microservice.egg-info/dependency_links.txt
+ccxt_microservice.egg-info/requires.txt
+ccxt_microservice.egg-info/top_level.txt

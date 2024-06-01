@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: ccxt-microservice
+Version: 1.2.5
+Summary: Micro service to call cryptocurrency exchanges API using [ccxt](https://github.com/ccxt/ccxt).
+Home-page: https://github.com/yanjlee/ccxt-microservice
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: httpx
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+ccxt-microservice
+=================
+
+Micro service to call cryptocurrency exchanges API using [ccxt](https://github.com/ccxt/ccxt).
+
+# Usage
+
+1. Run a service
+
+  ```
+  python app.py
+  ```
+  or
+  ```
+  docker-compose up 
+  ```
+
+2. Send a request
+
+  Send post json to /*exchange*/*method*. Default port is 5000.
+
+# Example
+
+In ccxt, fetch ticker of Bittrex for ETH/BTc is:
+
+```python
+import ccxt
+
+b = ccxt.bittrex()
+result = b.fetch_ticker(symbol="ETH/BTC")
+```
+
+Following request is equivalent to the above.
+
+```
+curl -H 'Content-Type:application/json' -d'{"symbol":"ETH/BTC"}' localhost:5000/bittrex/fetch_ticker
+```
+  
