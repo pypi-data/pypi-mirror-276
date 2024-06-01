@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+yxsql/__init__.py
+yxsql/sqlite.py
+yxsql/versions.py
+yxsql.egg-info/PKG-INFO
+yxsql.egg-info/SOURCES.txt
+yxsql.egg-info/dependency_links.txt
+yxsql.egg-info/requires.txt
+yxsql.egg-info/top_level.txt
