@@ -1,0 +1,30 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nb_exercices/Cap2_Ex10_Universidades&Tempo_estudo_exame.ipynb
+nb_exercices/Cap2_Ex11_Medicacao&Sexo Continente.ipynb
+nb_exercices/Cap2_Ex12_Bronquite&Exposicao Idade.ipynb
+nb_exercices/Cap2_Ex13_Autonomia&Satisfacao_por_Religiao.ipynb
+nb_exercices/Cap2_Ex14_Hemisferio&Tumor_por_Sitio.ipynb
+nb_exercices/Cap2_Ex15_Cinto&Ferimentos_por_Localizacao_e_Sexo.ipynb
+nb_exercices/Cap2_Ex16 SCA_Imagem_Pão Zona.ipynb
+nb_exercices/Cap2_Ex17 SCA_Prémio_Nobel_Países_Anos.ipynb
+nb_exercices/Cap2_Ex1_Aborto.ipynb
+nb_exercices/Cap2_Ex2_Rua&HIV.ipynb
+nb_exercices/Cap2_Ex3_Bebidas&Feridos.ipynb
+nb_exercices/Cap2_Ex4_Sexo&Comportamento.ipynb
+nb_exercices/Cap2_Ex5_Sexo&Compra.ipynb
+nb_exercices/Cap2_Ex6_Qualidade_de_um_Teste.ipynb
+nb_exercices/Cap2_Ex7_Qualidade_entre_dois_Testes.ipynb
+nb_exercices/Cap2_Ex8_Desempenho_modelo_classificacao_pecas.ipynb
+nb_exercices/Cap2_Ex9_Votos&Atitudes.ipynb
+nb_exercices/Cap4_Ex1_Uniformização_de_escalas.ipynb
+socialdataanalysis/__init__.py
+socialdataanalysis/association.py
+socialdataanalysis/exploratoryfactoranalysis.py
+socialdataanalysis.egg-info/PKG-INFO
+socialdataanalysis.egg-info/SOURCES.txt
+socialdataanalysis.egg-info/dependency_links.txt
+socialdataanalysis.egg-info/requires.txt
+socialdataanalysis.egg-info/top_level.txt
