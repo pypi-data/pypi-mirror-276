@@ -1,0 +1,9 @@
+gchangepoint/MST.so,sha256=-sVSK2SwQAQIwk9RB06goYwn5WeHHb22WQ0v-08RFhM,33344
+gchangepoint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gchangepoint/gchangepoint.py,sha256=-NTnyKtbpV94_pG1wvUsvolW5tXIcJ3eg0gOaIxC50U,58649
+gchangepoint/graphutilities.py,sha256=v7rsvZ3oG7HcyQOqXJkMgKbrIIV5lb8F9YZgvFNrRbo,8435
+gchangepoint/.ipynb_checkpoints/GraphUtilities-checkpoint.py,sha256=N7u6u4nOCTSOYtxJDEX5o7XuqY4-YTKAPipYikmtAMM,8165
+gchangepoint-0.0.3.dist-info/METADATA,sha256=erRZC5jYPHW1ErdHyEAQ8KpQfHnXXnD3s6WPzx5gt8E,972
+gchangepoint-0.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+gchangepoint-0.0.3.dist-info/licenses/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+gchangepoint-0.0.3.dist-info/RECORD,,
