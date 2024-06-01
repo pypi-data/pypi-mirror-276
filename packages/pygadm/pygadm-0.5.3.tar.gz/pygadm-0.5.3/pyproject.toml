@@ -1,0 +1,127 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pygadm"
+version = "0.5.3"
+description = "Easy access to administrative boundary defined by GADM from Python scripts"
+keywords = [
+  "Python"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.8"
+dependencies = [
+  "deprecated>=1.2.14",
+  "geopandas",
+  "pyarrow",
+  "requests-cache"
+]
+
+[[project.authors]]
+name = "Pierrick Rambaud"
+email = "pierrick.rambaud49@gmail.com"
+
+[project.license]
+text = "MIT"
+
+[project.readme]
+file = "README.rst"
+content-type = "text/x-rst"
+
+[project.urls]
+Homepage = "https://github.com/12rambau/pygadm"
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "pytest-sugar",
+  "pytest-cov",
+  "pytest-deadfixtures",
+  "pytest-regressions>=2.4.3", # https://github.com/ESSS/pytest-regressions/issues/136
+]
+doc = [
+  "sphinx<7",
+  "pydata-sphinx-theme",
+  "sphinx-copybutton",
+  "sphinx-design",
+  "sphinx-autoapi",
+  "jupyter-sphinx",
+  "ipyleaflet",
+  "geemap",
+  "sphinx-favicon",
+  "ipykernel",
+  "sphinx-autoapi",
+  "httplib2",
+]
+
+[tool.hatch.build.targets.wheel]
+only-include = ["pygadm"]
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pre-commit",
+  "commitizen",
+  "nox"
+]
+post-install-commands = ["pre-commit install"]
+
+[tool.commitizen]
+tag_format = "v$major.$minor.$patch$prerelease"
+update_changelog_on_bump = false
+version = "0.5.3"
+version_files = [
+    "pyproject.toml:version",
+    "pygadm/__init__.py:__version__",
+    "CITATION.cff:version"
+]
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+ignore-init-module-imports = true
+fix = true
+select = ["E", "F", "W", "I", "D", "RUF"]
+ignore = [
+  "E501",  # line too long | Black take care of it
+    "W605",  # invalid escape sequence | we escape specific characters for sphinx
+    "D212", # Multi-line docstring | we use a different convention, too late
+    "D101", # Missing docstring in public class | we use a different convention, too late
+]
+
+[tool.ruff.flake8-quotes]
+docstring-quotes = "double"
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.coverage.run]
+source = ["pygadm"]
+
+[tool.doc8]
+ignore = ["D001"] # we follow a 1 line = 1 paragraph style
+
+[tool.mypy]
+scripts_are_modules = true
+ignore_missing_imports = true
+install_types = true
+non_interactive = true
+warn_redundant_casts = true
+
+[tool.licensecheck]
+using = "PEP631"
+
+[tool.codespell]
+skip = 'CHANGELOG.md,**/*.json,**/*.csv'
