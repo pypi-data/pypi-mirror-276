@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ChuanhuChatGPT.egg-info/PKG-INFO
+ChuanhuChatGPT.egg-info/SOURCES.txt
+ChuanhuChatGPT.egg-info/dependency_links.txt
+ChuanhuChatGPT.egg-info/requires.txt
+ChuanhuChatGPT.egg-info/top_level.txt
