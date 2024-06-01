@@ -1,0 +1,11 @@
+sorwave/__init__.py,sha256=aG1eMaaIbLs4zejZpDYHDucDx4zwbsUo3HovS_MxbxY,185
+sorwave/main.py,sha256=-5M5NNLaZmyGjXZKBPmV7UDWwSXBZXWkR746Q52v2kc,61
+sorwave/metadata_manager.py,sha256=QaUSsUR0j9KtO30Mn4b7PEl30vKJY_IX4fhw9xHibP4,839
+sorwave/music_logger.py,sha256=A-hmsyB1V59SN0EYZqUZWgx0MwKuEb36OEXvFrEXz1U,3650
+sorwave/song_sorter.py,sha256=_ivALEP0Gog__UWItH-5R26UGpVp-5MrtKNY1bwQnpk,2753
+sorwave-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sorwave-0.0.1.dist-info/METADATA,sha256=tIXgOHFJ1hHphqod7tssZBfSELOJKlvseIOoO9HKJ4s,1369
+sorwave-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sorwave-0.0.1.dist-info/entry_points.txt,sha256=agUzzcCkSWH5sytineX1-7EF66zhV8jL9hOGXVP4Ml0,46
+sorwave-0.0.1.dist-info/top_level.txt,sha256=TrlSjs7-5JZeO4E9geKlYfLwgpcVPSfP15ymFHmGA7o,8
+sorwave-0.0.1.dist-info/RECORD,,
