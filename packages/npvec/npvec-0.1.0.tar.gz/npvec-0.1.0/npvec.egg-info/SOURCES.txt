@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+npvec/__init__.py
+npvec.egg-info/PKG-INFO
+npvec.egg-info/SOURCES.txt
+npvec.egg-info/dependency_links.txt
+npvec.egg-info/top_level.txt
