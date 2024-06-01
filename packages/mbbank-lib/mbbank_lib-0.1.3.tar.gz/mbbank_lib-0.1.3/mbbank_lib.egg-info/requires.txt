@@ -1,0 +1,6 @@
+Pillow
+requests
+pytesseract
+aiohttp
+setuptools
+wheel
