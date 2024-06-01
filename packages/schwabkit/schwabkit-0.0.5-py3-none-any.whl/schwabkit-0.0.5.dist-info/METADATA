@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: schwabkit
+Version: 0.0.5
+Summary: Schwab API Python Client (unofficial)
+Author: Tyler Bowers
+Author-email: tylerebowers@gmail.com
+Keywords: python,schwab,api,client
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: websockets
+
+This is an unofficial python program to access the Schwab api.
