@@ -1,0 +1,13 @@
+tapescript/AMHL.py,sha256=1JLZ887RBeOpbdqdxGEu_Tm9ccu3kD3Uk29c_bryQaY,3508
+tapescript/__init__.py,sha256=OKRtz-9FucHhA8WiQ6fTLj3Cj4YYgCWkhEo2sV0bfqI,1830
+tapescript/classes.py,sha256=VVSRD5FjYY8WcDYBFxUwl19KBlT92eSeWMMoKLBA2DQ,3599
+tapescript/errors.py,sha256=gXN6MktTKrQS9xCaqIsbvF27MfR9myTcgidtwUXg7_o,1256
+tapescript/functions.py,sha256=EGBiC-MpI9B76tk6xNE0DA5sfD5G7TdmC-Yktxf6T30,80355
+tapescript/interfaces.py,sha256=taDZDqR7vn0PQQXQZ3cNIzQMSlIWVu7uZ3fI6ZzHlsk,2648
+tapescript/notes.md,sha256=pnLiqZxBCCtu98gLhzRK7bOhh0Tl6J3Xm6e1IJuP91w,1816
+tapescript/parsing.py,sha256=-eF2B-0yG6LQZKW5l9uOlchKZtUS4XcXVDB0eQkwrSA,47762
+tapescript/tools.py,sha256=92yblLQZScMkNhezFzV8236wmkYnhR__zSYUIhSVVIQ,46193
+tapescript-0.5.0.dist-info/METADATA,sha256=CtKY9G03dMNXKWkP0Ja-vKbj2Hk_6o5_3LSDxt0Ykpo,26121
+tapescript-0.5.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+tapescript-0.5.0.dist-info/entry_points.txt,sha256=JpAvG-JFy0NTT9bOqa1YuwLSSWfMTX0cfN7OegEHqQw,56
+tapescript-0.5.0.dist-info/RECORD,,
