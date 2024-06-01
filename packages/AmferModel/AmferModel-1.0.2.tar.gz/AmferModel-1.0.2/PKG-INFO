@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: AmferModel
+Version: 1.0.2
+Summary: A Python module for artificial intelligence infrastructure, including chatbots, image-drawing bots, and text-to-speech conversion.
+Author: aertsimon90
+Author-email: simon.scap090@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: Pillow
