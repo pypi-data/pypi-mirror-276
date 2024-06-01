@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+shadowProxy_pro.egg-info/PKG-INFO
+shadowProxy_pro.egg-info/SOURCES.txt
+shadowProxy_pro.egg-info/dependency_links.txt
+shadowProxy_pro.egg-info/requires.txt
+shadowProxy_pro.egg-info/top_level.txt
