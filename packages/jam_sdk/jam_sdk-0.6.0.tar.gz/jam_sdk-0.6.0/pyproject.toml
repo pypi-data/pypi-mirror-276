@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "jam_sdk"
+version = "0.6.0"
+description = "Bebop Jam SDK"
+authors = ["Bebop <info@bebop.xyz>"]
+repository = "https://github.com/bebop-dex/bebop-core"
+documentation = "https://github.com/bebop-dex/bebop-core"
+packages = [{ include = "jam_sdk", from = "src" }]
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+web3 = "6.19.0"
+orjson = "3.9.10"
+eth-utils = "4.1.1"
+websockets = "11.0.3"
+aiocache = "0.12.2"
+eth-typing = "3.5.2"
+eth-abi = "4.2.1"
+pydantic = "2.5.2"
+
+[tool.poetry.group.dev.dependencies]
+types-jsonschema = "4.20.0.0"
+types-pyyaml = "6.0.12.10"
+types-orjson = "3.6.2"
+
+[tool.deptry.per_rule_ignores]
+DEP003 = ["jam_sdk"]
