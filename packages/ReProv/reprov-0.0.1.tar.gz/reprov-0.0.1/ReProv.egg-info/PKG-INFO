@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ReProv
+Version: 0.0.1
+Summary: A small example package
+Author-email: Antonis Ganios <ant.ganios@iit.demokritos.gr>
+Project-URL: Homepage, https://github.com/id-is/ReProv
+Project-URL: Issues, https://github.com/id-is/ReProv
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE

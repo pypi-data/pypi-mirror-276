@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ReProv"
+version = "0.0.1"
+authors = [
+  { name="Antonis Ganios", email="ant.ganios@iit.demokritos.gr" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/id-is/ReProv"
+Issues = "https://github.com/id-is/ReProv"
