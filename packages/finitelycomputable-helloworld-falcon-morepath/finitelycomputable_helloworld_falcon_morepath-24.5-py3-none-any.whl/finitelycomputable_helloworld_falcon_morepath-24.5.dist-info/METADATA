@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: finitelycomputable-helloworld-falcon-morepath
+Version: 24.5
+Summary: hello_world in Falcon from an implementation in Morepath
+Author-email: Samuel Newbold <sam@rwsh.org>
+License: AGPL-3.0-only
+Project-URL: Homepage, https://www.finitelycomputable.net/hello_world
+Project-URL: Documentation, https://github.com/thrasymache/microsites
+Project-URL: Source, https://github.com/thrasymache/microsites
+Project-URL: Gitlab, https://gitlab.com/thrasymache/microsites
+Project-URL: sourcehut, https://git.sr.ht/~thrasymache/finitelycomputable-microsites
+Project-URL: NotABug, https://notabug.org/thrasymache/finitelycomputable-microsites
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: falcon ~=3.1
+Provides-Extra: bjoern
+Requires-Dist: bjoern ~=3.0 ; extra == 'bjoern'
+Provides-Extra: cheroot
+Requires-Dist: cheroot ~=9.0 ; extra == 'cheroot'
+Provides-Extra: cherrypy
+Requires-Dist: cherrypy ~=18.0 ; extra == 'cherrypy'
+Provides-Extra: gunicorn
+Requires-Dist: gunicorn ~=21.2 ; extra == 'gunicorn'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-env ; extra == 'tests'
+Requires-Dist: finitelycomputable-tests ; extra == 'tests'
+Provides-Extra: waitress
+Requires-Dist: waitress ~=2.1 ; extra == 'waitress'
+
+==========================
+HelloWorld-Falcon-Morepath
+==========================
+
+This application adapts the hello_world endpoint provided in
+finitelycomputable.helloworld_morepath to be provided in
+finitelycomputable.helloworld_falcon using the Falcon framework.
