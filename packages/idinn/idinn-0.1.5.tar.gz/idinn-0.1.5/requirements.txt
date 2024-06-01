@@ -1,0 +1,4 @@
+numpy
+matplotlib
+tensorboard
+torch>=2.0+cpu
