@@ -1,0 +1,50 @@
+Metadata-Version: 2.3
+Name: yafw
+Version: 0.0.1
+Summary: Yet another FREALIGN wrapper
+Project-URL: Documentation, https://github.com/unknown/yafw#readme
+Project-URL: Issues, https://github.com/unknown/yafw/issues
+Project-URL: Source, https://github.com/unknown/yafw
+Author-email: Johannes Elferich <jojotux123@hotmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: matplotlib
+Requires-Dist: mrcfile
+Requires-Dist: pycistem
+Requires-Dist: pydantic>=2
+Requires-Dist: rich
+Requires-Dist: starfile
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# yafw
+
+[![PyPI - Version](https://img.shields.io/pypi/v/yafw.svg)](https://pypi.org/project/yafw)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/yafw.svg)](https://pypi.org/project/yafw)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install yafw
+```
+
+## License
+
+`yafw` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

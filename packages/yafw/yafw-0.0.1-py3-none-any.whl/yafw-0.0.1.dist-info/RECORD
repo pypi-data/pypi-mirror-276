@@ -1,0 +1,10 @@
+yafw/__about__.py,sha256=vUpUX9ikoJKMWqR-0QbBzFnKIuizF0jaxGkIvt-kR5I,137
+yafw/__init__.py,sha256=k-Q5KKcLxkX6cM_LPNHPxkkceS_IPWZVKxP7C9WIxw0,115
+yafw/cli.py,sha256=dj4EXLKfe-86Oe6xPFA80-PS3J7oF3C2Z7vacHchE0Q,11475
+yafw/frealign_jobs.py,sha256=ibK_M1G8BHrYjoWpyMqIg1YlmWVEU8SUJOwtGyBCY3A,4554
+yafw/project_management.py,sha256=23T6vHKx9Yj4uwHDu9S2rFW5DQNdd2CglT3sJu5OYZI,3841
+yafw-0.0.1.dist-info/METADATA,sha256=05yQcmGVJJnsiDK2AlK13-pY4ftwlW1x4tqjOjlpKnk,1532
+yafw-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+yafw-0.0.1.dist-info/entry_points.txt,sha256=AY2mEMb9aq35af_TPbMQWxITP3Zfv2PVqELI3J-BpFI,38
+yafw-0.0.1.dist-info/licenses/LICENSE.txt,sha256=PACnCDYoMnOL1bk3W5JegLPl87UKPfThbPrtaFWvGG8,1107
+yafw-0.0.1.dist-info/RECORD,,
