@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: aPrioriDNS
+Version: 1.0.4
+Summary: A package to process Direct Numerical Simulations of reacting and non reacting flows
+Project-URL: Homepage, https://github.com/LorenzoPiu/aPriori
+Project-URL: Issues, https://github.com/LorenzoPiu/aPriori/issues
+Project-URL: Documentation, https://apriori.gitbook.io
+Author-email: Lorenzo Piu <lorenzo.piu@ulb.be>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
