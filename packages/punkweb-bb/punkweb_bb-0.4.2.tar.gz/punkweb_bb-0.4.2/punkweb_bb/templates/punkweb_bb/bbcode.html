@@ -1,0 +1,20 @@
+{% extends "punkweb_bb/base.html" %}
+{% load render %}
+
+{% block content %}
+
+<div class="pw-card fluid padding">
+  <h1>BBCode Reference</h1>
+  <div style="display: flex; flex-direction: column; gap: 1rem;">
+    {% for code in codes %}
+    <div>
+      <h4>{{ code.0 }}</h4>
+      <pre>{{ code.1 }}</pre>
+      {{ code.1|render }}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
+
