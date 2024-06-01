@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: dev_fancy_console
+Version: 0.0.1
+Summary: Stylized Python console, a project made for fun
+Home-page: https://github.com/SKoprek/python-fancy-console
+Author: SKoprek
+Description-Content-Type: text/x-rst
+
+==================================
+De Fancy Console string generator
+==================================
+
+Stylized Python console, a project made for fun.
+
+Code example for Fancy Message
+------------------------------
+
+.. code:: python
+
+    FancyMessage(message="", color=FancyColors.EMPTY, background=FancyBackgroundColors.EMPTY_BG, styles=[FancyStyles.EMPTY_STYLE], utility=FancyUtilities.EMPTY)
+
+Code example for Fancy Message Segmented (Default values)
+---------------------------------------------------------
+
+.. code:: python
+
+    FancyMessageSegmented([FancyMessage()])
+
+Included Colors, Background Colors, and Styles
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+    example_1()
+
+Example Simple Message
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+    example_2()
+
+Example Simple Segmented Message
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+    example_4()
