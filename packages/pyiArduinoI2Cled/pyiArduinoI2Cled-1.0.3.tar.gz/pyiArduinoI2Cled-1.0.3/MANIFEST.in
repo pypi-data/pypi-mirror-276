@@ -1,0 +1,3 @@
+include README.md
+
+recursive-include pyiArduinoI2Cled *.p[xy][dx] *.h *.cpp *.py
