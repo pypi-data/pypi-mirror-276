@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: scrapy-taobao
+Version: 1.1.5
+Summary: scrapy模拟淘宝登陆，未加代理ip的处理。希望有好的代理处理方法分享出来。.
+Home-page: https://github.com/yanjlee/scrapy-taobao
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: httpx
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# scrapy-taobao
+scrapy模拟淘宝登陆，未加代理ip的处理。希望有好的代理处理方法分享出来。
+
+# 确保安装了scrapy。
+    self.http_user = 'xxxxxxxx'   # taobao username
+    self.http_pass = 'xxxxxxxx'   # taobao password
+记得修改taobao_spider.py中的用户名username和密码password。\<br>
+
+# 运行命令
+    scrapy crawl taobao
+  如果用户登陆需要输入验证码，则会自动打开验证码的图片链接让客户手动输入，输入错误会重新打开验证码的图片链接供用户再次输入。
+
+# 登陆成功的提示
+    login-success, get user nick: ["user nick"]
+用户看到这句代表登陆成功，可以进行一些其他数据的提取。
+    

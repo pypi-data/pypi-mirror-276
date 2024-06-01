@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+scrapy_taobao.egg-info/PKG-INFO
+scrapy_taobao.egg-info/SOURCES.txt
+scrapy_taobao.egg-info/dependency_links.txt
+scrapy_taobao.egg-info/requires.txt
+scrapy_taobao.egg-info/top_level.txt
+taobao/__init__.py
+taobao/items.py
+taobao/middlewares.py
+taobao/pipelines.py
+taobao/settings.py
+taobao/spiders/__init__.py
+taobao/spiders/taobao_spider.py
