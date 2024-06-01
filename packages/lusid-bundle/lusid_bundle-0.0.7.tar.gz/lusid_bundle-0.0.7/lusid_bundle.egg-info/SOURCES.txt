@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+lusid_bundle.egg-info/PKG-INFO
+lusid_bundle.egg-info/SOURCES.txt
+lusid_bundle.egg-info/dependency_links.txt
+lusid_bundle.egg-info/requires.txt
+lusid_bundle.egg-info/top_level.txt
