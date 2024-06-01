@@ -1,0 +1,15 @@
+pyvckit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvckit/did.py,sha256=3e7MxU50oPbpl5lYzglzyyO0olFr-iB2nqK5Ls7Y06A,4288
+pyvckit/sign.py,sha256=WtBO-6mRWAT16SdvYvUUUdqmuQ3WwBFyLL_5_ot8Ax8,2379
+pyvckit/sign_vc.py,sha256=ZBW9WZnIc1JXKU9Aaq0tBtTNzHsFpITeMB41hSg85V4,1252
+pyvckit/sign_vp.py,sha256=Dh-952CQYz6neuU61RLaWjOw63j8PrTPLf4gVyxtFd8,1398
+pyvckit/templates.py,sha256=M7LRGpe_fNKd6t92laMyhvUBxMqOOy0PdQglW_31r1I,1508
+pyvckit/utils.py,sha256=Sgvbtvg5fSP0dNowDEHjnFZxVk4-21XnvffYjDaWhCE,217
+pyvckit/verify.py,sha256=2epdaYAyjxihU47tLhaG7uhmAEb0hMFbh25Sug8Wnjc,1881
+pyvckit/verify_vc.py,sha256=JEj-kL2N3MQ4JlhrZgYCGz3uqduQVwEUftoBEYdt79I,483
+pyvckit/verify_vp.py,sha256=O2IMprbdL2Pb7KrsOPX4lHufi9svxGgEV9t6dvJ78lo,789
+pyvckit-0.0.3.dist-info/LICENSE,sha256=EO3mE8zoHcU4HsnBoI3P3NQl0qGGo--yUjHuO6MIWFo,34521
+pyvckit-0.0.3.dist-info/METADATA,sha256=s26nI0j42VwpN9IEaf5zVV1VhPQrF4CF8pAAzG-QNB8,5415
+pyvckit-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyvckit-0.0.3.dist-info/top_level.txt,sha256=CAGIbZD0NriTUFO8Cile-0Raf9V5Rhbq3QKJPHzDXCg,8
+pyvckit-0.0.3.dist-info/RECORD,,
