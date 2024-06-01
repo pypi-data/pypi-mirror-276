@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: orangutan
+Version: 0.0.2
+Summary: Automatic API Inspection and Adaptation System
+Author-email: Joseph M Courtney <joseph.m.courtney@gmail.com>
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp
+Requires-Dist: celery
+Requires-Dist: openapi-generator-cli
+Requires-Dist: pydantic
+Requires-Dist: pystache
+Requires-Dist: pytest
+Requires-Dist: pytest-httpserver
+Requires-Dist: tenacity
+Requires-Dist: vcrpy
+Provides-Extra: dev
+Requires-Dist: commitizen; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Overview
+# Installation
+# Usage
