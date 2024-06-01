@@ -1,0 +1,59 @@
+[project]
+name = "beforerr"
+dynamic = []
+description = "Personal Python utility library"
+authors = [
+    { name = "Beforerr", email = "zzj956959688@gmail.com" },
+]
+requires-python = ">= 3.10"
+dependencies = [
+    "pipe",
+    "loguru",
+]
+readme = "README.md"
+version = "2024.6.1"
+
+[project.optional-dependencies]
+r = [
+    "rpy2",
+    "rpy2_arrow",
+]
+
+[project.urls]
+Homepage = "https://beforerr.github.io/beforerr_dev"
+Repository = "https://github.com/beforerr/beforerr_dev"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "file"
+path = "beforerr/__init__.py"
+
+[tool.pixi.project]
+channels = [
+    "conda-forge",
+]
+platforms = [
+    "osx-arm64",
+]
+
+[tool.pixi.pypi-dependencies]
+nbdev = "*"
+setuptools = "*"
+rpy2 = "*"
+rpy2-arrow = "*"
+
+[tool.pixi.pypi-dependencies.beforerr]
+path = "."
+editable = true
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+matplotlib = "*"
+ipykernel = "*"
+polars = "*"
