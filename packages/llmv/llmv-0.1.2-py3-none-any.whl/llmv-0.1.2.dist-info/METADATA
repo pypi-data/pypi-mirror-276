@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: llmv
+Version: 0.1.2
+Summary: command line tool to interact with LLM with vision
+Author: iris2
+Description-Content-Type: text/markdown
+Requires-Dist: litellm >=1.35.1
+Requires-Dist: pillow >=10.3.0
+Requires-Dist: opencv-python
+
+A long description
