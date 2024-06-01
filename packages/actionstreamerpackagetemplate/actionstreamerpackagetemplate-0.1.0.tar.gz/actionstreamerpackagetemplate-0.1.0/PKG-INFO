@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: actionstreamerpackagetemplate
+Version: 0.1.0
+Summary: 
+Author: actionstreamer
+Author-email: code@actionstreamer.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# myPackage
+
+A sample Python package with subpackages `mySubpackage1` and `mySubpackage2`.
+
