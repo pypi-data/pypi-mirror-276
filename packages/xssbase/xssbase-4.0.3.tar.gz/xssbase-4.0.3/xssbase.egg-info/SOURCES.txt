@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+xssbase/__init__.py
+xssbase/cli.py
+xssbase/main.py
+xssbase/utils.py
+xssbase.egg-info/PKG-INFO
+xssbase.egg-info/SOURCES.txt
+xssbase.egg-info/dependency_links.txt
+xssbase.egg-info/entry_points.txt
+xssbase.egg-info/requires.txt
+xssbase.egg-info/top_level.txt
