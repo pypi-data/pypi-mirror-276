@@ -1,0 +1,3 @@
+[console_scripts]
+teleddns=teleddns:main
+
