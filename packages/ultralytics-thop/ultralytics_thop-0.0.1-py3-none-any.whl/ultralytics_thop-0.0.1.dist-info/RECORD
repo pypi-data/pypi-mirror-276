@@ -1,0 +1,17 @@
+thop/__init__.py,sha256=wap2LdfunkaClZ3zQuhCRMTQmGpBb5DfVXLEjbdaqPQ,200
+thop/__version__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+thop/fx_profile.py,sha256=o2qjWzTnSJiWT23c8B2A1iZA-pIxlQVk3oCUmIh16tU,6958
+thop/onnx_profile.py,sha256=n2_Hokbc0q4vO7YnrrmXGobhEb8F1sMOThwVSplLQpc,2498
+thop/profile.py,sha256=V-ycyDa_S0H_7HUD6vU3PBhFjT1baKiVglGxk6fty-0,7963
+thop/rnn_hooks.py,sha256=Z2UAd5un75qvBG4OGAsmBIhUpvuyJWe-zxZI2PRpHb0,5621
+thop/utils.py,sha256=42Soflnj4O3L_1RVLog5q59xccmTGTRh27LZCWpFR8c,1433
+thop/vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thop/vision/basic_hooks.py,sha256=6MeB3eGIPNodKsLuKSR1ZkJ444EY33Tac9moiRt08MU,3806
+thop/vision/calc_func.py,sha256=w9DNuQeH7EEvrB-u-lIhP1rc4CYrzMb8zrFewvUY7z8,2886
+thop/vision/efficientnet.py,sha256=QqtLajIeCOT1KXBvfbXDRA5WI7yJXvGTOn3JwSQAfo8,219
+thop/vision/onnx_counter.py,sha256=e1mETqCP6ezqHJRFxi7URWde3_1chWvaJM6EIqx-XpI,11213
+ultralytics_thop-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+ultralytics_thop-0.0.1.dist-info/METADATA,sha256=MWb3WxSiM-YHzog805iGAnC7hIXg_UYNruy86vHvX-s,47823
+ultralytics_thop-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ultralytics_thop-0.0.1.dist-info/top_level.txt,sha256=HQ7D0gSvDJ31CNR-f0EuXNVve05RYBmwyIkHQKiEhU8,5
+ultralytics_thop-0.0.1.dist-info/RECORD,,
