@@ -1,0 +1,10 @@
+source_mailersend/__init__.py,sha256=43mMmxTRS85XkPfBSJm_4Xy4OGFIG0mvIVDTilqhGWo,132
+source_mailersend/manifest.yaml,sha256=RYcZxI4i7F-NOBJQyWKYAGnmfyOabpDp6DYy6032mBU,1700
+source_mailersend/run.py,sha256=7kEBaHpSkzwCZ_I0T4yCpSIsojJXGTdws6sTGRzpM10,242
+source_mailersend/schemas/activity.json,sha256=PnIBNtyT657gu9xSGqG8oebT9bz3yagHnTXZcJiYeNo,1599
+source_mailersend/source.py,sha256=LC7PWNUWhDWWR5BD8mDAX0aqLt5FvP68YXFKh2YnBV8,479
+source_mailersend/spec.yaml,sha256=wz6E_7XDx_BuxTtuTQCpW1lS3oA0ULcNQcbc9ImIG7w,717
+airbyte_source_mailersend-0.1.1.dist-info/METADATA,sha256=1QwsJAChhcc1FAqI3A6VhT1bTGhgsn4D3Aor1gFYA1Y,5282
+airbyte_source_mailersend-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_mailersend-0.1.1.dist-info/entry_points.txt,sha256=m640GdBsfmVTVkMC98eEyAHWE7LRZQCIhRaHK1Yjr10,63
+airbyte_source_mailersend-0.1.1.dist-info/RECORD,,

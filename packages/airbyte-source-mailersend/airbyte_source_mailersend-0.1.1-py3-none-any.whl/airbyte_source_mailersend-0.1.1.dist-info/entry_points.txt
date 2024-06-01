@@ -1,0 +1,3 @@
+[console_scripts]
+source-mailersend=source_mailersend.run:run
+
