@@ -1,0 +1,9 @@
+came_domotic_unofficial/__init__.py,sha256=LVR4cz6c-0JnYWHorj6Trsw9Gax2S-tGlQKlXvzZrdk,1633
+came_domotic_unofficial/auth.py,sha256=6SzWgLsFT795L2GHis6kxFEvkZNP-IeOuWC0d9-ZC_I,16305
+came_domotic_unofficial/came_domotic_api.py,sha256=nA5hFfy3CVMffiYfmiSAWIEvjU1edKIY1qCoHJbGIoY,4893
+came_domotic_unofficial/errors.py,sha256=-ObyvKCozhFMALOjXvs00BDbwx3hGWz-TBmJtoPe564,1771
+came_domotic_unofficial/models.py,sha256=DD9_hysfd7QP0IxEzpxKIIRH-9VlAHNeFED5SN-ZQlY,8710
+came_domotic_unofficial-1.0.0rc20.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+came_domotic_unofficial-1.0.0rc20.dist-info/METADATA,sha256=cf5EiB8bMJ0XVAJE9KkQVlhITjZlw9r9_Yw-Kf9fTQ0,6724
+came_domotic_unofficial-1.0.0rc20.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+came_domotic_unofficial-1.0.0rc20.dist-info/RECORD,,
