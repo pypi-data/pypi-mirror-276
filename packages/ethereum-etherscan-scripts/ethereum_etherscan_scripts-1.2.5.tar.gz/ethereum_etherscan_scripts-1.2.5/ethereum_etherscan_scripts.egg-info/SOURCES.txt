@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ethereum_etherscan_scripts.egg-info/PKG-INFO
+ethereum_etherscan_scripts.egg-info/SOURCES.txt
+ethereum_etherscan_scripts.egg-info/dependency_links.txt
+ethereum_etherscan_scripts.egg-info/requires.txt
+ethereum_etherscan_scripts.egg-info/top_level.txt
