@@ -1,0 +1,251 @@
+import shutil
+from pathlib import Path
+
+import pytest
+
+from tests.conftest import ApeSubprocessRunner
+from tests.integration.cli.utils import github_xfail, run_once, skip_projects_except
+
+EXPECTED_FAIL_MESSAGE = "Unknown package '{}'."
+
+
+@pytest.fixture
+def pm_runner(config):
+    class PMSubprocessRunner(ApeSubprocessRunner):
+        def __init__(self):
+            super().__init__("pm", data_folder=config.DATA_FOLDER)
+
+    return PMSubprocessRunner()
+
+
+@run_once
+def test_install_path_not_exists(pm_runner):
+    path = "path/to/nowhere"
+    result = pm_runner.invoke("install", path)
+    assert result.exit_code != 0, result.output
+    assert EXPECTED_FAIL_MESSAGE.format(path) in result._completed_process.stderr
+
+
+@run_once
+def test_install_path_to_local_package(pm_runner, project):
+    project_name = "with-contracts"
+    path = Path(__file__).parent / "projects" / project_name
+    name = path.stem
+    result = pm_runner.invoke("install", path.as_posix(), "--name", project_name)
+    assert result.exit_code == 0, result.output
+    assert f"Package '{path.as_posix()}' installed."
+
+    # Ensure was installed correctly.
+    assert project.dependencies[name]["local"]
+
+
+@run_once
+def test_install_path_to_local_config_file(pm_runner):
+    project = "with-contracts"
+    path = Path(__file__).parent / "projects" / project / "ape-config.yaml"
+    arguments = ("install", path.as_posix(), "--name", project)
+    result = pm_runner.invoke(*arguments)
+    assert result.exit_code == 0, result.output
+    assert f"Package '{path.parent.as_posix()}' installed."
+
+
+@skip_projects_except("test", "with-contracts")
+def test_install_local_project_dependencies(pm_runner):
+    result = pm_runner.invoke("install")
+    assert result.exit_code == 0
+    assert "All project packages installed." in result.output
+
+
+@run_once
+def test_install_force(pm_runner):
+    result = pm_runner.invoke("install", "--force")
+    assert result.exit_code == 0
+    assert "All project packages installed." in result.output
+
+
+@run_once
+@github_xfail()
+def test_install_github_dependency_with_version(pm_runner, project):
+    result = pm_runner.invoke(
+        "install",
+        "gh:OpenZeppelin/openzeppelin-contracts",
+        "--name",
+        "openzeppelin",
+        "--version",
+        "4.6.0",
+        timeout=300,
+    )
+    assert result.exit_code == 0, result.output
+    assert "Package 'openzeppelin@4.6.0' installed."
+
+
+@run_once
+@github_xfail()
+def test_install_github_dependency_with_ref(pm_runner):
+    result = pm_runner.invoke(
+        "install",
+        "gh:OpenZeppelin/openzeppelin-contracts",
+        "--name",
+        "OpenZeppelin",
+        "--ref",
+        "master",
+        timeout=300,
+    )
+    assert result.exit_code == 0, result.output
+    assert "Package 'OpenZeppelin@master' installed."
+
+
+@skip_projects_except("with-contracts")
+def test_install_config_override(pm_runner, project):
+    actual_dep = Path(__file__).parent / "projects" / "with-contracts" / "dep"
+    shutil.copytree(actual_dep, project.path / "dep")
+    config_override = '{"contracts_folder": "src"}'
+    dep_path = project.path / "dep"
+    name = "foodep2"
+    pm_runner.invoke(
+        "install",
+        dep_path.as_posix(),
+        "--name",
+        name,
+        "--config-override",
+        config_override,
+        "--force",
+    )
+    actual = project.dependencies["foodep2"]["local"].config.contracts_folder
+    assert actual == "src"
+
+
+@run_once
+def test_compile_package_not_exists(pm_runner, project):
+    pm_runner.project = project
+    name = "NOT_EXISTS"
+    result = pm_runner.invoke("compile", name)
+    expected = f"Dependency '{name}' unknown. Is it installed?"
+    assert result.exit_code != 0, result.output
+    assert expected in result.output
+
+
+@skip_projects_except("with-contracts", "with-dependencies")
+def test_compile(pm_runner, project):
+    pm_runner.project = project
+    result = pm_runner.invoke("compile", "--force")
+    output = result.output or str(result._completed_process.stderr)
+    assert result.exit_code == 0, output
+
+    if project.path.as_posix().endswith("contracts"):
+        assert "Package 'foodep@local' compiled." in output, output
+    else:
+        # Tests against a bug where we couldn't have hyphens in
+        # dependency project contracts.
+        assert "contracts/hyphen-DependencyContract.json" in output, output
+
+
+@skip_projects_except("with-contracts")
+def test_compile_config_override(pm_runner, project):
+    pm_runner.project = project
+    cmd = ("compile", "--force", "--config-override", '{"contracts_folder": "src"}')
+    result = pm_runner.invoke(*cmd)
+    output = result.output or str(result._completed_process.stderr)
+    assert result.exit_code == 0, output
+
+
+@skip_projects_except("with-contracts")
+def test_compile_dependency(pm_runner, project):
+    pm_runner.project = project
+    name = "foodep"
+    result = pm_runner.invoke("compile", name, "--force")
+    assert result.exit_code == 0, result.output
+    assert f"Package '{name}@local' compiled." in result.output
+
+
+@skip_projects_except("only-dependencies")
+def test_uninstall(pm_runner, project):
+    pm_runner.project = project
+    package_name = "dependency-in-project-only"
+
+    # Install packages
+    pm_runner.invoke("install", ".", "--force")
+    result = pm_runner.invoke("uninstall", package_name, "--yes")
+    expected_message = f"Uninstalled '{package_name}=local'."
+    assert result.exit_code == 0, result.output or result._completed_process.stderr
+    assert expected_message in result.output or result._completed_process.stderr
+
+
+@skip_projects_except("only-dependencies")
+def test_uninstall_not_exists(pm_runner, project):
+    pm_runner.project = project
+    package_name = "_this_does_not_exist_"
+    result = pm_runner.invoke("uninstall", package_name, "--yes")
+    expected_message = f"ERROR: Package(s) '{package_name}' not installed."
+    assert result.exit_code != 0, result.output or result._completed_process.stderr
+    assert expected_message in result.output
+
+
+@skip_projects_except("only-dependencies")
+def test_uninstall_specific_version(pm_runner, project):
+    pm_runner.project = project
+    package_name = "dependency-in-project-only"
+    version = "local"
+
+    # Install packages
+    pm_runner.invoke("install", ".", "--force")
+    result = pm_runner.invoke("uninstall", package_name, version, "--yes")
+    expected_message = f"Uninstalled '{package_name}=local'."
+    assert result.exit_code == 0, result.output
+    assert expected_message in result.output
+
+
+@skip_projects_except("only-dependencies")
+def test_uninstall_all_versions(pm_runner, project):
+    pm_runner.project = project
+    # Install packages
+    pm_runner.invoke("install", ".", "--force")
+    package_name = "dependency-in-project-only"
+    result = pm_runner.invoke("uninstall", package_name, "--yes")
+    expected_message = f"Uninstalled '{package_name}=local'."
+    assert result.exit_code == 0, result.output
+    assert expected_message in result.output
+
+
+@skip_projects_except("only-dependencies")
+def test_uninstall_invalid_version(pm_runner, project):
+    pm_runner.project = project
+    package_name = "dependency-in-project-only"
+
+    # Install packages
+    pm_runner.invoke("install", ".", "--force")
+
+    # Ensure was installed correctly.
+    assert package_name in project.dependencies
+    assert project.dependencies[package_name]["local"]
+
+    invalid_version = "0.0.0"
+    result = pm_runner.invoke("uninstall", package_name, invalid_version, "--yes")
+    expected_message = f"ERROR: Package(s) '{package_name}={invalid_version}' not installed."
+    assert result.exit_code != 0, result.output
+
+    assert expected_message in result.output
+
+
+@skip_projects_except("only-dependencies")
+def test_uninstall_cancel(pm_runner, project):
+    pm_runner.project = project
+    package_name = "dependency-in-project-only"
+    version = "local"
+
+    # Install packages
+    pm_runner.invoke("install", ".", "--force")
+
+    result = pm_runner.invoke("uninstall", package_name, version, input="n\n")
+    assert result.exit_code == 0, result._completed_process.stderr
+    expected_message = f"Version '{version}' of package '{package_name}' uninstalled."
+    assert expected_message not in result.output
+
+
+@skip_projects_except("only-dependencies")
+def test_list(pm_runner, project):
+    pm_runner.project = project
+    package_name = "dependency-in-project-only"
+    result = pm_runner.invoke("list")
+    assert result.exit_code == 0, result.output
+    assert package_name in result.output
