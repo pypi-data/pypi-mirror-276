@@ -1,0 +1,2 @@
+[console_scripts]
+nugen = nugen.cli:main
