@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: lusid-bundle
+Version: 0.0.1
+Summary: lusid-bundle is a python package that makes it quick and easy to install all of the Lusid and Luminesce sdks and dependencies.
+Home-page: https://gitlab.com/orlando.calvo1/lusid-bundle
+Author: Orlando Calvo
+Author-email: orlando.calvo@finbourne.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+[![pypi](https://img.shields.io/pypi/v/lusid-express)](https://pypi.org/project/lusid-express/)
+[![python](https://img.shields.io/pypi/pyversions/lusid-express.svg)](https://pypi.org/project/lusid-express/)
+
+# 1. lusid-bundle
+#####  *`lusid-bundle` is a python package that makes it quick and easy to get started using Lusid and Luminesce. It bundles all packages needed to get started.*
+
+
+
+
+
+
+##  1. <a name='Conveniencepackageinstallations'></a>Convenience package installations
+
+```mermaid
+graph LR;
+    lusid_express --> luminesce_sdk_preview
+    lusid_express --> lusid_jam
+    lusid_express --> lusid_sdk_preview
+    lusid_express --> fbnlab_preview
+    lusid_express --> finbourne_access_sdk
+    lusid_express --> finbourne_identity_sdk
+    lusid_express --> finbourne_insights_sdk_preview
+    lusid_express --> finbourne_sdk_utilities
+    lusid_express --> lusid_configuration_sdk_preview
+    lusid_express --> lusid_drive_sdk_preview
+    lusid_express --> lusid_notifications_sdk_preview
+    lusid_express --> lusid_scheduler_sdk_preview
+    lusid_express --> lusid_workflow_sdk_preview
+    lusid_express --> lusidtools
+    lusid_express --> dve_lumipy_preview
+
+    luminesce_sdk_preview["luminesce-sdk-preview==1.14.758"]
+    lusid_jam["lusid-jam==0.1.2"]
+    lusid_sdk_preview["lusid-sdk-preview==1.1.120"]
+    fbnlab_preview["fbnlab-preview==0.1.108"]
+    finbourne_access_sdk["finbourne-access-sdk==0.0.3751"]
+    finbourne_identity_sdk["finbourne-identity-sdk==0.0.2834"]
+    finbourne_insights_sdk_preview["finbourne-insights-sdk-preview==0.0.763"]
+    finbourne_sdk_utilities["finbourne-sdk-utilities==0.0.10"]
+    lusid_configuration_sdk_preview["lusid-configuration-sdk-preview==0.1.514"]
+    lusid_drive_sdk_preview["lusid-drive-sdk-preview==0.1.617"]
+    lusid_notifications_sdk_preview["lusid-notifications-sdk-preview==0.1.923"]
+    lusid_scheduler_sdk_preview["lusid-scheduler-sdk-preview==0.0.829"]
+    lusid_workflow_sdk_preview["lusid-workflow-sdk-preview==0.1.810"]
+    lusidtools["lusidtools==1.0.14"]
+    dve_lumipy_preview["dve-lumipy-preview==0.1.1075"]
+
+```
+
+
