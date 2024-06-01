@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: discontinuitypy
+Version: 0.1.0
+Summary: A python package for identifying and analyzing discontinuities for time series data.
+Author-Email: Beforerr <zzj956959688@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: space-analysis.py[io]
+Requires-Dist: beforerr
+Requires-Dist: plasmapy
+Requires-Dist: xarray[accel]
+Requires-Dist: xarray_einstats
+Requires-Dist: polars
+Requires-Dist: modin
+Requires-Dist: pydantic
+Requires-Dist: fastcore
+Requires-Dist: pdpipe
+Requires-Dist: loguru
