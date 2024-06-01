@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_NazymSmagulova/__init__.py
+myfunctions_NazymSmagulova/math.py
+myfunctions_NazymSmagulova.egg-info/PKG-INFO
+myfunctions_NazymSmagulova.egg-info/SOURCES.txt
+myfunctions_NazymSmagulova.egg-info/dependency_links.txt
+myfunctions_NazymSmagulova.egg-info/top_level.txt
