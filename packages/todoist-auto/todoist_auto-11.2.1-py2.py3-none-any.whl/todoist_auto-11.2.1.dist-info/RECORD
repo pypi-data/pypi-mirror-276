@@ -1,0 +1,10 @@
+todoist_auto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todoist_auto/models.py,sha256=uUMBzTex8uWEyHpFkD9W4-aeVZcaUW2hIJIkfXecjE8,2067
+todoist_auto/refresh_day_routine.py,sha256=MncmKgw7OA8rHxKqob6g__1oFNJHt2XzE14t_tihutg,6076
+todoist_auto/rm_all_secs.py,sha256=yz01ToTrf-zZL8gQEeuqgzz-mq2dtHO7N1OJV5uual8,532
+todoist_auto/rm_empty_sections.py,sha256=S2OGhOMKWKZ7SRa2NsHX0oIyUf3QSIQSrJ1O3IAAHJY,1208
+todoist_auto/sort_plnd_tod.py,sha256=-uQYDZxeaploSmbxJ66YT0v_VSzbXlk4Qjro4WuOV58,2377
+todoist_auto/util.py,sha256=lFJmBa4L3ugR_SmvN9oFrdUYLSSSTEbs1yePgjweNRM,1284
+todoist_auto-11.2.1.dist-info/METADATA,sha256=dWUymqfGSoe4hk5SLpx_kT0fnkU3eVv7KhoRZZQV3Tk,334
+todoist_auto-11.2.1.dist-info/WHEEL,sha256=cDcbFFSNXOE-241I5PFuLkIYfR_FM7WTlPEi33njInY,105
+todoist_auto-11.2.1.dist-info/RECORD,,
