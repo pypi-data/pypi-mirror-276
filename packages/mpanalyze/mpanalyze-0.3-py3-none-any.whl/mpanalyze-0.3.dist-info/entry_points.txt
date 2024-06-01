@@ -1,0 +1,2 @@
+[console_scripts]
+params_analyze = params_analyze.analyze:calculate_parameters
