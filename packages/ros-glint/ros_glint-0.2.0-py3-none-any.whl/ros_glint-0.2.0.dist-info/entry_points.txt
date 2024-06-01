@@ -1,0 +1,3 @@
+[console_scripts]
+glint_hook = ros_glint.glint_hook:main
+glint_ros = ros_glint.main:main
