@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: litetts
+Version: 0.3.0
+Summary: A package to convert text into speech
+Home-page: https://github.com/mdrehan4all/litetts
+Author: Md Rehan
+Author-email: mdrehan4all@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyobjc >=2.4 ; platform_system == "Darwin"
+Requires-Dist: comtypes ; platform_system == "Windows"
+Requires-Dist: pypiwin32 ; platform_system == "Windows"
+Requires-Dist: pywin32 ; platform_system == "Windows"
+
+# LiteTTS Package
+
+A package to convert text into speech.
