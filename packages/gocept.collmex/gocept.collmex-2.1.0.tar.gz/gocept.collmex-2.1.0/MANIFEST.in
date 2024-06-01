@@ -1,0 +1,11 @@
+include *.rst
+include .coveragerc
+include collmex.ini-example
+
+include *.ini
+exclude collmex.ini
+
+include *.gpg
+exclude *.gpg
+
+recursive-include src *.rst
