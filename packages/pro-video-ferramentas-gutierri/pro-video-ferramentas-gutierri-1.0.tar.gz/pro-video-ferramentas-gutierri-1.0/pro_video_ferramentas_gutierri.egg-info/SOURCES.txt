@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+pro_video_ferramentas_gutierri/__init__.py
+pro_video_ferramentas_gutierri/camera.py
+pro_video_ferramentas_gutierri/video.py
+pro_video_ferramentas_gutierri.egg-info/PKG-INFO
+pro_video_ferramentas_gutierri.egg-info/SOURCES.txt
+pro_video_ferramentas_gutierri.egg-info/dependency_links.txt
+pro_video_ferramentas_gutierri.egg-info/top_level.txt
