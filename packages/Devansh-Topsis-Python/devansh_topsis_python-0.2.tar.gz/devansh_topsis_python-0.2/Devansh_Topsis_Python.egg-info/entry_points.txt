@@ -1,0 +1,2 @@
+[console_scripts]
+Topsis_Package = Topsis_Python.__init__:main
