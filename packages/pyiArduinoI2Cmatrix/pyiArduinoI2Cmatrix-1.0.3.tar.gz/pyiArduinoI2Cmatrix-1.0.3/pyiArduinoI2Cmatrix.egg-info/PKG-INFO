@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyiArduinoI2Cmatrix
+Version: 1.0.3
+Summary: iarduino.ru module for Raspberry Pi
+Home-page: http://github.com/tremaru/pyiArduinoI2Cmatrix
+Author: iarduino.ru
+Author-email: shop@iarduino.ru
+License: MIT
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
