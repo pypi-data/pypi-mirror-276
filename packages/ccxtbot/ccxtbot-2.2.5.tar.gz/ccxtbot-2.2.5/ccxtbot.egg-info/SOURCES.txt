@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ccxtbot.egg-info/PKG-INFO
+ccxtbot.egg-info/SOURCES.txt
+ccxtbot.egg-info/dependency_links.txt
+ccxtbot.egg-info/requires.txt
+ccxtbot.egg-info/top_level.txt
