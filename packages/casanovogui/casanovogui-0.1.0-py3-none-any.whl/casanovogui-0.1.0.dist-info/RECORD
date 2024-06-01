@@ -1,0 +1,16 @@
+casanovogui/__init__.py,sha256=f-JwHY2P9iWXg04D_-nlXQc0FyD3ivUmZDNSY_6vB5k,55
+casanovogui/home.py,sha256=we-iamK4W6K3boGmJW3YemP2WgsKE1Wq9nFwAkcFW2U,299
+casanovogui/run.py,sha256=chbMor4nEUjY3xr07wDklE6AIeeUGilSjjvmEFPXJVo,670
+casanovogui/simple_db.py,sha256=LvEgifsrNK8Cr7-gLHOEyVpF_Q4X8Eb1i0SflZvmF-g,16241
+casanovogui/utils.py,sha256=WkmCqwoi5mwD3kdP_hJeM7XRPvHY9kezLzSJjlxi9ZA,11449
+casanovogui/pages/evaluate.py,sha256=IYixDr8iyU0CITQxeQn1r9DI7CPhLCM5GkIs2XJj6HE,148
+casanovogui/pages/models.py,sha256=G7FCUyQBKRzf5yIx2j0XrZiBYDROGpzrTo-WGNq9Zvo,6694
+casanovogui/pages/search.py,sha256=5IwJ8Ikit255HZm6veRnM-NQqtyKvx53OtcMvH3zA9c,13375
+casanovogui/pages/spectra.py,sha256=PG9IeTWbU3CwJvrKCzJl5OallBHmEkK1nuvqFBBpALQ,9358
+casanovogui/pages/train.py,sha256=1jfQst9IwxLlvhzU10K0JfvX64e64wI4ftunuk4G5V0,155
+casanovogui/pages/viewer.py,sha256=J41X8CiCGyGD0ntdC5QoFIB_nTSeDEYCq1z9X9mCrd0,5937
+casanovogui-0.1.0.dist-info/METADATA,sha256=lBlf-FXZAdx1C9wJzOk8gyDiOcp7w9KmBrbXwfpuDP4,1022
+casanovogui-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+casanovogui-0.1.0.dist-info/entry_points.txt,sha256=d1aenaXuxBJTJelXzTXeb-eTfQp-5ZrJ5igLwJgfwaU,53
+casanovogui-0.1.0.dist-info/top_level.txt,sha256=076Y5AJoJB78SGN87UwZQcdc9D7-KFt-EaBcqFALAB8,12
+casanovogui-0.1.0.dist-info/RECORD,,
