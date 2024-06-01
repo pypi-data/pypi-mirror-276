@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+topacademy_api/__init__.py
+topacademy_api.egg-info/PKG-INFO
+topacademy_api.egg-info/SOURCES.txt
+topacademy_api.egg-info/dependency_links.txt
+topacademy_api.egg-info/not-zip-safe
+topacademy_api.egg-info/top_level.txt

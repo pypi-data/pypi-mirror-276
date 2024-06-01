@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: topacademy_api
+Version: 1.0
+Summary: A library for Python that provides an easy interface to interact with the TOP Academy resources
+Author-email: accounts@dust0n.ru
+License-File: LICENSE
