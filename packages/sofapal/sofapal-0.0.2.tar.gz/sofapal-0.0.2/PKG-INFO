@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: sofapal
+Version: 0.0.2
+Summary: A friend; a chum.
+Home-page: https://github.com/slumberdemon/pal
+Author: SlumberDemon
+Author-email: hi@sofa.sh
+License: MIT
+Project-URL: Bug Reports, https://github.com/slumberdemon/pal/issues
+Project-URL: Source, https://github.com/slumberdemon/pal
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: inquirerpy
+
+# Pal
+
+A friend; a chum.
+
+### Where
+
+```sh
+pip install -U sofapal
+```
+
+```sh
+pipx install sofapal
+```
+
+```sh
+pip install git+https://github.com/slumberdemon/pal
+```
+
+### How
+
+```shell
+pal
+```
+
+### Why
+
+Pal is a command-line interface that includes a range of general features and functions.
