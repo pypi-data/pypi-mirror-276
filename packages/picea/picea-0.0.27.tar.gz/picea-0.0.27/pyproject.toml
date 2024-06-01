@@ -1,0 +1,81 @@
+[tool.poetry]
+name = "picea"
+version = "0.0.27"
+description = "A lightweight python library for working with trees and biological sequence collections"
+authors = ["Rens Holmer"]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Natural Language :: English',
+    'Operating System :: MacOS',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Operating System :: Unix',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Science/Research',
+    'Topic :: Scientific/Engineering :: Bio-Informatics',
+    'Topic :: Utilities',
+]
+repository = 'https://github.com/holmrenser/picea'
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+numpy = "1.26"
+matplotlib = "^3.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+black = "^24.4.2"
+coverage = { extras = ["toml"], version = "^7.5.3" }
+coveralls = "^4.0.1"
+mkdocs = "^1.6.0"
+mkapi = "^2.1.0"
+mkdocs-material = "^9.5.25"
+mkdocs-jupyter = "^0.24.7"
+mkdocstrings = "^0.25.1"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+scipy = "^1.13.1"
+scikit-learn = "^1.5.0"
+mkdocstrings-python = "^1.10.3"
+jupytext = "^1.16.2"
+jupyterlab = "^4.2.1"
+ruff = "^0.4.5"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "--verbose --doctest-modules"
+testpaths = ["picea", "tests"]
+python_classes = "*Tests"
+python_functions = "test*"
+python_files = "*tests.py"
+
+[tool.coverage.run]
+branch = true
+command_line = "-m pytest"
+
+[tool.coverage.report]
+omit = ["tests/*", "*__init__.py"]
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+exclude = ['docs/*']
+lint.select = [
+    "E", # pycodestyle errors (settings from FastAPI, thanks, @tiangolo!)
+    "W", # pycodestyle warnings
+    "F", # pyflakes
+    "I", # isort
+    "C", # flake8-comprehensions
+    "B", # flake8-bugbear
+]
+lint.ignore = [
+    "E501", # line too long, handled by black
+    "C901", # too complex
+    "C408", # allow explicit `dict` and `list` calls
+    "B028", # don't want to always specify stacklevel for warnings
+]

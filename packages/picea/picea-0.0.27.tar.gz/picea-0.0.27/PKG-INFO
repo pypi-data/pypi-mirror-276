@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: picea
+Version: 0.0.27
+Summary: A lightweight python library for working with trees and biological sequence collections
+Home-page: https://github.com/holmrenser/picea
+License: MIT
+Author: Rens Holmer
+Requires-Python: >=3.10,<3.13
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Utilities
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: numpy (==1.26)
+Project-URL: Repository, https://github.com/holmrenser/picea
+Description-Content-Type: text/markdown
+
+# _picea_
+
+Sprucing up bioinformatics analysis
+
+[![CI](https://github.com/holmrenser/picea/actions/workflows/ci.yml/badge.svg)](https://github.com/holmrenser/picea/actions/workflows/ci.yml)
+![docs](https://github.com/holmrenser/picea/workflows/docs/badge.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/holmrenser/picea/badge.svg?branch=master)](https://coveralls.io/github/holmrenser/picea?branch=master)
+
+[![PyPI version](https://badge.fury.io/py/picea.svg)](https://badge.fury.io/py/picea)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/picea.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![PyPI status](https://img.shields.io/pypi/status/picea.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+```
+pip install picea
+```
+
+_picea_ has datastructures and methods to perform common bioinformatics tasks. Currently sequences, sequence annotations, trees, and ontologies are supported.
+
+Example:
+
+```python
+from picea import Tree, treeplot
+import matplotlib.pyplot as plt
+
+newick = '(((a,b),(c,d)),e)'
+tree = Tree.from_newick(newick)
+
+fig, (ax1, ax2) = plt.subplots(ncols = 2, figsize = (10, 4))
+
+#left-to-right layout with direct links
+treeplot(tree, style='rectangular', ltr=True, ax=ax1)
+
+#right-to-left layout with square links
+treeplot(tree, style='square', ltr=False, ax=ax2)
+```
+
