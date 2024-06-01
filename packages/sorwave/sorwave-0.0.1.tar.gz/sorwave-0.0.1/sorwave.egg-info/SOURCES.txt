@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+sorwave/__init__.py
+sorwave/main.py
+sorwave/metadata_manager.py
+sorwave/music_logger.py
+sorwave/song_sorter.py
+sorwave.egg-info/PKG-INFO
+sorwave.egg-info/SOURCES.txt
+sorwave.egg-info/dependency_links.txt
+sorwave.egg-info/entry_points.txt
+sorwave.egg-info/requires.txt
+sorwave.egg-info/top_level.txt
