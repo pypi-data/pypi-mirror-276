@@ -1,0 +1,12 @@
+sandal/__init__.py,sha256=oECqmhgOPfXX-WiwwzLMSLqoZuMI6O9SGALghpfYmGM,227
+sandal/autoroot.py,sha256=PgbZyBSoAxB3CjFsCaKuZwILdv77aEgEpX-CK9qPwZ8,108
+sandal/cli.py,sha256=cbyrhmCDSgGXEqVzyetkdoCfYxRMvUSQ_bPFNhSleMs,2054
+sandal/loghelper.py,sha256=cxX2rvqLbl3QdyHuY0vzUR6iHd559EdA9hH80vg0vUw,862
+sandal/notebook.py,sha256=WSqiUSfmFN8AXAZJDisg2F-rCf2QsbY4QwqdyXAvEro,698
+sandal/project.py,sha256=Z8mqTJlaFpujkQUZ4P1gz3stbR5pYgcnOUFd_l2uSoI,910
+sandal/root.py,sha256=P_qngAmbbjlkp545RsZgriEQxDPTdWcEIoS1KJn5CsI,43
+sandal-0.1.0a5.dist-info/LICENSE.md,sha256=48WIuOhi4V-ZW6AMgUZ_OlvKxDt7C074aFE-4KIGSZg,1067
+sandal-0.1.0a5.dist-info/METADATA,sha256=C15KTauIqobzOqWPwhKRP_Ul0DJiAzxdr2eV6S3WKPE,2837
+sandal-0.1.0a5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sandal-0.1.0a5.dist-info/top_level.txt,sha256=YczY0F6QYBRy_a97npW8UzeqxPiK1HBPhKoJ3n-02dk,7
+sandal-0.1.0a5.dist-info/RECORD,,
