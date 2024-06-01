@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cryptobot_pro.egg-info/PKG-INFO
+cryptobot_pro.egg-info/SOURCES.txt
+cryptobot_pro.egg-info/dependency_links.txt
+cryptobot_pro.egg-info/requires.txt
+cryptobot_pro.egg-info/top_level.txt
