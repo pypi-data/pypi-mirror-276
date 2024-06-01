@@ -1,0 +1,4 @@
+pyjs8call>=0.2.3
+flask>=3.0.0
+flask-socketio>=5.3.3
+pyshortcuts>=1.9.0
