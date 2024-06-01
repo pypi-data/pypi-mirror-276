@@ -1,0 +1,16 @@
+kwnn/__init__.py,sha256=df-rCHTmehr75YEVl32jdwzLUC_twe4sheTSMiU8GpY,594
+kwnn/_client.py,sha256=9TNwWNf-bHfDx6wnpntsezCL4tGRVjfEfFNFSwitapo,430
+kwnn/_models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kwnn/_resource.py,sha256=1m6lpA3YCsns7MIN1Ui9bfcOKiiJF6CPHeU9kQBxqLs,113
+kwnn/resources/__init__.py,sha256=DBk4Jahr2vgnaQGmBsn9xh71cbT0SqrBZsviGDSJ3Ho,23
+kwnn/resources/chat/__init__.py,sha256=DBk4Jahr2vgnaQGmBsn9xh71cbT0SqrBZsviGDSJ3Ho,23
+kwnn/resources/chat/chat.py,sha256=umOebQe_nkLvbdRRkbPNMoMlSohTULPx3fxKa7rjEaU,206
+kwnn/resources/chat/completions.py,sha256=dIdMyqlEjoxRusShvdN_GictSCCtfpeY9_vf3uud2yA,6048
+kwnn/types/__init__.py,sha256=zTRQNG_s-B1i8H1-pjUmEt85SuqkD5n9NXlrTIRCuhM,54
+kwnn/types/chat/__init__.py,sha256=HLS3dIPP2iYAoKxkGyosqK0nLi6pAVvvbSYjs6fA4X8,99
+kwnn/types/chat/chat_completion.py,sha256=exbOTW6K87Vn5EO6vtR53ux5MoH2Iw4K4RQdKMt82FY,254
+kwnn/types/chat/chat_completion_chunk.py,sha256=4XdanM3QIcUgYRbz0kuO1ixBcPFIpOhw5RSpPwv3pS0,166
+kwnn-1.0.1.dist-info/METADATA,sha256=cSJ8bBTv7_VewL0TEtCdxUvWtaS9H-49zn9q3Z4TfTc,2709
+kwnn-1.0.1.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+kwnn-1.0.1.dist-info/licenses/LICENSE,sha256=VaBiG4KPHlWt7QG_ISSYjzpG3nb2ccSlwRCSItRihDU,11335
+kwnn-1.0.1.dist-info/RECORD,,
