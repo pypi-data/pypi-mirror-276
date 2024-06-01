@@ -1,0 +1,29 @@
+# .readthedocs.yml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+version: 2
+
+formats:
+  - epub
+  - htmlzip
+  - pdf
+
+# Docker image to use for build process
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+
+# Python environment to build the docs for and install the library in
+python:
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - dev
+
+# Sphinx configuration
+sphinx:
+  builder: html
+  fail_on_warning: true
