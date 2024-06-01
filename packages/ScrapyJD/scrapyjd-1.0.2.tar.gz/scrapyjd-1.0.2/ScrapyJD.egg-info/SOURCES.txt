@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+ScrapyJD.egg-info/PKG-INFO
+ScrapyJD.egg-info/SOURCES.txt
+ScrapyJD.egg-info/dependency_links.txt
+ScrapyJD.egg-info/requires.txt
+ScrapyJD.egg-info/top_level.txt
+ScrapyJdAzw/__init__.py
+ScrapyJdAzw/items.py
+ScrapyJdAzw/pipelines.py
+ScrapyJdAzw/settings.py
+ScrapyJdAzw/spiders/__init__.py
+ScrapyJdAzw/spiders/jdazwspider.py
