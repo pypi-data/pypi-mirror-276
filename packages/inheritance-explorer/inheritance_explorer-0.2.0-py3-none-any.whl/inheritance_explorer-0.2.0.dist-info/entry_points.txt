@@ -1,0 +1,2 @@
+[console_scripts]
+inheritance_explorer = inheritance_explorer.cli:map_class
