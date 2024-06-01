@@ -1,0 +1,2 @@
+[console_scripts]
+faunanet_record = faunanet_record.cli:cli

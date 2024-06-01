@@ -1,0 +1,13 @@
+numpy
+PyYAML
+wave
+pyaudio
+platformdirs
+click
+
+[dev]
+pytest
+pytest-cov
+coverage
+pre-commit
+librosa
