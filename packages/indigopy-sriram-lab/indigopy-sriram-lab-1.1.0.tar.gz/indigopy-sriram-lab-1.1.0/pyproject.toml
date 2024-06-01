@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indigopy-sriram-lab"
+version = "1.1.0"
+authors = [
+  { name="Chandrasekaran Lab", email="csriram@umich.edu" },
+]
+description = "The Python implementation of INDIGO"
+readme = "README.md"
+# license = "GNU GPL"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sriram-lab/INDIGOpy"
+"Lab website" = "https://systemsbiologylab.org"
