@@ -1,0 +1,3 @@
+[console_scripts]
+ailingo=ailingo.cli:app
+
