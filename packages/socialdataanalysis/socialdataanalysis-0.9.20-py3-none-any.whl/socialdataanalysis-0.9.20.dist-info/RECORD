@@ -1,0 +1,26 @@
+socialdataanalysis/__init__.py,sha256=yRVwyRFHQIrj2UDiRThLiE-nNwks8gNANa1ZfWlxxxA,991
+socialdataanalysis/association.py,sha256=ExGv04y1r7V1_feR_JI8icZTB6dDyTKo1WaMZ6RXXiA,63870
+socialdataanalysis/exploratoryfactoranalysis.py,sha256=ujgNkyIICN9ADzPplu7T2BZIZ6vu4-bVxZrYlprcSAk,4458
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex10_Universidades&Tempo_estudo_exame.ipynb,sha256=_8KWNcPoCl3DzsnDyaNELV41KGboPkwrri6zCgYYQOw,64333
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex11_Medicacao&Sexo Continente.ipynb,sha256=-YlWivxHIySO3kGVDW0wGwrUx6q3UaH4Kcbh8rtytjs,31905
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex12_Bronquite&Exposicao Idade.ipynb,sha256=yLpJLTdOi18JMXml7h8Ej0EDBZs7XsLN-z50VTKX_Us,36221
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex13_Autonomia&Satisfacao_por_Religiao.ipynb,sha256=-LSJS_D8xLQCjPHj3VUeLUgFii3nmIEwV5P322SKC-Y,44136
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex14_Hemisferio&Tumor_por_Sitio.ipynb,sha256=entqSA_6QC3GJKACO-oLvhmXjcODmlGQcs_Bb6OwclE,40169
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex15_Cinto&Ferimentos_por_Localizacao_e_Sexo.ipynb,sha256=LzmiPO-VXoBhU24g906Mg5bTLd4cbvKrCCceOjmz1ns,50320
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex16 SCA_Imagem_Pão Zona.ipynb,sha256=WN9femj-tCMfTaMNrsTSe-xuDci8uPEjjAjPnpmjvRA,145751
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex17 SCA_Prémio_Nobel_Países_Anos.ipynb,sha256=z_uA5K38QxYMyo0gIAP9dvQfFZvpnPPvSN1bQf7vHx8,175609
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex1_Aborto.ipynb,sha256=NEbrSUXCp1uCL2gKIE3uzHCeL-U4-vrOJDb1h4SsARQ,57438
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex2_Rua&HIV.ipynb,sha256=mG8apRuGR7siPgW3cFVpczLOPmu5jGKtgu5gBusZI_c,47258
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex3_Bebidas&Feridos.ipynb,sha256=AlbY8mwQOwx4NwPlf23fikoMTub0EVJKoRXpluv7wCo,42702
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex4_Sexo&Comportamento.ipynb,sha256=WeHKMIgOP0-CXD9hPSLu7-oyDRRxlFRaoL5ssyRwJvs,29678
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex5_Sexo&Compra.ipynb,sha256=MB2YqZ479IZp3VtXkQGwHjouuPSIwuvT3PvXUXrEel8,85223
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex6_Qualidade_de_um_Teste.ipynb,sha256=u4B-ZXnISdFCxfLhJmwnY0qAN9NH85fYpPFJL1nm7kw,19603
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex7_Qualidade_entre_dois_Testes.ipynb,sha256=IFef05_OpZduW24yMpBsKIO4ZsAw0H-45KHXCK3MhuU,16298
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex8_Desempenho_modelo_classificacao_pecas.ipynb,sha256=vZn3SscBTTblG-nXN2MDYjsqG9OVHfpjYPUDd27Mvqs,21476
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap2_Ex9_Votos&Atitudes.ipynb,sha256=69-puz0wwkNFc5fgIw8pDRhVcbSoGTBXGeeliQ6mksM,70337
+socialdataanalysis-0.9.20.data/data/share/socialdataanalysis/Cap4_Ex1_Uniformização_de_escalas.ipynb,sha256=nxF-x5RmnIhYK2zFn8KSj0VyT1T-VYpnmrBzwj2zuSo,50434
+socialdataanalysis-0.9.20.dist-info/LICENSE,sha256=l0qcdwjb7qjXYCtnSlYuOm0nroMvatAvJg1nvueCCP8,1068
+socialdataanalysis-0.9.20.dist-info/METADATA,sha256=efYlC86ZHv5-9j3ZEkNVXzJ5_8G_NXNkDpSHWjO5WCY,2596
+socialdataanalysis-0.9.20.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+socialdataanalysis-0.9.20.dist-info/top_level.txt,sha256=Co65wajMms5bNOL20qk_U7JH2fvuAwR0-tBWdjKCjzw,19
+socialdataanalysis-0.9.20.dist-info/RECORD,,
