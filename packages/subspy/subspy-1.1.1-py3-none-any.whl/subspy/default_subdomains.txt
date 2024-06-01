@@ -1,0 +1,8 @@
+about
+help
+service
+contact
+admin
+blog
+shop
+support
