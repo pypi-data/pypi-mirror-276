@@ -1,0 +1,12 @@
+clonellm/__init__.py,sha256=RdPWxn4kV7t0TSukHoVgUbGV5LkozqBc6UV0RIacsbU,209
+clonellm/_base.py,sha256=uc91mWFFcPJFuoJnRZxPYKHYnHYPkiTBljy00Fws7CM,745
+clonellm/_prompt.py,sha256=fXstJWgCiMImEhsP5zOqL3_M2vYp3CYpYfHHXvhDq6I,1525
+clonellm/_typing.py,sha256=GgoB49CuVWdYpEc3yjh3DN_Yz2h0Z8U1Wx4SQUQArFA,1217
+clonellm/core.py,sha256=eW0lYKxMZIn6bATtsHM5DqWrQlxcXGW8GBPkaNanGOk,9553
+clonellm/embed.py,sha256=etC_4IwdFZCdoIK5OUrdfMnlaX-CwhxVk3q9plM0SXM,3220
+clonellm/memory.py,sha256=bm_x4xgoiAKPJuUG9CF31piZ6uS_OJf0COsQNSs8TX4,1205
+clonellm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clonellm-0.0.3.dist-info/LICENSE,sha256=r33S2NKjYysc_QTkegP1JEQ28EHtyjl9HEnc5fmfuRc,1070
+clonellm-0.0.3.dist-info/METADATA,sha256=IH-ISECNwE8JTQYc-f5O21mYXmD1L0TRRG0unm8KInc,10693
+clonellm-0.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clonellm-0.0.3.dist-info/RECORD,,
