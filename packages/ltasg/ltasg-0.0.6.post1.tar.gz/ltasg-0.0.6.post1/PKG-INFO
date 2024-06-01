@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: ltasg
+Version: 0.0.6.post1
+Summary: A LTA Datamall API Wrapper Library for Python
+Project-URL: Homepage, https://github.com/ashe/ltasg
+Project-URL: Issues, https://github.com/ashe/ltasg/issues
+Author-email: Aw Sheng Xiang <awshengxiang@hotmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: aiohttp>=3.9.5
+Description-Content-Type: text/markdown
+
+# ltasg
