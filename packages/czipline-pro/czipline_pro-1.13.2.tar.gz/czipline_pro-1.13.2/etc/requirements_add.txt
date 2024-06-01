@@ -1,0 +1,38 @@
+# A股数据工具包
+-e git+https://github.com/zhangshoug/cswd#egg=cswd
+
+cloudpickle>=0.2.1
+
+# blaze(三部分，其中odo与blaze因networkx使用版本2.1,有小幅度改动)
+
+# 1. datashape
+datashape>=0.5.2
+
+# 2. odo
+-e git+https://github.com/zhangshoug/odo#egg=odo
+
+# 3. blaze
+-e git+https://github.com/liudengfeng/blaze#egg=blaze
+
+# 金融统计包`empyrical`
+-e git+https://github.com/liudengfeng/empyrical#egg=empyrical
+
+# 投资组合风险分析包`pyfolio`
+-e git+https://github.com/liudengfeng/pyfolio#egg=pyfolio
+
+
+# 预测因子分析包`alphalens`
+#-e git+https://github.com/liudengfeng/alphalens#egg=alphalens
+
+
+# 投资组合优化包
+cvxpy>=1.0.3
+
+# 绘图
+plotly>=2.7.0
+
+# 量化分析图`alphalens`
+-e git+https://github.com/liudengfeng/cufflinks#egg=cufflinks
+
+# 插件工具
+ipywidgets>=7.2.1
