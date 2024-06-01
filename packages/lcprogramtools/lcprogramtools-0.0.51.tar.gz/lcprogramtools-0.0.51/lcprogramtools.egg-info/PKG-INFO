@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: lcprogramtools
+Version: 0.0.51
+Summary: A demo Python package which does nothing really right now
+Home-page: UNKNOWN
+Author: Subham Sarangi
+Author-email: ivan.sarangi@email.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
