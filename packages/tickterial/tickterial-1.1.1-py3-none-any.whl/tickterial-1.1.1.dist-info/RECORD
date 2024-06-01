@@ -1,0 +1,10 @@
+tickterial/__init__.py,sha256=JVq-MXhwtrxf6ek9lzo425gDECmxvK1cqtE84VXf5DE,84
+tickterial/main.py,sha256=VMF8z7-kn8Lw-WRqRA42Ucj2Qi_R9dSEj6dOosEvEVk,1170
+tickterial/ticker.py,sha256=nhqpARh9L_DNa2ZCqdlGkyfjHPufFUznzRk6E4qiTy8,4786
+tickterial/tickloader.py,sha256=WIw2htbeBsWCSjp8v5w5lNwm0Z5E_GMMV9c3F5T31oQ,5158
+tickterial-1.1.1.dist-info/LICENSE,sha256=giPjekqDDnkZKKseuS5OFkbnSPQFESwLWTDzRfrx99A,1083
+tickterial-1.1.1.dist-info/METADATA,sha256=UhgQX8SBMfcZu7hRYQhTqCyrWGs60Uf6vzuC2dPsD0c,6582
+tickterial-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tickterial-1.1.1.dist-info/entry_points.txt,sha256=QePlxjyZJ-Hg2R_hstw1P1BWRMLwEtIIwtEMM_QWAQU,52
+tickterial-1.1.1.dist-info/top_level.txt,sha256=pjEi0blaWeFLIvljyyxz1NtM1slMz0uMDCNEcFpsOQU,11
+tickterial-1.1.1.dist-info/RECORD,,
