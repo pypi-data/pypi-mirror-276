@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pop-pricer
+Version: 0.1.0
+Summary: Dynamic Pricing Algorithm
+License: AGPL-3.0-only
+Author: David LoBosco
+Author-email: 5651124+dqlobo@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pytest (>=8.2.1,<9.0.0)
+Description-Content-Type: text/markdown
+
+Popcorn icon courtesy of [Kate Maldjian](https://thenounproject.com/creator/katemaldjian/)
