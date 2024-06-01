@@ -1,0 +1,7 @@
+setup.py
+simple_numeric_methods/__init__.py
+simple_numeric_methods/root_of_function.py
+simple_numeric_methods_Ulixes2202.egg-info/PKG-INFO
+simple_numeric_methods_Ulixes2202.egg-info/SOURCES.txt
+simple_numeric_methods_Ulixes2202.egg-info/dependency_links.txt
+simple_numeric_methods_Ulixes2202.egg-info/top_level.txt
