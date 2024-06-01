@@ -1,0 +1,7 @@
+setuptools
+wheel
+groq
+rich
+keyring
+prompt-toolkit
+yaspin
