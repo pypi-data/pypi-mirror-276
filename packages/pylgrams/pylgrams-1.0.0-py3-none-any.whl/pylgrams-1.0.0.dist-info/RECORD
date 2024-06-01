@@ -1,0 +1,14 @@
+pylgrams/__init__.py,sha256=8s-gV2SrdKjUTWJWXVQRGtq9jza6W6vMDlaTjuN0dLg,366
+pylgrams/grabMSdataCode.py,sha256=3vaWzlvuF5UohVhz-4j27QsaOx6_iCfO4IEMfzhQE6Y,5128
+pylgrams/grabMzmlFunctions.py,sha256=Yn5XZttzaPlwPZZU0eYqDWB6ZOVT3SPYt84JTZdLMUc,12595
+pylgrams/grabMzxmlFunctions.py,sha256=SlsglK4mUpKSQ7lzDK9AHX3vl6lAWUEk6jsCqp_Z4Y0,9516
+pylgrams/example_data/LB12HL_AB.mzML.gz,sha256=XDYcslP9qOCyf6fh6z0MqmIJYMZe1cMuK43DFNz4v2o,222653
+pylgrams/example_data/LB12HL_AB.mzXML.gz,sha256=WYXJupYSTu28ntY7_YDpfzXS-0Wib-hap6_meNOo4Bc,195927
+pylgrams/example_data/LB12HL_CD.mzML.gz,sha256=FQwkJwojNDnS5xEvvJ0GmC1kkzXoT6Z7Kb_kg2vgp04,233315
+pylgrams/example_data/LB12HL_EF.mzML.gz,sha256=Km_Bm5ZuU9ZDAAjhp0vwbfo5MlB07U1c1EI74RJR1GI,235785
+pylgrams/example_data/S30657.mzML.gz,sha256=m0RLSuBcOurG9kvFS0tBq0vzhKIzpwwH7I_n-we9-1Y,406816
+pylgrams/example_data/S30657.mzXML.gz,sha256=n9nLfVlcY77jriPHLayqokwoIq7eUsSMvrdrNZLuL2g,354783
+pylgrams-1.0.0.dist-info/METADATA,sha256=XZ-L7rPU2jPHZYUVM2w6OkVa7a_OHSayiWwjBcbE91k,3004
+pylgrams-1.0.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pylgrams-1.0.0.dist-info/licenses/LICENSE,sha256=74HuRR1Usw56K7_KLLQUziq5fMWLTtr41aKuEIaq_Nw,1092
+pylgrams-1.0.0.dist-info/RECORD,,
