@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Maslib
+Version: 0.2.2
+Summary: This is a library for optimizing code for python
+Author: Alecsandr_C.V.V
+Author-email: dxomko@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: phik
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: catboost
+Requires-Dist: joblib
+Requires-Dist: wordcloud
+Requires-Dist: xgboost
+Requires-Dist: nltk
+Requires-Dist: pyodbc
+Requires-Dist: mysql-connector-python
+Requires-Dist: pymongo
+Requires-Dist: psycopg2-binary
+Requires-Dist: PyYAML
+Requires-Dist: fastavro
+Requires-Dist: pyorc
+Requires-Dist: pdfplumber
+Requires-Dist: pyreadstat
+Requires-Dist: cbor2
+Requires-Dist: sqlalchemy
+Requires-Dist: sas7bdat
+Requires-Dist: spacy
+
+# MasLib
+
+MasLib - this is a Python library for code reduction
+
+My library can safely optimize everyday tasks for python
+
+There is no documentation yet, for understanding the library, see it in the code
+I'm not sure about the performance of the 2.0 version
+(The code has been relatively translated into 4 languages)
+
+I DO NOT GUARANTEE THE FULL OPERATION OF THE LIBRARY
+## Installation
+
+```bash
+pip install MasLib
