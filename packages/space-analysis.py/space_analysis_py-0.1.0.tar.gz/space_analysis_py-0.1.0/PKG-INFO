@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: space-analysis.py
+Version: 0.1.0
+Summary: Python library for data analysis in space physics
+Author-Email: Beforerr <zzj956959688@gmail.com>
+Requires-Python: <3.12,>=3.10
+Requires-Dist: pydantic
+Requires-Dist: polars
+Requires-Dist: plasmapy
+Requires-Dist: astropy
+Requires-Dist: loguru
+Requires-Dist: rich
+Requires-Dist: humanize
+Requires-Dist: pycdfpp
