@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CloudPiece_wework.egg-info/PKG-INFO
+CloudPiece_wework.egg-info/SOURCES.txt
+CloudPiece_wework.egg-info/dependency_links.txt
+CloudPiece_wework.egg-info/requires.txt
+CloudPiece_wework.egg-info/top_level.txt
