@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BeraChainToolsPro.egg-info/PKG-INFO
+BeraChainToolsPro.egg-info/SOURCES.txt
+BeraChainToolsPro.egg-info/dependency_links.txt
+BeraChainToolsPro.egg-info/requires.txt
+BeraChainToolsPro.egg-info/top_level.txt
