@@ -1,0 +1,5 @@
+llama_index/embeddings/cohere/__init__.py,sha256=nbYSF5gOUCiEKQrcHAArIimagT5bkFOxAfu4VMjppvw,94
+llama_index/embeddings/cohere/base.py,sha256=-4gWKHGjN4Dol8pIULbzc2yv3tFhTtMjqx_yIlVF_oM,10312
+llama_index_embeddings_cohere-0.1.9.dist-info/METADATA,sha256=nDwGVbss8e28OMpj2ApZC4UFefUceZbPfkIpc-lTNxY,642
+llama_index_embeddings_cohere-0.1.9.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_embeddings_cohere-0.1.9.dist-info/RECORD,,
