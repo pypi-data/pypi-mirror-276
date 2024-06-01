@@ -1,0 +1,16 @@
+LICENSE
+setup.cfg
+setup.py
+resages/__init__.py
+resages/abs.py
+resages/colyear.py
+resages/rad2.py
+resages/radical.py
+resages.egg-info/PKG-INFO
+resages.egg-info/SOURCES.txt
+resages.egg-info/dependency_links.txt
+resages.egg-info/requires.txt
+resages.egg-info/top_level.txt
+tests/test_colyear.py
+tests/test_rad2.py
+tests/test_radical.py
