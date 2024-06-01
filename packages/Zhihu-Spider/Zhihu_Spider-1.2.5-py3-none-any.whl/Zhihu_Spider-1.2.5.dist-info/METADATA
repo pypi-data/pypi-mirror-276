@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: Zhihu_Spider
+Version: 1.2.5
+Summary: Scrapy the Zhihu content and user social network information. Now it contains 314400 questions and 261376 users..
+Home-page: https://github.com/yanjlee/Zhihu_Spider
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+Zhihu_Spider
+============
+
+Scrapy the Zhihu content and user social network information. Now it contains 314400 questions and 261376 users.
+
+### File Strcture
+
+* ./zhihu/zhihu : The related files about crawling the zhihu.com
+* ./zhihu/zhihu_dat/ : The structured data for baseline experiments on zhihu dataset
+    * ./zhihu/zhihu_dat/item.dat: the corpus(bag of words) of all questions, using Blei’s LDA-C format. The line number represents qid
+    * ./zhihu/zhihu_dat/users.dat: the corpus of all users, the features of users is the bag representations of all the questions they have answered.
+    * ./zhihu/zhihu_dat/vocab.dat: the vocabulary of zhihu dataset
+    * ./zhihu/zhihu_dat/item_adj.dat: the questions and their answerer ids, the first column is the number of answers, the line number is question id
+    * ./zhihu/zhihu_dat/user_adj.dat: the users and their answered question ids, the line number the user id, 
+    * ./zhihu/zhihu_dat/truth.dat: the questions and their answers, each answer has a score with them
+
