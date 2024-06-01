@@ -1,0 +1,64 @@
+.. _bundle-dict-label:
+
+Defining Custom Bundle Dictionaries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pyAFQ has a system for defining custom bundles. Custom bundles are defined
+by passing a custom `bundle_info` dictionary to
+:class:`AFQ.api.bundle_dict.BundleDict`: The keys of `bundle_info` are bundle
+names; the values are another dictionary describing the bundle, with these
+key-value pairs::
+    - 'include' : a list of paths to Nifti files containing inclusion ROI(s).
+      One must either have at least 1 include ROI, or 'start' or 'end' ROIs.
+    - 'exclude' : a list of paths to Nifti files containing exclusion ROI(s),
+      optional.
+    - 'start' : path to a Nifti file containing the start ROI, optional
+    - 'end' : path to a Nifti file containing the end ROI, optional
+    - 'cross_midline' : boolean describing whether the bundle is required to
+      cross the midline (True) or prohibited from crossing (False), optional.
+      If None, the bundle may or may not cross the midline.
+    - 'space' : a string which is either 'template' or 'subject', optional
+    If this field is not given or 'template' is given, the ROI will be
+    transformed from template to subject space before being used.
+    - 'prob_map' : path to a Nifti file which is the probability map,
+      optional.
+    - 'inc_addtol' : List of floats describing how much tolerance to add or
+      subtract in mm from each of the inclusion ROIs. The list must be the
+      same length as 'include'. optional. 
+    - 'exc_addtol' : List of floats describing how much tolerance to add or
+      subtract in mm from each of the exclusion ROIs. The list must be the
+      same length as 'exclude'. optional. 
+    - 'mahal': Dict describing the parameters for cleaning. By default, we
+      use the default behavior of the seg.clean_bundle function.
+
+
+For an example, see "Plotting the Optic Radiations" in :ref:`examples`.
+
+
+When doing bundle recognition, streamlines are filtered out from the whole
+tractography according to the series of steps defined in the bundle
+dictionaries. Of course, no one bundle uses every step, but here is the order
+of the steps:
+  1. Probability Maps
+  2. Crosses midline
+  3. Startpoint
+  4. Endpoint
+  5. Min and Max length
+  6. Primary axis
+  7. Include
+  8. Curvature
+  9. Exclude
+  10. Quickbundles Cleaning
+  11. Mahalanobis Cleaning
+If a streamline passes all steps for a bundle, it is included in that bundle.
+If a streamline passess all steps for multiple bundles, one of three things
+happens. By default, the probability maps are used as the tie breaker. If
+`roi_dist_tie_break` is set in `segmentation_params`, then distance to the ROI
+is used instead. If both of these still results in a tie (or no probability
+map is provided for a given bundle), then the tie goes to whichever bundle is
+first in the bundle dictionary.
+
+
+If, for debugging purposes, you want to save out the streamlines
+remaining after each step, set `save_intermediates` to a path in
+`segmentation_params`. Then the streamlines will be saved out after each step
+to that path. Only do this for one subject at a time.
