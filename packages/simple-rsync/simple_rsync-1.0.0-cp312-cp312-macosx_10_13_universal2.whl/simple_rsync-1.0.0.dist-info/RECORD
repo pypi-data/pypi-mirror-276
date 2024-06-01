@@ -1,0 +1,8 @@
+simple_rsync/__init__.py,sha256=w7sid9izKhPXQNsH862luLOJJBro8K2mSt2NMtuuIA4,121
+simple_rsync/__version__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+simple_rsync/simple_rsync.cpython-312-darwin.so,sha256=NCWv-GHJz29P_8VMNx6Hr8RPizUgoh9nfW2_rqSspbM,1297096
+simple_rsync-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simple_rsync-1.0.0.dist-info/METADATA,sha256=ewDtQqAXyLEFlfdh171f24hMha6nOfLuCjyjl5P7z-4,1425
+simple_rsync-1.0.0.dist-info/WHEEL,sha256=gfjzCerW35qQA_bRYb0hzoggA7T7JnRhspLBlPKw37U,116
+simple_rsync-1.0.0.dist-info/top_level.txt,sha256=nE8fF02c6R8QWQpsYz-hwjBhsNkRKUplVg89RtUdZuM,13
+simple_rsync-1.0.0.dist-info/RECORD,,
