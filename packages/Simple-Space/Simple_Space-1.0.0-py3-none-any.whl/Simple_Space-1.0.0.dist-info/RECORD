@@ -1,0 +1,15 @@
+SimpleS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleS/utils.py,sha256=-NXL9aze3UIqnvDs71zTumVtufSXm34MzhNxL6j4Xs0,1476
+SimpleS/ImageRelated/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleS/ImageRelated/basics.py,sha256=qvtEGRuO7P9yuhVW0Xqtx00QrN77saHVxYbzy9so83A,10405
+SimpleS/ImageRelated/enhancements.py,sha256=s9VxCMBhe7IiB6__7G3glbrhWffT3wac2ScW7dG9SNk,4425
+SimpleS/Points/Circle.py,sha256=JW3JdDnPj7WOkdVxOEDjsCk2KnUZbnNadptiMEHGxHI,10560
+SimpleS/Points/Line.py,sha256=gew0beMtyXJW9ACeet5QCZFPSJxTvc5JpVclJbtoXWs,4137
+SimpleS/Points/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleS/Points/dim2.py,sha256=ypV5qb4IiqhyhLgNRHYN9FirOXsQlIOYFwpgmgPCNN0,4751
+SimpleS/Points/dim3.py,sha256=I6AB_ncYFy4j5zvLpKyH7Tps-B1-9FIafPuBoClvpAs,7887
+Simple_Space-1.0.0.dist-info/LICENSE,sha256=lCmS5gsrw5BVug_IZX5p3T7dJZAmMN0g7gwpJdtZL9c,1062
+Simple_Space-1.0.0.dist-info/METADATA,sha256=Cxi29hl5QJPm_XDqiyI1WaBtqH82_9_H9SApgBqQh5U,11235
+Simple_Space-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Simple_Space-1.0.0.dist-info/top_level.txt,sha256=F3bl6Et-wA12Or_1qrZpuEU_qgB33vjHoN1_4kcpHxA,8
+Simple_Space-1.0.0.dist-info/RECORD,,
