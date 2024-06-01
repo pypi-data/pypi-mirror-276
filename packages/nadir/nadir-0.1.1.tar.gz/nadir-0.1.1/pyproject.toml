@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nadir"
+authors = [
+  { name="Bhavnick Minhas", email="bhavnicksm@gmail.com" },
+]
+maintainers = [
+  { name = "Bhavnick Minhas", email="bhavnicksm@gmail.com"},
+]
+description = "Nadir: Cutting-edge PyTorch optimizers for simplicity & composability! 🔥🚀💻"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+license = { text = "Apache 2.0"}
+dependencies = [
+    "torch>=1.13.1",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = [
+    "torchvision>=0.14.1",
+    "tqdm",
+    "wandb"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/OptimalFoundation/nadir"
+"Bug Tracker" = "https://github.com/OptimalFoundation/nadir/issues"
+
+[tools.setuptools]
+packages = ["nadir"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+version = {  attr = "nadir.__version__" }
