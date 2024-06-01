@@ -1,0 +1,2 @@
+[console_scripts]
+dmp = damply.cli:cli
