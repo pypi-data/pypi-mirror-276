@@ -1,0 +1,143 @@
+[tool.coverage.run]
+branch = true
+source = [ "vmxai_extraction" ]
+
+[tool.coverage.report]
+exclude_lines = [ "if TYPE_CHECKING:" ]
+show_missing = true
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report html:'../../../coverage/packages/python/extraction/html' --cov-report xml:'../../../coverage/packages/python/extraction/coverage.xml' --html='../../../reports/packages/python/extraction/unittests/html/index.html' --junitxml='../../../reports/packages/python/extraction/unittests/junit.xml'"
+
+[tool.poetry]
+name = "vm-x-ai-extraction"
+version = "0.1.0"
+description = "VM-X AI Extraction Helper Library"
+authors = [ "VM-X Engineering <eng@vm-x.ai>" ]
+maintainers = [ "VM-X Engineering <eng@vm-x.ai>" ]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/vm-x-ai/vm-x-ai-labs"
+keywords = [
+  "VM-X",
+  "AI",
+  "AWS",
+  "CDK",
+  "Constructs",
+  "Serverless",
+  "Python",
+  "Extraction"
+]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3"
+]
+
+[tool.poetry.group.dev]
+dependencies = { }
+
+  [[tool.poetry.packages]]
+  include = "vmxai_extraction"
+
+  [tool.poetry.dependencies]
+  python = ">=3.9,<4"
+
+    [tool.poetry.dependencies.annotated-types]
+    version = "0.7.0 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.certifi]
+    version = "2024.2.2 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.charset-normalizer]
+    version = "3.3.2 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.idna]
+    version = "3.7 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.jsonpatch]
+    version = "1.33 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.jsonpointer]
+    version = "2.4 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.langchain-core]
+    version = "0.2.1 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.langsmith]
+    version = "0.1.63 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.orjson]
+    version = "3.10.3 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.packaging]
+    version = "23.2 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.pydantic-core]
+    version = "2.18.3 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.pydantic]
+    version = "2.7.2 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.pyyaml]
+    version = "6.0.1 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.requests]
+    version = "2.32.2 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.tenacity]
+    version = "8.3.0 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.typing-extensions]
+    version = "4.12.0 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+    [tool.poetry.dependencies.urllib3]
+    version = "2.2.1 "
+    markers = 'python_version >= "3.9" and python_version < "4.0"'
+    optional = false
+
+[tool.ruff]
+exclude = [ ".ruff_cache", ".svn", ".tox", ".venv", "dist" ]
+line-length = 120
+indent-width = 4
+
+  [tool.ruff.lint]
+  select = [ "E", "F", "UP", "B", "SIM", "I" ]
+  ignore = [ ]
+  fixable = [ "ALL" ]
+  unfixable = [ ]
+
+[build-system]
+requires = [ "poetry-core" ]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: vm-x-ai-extraction
+Version: 0.1.0
+Summary: VM-X AI Extraction Helper Library
+Home-page: https://github.com/vm-x-ai/vm-x-ai-labs
+License: MIT
+Keywords: VM-X,AI,AWS,CDK,Constructs,Serverless,Python,Extraction
+Author: VM-X Engineering
+Author-email: eng@vm-x.ai
+Maintainer: VM-X Engineering
+Maintainer-email: eng@vm-x.ai
+Requires-Python: >=3.9,<4
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: annotated-types (==0.7.0) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: certifi (==2024.2.2) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: charset-normalizer (==3.3.2) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: idna (==3.7) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: jsonpatch (==1.33) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: jsonpointer (==2.4) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: langchain-core (==0.2.1) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: langsmith (==0.1.63) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: orjson (==3.10.3) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: packaging (==23.2) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pydantic (==2.7.2) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pydantic-core (==2.18.3) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pyyaml (==6.0.1) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: requests (==2.32.2) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: tenacity (==8.3.0) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: typing-extensions (==4.12.0) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: urllib3 (==2.2.1) ; python_version >= "3.9" and python_version < "4.0"
+Project-URL: Repository, https://github.com/vm-x-ai/vm-x-ai-labs
+Description-Content-Type: text/markdown
+
+# VM-X AI Extraction Helper Library
+
+This library is a helper library for abstracting the complexity added by the AWS Step Functions when integrating with the [VM-X SimilarityExtractionWorkflow CDK](https://github.com/vm-x-ai/vm-x-ai-labs/blob/main/packages/aws/cdk/constructs/README.md#similarityextractionworkflow)
+
+## Installation
+
+```bash
+pip install vm-x-ai-extraction
+```
+
+For more information on how to use this library combined with the CDK construct, please refer to the [VM-X SimilarityExtractionWorkflow CDK](https://github.com/vm-x-ai/vm-x-ai-labs/blob/main/packages/aws/cdk/constructs/README.md#similarityextractionworkflow) documentation.
+
