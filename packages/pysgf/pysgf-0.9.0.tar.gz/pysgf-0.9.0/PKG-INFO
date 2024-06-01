@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pysgf
+Version: 0.9.0
+Summary: Simple SGF parser
+Author: Sander Land
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
