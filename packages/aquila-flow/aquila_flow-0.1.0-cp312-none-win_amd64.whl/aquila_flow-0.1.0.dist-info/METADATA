@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: aquila_flow
+Version: 0.1.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Summary: ETL process optimization library
+Author-email: Wilmer Narváez <wilnarvaez@gmail.com>
+Requires-Python: >=3.6
