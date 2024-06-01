@@ -1,0 +1,11 @@
+vre_repository_connector/__init__.py,sha256=yzODCBJ_3V3AxRMb9dAd5eGcVaWEqd9x2j3Bvg0oH1k,183
+vre_repository_connector/api/__init__.py,sha256=vmIuyL0spXA10TPClf5szktGWP0kGyHGNCVL9s6XUeo,203
+vre_repository_connector/api/auto.py,sha256=lWXhWjSMJNT7NA6mGL9Mg_-VVgQryvneStN_Vlt37Yo,5437
+vre_repository_connector/api/base.py,sha256=2lg_zcnaN6SYGg1RlCnHJ0kz9Hxqmo9KqXlkadiRiXo,2154
+vre_repository_connector/api/dbrepo.py,sha256=awDzywIEGEwvMsTir3T_H8rJK0dAWlXRRtIz30Uwwa0,9302
+vre_repository_connector/api/inveniordm.py,sha256=yKd31BBhIOOHnAvpXNk5LxIwf-XPPQhbHmLwdnXBph4,6366
+vre_repository_connector/utils.py,sha256=M5baZ_Td-eVygIxzO2v1iJx96Jcsri0qONtYTDVaSLk,182
+vre_repository_connector-0.1.1.dist-info/LICENSE,sha256=RxskONCTGauhkqZUWGFCe7uN4Ti-rHOHEnVEpb3cEI0,1064
+vre_repository_connector-0.1.1.dist-info/METADATA,sha256=016EsJfAhs6H6xA9YvCAStwhnWooRmw1VOS5CR-xbDM,2180
+vre_repository_connector-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vre_repository_connector-0.1.1.dist-info/RECORD,,
