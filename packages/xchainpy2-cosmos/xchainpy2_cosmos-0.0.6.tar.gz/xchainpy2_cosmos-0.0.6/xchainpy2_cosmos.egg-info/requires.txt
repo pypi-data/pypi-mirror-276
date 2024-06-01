@@ -1,0 +1,10 @@
+bip-utils<3.0.0,>=2.7.0
+pycryptodome<4.0,>=3.17
+cosmpy>=0.9.1
+aiohttp
+xchainpy2_utils
+xchainpy2_crypto
+xchainpy2_client
+
+[test]
+pytest
