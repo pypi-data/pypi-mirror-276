@@ -1,0 +1,27 @@
+---
+version: "3"
+services:
+  apricot:
+    container_name: apricot
+    image: apricot
+    build: .
+    environment:
+      BACKEND: "MicrosoftEntra"
+      CLIENT_ID: "<your OpenID client ID here"
+      CLIENT_SECRET: "<your OpenID client secret here>"
+      DOMAIN: "<your domain here>"
+      ENTRA_TENANT_ID: "<your Entra tenant ID here>"
+      REDIS_HOST: "redis"
+    ports:
+      - "1389:1389"
+      - "1636:1636"
+    restart: always
+
+  redis:
+    container_name: redis
+    image: redis:7.2
+    ports:
+      - "6379:6379"
+    volumes:
+      - <local path>:/data
+    restart: always
