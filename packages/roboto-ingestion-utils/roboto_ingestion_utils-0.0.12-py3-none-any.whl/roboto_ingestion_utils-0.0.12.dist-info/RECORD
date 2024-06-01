@@ -1,0 +1,9 @@
+roboto_ingestion_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roboto_ingestion_utils/ingestion_utils.py,sha256=CZ1VPMn5O_Jtx26CtShjf85AmKXS-NLqH8rb4-sRJMQ,6885
+roboto_ingestion_utils/timed.py,sha256=DbFRGmS5fVFKIsZTp2sF4x2WIW0Ps7fMCl5ctGIzCq4,985
+roboto_ingestion_utils/utils.py,sha256=FfNUgOBPDAj9__x0QNnz0aV9VP3xkQLEoqX5xI15GP8,40
+roboto_ingestion_utils-0.0.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+roboto_ingestion_utils-0.0.12.dist-info/METADATA,sha256=XQoDrASnKiP1_gT5Ax04SRef2OkUGdGuFGmn4Fa3cjw,522
+roboto_ingestion_utils-0.0.12.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+roboto_ingestion_utils-0.0.12.dist-info/top_level.txt,sha256=cC9c6m0wV3yyJ6_35CuXe6r-3XgG_8uzv-cyo1bKS2w,23
+roboto_ingestion_utils-0.0.12.dist-info/RECORD,,
