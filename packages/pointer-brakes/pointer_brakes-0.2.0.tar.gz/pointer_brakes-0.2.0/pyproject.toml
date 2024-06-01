@@ -1,0 +1,92 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pointer-brakes"
+version = "0.2.0"
+description = 'A mouse pointer simulation driven by touch input. The pointer slowly brakes to a stop.'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [{ name = "ChrisArgyle", email = "chrisisdiy@gmail.com" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.urls]
+Documentation = "https://github.com/ChrisArgyle/pointer-brakes#readme"
+Issues = "https://github.com/ChrisArgyle/pointer-brakes/issues"
+Source = "https://github.com/ChrisArgyle/pointer-brakes"
+
+[tool.hatch.env]
+requires = ["hatch-pip-compile"]
+
+[tool.hatch.envs.docs]
+dependencies = ['mkdocs-material', 'mkdocstrings[python]']
+type = "pip-compile"
+
+[tool.hatch.envs.docs.scripts]
+serve = "mkdocs serve"
+deploy = "mkdocs gh-deploy --force"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+  "pytweening",
+  "commitizen",
+  "mutmut",
+]
+type = "pip-compile"
+
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-xml = ["coverage combine", "coverage xml"]
+update-deps = ["python scripts/update-deps.py"]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.types]
+dependencies = ["mypy>=1.0.0"]
+
+[tool.hatch.envs.types.scripts]
+check = """
+mypy --disable-error-code=import-not-found --disable-error-code=import-untyped \
+--check-untyped-defs --install-types --non-interactive \
+{args:src/pointer_brakes tests scripts} \
+"""
+
+[tool.coverage.run]
+source_pkgs = ["pointer_brakes", "tests"]
+branch = true
+parallel = true
+
+[tool.coverage.paths]
+pointer_brakes = ["src/pointer_brakes", "*/pointer-brakes/src/pointer_brakes"]
+tests = ["tests", "*/pointer-brakes/tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
+
+[tool.black]
+line-length = 120
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "pep621"
+update_changelog_on_bump = true
+major_version_zero = true
