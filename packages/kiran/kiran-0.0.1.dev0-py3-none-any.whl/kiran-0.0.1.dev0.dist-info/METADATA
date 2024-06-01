@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kiran
+Version: 0.0.1.dev0
+Summary: Kiran
+Home-page: https://halfstackpgr.github.io/kiran/
+Author: Parth Mishra
+Author-email: halfstackpgr@gmail.com
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: msgspec
+Requires-Dist: colorama
+
+<div>
+  <h1 align="center">Kiran</h1>
+</div>
