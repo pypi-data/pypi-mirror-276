@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: hierarchical_state_machine
+Version: 1.0.16
+Summary: This python library provides an easy-to-learn and easy-to-use API for using Hierarchical State Machines in your project. The state machine is defined using a basic JSON string, and includes convenience timers.
+Author-email: Dan Tebbs <dantebbs@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Dan Tebbs
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/dantebbs/hierarchical_state_machine
+Keywords: hierarchical,state,machine,hsm,State Machine,State-Machine,statemachine,sm
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: File Formats :: JSON
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Assemblers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Software Development :: Disassemblers
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: examples
+Requires-Dist: curses ; extra == 'examples'
+
+<h1 align="center">
+Crystal Clear Design's Hierarchical State Machine for Python
+</h1><br>
+
+# hierarchical_state_machine
+This python library provides an easy-to-learn and easy-to-use API for using Hierarchical State Machines in your project. The state machine is defined using a basic JSON string, and includes convenience timers.
+
+- **Source code:** https://github.com/dantebbs/hierarchical_state_machine
+
+## Simplest Example
+The Blinky Light
+
+## Countdown Example
+Fireworks
+
+## A More Involved Example
+A Hierarchical State Machine Implementing a Simple Crosswalk Controller
+
+1. Get the location of the examples:
+    `python -m pip show hierarchical_state_machine`
+2. Go to the example folder:
+    `cd <site-packages>/hierarchical_state_machine/example/pedestrian_crosswalk/`
+3. Look at the state machine diagram:
+    `hierarchical_example_pedestrian_crosswalk_signaler.pdf`
+4. Execute and follow along:
+    `python crosswalk_light_simulator.py`
+5. Press the `b` button to request a crossing.
+6. Press the `Esc` button to exit the simulation.
+
+## A Tutorial
+Here are details about creating a hierarchical state machine in python.
+
+### Components of a State Machine
+--Events - Are user inputs, timeouts, code-generated, or an output of another state machine.
+--States - A state machine waits in a state until an event or condition causes a transition to another state.
+--Transitions - Are paths gated by events and/or conditions, to go to another state.
+--Actions - Are behaviors (i.e. callbacks) evoked as a side-effect of a transition.
+
+### Creating a State
+Each state contains the following optional elements:
+**entry** A list of callback functions that will be invoked each time the state is entered.
+**exit** A list of callback functions that will be invoked each time the state is exited.
+**tran** A list of transitions which will be followed when conditions are met.
