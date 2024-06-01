@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Python-stock
+Version: 1.2.5
+Summary: ”龙头量化交易策略.py”是基于龙头周期开发的量化交易策略，运行在聚宽平台上面
+Home-page: https://github.com/yanjlee/Python
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: httpx
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# “龙头周期.py”是制作龙头周期图的代码；”个股龙虎榜.py”和”每日龙虎榜.py”是制作每日龙虎榜的代码；”龙头量化交易策略.py”是基于龙头周期开发的量化交易策略，运行在聚宽平台上面
+# 龙头周期日报![九阳真经日报](https://user-images.githubusercontent.com/6970847/184476348-5a01ee4f-81d3-4aed-9088-603d658cbb60.png)
+# 龙虎榜日报![微信截图_20220813193136](https://user-images.githubusercontent.com/6970847/184489889-172df5a1-5b98-45c2-a7fb-78e46bcf8812.png)

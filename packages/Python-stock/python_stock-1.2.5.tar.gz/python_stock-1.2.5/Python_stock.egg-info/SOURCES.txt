@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Python_stock.egg-info/PKG-INFO
+Python_stock.egg-info/SOURCES.txt
+Python_stock.egg-info/dependency_links.txt
+Python_stock.egg-info/requires.txt
+Python_stock.egg-info/top_level.txt
