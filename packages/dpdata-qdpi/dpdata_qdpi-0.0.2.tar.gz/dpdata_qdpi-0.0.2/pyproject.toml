@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel", "setuptools_scm[toml]>=6.0.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpdata_qdpi"
+dynamic = ["version"]
+description = "The dpdata plugin for QDPi."
+license = {file = "LICENSE"}
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "dpdata >=0.2.7",
+  "ase>=3.23.0",
+  "deepmd-kit",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.optional-dependencies]
+cpu = ["deepmd-kit[cpu]>=2.2.0b0"]
+gpu = ["deepmd-kit[gpu]>=2.2.0b0"]
+test = [
+    'pytest',
+    'pytest-cov',
+]
+
+[project.urls]
+Homepage = "https://github.com/njzjz/dpdata_qdpi"
+
+[project.entry-points."dpdata.plugins"]
+dftb3 = "dpdata_qdpi.dftb3:DFTB3Driver"
+qdpi = "dpdata_qdpi.qdpi:QDPiDriver"
+dftbplusapi = "dpdata_qdpi.dftbpapi:DFTBPlusAPIDriver"
+
+[tool.setuptools.package-data]
+dpdata_qdpi = ["3ob/skfiles/*.skf"]
+
+[tool.setuptools_scm]
+
+[tool.ruff]
+select = [
+    "E", # errors
+    "F", # pyflakes
+    "D", # pydocstyle
+    "I", # isort
+    "UP", # pyupgrade
+    "C4", # flake8-comprehensions
+]
+ignore = [
+    "E501", # line too long
+    "E741", # ambiguous variable name
+    "E402", # module level import not at top of file
+    "D413", # missing blank line after last section
+    "D416", # section name should end with a colon
+    "D203", # 1 blank line required before class docstring
+    "D100", # missing docstring in public module
+    "D101", # missing docstring in public class
+    "D102", # missing docstring in public method
+    "D103", # missing docstring in public function
+    "D107", # missing docstring in __init__
+    "D213", # multi-line docstring summary should start at the second line
+    "D205", # 1 blank line required between summary line and description
+]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"

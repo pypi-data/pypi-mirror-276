@@ -1,0 +1,4 @@
+[dpdata.plugins]
+dftb3 = dpdata_qdpi.dftb3:DFTB3Driver
+dftbplusapi = dpdata_qdpi.dftbpapi:DFTBPlusAPIDriver
+qdpi = dpdata_qdpi.qdpi:QDPiDriver
