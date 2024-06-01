@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: lcprogramtools
+Version: 0.0.1
+Summary: A Python package which does exactly what the name says
+Home-page: UNKNOWN
+Author: Subham Sarangi
+Author-email: ivan.sarangi@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
