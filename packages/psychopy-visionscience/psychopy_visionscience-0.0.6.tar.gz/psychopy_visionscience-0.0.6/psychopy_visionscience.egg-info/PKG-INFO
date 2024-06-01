@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: psychopy-visionscience
+Version: 0.0.6
+Summary: Stimuli useful for vision scientists.
+Author-email: Jon Peirce <jon@opensceincetools.org>, Matthew Cutone <mcutone@opensceincetools.org>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: homepage, https://psychopy.github.io/psychopy-visionscience
+Project-URL: changelog, https://github.com/psychopy/psychopy-visionscience/blob/main/CHANGELOG.txt
+Project-URL: documentation, https://psychopy.github.io/psychopy-visionscience
+Project-URL: repository, https://github.com/psychopy/psychopy-visionscience
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: docs
+Requires-Dist: psychopy; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: furo; extra == "docs"
+Provides-Extra: tests
+Requires-Dist: psychopy; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+
+# psychopy-visionscience
+
+Plugin package for PsychoPy which adds stimuli useful for vision science.
+
+## Features
+
+Installing this package alongside PsychoPy will add the following visual stimuli:
+
+* Noise patch (`psychopy.visual.NoiseStim` and Builder component)
+* Second-order gratings with envelope (`psychopy.visual.EnvelopeGrating` and Builder component)
+* Radial stimulus (`psychopy.visual.RadialStim` and Builder component)
+    
+## Installing
+
+Install this package with the following shell command:: 
+
+    pip install psychopy-visionscience
+
+You may also use PsychoPy's builtin package manager to install this package.

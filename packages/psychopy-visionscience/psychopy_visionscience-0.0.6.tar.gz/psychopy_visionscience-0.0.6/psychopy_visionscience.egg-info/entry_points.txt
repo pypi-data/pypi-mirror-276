@@ -1,0 +1,9 @@
+[psychopy.experiment.components]
+EnvGratingComponent = psychopy_visionscience:EnvGratingComponent
+NoiseStimComponent = psychopy_visionscience:NoiseStimComponent
+RadialStimComponent = psychopy_visionscience:RadialStimComponent
+
+[psychopy.visual]
+EnvelopeGrating = psychopy_visionscience.secondorder:EnvelopeGrating
+NoiseStim = psychopy_visionscience.noise:NoiseStim
+RadialStim = psychopy_visionscience.radial:RadialStim
