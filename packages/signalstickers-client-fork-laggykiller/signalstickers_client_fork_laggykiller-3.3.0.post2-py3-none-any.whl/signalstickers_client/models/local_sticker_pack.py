@@ -1,0 +1,64 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from typing import List, Optional
+
+import signalstickers_client.classes.Stickers_pb2 as protobuf_stickers
+from signalstickers_client.models.sticker import Sticker
+
+
+class LocalStickerPack:
+    """
+    Represent a Local Sticker Pack, i.e. a pack that has not been uploaded yet
+    to Signal servers.
+    """
+
+    def __init__(self):
+        self.title: Optional[str] = None
+        self.author: Optional[str] = None
+        self.stickers: List[Sticker] = []
+        self.cover: Optional[Sticker] = None
+
+    @property
+    def nb_stickers(self) -> int:
+        """
+        Return the number of stickers in the pack
+        """
+        return len(self.stickers)
+
+    @property
+    def nb_stickers_with_cover(self) -> int:
+        """
+        Return the number of stickers in the pack, including the cover
+        """
+        return len(self.stickers) + 1 if self.cover else len(self.stickers)
+
+    @property
+    def manifest(self) -> bytes:
+        manifest = protobuf_stickers.Pack()
+        assert self.title
+        manifest.title = self.title
+        assert self.author
+        manifest.author = self.author
+
+        cover = manifest.cover
+
+        if self.cover:
+            cover.id = self.cover.id
+            cover.emoji = ""
+        else:
+            # Take the first sticker as the cover
+            cover.id = 0
+
+        for sticker in self.stickers:
+            sticker_manifest = manifest.stickers.add()
+            sticker_manifest.id = sticker.id
+            sticker_manifest.emoji = sticker.emoji
+
+        return manifest.SerializeToString()
+
+    def _addsticker(self, sticker: Sticker) -> None:
+        """
+        Add the binary content (which is a webp image) to
+        the `StickerPack`' list of stickers
+        """
+        self.stickers.append(sticker)
