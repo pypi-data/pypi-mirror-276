@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: freedom_pay
+Version: 0.0.4
+Summary: wqewqewqewq
+Home-page: https://gitlab.com/erlan.kubanychbekov.000/freedompay_lib
+Author: erllan.000
+Author-email: erlan.kubanychbekov.000@gmail.com
+Project-URL: GitLab, https://gitlab.com/erlan.kubanychbekov.000/freedompay_lib
+Keywords: files speedfiles
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1

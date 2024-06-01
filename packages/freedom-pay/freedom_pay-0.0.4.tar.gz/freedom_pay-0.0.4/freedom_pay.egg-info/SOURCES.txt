@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+freedom_pay/__init__.py
+freedom_pay/service.py
+freedom_pay/utils.py
+freedom_pay.egg-info/PKG-INFO
+freedom_pay.egg-info/SOURCES.txt
+freedom_pay.egg-info/dependency_links.txt
+freedom_pay.egg-info/requires.txt
+freedom_pay.egg-info/top_level.txt
