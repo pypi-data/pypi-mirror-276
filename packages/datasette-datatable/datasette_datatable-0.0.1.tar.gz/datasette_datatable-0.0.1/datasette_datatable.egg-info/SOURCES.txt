@@ -1,0 +1,10 @@
+README.md
+setup.py
+datasette_datatable/__init__.py
+datasette_datatable.egg-info/PKG-INFO
+datasette_datatable.egg-info/SOURCES.txt
+datasette_datatable.egg-info/dependency_links.txt
+datasette_datatable.egg-info/entry_points.txt
+datasette_datatable.egg-info/requires.txt
+datasette_datatable.egg-info/top_level.txt
+tests/test_datatables.py

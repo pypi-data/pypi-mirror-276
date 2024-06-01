@@ -1,0 +1,2 @@
+[datasette]
+datatable = datasette_datatable
