@@ -1,0 +1,2 @@
+[console_scripts]
+pylc = pylc_cli.main:main
