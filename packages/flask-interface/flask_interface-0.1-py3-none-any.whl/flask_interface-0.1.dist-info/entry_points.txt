@@ -1,0 +1,2 @@
+[console_scripts]
+create-flask-app = Flaskapp.cli:create_flask_app
