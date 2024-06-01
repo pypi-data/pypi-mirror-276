@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+ipv4v6/__init__.py
+ipv4v6/_core.py
+ipv4v6.egg-info/PKG-INFO
+ipv4v6.egg-info/SOURCES.txt
+ipv4v6.egg-info/dependency_links.txt
+ipv4v6.egg-info/top_level.txt

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ipv4v6
+Version: 1.0
+Summary: A model for get ipv4&ipv6 address
+Home-page: https://github.com/myhldh/GetIP
+Author: OscarMYH(myhldh)
+Author-email: oscarmyh@163.com
+License: MIT
+Keywords: python,computer vision,OscarMYH,myhldh,lightweight,windows,mac,linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a model to get your ip address.
+Usage: get_ip() is used to get your ipv4 address including host and port.(You can give a specific socket as parameter)
+       get_ipv4() is used to get your ipv4 address including only host.
+       (Tips: If you just want to get ipv4 address, get_ip() is a better choice.)
+       ip_tuple() returns a tuple of the host and port of your ipv4 address.
+       (Tips: ip_tuple() can be given to socket.connect() as parameter.)
+       get_ipv6() is used to get your ipv6 address including only host.
+       get_ipv4_location() is used to get the location of your ipv4 address.
+       get_ipv6_location() is used to get the location of your ipv6 address.
