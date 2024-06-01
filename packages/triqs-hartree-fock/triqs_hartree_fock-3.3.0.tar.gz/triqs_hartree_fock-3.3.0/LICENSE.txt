@@ -1,0 +1,18 @@
+hartree_fock - Hartree-Fock lattice and impurity solvers based on the TRIQS library 
+
+Copyright (C) 2022 by The Simons Foundation
+  authors: Jonathan Karp, Alexander Hampel, Nils Wentzell, Hugo U. R. Strand, 
+           Olivier Parcollet
+
+hartree_fock is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+ 
+hartree_fock is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+hartree_fock (in the file COPYING.txt in this directory). If not, see
+<http://www.gnu.org/licenses/>.

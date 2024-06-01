@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: triqs_hartree_fock
+Version: 3.3.0
+Summary: Hartree-Fock lattice and impurity solvers based on the TRIQS library (triqs.github.io)
+Author-email: TRIQS <triqs@flatironinstitute.org>
+Project-URL: Homepage, https://triqs.github.io/hartree_fock
+Project-URL: Bug Tracker, https://github.com/triqs/hartree_fock/issues
+Keywords: triqs,hartree_fock,dmft,impurity solver
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: COPYING.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# TRIQS hartree_fock
+An application based on TRIQS for using the Hartree-Fock method to solve lattice and impurity problems.
+
+Requires a working [TRIQS](https://triqs.github.io) installation with a matching major version number.
+
+The documentation can be found at [triqs.github.io/hartree_fock](https://triqs.github.io/hartree_fock/).
