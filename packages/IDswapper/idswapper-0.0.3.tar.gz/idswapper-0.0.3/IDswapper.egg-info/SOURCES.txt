@@ -1,0 +1,8 @@
+README.md
+setup.py
+IDswapper.egg-info/PKG-INFO
+IDswapper.egg-info/SOURCES.txt
+IDswapper.egg-info/dependency_links.txt
+IDswapper.egg-info/entry_points.txt
+IDswapper.egg-info/requires.txt
+IDswapper.egg-info/top_level.txt
