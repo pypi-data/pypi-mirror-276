@@ -1,0 +1,11 @@
+json_torch_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_torch_models/model.py,sha256=-nrCxEzfWGyyIO5TmMPNEKIrNOmNg5Ud-UXckSuFwr8,2994
+json_torch_models/model_factory.py,sha256=xrKiXiBndS120DHTrBART-oQEE9QohQ94-vnzdiGj6o,7014
+json_torch_models/utils.py,sha256=jZVSf8HwgM_rp1MMFGiOSWu6Oh6St7ko1A2tFiOBSCY,2873
+json_torch_models/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_torch_models/modules/default_modules.py,sha256=79A33cUqheX_0rcp2r7z4o-kB4D2OvqA5YMTCY1pvPo,865
+json_torch_models-0.1.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+json_torch_models-0.1.1.dist-info/METADATA,sha256=dknLYcl59X8lVPMqNdvLU_45EmpWX61bneHYy-D2bPc,371
+json_torch_models-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+json_torch_models-0.1.1.dist-info/top_level.txt,sha256=Aq1QYvl1p0gPVWrSo8SmzrN2kUONH6Ez6z0Bs8ki26w,18
+json_torch_models-0.1.1.dist-info/RECORD,,
