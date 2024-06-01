@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+oh_my_zsh.egg-info/PKG-INFO
+oh_my_zsh.egg-info/SOURCES.txt
+oh_my_zsh.egg-info/dependency_links.txt
+oh_my_zsh.egg-info/requires.txt
+oh_my_zsh.egg-info/top_level.txt
