@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: socialdataanalysis
+Version: 0.9.1
+Summary: Funções personalizadas para análise de dados nas ciências sociais, complementando o uso do SPSS.
+Home-page: https://github.com/rcmergulhao/socialdataanalysis
+Author: Ricardo Mergulhao
+Author-email: ricardomergulhao@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: sympy
+Requires-Dist: prince
+Requires-Dist: altair
+
+# socialdataanalysis
+
+**Funções personalizadas para análise de dados nas ciências sociais, complementando o uso do SPSS.**
+
+Este pacote oferece uma coleção de funções úteis para análise de dados, especialmente projetadas para complementar as capacidades do SPSS em pesquisas nas ciências sociais. As funções incluídas cobrem diversos aspectos da análise de associação, conforme descrito no livro [Análise de Dados Para Ciências Sociais: A Complementaridade do SPSS](https://silabo.pt/catalogo/informatica/aplicativos-estatisticos/livro/analise-de-dados-para-ciencias-sociais/).
+
+## Features
+
+- Association Analysis
+- Exploratory Factor Analysis
+
+## Installation
+
+Você pode instalar o pacote diretamente do PyPI usando pip:
+
+```bash
+pip install socialdataanalysis
