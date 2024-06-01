@@ -1,0 +1,10 @@
+mnists/__init__.py,sha256=RdVlWokwATr64xSxsZr6Zz7BCQddu7REKr-NvE0ZDlQ,1111
+mnists/_emnist.py,sha256=O8bbiyk3_PWRgHoVdrKJkWUUnQqHuig-JaH4i1a6a4w,8671
+mnists/_mnist.py,sha256=HYH5Oag7aiUJd5yasFEGwqv35je0RgdtlQSz9L0QcvQ,5911
+mnists/dataset.py,sha256=4_wSfSoWPqICwQkCKcooV-bdlsX1BT3G38b5e1Uw5N0,8422
+mnists/utils.py,sha256=0ESCarp4ku7iE_BbsKdMH48cDudvkcNX7LSCSA-Pj5I,5860
+mnists-0.3.1.dist-info/LICENSE,sha256=sypxG4NA4LfpGOAsffd87zv34cRAABJQlX-Qkimkgag,1070
+mnists-0.3.1.dist-info/METADATA,sha256=EqjByZRm-WsyiYR54w98DFV4huDZP_ca362ePw-lAC0,3200
+mnists-0.3.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mnists-0.3.1.dist-info/top_level.txt,sha256=o4qM1T1QkMlxNPC1nsZ3ZwrSPuIVHIafwZeGibI0YtA,7
+mnists-0.3.1.dist-info/RECORD,,
