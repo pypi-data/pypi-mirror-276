@@ -1,0 +1,13 @@
+web_prink/__init__.py,sha256=eUBYGz7LQ0GDQ5aygd90ZnQzy3kLSRRZaYO4ovKaIb0,420
+web_prink/__main__.py,sha256=u5DShx_wNCpZJpw1DVmbgvW9VS133iy1b11XMKapmOQ,180
+web_prink/__version__.py,sha256=Y2DwACb0yINb4yi3yta0pmg5l4510pRjL5L_zgL1Slw,47
+web_prink/main.py,sha256=bA5yYNCkdCgAeFevSDBcR6E8FKW3EBN9RwmTJksugU0,1915
+web_prink/pdf_logic.py,sha256=z4EUWLmAf3mJSiTOLTLz1CQhSKWgapgOWIIpK_OjJgs,1137
+web_prink/scan_logic.py,sha256=5LiFo0dQT9X7yLJPbSxCfEwMFAKDOGR_IHc8Y7CPtPw,774
+web_prink/sup.py,sha256=Q1SXXYYr5BDXs1EyF-EVyUuhBnDwB4amn9piuT7v2rc,2446
+web_prink-0.3.1.dist-info/LICENSE,sha256=S5TmQAvUHUaCUMAxEoru0ta45AUcz7qBfzUxiCZiX5g,1066
+web_prink-0.3.1.dist-info/METADATA,sha256=8spkQTlqdJbZAElqCuWMMVyC5yRVIFVd5lPTZMreGf8,119
+web_prink-0.3.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+web_prink-0.3.1.dist-info/entry_points.txt,sha256=_FbPqZbg3KONBRgi8ud2PsqSgz6VZ2yAVf6ESjZUls8,50
+web_prink-0.3.1.dist-info/top_level.txt,sha256=Fk3IYU7FY3-D3DhjgHbmY0i6dUjny5rCtKucUoF8YlI,10
+web_prink-0.3.1.dist-info/RECORD,,
