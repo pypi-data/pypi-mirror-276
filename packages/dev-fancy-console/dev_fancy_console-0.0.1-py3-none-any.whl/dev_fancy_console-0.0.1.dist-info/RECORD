@@ -1,0 +1,17 @@
+dev_fancy_console/__init__.py,sha256=KEuXr2F1XDMYxolFWWuUmvx18uPRTg-KVUTYSc0w3Xk,63
+dev_fancy_console/fancy_message.py,sha256=_agZGiuqy057SgS-e41Yq836lpgr2DY3GTtiIONA-GI,1529
+dev_fancy_console/examples/__init__.py,sha256=0P-0IKRmSl1hsjN8jJ85eR8KWHwdnUtWwUfGk87fbuY,112
+dev_fancy_console/examples/ex_1.py,sha256=K_XNDqyVN-k4DxRcMQ-PvrjLW17jC0V6jDkwNlgS4Kg,3204
+dev_fancy_console/examples/ex_2.py,sha256=ffiTJcmP1z7MJmUTOhPyfi07HI1VW7yECtqVsNb0ubc,771
+dev_fancy_console/examples/ex_3.py,sha256=90KOWmVFViUiWpDG768lD9jiZlnh0cVrFPrp-D8VQy4,509
+dev_fancy_console/examples/ex_4.py,sha256=cl71MzAQOB2W6cMmr-j1fzGQEgNlBatiyh0Rc2wY9jU,762
+dev_fancy_console/presets/__init__.py,sha256=Q6ql0KH3fZeluqy3QP1uEGhzT9GgVfdlV_GBD-if1xw,182
+dev_fancy_console/presets/fancy_background_colors.py,sha256=LkEejYvKT59nrfDjrXR1BYS5W8VxtJzeXnyCDh4yR5M,1020
+dev_fancy_console/presets/fancy_colors.py,sha256=RWa47WbarCh6xKQl3_LrN5W6y6Qyf69anYJJUyo7V84,883
+dev_fancy_console/presets/fancy_styles.py,sha256=axnlTnW4Nt1Mih1NS9WtgjUHPHLMlX2simb7mRNj_nU,247
+dev_fancy_console/presets/fancy_utilities.py,sha256=Y2-pQ2OpuAG2wIvgQpcTtDNw4qQnYzxJ2iCBWyMVDuM,129
+dev_fancy_console-0.0.1.dist-info/METADATA,sha256=FfbUNMZLp2pzmhJ7nNnma9ZnHjRHR9RWQnP4150FjM4,1122
+dev_fancy_console-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dev_fancy_console-0.0.1.dist-info/entry_points.txt,sha256=rN8ev9a35Hj6QtjGMHpP0GmEaBAx4aZPmyI-t-5V2js,238
+dev_fancy_console-0.0.1.dist-info/top_level.txt,sha256=U5lplhXE3GSdz-inI-iuqmAERoxCPpajU2tlefh9UQk,18
+dev_fancy_console-0.0.1.dist-info/RECORD,,
