@@ -1,0 +1,4 @@
+mongoengine>=0.20.0
+dnspython<2.2.0,>=2.0.0
+pymongo<4.0.0,>=3.11.0
+pymongocrypt<2.0.0,>=1.9.2
