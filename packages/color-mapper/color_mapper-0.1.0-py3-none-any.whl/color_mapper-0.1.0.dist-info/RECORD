@@ -1,0 +1,11 @@
+color_mapper/__init__.py,sha256=jFznX-dFjDvXcZJ165Ru8xtGoCdR-k5yqYEMet3Y--Q,132
+color_mapper/interpolator.py,sha256=oCSMFKrcFlS6JY5N9_O9XDCnkj4Rxnbb5PPXxdhN0cY,499
+color_mapper/normalizer.py,sha256=rpOAhLKxFG8lWN5fimFbuXrM5G5PrV4LV_CFC8mp9Qo,162
+color_mapper/utils.py,sha256=W6MIkKQoobUhVRt_JUkduu2YkWTTucVK301wkOHFLXI,736
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_color_mapper.py,sha256=eFxLJEUCuL7bhmeENjPorqgXMrogUybDU4HKKwR1ONI,580
+color_mapper-0.1.0.dist-info/LICENSE,sha256=1OZ-UyUxFllCtutV4qcsM2-Qul5SYeHf2jocV2ROveQ,146
+color_mapper-0.1.0.dist-info/METADATA,sha256=DJsWSacu7c6I_a1NIQu7G1uGGqERHG8MpNDbIQxqUlQ,1017
+color_mapper-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+color_mapper-0.1.0.dist-info/top_level.txt,sha256=8_jLpNYOOhGIZTI7csTG5YCV98V10CgK1e6ElWC6ZeE,19
+color_mapper-0.1.0.dist-info/RECORD,,
