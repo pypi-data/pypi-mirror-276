@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ofoSpider/__init__.py
+ofoSpider/spider.py
+ofoSpider.egg-info/PKG-INFO
+ofoSpider.egg-info/SOURCES.txt
+ofoSpider.egg-info/dependency_links.txt
+ofoSpider.egg-info/requires.txt
+ofoSpider.egg-info/top_level.txt
