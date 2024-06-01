@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: sphinx-quant
+Version: 1.2.5
+Summary: This project is sphinx-quant web technologies.
+Home-page: https://github.com/yanjlee/sphinx-quant
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# sphinx-quant
+
+## 开发进度
+
+- [x] Circle Ci 自动化
+- [x] 官方网站
+- [x] 策略回测模块
+- [ ] 交易管理模块
+- [ ] 账户管理模块
+- [ ] 网关管理模块
+- [ ] 风险管理模块
+- [ ] 分布式 Worker
+- [ ] 数据统计模块
+- [ ] 官方教程
+
+## Document
+
+请前往: [https://www.sphinxquant.com](https://www.sphinxquant.com)
+
+## Screen Shot
+
+<img src="https://sphinx-1253762454.file.myqcloud.com/screenshot/s1.png?v=1.0.1" alt="drawing" width="100%"/>
+
+<img src="https://sphinx-1253762454.file.myqcloud.com/screenshot/s2.png?v=1.0.1" alt="drawing" width="100%"/>
+
+<img src="https://sphinx-1253762454.file.myqcloud.com/screenshot/s3.png?v=1.0.1" alt="drawing" width="100%"/>
+
+<img src="https://sphinx-1253762454.file.myqcloud.com/screenshot/s4.png?v=1.0.1" alt="drawing" width="100%"/>
+
+<img src="https://sphinx-1253762454.file.myqcloud.com/screenshot/s5.png?v=1.0.1" alt="drawing" width="100%"/>
+
+<img src="https://sphinx-1253762454.file.myqcloud.com/screenshot/s6.png?v=1.0.1" alt="drawing" width="100%"/>
+
+<img src="https://sphinx-1253762454.file.myqcloud.com/screenshot/s7.png?v=1.0.1" alt="drawing" width="100%"/>
+
+## 感谢支持
+
+<center><img src="https://sphinx-1253762454.file.myqcloud.com/qrcode.jpg?v=1.0.1" alt="drawing" width="300"/></center>
+
+## License
+
+Icon made by [geotatah](https://www.flaticon.com/authors/geotatah) from www.flaticon.com
