@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-crunchbase-client
+Version: 1.0.0
+Summary: Crunchbase Enterprise API
+Home-page: 
+Author-email: 
+Keywords: Swagger,Crunchbase Enterprise API
+License-File: LICENSE
+Requires-Dist: urllib3 >=1.15
+Requires-Dist: six >=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    Crunchbase Enterprise API, 2021-07-16  # noqa: E501
+    
