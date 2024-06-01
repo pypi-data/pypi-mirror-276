@@ -1,0 +1,5 @@
+[console_scripts]
+rlc-action = impl.action:main
+rlc-learn = impl.learn:main
+rlc-play = impl.play:main
+rlc-test = impl.test:main
