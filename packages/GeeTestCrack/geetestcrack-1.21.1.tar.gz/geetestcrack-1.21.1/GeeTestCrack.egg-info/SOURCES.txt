@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+GeeTestCrack.egg-info/PKG-INFO
+GeeTestCrack.egg-info/SOURCES.txt
+GeeTestCrack.egg-info/dependency_links.txt
+GeeTestCrack.egg-info/requires.txt
+GeeTestCrack.egg-info/top_level.txt
