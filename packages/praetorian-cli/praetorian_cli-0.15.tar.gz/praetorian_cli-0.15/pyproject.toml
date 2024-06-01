@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=54",
+    "wheel",
+    "getch"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+markers = ["coherence: mark a test as a coherence test."]
