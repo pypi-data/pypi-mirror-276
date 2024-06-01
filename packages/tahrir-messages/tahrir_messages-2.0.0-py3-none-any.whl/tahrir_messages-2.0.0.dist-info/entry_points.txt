@@ -1,0 +1,5 @@
+[fedora.messages]
+badges.badge.award.v1=tahrir_messages:BadgeAwardV1
+badges.person.login.first.v1=tahrir_messages:PersonLoginFirstV1
+badges.person.rank.advance.v1=tahrir_messages:PersonRankAdvanceV1
+
