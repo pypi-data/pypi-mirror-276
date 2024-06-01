@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: Ethereum-Balance
+Version: 2.3.5
+Summary: This script use etherscan.io API to fetch Ethereum addresses balance
+Home-page: https://github.com/yanjlee/Ethereum-Balance
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# Ethereum-Balance
+This script use etherscan.io API to fetch Ethereum addresses balance
+# Usage
+```bash
+python3 ethBalance.py -F input_addresses_file_path -O output_file
+```
+**OR**:
+```bash
+python3 ethBalance.py --file input_addresses_file_path --out output_file
+```
+# Notice
+You can put your own etherscan.io API_Key in :
+```python
+self.API_TOKEN = "_Your_API_Token"
+```
+For more info about etherscan API_Key please visit this link: [etherscan.io](https://etherscan.io/myapikey)
