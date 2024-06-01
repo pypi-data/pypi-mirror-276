@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "MainServiceManager"
+version = "0.0.1"
+description = "Пользовательская программа для управления сервисами, аналогично systemd"
+authors = ["MainPlay TG <xbox.roman6666666666@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/MainPlay-TG/MainServiceManager.py"
+packages = [
+{ include = "MainServiceManager", from = "src" },
+]
+
+[tool.poetry.scripts]
+MSVC-server = "MainServiceManager.__main__:server_start"
+
+[tool.poetry.dependencies]
+Flask = "^3.0.3"
+MainShortcuts = "^1.6.95"
+python = "^3.8"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
