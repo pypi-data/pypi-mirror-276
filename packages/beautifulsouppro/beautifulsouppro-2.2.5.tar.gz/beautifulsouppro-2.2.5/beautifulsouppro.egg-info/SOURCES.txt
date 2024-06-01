@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+beautifulsouppro.egg-info/PKG-INFO
+beautifulsouppro.egg-info/SOURCES.txt
+beautifulsouppro.egg-info/dependency_links.txt
+beautifulsouppro.egg-info/requires.txt
+beautifulsouppro.egg-info/top_level.txt
