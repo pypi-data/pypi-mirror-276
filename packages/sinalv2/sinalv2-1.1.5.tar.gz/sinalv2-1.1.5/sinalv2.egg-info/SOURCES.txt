@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+sinalv2.egg-info/PKG-INFO
+sinalv2.egg-info/SOURCES.txt
+sinalv2.egg-info/dependency_links.txt
+sinalv2.egg-info/requires.txt
+sinalv2.egg-info/top_level.txt
