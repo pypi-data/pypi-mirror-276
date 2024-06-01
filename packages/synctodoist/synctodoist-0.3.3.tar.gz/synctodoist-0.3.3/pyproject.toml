@@ -1,0 +1,94 @@
+[tool.poetry]
+name = "synctodoist"
+version = "0.3.3"
+description = "A Python wrapper for the Todoist Sync API v9"
+license = "MIT"
+authors = ["Gabor Schulz"]
+readme = "README.md"
+homepage = "https://github.com/gaborschulz/synctodoist"
+repository = "https://github.com/gaborschulz/synctodoist"
+documentation = "https://github.com/gaborschulz/synctodoist"
+keywords = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]  # https://pypi.org/classifiers/
+packages = [{ include = "synctodoist" }]
+
+[tool.poetry.scripts]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+httpx = "^0.23.1"
+python-dotenv = "^0.21.0"
+pydantic = "^2.5.3"
+pydantic-settings = "^2.1.0"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+coverage = "^6.5.0"
+pylint = "^2.15.6"
+mypy = "^0.991"
+pytest-pylint = "^0.19.0"
+pytest-mypy = "^0.10.1"
+python-dotenv = "^0.21.0"
+coverage-badge = "^1.1.0"
+bump-pydantic = "^0.8.0"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-material = "^8.5.10"
+mkdocstrings = { extras = ["python"], version = "^0.19.1" }
+
+[tool.isort]
+profile = "black"
+
+
+[tool.bandit]
+exclude_dirs = ["data", "docs", "tests", "migrations"]
+
+[tool.pytest.ini_options]
+python_files = "tests.py test_*.py"
+addopts = "--pylint --mypy"
+filterwarnings = "ignore::DeprecationWarning"
+
+[tool.mypy]
+exclude = [
+    'data',
+    'docs',
+    'migrations',
+    'tests',
+]
+ignore_missing_imports = "True"
+warn_return_any = true
+warn_no_return = true
+
+
+[tool.pylint.'MASTER']
+ignore = "data,docs,migrations,tests"
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 160
+extension-pkg-whitelist = "pydantic"
+disable = """
+    missing-module-docstring,
+    duplicate-code,
+    too-many-ancestors,
+    too-few-public-methods,
+    too-many-public-methods
+"""
