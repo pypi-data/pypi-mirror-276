@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: sshcracker
+Version: 1.2.1
+Summary: ssh弱密码破解。支持自定义目标ip和弱口令。每个ip都使用一个单独的线程破解。
+Home-page: https://github.com/yanjlee/sshcracker
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: httpx
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# sshcracker
+ssh弱密码破解。支持自定义目标ip和弱口令。每个ip都使用一个单独的线程破解。
+
+## 安装依赖
+
+执行 `pip install paramiko`
+
+## 操作步骤：
+
+1） 在 `IpText.txt` 中配置目标ip
+
+2） 在 `Accounts.txt` 中配置要检测的用户名和密码。（忽略这步，则使用默认的弱口令）
+
+3） 执行 `python run.py`
+
+如果成功，则会打印 `<ip> user is: <username>, password is: <password>`

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sshcracker.egg-info/PKG-INFO
+sshcracker.egg-info/SOURCES.txt
+sshcracker.egg-info/dependency_links.txt
+sshcracker.egg-info/requires.txt
+sshcracker.egg-info/top_level.txt
