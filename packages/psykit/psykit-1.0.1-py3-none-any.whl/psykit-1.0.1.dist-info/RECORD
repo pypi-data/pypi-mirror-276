@@ -1,0 +1,15 @@
+psykit/__init__.py,sha256=w9O54apm-Fdti8P43jI9YeRPv9tL8EtiQ-OQ1mNwHUM,45
+psykit/gltools.py,sha256=QfEluPTG-5WKGfFl69F8l86ryNT-rB8diIA8w9tM6T8,20868
+psykit/stereomode.py,sha256=ab1QuPDxA9UKDQ4Quwvo3IgkPLlriQXtkzGlG6pe9Fw,33673
+psykit/demos/__init__.py,sha256=w9O54apm-Fdti8P43jI9YeRPv9tL8EtiQ-OQ1mNwHUM,45
+psykit/demos/adjust_fixation.py,sha256=g9EhPY2ulN4Uj6miGvk5xLtmTYpBzhnvWEk2oZ5JqUI,5949
+psykit/demos/minimum_example.py,sha256=R4x8zz8mNbFzXa4LSvGpaXJu_fMx-Q6d5YFa7qJ9Ez4,738
+psykit/demos/propixx_polarizer.py,sha256=kPASWADBU4bfHszXPOEZ7-0YGhFH7MvEtYIgrJAF-rE,6837
+psykit/demos/propixx_polarizer_simple.py,sha256=AlHpZdQNdmenE9bCz52roC7zhmEhlDQZ41_YdhTZxXs,3941
+psykit/demos/stereo_modes.py,sha256=bXNx_txscx97wsHaPCP8YBjsmwKqm874ucSQd5JpGdc,2552
+psykit/demos/visual_stims.py,sha256=u9zQiZ8OtXMGHu3X1LEOZui0pscBY2lk3leK3Yn_T08,4202
+psykit-1.0.1.dist-info/LICENSE.txt,sha256=lCTPKIa-owNkB5yeqINjGSX6cJ4pJMxACEZZmERejOo,1048
+psykit-1.0.1.dist-info/METADATA,sha256=gq8ahrACS8NcSQISwCBYwlWImIxTb6NYmSRgKO5QQcI,3218
+psykit-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+psykit-1.0.1.dist-info/top_level.txt,sha256=LUZtHrNe8Cg1fChePmx54bN8DB6YHXD2yyEhT-cyNxg,7
+psykit-1.0.1.dist-info/RECORD,,
