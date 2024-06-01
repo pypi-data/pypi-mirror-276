@@ -1,0 +1,11 @@
+PyMachineLearning/__init__.py,sha256=WFzShNYyZ-muQiuANaWyK36GbE552EcAzlJEmqbMgf8,26
+PyMachineLearning/evaluation.py,sha256=qbyGg91y_551avtNJgS57wm55B0wSbr9LzNtVJ8c1ds,15774
+PyMachineLearning/metrics.py,sha256=VRu4WIeR2GE39-W_NfnXRPatk76M-SaVlAzbhcmjWWo,634
+PyMachineLearning/plots.py,sha256=H4JmrwA1euiC6KyopVfCnnokVLk-WA-I-6XvkR2aMdM,5672
+PyMachineLearning/preprocessing.py,sha256=kw6RPrts8ssYWwM7imfMlz6TI1nUtiGPkS_-f7jX3oQ,12712
+PyMachineLearning/test.py,sha256=L-C5wGjEX_gy71DiJzF-od_OxtI2ShygS8QEBCLXJQU,39
+PyMachineLearning-0.0.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+PyMachineLearning-0.0.3.dist-info/METADATA,sha256=4zQXnVOQrbxqLhrSF_yVx72UK3fAL1qpSoPr9JJaKTg,582
+PyMachineLearning-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+PyMachineLearning-0.0.3.dist-info/top_level.txt,sha256=ChabxlAu9QqKpUa5bvKjrZ7_36yw_VLnCVdmuZmeubw,18
+PyMachineLearning-0.0.3.dist-info/RECORD,,
