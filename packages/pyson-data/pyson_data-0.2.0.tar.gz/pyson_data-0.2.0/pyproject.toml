@@ -1,0 +1,24 @@
+[project]
+name = "pyson_data"
+version = "0.2.0"
+authors = [
+  { name="josh-co", email="omegaraspberrypi@gmail.com" },
+]
+description = "Package for .pyson data format support"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/OmegaGodzilla66/PYSON/"
+Issues = "https://github.com/OmegaGodzilla66/PYSON/issues/"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyson_data"]
