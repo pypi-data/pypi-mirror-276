@@ -1,0 +1,10 @@
+README.md
+setup.py
+nugen/__init__.py
+nugen/cli.py
+nugen.egg-info/PKG-INFO
+nugen.egg-info/SOURCES.txt
+nugen.egg-info/dependency_links.txt
+nugen.egg-info/entry_points.txt
+nugen.egg-info/requires.txt
+nugen.egg-info/top_level.txt
