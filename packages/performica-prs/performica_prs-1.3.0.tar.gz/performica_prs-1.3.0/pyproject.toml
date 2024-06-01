@@ -1,0 +1,8 @@
+[build-system]
+requires = ["maturin==1.5.1"]
+build-backend = "maturin"
+
+[project]
+name = "performica-prs"
+requires-python = ">=3.10"
+version = "1.3.0"
