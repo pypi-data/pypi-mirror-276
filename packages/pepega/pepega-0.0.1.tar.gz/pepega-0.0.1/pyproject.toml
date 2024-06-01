@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pepega"
+version = "0.0.1"
+description = "A modular MLP package"
+authors = [{ name = "Vsevolod Prudius", email = "sevapru@gmail.com" }]
+license = { file="LICENSE" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "fastapi",
+  "requests",
+]
+
+[project.urls]
+homepage = "https://sevap.ru/"
+repository = "https://gitlab.com/sobaka-dev/pepega"
+
+[project.optional-dependencies]
+core = [
+    "pandas>=2.0.0"
+]
+utils = [
+    "numpy>=1.24"
+]
+full = [
+     "pepega[core]",
+     "pepega[utils]"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pepega*", "pepega.core*", "pepega.utils*"]
