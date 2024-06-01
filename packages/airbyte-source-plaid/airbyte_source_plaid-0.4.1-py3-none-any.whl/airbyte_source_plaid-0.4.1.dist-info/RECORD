@@ -1,0 +1,8 @@
+source_plaid/__init__.py,sha256=XCXvcifs2heZQThmsepNOzYIJfsyoOXolJ78W8AlsmY,122
+source_plaid/manifest.yaml,sha256=qxDJkPrgufbroe_c7qImCSWiiG-oDccPTp29bYBxL1Q,9595
+source_plaid/run.py,sha256=5dzk0MRX4ntaFKR2-NAR2VAjUDFr-ibyePcWm44WyO4,227
+source_plaid/source.py,sha256=evXKSyFpgl34uANRmofeCmBAWvc8VWjwY3FcmcmTF-M,474
+airbyte_source_plaid-0.4.1.dist-info/METADATA,sha256=xHZfpOSd57sk2D7nUsDBTNqoi0Z1s6dOFqKLyaXQ8zY,5177
+airbyte_source_plaid-0.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_plaid-0.4.1.dist-info/entry_points.txt,sha256=3evy18OKd4vJ-wQPQxxP3-CW2pXvWLSkshe2rVWyi3o,53
+airbyte_source_plaid-0.4.1.dist-info/RECORD,,
