@@ -1,0 +1,26 @@
+version: '3.10'
+
+services:
+  backend:
+    build: ./Backend
+    ports:
+      - "8880:80"
+    volumes:
+      - ./Backend/app:/app/app
+
+  ml_service:
+    build: ./ml_service
+    ports:
+      - "8881:80"
+    volumes:
+      - ./ml_service/app:/app/app
+#    deploy:
+#      resources:
+#        reservations:
+#          devices:
+#            - driver: nvidia
+#              count: 1
+#              capabilities: [gpu]
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+#      - TORCH_CUDA_ALLOC_CONF=max_split_size_mb:128  # Ограничение размера выделяемых блоков памяти
