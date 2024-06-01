@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+SafeCrypt/__init__.py
+SafeCrypt/encryption.py
+SafeCrypt/main.py
+safecrypt.egg-info/PKG-INFO
+safecrypt.egg-info/SOURCES.txt
+safecrypt.egg-info/dependency_links.txt
+safecrypt.egg-info/entry_points.txt
+safecrypt.egg-info/requires.txt
+safecrypt.egg-info/top_level.txt
+tests/__init__.py
+tests/test_encryption.py
