@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+xchainpy2_bsc/__init__.py
+xchainpy2_bsc/bsc_client.py
+xchainpy2_bsc/const.py
+xchainpy2_bsc.egg-info/PKG-INFO
+xchainpy2_bsc.egg-info/SOURCES.txt
+xchainpy2_bsc.egg-info/dependency_links.txt
+xchainpy2_bsc.egg-info/requires.txt
+xchainpy2_bsc.egg-info/top_level.txt
