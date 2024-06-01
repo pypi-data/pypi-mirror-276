@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+awesome_systematic_trading.egg-info/PKG-INFO
+awesome_systematic_trading.egg-info/SOURCES.txt
+awesome_systematic_trading.egg-info/dependency_links.txt
+awesome_systematic_trading.egg-info/requires.txt
+awesome_systematic_trading.egg-info/top_level.txt
