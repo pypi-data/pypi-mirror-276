@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: portia-pro
+Version: 1.2.5
+Summary: Portia is a tool that allows you to visually scrape websites without any programming knowledge required. With Portia you can annotate a web page to identify the data you wish to extract, and Portia will understand based on these annotations how to scrape data from similar pages..
+Home-page: https://github.com/yanjlee/portia
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+Portia
+======
+
+Portia is a tool that allows you to visually scrape websites without any programming knowledge required. With Portia you can annotate a web page to identify the data you wish to extract, and Portia will understand based on these annotations how to scrape data from similar pages.
+
+# Running Portia
+
+The easiest way to run Portia is using [Docker]:
+
+You can run Portia using Docker & official Portia-image by running:
+
+    docker run -v ~/portia_projects:/app/data/projects:rw -p 9001:9001 scrapinghub/portia
+
+You can also set up a local instance with [Docker-compose] by cloning this repo & running from the root of the folder:
+
+    docker-compose up
+
+For more detailed instructions, and alternatives to using Docker, see the [Installation] docs.
+
+# Documentation
+
+Documentation can be found from [Read the docs]. Source files can be found in the ``docs`` directory.
+
+[Docker]: https://www.docker.com/
+[Docker-compose]:https://docs.docker.com/compose
+[Installation]: http://portia.readthedocs.org/en/latest/installation.html
+[Read the docs]: http://portia.readthedocs.org/en/latest/index.html
+[Scrapinghub]: https://portia.scrapinghub.com/
