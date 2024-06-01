@@ -1,0 +1,4 @@
+[console_scripts]
+grid = zerohertzLib.vision.cli:_grid
+trictl = zerohertzLib.mlops.cli:_trictl
+vert = zerohertzLib.vision.cli:_vert

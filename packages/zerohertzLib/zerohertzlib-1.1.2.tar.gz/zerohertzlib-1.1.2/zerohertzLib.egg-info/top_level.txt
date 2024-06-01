@@ -1,0 +1,6 @@
+dist
+docs
+requirements
+sphinx
+test
+zerohertzLib
