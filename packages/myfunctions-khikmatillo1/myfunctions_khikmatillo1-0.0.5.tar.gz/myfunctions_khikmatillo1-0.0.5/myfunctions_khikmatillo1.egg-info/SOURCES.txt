@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfunctions_khikmatillo1/__init__.py
+myfunctions_khikmatillo1/math.py
+myfunctions_khikmatillo1.egg-info/PKG-INFO
+myfunctions_khikmatillo1.egg-info/SOURCES.txt
+myfunctions_khikmatillo1.egg-info/dependency_links.txt
+myfunctions_khikmatillo1.egg-info/top_level.txt
