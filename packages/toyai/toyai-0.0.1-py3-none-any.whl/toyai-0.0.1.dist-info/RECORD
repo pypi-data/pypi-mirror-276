@@ -1,0 +1,12 @@
+toyai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toyai/ai/ETL.py,sha256=Swn09onPWmeunM2GjZAg7LiUUW0UY5b9jE2Bi4VdSog,2403
+toyai/ai/Trainer.py,sha256=v7Hw46QLSXrXlG-uW9WXP-xzcO8oTKIX3Y7ORxpQees,1921
+toyai/ai/__init__.py,sha256=2pbrdqivul-Dq_hX99BmdLt_EiHnb-_u6re70eAhKpY,63
+toyai/tools/FileText.py,sha256=cRDMGIsA-r_iXbptQGM3HAGmKYkuHw5E6tvxfHyWEvo,2887
+toyai/tools/__init__.py,sha256=hYa5zmDCAaOmjHsbmFJi3wUkE-i3xsTPhGZ2MuOqcRQ,68
+toyai/tools/os.py,sha256=AbSVoJthyWb3yraEcmnbfQ4fKr8Wt0qiFv-uaFZPYRA,156
+toyai/tools/txt.py,sha256=VAZNohxTwGT1fAtI_SUSLNMwjVMHn3VfaQf0mLJ5sQE,1473
+toyai-0.0.1.dist-info/METADATA,sha256=E6clGmWv0tmgxZ4y3B8sRc1Q6nBfd2rvWzsLavNZHqs,360
+toyai-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+toyai-0.0.1.dist-info/top_level.txt,sha256=k2LxSFWZgS_pbAObmLshiV0RAP0kCuePltZoZg8vhWA,6
+toyai-0.0.1.dist-info/RECORD,,
