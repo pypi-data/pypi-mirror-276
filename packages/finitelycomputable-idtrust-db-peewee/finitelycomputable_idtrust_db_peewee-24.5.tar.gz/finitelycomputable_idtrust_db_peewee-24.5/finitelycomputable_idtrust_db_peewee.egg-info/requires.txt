@@ -1,0 +1,6 @@
+peewee~=3.15
+
+[tests]
+pytest
+pytest-env
+finitelycomputable-tests
