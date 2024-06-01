@@ -1,0 +1,4 @@
+requests
+PyYAML
+oyaml
+requests_toolbelt
