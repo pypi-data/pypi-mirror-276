@@ -1,0 +1,40 @@
+# Encrypted JSON Database
+
+## Overview
+This package provides a lightweight, encrypted JSON-based database with support for collections, document operations, and aggregation. It uses the `cryptography` library for encryption and decryption of data, ensuring secure storage of your sensitive information.
+
+## Features
+- **Encryption and Decryption**: Uses Fernet symmetric encryption to protect your data.
+- **Collections**: Supports creating, reading, updating, and deleting collections.
+- **Documents**: Allows adding, finding, updating, and deleting documents within collections.
+- **Aggregation**: Provides basic aggregation functionality for querying documents.
+- **Linking Collections**: Supports linking between collections to create references.
+- **Tree Structure**: Allows creating tree structures by linking root documents to their child documents.
+
+## Usage
+```python
+from pyjondb import database
+from pyjondb import session
+
+auth = session.start()
+auth.create_user('admin', 'adminpass', roles=['admin', 'user'])
+
+# Authenticate and get a session ID
+session_id = auth.authenticate('admin', 'adminpass')
+
+# Create a database instance with the session ID
+db = database.init('my_database', 'my_secret_key', auth, debug=True)
+
+# Create a database
+db.create(session_id)
+
+# Create a collection
+db.create_collection('my_collection', session_id)
+
+# Add a document
+db.add_document('my_collection', {'name': 'example'}, session_id)
+
+# Read the collection
+print(db.read_collection('my_collection', session_id))
+```
+### Learn more about it at the docs: https://github.com/t-a-g-o/PyJONDB/wiki
