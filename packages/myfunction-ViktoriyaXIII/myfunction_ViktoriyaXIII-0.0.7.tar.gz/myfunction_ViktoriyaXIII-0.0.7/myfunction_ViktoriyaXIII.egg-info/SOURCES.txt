@@ -1,0 +1,9 @@
+README.md
+setup.py
+myfunction_ViktoriyaXIII/__init__.py
+myfunction_ViktoriyaXIII/math.py
+myfunction_ViktoriyaXIII.egg-info/PKG-INFO
+myfunction_ViktoriyaXIII.egg-info/SOURCES.txt
+myfunction_ViktoriyaXIII.egg-info/dependency_links.txt
+myfunction_ViktoriyaXIII.egg-info/requires.txt
+myfunction_ViktoriyaXIII.egg-info/top_level.txt
