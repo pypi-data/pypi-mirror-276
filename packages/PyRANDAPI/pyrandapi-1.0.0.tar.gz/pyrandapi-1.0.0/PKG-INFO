@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyRANDAPI
+Version: 1.0.0
+Summary: an api for randapi
+Author-email: frag <fragm890@gmail.com>
+Project-URL: Homepage, https://github.com/Fraged0/RANDAPI/
+Project-URL: Issues, https://github.com/Fraged0/RANDAPI/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ever wanted your random, custom, own api? well, RANDAPI is what it does!
+
+RANDAPI is easy and custom api that doesnt wants you to pay, or do any actions, just make-and-go!

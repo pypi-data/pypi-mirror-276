@@ -1,0 +1,18 @@
+[project]
+name = "PyRANDAPI"
+version = "1.0.0"
+authors = [
+  { name="frag", email="fragm890@gmail.com" },
+]
+description = "an api for randapi"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Fraged0/RANDAPI/"
+Issues = "https://github.com/Fraged0/RANDAPI/issues"
