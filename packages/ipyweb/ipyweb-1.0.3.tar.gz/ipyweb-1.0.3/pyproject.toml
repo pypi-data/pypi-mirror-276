@@ -1,0 +1,54 @@
+[project]
+name = "ipyweb"
+version = "1.0.3"
+description = "A business framework for launching multiple services"
+authors = [
+    { name = "sqwindows", email = "sqwindows@qq.com" },
+]
+
+keywords = ["gui", "webkit", "html", "web"]
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+readme = "README.md"
+
+classifiers = [
+
+]
+dependencies = [
+    'ipywebview',
+    'blinker',
+    'click',
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.build-system]
+exclude = [
+    "app/*",
+    "backup/*",
+    "bulid/*",
+    "dist/*",
+    "runtime/*",
+    "tests/*",
+    ".github/*",
+    ".*"
+]
+[tool.setuptools]
+include-package-data = false
+
+packages = [
+    "ipyweb", "ipyweb.addons", "ipyweb.builds", "ipyweb.commands", "ipyweb.configs", "ipyweb.contracts", "ipyweb.controllers", "ipyweb.events",
+    "ipyweb.events.listener", "ipyweb.events.register",
+    "ipyweb.preloads.block", "ipyweb.preloads.process", "ipyweb.preloads.thread",
+    "ipyweb.guis", "ipyweb.pywebview", "ipyweb.services", "ipyweb.windowEvents"
+]
+
+
+[project.entry-points."console_scripts"]
+ipyweb= "ipyweb.cli:main"
+
+
+
+
