@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+testing/__init__.py
+testing/config.py
+testing/resampler.py
+testing/training.py
+testing/validation.py
+testing/wrapper.py
+vtacML.egg-info/PKG-INFO
+vtacML.egg-info/SOURCES.txt
+vtacML.egg-info/dependency_links.txt
+vtacML.egg-info/requires.txt
+vtacML.egg-info/top_level.txt
