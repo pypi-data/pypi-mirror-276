@@ -1,0 +1,9 @@
+cdk_gradle_uploader/__init__.py,sha256=CePxsUXBsj80PrFy5WjEg4rGk6zhYRNQATawCx_YqCg,17871
+cdk_gradle_uploader/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_gradle_uploader/_jsii/__init__.py,sha256=f43jYKsN2Amie1xKvndDCWuJ17i7QVaa6xF3oXA_hMY,494
+cdk_gradle_uploader/_jsii/gradle_s3_uploader@0.0.25.jsii.tgz,sha256=7d6T4mk9IFljMwOugRAsgvNPSpkFTOgTuEq0XELaMW4,102377
+cdk_gradle_uploader-0.0.25.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_gradle_uploader-0.0.25.dist-info/METADATA,sha256=wS0TNXdrcvswnhr0S43tG799XeHEDkYJdjsPKzI293E,6294
+cdk_gradle_uploader-0.0.25.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cdk_gradle_uploader-0.0.25.dist-info/top_level.txt,sha256=NrsGaOEoVxq_3xvEEetou35VGzV9aNSPH2-sgdQebVw,20
+cdk_gradle_uploader-0.0.25.dist-info/RECORD,,
