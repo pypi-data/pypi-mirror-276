@@ -1,0 +1,60 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {% raw %}{{ project_name }}{% endraw %}-web
+  namespace: default
+  labels:
+    app: {% raw %}{{ project_name }}{% endraw %}
+    component: web
+    layer: application
+spec:
+  replicas: 2
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: {% raw %}{{ project_name }}{% endraw %}
+      component: web
+      layer: application
+  template:
+    metadata:
+      labels:
+        app: {% raw %}{{ project_name }}{% endraw %}
+        component: web
+        layer: application
+      name: {% raw %}{{ project_name }}{% endraw %}-web
+    spec:
+      containers:
+      - name: {% raw %}{{ project_name }}{% endraw %}-web
+        envFrom:
+        - configMapRef:
+            name: {% raw %}{{ project_name }}{% endraw %}-environment
+        image: {% raw %}{{ project_repo }}{% endraw %}:production
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: {% raw %}{{ project_name }}{% endraw %}
+    component: web
+    layer: application
+  name: {% raw %}{{ project_name }}{% endraw %}-web
+  namespace: default
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: {% raw %}{{ project_name }}{% endraw %}
+    component: web
+    layer: application
+  type: ClusterIP
+
