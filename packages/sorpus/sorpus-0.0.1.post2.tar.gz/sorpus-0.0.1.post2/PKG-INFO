@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sorpus
+Version: 0.0.1.post2
+Summary: Sentence (Operations) Processing Utilities
+Author-email: Siwon Seo <visiopo44@gmail.com>
+Project-URL: Homepage, https://github.com/Sion1225/sorpus
+Project-URL: Issues, https://github.com/Sion1225/sorpus/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sorpus
+![CI/CD: Workflow](https://img.shields.io/badge/CI/CD-Workflow-green)
+[![PyPI](https://img.shields.io/badge/PyPI-v.0.0.1_alpha-blue)](https://pypi.org/project/sorpus/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
+Sentence (OpeRations) Processing UtilitieS.
+
+Sorpus is a sentence processing library for computational linguistics and natural language processing. It is a demo version currently under development, where I am adding features that I personally felt were necessary but were not available in other libraries. 
+## Install
+```
+! pip install sorpus
+```
+## Document
+https://sites.google.com/view/sorpus/
