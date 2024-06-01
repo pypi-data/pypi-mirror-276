@@ -1,0 +1,2 @@
+[console_scripts]
+stark = sc3dg.main:main
