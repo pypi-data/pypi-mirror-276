@@ -1,0 +1,43 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools >= 40.6.0", "wheel"]
+
+[tool.coverage.run]
+branch = true
+source = ["libbiomedit"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py{37,38,39,310,311,312},report
+isolated_build = true
+
+[testenv]
+setenv =
+    py{37,38,39,310,311,312}: COVERAGE_FILE = .coverage.{envname}
+depends =
+    report: py{37,38,39,310,311,312}
+deps =
+    pytest
+    pytest-cov
+    coverage[toml]
+commands =
+    pytest {posargs: --cov --cov-report=}
+
+[testenv:report]
+deps = coverage[toml]
+skip_install = true
+parallel_show_output = True
+commands =
+    coverage combine
+    coverage report
+"""
+
+[tool.mypy]
+files = ["libbiomedit", "test"]
+strict = true
+
+[tool.ruff.lint]
+# Enable the pycodestyle (`E`) and Pyflakes (`F`) default rules.
+# Additionally, add flake8-unused-arguments (ARG)
+select = ["E", "F", "ARG"]
