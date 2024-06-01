@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: consensusGen
+Version: 1.7
+Summary: Genetic algorithm for consensus building
+Home-page: https://pypi.org/project/consensusGen/
+Author: RomainCoulon (Romain Coulon)
+Author-email: <romain.coulon@bipm.org>
+Project-URL: Documentation, https://github.com/RomainCoulon/consensusGen/
+Keywords: genetic algorithm,inter-laboratory comparison,consenus building
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: French
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENCE.md
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+
+# consensusGen
+
+`consensusGen.py` is a Python code implementing an genetic algorithm allowing to build a consensus value from measurement results of an inter-laboratory comparison. 
+
+Details are provided in [Romain Coulon and Steven Judge 2021 Metrologia 58 065007](https://doi.org/10.1088/1681-7575/ac31c0)
+
+The code is developped and maintained by the BIPM (MIT license).
