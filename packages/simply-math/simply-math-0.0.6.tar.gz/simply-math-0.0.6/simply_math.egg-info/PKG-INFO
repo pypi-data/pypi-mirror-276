@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: simply-math
+Version: 0.0.6
+Summary: A very simple math module
+Home-page: 
+Author: AlexDEV
+Author-email: 
+License: MIT
+Keywords: calculator,math
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Are you a Lua coder and hate having to figure out an alternative to 'math.random' or 'math.round'? Well we got you with the python library called 'MATH'!
+
+Change Log
+==========
+
+0.0.1 (5/31/2024)
+-------------------
+- First Release
+
+0.0.2 - 0.0.5
+-------------------
+- Fixed installation bug
+
+0.0.6
+-------------------
+- Added more functions!

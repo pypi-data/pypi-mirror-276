@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.TXT
+setup.py
+math.egg-info/SOURCES.txt
+math.egg-info/dependency_links.txt
+math.egg-info/requires.txt
+math.egg-info/top_level.txt
+simply_math.egg-info/PKG-INFO
+simply_math.egg-info/SOURCES.txt
+simply_math.egg-info/dependency_links.txt
+simply_math.egg-info/top_level.txt
+simplymath/__init__.py
+tests/testing.py

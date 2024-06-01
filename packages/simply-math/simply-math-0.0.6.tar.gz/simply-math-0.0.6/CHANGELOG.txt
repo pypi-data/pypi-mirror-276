@@ -1,0 +1,14 @@
+Change Log
+==========
+
+0.0.1 (5/31/2024)
+-------------------
+- First Release
+
+0.0.2 - 0.0.5
+-------------------
+- Fixed installation bug
+
+0.0.6
+-------------------
+- Added more functions!
