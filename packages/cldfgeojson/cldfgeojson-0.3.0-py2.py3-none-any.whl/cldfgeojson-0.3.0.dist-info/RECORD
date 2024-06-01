@@ -1,0 +1,14 @@
+cldfgeojson/__init__.py,sha256=v1-wqeGhNgIXhLekhl0vaJ5vV-CrF9g4ecWuut8nYmM,106
+cldfgeojson/create.py,sha256=udkxG_xUxQJBgvl8CwhTi6AQ6fAWnL2ADb67Hfhbw38,6679
+cldfgeojson/geojson.py,sha256=0tFtOAr7NywGOeBON7r1n83LB5YGc72jjSvTt5NHMd4,928
+cldfgeojson/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cldfgeojson/commands/overlay.py,sha256=10w3HWUQszfpnoYZUgMcS00kRd1cn-DnrCOVVph2Fgc,2509
+cldfgeojson/commands/webmercator.py,sha256=E0FFXQHEc8ZcCzsCdq9m7sPdWXn_BdAzVl0opKm-49s,3683
+cldfgeojson/commands/templates/index.html.mako,sha256=41nvz1t0B0Z0R9ABITM4kSSuMOWotUfCRRlrbx8Swp4,4109
+cldfgeojson/commands/templates/leaflet.draw.mako,sha256=kw4pD2_XNDIsUIS6ebP6SVoysWmaGny5_7v2ktBW-Hg,204754
+cldfgeojson-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cldfgeojson-0.3.0.dist-info/METADATA,sha256=jnFk9T5Lbb62oIWfr1MWC0FMg9JfzjDb0DhSEgzrRvg,3332
+cldfgeojson-0.3.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+cldfgeojson-0.3.0.dist-info/entry_points.txt,sha256=8NkPaYNj0x_3NCNCXMx7_pd6IXVSWZO7NjIcfff4bck,53
+cldfgeojson-0.3.0.dist-info/top_level.txt,sha256=XYBgJ_ZDhk_LPTg8lbG25lpSBcY_f_aW8sq0ie6IHqc,12
+cldfgeojson-0.3.0.dist-info/RECORD,,
