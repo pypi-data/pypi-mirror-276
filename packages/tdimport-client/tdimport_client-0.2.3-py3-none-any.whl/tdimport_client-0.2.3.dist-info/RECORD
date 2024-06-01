@@ -1,0 +1,9 @@
+tdimport_client/__init__.py,sha256=WGhtJsBTSJnPcGcEnvjRaadVr7q6SpwZ0yimmPXDBJs,357
+tdimport_client/models.py,sha256=pVgPV1Sz5wqh1lKJ7b3Sbd9P1b503ByxrkSrxJ1CQrU,2079
+tdimport_client/sftp_client.py,sha256=2qnoqXp0OntNe460LqCU4pcjy_dvYrNbqJk2alcFDg8,1051
+tdimport_client/tdimport_client.py,sha256=aTfkXN5yfpHX6layp0dHma38UWwzB4fZJiN12efsyqQ,900
+tdimport_client-0.2.3.dist-info/LICENSE.txt,sha256=h2YzXbauWh9RN8JuQRc3zr4GwLyK4WTzOkXkZCinVaU,575
+tdimport_client-0.2.3.dist-info/METADATA,sha256=IuoEA4i0HujFTDr0FOe6Uj7BruyQSCPbtMkc7-vn1MA,844
+tdimport_client-0.2.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tdimport_client-0.2.3.dist-info/top_level.txt,sha256=TxmIu_9A2UcAYkQagQVzSNf9qwS-fNYU2ftUMbYug8g,16
+tdimport_client-0.2.3.dist-info/RECORD,,
