@@ -1,0 +1,9 @@
+beetsplug/__init__.py,sha256=QDJyS5jtJnGFsSuOx43ZvLBCOrHImm8NrZk5f9URWdk,75
+beetsplug/autogenre/__init__.py,sha256=Hh7-PXypQk1JbVeWHSspZVvHguyAmlWmjXBom1liVZQ,15839
+beetsplug/autogenre/config_default.yaml,sha256=jnuAIfFEqTY6zjvNxAwj1he_BYO85bGPi2SKyHPulkI,237
+beetsplug/autogenre/genretree.py,sha256=a4ghZNDaPuV7qMAK_shwrQAqTNfsbdL4GwMFd3GTtLc,2077
+beets_autogenre-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+beets_autogenre-0.5.0.dist-info/METADATA,sha256=DG-DhloMcPFYfXsarD8PsE8qDdsbnVT8Q2WcCC_8KM8,5509
+beets_autogenre-0.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+beets_autogenre-0.5.0.dist-info/top_level.txt,sha256=za8u6CXAGbgac8cUyn9NlsgXqqq-_4HHZcNmJnfmyWc,10
+beets_autogenre-0.5.0.dist-info/RECORD,,
