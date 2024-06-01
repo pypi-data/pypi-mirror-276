@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+twird.egg-info/PKG-INFO
+twird.egg-info/SOURCES.txt
+twird.egg-info/dependency_links.txt
+twird.egg-info/requires.txt
+twird.egg-info/top_level.txt
