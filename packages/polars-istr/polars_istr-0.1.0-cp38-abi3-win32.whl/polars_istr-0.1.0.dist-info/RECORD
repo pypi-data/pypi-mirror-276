@@ -1,0 +1,12 @@
+polars_istr-0.1.0.dist-info/METADATA,sha256=hxwAC8xUbsc7_SfE7YCFipcf7lfnKJLVRhF6L5ABB14,1517
+polars_istr-0.1.0.dist-info/WHEEL,sha256=3UT5ilzffcGEOlyn_cxoxXdXAFQPk4oQ3OeSn9uvxvo,90
+polars_istr-0.1.0.dist-info/license_files/LICENSE.txt,sha256=kIxnfWisGQ24XakuORehDxpYaukJCAquc4GCWY8S6Hc,1084
+polars_istr/cusip.py,sha256=qG6wZ0PnDaUadS0bnXmX6IIwECj3EioMxhCe_AI48rI,6863
+polars_istr/iban.py,sha256=kTsqEdD-hpCQGURl6tIiwI22WB8BQk1CJD5oCZ9JTjw,4420
+polars_istr/isin.py,sha256=-SuWriJWvdackWAmhrC-RGlN5QkDZ0NbjCVj9l2D2lI,3014
+polars_istr/type_alias.py,sha256=ZFy5GSGZcsMvAxAojGbkumhw4UerEugxtzGrBaf3odM,290
+polars_istr/url.py,sha256=6S8EiefVlqgPhO3HtENcWMcF-DlIhy2WYU-Y1yzhvhE,4017
+polars_istr/_utils.py,sha256=e4fzevuT0jSv05U1wtmlazFyKk_e8fen6nppNjeRsqk,1658
+polars_istr/__init__.py,sha256=UWGBlWWLLTffd8JcSYyXwVNIRghTqVYS69s9aypuLiM,189
+polars_istr/_polars_istr.pyd,sha256=8LvwXVmLQ35XaFaKNJdqjL7lc0BX4k2nRxRp9pHNsOM,12279808
+polars_istr-0.1.0.dist-info/RECORD,,
