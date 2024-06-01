@@ -1,0 +1,12 @@
+djlsp/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+djlsp/__main__.py,sha256=BWJ6dp1yLfSbxB7M7J0khx2gkX1RH1JERu3gN-2zQsM,35
+djlsp/cli.py,sha256=CpmkwInmPWKlqe3lmDz4Y4wtW6fvhaSv1S2XeUFQ2lA,515
+djlsp/constants.py,sha256=04c-JJISs5K_dsPBnV_nem0tdMhlPdZ8VxPRvYmvJ6k,4103
+djlsp/parser.py,sha256=A-pEnbuWGj5Byj3zHHfWHwX5Pa5kGwpPfTDtybtLaQA,4270
+djlsp/server.py,sha256=epsW-kyAqjMH_GBZ_TTY4G5ManV7E769JHE6FUjX_vc,6881
+djlsp/scripts/django-collector.py,sha256=xC9oSpq0I1jtuZRFmBlQGUJPgvFuyjLm42X37skMS6w,6234
+django_template_lsp-0.2.2.dist-info/METADATA,sha256=Tjqk-l-hY_v1pq_U8pj_k5XlKCjqUi21A35L9c798j0,1338
+django_template_lsp-0.2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_template_lsp-0.2.2.dist-info/entry_points.txt,sha256=aIq9cfn6UHTnw5eLN6XKMDmRmUy2BQ-5g72gi5FOrYg,78
+django_template_lsp-0.2.2.dist-info/top_level.txt,sha256=fm0fLrG3g9NzgTKtzVIunT_y9CH0nyu5Nyt6v0Cp98c,6
+django_template_lsp-0.2.2.dist-info/RECORD,,
