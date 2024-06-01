@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+msxiaoiceapi.egg-info/PKG-INFO
+msxiaoiceapi.egg-info/SOURCES.txt
+msxiaoiceapi.egg-info/dependency_links.txt
+msxiaoiceapi.egg-info/requires.txt
+msxiaoiceapi.egg-info/top_level.txt
