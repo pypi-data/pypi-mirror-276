@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+setup.py
+math.egg-info/PKG-INFO
+math.egg-info/SOURCES.txt
+math.egg-info/dependency_links.txt
+math.egg-info/requires.txt
+math.egg-info/top_level.txt
+mathmodule/__init__.py
