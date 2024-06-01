@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lmt-cli
+Version: 0.0.33
+Summary: lmt-cli is now LMterminal
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: LMterminal
+
+# lmt-cli is now LMterminal
+
+This package has been renamed. Use `pip install LMterminal` instead.
+
+New package: https://pypi.org/project/LMterminal/
