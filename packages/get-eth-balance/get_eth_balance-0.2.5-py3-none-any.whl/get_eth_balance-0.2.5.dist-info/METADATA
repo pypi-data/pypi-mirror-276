@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: get-eth-balance
+Version: 0.2.5
+Summary: The site Etherscan allows you retrieve information on accounts and transactions. There is an interface to the Reposten testnet as well. While doing some work on a project I was monitoring the page to view an account balance and ended up creating a script to do the monitoring programmatically.
+Home-page: https://github.com/yanjlee/get-eth-balance
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# get-eth-balance
+
+The site Etherscan allows you retrieve information on accounts and transactions. There is an interface to the Reposten testnet as well. While doing some work on a project I was monitoring the page to view an account balance and ended up creating a script to do the monitoring programmatically.
+
+See blog post at [http://blog.bradlucas.com/posts/2017-07-27-ethereum-get-eth-balance-script/](http://blog.bradlucas.com/posts/2017-07-27-ethereum-get-eth-balance-script/)
+
+## Setup
+
+### Create virtual enviroment
+
+```
+$ python3 -m venv env
+$ source env/bin/activate
+```
+
+
+### Install required libraries
+
+```
+$ pip install -r requirements.txt
+```
+
+## Usage
+
+
+Command line Arguments:
+
+```
+-t use Ropsten testnet otherwise default to mainnet chain
+-a account
+```
+
+Environment variables:
+Use these in liu of the command line arguments
+
+```
+GET_ETH_BALANCE_CHAIN=[testnet|mainnet]        - Default to mainnet if not set
+GET_ETH_BALANCE_ACCOUNT=account
+```
+
+Command line arguments will take precedence
+
+```
+$ python get-eth-balance.py -t -a 0xd60e64afb753583941e1ab42f836ced0d23af2db
+```
