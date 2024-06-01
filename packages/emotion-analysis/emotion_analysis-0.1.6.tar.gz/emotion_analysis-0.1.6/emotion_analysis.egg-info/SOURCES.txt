@@ -1,0 +1,17 @@
+README.md
+setup.py
+emotion_analysis/__init__.py
+emotion_analysis/bert_pcc_score_emotions.py
+emotion_analysis/data_preprocessing.py
+emotion_analysis/frnn.py
+emotion_analysis/roberta_pcc_score_emotions.py
+emotion_analysis/tweets_embedding.py
+emotion_analysis.egg-info/PKG-INFO
+emotion_analysis.egg-info/SOURCES.txt
+emotion_analysis.egg-info/dependency_links.txt
+emotion_analysis.egg-info/requires.txt
+emotion_analysis.egg-info/top_level.txt
+tests/__init__.py
+tests/new_test.py
+tests/test.py
+tests/test_3.py
