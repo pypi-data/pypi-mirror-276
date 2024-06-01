@@ -1,0 +1,11 @@
+triqs_hartree_fock/__init__.py,sha256=ytK7O79frdwRApntzkg584vtqicmzXrE0Un45WN9OWo,1147
+triqs_hartree_fock/impurity.py,sha256=m0ns2SzjClUUKB8poczaevjCFCmqjf0Z43AvFWdqEJI,16309
+triqs_hartree_fock/lattice.py,sha256=rOSAmIj74BzVHhcxirstRlI0FWGmaBbvykCWvyrLA5c,10239
+triqs_hartree_fock/utils.py,sha256=Y0ddGSECXpV1ZVFBrHTy0YIKHfycEwPfQQyV3dQC9s0,6039
+triqs_hartree_fock/version.py,sha256=1C5rl1nw9D2Gkv630OCsCW0cvLIISAOu8RcOa2wp8MA,1119
+triqs_hartree_fock-3.3.0.dist-info/COPYING.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+triqs_hartree_fock-3.3.0.dist-info/LICENSE.txt,sha256=ZaD41P8AWYp6VCtUTgnx649LhzWR7MvLudS_F9iwSrQ,894
+triqs_hartree_fock-3.3.0.dist-info/METADATA,sha256=MkTooVuisKit1jRCRE-8j-gVXXcTffL8uXMSbGzfP6o,1054
+triqs_hartree_fock-3.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+triqs_hartree_fock-3.3.0.dist-info/top_level.txt,sha256=JyhQW2_GIGpzGC6fCmhs1PBukJc7jFkmxLcFq2S6u6Q,19
+triqs_hartree_fock-3.3.0.dist-info/RECORD,,
