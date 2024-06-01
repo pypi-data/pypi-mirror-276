@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ReProv
+Version: 0.1.0
+Summary: A small example package
+Author-email: Antonis Ganios <ant.ganios@iit.demokritos.gr>
+Project-URL: Homepage, https://github.com/id-is/ReProv
+Project-URL: Issues, https://github.com/id-is/ReProv
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: api-client <2,>=1.3.1
+Requires-Dist: certifi <2025,>=2024.2.2
+Requires-Dist: charset-normalizer <4,>=3.3.2
+Requires-Dist: idna <4,>=3.7
+Requires-Dist: python-dotenv <2,>=1.0.1
+Requires-Dist: requests <3,>=2.32.2
+Requires-Dist: tenacity <9,>=8.3.0
+Requires-Dist: urllib3 <3,>=2.2.1
+
