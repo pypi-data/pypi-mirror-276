@@ -1,0 +1,12 @@
+taobao/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taobao/items.py,sha256=UBJtHJqGWNigRog_3w2u-FMB0ZhW56WkmbAGzEFTQsY,285
+taobao/middlewares.py,sha256=MWyaLw8F_HKIjlxmoaSZdIZr5DVI1jN_3_MbS1d7b9o,720
+taobao/pipelines.py,sha256=8GW4xugzxUwnqVgM0U2xvu8ICLrQX-2jSrkE7ywMmPg,286
+taobao/settings.py,sha256=9vyFxMPRJ4YpnW9QnAMq_ZzZABksynakClmf8M4dcH8,647
+taobao/spiders/__init__.py,sha256=ULwecZkx3_NTphkz7y_qiazBeUoHFnCCWnKSjoDCZj0,161
+taobao/spiders/taobao_spider.py,sha256=CkXqEUiEsIz03_mUvPKT1d_fQMghjWDFG78Mt3Nf0sY,7372
+scrapy_taobao-1.1.5.dist-info/LICENSE,sha256=GzHS9pi6vw_oGwKIGxAPch8iuVrHazOilEsYL7AlPK0,1085
+scrapy_taobao-1.1.5.dist-info/METADATA,sha256=i00wddoO5m9J_HfIUHu41gEiFl_ZldoLOveA8R8I9B8,2062
+scrapy_taobao-1.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scrapy_taobao-1.1.5.dist-info/top_level.txt,sha256=nsBrx12RTDrr88Y3W7i33nGJayRecVxHNmDCLhe3ZgY,7
+scrapy_taobao-1.1.5.dist-info/RECORD,,
