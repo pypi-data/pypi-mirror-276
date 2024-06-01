@@ -1,0 +1,4 @@
+components
+docs_src
+psychopy_visionscience
+tests
