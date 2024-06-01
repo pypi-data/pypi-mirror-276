@@ -1,0 +1,15 @@
+qreader.py,sha256=JXBpPFcKigPcZq1bgQ-fjqQSasR5B0GWoNj62pPhRV8,19534
+build/lib/qreader.py,sha256=JXBpPFcKigPcZq1bgQ-fjqQSasR5B0GWoNj62pPhRV8,19534
+build/lib/documentation/benchmark/resizes.py,sha256=-9ddBNYgITg8UB4vHl0u20oTo8_ht2Y4h_Yo9_CI_Nc,3045
+build/lib/documentation/benchmark/rotations.py,sha256=5Bc8Tl0PZLT3hs4GR97EeqxYf6hM0E00dC_6XWp3QEI,6195
+build/lib/venv/bin/activate_this.py,sha256=fvPzMbbVJWNOv7QziL9ekbJ118JbxvK4JxXtdylsMzI,1337
+build/lib/venv/bin/read_zbar.py,sha256=bik_jtPfwvno0O38j0GVpVHFqAlhNi5LCBz6gJN-LdE,736
+documentation/benchmark/resizes.py,sha256=-9ddBNYgITg8UB4vHl0u20oTo8_ht2Y4h_Yo9_CI_Nc,3045
+documentation/benchmark/rotations.py,sha256=5Bc8Tl0PZLT3hs4GR97EeqxYf6hM0E00dC_6XWp3QEI,6195
+venv/bin/activate_this.py,sha256=fvPzMbbVJWNOv7QziL9ekbJ118JbxvK4JxXtdylsMzI,1337
+venv/bin/read_zbar.py,sha256=bik_jtPfwvno0O38j0GVpVHFqAlhNi5LCBz6gJN-LdE,736
+qreader-3.12.dist-info/LICENSE,sha256=7ur-GB3ck2Gwo1lYchTRkkO_QHEYevHuef8gJrU0AF8,1068
+qreader-3.12.dist-info/METADATA,sha256=EeDxxl9wZio36b_tkMMwims7ephCILrW-j1rSxMDnvM,12867
+qreader-3.12.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qreader-3.12.dist-info/top_level.txt,sha256=oMCby1jNyV6JAgPToBmzYB-qqpj2-OpGPx2FYoe7zvU,33
+qreader-3.12.dist-info/RECORD,,
