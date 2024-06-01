@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ctrip_spider.egg-info/PKG-INFO
+ctrip_spider.egg-info/SOURCES.txt
+ctrip_spider.egg-info/dependency_links.txt
+ctrip_spider.egg-info/requires.txt
+ctrip_spider.egg-info/top_level.txt
