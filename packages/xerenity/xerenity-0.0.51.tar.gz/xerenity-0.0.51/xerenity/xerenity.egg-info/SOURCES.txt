@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+xerenity/connection/__init__.py
+xerenity/connection/db.py
+xerenity/search/__init__.py
+xerenity/search/series.py
+xerenity/xerenity.egg-info/PKG-INFO
+xerenity/xerenity.egg-info/SOURCES.txt
+xerenity/xerenity.egg-info/dependency_links.txt
+xerenity/xerenity.egg-info/requires.txt
+xerenity/xerenity.egg-info/top_level.txt
