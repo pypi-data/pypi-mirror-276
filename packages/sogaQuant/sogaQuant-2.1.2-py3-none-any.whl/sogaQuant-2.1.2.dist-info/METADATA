@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: sogaQuant
+Version: 2.1.2
+Summary: 沪深A股量化.
+Home-page: https://github.com/yanjlee/sogaQuant
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# 沪深A股量化
+
+---
+## 0.概述
+
+
+## 1.运行环境
+
+* python2.7
+* php5.5
+* mysql5
+* mango
+* Elasticsearch
++ pycrul
+* shell
+    * a
+
+## 2.``交易系统``和``心智系统``
+* 选股系统
+    * 宏观-产业-个股-策略-交易-风控的投资分析逻辑
+    * 基本-财务-地位-空间-估值-风险的分析框架
+
+* 估值系统
+    * 利润增长率再结合净资产收益率
+    * 
+
+* 指标系统
+    * MACD
+    * DMA
+
+* 大盘系统
+    * 盯盘
+    * 扫单，吃单，对敲，出货，托盘，压盘，捂盘，洗盘，拉高
+    * 建仓、减持、对倒、拉升、派发的特征
+    * 大单意图定性、放量和缩量定性、换手率、K线建仓和减仓、对倒
+
+* 风控系统
+    * 资金管理
+
+* 卖出系统
+    * 给单
+    * 止损
+
+* 格局规划贪婪和认知战胜恐惧
+
+## 3.系统
+| 序号 | U | I | T |
+|:-------------:|:-------------|:-------------|:-------------|
+|1| [名称](a/b.md) |I|T|
+
+## 4.
+
