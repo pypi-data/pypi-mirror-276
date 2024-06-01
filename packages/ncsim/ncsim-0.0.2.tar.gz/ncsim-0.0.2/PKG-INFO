@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ncsim
+Version: 0.0.2
+Summary: Simulates NCSs
+Home-page: UNKNOWN
+Author: Bart Wolleswinkel
+Author-email: b.wolleswinkel@tudelft.nl
+License: UNKNOWN
+Keywords: python,simulation,control,networks
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# NCSim
+Python package for simulation of Networked Control Systems (NCSs)
+
+
