@@ -1,0 +1,13 @@
+pynamicgain/__init__.py,sha256=UPSEh1iya4hR9dExBcPNs6rZNxIKaX7vk_Sm-i2nmV4,16538
+pynamicgain/__main__.py,sha256=LnUrzZWwVO5kUrboenFuCoHkLs83Gwn2sLwpKo9sAzw,5718
+pynamicgain/analysis.py,sha256=EucRn220dOJAx45yprkuQGbY1RXwWdxs_nw94LQnpE8,6648
+pynamicgain/new_setup.py,sha256=hNt-HrrXhLfoYKAeYMaiAfM7ZIvu0MT2fVn33GAWiMc,8069
+pynamicgain/stimulus_generation.py,sha256=nTivyruiw8usayTU9a-ig5W4F13kHpTe_CxJdD0HIys,6571
+pynamicgain/default_configs/default_configs.toml,sha256=P_d5V15kKpw7jGbBk72lMa8gBUG9-OT307-C4Z4Bxd4,3286
+pynamicgain/default_configs/matploltlib.mplstyle,sha256=sOs8V8jhq-lWmCAtuZPy0HX0KjRMiU7H27TxjI5j4kw,6744
+PynamicGain-0.0.9.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+PynamicGain-0.0.9.dist-info/METADATA,sha256=AG5CwMVS-GnuEe9L5jBP2J2_bXTYyHsPDdDSXLzlYlY,2048
+PynamicGain-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+PynamicGain-0.0.9.dist-info/entry_points.txt,sha256=R7ZBGslhfO5elD94lFlDzBYN1PFg97L-Ok8MghiXuKw,266
+PynamicGain-0.0.9.dist-info/top_level.txt,sha256=Jat_k6ZuBbeYam3T6LzHSP8_b-zQXS6v_17yPKlJQ18,12
+PynamicGain-0.0.9.dist-info/RECORD,,

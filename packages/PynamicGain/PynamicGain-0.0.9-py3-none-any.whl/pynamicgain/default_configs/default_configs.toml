@@ -1,0 +1,82 @@
+# Default Config File for PClamp Wave Generation
+# ==============================================
+
+# This file contains the default configuration for the OU PClamp Wave Generation
+# Author: Friedrich Schwarz <friedrichschwarz@unigoettingen.de>
+
+# ========================================================================= #
+# ! EVERY SETUP MUST HAVE AN OWN CONFIG FILE SPECIFYING THE SETUP NUMBER !  #
+# ========================================================================= #
+
+version = "0.0.9"  # NEVER CHANGE THIS VALUE
+
+master_seed = 121912940104681416  # NEVER CHANGE THIS VALUE
+n_seeds_per_setup = 1_000_000  # NEVER CHANGE THIS VALUE
+
+current_seed_index = 0  # NEVER CHANGE THIS VALUE
+
+setup_id = -1  # THIS MUST BE SET BY THE USER
+setup_info = ""  # THIS MUST BE SET BY THE USER
+
+config_file_creator = "" # THIS MUST BE SET BY THE USER
+creation_time = ""  # THIS MUST BE SET BY THE USER
+
+out_dir = ""  # THIS MUST BE SET BY THE USER
+input_dir = ""  # THIS MUST BE SET BY THE USER
+
+stimulus_type = "OU"  # CURRENTLY FIXED, DO NOT CHANGE
+
+
+# ========================================================================= #
+# ! ADDITIONAL SETTINGS CAN BE CHANGED BY VIA THE COMMAND LINE INTERFACE  ! #
+# ========================================================================= #
+
+# NUMBER OF SWEEPS TO BE GENERATED FOR ONE INPUT FILE
+n_sweeps = -1   # THIS CAN BE SET BY THE USER
+
+# SAMPLE RATE OF THE SETUP (IN HZ)
+sampling_rate = -1  # THIS CAN BE SET BY THE USER
+
+# BACKUP DIRECTORY FOR THE STIMULUS FILES
+backup_dir = ""  # THIS CAN BE SET BY THE USER
+
+# DURATION OF ONE SWEEP IN SECONDS
+duration = -1  # THIS CAN BE SET BY THE USER
+
+# DIRECTORY WHERE TO SAVE THE ANALYSIS RESULTS
+analysis_dir = ""  # THIS CAN BE SET BY THE USER
+
+
+# ========================================================================= #
+# ! ANALYSIS SETTINGS CAN BE CHANGED BY EXPERIENCED USERS IF NECESSARY !    #
+# ========================================================================= #
+
+[analysis]
+type = ["mini_sta"]  # CURRENTLY FIXED, DO NOT CHANGE
+refractory_period = 0.001  # IN SECONDS
+min_spike_height = -5  # IN mV (MINIMUM HEIGHT FOR PEAK DETECTION)
+fraction_min_spike_distance = 0.8  # MIN FRACTION OF REFRACTORY PERIOD BETWEEN 2 PEAKS
+visualise_results = true  # WHETHER OR NOT TO CREATE FIGURES OF THE ANALYSIS
+
+[analysis.visualisation]
+trace_duration = 20 # DURATION OF THE OVERVIEW TRACE IN SECONDS
+trace_start = 0 # IN SECONDS
+isi_bin_max = 1  # MAX VALUE OF RIGHT BIN EDGE FOR ISI HISTOGRAM; IN SECONDS
+isi_bin_width = 0.25  # WIDTH OF THE ISI HISTOGRAM BINS; IN SECONDS
+interval_before_peak = 0.0015 # IN SECONDS (SNIPPET TIME BEFORE PEAK)
+interval_after_peak = 0.0035 # IN SECONDS (SNIPPET TIME AFTER PEAK)
+snippet_ylim = [-50, 30]  # Y-AXIS LIMITS FOR THE SNIPPET PLOT
+
+
+# ========================================================================= #
+# !   THE FOLLOWING SETTINGS SHOULD BE ONLY CHANGED BY EXPERIENCED USERS  ! #
+# ========================================================================= #
+
+[settings]
+wait_time = 30  # TIME BETWEEN INPUT GENERATION AND START OF ANALYSIS IN SECONDS
+update_interval = 5  # TIME BETWEEN UPDATES OF THE ANALYSIS IN SECONDS
+input_units = "pA"  # CURRENTLY FIXED, DO NOT CHANGE
+
+
+[stimulus.OU]
+mu = 0.0  # MEAN OF THE OU PROCESS; IN pA
