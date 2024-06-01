@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/airtable_scraper/__init__.py
+src/airtable_scraper/_logger_config.py
+src/airtable_scraper/_models.py
+src/airtable_scraper/airtable_scraper.py
+src/airtable_scraper/table_utils.py
+src/airtable_scraper/typing.py
+src/airtable_scraper.egg-info/PKG-INFO
+src/airtable_scraper.egg-info/SOURCES.txt
+src/airtable_scraper.egg-info/dependency_links.txt
+src/airtable_scraper.egg-info/requires.txt
+src/airtable_scraper.egg-info/top_level.txt
