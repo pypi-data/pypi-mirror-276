@@ -1,0 +1,4 @@
+[console_scripts]
+devdock=devdock.cli:cli
+test=devdock:tests
+

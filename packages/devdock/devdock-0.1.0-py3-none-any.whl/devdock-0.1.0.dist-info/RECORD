@@ -1,0 +1,11 @@
+devdock/__init__.py,sha256=PDxCozfHkQIuikLt37xWHDgsphZ_nPQSVLsVuI3ugwE,178
+devdock/cli.py,sha256=Ovww8BmKCUQxFG8-_MwWlmXbQUo2-BNY24OyJ1OaoDo,4785
+devdock/config/__init__.py,sha256=_Yw9s8RakvgYBLjvBu1ZagRJoK5AhDE0j2gzvtTH1HE,71
+devdock/config/config_manager.py,sha256=3UqD1RZy-WgZst1gWT0Yw0QGi5fJ8FbvnQ6dcidCRG4,998
+devdock/manager.py,sha256=82G-yqRSgqe3IJKy7YvCwpv3G2j8WECmDR8lYS4gn0Q,10863
+devdock/shell.py,sha256=z8FrC7zjroY9ariHx9qnZT1BMZfpRipsw4S9vb4Z5gM,642
+devdock-0.1.0.dist-info/LICENSE,sha256=SisGljIS8o7AcEazYJ2F97O_1WnceF6_jgTyeoHekOw,1070
+devdock-0.1.0.dist-info/METADATA,sha256=u6uK4SJpFjK412sPOE5pSwWKPCKwxuwyWUlBFzV0FdM,681
+devdock-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+devdock-0.1.0.dist-info/entry_points.txt,sha256=qT-4HI__5lRFi0prDk5JMcRHItnmI5JVUdHepM23ATw,62
+devdock-0.1.0.dist-info/RECORD,,
