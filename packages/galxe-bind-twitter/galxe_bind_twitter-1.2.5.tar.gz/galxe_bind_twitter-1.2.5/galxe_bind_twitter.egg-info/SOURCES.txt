@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+galxe_bind_twitter.egg-info/PKG-INFO
+galxe_bind_twitter.egg-info/SOURCES.txt
+galxe_bind_twitter.egg-info/dependency_links.txt
+galxe_bind_twitter.egg-info/requires.txt
+galxe_bind_twitter.egg-info/top_level.txt
