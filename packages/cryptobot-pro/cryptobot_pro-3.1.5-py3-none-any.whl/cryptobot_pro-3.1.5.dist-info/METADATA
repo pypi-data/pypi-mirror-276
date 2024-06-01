@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: cryptobot-pro
+Version: 3.1.5
+Summary: # Cryptocurrency Bot ## Usage* Clone the repo and use exchange_utils.py and auth.py as normal modules.* API keys are required for each exchange you use..
+Home-page: https://github.com/yanjlee/cryptobot
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# Cryptocurrency Bot
+
+## Usage
+* Clone the repo and use exchange_utils.py and auth.py as normal modules.
+* API keys are required for each exchange you use.
+### Installing Requirements:
+`pip install -r requirements.txt`  
+### Getting API Keys:
+* Generate keys for binance: https://www.binance.com/userCenter/createApi.html  
+* Add the keys to a file named `api_keys.json` in the same directory
+    ##### Format of api_keys.json:
+    ```
+    {
+        "exchange_name": {
+            "api_key": "public api key here",
+            "api_secret": "secret key here"
+        }
+    }
+    ```
+### Changing Exchanges
+* In auth.py, change  ccxt.binance to ccxt.exchange_of_your_choice, see [ccxt](https://github.com/ccxt/ccxt) documentation for a list of supported exchanges. I've tried to make sure all the functions in exchange_utils work across any exchange, but they have only been thouroughly tested on Binance.  
+Example:
+```python
+exchange = ccxt.bittrex({
+    'apiKey': keys['bittrex']['api_key'],
+    'secret': keys['bittrex']['api_secret'],
+})
+```
+
+## Examples
+Example bots are in the bots subfolder. I am not liable for anything that happens if you choose to use these bots.
