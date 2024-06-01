@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cicdpoetrytest1"
+version = "0.1.1.dev1"
+description = ""
+authors = ["Steffen Albrecht <steffen.alb@posteo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+strict = true
+format-jinja = """
+    {%- if distance == 0 -%}
+        {{ serialize_pep440(base) }}
+    {%- elif branch == 'dev' -%}
+        {{ serialize_pep440(bump_version(base), dev = distance) }}
+    {%- else -%}
+        {{ serialize_pep440(bump_version(base), dev=distance, metadata=[commit]) }}
+    {%- endif -%}
+"""
