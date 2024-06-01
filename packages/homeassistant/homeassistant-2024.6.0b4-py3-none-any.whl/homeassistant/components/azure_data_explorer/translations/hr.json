@@ -1,0 +1,14 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "database": "Naziv baze podataka",
+                    "table": "Naziv tablice"
+                },
+                "description": "Unesite detalje o vezi.",
+                "title": "Postavite integraciju s Azure Data Explorerom"
+            }
+        }
+    }
+}
