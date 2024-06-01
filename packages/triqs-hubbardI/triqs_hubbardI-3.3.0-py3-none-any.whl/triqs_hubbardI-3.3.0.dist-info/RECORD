@@ -1,0 +1,9 @@
+triqs_hubbardI/__init__.py,sha256=B7JV5jLDVhipgjADi1Y7qF_ZZkcFtjM-9GP_A5u1zh4,1008
+triqs_hubbardI/solver.py,sha256=nsa4OzLnTk3TevmWTWKJcEkv9vXiGcruePtSFA_g1MY,8767
+triqs_hubbardI/version.py,sha256=RUC94eZg_7hrCAZBRYSZ1w0lM3Yjmi7g3DwUYl7Ey0M,1338
+triqs_hubbardI-3.3.0.dist-info/COPYING.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+triqs_hubbardI-3.3.0.dist-info/LICENSE.txt,sha256=Tnn0zCZKVwP4NxtUakttV034tz8fU7Ek8Kqj1-O9mhE,793
+triqs_hubbardI-3.3.0.dist-info/METADATA,sha256=RKXGxG8h1B5H9wA-X_BPzd_XYWUO8Y4BxcICCHHZyPE,1406
+triqs_hubbardI-3.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+triqs_hubbardI-3.3.0.dist-info/top_level.txt,sha256=rPvPkrNDi_4p8hgCcUqA_tJrYwGmyYphKRORXiMX5QM,15
+triqs_hubbardI-3.3.0.dist-info/RECORD,,
