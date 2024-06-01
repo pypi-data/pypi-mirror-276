@@ -1,0 +1,42 @@
+from {{ inject.__module__ }} import {{ inject.__name__ }}
+from injector_collections import Collection
+from typing import Type
+{%- for (className, class) in collectionItems %}
+from {{ class.__module__ }} import {{ className }}
+{%- endfor %}
+import {{ collection.getItemType().__module__ }}
+
+class {{ collection.__name__ }}(Collection):
+    @{{ inject.__name__ }}
+    def __init__(
+            self,
+            {%- for (className, class) in collectionItems %}
+            v{{ className }}: {{ className }},
+            {%- endfor %}
+            ) -> None:
+        super().__init__()
+        {%- for (className, class) in collectionItems %}
+        self[{{ className }}] = v{{ className }}
+        self.byClassname['{{ className }}'] = v{{ className }}
+        {%- endfor %}
+    {% if True %}{% endif %}
+    {%- set itemTypeName = collection.getItemType().__name__ %}
+    {%- set itemTypeModule = collection.getItemType().__module__ %}
+    {%- set itemType = itemTypeModule + '.' + itemTypeName %}
+    @property
+    def items(self) -> dict[Type[{{ itemType }}], {{ itemType }}]:
+        return self._items
+
+    def __getitem__(self, key: Type[{{ itemType }}]) -> {{ itemType }}:
+        return self._items[key]
+
+    def __setitem__(self, key: Type[{{ itemType }}], item: {{ itemType }}):
+        self._items[key] = item
+
+    @property
+    def byClassname(self) -> dict[str, {{ itemType }}]:
+        return self._byClassname
+
+    @classmethod
+    def getItemType(cls):
+        return {{ itemType }}
