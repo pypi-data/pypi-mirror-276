@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "poetry-plugin-pypi-proxy"
+version = "0.2.0"
+description = "Aliases PIP_INDEX_URL silently within Poetry to point at a new repository."
+authors = ["Chad Crawford <chad@cacrawford.org>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "poetry_plugin_pypi_proxy", from = "src" }
+]
+include = [
+    { path = "tests", format = "sdist" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+poetry = { version = "^1.5.0", optional = true }
+
+[tool.poetry.extras]
+plugin = ["poetry"]
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.20.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.1.3"
+pytest-mock = "^3.10.0"
+wheel = "^0.38.4"
+pytest-httpserver = "^1.0.6"
+setuptools = "^70.0.0"
+
+[tool.poetry.group.typing.dependencies]
+mypy = "^0.982"
+types-setuptools = "^65.6.0.2"
+
+
+[tool.isort]
+py_version = 37
+profile = "black"
+
+[tool.black]
+target-version = ["py37"]
+preview = true
+
+[tool.mypy]
+files = ["src", "tests"]
+
+[[tool.mypy.overrides]]
+module = [
+  'poetry.*',
+  'cleo.*',
+]
+ignore_missing_imports = true
+
+[tool.poetry.plugins."poetry.plugin"]
+poetry-pypi-proxy = "poetry_plugin_pypi_proxy.plugin:PypiProxyPlugin"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[build-system]
+requires = ["poetry-core", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
