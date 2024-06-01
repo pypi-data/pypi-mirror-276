@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: spider_js
+Version: 1.1.5
+Summary: 本项目主要是js逆向相关，详细破解流程.
+Home-page: https://github.com/yanjlee/spider_js
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: httpx
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# spider_js
+本项目主要是js逆向相关，详细破解流程关注： https://blog.csdn.net/u013356254
