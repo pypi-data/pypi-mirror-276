@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+taurus_pro.egg-info/PKG-INFO
+taurus_pro.egg-info/SOURCES.txt
+taurus_pro.egg-info/dependency_links.txt
+taurus_pro.egg-info/requires.txt
+taurus_pro.egg-info/top_level.txt
