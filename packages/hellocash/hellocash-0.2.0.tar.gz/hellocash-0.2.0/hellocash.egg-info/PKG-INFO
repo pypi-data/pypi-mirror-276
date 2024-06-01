@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: hellocash
+Version: 0.2.0
+Summary: Unofficial Python SDK for HelloCash API
+Author: Paul Harrer
+Author-email: mail@paulharrer.at
+Project-URL: GitHub, https://github.com/PaulHarrer/hellocash-python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# hellocash-python
+Unofficial Python SDK for HelloCash API
+
+## Documentation
+The documentation for the HelloCash API can be found [here](https://hellocash.docs.apiary.io/#).\
+The documentation for the PyPi package can be found [here](https://pypi.org/project/hellocash/).
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install hellocash
+```
+
+## Usage
+
+```python
+from hellocash import Client
+```
+
+
