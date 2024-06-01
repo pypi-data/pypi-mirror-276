@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+bot_on_anything.egg-info/PKG-INFO
+bot_on_anything.egg-info/SOURCES.txt
+bot_on_anything.egg-info/dependency_links.txt
+bot_on_anything.egg-info/requires.txt
+bot_on_anything.egg-info/top_level.txt
