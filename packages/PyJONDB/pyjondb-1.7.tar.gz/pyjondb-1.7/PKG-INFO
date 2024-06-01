@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: PyJONDB
+Version: 1.7
+Summary: A lightweight, encrypted JSON-based database with support for collections, document operations, and aggregation.
+Home-page: https://tago.works/
+Author: t-a-g-o
+Author-email: santiago@tago.works
+Project-URL: Bug Reports, https://github.com/t-a-g-o/PyJONDB/issues
+Project-URL: Source, https://github.com/t-a-g-o/PyJONDB/
+Keywords: encryption database,encrypted database,json database,secure storage,lightweight database,document store,fernet encryption,cryptography,data security,data encryption,collections,document operations,aggregation,query,NoSQL,python database,uuid,file-based database,local database,secure json,nested data,tree structure,data management,data linkage,collection linking
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+
+# Encrypted JSON Database
+
+## Overview
+This package provides a lightweight, encrypted JSON-based database with support for collections, document operations, and aggregation. It uses the `cryptography` library for encryption and decryption of data, ensuring secure storage of your sensitive information.
+
+## Features
+- **Encryption and Decryption**: Uses Fernet symmetric encryption to protect your data.
+- **Collections**: Supports creating, reading, updating, and deleting collections.
+- **Documents**: Allows adding, finding, updating, and deleting documents within collections.
+- **Aggregation**: Provides basic aggregation functionality for querying documents.
+- **Linking Collections**: Supports linking between collections to create references.
+- **Tree Structure**: Allows creating tree structures by linking root documents to their child documents.
+
+## Usage
+```python
+from pyjondb import database
+from pyjondb import session
+
+auth = session.start()
+auth.create_user('admin', 'adminpass', roles=['admin', 'user'])
+
+# Authenticate and get a session ID
+session_id = auth.authenticate('admin', 'adminpass')
+
+# Create a database instance with the session ID
+db = database.init('my_database', 'my_secret_key', auth, debug=True)
+
+# Create a database
+db.create(session_id)
+
+# Create a collection
+db.create_collection('my_collection', session_id)
+
+# Add a document
+db.add_document('my_collection', {'name': 'example'}, session_id)
+
+# Read the collection
+print(db.read_collection('my_collection', session_id))
+```
+### Learn more about it at the docs: https://github.com/t-a-g-o/PyJONDB/wiki
