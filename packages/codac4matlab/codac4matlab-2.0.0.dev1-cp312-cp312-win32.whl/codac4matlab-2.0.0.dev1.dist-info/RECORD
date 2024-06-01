@@ -1,0 +1,11 @@
+codac4matlab/__init__.py,sha256=8i1yBWjkGkpv-rdgO3o6-vb23KuGmbKQfioCVLjiiqE,1465
+codac4matlab/core.cp312-win32.pyd,sha256=jU09hdzLbwcbqfMMk723eZ3j2UNHSrcWbk-iZ7yymiM,980480
+codac4matlab/graphics.cp312-win32.pyd,sha256=mi1pOaSnaRhlsyWg_wuTL0xTjWoDENdnjW1YMSpbjWc,75776
+codac4matlab/unsupported.cp312-win32.pyd,sha256=yrlBFhYshIkje7jEzMewAMm4cpkvgNiYej_8Up1E6r4,75776
+codac4matlab/version.py,sha256=6aTsaEKyBHFdzQjDU6jvkF0BXPK1486LAfHKk-VQHKc,19
+codac4matlab/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codac4matlab/tests/codac2_tests.py,sha256=1hWsdYf1LE4z-o1nxQBxFSPSg4Qsc8LkkcY3TxRoQGg,248
+codac4matlab-2.0.0.dev1.dist-info/METADATA,sha256=yZzWl2GxEfReI6SUAsjABXzb7i5Zz_xLza7_wz2JDe8,659
+codac4matlab-2.0.0.dev1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+codac4matlab-2.0.0.dev1.dist-info/top_level.txt,sha256=ZeLeS-8xPyH0yVFjcLqUgqnqV4umnaerrPV-cSX1c_U,13
+codac4matlab-2.0.0.dev1.dist-info/RECORD,,
