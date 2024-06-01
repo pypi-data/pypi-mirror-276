@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: galxe_bind_twitter
+Version: 1.2.5
+Summary: 银河自动绑定Twitter.
+Home-page: https://github.com/yanjlee/galxe_bind_twitter
+Author: yanjlee
+Author-email: yanjlee@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: faker
+Requires-Dist: execjs
+Requires-Dist: loguru
+Requires-Dist: base64
+Requires-Dist: hashlib
+Requires-Dist: Crypto
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: httpx
+Requires-Dist: Pillow
+Requires-Dist: playwright
+Requires-Dist: PyExecJS
+Requires-Dist: redis
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: APScheduler
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: clickhouse-driver
+Requires-Dist: curl-cffi
+Requires-Dist: DrissionPage
+Requires-Dist: fake-useragent
+Requires-Dist: Flask
+Requires-Dist: Flask-APScheduler
+Requires-Dist: Flask-Cors
+Requires-Dist: frida
+Requires-Dist: gevent
+Requires-Dist: Jinja2
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: suiutils-py
+
+# 银河自动绑定Twitter
+便宜Twitter令牌号：[hdd.cm](https://hdd.cm/)  单价低至0.2元
+
+
+
+## 依赖
+
+- httpx >= 0.22.0
+- loguru >= 0.7.0
+- web3 >= 6.5.0
+
+
+
+## 使用说明
+
+将需要绑定的地址私钥按：地址----私钥  一行一个 放在eth-sy.txt
+
+将网站买的推特放twitter.txt
+
+开始即可
+
+绑定成功文本bind_success.txt
+
+绑定失败文本bind_fail.txt
