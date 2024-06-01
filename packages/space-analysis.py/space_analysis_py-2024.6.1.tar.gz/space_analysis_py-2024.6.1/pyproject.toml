@@ -1,0 +1,78 @@
+[project]
+name = "space-analysis.py"
+dynamic = []
+description = "Python library for data analysis in space physics"
+authors = [
+    { name = "Beforerr", email = "zzj956959688@gmail.com" },
+]
+requires-python = ">= 3.10, < 3.12"
+dependencies = [
+    "pydantic",
+    "polars",
+    "plasmapy",
+    "astropy",
+    "sunpy",
+    "loguru",
+    "rich",
+    "humanize",
+    "pycdfpp",
+]
+version = "2024.6.1"
+
+[project.optional-dependencies]
+complete = [
+    "space_analysis[io]",
+]
+io = [
+    "pyspedas",
+    "speasy",
+]
+
+[project.urls]
+Homepage = "https://beforerr.github.io/space-analysis.py"
+Repository = "https://github.com/beforerr/space-analysis.py"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "file"
+path = "space_analysis/__init__.py"
+
+[tool.pixi.project]
+channels = [
+    "conda-forge",
+]
+platforms = [
+    "osx-arm64",
+]
+
+[tool.pixi.pypi-dependencies]
+nbdev = "*"
+setuptools = "*"
+jupyter-cache = "*"
+itables = "*"
+pooch = "*"
+pipe = "*"
+ray = "*"
+
+[tool.pixi.pypi-dependencies.space_analysis]
+path = "."
+editable = true
+extras = [
+    "io",
+]
+
+[tool.pixi.dependencies]
+python = "3.11"
+ipykernel = "*"
+scipy = "*"
+cdasws = "*"
+pytables = "*"
+pdr = "*"
+warpx = "*"
+
+[tool.pixi.tasks]
