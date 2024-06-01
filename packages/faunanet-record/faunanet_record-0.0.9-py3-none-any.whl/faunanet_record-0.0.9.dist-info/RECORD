@@ -1,0 +1,12 @@
+faunanet_record/__init__.py,sha256=Q3SapvmKCtk-xJt_l9qGnLe9-LajIypctSSK3Hwxcm8,120
+faunanet_record/audio_recording.py,sha256=Xr4UpzLCCwDENY2B6-uI2ZIMHn2Oy8OUgJYRrWzticg,11178
+faunanet_record/cli.py,sha256=QKTJYUB0N_xcpUWZDHYa1c4iWc5nNd8LpqWIg3xu-bM,2907
+faunanet_record/runner.py,sha256=qX_jB6yliHlOu4zqBpwHQ9WLkln7JBKK3RR9DPPKxQI,6788
+faunanet_record/set_up.py,sha256=i66yjw8Tj3-P-cwdpoe-PH-3XiCYeK_TGFcrr3_TF1g,2634
+faunanet_record/utils.py,sha256=FgSHmeWz4RjUZpSO93j499VD9MkpCIMOLtjLQlvGlJY,2205
+faunanet_record-0.0.9.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+faunanet_record-0.0.9.dist-info/METADATA,sha256=35ENbAisSXkeLqDm7Nir6HpTeOJNnLxQe_jLeuF78E8,14587
+faunanet_record-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+faunanet_record-0.0.9.dist-info/entry_points.txt,sha256=R20FgGczEIzxe2GPqKvL72yhmucTBunUyRWRjSIVCfU,60
+faunanet_record-0.0.9.dist-info/top_level.txt,sha256=5hbnvf3rm0HP1W3dheofP0dUVqcCyIiN05sDExSrouc,16
+faunanet_record-0.0.9.dist-info/RECORD,,
