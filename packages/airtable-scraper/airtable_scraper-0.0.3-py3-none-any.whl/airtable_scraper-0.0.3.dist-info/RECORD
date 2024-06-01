@@ -1,0 +1,11 @@
+airtable_scraper/__init__.py,sha256=P_nSLxfsrLeHwhiqPCtqJUqCcVvFR2z8BqPm03KfXgk,46
+airtable_scraper/_logger_config.py,sha256=xGT36IrfS7aTeMy5xa62tNAEGYGU-OsgBLKHMdxbbW8,273
+airtable_scraper/_models.py,sha256=3wtzeZVfrc6vhSfY4-340Nm5XMGpELTra5OTGV4xa98,1928
+airtable_scraper/airtable_scraper.py,sha256=KsxeVNmwbePELfSWZt0eN_Qs01MmQUG9dYWiD_u6FZY,26409
+airtable_scraper/table_utils.py,sha256=PBLm7_efpcgbJs5WDgqCyztOPLbROjFQLrztnsNJPLA,5699
+airtable_scraper/typing.py,sha256=aLQEf__vWS8ILGt8L6LpTX1Bpev4dfWT3Ly4R9jG79s,2544
+airtable_scraper-0.0.3.dist-info/LICENSE,sha256=j7ls6iGDdJTVF_VuTNVq946jIqb4g0xNSViD19KPs7A,1065
+airtable_scraper-0.0.3.dist-info/METADATA,sha256=YoEQYMhthMAootEmeSOIcwx79TvkCX6QKEaYmIrbbEI,4232
+airtable_scraper-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+airtable_scraper-0.0.3.dist-info/top_level.txt,sha256=Sw5g0MKyUZF-pJmf2xNhhN_sFr1-Lk3J3FemahBSdFs,17
+airtable_scraper-0.0.3.dist-info/RECORD,,
