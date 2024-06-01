@@ -1,0 +1,14 @@
+hkl
+numpy
+ophyd
+packaging
+pint
+
+[all]
+hklpy2[hkl_soleil,tests]
+
+[hkl_soleil]
+pygobject
+
+[tests]
+packaging
