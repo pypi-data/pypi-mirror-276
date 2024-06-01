@@ -1,0 +1,18 @@
+{
+    "metadata": {
+        "name": "examples_png/iron_core",
+        "timestamp": "2024-05-18 19:46:03.918129"
+    },
+    "mesher": {
+        "n_total": 4693,
+        "n_used": 2365
+    },
+    "solver": {
+        "sim_default": {
+            "freq": 1000.0,
+            "has_converged": true,
+            "P_tot": 0.00017112648479868924,
+            "W_tot": 1.4045390585068404e-08
+        }
+    }
+}
