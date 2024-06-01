@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ccxt_portfolio_pro.egg-info/PKG-INFO
+ccxt_portfolio_pro.egg-info/SOURCES.txt
+ccxt_portfolio_pro.egg-info/dependency_links.txt
+ccxt_portfolio_pro.egg-info/requires.txt
+ccxt_portfolio_pro.egg-info/top_level.txt
+lib/__init__.py
