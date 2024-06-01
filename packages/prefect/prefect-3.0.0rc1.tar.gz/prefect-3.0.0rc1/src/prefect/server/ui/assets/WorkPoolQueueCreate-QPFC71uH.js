@@ -1,0 +1,2 @@
+import{d as l,W as n,c as s,f as a,g as u,o as p,h as t,i as o,dd as m,de as c}from"./index-BOEdKJ1D.js";import{u as _}from"./usePageTitle-BkurcLK2.js";const P=l({__name:"WorkPoolQueueCreate",setup(d){const e=n("workPoolName");return _("Create Work Pool Queue"),(f,k)=>{const r=u("p-layout-default");return p(),s(r,null,{header:a(()=>[t(o(m),{"work-pool-name":o(e)},null,8,["work-pool-name"])]),default:a(()=>[t(o(c),{"work-pool-name":o(e)},null,8,["work-pool-name"])]),_:1})}}});export{P as default};
+//# sourceMappingURL=WorkPoolQueueCreate-QPFC71uH.js.map
