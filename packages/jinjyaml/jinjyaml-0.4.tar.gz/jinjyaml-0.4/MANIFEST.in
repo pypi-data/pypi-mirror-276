@@ -1,0 +1,10 @@
+exclude .*
+exclude *.requirements.txt
+
+prune .*
+prune src/*.egg-info
+
+prune docs
+prune tests
+
+exclude sonar-project.properties
