@@ -1,0 +1,2 @@
+[console_scripts]
+punchboot = punchboot.__main__:cli
