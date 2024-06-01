@@ -1,0 +1,912 @@
+Python-Based CLI Animal Well Savegame Editor
+============================================
+
+`animalwellsave` is a save editor (and data backend) for editing
+[Animal Well](https://store.steampowered.com/app/813230/ANIMAL_WELL/) savegames.
+It supports editing nearly everything stored in the savegames.  In addition
+to the editing features you'd expect, it's got some features you might not
+expect, including:
+
+ - Importing/Exporting specific slots
+ - Setting the Bunny Mural to its default, solved, or cleared state
+ - Forcing Kangaroo spawns to a specific room
+ - Respawning consumables (fruit, firecrackers) on the map
+ - Clearing ghosts / Lighting Candles
+ - Clearing out "illegal" pink-button presses (acquired via cheating) to
+   avoid future savefile corruption
+ - Image import/export to/from the "pencil" map layer
+
+Table of Contents
+-----------------
+
+ - [Overview](#overview)
+ - [Running / Installation](#running--installation)
+   - [Easiest Method: pip](#easiest-method-pip)
+   - [Git Checkout (the proper way)](#git-checkout-the-proper-way)
+   - [Git Checkout (the lazy way)](#git-checkout-the-lazy-way)
+ - [TODO](#todo)
+ - [Usage](#usage)
+   - [Showing Save Info](#showing-save-info)
+   - [Checksum](#checksum)
+   - [Choose Slot](#choose-slot)
+   - [Import/Export Slots](#importexport-slots)
+   - [Frame Seed](#frame-seed)
+   - [Global Unlocks (Figurines, etc)](#global-unlocks-figurines-etc)
+   - [Health](#health)
+   - [Spawnpoint](#spawnpoint)
+   - [Steps](#steps)
+   - [Deaths](#deaths)
+   - [Bubbles Popped](#bubbles-popped)
+   - [Berries Eaten While Full](#berries-eaten-while-full)
+   - [Game Ticks (Elapsed Time)](#game-ticks-elapsed-time)
+   - [Wings (Flight)](#wings-flight)
+   - [Firecrackers](#firecrackers)
+   - [Keys / Matches](#keys--matches)
+   - [Equipment](#equipment)
+   - [Map Unlocks](#map-unlocks)
+   - [B.B. Wand](#bb-wand)
+   - [Egg 65](#egg-65)
+   - [Cheater's Ring](#cheaters-ring)
+   - [Progress/Quests](#progressquests)
+   - [Caged Cats](#caged-cats)
+   - [Kangaroo Room](#kangaroo-room)
+   - [K. Shards](#k-shards)
+   - [Animal Head Teleporters](#animal-head-teleporters)
+   - [Bunny Mural](#bunny-mural)
+   - [Flames](#flames)
+   - [Manticores](#manticores)
+   - [Teleportation Torus](#teleportation-torus)
+   - [Eggs](#eggs)
+   - [Bunnies](#bunnies)
+   - [Respawn Consumables](#respawn-consumables)
+   - [Ghosts](#ghosts)
+   - [Squirrels](#squirrels)
+   - [Buttons](#buttons)
+   - [Doors / Walls](#doors--walls)
+   - [Chests](#chests)
+   - [Candles](#candles)
+   - [Water Reservoirs](#water-reservoirs)
+   - [Detonators](#detonators)
+   - [Destroyed Tiles](#destroyed-tiles)
+   - [Minimap](#minimap)
+   - [Map Marks](#map-marks)
+   - [Pencil Images](#pencil-images)
+ - [Library](#library)
+ - [Changelog](#changelog)
+ - [License](#license)
+
+Overview
+--------
+
+The utility seems quite safe to use -- I've not ever experienced any problems
+with it.  But make sure to bakup your saves before using this!
+
+Work on decoding the savegame structure has mostly been done by
+[Kein](https://github.com/Kein/), [just-ero](https://github.com/just-ero),
+lipsum, and myself.  My own contributions were mostly at the beginning of
+the process; Kein, just-ero, and lipsum have been responsible for the
+majority of the save format at this point.  Many thanks to them for filling
+things out!
+
+A complete mapping of the savegame data can be found at
+[Kein's awsgtools repo](https://github.com/Kein/awsgtools).  At time of
+writing the primary format there is an
+[010 Editor](https://www.sweetscape.com/010editor/) binary template
+plus an [ImHex](https://imhex.werwolv.net/) pattern.  Other translations
+may become available over time.  A human-readable document describing the
+save format can be found [at the wiki of that repo](https://github.com/Kein/awsgtools/wiki/Format-Description)
+as well, though that document might lag behind the official templates.
+
+Running / Installation
+----------------------
+
+### Easiest Method: pip
+
+The easiest way to install `animalwellsave` is via `pip` inside a [virtual
+environment](https://docs.python.org/3/library/venv.html).  On Unix/Mac:
+
+    cd /wherever/you/want/to/keep/the/virtualenv
+    python -m venv virtualenv_dir
+    source virtualenv_dir/bin/activate
+    pip install animalwellsave
+
+Or on Windows:
+
+    cd \wherever\you\want\to\keep\the\virtualenv
+    python -m venv virtualenv_dir
+    virtualenv_dir\Scripts\activate
+    pip install animalwellsave
+
+To also pull in the dependencies necessary to support importing/exporting
+images into the "pencil" minimap layer, you can alternately specify this
+for the installation line:
+
+    pip install animalwellsave[PencilImages]
+
+Once installed, there will be an `awsave` command available to run, like so:
+
+    awsave --help
+
+### Git Checkout (the proper way)
+
+The app can also be run right from a git checkout.  The "correct" way to 
+do this is with a virtual environment using
+["editable" mode](https://setuptools.pypa.io/en/latest/userguide/development_mode.html).
+From the main project checkout dir (example here is for Unix/MacOS; the
+activation line is different for Windows -- see above):
+
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install --editable .
+
+To install the dependencies needed for importing/exporting images to the
+"pencil" minimap layer, you can run:
+
+    pip install -r image-requirements.txt
+
+Once done, you should be able to run the `awsave` command as usual:
+
+    awsave --help
+
+### Git Checkout (the lazy way)
+
+Alternatively, if you want to run it directly from a git checkout *without*
+setting up a virtual environment and setting it to editable mode, you can
+just use the shortcut `awsave.py` script right in the main dir:
+
+    ./awsave.py --help
+
+Or, you can call the cli module directly:
+
+    python -m animalwellsave.cli --help
+
+TODO
+----
+
+The editor currently does not attempt to support *everything* inside the
+savegames.  Some notable bits of data which can't be edited directly:
+
+ - Crank status
+ - Elevator status
+ - Stalactite/Stalagmite/Icicle destruction
+ - "Illegal" Bunnies
+ - Some seemingly-unimportant flags have been omitted from a few areas
+ - Achievements *(unsure if setting these in the save would actually make
+   them activate on Steam)*
+ - Game Options
+
+While I don't have any current plans to support the above, there are a
+few other things which would be nice eventually:
+
+ - Mapping chests to their unlocks, so unlocking eggs (for instance) would
+   mark the relevant chests as opened.  Vice-versa for disabling unlocks;
+   it'd be nice to close the associated chest so it could be re-acquired.
+   At the moment, chest opening/closing is all-or-nothing.
+ - Similarly, mapping buttons/reservoirs to which doors they open would be
+   nice, to be able to couple those a bit more closely.  At the moment,
+   button/door states are all-or-nothing.
+
+Usage
+-----
+
+Here is a detailed list of all the arguments available on the CLI editor.
+Note that these arguments can be chained together pretty much as long as
+you want.  For instance:
+
+    awsave AnimalWell.sav -i -s 0 --equip-enable all --inventory-enable pack --firecrackers 6 --upgrade-wand
+
+### Showing Save Info
+
+To show information about the save, including for any chosen slots, use
+`-i`/`--info`:
+
+    awsave AnimalWell.sav -i
+    awsave AnimalWell.sav --info
+
+### Checksum
+
+The `--fix-checksum` option can be used to fix the savegame's checksum without
+changing anything else.  (The utility will automatically update the checksum if
+any other changes are made to the file.)  If the save has an invalid checksum,
+Animal Well will spawn a Manticore friend to follow you around, so this can be
+used to fix it in case any manual hex editing has been going on.
+
+    awsave AnimalWell.sav --fix-checksum
+
+If you wanted to *intentionally* force an invalid checksum, because you'd like
+a Manticore friend to go exploring with, you can use the `--invalid-checksum`
+argument.  If that's the *only* save-edit you want to do, you'll have to specify
+the `--fix-checksum` argument as well:
+
+    awsave AnimalWell.sav --fix-checksum --invalid-checksum
+
+### Choose Slot
+
+Most options in the editor operate on slot data, so this argument is generally
+necessary.  `-s` or `--slot` can be used for this, to choose
+a specific slot (`1`, `2`, or `3`), or to operate on *all* slots by
+choosing `0`.
+
+    awsave AnimalWell.sav -i -s 1
+    awsave AnimalWell.sav --info --slot 2
+
+Note that a few arguments (namely `--import-slot` and `--export-slot`)
+do not allow using `0` to specify "all slots."
+
+### Import/Export Slots
+
+Slot data can be imported or exported to allow transferring slots without
+also transferring "global" data (like collected figurines, or game options).
+For example, to export slot 2 into the file `slot2.dat` with the
+`--export`/`--export-slot` option:
+
+    awsave AnimalWell.sav -s 2 --export slot2.dat
+
+Then that file could be imported into another slot with the `--import`/`--import-slot`
+option:
+
+    awsave AnimalWell.sav -s 3 --import slot2.dat
+
+Note that the only data checking the import process does is to ensure that
+the file being imported is exactly the right filesize (149,760 bytes).
+
+If the filename you attempt to export to already exists, this app will
+prompt you if you want to overwrite.  To force overwriting without any
+interactive prompt, use the `-f`/`--force` option:
+
+    awsave AnimalWell.sav -s 2 --export slot2.dat -f
+
+### Frame Seed
+
+The "frame seed" is presumably used for various randomizations in the
+game, but the most noticeable effect is to determine which Bunny Mural
+segment is presented to the user.  The mural segment shown is the frame
+seed modulo 50, so you could theoretically get all of the segments
+yourself by editing this value 50 times.  `--frame-seed` can be used
+to alter the value:
+
+    awsave AnimalWell.sav --frame-seed 42
+
+### Global Unlocks (Figurines, etc)
+
+Some items unlocked in the game apply to all slots, such as the stopwatch,
+pedometer, pink phones, and the various figurines which show up in the House.
+The `--globals-enable` and `--globals-disable` arguments can be used to
+toggle the various states.  The special value `all` can be used to toggle
+all of them at once, and the argument can be specified multiple times.
+
+    awsave AnimalWell.sav --globals-disable stopwatch --globals-disable pedometer
+    awsave AnimalWell.sav --globals-enable all
+
+Valid values are: `stopwatch`, `pedometer`, `pink_phone`, `souvenir_cup`,
+`origami`, `two_rabbits`, `owl`, `cat`, `fish`, `donkey`, `deco_rabbit`,
+`mama_cha`, `giraffe`, `incense`, `peacock`, `otter`, `duck`, `all`.
+
+### Health
+
+Player health can be set with the `--health` option.  Note that this is the
+total number of hearts, which includes your base health, any gold hearts,
+and any "extra" blue hearts.  The game's maximum is probably 12, though I
+haven't actually tested beyond that.
+
+    awsave AnimalWell.sav -s 1 --health 8
+
+Relatedly, gold hearts can be added with the `--gold-hearts` option:
+
+    awsave AnimalWell.sav -s 1 --health 12 --gold-hearts 4
+
+### Spawnpoint
+
+The player's spawnpoint is stored in the game by room coordinates, and can
+be set with the `--spawn` argument.  The upper-left room is at coordinate
+2,4.  If there is a phone in the room that has been specified, the player
+will spawn near the phone.  Otherwise, the player spawns in the upper-left-most
+available spot in the room.
+
+    awsave AnimalWell.sav -s 1 --spawn 11,11
+
+### Steps
+
+You can set the number of steps the player has walked with the `--steps`
+argument:
+
+    awsave AnimalWell.sav -s 1 --steps 42
+
+The ingame pedometer rolls over to 0 after hitting 99,999.
+
+### Deaths
+
+You can set the number of recorded deaths using the `--deaths` option:
+
+    awsave AnimalWell.sav -s 1 --deaths 0
+
+### Saves
+
+You can set the number of saves that the player has performed using the
+`--saves` option.  Note that the minimum legal value here is 1, since
+the slot data will not be populated on-disk until the first savegame.
+
+    awsave AnimalWell.sav -s 1 --saves 1
+
+### Bubbles Popped
+
+The number of your B.Wand bubbles which have been popped by hummingbirds
+can be altered with the `--bubbles-popped` argument:
+
+    awsave AnimalWell.sav -s 1 --bubbles-popped 42
+
+### Berries Eaten While Full
+
+The number of berries you've eaten while at full health can be altered
+with the `--berries-eaten-while-full` argument:
+
+    awsave AnimalWell.sav -s 1 --berries-eaten-while-full 10
+
+### Game Ticks (Elapsed Time)
+
+The game keeps track of how many "ticks" have elapsed since the beginning
+of the game.  The game runs at 60fps, so this value is *not* actually in
+milliseconds.  There are technically two fields for this: one value which
+is *just* ingame time (which does not seem to be used anywhere), and
+another which includes all the time spent in "pause" menus.  There are
+two arguments related to ticks.  First, `--ticks-copy-ingame` can be
+used to copy your "ingame" counter over to the "including paused" counter,
+in case you feel that your speed effort is being unfairly held back by
+pausing:
+
+    awsave AnimalWell.sav -s 1 --ticks-copy-ingame
+
+Alternatively, you can just set the numeric value for both at the same
+time using `--ticks`:
+
+    awsave AnimalWell.sav -s 1 --ticks 0
+
+### Wings (Flight)
+
+A very late-game unlock gives you the ability to sprout wings and fly
+around very quickly, by double-jumping.  This can be enabled or disabled
+using `--wings-enable` and `--wings-disable`:
+
+    awsave AnimalWell.sav -s 1 --wings-enable
+    awsave AnimalWell.sav -s 1 --wings-disable
+
+### Firecrackers
+
+Your player firecracker count can be set with the `--firecrackers` argument.
+Setting this to a value greater than zero will also unlock the Firecracker
+equipment, if it's not already unlocked.
+
+    awsave AnimalWell.sav -s 1 --firecrackers 3
+
+### Keys / Matches
+
+Keys and Matches can be set using the `--keys` and `--matches` arguments.
+Note that the keys here are the "generic" ones which show up on the left in your
+inventory.  The maximum numbers available ingame are 6 keys, and 9 matches.
+
+    awsave AnimalWell.sav -s 1 --keys 6 --matches 9
+
+### Equipment
+
+Equipment is the various items you directly use throughout the game, like
+Firecrackers, B. Wand, Disc, etc.  These can be individually toggled on or off
+using the `--equip-enable` and `--equip-disable` arguments.  Those can be specified
+more than once, and you can also use `all` as a special option to process all at
+once.
+
+    awsave AnimalWell.sav -s 1 --equip-enable all
+    awsave AnimalWell.sav -s 1 --equip-disable disc --equip-disable yoyo
+
+Valid values are: `firecracker`, `flute`, `lantern`, `top`, `disc`, `wand`,
+`yoyo`, `slink`, `remote`, `ball`, `wheel`, `uvlight`, `all`.
+
+Note that whenever you toggle the Disc state using this option, the game will
+by default attempt to set the game's quest states appropriately, to avoid having
+you get chased by a ghost dog.  This can end up changing where the Mock Disc is
+in the gameworld.  When giving yourself the Disc, there are two valid game states:
+one with the Mock Disc in the initial dog head statue, and the other with the
+Mock Disc in the M. Disc Shrine.  By default, the quest-correction will set the
+game to the dog-head-statue state, but you can have it put the Mock Disc in the
+shrine instead with `--prefer-disc-shrine-state`:
+
+    awsave AnimalWell.sav -s 1 --equip-enable disc --prefer-disc-shrine-state
+
+Alternatively, you can disable the auto-fix attempt entirely using the
+`--dont-fix-disc-state` argument, in case you want to have a doggo friend to
+keep you company (or if you're editing the quest states yourself later):
+
+    awsave AnimalWell.sav -s 1 --equip-enable disc --dont-fix-disc-state
+
+### Map Unlocks
+
+The various map-feature unlocks can be enabled using the `--map-enable` argument.
+The special value `all` can be used to unlock all three at once:
+
+    awsave AnimalWell.sav -s 1 --map-enable all
+
+Valid values are: `unlock_map`, `unlock_stamps`, `unlock_pencil`, `all`.
+
+### B.B. Wand
+
+The B. Wand can be upgraded to the B.B. Wand (or downgraded back) using
+`--upgrade-wand` and `--downgrade-wand`:
+
+    awsave AnimalWell.sav -s 1 --upgrade-wand
+    awsave AnimalWell.sav -s 1 --downgrade-wand
+
+### Egg 65
+
+Egg 65 can be enabled or disabled in your inventory using `--egg65-enable` and
+`--eg65-disable`:
+
+    awsave AnimalWell.sav -s 1 --egg65-enable
+    awsave AnimalWell.sav -s 1 --egg65-disable
+
+### Cheater's Ring
+
+The Cheater's Ring can be enabled or disabled in your inventory using
+`--cring-enable` and `--cring-disable`:
+
+    awsave AnimalWell.sav -s 1 --cring-enable
+    awsave AnimalWell.sav -s 1 --cring-disable
+
+### Progress/Quests
+
+There are two fields in the savegame which relate to progress / quests.
+I honestly wasn't sure what to call the first one -- it includes some very
+early-game flags like "game started" and "ready to hatch," but then also
+includes a very late-game flag when the House Key drops after defeating the
+first Manticore.  The field is totally separate from the main "quest" area.
+So, I settled on "progress." Apart from the House Key drop, the only other flag
+the editor supports is the one that enables your HP Bar to be shown on the
+screen.  The arguments to edit this field are `--progress-enable` and
+`--progress-disable`.  The special value `all` can be used to process all
+(well, both) at once:
+
+    awsave AnimalWell.sav -s 1 --progress-enable all
+    awsave AnimalWell.sav -s 1 --progress-disable hp_bar
+
+Valid values are: `hp_bar`, `house_key`, `all`.
+
+The *main* field which defines progress/quest information is rather more
+complete.  This can be altered with `--quest-state-enable` and
+`--quest-state-disable`.  As with other options of this sort, it can be specified
+more than once, and the special value `all` can be used to operate on them all at
+once.
+
+    awsave AnimalWell.sav -s 1 --quest-enable house_open --quest-enable office-open
+    awsave AnimalWell.sav -s 1 --quest-disable all
+
+Valid values are: `house_open`, `office_open`, `closet_open`, `unlock_map`,
+`unlock_stamps`, `unlock_pencil`, `defeated_chameleon`, `cring`,
+`used_s_medal`, `used_e_medal`, `wings`, `bb_wand`, `egg_65`, `torus`,
+`defeated_bat`, `freed_ostrich`, `defeated_ostrich`, `fighting_eel`,
+`defeated_eel`, `shrine_no_disc`, `statue_no_disc`, `all`.
+
+Note that all the flags in this area aren't *really* intended to be altered
+by hand; it's best to stick to the more formalized options elsewhere.  For
+instance, there are specific arguments to manage the B.B. Wand, Egg 65,
+Cheater's Ring, Teleportation Torus, Wings, and Map Data.  Still, if you
+wanted to tweak any of these by hand here, they're available.
+
+### Caged Cats
+
+The caged-cat/mother-lynx puzzle state can be set with the `--cats-free` and
+`--cats-cage` arguments.  This can be specified more than once, or you can use
+the special `all` value to operate on all at the same time:
+
+    awsave AnimalWell.sav -s 1 --cats-free all
+    awsave AnimalWell.sav -s 1 --cats-cage cat_14_19_1 --cats-cage cat_14_19_2
+
+Valid values are: `cat_16_18_1`, `cat_16_18_2`, `cat_16_18_3`, `cat_14_19_1`,
+`cat_14_19_2`, `wheel`, `all`.  Note that the `wheel` entry controls whether
+or not the wheel-chest cage is open, in the Mother Lynx's lair.  The names of
+the cat cage values correspond with the room coordinates in which they're found.
+
+### Kangaroo Room
+
+The room in which the kangaroo next spawns can be set with the `--kangaroo-room`
+argumnent.  The rooms are numbered from 0 to 4, and correspond to the following
+coordinates:
+
+0. 6, 6
+1. 9, 11
+2. 12, 11
+3. 9, 13
+4. 16, 16
+
+The coordinates are set by the numeric index:
+
+    awsave AnimalWell.sav -s 1 --kangaroo-room 0
+
+Note that the kangaroo will likely be immediately hostile once you enter the
+room.
+
+### K. Shards
+
+The state of K. Shard collection can be set with the `--kshard-collect` and
+`--kshard-insert` arguments.  Only one can be specified at a time, and they
+set up the data to force a specific count of shards collected (ie: in your
+inventory) or inserted (placed in the circular recess).  This will overwrite
+any existing state; if you've collected two shards already and specify that
+you want 1 inserted, you will be left with a single inserted shard and none
+in your inventory.
+
+    awsave AnimalWell.sav -s 1 --kshard-collect 2
+    awsave AnimalWell.sav -s 1 --kshard-insert 3
+
+### Animal Head Teleporters
+
+You can enable/disable the animal head teleporters using the `--teleport-enable`
+and `--teleport-disable` arguments.  The arguments can be specified more than
+once, and you can use the special `all` value to operate on all at once.
+
+    awsave AnimalWell.sav -s 1 --teleport-enable bird --teleport-enable bear
+    awsave AnimalWell.sav -s 1 --teleport-disable all
+
+Valid values are: `frog`, `fish`, `bear`, `dog`, `bird`, `squirrel`, `hippo`,
+`all`.
+
+### Bunny Mural
+
+The Bunny Mural state can be set via a few options, though they are all just
+hardcoded images.  You can set the mural to its default state, to be entirely
+"blank" (ie: just the "background" color), or to its solved state.  Note that
+the reward wall will *not* open in the solved state unless you head to the
+control panel and set one pixel.  (Though the wall can be opened with other
+options in the editor.)
+
+    awsave AnimalWell.sav -s 1 --mural-default
+    awsave AnimalWell.sav -s 1 --mural-clear
+    awsave AnimalWell.sav -s 1 --mural-solved
+
+### Flames
+
+The four flame states can be set using the `--flame-collect` and `--flame-use`
+arguments.  Each of those can be specified more than once, or use the special
+`all` value to operate on all at once.  `--flame-collect` will merely put the
+flame in your inventory, whereas `--flame-use` will put the flame in its
+respective pedestal.
+
+    awsave AnimalWell.sav -s 1 --flame-collect p --flame-collect g
+    awsave AnimalWell.sav -s 1 --flame-use all
+
+Valid values are: `b`, `p`, `v`, `g`, `all`.
+
+### Manticores
+
+The two manticore states can be set using the `--blue-manticore` and
+`--red-manticore` arguments.  They just have one of three states: `default`,
+`overworld`, or `space`.  Their default state is basically not being
+present until you get to the Manticore Arena area (or set up the 65th
+Egg).  In "Overworld" state they will chase you around, and in "Space"
+state they'll be friendly up on Bunny Island.
+
+    awsave AnimalWell.sav -s 1 --blue-manticore overworld --red-manticore space
+
+### Teleportation Torus
+
+The teleportation torus (two rooms right of the house/office) can be
+toggled on/off with `--torus-enable` and `--torus-disable`:
+
+    awsave AnimalWell.sav -s 1 --torus-enable
+    awsave AnimalWell.sav -s 1 --torus-disable
+
+### Eggs
+
+Collected eggs can be enabled or disabled with the `--egg-enable` and
+`--egg-disable` arguments.  The arguments can be specified more than once,
+and the special value `all` can be used to operate on all eggs at once.
+
+    awsave AnimalWell.sav -s 1 --egg-enable all
+    awsave AnimalWell.sav -s 1 --egg-disable zen --egg-disable ice
+
+Note that this does *not* include the 65th Egg.
+
+### Bunnies
+
+Collected bunnies can be enabled or disabled with the `--bunny-enable`
+and `--bunny-disable` arguments.  The arguments can be specified more
+than once, and the special value `all` can be used to operate on all
+bunnies at once.
+
+    awsave AnimalWell.sav -s 1 --bunny-enable floor_is_lava --bunny-enable dream
+    awsave AnimalWell.sav -s 1 --bunny-disable all
+
+This argument can't be used to collect the various "illegal" bunnies
+hidden around the map (or just in game data).
+
+### Respawn Consumables
+
+Ordinarily, fruit and firecrackers only respawn in the game world when you
+die.  The `--respawn-consumables` option will make them all reappear without
+having to do so:
+
+    awsave AnimalWell.sav -s 1 --respawn-consumables
+
+### Ghosts
+
+Like with consumables, scared ghosts will stay scared until you die, at
+which point they will respawn (unless a lit candle is keeping them away).
+The `--clear-ghosts` and `--respawn-ghosts` arguments can be used to
+frighten them all off, and cause them to respawn early, respectively:
+
+    awsave AnimalWell.sav -s 1 --clear-ghosts
+    awsave AnimalWell.sav -s 1 --respawn-ghosts
+
+### Squirrels
+
+Frightened squirrels can be respawned onto the map with the
+`--respawn-squirrels` argument:
+
+    awsave AnimalWell.sav -s 1 --respawn-squirrels
+
+### Buttons
+
+All of the pressable buttons in the game can be pressed or released as
+a group using the `--buttons-press` and `--buttons-reset` arguments.  This
+will process yellow (regular), purple (transient), green (machine control),
+and pink (hidden) buttons.  For Pink buttons, the utility will *only*
+toggle "legitimate" buttons which the user is expected to be able to find.
+The "illegal" buttons associated with hidden bunnies will *not* be
+pressed.
+
+    awsave AnimalWell.sav -s 1 --buttons-press
+    awsave AnimalWell.sav -s 1 --buttons-reset
+
+Note that resetting buttons will *not* automatically cause their related
+doors/walls to revert to the closed state.  Pressing buttons *will* cause
+doors/walls to open once you enter the room, though, if they weren't
+already open.
+
+### Doors / Walls
+
+There are five categories of openable doors/walls in the game:
+
+1. "Regular" doors which are opened via button presses, water reservoirs,
+   or other environmental puzzles.  These can be toggled with the
+   `--doors-open` and `--doors-close` arguments.
+2. "Lockable" doors which require a key in your inventory to unlock.
+   There are six of these throughout the game map.  They can be toggled
+   with the `--lockable-unlock` and `--lockable-lock` arguments.
+3. The four doors in the Egg Chamber which ordinarily only open once you
+   have collected a minimum number of eggs.  These can be toggled with
+   the `--eggdoor-open` and `--eggdoor-close` arguments.
+4. Walls which function like doors, most typically encountered via pink
+   buttons or other late-game bunny puzzles, etc.  These can be toggled
+   with the `--walls-open` and `--walls-close` arguments.
+5. Other "special" doors like the House/Office/Closet doors, whose states
+   are mostly controlled via the [progress/quest options](#progressquests)
+   and aren't enumerated here.
+
+For "regular" doors in the game, note that if the buttons/puzzles which
+opened them originally are still pressed/solved, entering the room after
+closing them will just cause them to re-open again.  Regardless, they can
+be opened/closed like so:
+
+    awsave AnimalWell.sav -s 1 --doors-open
+    awsave AnimalWell.sav -s 1 --doors-close
+
+Likewise, lockable doors can be opened/closed with:
+
+    awsave AnimalWell.sav -s 1 --lockable-unlock
+    awsave AnimalWell.sav -s 1 --lockable-lock
+
+Egg Chamber doors work a little differently.  Instead of being all-or-nothing,
+they can be toggled individually, and the special value `all` can be used
+to operate on all at once:
+
+    awsave AnimalWell.sav -s 1 --eggdoor-open all
+    awsave AnimalWell.sav -s 1 --eggdoor-close first --eggdoor-close third
+
+Valid values are: `first`, `second`, `third`, `fourth`, `all`.
+
+Moveable walls can be opened/closde like so:
+
+    awsave AnimalWell.sav -s 1 --walls-open
+    awsave AnimalWell.sav -s 1 --walls-close
+
+Finally, using the Cheater's Ring (or any other noclip cheating activity) can
+allow the player to access "illegal" pink buttons which can cause extra walls
+to open up in the game.  At time of writing, there's a bug in the game where
+opening too many of these can end up causing savefile corruption while in-game,
+so they are best avoided.  If you had triggered one or more of these in the
+past, they can be cleaned up with the `--clear-invalid-walls` argument.  This
+will clean up both the moveable-wall entries and the pink button presses as
+well.  Note that this *cannot* fix an already-corrupted save, but it could at
+least prevent a save from being corrupted after some of those pink buttons were
+already hit:
+
+    awsave AnimalWell.sav -s 1 --clear-invalid-walls
+
+### Chests
+
+All chests in the game can be opened/closed using the `--chests-open` and
+`--chests-close` arguments.  Note that merely opening a chest does *not* provide
+you with the item that the chest provided!
+
+    awsave AnimalWell.sav -s 1 --chests-open
+    awsave AnimalWell.sav -s 1 --chests-close
+
+### Candles
+
+Candles throughout the game can be individually lit or blown out using the
+`--candles-enable` and `--candles-disable` arguments.  These arguments can be
+specified more than once, and the special value `all` can be used to operate on
+all candles at once:
+
+    awsave AnimalWell.sav -s 1 --candles-enable all
+    awsave AnimalWell.sav -s 1 --candles-disable room_06_07 --candles-disable room_10_13
+
+Valid values are: `room_04_06`, `room_08_06`, `room_04_07`, `room_06_07`,
+`room_06_09`, `room_15_09`, `room_05_13`, `room_10_13`, `room_16_13`, `all`.
+The numbers in the value names refer to the room coordinates containing the
+candle.
+
+### Water Reservoirs
+
+The five water reservoirs in the game can be all filled up or emptied using the
+`--reservoirs-fill` and `--reservoirs-empty` arguments:
+
+    awsave AnimalWell.sav -s 1 --reservoirs-fill
+    awsave AnimalWell.sav -s 1 --reservoirs-empty
+
+### Detonators
+
+The various detonators around the map can be triggered or re-armed using the
+`--detonators-activate` and `--detonators-rearm` arguments:
+
+    awsave AnimalWell.sav -s 1 --detonators-activate
+    awsave AnimalWell.sav -s 1 --detonators-rearm
+
+Note that merely re-arming a detonator will not automatically rebuild the
+destroyed tiles from the original explosion.  To spawn those back in, you can
+use the `--respawn-destroyed-tiles` argument (see below).
+
+### Destroyed Tiles
+
+Tiles in the game can get destroyed in a variety of ways, such as the
+Top/Yoyo, detonators, Manticore laser beams, etc.  To respawn all destroyed
+tiles in the map, you can use the `--respawn-destroyed-tiles` argument:
+
+    awsave AnimalWell.sav -s 1 --respawn-destroyed-tiles
+
+### Minimap
+
+The minimap can be revealed or cleared using the `--reveal-map` and `--clear-map`
+arguments:
+
+    awsave AnimalWell.sav -s 1 --reveal-map
+    awsave AnimalWell.sav -s 1 --clear-map
+
+Note that the fully-revealed map will look different than a "naturally"
+fully-revealed minimap, because all of the "inner" wall space will be filled
+in.  When the game itself reveals the minimap, it stops right at the wall
+boundaries.
+
+### Map Marks
+
+The user-made marks to the map using the pencil and stamps can be cleared using
+the `--clear-pencil` and `--clear-stamps` options, respectively:
+
+    awsave AnimalWell.sav -s 1 --clear-pencil
+    awsave AnimalWell.sav -s 1 --clear-stamps
+
+### Pencil Images
+
+**Note:** These functions require that the [Python Imaging Library
+(Pillow)](https://python-pillow.org/) is installed.  If that library isn't
+available, these options won't be present.
+
+This utility can import images onto the minimap pencil layer using the
+`--pencil-image-import` argument, and export the current pencil layer
+into a graphics file using the `--pencil-image-export` argument.  When
+importing, the image will be scaled down to the minimap native resolution with
+no regard to aspect ratio (if needed), and dithered into a monochrome image
+(also if needed).  Passing a 1-bit image with the exact correct dimensions
+should result in importing without any resizing or conversion.
+
+The minimap technically includes an "empty" border around the confines of the
+playable map area, and by default this pencil-image import will consume that
+entire space, which is 800x528.  You can specify the `--pencil-image-playable`
+argument to restrict the import size to the borders of the playable area
+instead, which is 640x352.
+
+    awsave AnimalWell.sav -s 1 --pencil-image-import bunnies.jpg
+    awsave AnimalWell.sav -s 1 --pencil-image-import bunnies.jpg --pencil-image-playable
+
+![Pencil Image Import Results](aw_minimap_bunnies.jpg)
+
+The imported image can be inverted by specifying `--pencil-image-invert`, in
+case your image would look better that way:
+
+    awsave AnimalWell.sav -s 1 --pencil-image-import bunnies.jpg --pencil-image-invert
+
+For exporting to a graphics file, the utility should understand most common
+image format by its extension, and write the appropriate format:
+
+    awsave AnimalWell.sav -s 1 --pencil-image-export output1.jpg
+    awsave AnimalWell.sav -s 1 --pencil-image-export output2.png
+
+If the export file already exists, the utility will prompt you to overwrite.  To
+automatically overwrite without any interactive prompt, use the `-f`/`--force`
+option:
+
+    awsave AnimalWell.sav -s 1 --pencil-image-export output.jpg -f
+
+Library
+-------
+
+The data backend should be easily usable on its own, for anyone wishing
+to make programmatic changes, or write other frontends.  At the moment
+the best docs are just browsing through the code.  I apologize for my
+frequent PEP-8 violations, lack of typing hints, and idiosyncratic
+coding habits, etc.
+
+A quick example of the kinds of things that would be possible:
+
+```py
+from animalwellsave.savegame import Savegame, Equipment, Equipped
+
+with Savegame('AnimalWell.sav') as save:
+    slot = save.slots[0]
+    print(f'Editing slot {slot.index+1} ({slot.timestamp})...')
+    print('Current equipment unlocked:')
+    for equip in sorted(slot.equipment.enabled):
+        print(f' - {equip}')
+    slot.num_steps.value = 15
+    slot.equipment.disable(Equipment.DISC)
+    slot.equipment.enable(Equipment.WHEEL)
+    slot.selected_equipment.value = Equipped.WHEEL
+    save.save()
+```
+
+See also `animalwellsave/cli.py`, which is probably the best place to look for
+examples of interacting with the data.
+
+The objects are set up to allow both defining consecutive fields within
+the savefile (without specifying manual offsets), and also skipping around
+using manual offsets.  When offsets are specified, they are computed relative
+to the "parent" object -- so for instance, the absolute offsets used in
+the `Slot` class are relative to the start of the slot.  The fields created
+while looping through the file are all subclasses of the base `datafile.Data`
+class, which will end up computing and storing the *absolute* offset
+internally.  The save data is mirrored in an internal `io.BytesIO` object,
+which is where all changes are written.  It will not actually write back out
+to disk until a `save()` call has been sent.
+
+The data objects (subclasses of `datafile.Data`) try to be easy to read, and
+can be interpreted as strings or in format strings, etc.  Subclasses of
+`NumData` can often be used just as if they are numbers, supporting various
+numerical overloads.  Bitfield classes can generally be acted on like
+arrays, at least in terms of looping through the options.  `NumBitfieldData`
+keeps an `enabled` set for ease of checking which members are enabled.
+
+*Setting* new data should often be done via the `value` property rather than
+setting it directly, though -- note in the example above where the `num_steps`
+property is being set that way.  `value` should also be used if you need an
+actual number, such as if using it in a list index or the like.
+
+`NumChoiceData` objects are used where the value is expected to be one of
+a member of an enum.  In these objects, `value` will always be the raw numeric
+value still, but there's also a `choice` attribute which will correspond to
+the proper enum item, if possible.  The class technically supports setting
+values outside the known enum values, in which case `choice` will end up
+being `None`.  Keep in mind that setting a value for these should still be done
+via `value` rather than `choice`.
+
+Apart from that, as I say, just looking through `cli.py` or the objects
+themselves would probably be the best way to know how to use 'em.
+
+Changelog
+---------
+
+**v1.0.0** - *May 31, 2024*
+ - Initial release
+
+License
+-------
+
+`animalwellsave` is licensed under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+A copy can be found at [LICENSE.txt](LICENSE.txt).
+
