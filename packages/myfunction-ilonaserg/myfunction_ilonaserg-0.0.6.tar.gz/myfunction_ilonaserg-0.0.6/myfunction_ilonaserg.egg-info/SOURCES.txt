@@ -1,0 +1,9 @@
+README.md
+setup.py
+myfunction_ilonaserg.egg-info/PKG-INFO
+myfunction_ilonaserg.egg-info/SOURCES.txt
+myfunction_ilonaserg.egg-info/dependency_links.txt
+myfunction_ilonaserg.egg-info/requires.txt
+myfunction_ilonaserg.egg-info/top_level.txt
+myfunctions_ilonaserg/__init__.py
+myfunctions_ilonaserg/math.py
