@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: HuggingMouse
+Version: 0.2.0
+Summary: Data analysis library for Allen Brain Observatory data
+Home-page: https://github.com/mariakesa/HuggingMouse
+Author: Maria Kesa
+Author-email: mariarosekesa@gmail.com
+License-File: LICENSE
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: torch==1.13.1
+Requires-Dist: pandas==1.5.3
+Requires-Dist: numpy==1.23.5
+Requires-Dist: transformers==4.31.0
+Requires-Dist: allensdk==2.16.2
+Requires-Dist: plotly==5.9.0
