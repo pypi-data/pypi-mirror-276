@@ -1,0 +1,9 @@
+pygadm/__init__.py,sha256=fWKPra2Xs7onVzqyrwa2Ep0RV1gX2kf_fGR04Sqd8Wc,12709
+pygadm/bin/refresh_database.py,sha256=14WH6ua_JUep7K0INByhd7TUTEZf2f99liHrw3YqtrQ,3305
+pygadm/data/gadm_continent.json,sha256=7sC40bRdUdFEpi6EGl6JkucSpRwVp4QDOpWeYm4wGeI,3026
+pygadm/data/gadm_database.parquet,sha256=0uH3A62KnmbYXidxA5u_I_Eztaj9vMDEweqxJqgWtGs,8715783
+pygadm-0.5.3.dist-info/METADATA,sha256=L0rzJ7HAzTPUg75nXCqm56uisGpd3e65i-qXEAAjUsE,4580
+pygadm-0.5.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pygadm-0.5.3.dist-info/licenses/AUTHORS.rst,sha256=zp-TQTr7HBdvmEzHuIkHsZgp0NS9vlxiDCpRxNnLl4A,733
+pygadm-0.5.3.dist-info/licenses/LICENSE,sha256=Dl5-edVs-fjMOBhMW9lq-MDjKU_3lnUQ2Mn9vKbRhYs,1073
+pygadm-0.5.3.dist-info/RECORD,,
