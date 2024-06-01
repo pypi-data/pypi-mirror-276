@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: autosink_data_elt
+Version: 0.1.0
+Summary: 
+Author-email: Janghoo Lee <dlwkdgn1@naver.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: PyYAML
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: pylint ; extra == "dev"
+Requires-Dist: yapf ; extra == "dev"
+Provides-Extra: dev
+
+当前地区当日额度已消耗完, 请尝试更换网络环境
