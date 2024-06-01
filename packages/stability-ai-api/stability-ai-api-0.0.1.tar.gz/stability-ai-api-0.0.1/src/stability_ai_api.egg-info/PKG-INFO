@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: stability-ai-api
+Version: 0.0.1
+Summary: A small API wrapper to interact with the Stability AI API.
+Author-email: Flávio De Melo <flavio.eler@gmail.com>
+Maintainer-email: Flávio De Melo <flavio.eler@gmail.com>
+License: Apache Software License 2.0
+Project-URL: bugs, https://github.com/femelo/stability-ai-api/issues
+Project-URL: changelog, https://github.com/femelo/stability-ai-api/blob/main/changelog.md
+Project-URL: homepage, https://github.com/femelo/stability-ai-api
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE
+
+================
+Stability AI API
+================
+
+
+.. image:: https://img.shields.io/pypi/v/stability_ai_api.svg
+        :target: https://pypi.python.org/pypi/stability-ai-api
+
+.. image:: https://img.shields.io/travis/femelo/stability_ai_api.svg
+        :target: https://travis-ci.com/femelo/stability-ai-api
+
+.. image:: https://readthedocs.org/projects/stability-ai-api/badge/?version=latest
+        :target: https://stability-ai-api.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+A small API wrapper to interact with the Stability AI API.
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://stability-ai-api.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
