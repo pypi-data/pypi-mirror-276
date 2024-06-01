@@ -1,0 +1,14 @@
+sk_schemas/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+sk_schemas/acl.py,sha256=tHK2t0dvQVPgh-8chjaofj4ZQITtyNOC9gf-cz_T2oQ,6722
+sk_schemas/auth.py,sha256=oWT98vZbOx14cqa1lJcm5yvQ-AFtjiA9Tcg6oX-KnfY,715
+sk_schemas/certs.py,sha256=B_3ePZIrIZh9QkoAytP-mRZuQxe408KAEyl-rJmb2VU,6830
+sk_schemas/inet.py,sha256=3xYpW65DbdZFceZf2HOEbvoXsFPiujBIvgNgnjU_LTE,6773
+sk_schemas/intf.py,sha256=r0_I87SjnBlqc_9zz7XQKWCBUz2U8L1F-GG7YE3afCo,3009
+sk_schemas/ipsec.py,sha256=bR9Ynsbw6ysZ-I4wfg66S66i4cgJnBxhpn__H1sgvws,11305
+sk_schemas/stats.py,sha256=axYDitXaK7bw5sDwvNeT34P0ZrXcOmNC2BSR-M8iu3Y,1828
+sk_schemas/sys.py,sha256=VP358R10mUJucv1v41WshIWh4Vb_S1oh8Is9rNb_g6M,2968
+sk_schemas/users.py,sha256=Ai6LfADnJIsPKK69JuKiw7_d7pBkTW3xy0sFhoiLKFc,2327
+sk_schemas-1.0.1.dist-info/METADATA,sha256=4R4-cZzIyRgpbcdYQ0na0LuXEeOe6J2mey5UYJ5AkCY,2631
+sk_schemas-1.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+sk_schemas-1.0.1.dist-info/licenses/LICENSE.md,sha256=jS6eOc_mY9bLDCJJSQn7afvikPKA_00h_7QdtrslPQo,1486
+sk_schemas-1.0.1.dist-info/RECORD,,
