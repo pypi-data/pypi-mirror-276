@@ -1,0 +1,13 @@
+teleping/__init__.py,sha256=BeBWDr1V2UyqZs6mp-WwBO-0CTdC20IwVe1ILc9hsLw,3026
+teleping/common.py,sha256=O125tyYMBPD2LR1hKhnhew0-2MH28yYf6L6fMoOrjdo,4335
+teleping/config.py,sha256=b3C5cFP46E6ZtWNQmXE31nbGPSkxNfr_YR8JWYIkudw,3506
+teleping/templates/base.html.j2,sha256=UBO6HNCknmLNxEDe7GiLZafdrmhcIU-9JAJMwMYBVuY,3885
+teleping/templates/message.html.j2,sha256=7NyETAQYD3C96T-S6SX5hhlw3VicVWLNg8WztvxEEfw,247
+teleping/templates/udpping.html.j2,sha256=IPeXRpYssDnKt0ZBbbVdnu_cO9LD66W-Mzsm4PmmKew,307
+teleping/udpping.py,sha256=kp1jI6_g1sev5xrtgQrgrJjIIb1fJKwDAABRBgl4eis,16829
+teleping/webui.py,sha256=9CiiUg8VmSOl7aVl90fsiOpfa1XmrEAxyGUPFWi4agI,5351
+teleping-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+teleping-0.2.0.dist-info/METADATA,sha256=xgUf8-3CGcdBhHZ7d41IPJXR3OjBy8Xb7PBnBOdf1dA,1298
+teleping-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+teleping-0.2.0.dist-info/entry_points.txt,sha256=a0s48SFE3O_fG7H0N753jvPADV75JdNMsPHTt8vFtOU,42
+teleping-0.2.0.dist-info/RECORD,,

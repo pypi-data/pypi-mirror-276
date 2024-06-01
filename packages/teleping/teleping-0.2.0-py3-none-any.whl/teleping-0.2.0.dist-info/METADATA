@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: teleping
+Version: 0.2.0
+Summary: Network Engineer's best friend - Telephant Ping
+Author: Tomas Hlavacek
+Author-email: tmshlvck@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: dominate (>=2.9.1,<3.0.0)
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: jinja2 (>=3.1.3,<4.0.0)
+Requires-Dist: prometheus-client (>=0.20.0,<0.21.0)
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: python-multipart (>=0.0.9,<0.0.10)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: sse-starlette (>=2.0.0,<3.0.0)
+Requires-Dist: uvicorn (>=0.29.0,<0.30.0)
+Description-Content-Type: text/markdown
+
+# Telephant UDPPing
+
+The network debugging tool that runs high-speed UDP echo and provide
+JSON API, Prometheus client and simple web output for a quick overview.
+
+## Testing and development
+
+Run local instance with `teleping.yml` config file:
+
+```
+poetry run teleping -c teleping.yml
+```
+
