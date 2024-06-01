@@ -1,0 +1,14 @@
+nested_dask/__init__.py,sha256=SyMScwacbHExgstfuaYWO99dADlzAc83IAv6RyCXRZc,160
+nested_dask/_version.py,sha256=PKIMyjdUACH4-ONvtunQCnYE2UhlMfp9su83e3HXl5E,411
+nested_dask/accessor.py,sha256=5qmSWjD6PCGRAbC2mBxa9RRXWfmGauXezNt6uDJY64c,2105
+nested_dask/backends.py,sha256=QtPTApJFwMhz1kTQfOR2iHNh6P6lA5SB0eR31JpNl58,1610
+nested_dask/core.py,sha256=nnEO2K9T2vYJ0xBX9PMKjLa6t9sF_tmsuyODY4zG9Pc,15764
+nested_dask/io.py,sha256=nFvzuVDZ_AygXKvJfdUth_9-mGO5Og7urSytl0IK4kI,12758
+nested_dask/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nested_dask/datasets/__init__.py,sha256=S6TUNOkrvYEsG4Hpb5JkK_BQjmEer9wkETVNMbo13X4,34
+nested_dask/datasets/generation.py,sha256=81i1gvDDYoyualObp5WSuwpNCgjRaC72mu03jWpiAw8,2567
+nested_dask-0.1.1.dist-info/LICENSE,sha256=qzCEhzDXw54Pmvsx-7I6cc8q2V7y3rsAqhILHnaMpDk,1073
+nested_dask-0.1.1.dist-info/METADATA,sha256=m7rHzdhafPF4HjmMAis83sTAU4XOuyx_lOntv4Okl_k,4969
+nested_dask-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+nested_dask-0.1.1.dist-info/top_level.txt,sha256=fyu5O1x--pbuHxuNvMP0SO--jIYlPeNcXSWyiVhmUSE,12
+nested_dask-0.1.1.dist-info/RECORD,,
