@@ -1,0 +1,17 @@
+speakleash/__init__.py,sha256=5QBYalJOWrjkLMqq7azZGPhNFpSJL2vCHvyBFJK_LoU,573
+speakleash/config.json,sha256=FQlIxIvJJj7IfVrZfts31evt1VmIJf77gzSk4vUtyYA,298
+speakleash/config_loader.py,sha256=8zDyvkE82PGwsITRIj8e2ht6aZQ1AfwKeq4gJG5G7vU,930
+speakleash/contrib.py,sha256=4zDYZCR6FKNrQJHI24qCKpOuLYl2pgosSa_PHO4kSow,1869
+speakleash/category_manager/__init__.py,sha256=4ULXcr7ObAz4jIHukVoeIbUMzPPJCEogQbpwwt7NAHU,183
+speakleash/category_manager/category_manager.py,sha256=C5_WXmTpUY1YQm0UXZOlRxr1fTe1Mat2tlhWrWsW60U,6769
+speakleash/core/__init__.py,sha256=LmcqLEqjoQrb_6ZLNwi2e62L8GWHH1srLkJnwZXrYk4,151
+speakleash/core/core.py,sha256=ySQ9EDy-u-aFvljBuw4gtv4QBJKLao7eGceRIkn8ws8,3924
+speakleash/dataset/__init__.py,sha256=63ctt_6Lp0xKGNpIayyCGUGHNd5_xtAQmagtHnz7YZM,167
+speakleash/dataset/dataset.py,sha256=NDR0j_O2ABCmFic8UwcpHV3yRJH990iJKx4ceDWvmQI,12921
+speakleash/downloader/__init__.py,sha256=xQN6B0Ypn68KyBiWHR5MS2GmmbL_BwLh6EeIyscH_pU,210
+speakleash/downloader/structure_downloader.py,sha256=Xtx2GOA2W9zhvSrR3zvPL-cle1Y10HLmC10cViAV2sY,4560
+speakleash-0.3.51.dist-info/LICENSE,sha256=-eGv4i6SFxunAWNwphMkKYmemCgiCbm3rX-aAcIIl-Q,1082
+speakleash-0.3.51.dist-info/METADATA,sha256=9MyufBaQnG6_32iYUd7kWCIZ0jWZf_KgPiIBOuYlaUs,3426
+speakleash-0.3.51.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+speakleash-0.3.51.dist-info/top_level.txt,sha256=XkS9r554xEbjxL63quUSMa-rbfzRiMA395e_2zSZJAk,11
+speakleash-0.3.51.dist-info/RECORD,,
