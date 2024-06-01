@@ -1,0 +1,308 @@
+0,,,,,Claro
+1,,,,,poco nublado
+2,,,,,Nublado
+3,,,,,muy nublado
+4,,,,,Cubierto
+5,,,,,Variable
+6,,,,,Velo
+10,,,,,Arena
+15,,,,,Trombón
+30,,,,,Niebla
+31,,,,,Bruma
+32,,,,,Niebla
+33,,,,,Neblina densa
+38,,,,,Niebla helada
+39,,,,,Densa niebla helada
+40,,,,,Lluvia
+49,,,,,Lluvia congelante
+50,,,,,Lluvia
+51,,,,,Lluvia
+52,,,,,Lluvia
+53,,,,,Lluvia Pesada
+58,,,,,Mezcla de lluvia y nieve
+59,,,,,Lluvia congelante
+60,,,,,Nieve
+61,,,,,Nieve
+62,,,,,Nieve
+63,,,,,Fuertes nevadas
+70,,,,,Lluvia
+71,,,,,Lluvias raras
+72,,,,,Lluvias raras con cielo abierto
+73,,,,,Lluvias con cielo cubierto
+77,,,,,Chubascos mixtos de lluvia y nieve
+78,,,,,Lluvias y nieve mezcladas con cielos cubiertos
+80,,,,,tormenta de nieve
+81,,,,,Lluvias de nieve raras
+82,,,,,Chubascos de nieve raros con cielos cubiertos
+83,,,,,Chubascos de nieve con cielo cubierto
+84,,,,,Duchas de aguanieve
+85,,,,,Lluvias de granizo
+90,,,,,Tormentas
+91,,,,,Posibles tormentas
+92,,,,,Chubascos
+93,,,,,Tormentas con lluvia
+97,,,,,Tormentas con nieve
+98,,,,,Tormentas con granizo
+99,,,,,Tormentas eléctricas severas
+32,33,,,,"Niebla, a veces densa"
+32,38,,,,"Niebla, a veces helada"
+32,39,,,,"Niebla, a veces densa y helada."
+33,38,,,,Niebla densa o helada
+33,39,,,,"Niebla densa, a veces helada."
+38,39,,,,"Niebla helada, a veces densa"
+30,32,,,,Niebla
+30,33,,,,"Niebla, a veces densa"
+30,38,,,,"Niebla, a veces helada"
+30,39,,,,"Niebla, a veces densa y helada."
+40,49,,,,"Lluvia, a veces helada"
+49,"(51, 52, 53)",,,,"Lluvia, a veces helada"
+49,59,,,,Precipitación helada
+40,"(51, 52)",,,,Lluvia
+"(40, 51, 52)",53,,,,"Lluvia, a veces intensa"
+51,52,,,,Lluvia
+"(51, 52, 53)",58,,,,"Lluvia, a veces mezclada con nieve."
+"(51, 52, 53)",59,,,,"Lluvia, a veces helada"
+"(51, 52, 53)","(70, 71, 72, 73)",,,,Períodos lluviosos
+58,"(61, 62, 63)",,,,Nieve predominante
+61,62,,,,Nieve
+61,63,,,,La nieve a veces es intensa
+62,63,,,,La nieve a veces es intensa
+"(61, 62, 63)","(80, 81, 82, 83)",,,,Episodios nevados
+70,"(71, 72, 73)",,,,Lluvia
+71,72,,,,Lluvias raras
+71,73,,,,Lluvia
+72,73,,,,Lluvias con cielo cubierto
+"(70, 71, 72, 73)","(77, 78)",,,,"Chubascos, a veces mezclados con nieve."
+77,78,,,,Chubascos mezclados con nieve
+80,"(81, 82, 83)",,,,tormenta de nieve
+82,83,,,,tormenta de nieve
+70,"(80, 81, 82, 83)",,,,"Lluvias, a veces nevadas"
+71,"(80, 83)",,,,"Lluvias, a veces nevadas"
+"(71, 72)","(81, 82)",,,,"Lluvias raras, a veces nevadas"
+73,"(80, 81)",,,,"Lluvias, a veces nevadas"
+73,"(82, 83)",,,,"Chubascos con cielo cubierto, a veces nevados"
+84,85,,,,Aguanieve o granizo
+"(70, 71, 72, 73)",92,,,,"Lluvias, a veces tormentosas"
+84,92,,,,"Aguanieve, a veces tormentas eléctricas"
+85,92,,,,Tormentas con riesgo de granizo
+85,98,,,,Tormentas y chubascos con granizo
+91,92,,,,Tormentas y tormentas eléctricas
+91,93,,,,"Tormentas, a veces con lluvia."
+91,97,,,,"Tormentas, a veces con nieve."
+93,98,,,,Tormentas con lluvia y granizo
+93,99,,,,"Tormentas, a veces violentas con lluvia."
+97,99,,,,"Tormentas, a veces violentas con nieve."
+98,99,,,,Tormentas fuertes con riesgo de granizo
+51,61,,,,"Precipitaciones, a veces nevadas"
+52,62,,,,"Precipitaciones, a veces nevadas"
+53,63,,,,"Fuertes precipitaciones, a veces nevadas."
+"(40, 51, 52, 53)","(80, 81, 82, 83)",,,,"Precipitaciones, a veces nevadas"
+"(40, 51, 52, 53)","(91, 93)",,,,Lluvia y tormentas
+"(40, 51, 52, 53)",98,,,,Lluvias y tormentas con granizo
+"(40, 51, 52, 53)",99,,,,Lluvias y tormentas fuertes
+"(61, 62, 63)","(70, 71, 72, 73)",,,,"Precipitaciones, a veces nevadas"
+"(61, 62, 63)","(91, 97)",,,,Precipitaciones a veces tormentosas y períodos de nieve.
+"(61, 62, 63)",98,,,,Lluvias tormentosas y periodos de nieve
+"(61, 62, 63)",99,,,,Fuertes tormentas y periodos de nieve
+"(70, 71, 72, 73)","(91, 93)",,,,Lluvias y tormentas eléctricas
+"(70, 71, 72, 73)",98,,,,Chubascos y tormentas eléctricas con granizo
+"(70, 71, 72, 73)",99,,,,Fuertes aguaceros y tormentas
+"(80, 81, 82, 83)","(91, 97)",,,,Tormentas y periodos de nieve
+"(80, 81, 82, 83)",98,,,,Lluvias tormentosas y periodos de nieve
+"(80, 81, 82, 83)",99,,,,Fuertes tormentas y periodos de nieve
+31,32,33,,,"Tiempo brumoso con niebla, a veces densa."
+31,32,38,,,"Clima brumoso con niebla, a veces helado."
+31,32,39,,,"Clima brumoso con niebla, a veces densa y helada."
+32,33,38,,,"Niebla, a veces densa o helada."
+32,33,39,,,"Niebla, a veces densa y helada."
+32,38,39,,,"Niebla, a veces helada y densa."
+33,38,39,,,Niebla densa o helada
+30,32,33,,,"Niebla, a veces densa"
+30,32,38,,,"Niebla, a veces helada"
+30,32,39,,,"Niebla, a veces densa y helada."
+30,33,38,,,Niebla densa o helada
+30,33,39,,,"Niebla densa, a veces helada."
+30,38,39,,,"Niebla helada, a veces densa"
+"(40, 51, 52)","(51, 52)",53,,,"Lluvia, a veces intensa"
+31,32,33,"(38, 39)",,"Clima brumoso con niebla, a veces densa o helada."
+31,33,38,39,,"Clima brumoso con niebla, a veces densa y helada."
+32,33,38,39,,"Niebla, a veces densa o helada."
+30,32,33,38,,"Niebla, a veces densa o helada."
+30,32,33,39,,"Niebla, a veces densa y helada."
+30,32,38,39,,"Niebla, a veces helada y densa."
+30,33,38,39,,Niebla densa o helada
+31,32,33,38,39,"Clima brumoso con niebla, a veces densa o helada."
+30,32,33,38,39,"Niebla, a veces densa o helada."
+40,51,52,53,,"Lluvia, a veces intensa"
+A1,,,,,Lluvia
+A2,,,,,Nieve
+A3,,,,,Lluvia
+A4,,,,,tormenta de nieve
+A5,,,,,Clima tormentoso
+A1,A2,,,,"Precipitaciones, a veces nevadas"
+A1,A3,,,,Períodos lluviosos
+A1,A4,,,,Chubascos de lluvia y nieve
+A1,A5,,,,Lluvia y tormentas
+A1,B1,,,,Lluvia helada a veces
+A1,B2,,,,Chubascos de lluvia y aguanieve
+A1,B3,,,,Lluvias y granizadas
+A1,B4,,,,Lluvias y tormentas con granizo
+A1,B5,,,,Lluvias y tormentas fuertes
+A2,A3,,,,"Precipitaciones, a veces nevadas"
+A2,A4,,,,Episodios nevados
+A2,A5,,,,Tormentas y periodos de nieve
+A2,B1,,,,Precipitaciones heladas y nieve
+A2,B2,,,,Lluvias de aguanieve y nieve
+A2,B3,,,,Granizo y nieve
+A2,B4,,,,Lluvias tormentosas y nieve
+A2,B5,,,,Fuertes tormentas y nieve
+A3,A4,,,,"Lluvias, a veces nevadas"
+A3,A5,,,,Tormentas y chubascos
+A3,B1,,,,Precipitaciones heladas y chubascos
+A3,B2,,,,Chubascos con aguanieve ocasional
+A3,B3,,,,Chubascos con riesgo de granizo
+A3,B4,,,,Tormentas con granizo y chubascos
+A3,B5,,,,Lluvias y tormentas violentas
+A4,A5,,,,Tormentas y periodos de nieve
+A4,B1,,,,Precipitaciones heladas y nieve
+A4,B2,,,,Duchas de nieve
+A4,B3,,,,Fuertes nevadas
+A4,B4,,,,Tormentas y chubascos de nieve
+A4,B5,,,,Fuertes tormentas y chubascos de nieve
+A5,B1,,,,Precipitaciones heladas y tormentas eléctricas
+A5,B2,,,,Tormentas y chubascos de aguanieve
+A5,B3,,,,Tormentas y granizo
+A5,B4,,,,Tiempo tormentoso con posible granizo
+A5,B5,,,,"Tormentas, a veces violentas"
+A1,A2,A3,,,"Precipitaciones, a veces nevadas"
+A1,A2,A4,,,"Precipitaciones, a veces nevadas"
+A1,A2,A5,,,"Tormentas y precipitaciones, a veces nevadas."
+A1,A2,B1,,,Precipitaciones heladas y nieve
+A1,A2,B2,,,"Precipitaciones, con riesgo de aguanieve, y en forma de nieve"
+A1,A2,B3,,,"Precipitaciones, con riesgo de granizo, y en forma de nieve"
+A1,A2,B4,,,"Chubascos tormentosos, lluvia, mezclados con nieve"
+A1,A2,B5,,,"Fuertes aguaceros tormentosos, lluvias mezcladas con nieve"
+A1,A3,A4,,,Chubascos mezclados con nieve
+A1,A3,A5,,,Clima lluvioso con tormentas eléctricas
+A1,A3,B1,,,"Precipitaciones, a veces heladas"
+A1,A3,B2,,,Tiempo lluvioso con chubascos de aguanieve
+A1,A3,B3,,,Tiempo lluvioso con granizo
+A1,A3,B4,,,Tiempo lluvioso con granizadas
+A1,A3,B5,,,Clima lluvioso con fuertes tormentas
+A1,A4,A5,,,"Tormentas y precipitaciones, a veces mezcladas con nieve."
+A1,A4,B1,,,"Precipitaciones, a veces heladas y periodos de nieve."
+A1,A4,B2,,,"Precipitaciones, con riesgo de aguanieve y nevadas"
+A1,A4,B3,,,"Precipitaciones, con riesgo de granizo y nevadas"
+A1,A4,B4,,,"Tormentas con granizo y precipitaciones, a veces con nieve"
+A1,A4,B5,,,"Fuertes tormentas eléctricas y precipitaciones, a veces con nieve."
+A1,A5,B1,,,Lluvia helada a veces y tormentas eléctricas
+A1,A5,B2,,,Lluvias y tormentas con riesgo de aguanieve
+A1,A5,B3,,,Lluvias y tormentas con riesgo de granizo
+A1,A5,B4,,,Lluvias y tormentas con riesgo de granizo
+A1,A5,B5,,,Lluvias y tormentas a veces violentas
+A1,B1,B2,,,"Lluvia, a veces helada, y chubascos de aguanieve"
+A1,B1,B3,,,"Lluvia, a veces helada, y granizo"
+A1,B1,B4,,,"Lluvia, a veces helada, y granizada"
+A1,B1,B5,,,"Lluvia, a veces helada, y tormentas fuertes"
+A1,B2,B3,,,Lluvia con chubascos de granizo y aguanieve
+A1,B2,B4,,,Lluvia con aguanieve y granizadas
+A1,B2,B5,,,Lluvia con aguanieve y tormentas fuertes
+A1,B3,B4,,,Lluvia con chubascos y granizadas
+A1,B3,B5,,,Lluvia con granizo y tormentas fuertes
+A1,B4,B5,,,Lluvia con tormentas fuertes con riesgo de granizo
+A2,A3,A4,,,"Precipitaciones, a veces nevadas"
+A2,A3,A5,,,"Tormentas y precipitaciones, a veces nevadas."
+A2,A3,B1,,,"Precipitaciones, a veces heladas y en forma de nieve."
+A2,A3,B2,,,"Chubascos, riesgo de aguanieve y nevadas"
+A2,A3,B3,,,"Lluvias, riesgo de granizo y nevadas"
+A2,A3,B4,,,Lluvias tormentosas y periodos de nieve
+A2,A3,B5,,,Fuertes lluvias tormentosas y periodos de nieve
+A2,A4,A5,,,"Tormentas y precipitaciones, a veces nevadas."
+A2,A4,B1,,,"Precipitaciones, a veces heladas y en forma de nieve."
+A2,A4,B2,,,Aguanieves y periodos de nieve
+A2,A4,B3,,,Granizo y periodos de nieve
+A2,A4,B4,,,Lluvias tormentosas y periodos de nieve
+A2,A4,B5,,,Fuertes lluvias tormentosas y periodos de nieve
+A2,A5,B1,,,"Tormentas, precipitaciones heladas y períodos de nieve"
+A2,A5,B2,,,Lluvias tormentosas y periodos de nieve
+A2,A5,B3,,,Fuertes lluvias tormentosas y periodos de nieve
+A2,A5,B4,,,Fuertes lluvias tormentosas y periodos de nieve
+A2,A5,B5,,,Fuertes tormentas y periodos de nieve
+A2,B1,B2,,,"Precipitaciones, a veces heladas o con aguanieve, y en forma de nieve"
+A2,B1,B3,,,"Precipitaciones, a veces heladas o con granizo, y en forma de nieve"
+A2,B1,B4,,,"Lluvia helada, tormentas eléctricas y períodos de nieve"
+A2,B1,B5,,,"Tormentas fuertes, precipitaciones heladas y períodos de nieve"
+A2,B2,B3,,,Lluvias tormentosas y periodos de nieve
+A2,B2,B4,,,Lluvias tormentosas y periodos de nieve
+A2,B2,B5,,,"Tormentas violentas, a veces acompañadas de aguanieve y períodos de nieve."
+A2,B3,B4,,,Fuertes lluvias tormentosas y periodos de nieve
+A2,B3,B5,,,Tormentas violentas con riesgo de granizo y nevadas
+A2,B4,B5,,,"Tormentas eléctricas y, a veces, precipitaciones con nieve."
+A3,A4,A5,,,"Tormentas eléctricas y, a veces, chubascos de nieve."
+A3,A4,B1,,,"Precipitaciones, a veces heladas, y en forma de nieve."
+A3,A4,B2,,,"Chubascos, con riesgo de aguanieve y nevadas"
+A3,A4,B3,,,"Chubascos, con riesgo de granizo y nevadas"
+A3,A4,B4,,,"Tormentas con granizo y chubascos, a veces nevados"
+A3,A4,B5,,,"Tormentas violentas y aguaceros, a veces con nieve."
+A3,A5,B1,,,"Precipitaciones, a veces heladas, y tormentas eléctricas."
+A3,A5,B2,,,"Chubascos, riesgo de aguanieve y tormentas eléctricas"
+A3,A5,B3,,,"Lluvias, riesgo de granizo y tormentas eléctricas"
+A3,A5,B4,,,"Tormentas, con riesgo de granizo y chubascos"
+A3,A5,B5,,,"Tormentas, a veces violentas, y chubascos"
+A3,B1,B2,,,"Precipitaciones, a veces heladas, y aguanieve"
+A3,B1,B3,,,"Precipitaciones, a veces heladas, y granizo"
+A3,B1,B4,,,"Precipitaciones, a veces heladas, y tormentas con granizo."
+A3,B1,B5,,,"Precipitaciones, a veces heladas, y tormentas violentas"
+A3,B2,B3,,,"Chubascos, con riesgo de aguanieve o granizo"
+A3,B2,B4,,,"Chubascos, riesgo de aguanieve y tormentas con granizo"
+A3,B2,B5,,,"Lluvias, riesgo de aguanieve y tormentas fuertes"
+A3,B3,B4,,,Chubascos y tormentas eléctricas con granizo
+A3,B3,B5,,,"Lluvias, riesgo de granizo y tormentas violentas"
+A3,B4,B5,,,"Chubascos y tormentas violentas, con riesgo de granizo"
+A4,A5,B1,,,"Tormentas eléctricas, precipitaciones heladas y chubascos de nieve"
+A4,A5,B2,,,"Tormentas eléctricas, riesgo de aguanieve y chubascos de nieve"
+A4,A5,B3,,,"Tormentas, riesgo de granizo y nevadas"
+A4,A5,B4,,,"Tormentas, riesgo de granizo y nevadas"
+A4,A5,B5,,,"Tormentas, a veces violentas, y chubascos de nieve."
+A4,B1,B2,,,"Precipitaciones, a veces heladas o con aguanieve, y en forma de nieve"
+A4,B1,B3,,,"Precipitaciones, a veces heladas o con granizo, y en forma de nieve"
+A4,B1,B4,,,"Tormentas con granizo, precipitaciones heladas y periodos de nieve"
+A4,B1,B5,,,"Tormentas fuertes, precipitaciones heladas y períodos de nieve"
+A4,B2,B3,,,"Chubascos, con riesgo de aguanieve o granizo, y en forma de nieve"
+A4,B2,B4,,,Lluvias tormentosas y nevadas
+A4,B2,B5,,,Fuertes lluvias tormentosas y nevadas
+A4,B3,B4,,,Lluvias tormentosas y nevadas
+A4,B3,B5,,,Fuertes lluvias tormentosas y nevadas
+A4,B4,B5,,,Fuertes lluvias tormentosas y nevadas
+A5,B1,B2,,,"Precipitaciones heladas y tormentas eléctricas, con riesgo de aguanieve"
+A5,B1,B3,,,"Precipitaciones heladas y tormentas eléctricas, con riesgo de granizo"
+A5,B1,B4,,,"Precipitaciones heladas y tormentas eléctricas, con riesgo de granizo"
+A5,B1,B5,,,"Precipitaciones heladas y tormentas eléctricas, a veces violentas"
+A5,B2,B3,,,Lluvias tormentosas
+A5,B2,B4,,,"Chubascos tormentosos, con riesgo de granizo"
+A5,B2,B5,,,"Lluvias tormentosas, a veces violentas"
+A5,B3,B4,,,Tormentas y chubascos con granizo
+A5,B3,B5,,,"Tormentas, a veces violentas y con granizo"
+A5,B4,B5,,,"Tormentas, a veces violentas y con granizo"
+B1,B2,B3,,,Precipitaciones heladas y aguanieve
+B1,B2,B4,,,"Precipitaciones heladas, aguanieve y granizadas"
+B1,B2,B5,,,"Precipitaciones heladas, aguanieve y tormentas eléctricas intensas"
+B1,B3,B4,,,"Precipitaciones heladas, chubascos y granizadas"
+B1,B3,B5,,,"Precipitaciones heladas, granizo y tormentas eléctricas intensas"
+B1,B4,B5,,,Precipitaciones heladas y fuertes tormentas con granizo
+B2,B3,B4,,,Tormentas con granizo y aguanieve
+B2,B3,B5,,,"Tormentas, a veces violentas y granizo."
+B2,B4,B5,,,"Tormentas, a veces violentas y granizo."
+B3,B4,B5,,,"Tormentas, a veces violentas con granizo"
+A1,A2,A3,A4,,"Tiempo inestable, precipitaciones, a veces nieve."
+A1,A2,A3,A5,,"Tiempo inestable, tormentas, precipitaciones, a veces nieve."
+A1,A2,A4,A5,,"Tiempo inestable, tormentas, precipitaciones, a veces nieve."
+A1,A3,A4,A5,,"Tiempo inestable, tormentas, precipitaciones, a veces nieve."
+A1,A3,B3,B4,,"Períodos lluviosos, a veces tormentosos y con riesgo de granizo"
+A2,A3,A4,A5,,"Tiempo inestable, tormentas, precipitaciones, a veces nieve."
+B1,B2,B3,B4,,"Precipitaciones heladas, aguanieve y tormentas con granizo"
+B1,B2,B3,B5,,"Precipitaciones heladas, aguanieve y tormentas fuertes"
+B1,B2,B4,B5,,"Precipitaciones heladas, aguanieve y tormentas fuertes"
+B2,B3,B4,B5,,Tormentas intensas con granizo y aguanieve
+A1,A2,A3,A4,A5,"Tiempo inestable con tormentas y precipitaciones, a veces con nieve"
+B1,B2,B3,B4,B5,"Precipitaciones heladas, tormentas fuertes con granizo y aguanieve"

@@ -1,0 +1,94 @@
+0,1,2,3,4,template
+0,,,,,Nothing to report.
+0.75,,,,,Alert throughout the monitoring period. {B0_val}.|The zone is on alert throughout the monitoring period. {B0_val}.|Risk over the entire period. {B0_val}.
+1,,,,,Alert throughout the monitoring period. {B0_val}.|The zone is on alert throughout the monitoring period. {B0_val}.|Risk over the entire period. {B0_val}.
+0,0.75,,,,Alert from {B1_start}. {B1_val}.|Risk from {B1_start}. {B1_val}.
+0,1,,,,Alert from {B1_start}. {B1_val}.|Risk from {B1_start}. {B1_val}.
+0.75,0,,,,Alert until {B0_stop}. {B0_val}.|The zone is on alert until {B0_stop}. {B0_val}.|Risk up to {B0_stop}. {B0_val}.
+0.75,1,,,,Area on alert throughout the entire period. The maximum alert level is reached from {B1_start}. {B1_val}.|Risk over the entire period. {B0_val}. The maximum risk is reached from {B1_start}. {B1_val}.
+1,0,,,,Zone on alert until {B0_stop}. {B0_val}.|Risk up to {B0_stop}. {B0_val}.
+1,0.75,,,,"Maximum alert from the start of the period. {B0_val}. Improved from {B1_start}. {B1_val}.|Risk over the entire period, maximum {B0_period}. {B0_val}. Improvement then. {B1_val}."
+0,0.75,0,,,Area on alert {B1_period}. {B1_val}.|Risk {B1_period}. {B1_val}.
+0,0.75,1,,,Alert from {B1_start}. {B1_val}. The maximum alert level is reached from {B2_start}. {B2_val}.|Risk from {B1_start}. {B1_val}. Maximum risk from {B2_start}. {B2_val}.
+0,1,0,,,Area on alert {B1_period}. {B1_val}.|Risk {B1_period}. {B1_val}.
+0,1,0.75,,,Maximum alert {B1_period}. {B1_val}. Mitigation thereafter. {B2_val}.|Maximum risk {B1_period}. {B1_val}. Improvement then. {B2_val}.
+0.75,0,0.75,,,Zone on alert {B0_period} as well as {B2_period}. {level_int_val}. |Area on alert until {B0_stop}. {B0_val}. Then again from {B2_start}. {B2_val}.|Risk up to {B0_stop}. New risk from {B2_start}. {level_int_val}.
+0.75,0,1,,,Alert until {B0_stop}. {B0_val}. Then new alert from {B2_start}. {B2_val}.|Risk up to {B0_stop}. {B0_val}. New risk from {B2_start}. {B2_val}.
+0.75,1,0,,,"Alert up to {B1_stop}, with maximum alert from {B1_start}. {B1_val}.|Risk up to {B1_stop}, with maximum risk from {B1_start}. {B1_val}."
+0.75,1,0.75,,,"Alert throughout the period. The alert is maximum {B1_period}. {B1_val}.|Risk over the entire period, maximum {B1_period}. {B1_val}."
+1,0,0.75,,,"Alert until {B0_stop}. {B0_val}. Then new alert, but of lower level, from {B2_start}. {B2_val}.|Risk up to {B0_stop}. {B0_val}. New risk from {B2_start}. {B2_val}."
+1,0,1,,,Zone on alert {B0_period} as well as {B2_period}. {level_max_val}. |Area on alert until {B0_stop}. {B0_val}. Then again from {B2_start}. {B2_val}.|Risk up to {B0_stop}. New risk from {B2_start}. {level_max_val}.
+1,0.75,0,,,Area on maximum alert until {B0_stop}. {B0_val}. End of alert {B1_stop}.|Maximum risk up to {B0_stop}. {B0_val}. End of risk {B1_stop}.
+1,0.75,1,,,Area on alert throughout the period. The alert is maximum {B0_period} as well as {B2_period}. {level_max_val}.|Risk over the entire period. {level_max_val}.
+0,0.75,0,0.75,,Zone on alert {B1_period} as well as {B3_period}. {level_int_val}.|Alert {B1_period}. {B1_val}. New alert from {B3_start}. {B3_val}.|Risk {B1_period}. New risk from {B3_start}. {level_int_val}.
+0,0.75,0,1,,Alert {B1_period}. {B1_val}. New alert from {B3_start}. {B3_val}.|Risk {B1_period}. {B1_val}. New risk from {B3_start}. {B3_val}.
+0,0.75,1,0,,"Zone on alert from {B1_start}. {B1_val}. The alert becomes maximum {B2_period}, then stops. {B2_val}."
+0,0.75,1,0.75,,Zone on alert from {B1_start}. The alert is maximum {B2_period}. {B2_val}.|Risk from {B1_start}. {level_int_val}. Maximum risk {B2_period}. {B2_val}.
+0,1,0,0.75,,"Area on alert {B1_period}. {B1_val}. New alert, lower level, from {B3_start}. {B3_val}.|Risk {B1_period}. {B1_val}. New risk from {B3_start}. {B3_val}."
+0,1,0,1,,Zone on alert {B1_period} as well as {B3_period}. {level_max_val}.|Alert {B1_period}. {B1_val}. New alert from {B3_start}. {B3_val}.|Risk {B1_period}. New risk from {B3_start}. {level_max_val}.
+0,1,0.75,0,,Area on maximum alert {B1_period}. {B1_val}. End of alert {B2_stop}.|Risk from {B1_start} until {B2_stop}. {B1_val}. Improvement {B2_start}. {B2_val}.
+0,1,0.75,1,,Zone on alert from {B1_start}. {level_max_val}. |Risk from {B1_start}. {level_max_val}.
+0.75,0,0.75,0,,Zone on alert until {B0_stop} and again {B2_period}. {level_int_val}.|Alert until {B0_stop}. {B0_val}. New alert {B2_period}. {B2_val}.|Risk up to {B0_stop}. New risk {B2_period}. {level_int_val}.
+0.75,0,0.75,1,,Zone on alert until {B0_stop}. {B0_val}. New alert from {B2_start}. {B3_val}.|Risk up to {B0_stop}. {B0_val}. New risk from {B2_start}. {B3_val}.
+0.75,0,1,0,,Zone on alert until {B0_stop}. {B0_val}. New alert {B2_period}. {B2_val}.|Risk up to {B0_stop}. {B0_val}. New risk {B2_period}. {B2_val}.
+0.75,0,1,0.75,,Alert until {B0_stop}. {B0_val}. New alert from {B2_start}. {B2_val}.|Risk up to {B0_stop}. {B0_val}. New risk from {B2_start}. {B2_val}.
+0.75,1,0,0.75,,Zone on alert from the start of the monitoring period. The alert is maximum {B1_period}. {B1_val}. New alert from {B3_start}. {B3_val}.|Risk up to {B1_stop}. {B1_val}. New risk from {B3_start}. {B3_val}.
+0.75,1,0,1,,"Zone on alert until {B1_stop}, then again from {B3_start}. {level_max_val}.|Risk up to {B1_stop}. New risk from {B3_start}. {level_max_val}."
+0.75,1,0.75,0,,Zone on alert until {B2_stop}. The alert is maximum {B1_period}. {B1_val}.|Risk up to {B2_stop}. {level_int_val}. Maximum risk {B1_period}. {B1_val}.
+0.75,1,0.75,1,,Area on alert throughout the period. {level_max_val}.|Risk over the entire period. {level_max_val}.
+1,0,0.75,0,,"Alert until {B0_stop}. {B0_val}. New alert, but of lower level, {B2_period}. {B2_val}.|Risk up to {B0_stop}. {B0_val}. New risk {B2_period}. {B2_val}."
+1,0,0.75,1,,Zone on alert until {B0_stop} and again from {B2_start}. {level_max_val}.|Risk up to {B0_stop}. New risk from {B2_start}. {level_max_val}.
+1,0,1,0,,"Alert up to {B0_stop} as well as {B2_period}. {level_max_val}.|Alert {B0_period}, {B0_val}. New alert {B2_period}, {B2_val}.|Risk up to {B0_stop}. New risk {B2_period}. {level_max_val}."
+1,0,1,0.75,,Zone on alert until {B0_stop} and again from {B2_start}. {level_max_val}.|Risk up to {B0_stop}. New risk from {B2_start}. {level_max_val}.
+1,0.75,0,0.75,,"Alert until {B1_stop}. {B0_val}. New alert, but of lower level, from {B3_start}. {B3_val}.|Risk diminishing until {B1_stop}. {B0_val}. New risk {B3_start}. {B3_val}."
+1,0.75,0,1,,Zone on alert until {B1_stop} and again from {B3_start}. {level_max_val}.|Risk decreasing until {B1_stop}. New risk {B3_start}. {level_max_val}.
+1,0.75,1,0,,Zone on alert until {B2_stop}. {level_max_val}.|Risk up to {B2_stop}. {level_max_val}.
+1,0.75,1,0.75,,Area on alert throughout the entire period. {level_max_val}.|Risk over the entire period. {level_max_val}.
+0,0.75,0,0.75,0,Alert {B1_period} as well as {B3_period}. {level_int_val}.|Risk {B1_period}. {B1_val}. New risk {B3_period}. {B3_val}.
+0,0.75,0,0.75,1,Alert {B1_period}. {B1_val}. Area on alert again from {B3_start}. {B4_val}.
+0,0.75,0,1,0,Zone on alert {B1_period}.{B1_val}. New alert {B3_period}. {B3_val}.|Risk {B1_period}. {B1_val}. New risk {B3_period}. {B3_val}.
+0,0.75,0,1,0.75,Alert {B1_period}. {B1_val}. New alert from {B3_start}. {B3_val}.|Risk {B1_period}. {B1_val}. New risk from {B3_start}. {B3_val}.
+0,0.75,1,0,0.75,"Alert from {B1_start} until {B2_stop}. {B2_val}. New alert, less severe, from {B4_start}. {B4_val}."
+0,0.75,1,0,1,Alert from {B1_start} until {B2_stop}. {B2_val}. New alert from {B4_start}. {B4_val}.
+0,0.75,1,0.75,0,Zone on alert from {B1_start} until {B3_stop}. {B2_val}.|Risk from {B1_start} to {B3_stop}. {B2_val}.
+0,0.75,1,0.75,1,Zone on alert from {B1_start}. {level_max_val}.|Risk from {B1_start}. {level_max_val}.
+0,1,0,0.75,0,"Area on alert {B1_period}. {B1_val}. New alert, lower level, {B3_period}. {B3_val}.|Risk {B1_period}. {B1_val}. New risk {B3_period}. {B3_val}."
+0,1,0,0.75,1,Area on alert {B1_period}. {B1_val}. New alert from {B3_start}. {B4_val}.|Risk {B1_period} and from {B3_start}. {level_max_val}.
+0,1,0,1,0,Alert {B1_period} as well as {B3_period}. {level_max_val}.|Risk {B1_period}. {B1_val}. New risk {B3_period}. {B3_val}.
+0,1,0,1,0.75,Alert {B1_period}. {B1_val}. New beginner alert {B3_start}. {B3_val}.|Risk {B1_period} and from {B3_start}. {level_max_val}.
+0,1,0.75,0,0.75,"Zone on alert from {B1_start} until {B2_stop}. {B1_val}. New alert, lower level, from {B4_start}. {B4_val}."
+0,1,0.75,0,1,Zone on alert from {B1_start} until {B2_stop}. {B1_val}. New alert from {B4_start}. {B4_val}.
+0,1,0.75,1,0,Zone on alert from {B1_start} until {B3_stop}. {level_max_val}.|Risk from {B1_start} up to {B3_stop}. {level_max_val}.
+0,1,0.75,1,0.75,Zone on alert from {B1_start}. {level_max_val}.|Risk from {B1_start}. {level_max_val}.
+0.75,0,0.75,0,0.75,Risk in the area. {level_int_val}.
+0.75,0,0.75,0,1,Risk in the area. {B4_val}.
+0.75,0,0.75,1,0,Alert until {B0_stop}. {B0_val}. New alert from {B2_start} until {B3_stop}. {B3_val}.
+0.75,0,0.75,1,0.75,Zone on alert until {B0_stop}. {B0_val}. New alert from {B2_start}. {B3_val}.|Risk up to {B0_stop}. {B0_val}. New risk from {B2_start}. {B3_val}.
+0.75,0,1,0,0.75,Risk during the period. The alert is maximum {B2_period}. {B2_val}.
+0.75,0,1,0,1,Alert in the area. {level_max_val}.|Risk during the period. {level_max_val}.
+0.75,0,1,0.75,0,Zone on alert until {B0_stop}. {B0_val}. New alert from {B2_start} until {B3_stop}. {B2_val}.|Risk up to {B0_stop}. {B0_val}. New risk from {B2_start} to {B3_stop}. {B2_val}.
+0.75,0,1,0.75,1,Zone on alert until {B0_stop}. {B0_val}. New alert from {B2_start}. {level_max_val}.|Risk up to {B0_stop}. {B0_val}. New risk from {B2_start}. {level_max_val}.
+0.75,1,0,0.75,0,"Zone on alert until {B1_stop}. {B1_val}. New alert, less severe, {B3_period}. {B3_val}.|Risk up to {B1_stop}. {B1_val}. New risk {B3_period}. {B3_val}."
+0.75,1,0,0.75,1,Zone on alert until {B1_stop}. {B1_val}. New alert from {B3_start}. {B4_val}.
+0.75,1,0,1,0,Zone on alert until {B1_stop}. {B1_val}. New alert {B3_period}. {B3_val}.
+0.75,1,0,1,0.75,Zone on alert until {B1_stop}. {B1_val}. New alert from {B3_start}. {B3_val}.
+0.75,1,0.75,0,0.75,"Zone on alert until {B2_stop}. {B1_val}. New alert, less severe, from {B4_start}. {B4_val}."
+0.75,1,0.75,0,1,Zone on alert until {B2_stop}. {B1_val}. New alert from {B4_start}. {B4_val}.
+0.75,1,0.75,1,0,The zone is on alert until {B3_stop}. {level_max_val}.|Risk up to {B3_stop}. {level_max_val}.
+0.75,1,0.75,1,0.75,Zone on alert throughout the monitoring period. {level_max_val}.|Risk during the entire monitoring period. {level_max_val}.
+1,0,0.75,0,0.75,Area on alert. {B0_val}.|Risk during the period. {B0_val}.
+1,0,0.75,0,1,Alert in the area. {level_max_val}.|Risk during the period. {level_max_val}.
+1,0,0.75,1,0,Zone on alert until {B0_stop}. New alert from {B2_start} until {B3_stop}. {level_max_val}.
+1,0,0.75,1,0.75,Risk up to {B0_stop}. New risk from {B2_start}. {level_max_val}.
+1,0,1,0,0.75,Area on alert. {level_max_val}.|Risk over the period. {level_max_val}.
+1,0,1,0,1,Area on alert. {level_max_val}.|Risk over the period. {level_max_val}.
+1,0,1,0.75,0,Zone on alert until {B0_stop}. {B0_val}. New alert from {B2_start} until {B3_stop}. {B2_val}.
+1,0,1,0.75,1,Zone on alert until {B0_stop}. New alert from {B2_start}. {level_max_val}.
+1,0.75,0,0.75,0,"Zone on alert until {B1_stop}. {B0_val}. New alert, lower level, {B3_period}. {B3_val}.|Risk up to {B1_stop}. {B0_val}. New risk {B3_period}. {B3_val}."
+1,0.75,0,0.75,1,Risk up to {B1_stop}. {B0_val}. New risk from {B3_start}. {B4_val}.
+1,0.75,0,1,0,Zone on alert until {B1_stop}. {B0_val}. New alert {B3_period}. {B3_val}.
+1,0.75,0,1,0.75,Alert until {B1_stop}. {B0_val}. New alert from {B3_start}. {B3_val}.
+1,0.75,1,0,0.75,"Zone on alert until {B2_stop}. {level_max_val}. New alert, lower level, from {B4_start}. {B4_val}.|Risk up to {B2_stop}. {level_max_val}. New risk from {B4_start}. {B4_val}."
+1,0.75,1,0,1,Zone on alert until {B2_stop}. Again from {B4_start}. {level_max_val}.
+1,0.75,1,0.75,0,Zone on alert until {B3_stop}. {level_max_val}.| Risk up to {B3_stop}. {level_max_val}.
+1,0.75,1,0.75,1,Zone on alert throughout the monitoring period. {level_max_val}.|Risk during the entire monitoring period. {level_max_val}.

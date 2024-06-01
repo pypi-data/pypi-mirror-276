@@ -1,0 +1,5 @@
+{
+  "SNOW": "Episode neigeux générant une alerte {alt_area_name}.",
+  "PRECIP": "Episode pluvieux générant une alerte {alt_area_name}.",
+  "PRECIP_SNOW": "Episode pluvieux et neigeux générant une alerte {alt_area_name}."
+}

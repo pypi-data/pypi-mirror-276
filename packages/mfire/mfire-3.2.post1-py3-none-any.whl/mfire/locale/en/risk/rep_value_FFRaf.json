@@ -1,0 +1,56 @@
+{
+    "plain": [
+         "{indefinite_var_name} {around} {plain_value} are expected.",
+         "{definite_var_name} expected are {around} {plain_value}.",
+         "{definite_var_name} expected are {around} {plain_value}.",
+         "{indefinite_var_name} {around} {plain_value} are expected to be.",
+         "It is expected {indefinite_var_name} {around} {plain_value}.",
+         "We are waiting for {indefinite_var_name} {around} {plain_value}.",
+         "We predict {indefinite_var_name} {around} {plain_value}."
+     ],
+     "mountain": [
+         "{indefinite_var_name} {around} {mountain_value} are expectedon the heights.",
+         "{definite_var_name} expected are {around} {mountain_value} on the heights.",
+         "{definite_var_name} expected are {around} {mountain_value} on the heights.",
+         "{indefinite_var_name} {around} {mountain_value} are planned on the heights.",
+         "It is expected {indefinite_var_name} {around} {mountain_value} on the heights.",
+         "We are waiting for {indefinite_var_name} {around} {mountain_value} on the heights.",
+         "We predict {indefinite_var_name} {around} {mountain_value} on the heights."
+     ],
+     "plain_mountain": [
+         "{indefinite_var_name} {around} {plain_value} with {mountain_value} on heights are expected.",
+         "{definite_var_name} expected are {around} {plain_value} with {mountain_value} on the heights.",
+         "{definite_var_name} expected are {around} {plain_value} with {mountain_value} on the heights.",
+         "{indefinite_var_name} {around} {plain_value} with {mountain_value} on the heights are expected."
+     ],
+     "local_plain": [
+         "{indefinite_var_name} {around} {plain_value} are expected with locally peaks {around} {local_plain_value}.",
+         "{definite_var_name} expected are {around} {plain_value} with locally spikes {around} {local_plain_value}.",
+         "{definite_var_name} predicted are {around} {plain_value} with locally peaks {around} {local_plain_value}.",
+         "{indefinite_var_name} {around} {plain_value} are predicted with locally peaks {around} {local_plain_value}.",
+         "It is expected {indefinite_var_name} {around} {plain_value} with locally spikes {around} {local_plain_value}.",
+         "{definite_var_name} reach {plain_value} with locally peaks {around} {local_plain_value}.",
+         "We expect {indefinite_var_name} {around} {plain_value} with locally peaks {around} {local_plain_value}.",
+         "We predict {indefinite_var_name} {around} {plain_value} with locally {around} {local_plain_value} spikes."
+     ],
+     "local_mountain": [
+         "{indefinite_var_name} {around} {mountain_value} on the heights are expected with locally peaks {around} {local_mountain_value}.",
+         "{definite_var_name} expected are {around} {mountain_value} on the heights with locally spikes {around} {local_mountain_value}.",
+         "{definite_var_name} predicted are {around} {mountain_value} on heights with locally peaks {around} {local_mountain_value}.",
+         "{indefinite_var_name} {around} {mountain_value} are predicted on the heights with locally peaks {around} {local_mountain_value}."
+     ],
+     "local_plain_mountain": [
+         "{indefinite_var_name} {around} {plain_value} (locally {local_plain_value}) are expected with {mountain_value} on heights.",
+         "{definite_var_name} expected are {around} {plain_value} (locally {local_plain_value}) with {mountain_value} on the heights.",
+         "{definite_var_name} expected are {around} {plain_value} (locally {local_plain_value}) with {mountain_value} on the heights."
+     ],
+     "plain_local_mountain": [
+         "{indefinite_var_name} {around} {plain_value} are expected with {mountain_value} (locally {local_mountain_value}) on heights.",
+         "{definite_var_name} expected are {around} {plain_value} with {mountain_value} (locally {local_mountain_value}) on the heights.",
+         "{definite_var_name} expected are {around} {plain_value} with {mountain_value} (locally {local_mountain_value}) on the heights."
+     ],
+     "local_plain_local_mountain": [
+         "{indefinite_var_name} {around} {plain_value} (locally {local_plain_value}) are expected with {mountain_value} (locally {local_mountain_value}) on heights.",
+         "{definite_var_name} expected are {around} {plain_value} (locally {local_plain_value}) with {mountain_value} (locally {local_mountain_value}) on the heights."
+     ]
+}
