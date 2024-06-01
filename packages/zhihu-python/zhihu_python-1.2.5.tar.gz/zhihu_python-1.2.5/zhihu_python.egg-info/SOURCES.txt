@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+zhihu_python.egg-info/PKG-INFO
+zhihu_python.egg-info/SOURCES.txt
+zhihu_python.egg-info/dependency_links.txt
+zhihu_python.egg-info/requires.txt
+zhihu_python.egg-info/top_level.txt
