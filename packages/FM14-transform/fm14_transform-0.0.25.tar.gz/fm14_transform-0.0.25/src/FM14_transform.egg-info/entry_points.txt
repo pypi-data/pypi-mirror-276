@@ -1,0 +1,6 @@
+[FM14_transform.test]
+test = FM14_transform:test
+
+[console_scripts]
+test-fm14-transform = FM14_transform:transform2bufr
+test-script = FM14_transform:test
