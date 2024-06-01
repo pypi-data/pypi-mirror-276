@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: correct-hours
+Version: 2.0.0
+Summary: 
+Author: Jose Orozco
+Author-email: j@oroz.dev
+Requires-Python: >=3.8,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: single-source (>=0.3.0,<0.4.0)
