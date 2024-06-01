@@ -1,0 +1,296 @@
+from mfire.text.wind.const import ERROR_CASE
+from mfire.text.wind.reducers.gust_summary_builder.gust_enum import GustCase
+from mfire.text.wind.reducers.wind_summary_builder.helpers.wind_enum import WindCase
+
+TEMPLATE_B1_1: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }}, "
+    "{{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+
+TEMPLATE_B1_2: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }} que gira "
+    "{{ wd_periods[1]['wd'] }} {{ wd_periods[1]['begin_time']|safe }}, "
+    "{{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }}"
+    " {{ units }}."
+)
+
+TEMPLATE_B1_3: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }}, "
+    "{{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ var_marker }} {{ wf_periods[1]['interval'][0] }} a "
+    "{{ wf_periods[1]['interval'][1] }} {{ units }} "
+    "{{ wf_periods[1]['begin_time']|safe }}."
+)
+
+TEMPLATE_B1_4: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }} "
+    "que gira {{ wd_periods[1]['wd'] }}, "
+    "{{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ var_marker }} {{ wf_periods[1]['interval'][0] }} a "
+    "{{ wf_periods[1]['interval'][1] }} {{ units }} "
+    "{{ wf_periods[1]['begin_time']|safe }}."
+)
+
+TEMPLATE_B1_5: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }}, "
+    "{{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ var_marker }} {{ wf_periods[1]['interval'][0] }} a "
+    "{{ wf_periods[1]['interval'][1] }} {{ units }} "
+    "con una dirección {{ wd_periods[1]['wd']|safe }}"
+    " {{ wf_periods[1]['begin_time']|safe }}."
+)
+
+TEMPLATE_B1_6: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }}, "
+    "entre {{ wf_periods[0]['interval'][0] }} y "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+
+TEMPLATE_B1_7: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }} "
+    "que gira {{ wd_periods[1]['wd']|safe }} "
+    "{{ wd_periods[1]['begin_time']|safe }}, entre {{ wf_periods[0]['interval'][0] }} "
+    "y {{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+
+TEMPLATE_B1_8: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+TEMPLATE_B1_9: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }}"
+    " {{ units }}, {{ var_marker }} de {{ wf_periods[1]['interval'][0] }} a "
+    "{{ wf_periods[1]['interval'][1] }} {{ units }} "
+    "{{ wf_periods[1]['begin_time']|safe }}."
+)
+
+TEMPLATE_B1_10: str = (
+    "Viento entre {{ wf_periods[0]['interval'][0] }} y "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+
+TEMPLATE_B2_1: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }}, "
+    "{{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }}"
+    " {{ units }}, {{ wf_periods[0]['time_desc']|safe }} así como "
+    "{{ wf_periods[1]['time_desc']|safe }}."
+)
+
+TEMPLATE_B2_2: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "del {{ wd_periods[0]['wd']|safe }} "
+    "{{ wd_periods[0]['begin_time']|safe }} orientándose hacia "
+    "{{ wd_periods[1]['wd']|safe }} "
+    "{{ wd_periods[1]['begin_time']|safe }}."
+)
+
+TEMPLATE_B2_3: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }}"
+    " {{ units }}, del {{ wd_periods[0]['wd']|safe }} "
+    "{{ wd_periods[0]['time_desc']|safe }}."
+)
+TEMPLATE_B2_4: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ wf_periods[0]['time_desc']|safe }} "
+    "del {{ wd_periods[0]['wd']|safe }}"
+    " luego {{ wd_periods[1]['wd'] }}, y {{ wf_periods[1]['time_desc']|safe }} "
+    "del {{ wd_periods[2]['wd']|safe }}."
+)
+
+TEMPLATE_B2_5: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ wf_periods[0]['time_desc']|safe }} "
+    "del {{ wd_periods[0]['wd']|safe }}, y "
+    "{{ wf_periods[1]['time_desc']|safe }} "
+    "del {{ wd_periods[1]['wd']|safe }} luego "
+    "{{ wd_periods[2]['wd'] }}."
+)
+
+TEMPLATE_B2_6: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ wf_periods[0]['time_desc']|safe }} "
+    "del {{ wd_periods[0]['wd']|safe }} "
+    "luego {{ wd_periods[1]['wd'] }}, y "
+    "{{ wf_periods[1]['time_desc']|safe }} "
+    "del {{ wd_periods[2]['wd']|safe }} "
+    "luego {{ wd_periods[3]['wd'] }}."
+)
+
+TEMPLATE_B2_7: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }}, "
+    "{{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }}"
+    " {{ units }} {{ wf_periods[0]['time_desc']|safe }}, "
+    "{{ wf_periods[1]['interval'][0] }} a {{ wf_periods[1]['interval'][1] }}"
+    " {{ units }} {{ wf_periods[1]['time_desc']|safe }}."
+)
+TEMPLATE_B2_8: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }}, "
+    "{{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }} "
+    "{{ units }} {{ wf_periods[0]['time_desc']|safe }}, luego "
+    "{{ wf_periods[1]['interval'][0] }} a {{ wf_periods[1]['interval'][1] }} "
+    "{{ units }} con orientación {{ wd_periods[1]['wd']|safe }} "
+    "{{ wf_periods[1]['time_desc']|safe }}."
+)
+
+TEMPLATE_B2_9: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }} orientándose hacia "
+    "{{ wd_periods[-1]['wd'] }}, {{ wf_periods[0]['interval'][0] }} a "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ wf_periods[0]['time_desc']|safe }}, "
+    "{{ wf_periods[1]['interval'][0] }} a {{ wf_periods[1]['interval'][1] }}"
+    "{{ units }} {{ wf_periods[1]['time_desc']|safe }}."
+)
+
+TEMPLATE_B2_10: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }}, entre "
+    "{{ wf_periods[0]['interval'][0] }} y "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+
+TEMPLATE_B2_11: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }} "
+    "{{ wd_periods[0]['begin_time']|safe }} orientándose hacia "
+    "{{ wd_periods[1]['wd']|safe }} "
+    "{{ wd_periods[-1]['begin_time']|safe }}, entre "
+    "{{ wf_periods[0]['interval'][0] }} y "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+
+TEMPLATE_B2_12: str = (
+    "Viento del {{ wd_periods[0]['wd']|safe }} "
+    "{{ wd_periods[0]['time_desc']|safe }}, entre {{ wf_periods[0]['interval'][0] }} y"
+    " {{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+
+TEMPLATE_B2_13: str = (
+    "Viento entre {{ wf_periods[0]['interval'][0] }} y "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ wf_periods[0]['time_desc']|safe }} "
+    "del {{ wd_periods[0]['wd']|safe }} luego {{ wd_periods[1]['wd'] }}, "
+    "y {{ wf_periods[1]['time_desc']|safe }} "
+    "del {{ wd_periods[2]['wd']|safe }}."
+)
+
+TEMPLATE_B2_14: str = (
+    "Viento entre {{ wf_periods[0]['interval'][0] }} y "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "{{ wf_periods[0]['time_desc']|safe }} "
+    "del {{ wd_periods[0]['wd']|safe }}, y "
+    "{{ wf_periods[1]['time_desc']|safe }} "
+    "del {{ wd_periods[1]['wd']|safe }} luego {{ wd_periods[2]['wd'] }}."
+)
+
+TEMPLATE_B2_15: str = (
+    "Viento entre {{ wf_periods[0]['interval'][0] }} y "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}, "
+    "del {{ wd_periods[0]['wd']|safe }} "
+    "{{ wd_periods[0]['begin_time']|safe }} orientándose hacia "
+    "{{ wd_periods[3]['wd'] }} {{ wd_periods[3]['begin_time']|safe }}."
+)
+
+TEMPLATE_B2_16: str = (
+    "Viento {{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }}"
+    " {{ units }} {{ wf_periods[0]['time_desc']|safe }}, "
+    "{{ wf_periods[1]['interval'][0] }} a {{ wf_periods[1]['interval'][1] }}"
+    " {{ units }} del {{ wd_periods[0]['wd']|safe }} "
+    "{{ wf_periods[1]['time_desc']|safe }}."
+)
+
+TEMPLATE_B2_17: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }}"
+    " {{ units }}, {{ wf_periods[0]['time_desc']|safe }} así como "
+    "{{ wf_periods[1]['time_desc']|safe }}."
+)
+
+TEMPLATE_B2_18: str = (
+    "Viento de {{ wf_periods[0]['interval'][0] }} a {{ wf_periods[0]['interval'][1] }}"
+    " {{ units }} {{ wf_periods[0]['time_desc']|safe }}, "
+    "{{ wf_periods[1]['interval'][0] }} a {{ wf_periods[1]['interval'][1] }}"
+    " {{ units }} {{ wf_periods[1]['time_desc']|safe }}."
+)
+
+TEMPLATE_B2_19: str = (
+    "Viento entre {{ wf_periods[0]['interval'][0] }} y "
+    "{{ wf_periods[0]['interval'][1] }} {{ units }}."
+)
+ERROR_TEMPLATE: str = "Error al generar resúmenes de viento."
+
+TEMPLATES_DICT_ES: dict[str, str] = {
+    GustCase.CASE_1.value: "",
+    GustCase.CASE_2.value: (
+        "Ráfagas superiores a {% if gust_tempos[0] %}{{ gust_tempos[0]|safe }}"
+        "{% endif %}los {{ force_min }} {{ units }}{% if gust_tempos[1] %} "
+        "{{ gust_tempos[1]|safe }}{% endif %}. Valores máximos posibles entre "
+        "{{ gust_interval[0] }} y {{ gust_interval[1] }} {{ units }}."
+    ),
+    WindCase.CASE_1.value: "",
+    WindCase.CASE_2.value: (
+        "Viento {{ wf_intensity }}{% if wd_periods|length > 0 %}"
+        " del {{ wd_periods[0]['wd']|safe }}{% endif %}"
+        "{% if wd_periods|length == 2 %} orientándose hacia "
+        "{{ wd_periods[1]['wd']|safe }} "
+        "{{ wd_periods[1]['begin_time']|safe }}{% endif %}."
+    ),
+    WindCase.CASE_3_1B_1.value: TEMPLATE_B1_1,
+    WindCase.CASE_3_1B_2.value: TEMPLATE_B1_2,
+    WindCase.CASE_3_1B_3.value: TEMPLATE_B1_8,
+    WindCase.CASE_3_1B_4.value: TEMPLATE_B1_3,
+    WindCase.CASE_3_1B_5.value: TEMPLATE_B1_1,
+    WindCase.CASE_3_1B_6.value: TEMPLATE_B1_4,
+    WindCase.CASE_3_1B_7.value: TEMPLATE_B1_5,
+    WindCase.CASE_3_1B_8.value: TEMPLATE_B1_2,
+    WindCase.CASE_3_1B_9.value: TEMPLATE_B1_9,
+    WindCase.CASE_3_1B_10.value: TEMPLATE_B1_8,
+    WindCase.CASE_3_1B_11.value: TEMPLATE_B1_6,
+    WindCase.CASE_3_1B_12.value: TEMPLATE_B1_7,
+    WindCase.CASE_3_1B_13.value: TEMPLATE_B1_10,
+    WindCase.CASE_3_2B_1.value: TEMPLATE_B2_1,
+    WindCase.CASE_3_2B_2.value: TEMPLATE_B2_2,
+    WindCase.CASE_3_2B_3.value: TEMPLATE_B2_3,
+    WindCase.CASE_3_2B_4.value: TEMPLATE_B2_3,
+    WindCase.CASE_3_2B_5.value: TEMPLATE_B2_4,
+    WindCase.CASE_3_2B_6.value: TEMPLATE_B2_2,
+    WindCase.CASE_3_2B_7.value: TEMPLATE_B2_5,
+    WindCase.CASE_3_2B_8.value: TEMPLATE_B2_2,
+    WindCase.CASE_3_2B_9.value: TEMPLATE_B2_6,
+    WindCase.CASE_3_2B_10.value: TEMPLATE_B2_17,
+    WindCase.CASE_3_2B_11.value: TEMPLATE_B2_7,
+    WindCase.CASE_3_2B_12.value: TEMPLATE_B2_1,
+    WindCase.CASE_3_2B_13.value: TEMPLATE_B2_8,
+    WindCase.CASE_3_2B_14.value: TEMPLATE_B2_2,
+    WindCase.CASE_3_2B_15.value: TEMPLATE_B2_7,
+    WindCase.CASE_3_2B_16.value: TEMPLATE_B2_3,
+    WindCase.CASE_3_2B_17.value: TEMPLATE_B2_16,
+    WindCase.CASE_3_2B_18.value: TEMPLATE_B2_3,
+    WindCase.CASE_3_2B_19.value: TEMPLATE_B2_9,
+    WindCase.CASE_3_2B_20.value: TEMPLATE_B2_4,
+    WindCase.CASE_3_2B_21.value: TEMPLATE_B2_9,
+    WindCase.CASE_3_2B_22.value: TEMPLATE_B2_2,
+    WindCase.CASE_3_2B_23.value: TEMPLATE_B2_9,
+    WindCase.CASE_3_2B_24.value: TEMPLATE_B2_5,
+    WindCase.CASE_3_2B_25.value: TEMPLATE_B2_9,
+    WindCase.CASE_3_2B_26.value: TEMPLATE_B2_2,
+    WindCase.CASE_3_2B_27.value: TEMPLATE_B2_9,
+    WindCase.CASE_3_2B_28.value: TEMPLATE_B2_6,
+    WindCase.CASE_3_2B_29.value: TEMPLATE_B2_18,
+    WindCase.CASE_3_2B_30.value: TEMPLATE_B2_17,
+    WindCase.CASE_3_2B_31.value: TEMPLATE_B2_10,
+    WindCase.CASE_3_2B_32.value: TEMPLATE_B2_11,
+    WindCase.CASE_3_2B_33.value: TEMPLATE_B2_12,
+    WindCase.CASE_3_2B_34.value: TEMPLATE_B2_12,
+    WindCase.CASE_3_2B_35.value: TEMPLATE_B2_13,
+    WindCase.CASE_3_2B_36.value: TEMPLATE_B2_11,
+    WindCase.CASE_3_2B_37.value: TEMPLATE_B2_14,
+    WindCase.CASE_3_2B_38.value: TEMPLATE_B2_11,
+    WindCase.CASE_3_2B_39.value: TEMPLATE_B2_15,
+    WindCase.CASE_3_2B_40.value: TEMPLATE_B2_19,
+    ERROR_CASE: ERROR_TEMPLATE,
+}

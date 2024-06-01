@@ -1,0 +1,201 @@
+import numpy as np
+import pytest
+
+from mfire.settings import Settings
+from mfire.utils.string import (
+    TagFormatter,
+    _,
+    capitalize,
+    capitalize_all,
+    clean_french_text,
+    clean_text,
+    concatenate_string,
+    decapitalize,
+    get_synonym,
+    is_vowel,
+    match_text,
+    split_var_name,
+    strip_string,
+)
+
+
+class TestStringUtilsFunctions:
+    def test_get_synonym(self):
+        np.random.seed(42)
+        assert get_synonym("d'environ") == "de l'ordre de"
+        assert get_synonym("fort") == "marqué"
+        assert get_synonym("abc") == "abc"
+
+    @pytest.mark.parametrize(
+        "text1,text2,expected",
+        [
+            ("Les vents seront forts", "Les vents seront marqués", True),
+            ("Les vents seront faibles", "Les vents seront marqués", False),
+        ],
+    )
+    def test_match_text(self, text1, text2, expected):
+        assert match_text(text1, text2) == expected
+
+    @pytest.mark.parametrize(
+        "text,expected",
+        [
+            ("Hello Hey", "Hello Hey"),
+            (" Hello\nHey ", "Hello\nHey"),
+            ("\nHello Hey\n", "Hello Hey"),
+        ],
+    )
+    def test_strip_string(self, text, expected):
+        assert strip_string(text) == expected
+
+    def test_decapitalize(self):
+        assert (
+            decapitalize("Première phrase. Deuxième phrase.")
+            == "première phrase. Deuxième phrase."
+        )
+
+    def test_capitalize(self):
+        assert (
+            capitalize("première phrase. deuxième phrase.") == "Première phrase. "
+            "deuxième phrase."
+        )
+
+    @pytest.mark.parametrize(
+        "string,expected",
+        [
+            ("", ""),
+            ("phrase 1.", "Phrase 1."),
+            (
+                "phrase 1. phrase 2.       Phrase 3.",
+                "Phrase 1. Phrase 2. Phrase 3.",
+            ),
+            ("10.0 cm", "10.0 cm."),
+        ],
+    )
+    def test_capitalize_all(self, string, expected):
+        assert capitalize_all(string) == expected
+
+    @pytest.mark.parametrize(
+        "text,expected",
+        [
+            ("rafales. ", "Rafales."),
+            ("rafales..", "Rafales."),
+            ("rafales.    .", "Rafales."),
+            ("rafales,.", "Rafales."),
+            ("rafales,     .", "Rafales."),
+            ("text1  text2", "Text1 text2."),
+            ("text1.  text2", "Text1. Text2."),
+            ("text1   ;   text2", "Text1 ; text2."),
+        ],
+    )
+    def test_clean_text(self, text, expected):
+        assert clean_text(text) == expected
+
+    @pytest.mark.parametrize(
+        "text,expected",
+        [
+            # Syntax correction
+            ("vent de ouest", "vent d'ouest"),
+            ("vent de Ouest", "vent d'Ouest"),
+            ("jusqu'à au jeudi", "jusqu'au jeudi"),
+            ("jusqu'à le jeudi", "jusqu'au jeudi"),
+            ("jusqu'à en début de soirée", "jusqu'en début de soirée"),
+            ("alerte dès en début de journée", "alerte dès le début de journée"),
+            (
+                "alerte dès en première partie de journée",
+                "alerte dès la première partie de journée",
+            ),
+            ("alerte dès en fin de nuit", "alerte dès la fin de nuit"),
+            ("alerte que en début de nuit", "alerte qu'en début de nuit"),
+            (
+                "rafales à partir de en ce milieu de nuit",
+                "rafales à partir du milieu de nuit",
+            ),
+            (
+                "rafales à partir de en début de nuit",
+                "rafales à partir du début de nuit",
+            ),
+            (
+                "rafales à partir de en milieu de cette nuit",
+                "rafales à partir du milieu de cette nuit",
+            ),
+            (
+                "rafales à partir de en fin de nuit",
+                "rafales à partir de la fin de nuit",
+            ),
+            (
+                "rafales à partir de en première partie de la nuit",
+                "rafales à partir de la première partie de la nuit",
+            ),
+            ("rafales à partir de aujourd'hui", "rafales à partir d'aujourd'hui"),
+            # Celsius corrections
+            ("températures à 33 °C", "températures à 33°C"),
+            ("températures à 33 °C", "températures à 33°C"),
+            ("températures à 33 celsius", "températures à 33°C"),
+            ("températures à 33 celsius", "températures à 33°C"),
+        ],
+    )
+    def test_clean_french_text(self, text, expected):
+        assert clean_french_text(text) == expected
+
+    def test_concatenate_string(self):
+        assert concatenate_string([]) == ""
+        assert concatenate_string(["test1"]) == "test1"
+        assert concatenate_string(["test1"], last_punctuation=".") == "test1."
+        assert (
+            concatenate_string(["test1", "test2", "test3"]) == "test1, test2 et "
+            "test3"
+        )
+
+    @pytest.mark.parametrize(
+        "var_name,expected",
+        [
+            ("EAU24__SOL", ("EAU", 24, "SOL")),
+            ("FF__HAUTEUR", ("FF", 0, "HAUTEUR")),
+        ],
+    )
+    def test_split_var_name(self, var_name, expected):
+        assert split_var_name(var_name) == expected
+
+    def test_translation(self):
+        assert _("en dessous de") == "en dessous de"
+        Settings.set_language("en")
+        assert _("en dessous de") == "under"
+        Settings.set_language("es")
+        assert _("en dessous de") == "por debajo"
+
+    def test_is_vowel(self):
+        for vowel in ["a", "e", "i", "o", "u", "y", "é", "è", "à", "ù"]:
+            assert is_vowel(vowel)
+        for no_vowel in ["b", "c", "ç", "ñ"]:
+            assert not is_vowel(no_vowel)
+        with pytest.raises(ValueError):
+            is_vowel("Phrase non acceptée")
+
+
+class TestTagFormatter:
+    @pytest.mark.parametrize(
+        "text,tags,expected",
+        [
+            ("Datetime: [key:ymdhm]", {}, "Datetime: [key:ymdhm]"),
+            ("Datetime: [key:ymd]", {"key": 1618617600}, "Datetime: 20210417"),
+            (
+                "Datetime: [key:ymdhm]",
+                {"key": "20230301T0600"},
+                "Datetime: 202303010600",
+            ),
+            (
+                "Datetime: [key:vortex]",
+                {"key": "20230301T0600"},
+                "Datetime: 20230301T060000",
+            ),
+            # Error in the date
+            (
+                "Datetime: [key:ymdhm]",
+                {"key": "20231301T0600"},
+                "Datetime: [key:ymdhm]",
+            ),
+        ],
+    )
+    def test_format_tags(self, text, tags, expected):
+        tag_formatter = TagFormatter()
+        assert tag_formatter.format_tags(text, tags=tags) == expected

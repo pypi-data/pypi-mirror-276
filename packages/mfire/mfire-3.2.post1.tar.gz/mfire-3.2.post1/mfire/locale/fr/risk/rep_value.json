@@ -1,0 +1,94 @@
+{
+    "plain": [
+        "{definite_var_name} s'approche de {plain_value}.",
+        "{indefinite_var_name} {around} {plain_value} est attendu{feminine}.",
+        "{indefinite_var_name} {around} {plain_value} est prévu{feminine}.",
+        "On attend {indefinite_var_name} {around} {plain_value}.",
+        "On prévoit {indefinite_var_name} {around} {plain_value}."
+    ],
+    "mountain": [
+        "{definite_var_name} s'approche de {mountain_value} sur les hauteurs.",
+        "{indefinite_var_name} {around} {mountain_value} est attendu{feminine} sur les hauteurs.",
+        "{indefinite_var_name} {around} {mountain_value} est prévu{feminine} sur les hauteurs.",
+        "On attend {indefinite_var_name} {around} {mountain_value} sur les hauteurs.",
+        "On prévoit {indefinite_var_name} {around} {mountain_value} sur les hauteurs."
+    ],
+    "plain_mountain": [
+        "{definite_var_name} s'approche de {plain_value}, avec {mountain_value} sur les hauteurs.",
+        "{indefinite_var_name} {around} {plain_value} est attendu{feminine}, avec {mountain_value} sur les hauteurs.",
+        "{indefinite_var_name} {around} {plain_value} est prévu{feminine}, avec {mountain_value} sur les hauteurs."
+    ],
+    "local_plain": [
+        "{definite_var_name} s'approche de {plain_value} (localement {local_plain_value}).",
+        "{indefinite_var_name} {around} {plain_value} (localement {local_plain_value}) est attendu{feminine}.",
+        "On attend {indefinite_var_name} {around} {plain_value} (localement {local_plain_value}).",
+        "On prévoit {indefinite_var_name} {around} {plain_value} (localement {local_plain_value})."
+    ],
+    "local_mountain": [
+        "{definite_var_name} s'approche de {mountain_value} sur les hauteurs (localement {local_mountain_value}).",
+        "{indefinite_var_name} {around} {mountain_value} (localement {local_mountain_value}) est attendu{feminine} sur les hauteurs."
+    ],
+    "local_plain_mountain": [
+        "{definite_var_name} s'approche de {plain_value} (localement {local_plain_value}), avec {mountain_value} sur les hauteurs.",
+        "{indefinite_var_name} {around} {plain_value} (localement {local_plain_value}) est attendu{feminine}, avec {mountain_value} sur les hauteurs.",
+        "{indefinite_var_name} {around} {plain_value} (localement {local_plain_value}) est prévu{feminine}, avec {mountain_value} sur les hauteurs."
+    ],
+    "plain_local_mountain": [
+        "{definite_var_name} s'approche de {plain_value}, avec {mountain_value} (localement {local_mountain_value}) sur les hauteurs.",
+        "{indefinite_var_name} {around} {plain_value} est attendu{feminine}, avec {mountain_value} (localement {local_mountain_value}) sur les hauteurs.",
+        "{indefinite_var_name} {around} {plain_value} est prévu{feminine}, avec {mountain_value} (localement {local_mountain_value}) sur les hauteurs."
+    ],
+    "local_plain_local_mountain": [
+        "{definite_var_name} s'approche de {plain_value} (localement {local_plain_value}), avec {mountain_value} (localement {local_mountain_value}) sur les hauteurs.",
+        "{indefinite_var_name} {around} {plain_value} (localement {local_plain_value}) est attendu{feminine}, avec {mountain_value} (localement {local_mountain_value}) sur les hauteurs.",
+        "{indefinite_var_name} {around} {plain_value} (localement {local_plain_value}) est prévu{feminine}, avec {mountain_value} (localement {local_mountain_value}) sur les hauteurs."
+    ],
+    "no_acc_plain": [
+        "{accumulated_phenomenon} non significatif."
+    ],
+    "no_acc_plain_local_plain": [
+         "{accumulated_phenomenon} non significatif (localement {local_plain_value})."
+    ],
+    "no_acc_mountain": [
+         "{accumulated_phenomenon} non significatif sur les hauteurs."
+    ],
+    "no_acc_mountain_local_mountain": [
+         "{accumulated_phenomenon} non significatif (localement {local_mountain_value}) sur les hauteurs."
+    ],
+    "no_acc_plain_no_acc_mountain": [
+         "{accumulated_phenomenon} non significatif."
+    ],
+    "plain_no_acc_mountain": [
+          "{accumulated_phenomenon} : {plain_value} en plaine, et non significatif sur les hauteurs."
+    ],
+    "no_acc_plain_mountain": [
+          "{accumulated_phenomenon} : non significatif en plaine, et {mountain_value} sur les hauteurs."
+    ],
+    "no_acc_plain_local_plain_no_acc_mountain": [
+         "{accumulated_phenomenon} non significatif (localement {local_plain_value} en plaine)."
+    ],
+    "no_acc_plain_no_acc_mountain_local_mountain": [
+          "{accumulated_phenomenon} non significatif (localement {local_mountain_value} sur les hauteurs)."
+    ],
+    "local_plain_no_acc_mountain": [
+          "{accumulated_phenomenon} : {plain_value} (localement {local_plain_value}) en plaine, et non significatif sur les hauteurs."
+    ],
+    "plain_no_acc_mountain_local_mountain": [
+          "{accumulated_phenomenon} : {plain_value} en plaine, et non significatif (localement {local_mountain_value}) sur les hauteurs."
+    ],
+    "no_acc_plain_local_plain_mountain": [
+          "{accumulated_phenomenon} : non significatif (localement {local_plain_value}) en plaine, et {mountain_value} sur les hauteurs."
+    ],
+    "no_acc_plain_local_mountain": [
+          "{accumulated_phenomenon} : non significatif en plaine, et {mountain_value} (localement {local_mountain_value}) sur les hauteurs."
+    ],
+    "no_acc_plain_local_plain_no_acc_mountain_local_mountain": [
+          "{accumulated_phenomenon} non significatif (localement {local_plain_value} en plaine, et {local_mountain_value} sur les hauteurs)."
+    ],
+    "local_plain_no_acc_mountain_local_mountain": [
+          "{accumulated_phenomenon} : {plain_value} (localement {local_plain_value}) en plaine, et non significatif (localement {local_mountain_value}) sur les hauteurs."
+    ],
+    "no_acc_plain_local_plain_local_mountain": [
+          "{accumulated_phenomenon} : non significatif (localement {local_plain_value}) en plaine, et {mountain_value} (localement {local_mountain_value}) sur les hauteurs."
+    ]
+}
