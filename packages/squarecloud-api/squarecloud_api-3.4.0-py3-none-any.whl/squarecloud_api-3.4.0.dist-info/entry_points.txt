@@ -1,0 +1,3 @@
+[console_scripts]
+clear-test-apps=scripts.clear_test_apps:delete_test_apps
+
