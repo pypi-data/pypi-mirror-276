@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ipc_parser/__init__.py
+ipc_parser/parser.py
+ipc_parser.egg-info/PKG-INFO
+ipc_parser.egg-info/SOURCES.txt
+ipc_parser.egg-info/dependency_links.txt
+ipc_parser.egg-info/requires.txt
+ipc_parser.egg-info/top_level.txt
