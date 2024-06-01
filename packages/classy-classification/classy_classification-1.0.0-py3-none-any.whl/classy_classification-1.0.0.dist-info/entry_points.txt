@@ -1,0 +1,3 @@
+[spacy_factories]
+spacy=classy_classification.__init__:make_text_categorizer
+

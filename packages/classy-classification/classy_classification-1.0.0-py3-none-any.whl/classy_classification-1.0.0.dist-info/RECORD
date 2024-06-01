@@ -1,0 +1,16 @@
+classy_classification/__init__.py,sha256=-vmf48O0HEanwd3w19l8dPdQmRHG_2_lAO3n76ApV4k,2596
+classy_classification/classifiers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classy_classification/classifiers/classy_skeleton.py,sha256=cO8J4KE4T1dU_eAa4z-vI-sl5GwJnzCutt8Lmc2WT5Y,9949
+classy_classification/classifiers/classy_spacy.py,sha256=8wBlTD0ifSnz3np4TY_6HVqCNcv1eFCW0tc89SoRXxk,9551
+classy_classification/classifiers/classy_standalone.py,sha256=j5NJygxJTtn4eatePJhaTeMxmtEvVG73vcJBPENwQ4M,2274
+classy_classification/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classy_classification/examples/data.py,sha256=RvG0rdO8gKqbxbk7ivTm7295vI0yjdFRy-nkPpZHzqA,2324
+classy_classification/examples/individual_transformer.py,sha256=LKj0_HM19i4UGRx-s3_ZLX7gri7rSqKOyVHt46i4Z04,230
+classy_classification/examples/spacy_few_shot_external.py,sha256=EPFlnoR23_1o_atSqUuwe_6OJ8fdk0br0KIw1FYy3TA,344
+classy_classification/examples/spacy_internal_embeddings.py,sha256=UfQmYMyW1nwUMe1d8BOSx-iv3vrs-6gnZE2bsgcPBG4,373
+classy_classification/examples/spacy_zero_shot_external.py,sha256=rLCf12qA_XE37J5-6yHhnVdUUFUrCoUhzmCXf9qUKwE,383
+classy_classification-1.0.0.dist-info/entry_points.txt,sha256=cBBCXpuaKXsHBG8PIkW9cA4LjnAljg96aHGV7eu-eys,78
+classy_classification-1.0.0.dist-info/LICENSE,sha256=Mejq8I0DIggYvyXltbSQ-R-i22vaKnpJwV124x0wqfQ,1073
+classy_classification-1.0.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+classy_classification-1.0.0.dist-info/METADATA,sha256=yb77Mj_OiEUnODBOkjD4f7DytoDglbyhZECaWw3OsZw,12124
+classy_classification-1.0.0.dist-info/RECORD,,
