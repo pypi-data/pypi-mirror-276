@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+MIGPT_pro.egg-info/PKG-INFO
+MIGPT_pro.egg-info/SOURCES.txt
+MIGPT_pro.egg-info/dependency_links.txt
+MIGPT_pro.egg-info/requires.txt
+MIGPT_pro.egg-info/top_level.txt
