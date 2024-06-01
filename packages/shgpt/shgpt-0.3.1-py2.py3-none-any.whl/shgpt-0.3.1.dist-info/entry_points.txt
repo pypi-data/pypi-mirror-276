@@ -1,0 +1,3 @@
+[console_scripts]
+sg = shgpt:main
+shgpt = shgpt:main
