@@ -1,0 +1,10 @@
+[plover.command]
+touchscreen_stenotype.close = plover_touchscreen_stenotype.Main:command_close
+touchscreen_stenotype.minimize = plover_touchscreen_stenotype.Main:command_minimize
+touchscreen_stenotype.open_settings = plover_touchscreen_stenotype.Main:command_open_settings
+
+[plover.gui.qt.tool]
+touchscreen_stenotype = plover_touchscreen_stenotype.Main:Main
+
+[plover.machine]
+(None) = plover_touchscreen_stenotype.NoneMachine:NoneMachine
