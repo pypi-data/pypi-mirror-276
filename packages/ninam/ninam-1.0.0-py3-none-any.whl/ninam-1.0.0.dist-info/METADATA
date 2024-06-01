@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: ninam
+Version: 1.0.0
+Summary: A steganography tool for hiding a secret message in text using different unicode spaces
+Project-URL: Homepage, https://github.com/dridk/ninam
+Project-URL: Issues, https://github.com/dridk/ninam/issues
+Author-email: Sacha Schutz <sacha.schutz@pm.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+
+
+## Usage 
+
+```python
+# Encode message
+python -m ninam encode  -i test.txt -p hello > encoded.txt
+
+# Decode message
+ python -m ninam decode --input encoded.txt
+
+
+```
