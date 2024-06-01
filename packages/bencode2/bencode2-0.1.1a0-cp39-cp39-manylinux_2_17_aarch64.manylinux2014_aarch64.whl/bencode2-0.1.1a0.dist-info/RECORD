@@ -1,0 +1,11 @@
+bencode2/__init__.py,sha256=cdqDaZ56gqRDjlAJHxTzWOLK3I61Ds1V9b5Pm4FSbUQ,658
+bencode2/__init__.cpython-39-aarch64-linux-gnu.so,sha256=PhQgfdciUo-mx59mcovP0UKxS170PCj7OoTAdJ0sR04,276656
+bencode2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bencode2/_encoder.cpython-39-aarch64-linux-gnu.so,sha256=hKPBMYwT4mAPJl4782kmhMMJbGRLby4oq5voiaz_2oM,1134976
+bencode2/_decoder.py,sha256=M_6WdIhOxbPTeB36_6Up3m48ti8mxfjxrxSu9HsUGIc,5362
+bencode2/_encoder.py,sha256=6MMpQOdhOrI6V--W8CDKc3Rj0JZSQF-xB2NyKiQvoec,4787
+bencode2/_decoder.cpython-39-aarch64-linux-gnu.so,sha256=u3a9N3FYOhwzuUQXe-x2zGXleHB0alAwo437IW_cXXs,1018840
+bencode2-0.1.1a0.dist-info/WHEEL,sha256=03Lh7LZ20fZzQk9YPElKrUsDGYYp15nGMiy9sOH5CLk,146
+bencode2-0.1.1a0.dist-info/RECORD,,
+bencode2-0.1.1a0.dist-info/METADATA,sha256=e_q7AlbRMJBFkWWSGKuprQUiAD7sqMUfXxrVEC3xJic,2212
+bencode2-0.1.1a0.dist-info/licenses/LICENSE,sha256=WraLL2GWym7_6EnkH1Zi8kU_-2iPhXGv7yegTIEX3E8,1085
