@@ -1,0 +1,14 @@
+shgpt/__init__.py,sha256=AWOdTSUkJPaXExoMWba-p_N_RC9N4CoDpAOejxMilUk,22
+shgpt/__main__.py,sha256=0GGlvDUxdGolvIqo82N8a7QeJqTNQX-7M_WeylmPUIw,62
+shgpt/app.py,sha256=saH7KE0jTGkeqZBXtXmJfCBuyW4QZiwBeCydnR0ANus,2962
+shgpt/version.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+shgpt/api/ollama.py,sha256=zwpGUoAa6WFy_UXu4HTedhppwS72vT70GCBxvWouaCM,2474
+shgpt/tui/app.py,sha256=pN541rTVwPv7G22UGCxoHz-vweI1hSG9UPj8sbYylO8,3761
+shgpt/tui/app.tcss,sha256=O9-hxmW2Pb1sKSndHieh4cwNApACixLX0cvJvm5xWeU,166
+shgpt/utils/common.py,sha256=GFunlve96uXxeDmaRvCEvn_mibp3xBZkEE1-QB40YpQ,1125
+shgpt/utils/conf.py,sha256=wne7llBaCDidDzYKJGX6dHO4RRj_FT7TBqZPGvzfJAE,335
+shgpt/utils/http.py,sha256=ooRK-fXdKTTRZ4yED2uJsx0VufzcY-FqJfmG-x4_77w,369
+shgpt-0.2.1.dist-info/METADATA,sha256=VTZa3YOvI9JyIC1X7I46ULdd_UIbX5KeoE58TWU8UTE,1730
+shgpt-0.2.1.dist-info/WHEEL,sha256=cDcbFFSNXOE-241I5PFuLkIYfR_FM7WTlPEi33njInY,105
+shgpt-0.2.1.dist-info/entry_points.txt,sha256=advh9gxcQ9F8CogIp8IeLexf0ryMihJyHd6dBi8zKz0,53
+shgpt-0.2.1.dist-info/RECORD,,
