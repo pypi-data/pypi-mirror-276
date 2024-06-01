@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: safety-checker
+Version: 0.5
+Summary: Integrate stable diffusion safety checker / NSFW image detection into web service like FastAPI.
+Author-Email: iyume <iyumelive@gmail.com>
+License: Apache-2.0
+Requires-Python: >=3.8
+Requires-Dist: Pillow>=8.4.0
+Requires-Dist: transformers>=4.0; extra == "sdhook"
+Requires-Dist: diffusers[torch]>=0.20; extra == "sdhook"
+Provides-Extra: sdhook
+Description-Content-Type: text/markdown
+
+# Safety Checker
+
+Safety checker is a model used in stable diffusion pipeline, aimed to identify NSFW image.
+[Here](https://huggingface.co/CompVis/stable-diffusion-safety-checker) is the official description.
+
+This project extracts its safety checker into a independent function to provide a conventional way to detect NSFW image in deep neural network.
+
+See [test_imgs.py](https://github.com/iyume/safety-checker/blob/main/test_imgs.py) to get start.
+
+## TODO
+
+- add standalone safety checker implementation that depends on pytorch only. provide strength config (if possible) for NSFW detection
+- add FastAPI integration

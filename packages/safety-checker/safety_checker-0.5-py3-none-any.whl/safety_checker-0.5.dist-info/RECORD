@@ -1,0 +1,6 @@
+safety_checker-0.5.dist-info/METADATA,sha256=FQ4q-YBgsH6TODORStEdEM3scAUWj6IKeJWgIgTgeiE,1070
+safety_checker-0.5.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+safety_checker-0.5.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+safety_checker/__init__.py,sha256=yp2YodCCjGVRbkHou4NB_x97XUJgUtpSTqFE1Iv8Sz0,235
+safety_checker/sdhook.py,sha256=ZCP-CYSHZh2TdERq9fJBujEi7RuupsFMGGVWran81pM,4455
+safety_checker-0.5.dist-info/RECORD,,
