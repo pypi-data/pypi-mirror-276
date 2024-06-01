@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xerenity
+Version: 0.0.3
+Summary: Python package for xerenity
+Home-page: https://xerenity.vercel.app/login
+Author: Andres Velez
+Author-email: svelez@xerenity.co
+License: BSD 2-clause
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+Requires-Dist: supabase>=2.4.4
