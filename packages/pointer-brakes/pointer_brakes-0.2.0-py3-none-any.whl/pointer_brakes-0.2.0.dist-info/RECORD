@@ -1,0 +1,9 @@
+pointer_brakes/__init__.py,sha256=vXRMVqjxHtM34wnQdmwL8nBtv5241Iko478KLZMBRR0,189
+pointer_brakes/_sim.py,sha256=qrHAknm9KVtU1aNn5SRCTGJJ5NiomiB5AuTnhSSFzMc,8603
+pointer_brakes/_vec2d.py,sha256=uQr9S7Dq_dxUcM96bNI8Aa-9flw8RXP_5LWjhuxGv14,493
+pointer_brakes/exceptions.py,sha256=bA8icgkHC3kVHVJqA9jrJCIzvEN3fZyLKWINgHnD2-A,691
+pointer_brakes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pointer_brakes-0.2.0.dist-info/METADATA,sha256=fart-DtXe2ZbM95OE2LVM8XiB15-_BBDlMRoEcbHNzc,2243
+pointer_brakes-0.2.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pointer_brakes-0.2.0.dist-info/licenses/LICENSE,sha256=WzVUJb82uPGi1u8Y_BExYte1-DehvFYpBLU9g-uGSWI,1073
+pointer_brakes-0.2.0.dist-info/RECORD,,
