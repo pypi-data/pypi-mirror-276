@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: triqs_hubbardI
+Version: 3.3.0
+Summary: Hubbard-I impurity solver based on the TRIQS library (triqs.github.io)
+Author-email: TRIQS <triqs@flatironinstitute.org>
+Project-URL: Homepage, https://triqs.github.io/hubbardI
+Project-URL: Bug Tracker, https://github.com/triqs/hubbardI/issues
+Keywords: triqs,hubbard-I,impurity solver,dmft
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: COPYING.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+[![build](https://github.com/TRIQS/hubbardI/workflows/build/badge.svg)](https://github.com/TRIQS/hubbardI/actions?query=workflow%3Abuild)
+
+# hubbardI - A Hubbard-I solver based on triqs atom_diag
+
+This application implements the Hubbard-I solver in triqs using the lightweight diagonalization routine which come with triqs/atom_diag.
+
+Requires a working [TRIQS](https://triqs.github.io/triqs) installation with a matching major version number.
+
+### Usage ###
+The Solver comes with the same interface as, e.g., the [cthyb solver](https://triqs.github.io/cthyb/latest/index.html). More information on how to use the solver can be found in the [documentation](https://triqs.github.io/hubbardI/latest/documentation.html).

@@ -1,0 +1,13 @@
+COPYING.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+python/triqs_hubbardI/__init__.py
+python/triqs_hubbardI/solver.py
+python/triqs_hubbardI/version.py
+python/triqs_hubbardI.egg-info/PKG-INFO
+python/triqs_hubbardI.egg-info/SOURCES.txt
+python/triqs_hubbardI.egg-info/dependency_links.txt
+python/triqs_hubbardI.egg-info/requires.txt
+python/triqs_hubbardI.egg-info/top_level.txt
