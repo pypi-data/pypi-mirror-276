@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ellipsisPySpark/__init__.py
+ellipsisPySpark/parse.py
+ellipsisPySpark.egg-info/PKG-INFO
+ellipsisPySpark.egg-info/SOURCES.txt
+ellipsisPySpark.egg-info/dependency_links.txt
+ellipsisPySpark.egg-info/requires.txt
+ellipsisPySpark.egg-info/top_level.txt
+test/test.py
