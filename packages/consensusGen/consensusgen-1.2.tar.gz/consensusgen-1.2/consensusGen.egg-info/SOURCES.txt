@@ -1,0 +1,11 @@
+LICENCE.md
+MANIFEST.in
+README.md
+setup.py
+consensusGen.egg-info/PKG-INFO
+consensusGen.egg-info/SOURCES.txt
+consensusGen.egg-info/dependency_links.txt
+consensusGen.egg-info/requires.txt
+consensusGen.egg-info/top_level.txt
+consensusgen/__init__.py
+consensusgen/consensusGen.py
