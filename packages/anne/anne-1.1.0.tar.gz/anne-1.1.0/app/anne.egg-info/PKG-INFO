@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: anne
+Version: 1.1.0
+Summary: Lib for lazy dev
+Home-page: https://github.com/mrship666/anne-lib
+Author: AnneHouman
+Author-email: annehouman01@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Anne
+
+Anne - Fast and easy
+
+## Mục lục
+
+- [Giới thiệu](#giới-thiệu)
+- [Cài đặt](#cài-đặt)
+- [Cập nhật](#cập-nhật)
+- [Sử dụng](#sử-dụng)
+- [Các tính năng](#các-tính-năng)
+- [Đóng góp](#đóng-góp)
+- [Giấy phép](#giấy-phép)
+
+## Giới thiệu
+
+Anne cung cấp các tính năng để giúp các bạn làm việc một cách nhanh chóng.
+
+## Cài đặt
+
+Để cài đặt thư viện, bạn có thể sử dụng pip:
+```cmd
+pip install anne
+```
+
+## Cập nhật
+
+Để cập nhật thư viện lên phiên bản mới nhất, sử dụng lệnh sau:
+```cmd
+pip install --upgrade anne
+```
+
+## Sử dụng
+
+Để sử dụng thư viện, bạn cần import nó vào mỗi file Python của bạn:
+```python
+from anne import *
+```
+
+## Các tính năng
+
+Khám phá các tính năng của thư viện bằng cách đọc tài liệu hoặc thử nghiệm trực tiếp.
+
+## Đóng góp
+
+Bạn có thể đóng góp cho thư viện bằng cách thêm tính năng mới, sửa lỗi, hoặc cải tiến thư viện. Gửi đóng góp của bạn qua email: annehouman01@gmail.com
+
+## Giấy phép
+
+Thư viện này được xây dựng và duy trì bởi AnneHouman.
+
