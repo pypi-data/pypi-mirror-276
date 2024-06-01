@@ -1,0 +1,13 @@
+plutocam/__init__.py,sha256=5HPTdx0PqeN5GnGqtPT53ZsXuojUlQk5GC3GAvKWnBY,604
+plutocam/__main__.py,sha256=AyOiX1KBIyiFws9ahjYGhFIHmMzoJwgp0a6XzU_hejI,19421
+plutocam/command.py,sha256=Zz5opRTjbsFBnf25c7kwp-Elaiqrc-NdpDKfyR4y49E,4254
+plutocam/defaults.py,sha256=nc6TLBA7wvSO2AVh_GeiGQ0LqxqKk1XlzOxJ1iimpfA,112
+plutocam/lwdrone.py,sha256=B5cKLnjrMsJEBH_uilJ3hpnTAybnutBwXWpfYPNZk8E,16604
+plutocam/responses.py,sha256=I9D5unb-msLxu-slF1bj6CMlo5Ng8MaAhhNVVZggJCY,25031
+plutocam/utils.py,sha256=wCNMs-Jf_MIV5Kb2Z9hjvCltNCjXX9hKMD7oEICPc3U,1683
+plutocam-0.1.0.dist-info/LICENSE,sha256=LiVwglfJwpy9ldkf56MUgXzm8oLy4fZ3Do2yVJR_TNU,11542
+plutocam-0.1.0.dist-info/METADATA,sha256=IPN2CAgsypchdv1idXWL2FAzLk7S7grflntpwpoIzn0,3883
+plutocam-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+plutocam-0.1.0.dist-info/entry_points.txt,sha256=doJWP00uPLUvXwCWxpUeFFysrmoDndu2-bS9lfXY6sU,53
+plutocam-0.1.0.dist-info/top_level.txt,sha256=mkfLGTM-vLUlMwvP1miBwwkS8kkKZvgXWt8zpfLWJQY,9
+plutocam-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+plutocam = plutocam.__main__:main
+
