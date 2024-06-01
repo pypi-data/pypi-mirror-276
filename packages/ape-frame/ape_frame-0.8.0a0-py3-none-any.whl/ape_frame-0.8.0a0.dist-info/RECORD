@@ -1,0 +1,11 @@
+ape_frame/__init__.py,sha256=V2uXHaF6Lz_Lm0U8aE2WcNV6-weVgaDf9Pnbgn6kCv8,680
+ape_frame/accounts.py,sha256=d6g0LqwyAAcXrZ55uUI0eVpDDsVDtf4Un1hCIXyV5z8,4466
+ape_frame/exceptions.py,sha256=Ni4ghAKjmIbr67nOsf2HKF5aGSmNqxyhz0FArpLUaww,529
+ape_frame/providers.py,sha256=7J5W43AXiTq5udv94TfThoQN0sCEhMVrQNFRSqIpWZ8,2969
+ape_frame/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ape_frame/version.py,sha256=j3rcbIqnLsdEARH5-8TBYr06-QsTbJ5EHrrn-2AcU-8,413
+ape_frame-0.8.0a0.dist-info/LICENSE,sha256=SnMf2SIk6HWTgcM0C4159qNr_dLtk7kvFXP7EG24HzQ,11342
+ape_frame-0.8.0a0.dist-info/METADATA,sha256=ofHh5dtSOtgxntkl18zZY1KTxZuYiQw6m01FE0TLAm0,3758
+ape_frame-0.8.0a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ape_frame-0.8.0a0.dist-info/top_level.txt,sha256=m_DHBSeZGrdPLiZQRSyn1XBODhI5b0ZusUkH36mx7SY,10
+ape_frame-0.8.0a0.dist-info/RECORD,,
