@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+talia/__init__.py
+talia.egg-info/PKG-INFO
+talia.egg-info/SOURCES.txt
+talia.egg-info/dependency_links.txt
+talia.egg-info/top_level.txt
+talia/utils/__init__.py
+talia/utils/parser.py
