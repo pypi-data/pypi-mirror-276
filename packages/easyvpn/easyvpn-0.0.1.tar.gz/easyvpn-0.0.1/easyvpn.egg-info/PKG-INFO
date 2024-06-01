@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: easyvpn
+Version: 0.0.1
+Summary: VPN package
+Author: Ketuke
+Author-email: clientCrank@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: telebot
+
+# Easy VPN is a convenient Python package that allows users to quickly and easily connect to a VPN.
+# To do this, you need to import the package and launch your project.

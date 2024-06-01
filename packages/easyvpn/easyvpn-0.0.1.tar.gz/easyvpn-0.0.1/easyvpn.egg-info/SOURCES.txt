@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+easyvpn/__init__.py
+easyvpn.egg-info/PKG-INFO
+easyvpn.egg-info/SOURCES.txt
+easyvpn.egg-info/dependency_links.txt
+easyvpn.egg-info/requires.txt
+easyvpn.egg-info/top_level.txt
