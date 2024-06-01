@@ -1,0 +1,9 @@
+README.md
+setup.py
+simkit/__init__.py
+simkit/backtracking_line_search.py
+simkit.egg-info/PKG-INFO
+simkit.egg-info/SOURCES.txt
+simkit.egg-info/dependency_links.txt
+simkit.egg-info/requires.txt
+simkit.egg-info/top_level.txt
