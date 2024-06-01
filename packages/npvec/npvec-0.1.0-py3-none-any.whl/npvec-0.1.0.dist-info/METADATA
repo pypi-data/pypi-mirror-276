@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: npvec
+Version: 0.1.0
+Summary: Numpy ndarray wrapper with swizzling
+Author: Evan Raw
+Author-email: evanraw.ca@gmail.com
+License: MIT
+License-File: LICENSE
+
