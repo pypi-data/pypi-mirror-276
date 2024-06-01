@@ -1,0 +1,11 @@
+SafeCrypt/__init__.py,sha256=h2cm9edYse96bNmk14sVJ5IN0hObbsqDehAbDB00nrM,68
+SafeCrypt/encryption.py,sha256=bVDS0XE_eNo-LIfcRBQ531_5CdNyeu3Xs3r-g1nRljI,2391
+SafeCrypt/main.py,sha256=ubMHiEKbzsZQfj4oU8BUmC2xlg5vf_vRHTqPorpNTN0,6545
+tests/__init__.py,sha256=_4GRF4d2W-K1mdq81m44gcp4FVpKcY1WJA-IWlTxpFM,21
+tests/test_encryption.py,sha256=VXejz7mK3a0V0DnQlqtZmsF8JhQ3L6pRXWxWKxORUQ4,1681
+safecrypt-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safecrypt-0.1.0.dist-info/METADATA,sha256=_uHieTIIjU7pBhAHBEDDufVy54t4xFFReJImQJV9W6Y,693
+safecrypt-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+safecrypt-0.1.0.dist-info/entry_points.txt,sha256=FOFv18uXH49XvHsJZVvpjoMhcFmrDv2v1dpNIVtLIEg,50
+safecrypt-0.1.0.dist-info/top_level.txt,sha256=f6oRQkvEO4KMnFGAGQN8aC-owG2FvWCePuL5RhCsG80,16
+safecrypt-0.1.0.dist-info/RECORD,,
