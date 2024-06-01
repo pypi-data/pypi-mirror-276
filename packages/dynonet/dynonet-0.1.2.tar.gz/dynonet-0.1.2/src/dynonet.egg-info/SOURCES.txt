@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/dynonet/__init__.py
+src/dynonet/filtering.py
+src/dynonet/functional.py
+src/dynonet/lti.py
+src/dynonet/metrics.py
+src/dynonet/static.py
+src/dynonet.egg-info/PKG-INFO
+src/dynonet.egg-info/SOURCES.txt
+src/dynonet.egg-info/dependency_links.txt
+src/dynonet.egg-info/not-zip-safe
+src/dynonet.egg-info/requires.txt
+src/dynonet.egg-info/top_level.txt
