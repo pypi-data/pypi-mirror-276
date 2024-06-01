@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "python-alist"
+version = "0.0.12.2"
+description = "Python wrapper for alist."
+authors = ["ChenyangGao <wosiwujm@gmail.com>"]
+license = "MIT"
+readme = "readme.md"
+homepage = "https://github.com/ChenyangGao/web-mount-packs/tree/main/python-wrap-alist-web-api"
+repository = "https://github.com/ChenyangGao/web-mount-packs/tree/main/python-wrap-alist-web-api"
+keywords = ["nas", "alist"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "*"
+glob_pattern = "*"
+http_response = "*"
+path_ignore_pattern = "*"
+python-dateutil = "*"
+python-filewrap = ">=0.1"
+python-httpfile = "*"
+python-http_request = "*"
+python-urlopen = "*"
+requests = "*"
+
+[tool.poetry.scripts]
+python-alist = "alist.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.packages]]
+include = "alist"
