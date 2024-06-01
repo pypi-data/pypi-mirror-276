@@ -1,0 +1,13 @@
+toyai/ETL.py,sha256=FXOENo9RdVzb7BCXxAiIeKSeId_pyO-M-runlLIYQoM,2399
+toyai/Trainer.py,sha256=v7Hw46QLSXrXlG-uW9WXP-xzcO8oTKIX3Y7ORxpQees,1921
+toyai/__init__.py,sha256=cYh-COdIdSWRhadc5LJIT6-Huf4JFADl0nKwcTLuGQU,92
+toyai/cli.py,sha256=QQF2u3hdjsnLZNFLzov6TvFBB3hU2dbGNWfAFgfnIOQ,3630
+toyai/tools/FileText.py,sha256=Jvc_D71dUoeepT-aWGvbAvnyd7O2yl_CxkUWBdeL3_Y,2876
+toyai/tools/__init__.py,sha256=hYa5zmDCAaOmjHsbmFJi3wUkE-i3xsTPhGZ2MuOqcRQ,68
+toyai/tools/os.py,sha256=AbSVoJthyWb3yraEcmnbfQ4fKr8Wt0qiFv-uaFZPYRA,156
+toyai/tools/txt.py,sha256=VAZNohxTwGT1fAtI_SUSLNMwjVMHn3VfaQf0mLJ5sQE,1473
+toyai-0.0.4.dist-info/METADATA,sha256=0kOJttdO2juAmoTlYAKIHDWxfofY3-dCsZj3XZnhiHc,360
+toyai-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+toyai-0.0.4.dist-info/entry_points.txt,sha256=GhcIoyzdCVpO8zyT2_v7HVy1G9rIk5nBAQ87317B58g,41
+toyai-0.0.4.dist-info/top_level.txt,sha256=k2LxSFWZgS_pbAObmLshiV0RAP0kCuePltZoZg8vhWA,6
+toyai-0.0.4.dist-info/RECORD,,
