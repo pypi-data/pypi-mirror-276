@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: omnijp
+Version: 2.5.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: retry (>=0.9.2)
+Requires-Dist: requests (>=2.31.0)
+Requires-Dist: pymssql (>=2.3.0)
+Requires-Dist: psycopg2 (>=2.9.9)
+Requires-Dist: openai (~=1.30.5)
+
+UNKNOWN
+
