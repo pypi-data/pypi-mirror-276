@@ -1,0 +1,8 @@
+pqm/__init__.py,sha256=6eL5eVB1MVMvQP2z2vy3lhsTGlRWONAbbhT2TxW8mj8,185
+pqm/_version.py,sha256=Jk2iAU7m-7Vx9XV1TtdD9ZoJraIncDq_4_Wd-qtUotg,411
+pqm/pqm.py,sha256=QLHNwF4H2n4aC36HOxFJxNZKDuWx6-Z_PIYhKXo6tg8,5173
+pqm/test_gaussian.py,sha256=tdM-5Wr-T9V5iL7IPlNyFpF2pdykUwHBqdfZjrMTKBI,315
+pqm-0.3.0.dist-info/METADATA,sha256=mVBewlmenxBOqnNtouyvqfBhOVMW5otOCQG6EgyeGDk,4437
+pqm-0.3.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pqm-0.3.0.dist-info/licenses/LICENSE,sha256=aWtQF-gjzCNuwJeq5DpL3URbc8a3C4UkAt07ZE-vKEs,1071
+pqm-0.3.0.dist-info/RECORD,,
