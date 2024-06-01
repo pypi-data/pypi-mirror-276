@@ -1,0 +1,81 @@
+[tool.poetry]
+name = "coSMicQC"
+version = "0.0.2"
+description = "coSMicQC is a software tool for single-cell quality control of morphology datasets."
+authors = ["Way Science Community"]
+license = "BSD-3-Clause"
+readme = "README.md"
+packages = [{include = "cosmicqc", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pandas = "^2.2.2"
+scipy = "^1.13.0"
+pyarrow = "^16.0.0"
+pyyaml = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+
+[tool.isort]
+profile = "black"
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+fix = true
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E", "W",
+    # isort
+    "I",
+    # pyflakes
+    "F",
+    # pylint
+    "PL",
+    # mccabe
+    "C90",
+    # ruff
+    "RUF",
+    # flake8-builtins
+    "A",
+    # flake8-comprehensions
+    "C4",
+    # flake8-simplify
+    "SIM",
+    # flake8-annotations
+    "ANN"
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Ignore `E402` and `F401` (unused imports) in all `__init__.py` files
+"__init__.py" = ["E402", "F401"]
+# ignore typing rules for tests
+"tests/*" = ["ANN201"]
+
+# set dynamic versioning capabilities for project
+[tool.poetry-dynamic-versioning]
+enable = false
+style = "pep440"
+vcs = "git"
+
+# specify where version replacement is performed
+[tool.poetry-dynamic-versioning.substitution]
+files = ["src/cosmicqc/__init__.py"]
+
+# set persistent versions within the __init__.py file in cases
+# where we may not have or want access to full git history
+[tool.poetry-dynamic-versioning.files."src/cosmicqc/__init__.py"]
+persistent-substitution = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.setuptools_scm]
+root = "."
