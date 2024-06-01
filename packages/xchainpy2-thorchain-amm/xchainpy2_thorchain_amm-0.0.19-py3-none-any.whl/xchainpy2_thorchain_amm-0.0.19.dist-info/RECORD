@@ -1,0 +1,15 @@
+xchainpy2_thorchain_amm/__init__.py,sha256=cqRG9EDqi1zyNiXYNZlAkCvDd4IxsZpJnl7WP3xoWCs,90
+xchainpy2_thorchain_amm/amm.py,sha256=t4TUnFn_E11TuN2GM47muHBJ1Xi4ZgfwvASRFee7ed0,34870
+xchainpy2_thorchain_amm/consts.py,sha256=E7pN7DcUaFEbND_SLW7nPfj9oLlfQS9NKM2uu9zA6ow,475
+xchainpy2_thorchain_amm/detect_clients.py,sha256=gbkFrsOVnzDb2CEym-35yemwurRTk_xuzkeA-ip53xs,1093
+xchainpy2_thorchain_amm/evm_helper.py,sha256=1weHERJek1xixmacSU3Zd0q-8H-z_ElmcmiGas6enI8,5313
+xchainpy2_thorchain_amm/models.py,sha256=8winSU8-wlfuVjS_epEWtwRX7Q9xkBpUT4KQmZbpXvU,960
+xchainpy2_thorchain_amm/utils.py,sha256=KaUg6hzGHYsgtekozga1DwVRMwo378Ss_Men90xhJUU,481
+xchainpy2_thorchain_amm/wallet.py,sha256=unriyS3qiWDeuWEhkyfXXVlyxiUCq4nQxdQq4ey-acU,4357
+xchainpy2_thorchain_amm/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xchainpy2_thorchain_amm/tests/test_name.py,sha256=giNcVA94mA9LzfaNNedS6cNtyJ76fj5Np3iFp7_fBps,453
+xchainpy2_thorchain_amm-0.0.19.dist-info/LICENSE,sha256=48Sg1_m5WW7RgE4MEEUyBMr71g9YqB5boVDkTYTPZMg,2124
+xchainpy2_thorchain_amm-0.0.19.dist-info/METADATA,sha256=rbtQY0KZJR0vv6HPssgBkGMAJVSBek08AMrDwC-5C8M,1423
+xchainpy2_thorchain_amm-0.0.19.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+xchainpy2_thorchain_amm-0.0.19.dist-info/top_level.txt,sha256=nH4udTSfYEH5SsK5ZcaNnGHe5CfUOhuzLYWGFfvzokk,24
+xchainpy2_thorchain_amm-0.0.19.dist-info/RECORD,,
