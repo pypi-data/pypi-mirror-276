@@ -1,0 +1,10 @@
+xerenity/__init__.py,sha256=4kV_zuxLFN76BT8SfL0cTfJMg-4BbAittcg9iC2stcE,452
+xerenity/connection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xerenity/connection/db.py,sha256=IWi-Hr4naLffh9hZgLRl4jTS6QCGA4zzTZ2xGkkH12M,1993
+xerenity/search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xerenity/search/series.py,sha256=FQb_cGOBUQDYwxEiJYr9xxUJqHINV4gtWI4vXrqkhEQ,235
+xerenity-0.0.52.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xerenity-0.0.52.dist-info/METADATA,sha256=45lIHXEKTC397YjkyT2lJpYRk-YHwhWuqnZ9hBtX5eM,511
+xerenity-0.0.52.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+xerenity-0.0.52.dist-info/top_level.txt,sha256=wtvOeVAeKh-ztUQ-STS3EOJUh4X65HHz_R-XcFbCzF8,9
+xerenity-0.0.52.dist-info/RECORD,,
