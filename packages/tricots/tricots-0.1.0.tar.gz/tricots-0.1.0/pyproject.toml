@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tricots"
+version = "0.1.0"
+description = "Trace Interception and Collection Tool"
+authors = ["Diego Dorn"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
