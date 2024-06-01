@@ -1,0 +1,7 @@
+requests
+filetype
+yagmail
+rich
+bs4
+chardet
+psutil>=5.8.0
