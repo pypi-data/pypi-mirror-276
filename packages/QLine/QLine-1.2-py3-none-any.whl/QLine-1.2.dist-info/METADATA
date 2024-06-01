@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: QLine
+Version: 1.2
+Summary: For the calculation of one-dimensional Schroedinger equations
+Author: Michael Welzel
+License: GPLv3
+Keywords: python,quantum,mechanics,one,dimensional,chemistry,harmonic,oscillator,basis set method,variatonal principle
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.24.2
+Requires-Dist: matplotlib >=3.7.0
+Requires-Dist: scipy >=1.10.1
+
+# QuantumLine(QLine)
+
+Quantumline (QLine) is a python package for solving one-dimensional Schroedinger equations 
+using the variational principle and to plot the results in a comfortable way.
+
+QLine lives on gitlab (https://gitlab.com/micwe/qline).
+
+The documentation can be found on the corresponding gitlab pages:
+
+https://micwe.gitlab.io/qline/
+
+
+## Installation
+
+Just execute:
+
+ `pip install qline`
+
+## Usage
+
+See `examples` directory for some examples of typical runs.
+
+QLines can be run using Python's interpreter, or interactively with
+some of the interactive Python consoles.
+
+### Example: Harmonic Potential
+
+The theoretical background can be found in the following PDF:
+
+```python
+# import QuantumLine package
+import QLine as ql
+# import numpy standard package
+import numpy as np
+
+# Creating a linear Grid
+grid = ql.Grid()
+x = grid.create_linear_grid()
+grid.show_attributes(show=True)
+
+# Create a potential function V(x) (harmonic oscillator)
+pot = ql.harmonic_potential(x)
+
+# Configure basis set method (variational principle) 
+# For solving Schroedinger equation
+N = 10 # Size of basis set
+
+# Run basis set method
+# lamb = eigenvalues
+# coeff = basis function coefficients (for wave functions)
+# basis = basis functions
+lamb, coeff, basis = ql.basis_set_method(x, pot, N=N)
+
+print("\n\nEigenenergies:\n", lamb)
+print("\n\n(Function) Coefficients:\n", np.around(coeff.real,decimals=2))
+
+# Construct eigenfunctions (wave functions) 
+# by combining coefficients and basis functions
+wf = ql.wave_function_from_coeff(coeff, basis)
+
+# Visualize wave functions within potential function
+# on the associated energies
+ql.plot_wfunctions_within_potential(x, pot, lamb, wf,
+                                    xmin=-8, xmax=8,
+                                    ymin=-0.3, ymax=10.5,
+                                    savefig=False)
+
+# Visualize energy level diagram
+ql.plot_energy_levels(lamb, savefig=False)
+```
