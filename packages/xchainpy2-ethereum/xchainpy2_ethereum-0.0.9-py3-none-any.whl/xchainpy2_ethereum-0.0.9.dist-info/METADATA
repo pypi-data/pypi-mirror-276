@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: xchainpy2_ethereum
+Version: 0.0.9
+Summary: XChainPy2 Ethereum Chain Client
+Author-email: Tirinox <developer@tirinox.ru>
+License: MIT
+Project-URL: source, https://github.com/tirinox/xchainpy
+Keywords: Crypto,Ethereum,Eth,ERC20,Blockchain,XChain
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xchainpy2-utils
+Requires-Dist: xchainpy2-crypto
+Requires-Dist: xchainpy2-client
+Requires-Dist: web3 <7.0.0,>=6.0.0
+Requires-Dist: aioetherscan >=0.8.12
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# XChainPy2 Ethereum Client
+
+XChainPy Ethereum Client is a Python library that allows you to interact with Ethereum blockchain.
