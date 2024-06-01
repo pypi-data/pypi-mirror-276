@@ -1,0 +1,17 @@
+frequenz/client/microgrid/__init__.py,sha256=DpXSTDu-PH6BAZqbz2GROGMoWZzdS0mUFh61BSiJfy4,2435
+frequenz/client/microgrid/_client.py,sha256=t5Bzco3CdTOsHgNQsmlcbaPRbhOD95wh8I-4Rt6c9vM,16186
+frequenz/client/microgrid/_component.py,sha256=tWdQNKK6wXNUbPFt6Amy1kz0zjpSMyBOozcZo7GOGLI,8138
+frequenz/client/microgrid/_component_data.py,sha256=i2oCPDGtY7pW6n7cL6jhlUd4_ZC3LRZCNqOhb6z25L8,21562
+frequenz/client/microgrid/_component_error.py,sha256=f_ucN2KDK_yu3XXwQhC_96-uhQ4eyrViG7IcWW4FAFw,6438
+frequenz/client/microgrid/_component_states.py,sha256=JE7sRuVGOQlmeHujYOp7W2CumFDDZTKI7rQe7dGU44A,8339
+frequenz/client/microgrid/_connection.py,sha256=M_wDZkGamDJ0qyvccaBfi8JHWawqp1IGXWMa2moL4hs,763
+frequenz/client/microgrid/_constants.py,sha256=eugGcUm3SqnrUQ4CGd1eJ90XOzNC7pz26T81MczImbg,653
+frequenz/client/microgrid/_exception.py,sha256=nr5w-Z5Y9UX33mmNqxBg61qcUJdlqX-ooO8gUvSoFs0,20390
+frequenz/client/microgrid/_metadata.py,sha256=-aD1kqTzW5toPAKZn50lXU3oFia253sfJpWIyS03xYw,1607
+frequenz/client/microgrid/conftest.py,sha256=kxmvkzTdvGfh7SiDINIFX0FG9PU0EoKROl9YY75zN8w,409
+frequenz/client/microgrid/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frequenz_client_microgrid-0.4.0.dist-info/LICENSE,sha256=zt0sW1KvE_KWE2ILOabrQYlfOoP0zUZXC3xCLrzGpIA,1089
+frequenz_client_microgrid-0.4.0.dist-info/METADATA,sha256=enZydn3Mvf5Cer_w9wWdD-iUQTQY1O3qnDgovAMlyPg,4751
+frequenz_client_microgrid-0.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+frequenz_client_microgrid-0.4.0.dist-info/top_level.txt,sha256=x08GRcWytsyKXa2Ayme9e5pg3L5Kcq6lw_BaQmToMO4,9
+frequenz_client_microgrid-0.4.0.dist-info/RECORD,,
