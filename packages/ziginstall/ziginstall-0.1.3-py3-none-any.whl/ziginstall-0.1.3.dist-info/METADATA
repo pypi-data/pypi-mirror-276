@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ziginstall
+Version: 0.1.3
+Summary: 
+Author: charlotdupont
+Author-email: charlo.dupont@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: packaging (>=24.0,<25.0)
+Requires-Dist: platformdirs (>=4.2.2,<5.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Description-Content-Type: text/markdown
+
+# Zig Install
+
+[![PyPI](https://github.com/charlotdupont/ZigInstall/actions/workflows/python-publish.yml/badge.svg)](https://github.com/charlotdupont/ZigInstall/actions/workflows/python-publish.yml)
+
+Personal project to install Zig.
+
+**Should work on all systems, but only tested on Ubuntu 20.04.**
+
+**Note**: This project is not affiliated with the official Zig project.
+
+## Usage
+
+- run ```ziginstall``` to see available commands.
+- run ```ziginstall install``` to install Zig.
+    - You can specify the version to install by running ```ziginstall install -v <version>```.
+
+## TODO
+
+- Uninstall functionality.
+- Add to path functionality.
+
