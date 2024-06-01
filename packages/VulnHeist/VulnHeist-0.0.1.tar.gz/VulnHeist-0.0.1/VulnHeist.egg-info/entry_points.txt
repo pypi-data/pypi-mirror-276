@@ -1,0 +1,2 @@
+[console_scripts]
+VulnHeist = VulnHeist.VulnHeist:main

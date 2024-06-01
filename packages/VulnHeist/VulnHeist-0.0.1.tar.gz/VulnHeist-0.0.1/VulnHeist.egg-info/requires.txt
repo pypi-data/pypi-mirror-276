@@ -1,0 +1,7 @@
+art
+colorama
+matplotlib
+pyfiglet
+pymetasploit3
+python-libnmap
+rich
