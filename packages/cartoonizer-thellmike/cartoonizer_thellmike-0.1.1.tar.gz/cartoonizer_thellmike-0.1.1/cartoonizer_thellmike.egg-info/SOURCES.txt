@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+cartoonizer/__init__.py
+cartoonizer/cartoon_effect.py
+cartoonizer/color_quantization.py
+cartoonizer/edge_detection.py
+cartoonizer/preprocessing.py
+cartoonizer_thellmike.egg-info/PKG-INFO
+cartoonizer_thellmike.egg-info/SOURCES.txt
+cartoonizer_thellmike.egg-info/dependency_links.txt
+cartoonizer_thellmike.egg-info/requires.txt
+cartoonizer_thellmike.egg-info/top_level.txt
+tests/test_cartoonizer.py
