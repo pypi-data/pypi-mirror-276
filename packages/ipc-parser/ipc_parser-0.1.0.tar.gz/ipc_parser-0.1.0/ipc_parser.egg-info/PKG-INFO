@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ipc_parser
+Version: 0.1.0
+Summary: Parsing XML International Patent Classifications (IPC)
+Home-page: https://github.com/ShayanSadeghi/ipc_parser
+Author: Shayan Sadeghi
+Author-email: ShayanSadeghi1996@gmail.com
+Keywords: ipc,patent,wipo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: lxml
+
+# IPC Parser
+
+By using `ipc_parser` you will be able to get the data frame of International Patent Classifications (IPC) from IPC-Scheme xml file that you could download from wipo website. This dataframe includes ipc human readable code, description, parent list and materialized path.
+
+## Use Case Example
+
+```bash
+pip install ipc_parser
+```
+
+```python
+from ipc_parser.parser import IpcParser
+
+ipc_obj = IpcParser(ipc_xml=path_to_ipc_xml)
+df = ipc_obj.get_dataframe()
+
+
+```
