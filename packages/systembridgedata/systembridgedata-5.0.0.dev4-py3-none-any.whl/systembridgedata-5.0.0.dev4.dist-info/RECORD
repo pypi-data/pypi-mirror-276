@@ -1,0 +1,16 @@
+systembridgedata/__init__.py,sha256=bWsXOGyduc1azFPMDPsidC5t9mvJBEmLtN2u_zoirkI,12
+systembridgedata/_version.py,sha256=0npGP7VCrf7vFN7hh7DjqPzrY2nDaAH1mUJDB1PEP7U,293
+systembridgedata/module/__init__.py,sha256=gj_saubHb1wvj1-mBcMLT58tLVrdlm4SaqRFMj7Jjn0,19
+systembridgedata/module/cpu.py,sha256=gpXaj5-DoOQdSjZe6fvdCjZf661b8pnzH8VZv3XwMrg,12373
+systembridgedata/module/disks.py,sha256=LJuTE0ymZR-g8uNmfRdOnch3cBcV_V_3clb01zUSphU,2438
+systembridgedata/module/media.py,sha256=QrzRFo4bP7x0TXRjNWokHm9i6KlKjctM9Ods-rHtZYo,6686
+systembridgedata/module/memory.py,sha256=Zf1RYrMXl3_qSXN-luBPtoZUEm7iof76xMHTi7nwKcg,832
+systembridgedata/module/networks.py,sha256=RzKUIMsROU8MSy7WFuYrvsNpSOC21kRTZ7BHl7FJ4UA,2186
+systembridgedata/module/processes.py,sha256=JUSsThT_NvUmTQnk_BGuN848bdmSeOLuGsRHvUtCttU,1082
+systembridgedata/module/sensors.py,sha256=s_tauW42yNlfT7FK8abU2zm77zE6T82m08b5l7uSKts,2000
+systembridgedata/module/system.py,sha256=WWsZ_it8J_PmlsodkYsD7lRpnBQTcyIhX6U5v7x1Qr8,11567
+systembridgedata-5.0.0.dev4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+systembridgedata-5.0.0.dev4.dist-info/METADATA,sha256=-7GbaGmLcn3cBu5raotFWOFczoF-aIT7DjiZjSAnb8Y,640
+systembridgedata-5.0.0.dev4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+systembridgedata-5.0.0.dev4.dist-info/top_level.txt,sha256=KS-AxFxdnw67kouRUdxNgL2rqo3WZA4-R0HtBVE0yxo,17
+systembridgedata-5.0.0.dev4.dist-info/RECORD,,
