@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+distribute_crawler.egg-info/PKG-INFO
+distribute_crawler.egg-info/SOURCES.txt
+distribute_crawler.egg-info/dependency_links.txt
+distribute_crawler.egg-info/requires.txt
+distribute_crawler.egg-info/top_level.txt
