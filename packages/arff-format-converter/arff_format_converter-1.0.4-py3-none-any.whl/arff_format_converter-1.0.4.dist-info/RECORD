@@ -1,0 +1,13 @@
+arff_format_converter/__init__.py,sha256=CRsI76a9ywffVzE-dnywe0p_0ozC-o9ortTCHS6rLuI,1129
+arff_format_converter/arff_converter.py,sha256=pNdaDBIDqW8BZqx-e5Hf9j94r2hhTarT9fjZHsVECT4,149
+arff_format_converter/logs.py,sha256=JUu323aoLrJhbD73dGOC7K0NLPmI_ftCRf43GG9TXzs,735
+arff_format_converter/output.py,sha256=FKwyq67S1G4TSsoaIkVNXV-gSh3sF2rVBhbBjiqVrgM,1989
+arff_format_converter/texts.py,sha256=IL1LW5EpS0wMLcmG-B5U7zRI-yOXX8ZRcnKJkKw4fFI,424
+arff_format_converter/utils.py,sha256=evHp9jYfYLHRBhvl27FmYj0j3qx0dp-HwT6I_sh96I8,1725
+arff_format_converter/validate.py,sha256=1lPym6Sy8yBktvOML2qiqBMI5JlpSnAlgcqvOHoo_z4,705
+arff_format_converter-1.0.4.dist-info/LICENSE,sha256=5UpYWtfptS8PeqtMDbuzcgSRgD0iARhAyF6CgXIaZTM,1139
+arff_format_converter-1.0.4.dist-info/METADATA,sha256=1t-gkobfszwPlDuXnxHUTGGRpgLqwMHUF4zeTvMO0a4,3486
+arff_format_converter-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+arff_format_converter-1.0.4.dist-info/entry_points.txt,sha256=tNear800NUX9e2nqnCqpiwy9_pYOTkV_usPzWC_IbA8,84
+arff_format_converter-1.0.4.dist-info/top_level.txt,sha256=cc8w19MpKHsodQDEEaLnAE6JAXuWvNh-VcQqjIdwrVw,22
+arff_format_converter-1.0.4.dist-info/RECORD,,
