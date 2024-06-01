@@ -1,0 +1,13 @@
+LICENSE
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+turbogpt/__init__.py
+turbogpt/turbogpt.py
+turbogpt_pro.egg-info/PKG-INFO
+turbogpt_pro.egg-info/SOURCES.txt
+turbogpt_pro.egg-info/dependency_links.txt
+turbogpt_pro.egg-info/requires.txt
+turbogpt_pro.egg-info/top_level.txt
