@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Chinese_Word_Vectors.egg-info/PKG-INFO
+Chinese_Word_Vectors.egg-info/SOURCES.txt
+Chinese_Word_Vectors.egg-info/dependency_links.txt
+Chinese_Word_Vectors.egg-info/requires.txt
+Chinese_Word_Vectors.egg-info/top_level.txt
