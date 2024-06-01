@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: PyAlgoTradePro
+Version: 1.18
+Summary: Python Algorithmic Trading
+Home-page: https://github.com/yanjlee/pyalgotrade/
+Author: yanjlee
+Author-email: yanjlee@163.com
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pytz
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Provides-Extra: scipy
+Requires-Dist: scipy; extra == "scipy"
+Provides-Extra: talib
+Requires-Dist: Cython; extra == "talib"
+Requires-Dist: TA-Lib; extra == "talib"
+Provides-Extra: plotting
+Requires-Dist: matplotlib; extra == "plotting"
+Provides-Extra: bitstamp
+Requires-Dist: ws4py>=0.3.4; extra == "bitstamp"
+Requires-Dist: tornado; extra == "bitstamp"
+Provides-Extra: twitter
+Requires-Dist: tweepy; extra == "twitter"
+
+Python library for backtesting stock trading strategies.
