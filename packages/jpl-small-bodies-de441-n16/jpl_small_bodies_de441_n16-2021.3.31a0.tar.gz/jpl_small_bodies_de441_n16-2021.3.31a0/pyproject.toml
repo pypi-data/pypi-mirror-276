@@ -1,0 +1,25 @@
+[build-system]
+requires =  ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jpl_small_bodies_de441_n16"
+version = "2021.03.31a0"
+authors = [
+    {name = "B612 Asteroid Institute", email = "info@b612foundation.org"},
+]
+description = "JPL Small Bodies DE441 of 16 most massive asteroids."
+readme = "README.md"
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+    "spiceypy"
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+naif_de440 = ["jpl_small_bodies_de441_n16/sb441-n16.bsp", "jpl_small_bodies_de441_n16/sb441-n16.md5"]
