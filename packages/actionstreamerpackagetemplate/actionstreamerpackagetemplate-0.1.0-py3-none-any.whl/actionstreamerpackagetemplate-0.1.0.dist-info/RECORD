@@ -1,0 +1,8 @@
+actionstreamerpackagetemplate/__init__.py,sha256=OY02DRmi8vzIk0pmkLHWEq_fV_D1SoWL-cKwKRu15nc,98
+actionstreamerpackagetemplate/subpackage1/__init__.py,sha256=qR5glKSPEgQuKpuLszXw5rMpxPrWVzUTZ2ByegnKAso,89
+actionstreamerpackagetemplate/subpackage1/myModule1.py,sha256=2OXAfGdvZdmCuLqQ-ZO8bz9KkaLt3RJveYzp5WJw9lY,139
+actionstreamerpackagetemplate/subpackage2/__init__.py,sha256=bHy7esWBMYQ6fUmsF4pQxvqBWYUsVDAPsN7XN8x9IP0,89
+actionstreamerpackagetemplate/subpackage2/myModule2.py,sha256=zF5v1kB6lXkhfWkLApzEZRXopd5RfTotA-QpYbPQJ04,139
+actionstreamerpackagetemplate-0.1.0.dist-info/METADATA,sha256=_MeM2iENx6jnmoQVcgBDdGmLtSObonufNgq5oNYhfXk,456
+actionstreamerpackagetemplate-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+actionstreamerpackagetemplate-0.1.0.dist-info/RECORD,,
