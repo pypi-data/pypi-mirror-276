@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: linearized-musicxml
+Version: 0.0.1
+Summary: Linerized MusicXML
+Project-URL: Homepage, https://github.com/Jirka-Mayer/lmx
+Project-URL: Issues, https://github.com/Jirka-Mayer/lmx/issues
+Author-email: Jiří Mayer <mayer@ufal.mff.cuni.cz>
+License-File: LICENSE
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Linearized MusicXML (LMX)
+
+A python package for linearizing and de-linearizing MusicXML into a sequential format so that it can be used for training img2seq machine learning models.
+
+Install via:
+
+```
+pip3 install linearized-musicxml
+```
