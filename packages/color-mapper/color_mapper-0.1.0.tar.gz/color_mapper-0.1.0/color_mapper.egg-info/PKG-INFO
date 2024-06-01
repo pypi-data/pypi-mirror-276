@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: color_mapper
+Version: 0.1.0
+Summary: A package for normalizing values and mapping them to a color gradient.
+Home-page: https://github.com/psymoniko/color_mapper
+Author: Ali Mohammadnia
+Author-email: alimohammadnia127@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+
+# color_mapper
+
+A package for normalizing values and mapping them to a color gradient.
+
+## Installation
+
+```bash
+pip install color_mapper
+```
+
+### Usage
+
+```bash
+
+from color_mapper import value_to_color
+
+values = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+color_bases = ['blue', 'yellow', 'red']
+color_mapped_values = value_to_color(values, color_bases)
+for item in color_mapped_values:
+    print(f"Value: {item['value']}, Color: {item['color']}")
+```

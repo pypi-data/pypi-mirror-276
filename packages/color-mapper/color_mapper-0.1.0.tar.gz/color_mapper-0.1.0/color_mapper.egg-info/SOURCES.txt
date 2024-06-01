@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+color_mapper/__init__.py
+color_mapper/interpolator.py
+color_mapper/normalizer.py
+color_mapper/utils.py
+color_mapper.egg-info/PKG-INFO
+color_mapper.egg-info/SOURCES.txt
+color_mapper.egg-info/dependency_links.txt
+color_mapper.egg-info/requires.txt
+color_mapper.egg-info/top_level.txt
+tests/__init__.py
+tests/test_color_mapper.py

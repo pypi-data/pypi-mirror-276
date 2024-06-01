@@ -1,0 +1,8 @@
+# color_mapper
+
+A package for normalizing values and mapping them to a color gradient.
+
+## Installation
+
+```bash
+pip install color_mapper
