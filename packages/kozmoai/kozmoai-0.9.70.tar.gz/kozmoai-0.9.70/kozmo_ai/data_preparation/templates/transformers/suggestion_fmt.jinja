@@ -1,0 +1,18 @@
+{% extends "transformers/default.jinja" %}
+{% block imports %}
+from kozmo_ai.data_cleaner.transformer_actions.base import BaseAction
+from kozmo_ai.data_cleaner.transformer_actions.constants import ActionType, Axis
+from kozmo_ai.data_cleaner.transformer_actions.utils import build_transformer_action
+{{ super() -}}
+{% endblock %}
+
+
+{% block content %}
+@transformer
+def {{ title }}(df: DataFrame, *args, **kwargs) -> DataFrame:
+    """
+    Transformer Action: {{ message }}
+    """
+    action = {{ payload }}
+    return BaseAction(action).execute(df)
+{% endblock %}
