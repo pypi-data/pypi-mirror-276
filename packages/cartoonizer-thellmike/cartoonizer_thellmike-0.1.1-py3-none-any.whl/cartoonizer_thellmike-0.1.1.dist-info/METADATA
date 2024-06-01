@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: cartoonizer-thellmike
+Version: 0.1.1
+Summary: A library for converting normal pictures to cartoon-like images
+Home-page: https://github.com/thelllmike/cartoonizer.git
+Author: Sachin Harshitha
+Author-email: sachinharshitha971@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+
+# Cartoonizer
+
+Cartoonizer is a Python library that converts normal pictures into cartoon-like images.
+
+## Installation
+
+To install the library, use pip:
+
+```sh
+pip install cartoonizer-thellmike
+```
+
+## Project Structure
+
+Ensure your project directory looks like this:
+
+```
+my_project/
+â”œâ”€â”€ input_image.jpg
+â”œâ”€â”€ output_image.png
+â”œâ”€â”€ use_cartoonizer.py
+â””â”€â”€ venv/  # Optional, if you are using a virtual environment
+```
+
+## Usage
+
+Create a Python script named `use_cartoonizer.py` and add the following code:
+
+```python
+from cartoonizer import apply_cartoon_effect
+
+# Path to the input image
+input_image_path = 'input_image.jpg'
+
+# Path to save the output cartoon image
+output_image_path = 'output_image.png'
+
+# Apply the cartoon effect
+apply_cartoon_effect(input_image_path, output_image_path)
+
+print(f"Cartoon effect applied and saved to {output_image_path}")
+```
+
+## Running the Script
+
+Make sure you have an image named `input_image.jpg` in the same directory or provide the correct path to an image.
+
+```sh
+from cartoonizer import apply_cartoon_effect
+
+# Path to the input image
+input_image_path = 'input_image.jpg'
+
+# Path to save the output cartoon image
+output_image_path = 'output_image.png'
+
+# Apply the cartoon effect
+apply_cartoon_effect(input_image_path, output_image_path)
+
+print(f"Cartoon effect applied and saved to {output_image_path}")
+```
+
+Run the script:
+
+```sh
+python use_cartoonizer.py
+```
+

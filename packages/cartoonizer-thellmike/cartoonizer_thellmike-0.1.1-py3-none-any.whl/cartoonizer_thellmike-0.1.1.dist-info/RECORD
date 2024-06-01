@@ -1,0 +1,10 @@
+cartoonizer/__init__.py,sha256=Fv7G44BOUToiaePpDqtjia4257hVRJ-RGQolQijh7K4,50
+cartoonizer/cartoon_effect.py,sha256=c5-UqwHIxG3tu-VzKpM8LenD8B87fQXe7cSW1y1LPNo,806
+cartoonizer/color_quantization.py,sha256=hn6YJXnps-7Uk6kDjLUxRF4HTnWGqQhOPOlbkslSbvk,418
+cartoonizer/edge_detection.py,sha256=fMo0UOb37QdME0Sx7-9H2h78H3tJF5xdAisEDqQfRkk,340
+cartoonizer/preprocessing.py,sha256=rWbTjUrFz2e-Gq4saaTNdlu8vRhQ0LAlXTySFwQP_1U,228
+cartoonizer_thellmike-0.1.1.dist-info/LICENSE,sha256=yGwyfWXwdESM3_IFTC1aCBUZLksA3w7p049768HRRHQ,470
+cartoonizer_thellmike-0.1.1.dist-info/METADATA,sha256=HOpm3bQTUtgib4QW52asCgSmR1IBYKqESgKa0FIWia0,2142
+cartoonizer_thellmike-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cartoonizer_thellmike-0.1.1.dist-info/top_level.txt,sha256=S2XaAaRJHer0TaGX1wieeIHtvmQYMw8IdV2pywMsrtM,12
+cartoonizer_thellmike-0.1.1.dist-info/RECORD,,
