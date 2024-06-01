@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: thoi
+Version: 0.1.0
+Summary: Torch - Higher Order Interactions
+Home-page: https://github.com/Laouen/THOI
+Author: Laouen Mayal Louan Belloli, Ruben Herzog
+Author-email: laouen.belloli@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: networkx
+
+A Python package to compute O information in Higher Order Interactions uing batch processing
