@@ -1,0 +1,4 @@
+[console_scripts]
+cev = flameai.__main__:check_env
+hey = flameai.cmd:hey
+hve = flameai.hive:hive_cli
