@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dirty-json-py
+Version: 0.1.0
+Summary: A permissive parser for dirty JSON data that does its best.
+Author-Email: bitnom <14287229+bitnom@users.noreply.github.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# dirty-json-py
+
+This is a WIP port of [https://github.com/RyanMarcus/dirty-json](dirty-json) to Python. It is not working yet. Feel free to PR.
