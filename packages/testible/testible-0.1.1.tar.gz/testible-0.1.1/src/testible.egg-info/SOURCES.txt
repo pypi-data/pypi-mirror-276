@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/testible/__init__.py
+src/testible/__main__.py
+src/testible.egg-info/PKG-INFO
+src/testible.egg-info/SOURCES.txt
+src/testible.egg-info/dependency_links.txt
+src/testible.egg-info/requires.txt
+src/testible.egg-info/top_level.txt
