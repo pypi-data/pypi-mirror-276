@@ -1,0 +1,62 @@
+Metadata-Version: 2.3
+Name: pyproject-pip
+Version: 0.0.4
+Summary: Install and manage pyproject.toml with pip commands.
+Project-URL: Documentation, https://github.com/mbodiai/pyproject-pip#readme
+Project-URL: Issues, https://github.com/mbodiai/pyproject-pip/issues
+Project-URL: Source, https://github.com/mbodiai/pyproject-pip
+Author-email: Sebastian Peralta <sebastian@mbodi.ai>
+License-Expression: Apache-2.0
+License-File: LICENSE
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: tomlkit
+Provides-Extra: all
+Requires-Dist: click; extra == 'all'
+Requires-Dist: requests; extra == 'all'
+Requires-Dist: tomlkit; extra == 'all'
+Description-Content-Type: text/markdown
+
+# pyproject-pip
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pyproject-pip.svg)](https://pypi.org/project/pyproject-pip)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyproject-pip.svg)](https://pypi.org/project/pyproject-pip)
+
+-----
+
+
+
+## Table of Contents
+
+- [pyproject-pip](#pyproject-pip)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+
+## Installation
+
+```console
+pip install pyproject-pip
+```
+
+## Usage
+
+```console
+pypip --help
+```
+
+## License
+
+`pyproject-pip` is distributed under the terms of the [apache-2.0](https://spdx.org/licenses/apache-2.0.html) license.
