@@ -1,0 +1,7 @@
+README.md
+setup.py
+myfunctions_ysakova90.egg-info/PKG-INFO
+myfunctions_ysakova90.egg-info/SOURCES.txt
+myfunctions_ysakova90.egg-info/dependency_links.txt
+myfunctions_ysakova90.egg-info/requires.txt
+myfunctions_ysakova90.egg-info/top_level.txt
