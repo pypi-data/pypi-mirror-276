@@ -1,0 +1,65 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "bosing"
+dynamic = ["version"]
+description = "Waveform generator for pulse sequences in quantum computing"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = []
+authors = [{ name = "kaho", email = "kaho0769@qq.com" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = ["numpy >= 1.16.0"]
+
+[project.optional-dependencies]
+docs = ["sphinx", "furo", "matplotlib", "scipy"]
+
+[project.urls]
+Documentation = "https://bosing.readthedocs.io"
+Issues = "https://github.com/kahojyun/Bosing/issues"
+Source = "https://github.com/kahojyun/Bosing"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
+[tool.hatch.envs.default]
+features = ["docs"]
+dependencies = [
+    "maturin>=1.5,<2.0",
+    "ipython",
+    "mypy",
+]
+
+[tool.hatch.envs.default.scripts]
+mip = "maturin develop && ipython"
+stubcheck = "maturin develop && stubtest bosing --allowlist stubtest-allowlist.txt"
+build_docs = "maturin develop && sphinx-build -M html docs docs/_build {args}"
+clean_docs = "rm -rf docs/_build docs/generated"
+
+[tool.hatch.envs.default.overrides]
+platform.windows.scripts = [
+    'clean_docs=rmdir /s /q docs\\_build docs\\generated',
+]
+
+[[tool.hatch.envs.hatch-test.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.hatch-static-analysis]
+config-path = "ruff_defaults.toml"
+
+[tool.ruff]
+extend = "ruff_defaults.toml"
+
+[tool.ruff.lint.extend-per-file-ignores]
+"docs/conf.py" = ["INP001"]
+"example/*" = ["INP001", "T201"]
