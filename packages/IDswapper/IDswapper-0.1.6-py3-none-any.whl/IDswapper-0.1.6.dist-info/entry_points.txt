@@ -1,0 +1,2 @@
+[console_scripts]
+IDswapper = IDswapper.fetchids:fetch_ids
