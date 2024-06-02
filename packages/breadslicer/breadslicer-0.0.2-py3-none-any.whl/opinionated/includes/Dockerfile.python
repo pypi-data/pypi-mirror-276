@@ -1,0 +1,33 @@
+FROM python-base as {{ project_slug }}-base
+# Install poetry but clear all .cache in the same layer.
+# If this is not done in the same layer it will still persist.
+RUN pip install --no-compile --no-cache-dir poetry &&\
+    rm -rf /root/.cache/ &&\
+    find /usr/local/lib -path '*/__pycache__*' -delete
+COPY poetry.lock pyproject.toml Makefile README.md ${WORK_DIR}/
+
+# Create requirements.txt file from poetry, check that they are in sync
+FROM {{ project_slug }}-base as {{ project_slug }}-requirements
+{% if project_type == "django"%}
+RUN make check
+{% endif %}
+RUN make freeze
+
+FROM {{ project_slug }}-base as {{ project_slug }}-dev
+ENV POETRY_VIRTUALENVS_IN_PROJECT=true
+ENV VIRTUAL_ENV=.venv/
+RUN make install-all
+
+FROM python-base as {{ project_slug }}-deploy
+COPY --from={{ project_slug }}-requirements ${WORK_DIR}/requirements.txt ${WORK_DIR}/requirements.txt
+RUN pip install -r requirements.txt &&\
+    rm -rf /root/.cache/ &&\
+    find /usr/local/lib -path '*/__pycache__*' -delete
+COPY . ${WORK_DIR}
+
+FROM python-base as {{ project_slug }}-ci
+COPY --from={{ project_slug }}-requirements ${WORK_DIR}/requirements-dev.txt ${WORK_DIR}/requirements.txt
+RUN pip install -r requirements.txt &&\
+    rm -rf /root/.cache/ &&\
+    find /usr/local/lib -path '*/__pycache__*' -delete
+COPY . ${WORK_DIR}
