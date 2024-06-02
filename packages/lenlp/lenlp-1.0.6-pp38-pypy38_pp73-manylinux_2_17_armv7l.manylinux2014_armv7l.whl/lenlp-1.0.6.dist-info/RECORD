@@ -1,0 +1,17 @@
+lenlp-1.0.6.dist-info/METADATA,sha256=Icy-xLbor8qIlxsYZpoHzm6ntpsqETvUh9qK589-3Aw,7782
+lenlp-1.0.6.dist-info/WHEEL,sha256=Wkk6pKuY6mCjib6ev8lVusgCURsl6WsS6kUVCuUKQqQ,134
+lenlp/counter/__init__.py,sha256=V2Ko87A271taMdZnFLmbb-cV1iUVM_i2HMyY_rLN1f8,46
+lenlp/counter/count.py,sha256=OgAYeKss7j1ik-cKgZ3jGW_koD0HpoTU5vlPCuRW7aI,3916
+lenlp/__init__.py,sha256=X1taOStBJ7btoBo6VrLTh1x6CFgC3XhkkFiRJA8ASNA,90
+lenlp/analyzer/__init__.py,sha256=HcUNVoiEErJe1tv88iWgUJpoXbjTrgnlXczcfkg-E9w,59
+lenlp/analyzer/analyze.py,sha256=L14q8_8xDwD9CH_39wC0VJFK0nEw8FwHg7yw55tw8DE,1928
+lenlp/normalizer/__init__.py,sha256=UlkzsgqAls3AdeUibo1LBWQ5PSEC6JPKgBNoGyleu_c,58
+lenlp/normalizer/normalize.py,sha256=V0RKk8jUmM-8BLwAH03jBZpByFqCsZfDSQEECzUmoFU,500
+lenlp/sparse/__init__.py,sha256=u16eRWvoiDJHzJCOu-2zBpz08n5hRJL1ueJslf-Wsyg,204
+lenlp/sparse/count_vectorizer.py,sha256=wGopmzIl-FgUSRYOKSUatQak3MVZfRooMXaURxb5B3A,3587
+lenlp/sparse/tfidf_vectorizer.py,sha256=D3-VLbEDO-wmQfofD7O5e54s4ZoRcvMeRciZ_DinJrA,3864
+lenlp/sparse/bm25_vectorizer.py,sha256=glswrc1lPk6XSThxZQHdvhOT7q57LZzktnzwr9mXvK0,3749
+lenlp/flash/__init__.py,sha256=3-aBLLKjwdZqbc_NIyylm1Fmvc9RgXNSy-V0jw96BWQ,59
+lenlp/flash/flash_text.py,sha256=UGzWykamWQPGDeLd_GWNDxti5KYJTnWNYtpMDJh8x_8,1411
+lenlp/_rslenlp.pypy38-pp73-arm-linux-gnu.so,sha256=1bL5bIvkiUOIP2WCarHyr04BsZ7lWgdap7wkbnJ7TCw,5480572
+lenlp-1.0.6.dist-info/RECORD,,
