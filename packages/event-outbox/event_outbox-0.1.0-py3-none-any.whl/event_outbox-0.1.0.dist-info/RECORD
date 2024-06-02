@@ -1,0 +1,6 @@
+event_outbox/__init__.py,sha256=5ZR9vL6tJqoPndhR4U08pDC6LcAcKX5epnzJBuvnjhQ,162
+event_outbox/eventu.py,sha256=KQyLydPRi23G3i7viY3pqFG4txgLJ-PcpouFluNc0DM,13354
+event_outbox/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event_outbox-0.1.0.dist-info/METADATA,sha256=s2AY8KeNji3KQGK9Lci1k8XmKJaqPAdqZ1vqK7LvBsk,520
+event_outbox-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+event_outbox-0.1.0.dist-info/RECORD,,
