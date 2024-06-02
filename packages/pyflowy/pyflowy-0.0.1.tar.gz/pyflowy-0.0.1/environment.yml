@@ -1,0 +1,24 @@
+name: pyflowyenv
+channels:
+  - conda-forge
+dependencies:
+  - meson
+  - fmt
+  - pkg-config
+  - cmake
+  - ninja 
+  - cpp-argparse
+  - clang-format=18.1.1
+  - tomlplusplus
+  - catch2
+  - xtensor 
+  - xtensor-blas
+  - xtensor-python
+  - python
+  - pybind11
+  - matplotlib
+  - requests
+  - libnetcdf
+  - hdf5
+  - pytest
+  - meson-python

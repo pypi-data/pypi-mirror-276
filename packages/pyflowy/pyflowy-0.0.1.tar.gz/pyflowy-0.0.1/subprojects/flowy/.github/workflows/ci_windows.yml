@@ -1,0 +1,47 @@
+name: CI_Windows
+
+on: [push, pull_request]
+
+jobs:
+
+  test:
+    runs-on: ${{ matrix.os }}
+    name: test (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest]
+        build-type: [Release]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup micromamba
+      uses: mamba-org/setup-micromamba@v1
+      with:
+        micromamba-version: '1.5.7-0'
+        environment-file: environment.yml
+        init-shell: powershell
+        cache-environment: true
+        post-cleanup: 'all'
+
+    - name: Compile with meson
+      shell: pwsh
+      run: |
+        micromamba activate flowyenv
+        meson setup build --buildtype release --vsenv
+        meson compile -C build
+
+    - name: Test with meson
+      shell: pwsh
+      run: |
+        micromamba activate flowyenv
+        meson test -C build --verbose
+
+    - name: Compile and test without netcdf
+      shell: pwsh
+      run: |
+        micromamba activate flowyenv
+        meson setup build_nonetcdf --buildtype release --vsenv -Dwith_netcdf=false
+        meson compile -C build_nonetcdf
+        meson test -C build_nonetcdf --verbose

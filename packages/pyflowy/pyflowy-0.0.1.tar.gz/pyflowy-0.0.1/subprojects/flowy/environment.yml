@@ -1,0 +1,20 @@
+name: flowyenv
+channels:
+  - conda-forge
+dependencies:
+  - meson
+  - fmt
+  - pkg-config
+  - cmake
+  - ninja
+  - cpp-argparse
+  - clang-format=18.1.1
+  - tomlplusplus
+  - catch2
+  - xtensor
+  - xtensor-blas
+  - cppcheck
+  - cpplint
+  - libnetcdf
+  - hdf5
+  - towncrier
