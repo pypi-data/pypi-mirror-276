@@ -1,0 +1,11 @@
+slurmtui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slurmtui/main.py,sha256=T0RN6m72TXCKeeaDRcWqB_mwov-xtyZkPIv4Tk7SZGc,18223
+slurmtui/slurm_utils.py,sha256=Op6WfOY9bQMHEzs9BUeR85DCdbUForaCWj5P412PHyE,9876
+slurmtui/utils.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+slurmtui/css/slurmtui.css,sha256=TJ3ZBhmDc8YUne_9d2o7_vQC0nD0H1vDEpp9etPbgE0,713
+slurmtui-0.1.5.dist-info/LICENSE,sha256=rTO5aY_yV1qNccc893IbG9mjwtt5b7Rv8Inidf_vr3o,1070
+slurmtui-0.1.5.dist-info/METADATA,sha256=N1AneGl6Li0ZQUMALo5GkxrAbfGEsnBsiufcMPrWGWk,2275
+slurmtui-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+slurmtui-0.1.5.dist-info/entry_points.txt,sha256=lSuWs7Wg0xqAqgyaoRvjCtNRceIua8qXepfKXQXdWyM,123
+slurmtui-0.1.5.dist-info/top_level.txt,sha256=GqqCsN3W7EjMj0SzmBo-YSGyH0WQ42oeESVqsbfmiXo,9
+slurmtui-0.1.5.dist-info/RECORD,,
