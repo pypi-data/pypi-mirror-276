@@ -1,0 +1,3 @@
+[console_scripts]
+triton-copilot=triton_copilot.main:app
+
