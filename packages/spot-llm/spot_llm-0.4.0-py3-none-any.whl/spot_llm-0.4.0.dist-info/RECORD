@@ -1,0 +1,11 @@
+spot_llm/__init__.py,sha256=fBcdp7dsEIdubSJm6RLlh67T-lmzN5X0k3I4tsAmU40,149
+spot_llm/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spot_llm/models/gemma7b.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spot_llm/models/hf_model.py,sha256=qq71SKZoimUOBCSpTZlyByDCPBWWed8cDTICxUkWdbw,1025
+spot_llm/models/mistral7b.py,sha256=dk9km5mEewaL2wVOl_n4kA50HNn2cDlF10Afgs94tgs,223
+spot_llm/models/opt125.py,sha256=v4aa7ekUhzL8696cIbCgD-wqvMJlxkA44-HIWnDI8GA,239
+spot_llm/models/spotter.py,sha256=VwCpsDXxgHUON_wXvf9MTyH2J70yaQkX9e-tcE2BgGk,1962
+spot_llm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spot_llm-0.4.0.dist-info/METADATA,sha256=GRGTmpuOuH6iPlrZoIT1MQKGaLNXlJTfPnQZwfUBohE,2760
+spot_llm-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+spot_llm-0.4.0.dist-info/RECORD,,
