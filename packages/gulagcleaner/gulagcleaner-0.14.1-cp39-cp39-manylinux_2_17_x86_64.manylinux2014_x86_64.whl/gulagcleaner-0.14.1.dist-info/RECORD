@@ -1,0 +1,12 @@
+gulagcleaner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gulagcleaner/decrypt.py,sha256=iWDF8UAuGs2XpXIquVWHG2Vd1O5SSRA3iuIiVDh7LQA,451
+gulagcleaner/_lib.cpython-39-x86_64-linux-gnu.so,sha256=3AKAYNzl2j7baFuJBYvkQ-3RAeRJAgmLkw7JN-iOHs8,1246496
+gulagcleaner/command_line.py,sha256=TDgWjTz-fAzBwYtyRTNLl_Rji9NuV-349ipfe0cEtyQ,4285
+gulagcleaner/metadata.py,sha256=ws0zPBXIRw6YbibJzodOlZ2D1AWjB7cMVFyLN5WObX8,941
+gulagcleaner/clean.py,sha256=7t5KzIgfN1f8_NnIb0LGtureV0o8GXnKGVW1H6sCGXY,2387
+gulagcleaner-0.14.1.dist-info/WHEEL,sha256=rY0Y6THYM7EImsHfF-zs67o8pQciAsMw9_YuSvftjrQ,148
+gulagcleaner-0.14.1.dist-info/LICENSE,sha256=51HPitbZtRFO9YgvLbVskUiOBGUiB8ImK2RyTGPF_38,70297
+gulagcleaner-0.14.1.dist-info/top_level.txt,sha256=fUsQ7UtKqrhW4ZfKQ-CsBR6X7jaVInjxVObxxpI_HVc,13
+gulagcleaner-0.14.1.dist-info/entry_points.txt,sha256=eQusLRQShH5pUIaZot3vxhJUmIl3WZ3Od3jcHe50jAw,64
+gulagcleaner-0.14.1.dist-info/RECORD,,
+gulagcleaner-0.14.1.dist-info/METADATA,sha256=Vvpo5L0RUoQ2mZiF-keVbCCZ345ZS1Wl29lpB-dMNMo,84667
