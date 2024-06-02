@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: optimized-utility-library
+Version: 0.1.0
+Summary: An optimized utility library for directory, file, image, and JSON operations.
+Home-page: https://github.com/kristofferv98/optimized_utility_libarary.git
+Author: Kristoffer Vatnehol
+Author-email: kristoffer.vatnehol@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+Requires-Dist: ujson
+Requires-Dist: matplotlib
+Requires-Dist: setuptools
+Requires-Dist: opencv-python
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+
+# Optimized Utility Library
+
+## Overview
+
+This library provides optimized utility functions for directory operations, file operations, image processing, and JSON handling.
+
+## Installation
+
+You can install the library using pip:
+
+```sh
+pip install optimized-utility-library
