@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: pyproject-pip
+Version: 0.0.3
+Summary: Install and manage pyproject.toml with pip commands.
+Project-URL: Documentation, https://github.com/Sebastian Peralta/pypip#readme
+Project-URL: Issues, https://github.com/Sebastian Peralta/pypip/issues
+Project-URL: Source, https://github.com/Sebastian Peralta/pypip
+Author-email: Sebastian Peralta <sebastian@mbodi.ai>
+License-Expression: Apache-2.0
+License-File: LICENSE
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: tomlkit
+Provides-Extra: all
+Requires-Dist: click; extra == 'all'
+Requires-Dist: requests; extra == 'all'
+Requires-Dist: tomlkit; extra == 'all'
+Description-Content-Type: text/markdown
+
+# pypip
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pypip.svg)](https://pypi.org/project/pypip)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pypip.svg)](https://pypi.org/project/pypip)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install pypip
+```
+
+## License
+
+`pypip` is distributed under the terms of the [apache-2.0](https://spdx.org/licenses/apache-2.0.html) license.
