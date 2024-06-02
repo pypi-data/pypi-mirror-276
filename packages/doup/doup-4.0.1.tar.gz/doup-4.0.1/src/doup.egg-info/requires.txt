@@ -1,0 +1,4 @@
+termcolor
+requests
+tabulate
+types-tabulate

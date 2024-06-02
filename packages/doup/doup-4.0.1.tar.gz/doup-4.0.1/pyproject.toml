@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doup"
+dynamic = [ "version" ]
+readme = "README.md"
+description = "doup is a command line tool to find and update Docker-Image-Strings in project files."
+authors = [
+    { name="Kay Gerlitzki", email="developed@kygr.org" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "termcolor",
+    "requests",
+    "tabulate",
+    "types-tabulate"
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/doup1/doup"
+"Bug Tracker" = "https://gitlab.com/doup1/doup/-/issues"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+doup = "doup.EntryPoint:main"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+# https://github.com/Bloodmallet/setuptools-git-versioning
+[tool.setuptools-git-versioning]
+enabled = true
+template = "{tag}"
+dev_template = "{tag}.post{ccount}+git.{sha}"
+dirty_template = "{tag}.post{ccount}+git.{sha}.dirty"
