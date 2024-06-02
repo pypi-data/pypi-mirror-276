@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyfastmask/__init__.py
+pyfastmask.egg-info/PKG-INFO
+pyfastmask.egg-info/SOURCES.txt
+pyfastmask.egg-info/dependency_links.txt
+pyfastmask.egg-info/not-zip-safe
+pyfastmask.egg-info/requires.txt
+pyfastmask.egg-info/top_level.txt
+src/wrapper.cpp
+tests/test_fastmask.py
