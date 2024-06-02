@@ -1,0 +1,17 @@
+stashconnect/__init__.py,sha256=V3Qufna8rLPB8uMWyWuvMC9eE4VO9y-nwTVLepDIrws,216
+stashconnect/channels.py,sha256=eunC-sgVha4DgE4uR-H4Iie0ByLEVWGykhPa8drq4lY,17257
+stashconnect/client.py,sha256=9gImmZdLGXCsF9Slop7zzncB_c_oIAQrhDYJLlXOS2Q,9403
+stashconnect/companies.py,sha256=fmQnKwJJwEODJgyekuERR3US9HXO11Da28y-ILBWZN4,3618
+stashconnect/conversations.py,sha256=g97DpRXzXy-zHo2K-Wue804Z_wl6IPxTyR7ejHXqOv8,4704
+stashconnect/crypto_utils.py,sha256=hk65OT3Cslrmral265HHo4J2u7XOJDUOeParvDludzw,2584
+stashconnect/files.py,sha256=1Q1H4cFDC8APbHC8bODd4kTsicj6OLYqt8xk8b5ByVA,12868
+stashconnect/messages.py,sha256=zortar8f2UyxICegtWW-bKSuLl5lf6_p4ALP0moqV2k,6298
+stashconnect/models.py,sha256=7buK0affEexa_Y76gdRdEdSNI5tCl-3BoRQ6V8HhTlk,18737
+stashconnect/settings.py,sha256=7tAFTPm0ky-txqCuOQQIzrQQDLoMwtEK7kcNrVE4p-w,1458
+stashconnect/tools.py,sha256=X5nVzsJ1PispnGqe1IRugB1viNrDwlTbxRQ73J3fHhQ,1001
+stashconnect/users.py,sha256=2t-RwEggmMuS1fiJg3BKvNvb_7bIkEWUpZS9ekePM9I,2101
+stashconnect-0.7.9.dist-info/LICENSE,sha256=Ifk3oWoTlkeJbE711_ntMX84KMHIL92hkWD-cTaCmZU,1087
+stashconnect-0.7.9.dist-info/METADATA,sha256=QG0dCNx_cDel-QFWDVnh6nPj6-M_qVz8fuSfUbCnvKI,2263
+stashconnect-0.7.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+stashconnect-0.7.9.dist-info/top_level.txt,sha256=O2ogl5ybEhd53snOrQjXoCRIiYDBp0LdUQGfMJTQ8Eo,13
+stashconnect-0.7.9.dist-info/RECORD,,
