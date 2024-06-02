@@ -1,0 +1,14 @@
+jwtauth/__init__.py,sha256=p-l0P4zUyBWxwOuLQ-jOZvO4c9_QpaGz4iGLpnGSZKs,509
+jwtauth/admin.py,sha256=hyydSrpmXACIwE2uwEupjlCXWwoQFlDsxZabgxycCXg,162
+jwtauth/manager.py,sha256=UyBPertnLjzNFDvqu5XOUFCAbNE1O8zwTsyeoBfDWBs,4005
+jwtauth/middleware.py,sha256=da90HiQ_TQIglFBNCFpGXmHm74dDZeLakSj9EA3znwM,552
+jwtauth/models.py,sha256=-Yp4QcA3guVjMDdyU1xO1tUCuVIApUsrWxhSKyn8Ifw,417
+jwtauth/settings.py,sha256=9FJHYxI2LuF6Pyq8x5KpbOCTI4Z6gARfCzQlBsqve2E,809
+jwtauth/tokens.py,sha256=c50DV_3NWASB42Od9W6-84QDvDzbg4gVMpn3PxGrSqY,6782
+jwtauth/utils.py,sha256=qbzLXT2dIugnOhdfO4JzP7pSlwKbwu2hO6nBbGZ8yNo,1234
+jwtauth/migrations/0001_initial.py,sha256=N8QsM3ha_f0-PkCzEMBOopM1aOEjFY4L4MexiBaAipA,1492
+jwtauth/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_cookie_jwtauth-0.0.3.dist-info/METADATA,sha256=TbcAXshTBImE0IHOrpPR_DdgTk79YNrkufd4qACADE8,3907
+drf_cookie_jwtauth-0.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+drf_cookie_jwtauth-0.0.3.dist-info/licenses/LICENSE,sha256=fBuQbXJ9A7tRmPZB0YAkop3oMKEmwvJz8Hqzdycj7As,1069
+drf_cookie_jwtauth-0.0.3.dist-info/RECORD,,
