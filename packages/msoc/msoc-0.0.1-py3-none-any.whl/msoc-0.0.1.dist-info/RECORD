@@ -1,0 +1,9 @@
+msoc/__init__.py,sha256=Q-JNA056U_FaWVs7xoVLq3EcBND5H6aRrkQDeAZYNBs,19
+msoc/exceptions.py,sha256=5nPvMUkLN8axYmpprQudAe1XnEbR12DlfUC6js-fRis,352
+msoc/msoc.py,sha256=Qk8rJtSRm20sj4a3PyGESWeS7XF-LpWStydxjA097E4,1284
+msoc/sound.py,sha256=osfaYri5MqcIVYwKFDhYPNRrYPgbCj-w-Pd76BgWjKI,86
+msoc/engines/mp3uk.py,sha256=NJTmagt-HXVaDYAO0iL4S_wAFFSY5yWrYvimlD2AjqI,1711
+msoc-0.0.1.dist-info/METADATA,sha256=t2TPfB4p1Wg_rDx8jBvybMrXx_SW6DI9JJsqBLMr52s,2940
+msoc-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+msoc-0.0.1.dist-info/top_level.txt,sha256=2VftEAZstwZF2_S-igAnbj6Ew-F6asuuG6LGT0Mrn8I,5
+msoc-0.0.1.dist-info/RECORD,,
