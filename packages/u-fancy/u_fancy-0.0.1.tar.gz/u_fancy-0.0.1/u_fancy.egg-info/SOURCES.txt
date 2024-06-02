@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+u_fancy/__init__.py
+u_fancy.egg-info/PKG-INFO
+u_fancy.egg-info/SOURCES.txt
+u_fancy.egg-info/dependency_links.txt
+u_fancy.egg-info/top_level.txt
