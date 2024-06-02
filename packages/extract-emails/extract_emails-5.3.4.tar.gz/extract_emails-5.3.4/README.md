@@ -1,0 +1,72 @@
+# Extract Emails
+
+![Image](https://github.com/dmitriiweb/extract-emails/blob/docs_improvements/images/email.png?raw=true)
+
+[![PyPI version](https://badge.fury.io/py/extract-emails.svg)](https://badge.fury.io/py/extract-emails)
+
+Extract emails and linkedins profiles from a given website
+
+**Support the project with BTC**: *bc1q0cxl5j3se0ufhr96h8x0zs8nz4t7h6krrxkd6l*
+
+[Documentation](https://dmitriiweb.github.io/extract-emails/)
+
+## Requirements
+
+- Python >= 3.10
+
+## Installation
+
+```bash
+pip install extract_emails[all]
+# or
+pip install extract_emails[requests]
+# or
+pip install extract_emails[selenium]
+```
+
+## Simple Usage
+
+### As library
+
+```python
+from pathlib import Path
+
+from extract_emails import DefaultFilterAndEmailFactory as Factory
+from extract_emails import DefaultWorker
+from extract_emails.browsers.requests_browser import RequestsBrowser as Browser
+from extract_emails.data_savers import CsvSaver
+
+
+websites = [
+    "website1.com",
+    "website2.com",
+]
+
+browser = Browser()
+data_saver = CsvSaver(save_mode="a", output_path=Path("output.csv"))
+
+for website in websites:
+    factory = Factory(
+        website_url=website, browser=browser, depth=5, max_links_from_page=1
+    )
+    worker = DefaultWorker(factory)
+    data = worker.get_data()
+    data_saver.save(data)
+```
+
+### As CLI tool
+
+```bash
+$ extract-emails --help
+
+$ extract-emails --url https://en.wikipedia.org/wiki/Email -of output.csv -d 1
+$ cat output.csv
+email,page,website
+bob@b.org,https://en.wikipedia.org/wiki/Email,https://en.wikipedia.org/wiki/Email
+```
+
+### By me a coffee
+
+- **USDT** (TRC20): TXuYegp5L8Zf7wF2YRFjskZwdBxhRpvxBS
+- **BEP20**: 0x4D51Db2B754eA83ce228F7de8EaEB93a88bdC965
+- **TON**: UQA5quJljQz84RwzteN3uuKsdPTDee7a_GF5lgIgezA2oib5
