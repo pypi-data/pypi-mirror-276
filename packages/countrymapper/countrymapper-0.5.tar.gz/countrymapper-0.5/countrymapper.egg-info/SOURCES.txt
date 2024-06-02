@@ -1,0 +1,8 @@
+README.md
+setup.py
+countrymapper/__init__.py
+countrymapper/countrymapper.py
+countrymapper.egg-info/PKG-INFO
+countrymapper.egg-info/SOURCES.txt
+countrymapper.egg-info/dependency_links.txt
+countrymapper.egg-info/top_level.txt
