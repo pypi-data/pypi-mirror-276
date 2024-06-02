@@ -1,0 +1,9 @@
+README.md
+setup.py
+parameter_fooetal/__init__.py
+parameter_fooetal/main.py
+parameter_fooetal.egg-info/PKG-INFO
+parameter_fooetal.egg-info/SOURCES.txt
+parameter_fooetal.egg-info/dependency_links.txt
+parameter_fooetal.egg-info/requires.txt
+parameter_fooetal.egg-info/top_level.txt
