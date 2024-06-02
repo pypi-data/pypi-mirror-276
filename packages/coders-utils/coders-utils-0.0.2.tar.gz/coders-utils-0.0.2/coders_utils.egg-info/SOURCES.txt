@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+coders_utils/__init__.py
+coders_utils/codecs.py
+coders_utils/cyber_utils.py
+coders_utils/date_utils.py
+coders_utils/file_handlers.py
+coders_utils/identifiers.py
+coders_utils/regex_manager.py
+coders_utils.egg-info/PKG-INFO
+coders_utils.egg-info/SOURCES.txt
+coders_utils.egg-info/dependency_links.txt
+coders_utils.egg-info/requires.txt
+coders_utils.egg-info/top_level.txt
