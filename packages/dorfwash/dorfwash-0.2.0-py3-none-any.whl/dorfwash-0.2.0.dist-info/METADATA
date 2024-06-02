@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: dorfwash
+Version: 0.2.0
+Summary: A simple webserver, that lets you monitor your Miele washing machines.
+Home-page: https://codeberg.org/johann-cm/dorfwash
+License: LGPL-3.0-only
+Author: Johann Carl Meyer
+Author-email: info@johannc.de
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flask (>=3.0.3,<4.0.0)
+Requires-Dist: flask-caching (>=2.3.0,<3.0.0)
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Requires-Dist: waitress (>=3.0.0,<4.0.0)
+Requires-Dist: washpy (>=0.5.0,<0.6.0)
+Project-URL: Repository, https://codeberg.org/johann-cm/dorfwash
+Description-Content-Type: text/markdown
+
+# dorfwash
+
+`dorfwash` lets you monitor your Miele washing machines
+via the Miele Professional IP Profile API.
+
+`dorfwash` uses [washpy](https://pypi.org/project/washpy/) 
+to communicate with the Miele washing machines.
+
+## Usage
+
+There are multiple options on how to run `dorfwash`.
+
+### poetry
+
+run
+```bash
+poetry run python dorfwash config.json
+```
+See [config.json](config.json) for an example configuration.
+
+### docker
+
+`dorfwash` provides a small [Dockerfile](Dockerfile), 
+so you can build your own `dorfwash` docker container.
+
+```bash
+docker build -t dorfwash .
+```
+
+You need to mount a valid `config.json` file at
+`/config/config.json` in the container to run it.
+
+Also, in [docker-compose](docker-compose) is an example `docker-compose.yml`.
+This way, you can just run
+```bash
+docker compose up
+```
+to build, mount the config, and run the server.
+
+
+## Miele IP Profie API
+
+For further information see [washpy](https://pypi.org/project/washpy/)
+
