@@ -1,0 +1,14 @@
+astrospec/__init__.py,sha256=kf9GsjRk82pv1lVZgpwi3-lIcexe6CIqjSLI0mFAJKk,6602
+astrospec/cli.py,sha256=kjjTpLgcQl5EBpzEr4FqZ5rkQPV9E3RHg5jnjLcU6kU,3395
+astrospec/light_correction.py,sha256=uEoHPNuydDZvefgmOgV1DNXoNa-fjGsTcGV-LVskL-Q,5322
+astrospec/postproc.py,sha256=M0BWRnSq0DhakCh0mBpODQRph5faYOayicrHjdk8f3w,6438
+astrospec/shape_correction.py,sha256=hJUvZzpdqEwly_v99moP9nZ_PiI5uUHlGrnsVxZT2gc,5659
+astrospec/spectrum.py,sha256=5Px4kM864_5lM546To8FvUe9azf06rxCVfQQl0gDn6s,4151
+astrospec/utils.py,sha256=gH1QTtOsKVpo-DIBzWmIQBI-onH9q0jfY8dn7RMOEFo,118
+astrospec/video_reader.py,sha256=izLXZ3SL9n_FDVM3fARR-EE0SUEVPJKyg4ZUtHTfuyw,3504
+astrospec-0.2.0.dist-info/LICENSE,sha256=45uauLqpFF7cnWJYi0nYJlDfzgmRCM-LBDzlqs5EOjw,1125
+astrospec-0.2.0.dist-info/METADATA,sha256=T2FLtIocpmxBt4kGP7TVJjfA6MuGtle1r8gC-U6eTn4,502
+astrospec-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+astrospec-0.2.0.dist-info/entry_points.txt,sha256=5RDX2oVp2MkkZoEq1PoEwHiBqFrrOSdLfx5UrFQyxdo,45
+astrospec-0.2.0.dist-info/top_level.txt,sha256=KmYDbz-qWH5WtdGAEQa2YZ-Ip0fSO6lEkwmQo0wQK50,10
+astrospec-0.2.0.dist-info/RECORD,,
