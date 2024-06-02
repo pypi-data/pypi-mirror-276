@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+finsight/__init__.py
+finsight.egg-info/PKG-INFO
+finsight.egg-info/SOURCES.txt
+finsight.egg-info/dependency_links.txt
+finsight.egg-info/top_level.txt
+finsight/indicators/__init__.py
