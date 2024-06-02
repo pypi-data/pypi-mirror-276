@@ -1,0 +1,22 @@
+[package]
+name = "quick-xmltodict"
+version = "0.1.2"
+edition = "2021"
+
+[lib]
+name = "quick_xmltodict"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+anyhow = "*"
+pyo3 = { version = "*", features = ["anyhow"] }
+quick-xml = "*"
+
+[profile.release]
+opt-level = 3
+strip = "symbols"
+codegen-units = 1
+lto = "fat"
+
+[features]
+default = ["pyo3/extension-module"]
