@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "finclaw"
+version = "0.0.3"
+description = ""
+authors = ["bobrinik <bobrinik@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+finclaw = "finclaw.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+click = "^8.1.3"
+pydantic = { extras = ["dotenv"], version = "^1.10.4" }
+pyarrow = "^14.0.0"
+aiohttp = "^3.8.3"
+tqdm = "^4.64.1"
+matplotlib = "^3.6.3"
+requests = "^2.28.2"
+google-cloud-storage = "^2.10.0"
+boto3 = "^1.34.24"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
