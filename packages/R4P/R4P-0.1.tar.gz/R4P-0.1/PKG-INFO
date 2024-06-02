@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: R4P
+Version: 0.1
+Summary: A simple library to execute Python code using exec
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# My Python Executor
+
+A simple library to execute Python code using the `exec` function.
+
+## Installation
+
+You can install this library using pip:
+
+pip install R4P
