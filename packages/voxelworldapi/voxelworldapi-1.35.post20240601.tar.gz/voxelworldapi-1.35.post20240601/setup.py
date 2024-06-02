@@ -1,0 +1,96 @@
+from setuptools import setup
+
+
+ld = """
+# VoxelWorldAPI
+
+VoxelWorldAPI is a Python library for interacting with the VoxelWorld API.
+
+## Installation
+
+You can install the library using pip:
+
+```bash
+pip install voxelworldapi
+```
+## Usage
+1.Import the VoxelWorldAPI class from the library:
+
+```python
+
+    from voxelworldapi import VoxelWorldAPI
+```
+2.Create an instance of the VoxelWorldAPI class:
+
+```python
+
+    api = VoxelWorldAPI()
+```
+3.Get a list of mods:
+
+```python
+
+    mods = api.get_mods()
+    print(mods)
+```
+4.Get information about a specific mod by ID:
+
+```python
+
+    mod_id = 123
+    mod_info = api.get_mod_by_id(mod_id)
+    print(mod_info)
+```
+5.Download a specific version of a mod by ID and version:
+
+```python
+
+    mod_id = 123
+    mod_version = '1.0'
+    api.download_mod(mod_id, mod_version)
+```
+6.Search for a mod by name:
+
+```python
+
+    mod_name = 'Example Mod'
+    search_results = api.search_mod_by_name(mod_name)
+    print(search_results)
+```
+
+7.Getting mod data
+    With search_mod_by_name:
+    ```python
+        search_results[0]["data"]["content"]["id"]
+    ```
+    With get_mod_by_id:
+    ```python
+        mod_info["data"]["content"]["id"]
+    ```
+## License
+MIT License
+
+Copyright 2024 CallFish
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+"""
+
+setup(
+    name='voxelworldapi',
+    version='1.35_',
+    packages=['voxelworldapi'],
+    install_requires=['requests'],
+    author='CallFish',
+    author_email='callfish@mail.ru',
+    description='A Python library for interacting with VoxelWorld API',
+    url='https://github.com/callfishxt/voxelworldapi',
+    license='MIT',
+    long_description_content_type='text/markdown',
+    long_description=ld
+)
+
