@@ -1,0 +1,12 @@
+README.md
+setup.py
+id_card_recognition/__init__.py
+id_card_recognition/recognition.py
+id_card_recognition/utils.py
+id_card_recognition.egg-info/PKG-INFO
+id_card_recognition.egg-info/SOURCES.txt
+id_card_recognition.egg-info/dependency_links.txt
+id_card_recognition.egg-info/entry_points.txt
+id_card_recognition.egg-info/requires.txt
+id_card_recognition.egg-info/top_level.txt
+tests/test_recognition.py

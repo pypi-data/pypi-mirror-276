@@ -1,0 +1,2 @@
+[console_scripts]
+id_card_recognition = id_card_recognition.recognition:main
