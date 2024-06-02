@@ -1,0 +1,10 @@
+msgpackr/__init__.py,sha256=KMbJ4GfwZ69ShjITEHUDTA1nwNp8fGGoDpOuN8JWgn4,158
+msgpackr/constants.py,sha256=G5PqU6JZ0uHZodxhU1p188zWorhfRD2uhTgAaRRDPaI,1376
+msgpackr/extension.py,sha256=9Fw8BiutYV2uSUjC6c7WDbmwy2OSnzxf8jYgveMtn68,9901
+msgpackr/pack.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgpackr/unpack.py,sha256=mJiSt7XAlhW2O8ak7vKiswldpfzG-UmFx4HgdY8dOE8,17443
+msgpackr_python-0.1.4.dist-info/LICENSE,sha256=BjvbVPn7P3qChFbSTSdhmdYKmpQAJNISMxMBg-hWyaU,1063
+msgpackr_python-0.1.4.dist-info/METADATA,sha256=lGSr_HIM3WtEK1GgQbnKRoJs-oZALsfWRVJS8RTmIgU,1106
+msgpackr_python-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+msgpackr_python-0.1.4.dist-info/entry_points.txt,sha256=GFEeO_cARSPiVO7JGaNh8eSWDcbYmTpTcGc6dpJhxdc,44
+msgpackr_python-0.1.4.dist-info/RECORD,,
