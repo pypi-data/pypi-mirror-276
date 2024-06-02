@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "single-object-detection"
+version = "0.1.0"
+description = "Detecting single objects in images based on bounding boxes."
+authors = ["Thomas Jonas"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.12"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+torchinfo = "^1.8.0"
+mlflow = "^2.13.1"
+pre-commit = "^3.7.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
