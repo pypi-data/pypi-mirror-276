@@ -1,0 +1,14 @@
+correct_hours/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+correct_hours/__main__.py,sha256=OJWS5dZ_ukyrt3Znoy1eFN-CGMKxp2NgxytRKm7oYSg,4965
+correct_hours/processors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+correct_hours/processors/myob/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+correct_hours/processors/myob/timesheet_processor.py,sha256=ZqYgPwkj8MyN1QXNnUgFEh7GHRoQH4WaR_RMIhMBhi8,295
+correct_hours/processors/xero/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+correct_hours/processors/xero/rate_processor.py,sha256=mGm5D3J2Jvb-6hEH20FJY-9Kpr_bCFFAJ3WmKWs_fqc,2991
+correct_hours/processors/xero/timesheet_processor.py,sha256=-f3ahOXBaKSiligm-t5MA7Ml8WW8o6rk_2zj1Oz3Pv0,5592
+correct_hours/types.py,sha256=4jSl1vmPMskZBLApUhrfrqievu64iHURxyoHhlxjeSk,1665
+correct_hours/utils.py,sha256=1Jv7T-xoAYDVIJBWXycW_S2AnUO2YAE2x2ToC5QDvck,585
+correct_hours/version.py,sha256=i_P_nIqVK0bS7Jc-nyMjNCgTyWdnPcMOq-Syu1P4rjA,130
+correct_hours-2.0.1.dist-info/METADATA,sha256=K6WL2jBRbQX3dH1rfZy6ULFC0I2pB3o2X0jNOasHY6g,530
+correct_hours-2.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+correct_hours-2.0.1.dist-info/RECORD,,
