@@ -1,0 +1,12 @@
+beforerr-2024.6.2.dist-info/METADATA,sha256=S0YQHntx0XI_yO1BvBd4w63AruLTyscdaC-j2G8TNUw,657
+beforerr-2024.6.2.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+beforerr-2024.6.2.dist-info/licenses/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+beforerr/__init__.py,sha256=B-kVFY1LoIEeO7i4IuIjFV2BItaQwYY2NV_WeQE6Pmg,24
+beforerr/_modidx.py,sha256=c_pYM9_nW9GOY9aA3nxh2Ilt4PyvXl1CAKlV6x1MnFY,2837
+beforerr/basics.py,sha256=TyF6bcetY-v-mVtrA6xW3KAgu519lHc0x7kU0TXbdOc,338
+beforerr/core.py,sha256=2V8o2GttXaF66R_JO7-MTHtKbAFZSxG-3w2Pw2Y4TyE,214
+beforerr/matplotlib.py,sha256=J6y-15m7lAor3GUhe76Fa4DKmc4dHUwj0tmIkY5wPBs,965
+beforerr/polars.py,sha256=gB9k-A648JO49L_-Q2LMvRXpbJOke5VJZ6Yl7bBTegc,3925
+beforerr/project.py,sha256=qpNFLgrhEbmt7fl3gYXFkL_hkgmGpHEZCqIav5yA-3M,5504
+beforerr/r.py,sha256=qNV66dHZS2rmXRav5_xLMMILeaJOVrUZukN4m4pmFls,811
+beforerr-2024.6.2.dist-info/RECORD,,
