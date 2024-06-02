@@ -1,0 +1,3 @@
+[console_scripts]
+manual-test-run=minishell.manual_test_run:main
+
