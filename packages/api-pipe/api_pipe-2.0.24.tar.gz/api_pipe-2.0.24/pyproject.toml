@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "api-pipe"
+version = "2.0.24"
+description = "API Pipe"
+authors = ["Rafael Roman Otero <rromanotero@romanlabs.com>"]
+readme = "README.md"
+license = "LGPL-3.0-or-later"
+packages = [{include = "api_pipe", from = "src"}]
+
+[tool.poetry.scripts]
+manual-test-run = "api_pipe.manual_test_run:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = ">=0.26.0,<1.0.0"
+rich = "^13.7.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+toml = "^0.10.2"
+rich = "^13.7.0"
+mypy = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
