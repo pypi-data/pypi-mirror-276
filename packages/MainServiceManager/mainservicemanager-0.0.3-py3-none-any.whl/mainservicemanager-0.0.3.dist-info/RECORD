@@ -1,0 +1,9 @@
+MainServiceManager/__init__.py,sha256=HLCLWwS0GdnXzkgi8WHxLt42RgXbU_l6WuxQeqPCFkM,391
+MainServiceManager/__main__.py,sha256=zyj7f1heipHG9H8uDdRxcVM26H9eF0-hNTq9eJdNXGU,4336
+MainServiceManager/api.py,sha256=lirHf1ndfq_6JXC-Dg_7YQK7qyQFKXnAy8yuJMYcYnk,6571
+MainServiceManager/server.py,sha256=c6neSrtbw6Vllqzk4tjGO6_-D81CZVa05_lSDLbSAec,7214
+MainServiceManager/server_utils.py,sha256=EZmbo-NSLQ5N9eUjCFARIhHAPgFfMqev5IWK1wCou0Y,6876
+mainservicemanager-0.0.3.dist-info/METADATA,sha256=WPtLwR_Snp0PTOttfdlTuObtJekrmxrjvLy7rQ0Re0g,4756
+mainservicemanager-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mainservicemanager-0.0.3.dist-info/entry_points.txt,sha256=TLSTViSX5LA3enyRedZQA9X3KAieTJaj0Np8suAZM_0,113
+mainservicemanager-0.0.3.dist-info/RECORD,,
