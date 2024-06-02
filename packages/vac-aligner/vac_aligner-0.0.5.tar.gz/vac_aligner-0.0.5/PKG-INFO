@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: vac_aligner
+Version: 0.0.5
+Summary: Aligning Very Long audio and text pairs through VAC pipeline
+Home-page: https://github.com/Ara-Yeroyan/vac_aligner
+Download-URL: https://github.com/Ara-Yeroyan/vac_aligner/archive/refs/tags/v0.0.2.tar.gz
+Author: Ara Yeroyan
+Author-email: ar23yeroyan@gmail.com
+License: Apache Software License 2.0
+Keywords: vac_aligner
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pandas~=2.0.3
+Requires-Dist: regex~=2024.5.15
+Requires-Dist: tqdm~=4.66.4
+Requires-Dist: loguru~=0.7.2
+Requires-Dist: setuptools~=70.0.0
+Provides-Extra: full
+Requires-Dist: nemo_toolkit[asr]; extra == "full"
+
+==================
+vac_aligner
+==================
+
+
+.. image:: https://img.shields.io/pypi/v/vac_aligner.svg
+        :target: https://pypi.python.org/pypi/vac_aligner
+
+.. image:: https://img.shields.io/travis/Ara-Yeroyan/vac_aligner.svg
+        :target: https://travis-ci.com/Ara-Yeroyan/vac_aligner
+
+.. image:: https://readthedocs.org/projects/vac_aligner/badge/?version=latest
+        :target: https://vac_aligner.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Automated Clustering and Annomally Detection
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://vac_aligner.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.0.1 (2024-05-31)
+------------------
+
+* First release on PyPI.
+
+1. Design library structure
+2. Implement 2 main steps of the VAC
+    - ASR
+    - CER based Matching
