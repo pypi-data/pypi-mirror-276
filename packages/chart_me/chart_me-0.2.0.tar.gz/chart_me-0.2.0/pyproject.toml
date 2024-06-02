@@ -1,0 +1,33 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "chart_me"
+authors = [{name = "Luke Garzia", email = "garzia.luke@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version"]
+dependencies = ['pandas', 'altair', 'typing-extensions', 'typer']
+readme = "README.md"
+description = "Charting that keeps you in the EDA flow"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest", "vega_datasets", "notebook",
+ "pre-commit", "interrogate", "pytest-cov", "tox",
+ "mypy", "black", "flake8", "isort", "bump2version", "flake8-comprehensions", "types-python-dateutil"]
+doc = ["sphinx", "myst-nb", "sphinx-rtd-theme", "sphinx-autoapi"]
+
+[project.scripts]
+chart_me = "chart_me.__main__:main"
+
+[project.urls]
+Home = "https://github.com/lgarzia/chart_me"
+
+[tool.isort]
+multi_line_output = 3
+profile = "black"
+import_heading_stdlib     = "Standard library imports"
+import_heading_thirdparty = "Third party imports"
+import_heading_firstparty = "chart_me imports"
