@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+anglerr/angler.py
+anglerr.egg-info/PKG-INFO
+anglerr.egg-info/SOURCES.txt
+anglerr.egg-info/dependency_links.txt
+anglerr.egg-info/top_level.txt
+anglerr.egg-info/zip-safe
