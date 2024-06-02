@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: anne
+Version: 1.2.0
+Summary: Lib for lazy dev
+Home-page: https://github.com/mrship666/anne-lib
+Author: AnneHouman
+Author-email: annehouman01@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bson >=0.5.10
+Provides-Extra: dev
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+# Anne
+Anne - Fast and easy
+
+## Mục lục
+
+- [Giới thiệu](#giới-thiệu)
+- [Cài đặt](#cài-đặt)
+- [Cập nhật](#cập-nhật)
+- [Sử dụng](#sử-dụng)
+- [Tính năng](#tính-năng)
+- [Đóng góp](#đóng-góp)
+- [Giấy phép](#giấy-phép)
+
+## Giới thiệu
+
+Anne cung cấp các tính năng để giúp các bạn làm việc một cách nhanh chóng.
+
+## Cài đặt
+
+```cmd
+pip install anne
+```
+
+## Cập nhật
+
+```cmd
+pip install --upgrade anne
+```
+
+## Sử dụng
+
+Cách sử dụng thư viện:
+```python
+from anne import *
+```
+
+Tạo thông tin ngẫu nhiên:
+```python
+from anne import AnneInfo
+
+info = AnneInfo('vn')
+data = info.getInfo()
+print(data)
+```
+
+Tự động hoá trình duyệt:
+```python
+from anne import AnneBrowser
+from selenium import webdriver
+import time
+
+driver = webdriver.Chrome()
+browser = AnneBrowser(driver)
+browser.openUrl("https://www.google.com")
+time.sleep(5)
+browser.exit()
+```
+
+Lấy proxy:
+```python
+from anne import AnneProxy
+
+api_key = "YOUR_API_KEY"
+prx = AnneProxy()
+proxy = prx.tmproxy(api_key, 'get_proxy')
+print(proxy)
+```
+
+## Tính năng
+
+Tự khám phá!
+
+## Đóng góp
+
+Đóng góp ý kiến, thêm tính năng mới, sửa lỗi -> email: annehouman01@gmail.com | telegram: @AnneHouman
+
+## Giấy phép
+
+Lib by AnneHouman
+
