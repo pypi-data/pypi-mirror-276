@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+puml2url/__init__.py
+puml2url.egg-info/PKG-INFO
+puml2url.egg-info/SOURCES.txt
+puml2url.egg-info/dependency_links.txt
+puml2url.egg-info/requires.txt
+puml2url.egg-info/top_level.txt
