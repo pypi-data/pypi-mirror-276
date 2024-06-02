@@ -1,0 +1,19 @@
+[project]
+version = "1.0.6"
+name = "bussinwebx_get"
+requires-python = ">= 3.8"
+maintainers = [
+  {name = "The Odd Cell"}
+]
+description = "Be able to make GET requests to buss:// websites and get IPs for buss:// websites."
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["webx", "buss", "facedev"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+]
+[project.urls]
+Repository = "https://github.com/TheOddCell/bussinwebx-get.git"
+Issues = "https://github.com/TheOddCell/bussinwebx-get/issues"
