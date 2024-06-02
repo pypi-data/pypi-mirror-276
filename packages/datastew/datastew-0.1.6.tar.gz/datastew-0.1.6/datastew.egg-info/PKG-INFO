@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: datastew
+Version: 0.1.6
+Summary: Intelligent data steward toolbox using Large Language Model embeddings for automated Data-Harmonization.
+Home-page: https://github.com/SCAI-BIO/index
+Author: Tim Adams
+Author-email: tim.adams@scai.fraunhofer.de
+License: Apache-2.0 license"
+License-File: LICENSE
+
+Intelligent data steward toolbox using Large Language Model embeddings for automated Data-Harmonization.
