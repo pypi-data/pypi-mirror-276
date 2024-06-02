@@ -1,0 +1,2 @@
+[console_scripts]
+batch_processor = batch_processor.main_l1:main

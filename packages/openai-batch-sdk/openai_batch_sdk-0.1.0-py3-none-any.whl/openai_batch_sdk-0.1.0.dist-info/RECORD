@@ -1,0 +1,9 @@
+deps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deps/oai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deps/oai/batch_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deps/oai/batch_api/batch_api.py,sha256=dUbKZBvRNRmseWLJqW27aQuqNR3p9E78KPg-sndikS4,889
+openai_batch_sdk-0.1.0.dist-info/METADATA,sha256=nj9OjhklSL0X-rpqT58-wClgKfoDWNtjKJ25uaogT2s,3208
+openai_batch_sdk-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+openai_batch_sdk-0.1.0.dist-info/entry_points.txt,sha256=fAKgQ2PdHz0vG65jqGYRGnex3VNFw87rSTxi_700eTU,65
+openai_batch_sdk-0.1.0.dist-info/top_level.txt,sha256=UXxDzj7lmSTczZBp3dbJ1TLot7nXhW_5FRYV4uNUtms,5
+openai_batch_sdk-0.1.0.dist-info/RECORD,,
