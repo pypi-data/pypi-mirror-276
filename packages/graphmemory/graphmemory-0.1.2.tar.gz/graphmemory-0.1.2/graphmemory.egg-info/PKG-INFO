@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: graphmemory
+Version: 0.1.2
+Summary: A package for creating a graph database for use with GraphRAG.
+Home-page: http://pypi.python.org/pypi/graphmemory/
+Author: BradAGI
+Author-email: cavemen_summary_0f@icloud.com
+License: LICENSE.txt
+Keywords: graphrag graph database rag
+Requires-Dist: duckdb
+Requires-Dist: pydantic
