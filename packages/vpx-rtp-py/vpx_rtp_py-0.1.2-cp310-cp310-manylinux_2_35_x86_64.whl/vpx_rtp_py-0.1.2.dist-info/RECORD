@@ -1,0 +1,17 @@
+vpx_rtp/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+vpx_rtp/clock.py,sha256=UxI40LKKOrthxiaVkLgaQOq8i3IU6eP1jzy2xZ1Pfi4,824
+vpx_rtp/codecs/_vpx.cpython-310-x86_64-linux-gnu.so,sha256=-eSPrTUnVL_Msg3EPqthg8dzA87RyJcrQsUe5bQVgzE,108432
+vpx_rtp/codecs/_vpx.o,sha256=nmIxSMlj0svtNlzUpc5WHbYR6EX2ETlaXas_0eg_B5I,157480
+vpx_rtp/codecs/_vpx.pyi,sha256=UL_ZFeJ_PDkz8OZXxbbDDK0ylCYa7q7rKOR-1wseSxo,42
+vpx_rtp/codecs/vpx.py,sha256=-wb8RlIolW24uIcJPlJ2k-nfT4GdkMrmbztxpl40lM0,13768
+vpx_rtp/jitterbuffer.py,sha256=2NR3aFDiXtV_PQHOuALxRksmtnZMZdBe2Uvj33toX7E,4106
+vpx_rtp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpx_rtp/rtcrtpparameters.py,sha256=_cGjVEBWLxngH7pMxjl-JJvkDeFS2zyooUP6uIgnkaI,2728
+vpx_rtp/rtp.py,sha256=A9FzfLsnpHzjQUbJG7PoSHXPIjz6ZX13lKlp_NIJqFo,12103
+vpx_rtp/test.py,sha256=DKkJHrTjH7GrJMjF3pKgjk5fQCkZ-C6jynhPOFNPA_M,12
+vpx_rtp/utils.py,sha256=3R4bVnj5crz7SsKmzz-OsiNZSuqy1d8883xJ1SokS4A,978
+vpx_rtp_py-0.1.2.dist-info/LICENSE,sha256=KkjbtT1xZq0eTc4v8ZH-TFOlMKFmjtKd-WvFs8KWol0,1074
+vpx_rtp_py-0.1.2.dist-info/METADATA,sha256=7cS9uWePv-zSTzdO_XtxLeLitKCWATfXMMQ7mJIY6b4,910
+vpx_rtp_py-0.1.2.dist-info/WHEEL,sha256=9akmB9Yw5qmIU-MKN95Pv0Mip6kpcZ0b8K__D5G3wjE,110
+vpx_rtp_py-0.1.2.dist-info/entry_points.txt,sha256=FrSVfSp5iZSD5xg1vqPYLhSoyZMvBJzIEqAQrykyVvM,46
+vpx_rtp_py-0.1.2.dist-info/RECORD,,
