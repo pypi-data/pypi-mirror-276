@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+sigmacode/Color.py
+sigmacode/__init__.py
+sigmacode/color.py
+sigmacode/terminal.py
+sigmacode.egg-info/PKG-INFO
+sigmacode.egg-info/SOURCES.txt
+sigmacode.egg-info/dependency_links.txt
+sigmacode.egg-info/requires.txt
+sigmacode.egg-info/top_level.txt
