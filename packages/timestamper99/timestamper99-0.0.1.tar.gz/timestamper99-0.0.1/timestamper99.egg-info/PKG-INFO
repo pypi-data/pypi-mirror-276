@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: timestamper99
+Version: 0.0.1
+Summary: A package to print time stamp
+Author: Sandun Sampath Vitharana (ssv)
+Author-email: <vitharana1996@gmail.com>
+Keywords: python,time
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyserial
+
+
+# Time Stamper
+
+Under construction! Not ready for use yet! Currently testing and planning!
+
+Developed by Sandun Sampath Vitharana from Sri Lanka (c) 2024
+
+## Examples of How To Use (Buggy Alpha Version)
+
+Creating A Server
+
+```python
+from datetime date time
+print(datetime.now())
+```
+
+Creating A Client
+```python
+print("Hey")
+```
+
+Check out: https://www.youtube.com/@vitharana1996
