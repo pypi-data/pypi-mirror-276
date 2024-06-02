@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ThreeDTool
+Version: 0.0.1
+Summary: This module is needed to work in geometric primitives.
+Home-page: https://github.com/OnisOris/ThreeDTool
+Author: OnisOris
+Author-email: onisoris@yandex.ru
+Project-URL: GitHub, https://github.com/OnisOris/ThreeDTool
+Keywords: 3D math geometry
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: trimesh
+Requires-Dist: loguru
+Requires-Dist: PyQt5
+
+# ThreeDTool
+
+
+This module is needed to work with mathematical structures such as plane, line, 
+triangles and other polygons, polyhedron.
+
+An example of using the library is here:
+
+https://github.com/OnisOris/5X3D-slicer
