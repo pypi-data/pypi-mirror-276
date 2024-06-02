@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mypackage202461
+Version: 0.0.2
+Summary: A simple example package
+Home-page: http://github.com/yourusername/my_package
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
