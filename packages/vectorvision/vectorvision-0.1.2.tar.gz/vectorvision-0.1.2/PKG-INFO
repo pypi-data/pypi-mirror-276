@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: vectorvision
+Version: 0.1.2
+Summary: CLI tool for vectorizing raster graphics, written on the basis of the potrace algorithm.
+License: MIT
+Author: Wojciech Łapacz
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Babel (==2.14.0)
+Requires-Dist: Jinja2 (==3.1.3)
+Requires-Dist: MarkupSafe (==2.1.5)
+Requires-Dist: Pygments (==2.17.2)
+Requires-Dist: alabaster (==0.7.16)
+Requires-Dist: certifi (==2024.2.2)
+Requires-Dist: charset-normalizer (==3.3.2)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: contourpy (==1.2.1)
+Requires-Dist: cycler (==0.12.1)
+Requires-Dist: exceptiongroup (==1.2.0)
+Requires-Dist: fonttools (==4.51.0)
+Requires-Dist: idna (==3.6)
+Requires-Dist: imagesize (==1.4.1)
+Requires-Dist: iniconfig (==2.0.0)
+Requires-Dist: kiwisolver (==1.4.5)
+Requires-Dist: matplotlib (==3.8.4)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: opencv-python (==4.9.0.80)
+Requires-Dist: packaging (==24.0)
+Requires-Dist: pathspec (==0.12.1)
+Requires-Dist: pillow (==10.3.0)
+Requires-Dist: platformdirs (==4.2.0)
+Requires-Dist: pluggy (==1.4.0)
+Requires-Dist: pyparsing (==3.1.2)
+Requires-Dist: python-dateutil (==2.9.0.post0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: shapely (==2.0.4)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: snowballstemmer (==2.2.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: typing_extensions (==4.11.0)
+Requires-Dist: urllib3 (==2.2.1)
+Description-Content-Type: text/markdown
+
+# Vectorvision
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://readthedocs.org/projects/vectorvision/badge/?version=latest)](https://vectorvision.readthedocs.io/en/latest/?badge=latest)
+
+## Overview
+
+Vectorvision is a tool for vectorizing raster graphics, written on the basis of the potrace (https://potrace.sourceforge.net/) program. A detailed description of the algorithm can be found in the publication about potrace (https://potrace.sourceforge.net/potrace.pdf).
+For now, available color formats are binary and grayscale, RGB images are firstly converted to grayscale and vectorized. You can convert images of any common format including: png, jpg, jpeg. The output format is SVG.
+
+## Features
+
+The program allows you to transfer images from raster formats, e.g. PNG, to the SVG vector format. The program is available from the command line.
+Features:
+- Support for utility formats: PNG, JPG, JPEG, BMP.
+- Output format: SVG.
+- Optimization of the SVG output file for functionality.
+- Starting the program from the command line.
+
+## Tech Stack
+
+The language of this project is Python. These are main libraries that we use:
+- Sphinx
+- PIL
+- numpy
+- shapely
+- pytest
+
+
+## Docs
+See the documentation for detailed information:
+https://vectorvision.readthedocs.io/en/latest/?badge=latest
+
+## Installation:
+
+To install this tool run:
+
+`pip install vectorvision`
+
+## Usage:
+
+    vectorvision [-h] -i INPUT_PATH [-o OUTPUT_PATH] [--turnpolicy {black,white,left,right,majority,minority}] [--turdsize TURDSIZE] [--alpha-max ALPHA_MAX]
+               [--longcurve | --no-longcurve] [--opttolerance OPTTOLERANCE] [--scale SCALE]
+
+    vectorvision - CLI tool for raster graphics vectorizing
+
+    optional arguments:
+    -h, --help            show this help message and exit
+    -i INPUT_PATH, --input-path INPUT_PATH
+    -o OUTPUT_PATH, --output-path OUTPUT_PATH
+    --turnpolicy {black,white,left,right,majority,minority}
+                            policy which turn take if more than one possibility is legal
+    --turdsize TURDSIZE   drop all paths smaller than selected turdsize
+    --alpha-max ALPHA_MAX
+                            minimum value of alpha parameter to interpret curve as a corner
+    --longcurve, --no-longcurve
+                            disable optimization step (default: False)
+    --opttolerance OPTTOLERANCE
+                            maximum deviation between original and optimized curves which allow to replace original ones with optimal
+    --scale SCALE         scale factor for resulting image
+
+The output image will have the same name as input and will be saved in the same directory.
+
+## Authors
+
+- [@Karol Ziarek](https://github.com/ziarekk)
+- [@Wojciech Lapacz](https://github.com/WojciechL02)
+- [@Kajan Rożej](https://github.com/Kajotello)
+
+## License
+
+Please check the MIT license that is listed in this repository.
+
