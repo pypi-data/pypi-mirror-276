@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: embedded-utils
+Version: 0.1.0
+Summary: CLI Program for Embedded Programming Utils
+Home-page: https://github.com/Guilhermwn/embedded-utils
+License: MIT
+Keywords: embedded,CLI,microcontrollers,mikroc,pic
+Author: Guilhermwn
+Author-email: limaoplaykglp@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Portuguese
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (==8.1.7)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: lorem (==0.1.1)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: pygments (==2.18.0)
+Requires-Dist: pyserial (==3.5)
+Requires-Dist: rich (==13.7.1)
+Requires-Dist: shellingham (==1.5.4)
+Requires-Dist: tabulate (==0.9.0)
+Requires-Dist: typer (==0.12.3)
+Requires-Dist: typing-extensions (==4.12.0)
+Project-URL: Repository, https://github.com/Guilhermwn/embedded-utils
+Description-Content-Type: text/markdown
+
+<div align="center">
+<h1>Embedded Utils</h1>
+<p>CLI Program for Embedded Programming Utils</p>
+</div>
+
+# Introdução
+Embedded Utils é uma biblioteca projetada com funcionalidades simples mas que podem auxiliar o usuário quando estiver trabalhando com projetos de **Sistemas Embarcados**
+
+## Comandos disponíveis
+### `embedded-utils`
+
+**Usage**:
+
+```console
+$ embedded-utils [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `informations`
+* `mikroc-setup`
+* `pic-mcus`
+* `showports`
+
+#### `embedded-utils informations`
+
+**Usage**:
+
+```console
+$ embedded-utils informations [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+#### `embedded-utils mikroc-setup`
+
+**Usage**:
+
+```console
+$ embedded-utils mikroc-setup [OPTIONS]
+```
+
+**Options**:
+
+* `--project-name TEXT`: Nome do projeto no MikroC  [required]
+* `--help`: Show this message and exit.
+
+#### `embedded-utils pic-mcus`
+
+**Usage**:
+
+```console
+$ embedded-utils pic-mcus [OPTIONS]
+```
+
+**Options**:
+
+* `--name TEXT`: O nome do MCU a ser pesquisado  [required]
+* `--help`: Show this message and exit.
+
+#### `embedded-utils showports`
+
+**Usage**:
+
+```console
+$ embedded-utils showports [OPTIONS]
+```
+
+**Options**:
+
+* `--show-ports / --no-show-ports`: [default: show-ports]
+* `--help`: Show this message and exit.
+
