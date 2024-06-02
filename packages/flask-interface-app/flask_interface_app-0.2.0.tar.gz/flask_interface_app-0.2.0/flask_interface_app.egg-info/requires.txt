@@ -1,0 +1,8 @@
+Click
+Flask
+Flask-SQLAlchemy
+Flask-WTF
+Flask-Bcrypt
+Flask-Login
+Flask-Admin
+email-validator
