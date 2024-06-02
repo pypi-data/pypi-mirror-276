@@ -1,0 +1,11 @@
+setup.py
+federated_learn/__init__.py
+federated_learn/dataseMaker.py
+federated_learn/main.py
+federated_learn/model.py
+federated_learn/trainer.py
+federated_learn.egg-info/PKG-INFO
+federated_learn.egg-info/SOURCES.txt
+federated_learn.egg-info/dependency_links.txt
+federated_learn.egg-info/requires.txt
+federated_learn.egg-info/top_level.txt
