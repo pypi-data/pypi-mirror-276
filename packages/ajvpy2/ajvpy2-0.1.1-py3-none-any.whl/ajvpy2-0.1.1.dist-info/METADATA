@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: ajvpy2
+Version: 0.1.1
+Summary: A thin wrapper around the AJV JSON Validator for Python
+Home-page: https://github.com/atchad/ajvpy2
+Author: Anthony Chadwick
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mini-racer >=0.12.3
+Requires-Dist: pytest >=6.0.0
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+# AJV Python Integration
+
+This project integrates the AJV (Another JSON Schema Validator) JavaScript library with Python, allowing for JSON schema validation within Python applications.
+
+## Installation
+
+1. Install the package from PyPI:
+    ```sh
+    pip install ajvpy2
+    ```
+
+2. (Optional) If you prefer to clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/ajvpy2.git
+    cd ajvpy2
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+### Basic Example
+
+```python
+from ajv import Ajv
+
+schema = {"type": "integer"}
+data = 42
+
+ajv = Ajv()
+if ajv.validate(schema, data):
+    print("Valid data!")
+else:
+    print("Invalid data!")
+    print(ajv.errors)
+```
+
+### Adding Custom Formats
+
+```python
+ajv.add_format("customFormat", "^[a-z]+$")
+schema = {"type": "string", "format": "customFormat"}
+data = "abc"
+assert ajv.validate(schema, data)
+data_invalid = "ABC123"
+assert not ajv.validate(schema, data_invalid)
+```
+
+### Adding Custom Keywords
+
+```python
+keyword_definition = """
+{
+    validate: function(schema, data) {
+        return schema === data;
+    },
+    errors: false
+}
+"""
+ajv.add_keyword("testKeyword", keyword_definition)
+schema = {"type": "string", "testKeyword": "test"}
+data = "test"
+assert ajv.validate(schema, data)
+data_invalid = "not_test"
+assert not ajv.validate(schema, data_invalid)
+```
+
+### Using Plugins
+
+```python
+plugin_code = """
+function myPlugin(ajv) {
+    ajv.addKeyword('testKeyword', {
+        validate: function(schema, data) {
+            return schema === data;
+        },
+        errors: false
+    });
+}
+"""
+ajv.context.eval(plugin_code)
+ajv.plugin("myPlugin")
+schema = {"type": "string", "testKeyword": "test"}
+data = "test"
+assert ajv.validate(schema, data)
+```
+
+## Running Tests
+
+To run the tests, use `pytest`:
+
+```sh
+pytest
+```
+
+## License
+
+This project is licensed under the MIT License.
