@@ -1,0 +1,12 @@
+backoff
+sqlalchemy
+
+[dev]
+func-timeout
+oracledb
+psycopg2-binary
+PyMySQL[rsa]
+pytest
+
+[dev:platform_system != "Darwin"]
+pymssql
