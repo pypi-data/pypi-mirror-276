@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=67.6.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "starred-astro"
+version = "1.4.3"
+description = "A two-channel deconvolution method with Starlet regularization"
+authors = [
+    { name = "Kevin Michalewicz", email = "kevinmicha@hotmail.com" },
+    { name = "Martin Millon" },
+    { name = "Frédéric Dux" }
+]
+readme = "README.md"
+keywords = ["deconvolution", "astronomy", "starlet", "image processing"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering :: Astronomy"
+]
+dependencies = [
+    "astropy>=5.0.4",
+    "dill>=0.3.5.1",
+    "jax>=0.4.13",
+    "jaxlib>=0.4.13",
+    "matplotlib>=3.4.2",
+    "numpy>=1.21.2",
+    "scipy>=1.10.0",
+    "optax>=0.1.7",
+    "jaxopt>=0.8",
+    "tqdm>=4.64.0",
+    "h5py>=3.9.0"
+]
+
+[project.optional-dependencies]
+opt = [
+    "emcee>=3.1.4",
+    "mclmc>=0.2.6",
+    "pyregion>=2.2.0",
+]
+test = [
+    "pytest",
+    "pytest-cov"
+]
+
+[tool.setuptools]
+packages.find = { where = ["."] }
+package-data = {"starred" = ["data/*.dat"]}
+
+[project.urls]
+homepage = "https://starred-astro.github.io"
+repository = "https://github.com/starred/starred-astro"
