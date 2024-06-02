@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/database_automation_orcun/__init__.py
+src/database_automation_orcun/mongo_crud.py
+src/database_automation_orcun.egg-info/PKG-INFO
+src/database_automation_orcun.egg-info/SOURCES.txt
+src/database_automation_orcun.egg-info/dependency_links.txt
+src/database_automation_orcun.egg-info/requires.txt
+src/database_automation_orcun.egg-info/top_level.txt
