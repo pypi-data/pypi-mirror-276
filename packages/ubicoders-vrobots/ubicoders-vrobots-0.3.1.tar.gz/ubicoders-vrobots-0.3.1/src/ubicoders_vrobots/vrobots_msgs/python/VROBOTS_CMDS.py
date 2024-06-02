@@ -1,0 +1,20 @@
+CMD_DICT = {
+            "set_acc": 1,
+    "set_vel": 2,
+    "set_pos": 3,
+    "set_angacc": 10,
+    "set_angvel": 11,
+    "set_euler": 12,
+    "set_euler_dot": 13,
+    "set_quat": 14,
+    "set_force": 20,
+    "set_torque": 21,
+    "set_pwm": 22,
+    "set_actuators": 23,
+    "set_mass": 30,
+    "set_walls": 31,
+    "reset_all": 100,
+    "reset_robot": 101,
+    "reset_map": 102,
+        }
+    
