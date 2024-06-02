@@ -1,0 +1,54 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {% if project_layout == "src" %}{
+    {
+      "type": "shell",
+      "label": "Run cmd",
+      "command": "${workspaceFolder}/src/{{ project_slug }}/main.py",
+      "args": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {% endif %}
+    {% if project_layout == "flat" %}{
+    {
+      "type": "shell",
+      "label": "Run cmd",
+      "command": "${workspaceFolder}/{{ project_slug }}/main.py",
+      "args": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {% endif %}
+    {% if project_type == "django" %}{
+      "type": "process",
+      "label": "Django runserver",
+      "command": "./manage.py",
+      "args": ["runserver"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+   {
+      "type": "shell",
+      "label": "Django make migrations",
+      "command": "./manage.py",
+      "args": ["makemigrations"]
+    },
+   {
+      "type": "shell",
+      "label": "Django migrate database",
+      "command": "make",
+      "args": ["migrate"]
+    },
+    {% endif %}
+  ]
+}

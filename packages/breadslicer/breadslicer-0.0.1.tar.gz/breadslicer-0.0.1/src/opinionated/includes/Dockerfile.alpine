@@ -1,0 +1,12 @@
+ARG DOCKER_BUILDKIT=1
+
+FROM python:{{PYTHON_VERSION}}-alpine as python-base
+ENV VIRTUAL_ENV=.venv/
+ENV POETRY_VIRTUALENVS_PATH=${VIRTUAL_ENV}
+ENV WORK_DIR=/workspaces
+
+WORKDIR ${WORK_DIR}
+RUN apk add make
+RUN rm /var/cache/apk/*
+
+{% include "Dockerfile.python" %}
