@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PyEpidemiology
+Version: 0.0.1
+Summary: A python package for prediction
+Home-page: https://github.com/v1xerunt/PyEpidemiology/tree/dev
+Author: Yuhang Wang
+Author-email: 2301210413@stu.pku.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyEpidemiology
