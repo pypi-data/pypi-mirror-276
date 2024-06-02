@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: patternlib
+Version: 1.1.2
+Summary: Pattern Library in Python
+Home-page: https://github.com/gautamkhanapuri/patternlib.git
+Author: Gautam AK
+Author-email: gautamajey@gmail.com
+License: BSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.0
+License-File: LICENSE
+
+
+ Pattern Library contains generic patterns that can be printed by invoking the pattern methods.
