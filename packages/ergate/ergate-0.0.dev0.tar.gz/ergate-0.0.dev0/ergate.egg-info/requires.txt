@@ -1,0 +1,7 @@
+pydantic>=2.0.0
+
+[test]
+mypy
+ruff
+flake8
+flake8-pyproject
