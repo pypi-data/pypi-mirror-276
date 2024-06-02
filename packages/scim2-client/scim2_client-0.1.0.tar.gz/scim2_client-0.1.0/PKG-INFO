@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: scim2-client
+Version: 0.1.0
+Summary: Pythonically build SCIM requests and parse SCIM responses
+License: MIT
+Keywords: scim,scim2,provisioning,httpx,api
+Author: Yaal Coop
+Author-email: contact@yaal.coop
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: scim2-models (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# scim2-client
+
+A SCIM client library built upon [scim2-models](https://scim2-models.readthedocs.io), that pythonically build requests and parse responses, following the [RFC7643](https://datatracker.ietf.org/doc/html/rfc7643.html) and [RFC7644](https://datatracker.ietf.org/doc/html/rfc7644.html) specifications.
+## Installation
+
+```shell
+pip install scim2-client
+```
+
+## Usage
+
+Check the [tutorial](https://scim2-client.readthedocs.io/en/latest/tutorial.html) and the [reference](https://scim2-client.readthedocs.io/en/latest/reference.html) for more details.
+
+Here is an example of usage:
+
+```python
+import datetime
+from httpx impont Client
+from scim2_models import User, EnterpriseUserUser, Group, Error
+from scim2_client import SCIMClient
+
+client = Client(base_url=f"https://auth.example/scim/v2", headers={"Authorization": "Bearer foobar"})
+scim = SCIMClient(client, resource_types=(User[EnterpriseUser], Group))
+
+# Query resources
+user = scim.query(User, "2819c223-7f76-453a-919d-413861904646")
+assert user.user_name == "bjensen@example.com"
+assert user.meta.last_updated == datetime.datetime(
+    2024, 4, 13, 12, 0, 0, tzinfo=datetime.timezone.utc
+)
+
+# Update resources
+user.display_name = "Babes Jensen"
+user = scim.replace(user)
+assert user.display_name == "Babes Jensen"
+assert user.meta.last_updated == datetime.datetime(
+    2024, 4, 13, 12, 0, 30, tzinfo=datetime.timezone.utc
+)
+
+# Create resources
+response = scim.create(User, "2819c223-7f76-453a-919d-413861904646")
+assert isinstance(response, Error)
+assert response.detail == "One or more of the attribute values are already in use or are reserved."
+```
+
