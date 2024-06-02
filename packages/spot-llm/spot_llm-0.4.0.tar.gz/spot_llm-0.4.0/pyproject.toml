@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "spot-llm"
+version = "0.4.0"
+description = ""
+authors = ["Edouard Yvinec <edouardyvinec@hotmail.fr>", "Gabriel Kasser <gabriel.kasser@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+torch = "^2.3.0"
+transformers = "^4.41.1"
+accelerate = "^0.30.1"
+loadingpy = "^0.1.4"
+sentencepiece = "^0.2.0"
+protobuf = "^5.27.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+mypy = "^1.10.0"
+coverage = "^7.5.3"
+pytest = "^8.2.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
