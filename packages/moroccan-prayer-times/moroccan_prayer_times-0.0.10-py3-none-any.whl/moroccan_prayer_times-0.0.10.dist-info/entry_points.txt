@@ -1,0 +1,2 @@
+[console_scripts]
+prayertime = src.main:main
