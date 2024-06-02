@@ -1,0 +1,23 @@
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
+
+[tool.poetry]
+name = "wujing"
+version = "0.1.1"
+description = "python toolkit."
+authors = ["sqjian <shengqi.jian@qq.com>"]
+readme = "README.md"
+package-mode = true
+packages = [{ include = "toolkit" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.8.4"
+adjusttext = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
