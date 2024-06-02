@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "decades"
+version = "0.0.0"
+description = ""
+authors = ["Adam Garza <168875175+hyerland@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
