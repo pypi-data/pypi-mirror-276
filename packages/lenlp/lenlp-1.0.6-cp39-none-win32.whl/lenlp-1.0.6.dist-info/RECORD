@@ -1,0 +1,17 @@
+lenlp-1.0.6.dist-info/METADATA,sha256=rdJRY6u_EY1EMCPfjw6XDJ0HVByy53uicEWBPeNAyag,8055
+lenlp-1.0.6.dist-info/WHEEL,sha256=Hev7SdkjNsau9rRsL5RRKsJ_ZFF6pGbJQFjPMZr3VnE,90
+lenlp/analyzer/analyze.py,sha256=Ny6OMFDMkYiYT3F3WfcWEQNqgjK4GlCAMd0FMCICRIs,1980
+lenlp/analyzer/__init__.py,sha256=zkhKqHulwn4c-QAFBxlbXj-Yo50AurXTJVICIe2XFq4,64
+lenlp/counter/count.py,sha256=Z6Y9cJz-p5raVM2MfFP_6TG3ytWA7F4NJIuW1HNcEuc,4006
+lenlp/counter/__init__.py,sha256=XuIw7Ql7htDsUCVZMcVYqLklFlaTUIwg6uHSKTn6q5I,49
+lenlp/flash/flash_text.py,sha256=AFXRK_xD8BY1FQ32rFoyNRUE89LQBFMEp7EOXDSvxxM,1456
+lenlp/flash/__init__.py,sha256=jYhsxsVrV1BO8NZRgVlVqfjIx7rxWH9mO_WwgFUo-fg,62
+lenlp/normalizer/normalize.py,sha256=f_AWpOC7naoasZfKqs89Z1ljMutIC2HVn8mN1dqjZBY,520
+lenlp/normalizer/__init__.py,sha256=dFRlWK1xyT5KiSbfFlEP-Db5CLXyJ9UyFTXLGwTiz20,61
+lenlp/sparse/bm25_vectorizer.py,sha256=L0OwqTngMrdK3mmAxhAOVvZb14Neq_2dVjzKJERAd78,3866
+lenlp/sparse/count_vectorizer.py,sha256=Vyd5MvbObL67ds4PZPtHJKHnG6sAmRBP6XzzARbbv0c,3703
+lenlp/sparse/tfidf_vectorizer.py,sha256=IB7bOCmUwMhHvMdm1aasXyDaDAjz9gJudeoEdYkOE0w,3988
+lenlp/sparse/__init__.py,sha256=kiVhy1jKSxFHKFffhTN8bm43Yl60jwjxjLKYlM1XAKc,209
+lenlp/__init__.py,sha256=f_VbCA_DaL-pW_0Z5xSdoP2X0cXiph7bubq7MBIu0wY,97
+lenlp/_rslenlp.cp39-win32.pyd,sha256=EHfqAeD5zfzTtJtWZidZs5-lhY7veZWWYbymVJE1WfY,1342976
+lenlp-1.0.6.dist-info/RECORD,,
