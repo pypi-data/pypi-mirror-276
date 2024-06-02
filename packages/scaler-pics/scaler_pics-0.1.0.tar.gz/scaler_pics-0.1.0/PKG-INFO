@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: scaler-pics
+Version: 0.1.0
+Summary: A Python library for image scaling and conversion
+Home-page: https://github.com/scaler-pics/scaler.pics-py
+Author: Matej Ukmar
+Author-email: matejukmar@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: PyJWT
+
+# Scaler
+
+A Python library for image scaling and conversion.
+
+## Installation
+
+```sh
+pip install scaler
+```
+
+## Usage
+
+```python
+from scaler.scaler import Scaler, TransformOptions, InputOptions, OutputOptions, Fit, ImageDelivery
+
+# Initialize the Scaler instance with the API key
+scaler = Scaler(api_key='your_api_key')
+
+# Define the transform options
+options = TransformOptions(
+    input=InputOptions(localPath='path/to/image.heic'),
+    output=OutputOptions(
+        type='jpeg',
+        fit=Fit(width=1024, height=1024),
+        imageDelivery=ImageDelivery(saveToLocalPath='path/to/output.jpg'),
+        quality=0.8
+    )
+)
+
+# Perform the transformation
+response = scaler.transform(options)
+print(response)
+```
