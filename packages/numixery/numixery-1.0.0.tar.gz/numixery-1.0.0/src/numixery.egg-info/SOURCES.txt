@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/numixery.py
+src/numixery.egg-info/PKG-INFO
+src/numixery.egg-info/SOURCES.txt
+src/numixery.egg-info/dependency_links.txt
+src/numixery.egg-info/top_level.txt

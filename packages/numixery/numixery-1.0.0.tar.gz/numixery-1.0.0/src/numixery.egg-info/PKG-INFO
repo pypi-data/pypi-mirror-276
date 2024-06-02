@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: numixery
+Version: 1.0.0
+Summary: A module for numbers
+Author-email: Mohammad Parsa Mortazavi <mpmms@outlook.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hi!
+It's Numixery! YOu can use it for work with numbers and pi(3.14)
+Thank you for use it.
+My Email Address: mpmms@outlook.com
