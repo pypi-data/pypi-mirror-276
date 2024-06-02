@@ -1,0 +1,3 @@
+[console_scripts]
+finclaw=finclaw.__main__:main
+
