@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: qqmusic-api-python
+Version: 0.1.0
+Summary: QQ音乐API封装库
+Home-page: https://github.com/luren-dc/QQMusicApi
+License: MIT
+Keywords: music,api,qqmusic,tencentmusic
+Author: Luren
+Author-email: dluren.c@gmail.com
+Maintainer: Luren
+Maintainer-email: dluren.c@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Framework :: aiohttp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (==3.9.5)
+Requires-Dist: cryptography (==41.0.2)
+Requires-Dist: requests (==2.31.0)
+Project-URL: Documentation, https://github.com/luren-dc/QQMusicApi
+Project-URL: Repository, https://github.com/luren-dc/QQMusicApi
+Description-Content-Type: text/markdown
+
+<div align="center">
+    <h1> QQMusicApi </h1>
+    <p> Python QQ音乐 API 封装库 </p>
+
+![Python Version 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+![GitHub license](https://img.shields.io/github/license/luren-dc/PyQQMusicApi)
+
+</div>
+
+---
+
+> [!WARNING]
+> 本仓库的所有内容仅供学习和参考之用，禁止用于商业用途。
+
+## 介绍
+
+使用 Python 编写的用于调用 [QQ音乐](https://y.qq.com/) 各种 API 的库.
+
+## 依赖
+
+本项目基于：
+
+- [AIOHTTP](https://docs.aiohttp.org/)
+- [Requests](https://requests.readthedocs.io/)
+- [Cryptography](https://cryptography.io/)
+
+## 快速上手
+
+### 安装
+
+```
+$ pip3 install qqmusic-api-python
+```
+
+### 使用
+
+```
+import asyncio
+
+from qqmusic_api import search
+
+async def main():
+    # 搜索歌曲
+    result = await search.search_by_type(keyword="周杰伦", num=20)
+    # 打印结果
+    print(result)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+## TODO
+
+- [ ] 歌手 API
+
+## 参考项目
+
+- [Rain120/qq-muisc-api](https://github.com/Rain120/qq-muisc-api)
+- [jsososo/QQMusicApi](https://github.com/jsososo/QQMusicApi)
+- [Nemo2011/bilibili-api](https://github.com/Nemo2011/bilibili-api/)
+
+## Licence
+
+**[MIT License](https://github.com/luren-dc/QQMusicApi/blob/master/LICENSE)**
+
