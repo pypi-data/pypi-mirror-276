@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: parampl
+Version: 0.0.2
+Summary: Formatting paragraphs for matplotlib text
+Home-page: https://github.com/duckrojo/parampl
+Author: duckrojo
+Author-email: 3063609+duckrojo@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Project-URL: Repository, https://github.com/duckrojo/parampl
+Description-Content-Type: text/markdown
+
+# parampl
+Write formatted paragraphs in matplotlib
+
