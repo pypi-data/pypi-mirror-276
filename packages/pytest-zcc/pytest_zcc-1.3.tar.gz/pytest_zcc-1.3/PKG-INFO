@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytest_zcc
+Version: 1.3
+Summary: eee
+Home-page: https://github.com/xx/
+Author: zcc
+Author-email: 1059995908@qq.com
+License: xxxxxx
+Keywords: pytest,py.test,pytest_zcc
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+
+eee
