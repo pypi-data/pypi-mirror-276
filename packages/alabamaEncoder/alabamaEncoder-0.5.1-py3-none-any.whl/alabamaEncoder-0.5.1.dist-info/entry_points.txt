@@ -1,0 +1,2 @@
+[console_scripts]
+alabamaEncoder = alabamaEncode.cli.__main__:main
