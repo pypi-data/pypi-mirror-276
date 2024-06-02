@@ -1,0 +1,16 @@
+droombot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+droombot/api.py,sha256=Cz__WX3mAxs7xp0JY_ATZCo-ZsWyP0Pn7bdeno0I6oA,3506
+droombot/bot.py,sha256=9tqVEkaP7Jto7xfgCUByT36xTDU_V6Re7PzUHqdwzco,5212
+droombot/cli.py,sha256=_CNXzuCrloOIcFv3uJ8r8cluztVZH3FkPVuyFZyxZTs,1120
+droombot/config.py,sha256=rD35SzPCliSPrQGQ6FSqQIDFqK2_UwWBMH1VxATHd44,1465
+droombot/log.py,sha256=12DGEa5-9dkAhpNp3eiRgJHL-IpOe9TlkYfvqljXpzU,1655
+droombot/models.py,sha256=CLy7mJrWLDCUbLV8o898PdQLMUOdCKLWV4e2qnSz5RM,3899
+droombot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+droombot/utils.py,sha256=hCleD5SMA05Y4xpSBGmK2XIAkmTkuYzqmOtsMY6xSRI,1098
+droombot/version.py,sha256=MzEYzaVSPB2bAWUXFoh_eum2iE6_Kdy01aPAc-Ef3MM,1624
+droombot/worker.py,sha256=np0rx39nF43GiRr-3eByDUbecOUxc0l3Ac1-ofOi44Q,3824
+droombot-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+droombot-0.2.0.dist-info/METADATA,sha256=8ezAcx_6BLUMhtn8-hZQGFlGD-n2ud90G0ACTpPXoSg,4461
+droombot-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+droombot-0.2.0.dist-info/entry_points.txt,sha256=7ycEAfzdPA8_GrDpywAn_CQ1Xey1zLz0D79UBhJY18c,45
+droombot-0.2.0.dist-info/RECORD,,
