@@ -1,0 +1,9 @@
+aira/__init__.py,sha256=kjLfRWAOKR6p-hTVDdsXXlqr-k1imDEpX1FYUHW3rXE,87
+aira/aira.py,sha256=crzA5OMZjI2KEoMyuVQlv9DgfkY-xWrJiAgslnAuZ-E,186
+aira/cli.py,sha256=rmjn14ZnaUP4wGIxpOdcF0K5aEvuzUGVr0LT5yV1HJk,3067
+aira/template/config.yml,sha256=Rdq4t7Ddw2qW5w6O_a4s8nUsHPb6_iU_bBqsWi5lUug,177
+aira-0.1.0.dist-info/METADATA,sha256=akqjX7fPgQO4CwJqgaxLR7L26WTFI38LniOVWaNGvDU,3097
+aira-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aira-0.1.0.dist-info/entry_points.txt,sha256=BvMI5Epp54_sL7XBy9pKvMXg7OkmazJS1NKxS2sqSpc,39
+aira-0.1.0.dist-info/top_level.txt,sha256=zACqR3dsW1usPvVmHWRwe0aGSTXTBmm8Ms0R6eJPtac,5
+aira-0.1.0.dist-info/RECORD,,
