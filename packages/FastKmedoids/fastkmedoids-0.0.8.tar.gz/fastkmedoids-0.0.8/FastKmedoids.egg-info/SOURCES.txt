@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+FastKmedoids.egg-info/PKG-INFO
+FastKmedoids.egg-info/SOURCES.txt
+FastKmedoids.egg-info/dependency_links.txt
+FastKmedoids.egg-info/requires.txt
+FastKmedoids.egg-info/top_level.txt
