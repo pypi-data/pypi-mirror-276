@@ -1,0 +1,8 @@
+setup.py
+pytest_zcc.egg-info/PKG-INFO
+pytest_zcc.egg-info/SOURCES.txt
+pytest_zcc.egg-info/dependency_links.txt
+pytest_zcc.egg-info/entry_points.txt
+pytest_zcc.egg-info/not-zip-safe
+pytest_zcc.egg-info/requires.txt
+pytest_zcc.egg-info/top_level.txt
