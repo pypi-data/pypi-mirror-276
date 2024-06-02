@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cdps
+Version: 1.0.1
+Summary: Composite Disaster Prevention Server
+Home-page: UNKNOWN
+Author: ExpTechTW
+Author-email: exptech.tw@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: idna ==3.7
+Requires-Dist: mariadb ==1.1.10
+Requires-Dist: packaging ==24.0
+Requires-Dist: paho-mqtt ==2.1.0
+Requires-Dist: pytz ==2024.1
+Requires-Dist: requests ==2.32.2
+Requires-Dist: ruamel.yaml ==0.18.6
+Requires-Dist: ruamel.yaml.clib ==0.2.8
+Requires-Dist: typing-extensions ==4.11.0
+Requires-Dist: urllib3 ==2.2.1
+
+UNKNOWN
+
