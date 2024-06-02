@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "document-transformer"
+version = "0.1.2"
+description = "Organize your document transformation pipeline. Define your components, this tool ensure traceability and organization. Reuse your work easily in other projects"
+authors = ["John Gonzalez <johngonzalezv@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/johngonzalez/document-transformer"
+keywords = ["document", "transformer", "pipeline", "components", "reuse", "traceability", "organization"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.7.2"
+graphviz = "^0.20.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
