@@ -1,0 +1,14 @@
+vectorvision/Converter.py,sha256=44j1SLYjSr4Ksjly9N-16xryal0JhI8UfTvNnrwRQo4,7045
+vectorvision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vectorvision/curve_optimization.py,sha256=RXxiLaFMBn7HIYwiujjYMDOHAJ-p3R6jMIVVKXrAnXg,19757
+vectorvision/main.py,sha256=gKAOgqRenPKJuXpMi6wePiqvfxwmvdJp_08GZ4LZ5AY,3435
+vectorvision/path_decomposition.py,sha256=8pgfp3pZZoScdMqHZ-fEkHMBasTqkzRS3Qh6iOq3E-w,7926
+vectorvision/polygons.py,sha256=04HJhmlVQA5L6T_DDUG6hBzFjq36YlmErvGs0HPDZrY,15876
+vectorvision/smoothing.py,sha256=c4CAL2_kRcMjni8ZELv5RfWl6BqciebW-gwbvfXLapo,2432
+vectorvision/utils.py,sha256=nmf4tz30O0VABk_bC5_pPPiRLhdne9euKqGdbYYpFbQ,546
+vectorvision/vertex_adjustment.py,sha256=Q2_VpB9kWnIN1s-Bi0h8RAKTzWb2FUgxSvtt9aiwr0c,5126
+vectorvision-0.1.2.dist-info/LICENSE,sha256=kuckDJTCeMsrAQpJrarRKgxxILiqyOCXoQ0v9xMYW5Y,1073
+vectorvision-0.1.2.dist-info/METADATA,sha256=FKeaqX8HG0Lw01M7NM0g4o3nq6cAp7pOqJYJ3lHyyqQ,4672
+vectorvision-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vectorvision-0.1.2.dist-info/entry_points.txt,sha256=_h-JiAghlCGgQhP1bIO2c-s9bEJSZrK_a6wFHPRhYpg,55
+vectorvision-0.1.2.dist-info/RECORD,,
