@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/SJRS-detect/DetectaFormas.py
+src/SJRS-detect/DetectaMovCamara.py
+src/SJRS-detect/DetectaMovFotos.py
+src/SJRS-detect/DetectaMovVideo.py
+src/SJRS-detect/TestDetectaMovCamara.py
+src/SJRS-detect/__init__.py
+src/SJRS_detect.egg-info/PKG-INFO
+src/SJRS_detect.egg-info/SOURCES.txt
+src/SJRS_detect.egg-info/dependency_links.txt
+src/SJRS_detect.egg-info/top_level.txt
