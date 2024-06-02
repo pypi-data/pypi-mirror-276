@@ -1,0 +1,58 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "duckdb-server"
+description = "A DuckDB server for Mosaic"
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "diskcache",
+  "duckdb==0.10.2",
+  "pandas",
+  "pyarrow",
+  "socketify",
+  "ujson"
+]
+
+[project.scripts]
+duckdb-server = "pkg.__main__:serve"
+
+[project.urls]
+homepage = "https://github.com/uwdata/mosaic"
+
+[project.optional-dependencies]
+dev = [
+  "watchdog[watchmedo]"
+]
+
+[tool.hatch.envs.default]
+python = "3.11"
+features = ["dev"]
+uv = true
+
+[tool.hatch.envs.default.scripts]
+serve = "watchmedo auto-restart --pattern '*.py' --recursive --signal SIGTERM python pkg/__main__.py"
+
+[tool.hatch.envs.test]
+uv = true
+dependencies = [
+  "coverage[toml]",
+  "pytest",
+  "pytest-cov",
+]
+
+[tool.hatch.envs.test.scripts]
+cov = 'pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=pkg'
+
+[tool.hatch.build.targets.wheel]
+packages = ["pkg"]
+
+[tool.hatch.version]
+path = "package.json"
+pattern = "\"version\": \"(?P<version>.+?)\""
+
+[tool.ruff]
+lint.ignore = ["G004", "TRY301", "EM102", "EM101", "TRY003", "FBT002", "S608", "TRY002", "ARG001"]
