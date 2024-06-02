@@ -1,0 +1,10 @@
+dime_sampler/__init__.py,sha256=WZEg7L4X9qC0KAZu3Mfep97rWobe9mv0MbRzncovepk,69
+dime_sampler/__version__.py,sha256=dWyciM4cpa9xnPv-TjA6Z7Vcblbhny36AbQu7Alg1bo,47
+dime_sampler/moves.py,sha256=IilbkYBOAZcKXf0RiOMTwAPIgOP8v6Hop92rYdqmWlk,7183
+dime_sampler/test_all.py,sha256=tGJPPWVj-BKA9iJ50bDxHMxkZcEhO7J1dbxs4u6cBtA,2118
+dime_sampler/test_storage/median.npy,sha256=F87qlbbpuEBNAnNxRYQ5AAws5xHZjMMF9jGVxklg4UU,136
+dime_sampler-1.0.0.dist-info/LICENSE,sha256=WHgCBn1HTrpoK1q6zu8Xpem1fygnN5_7yvX60PGd1R0,1079
+dime_sampler-1.0.0.dist-info/METADATA,sha256=x3MfK-xXsmFQdR1pHCmbcAU2rvfxaJ_RUg6tAqCgLws,8377
+dime_sampler-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dime_sampler-1.0.0.dist-info/top_level.txt,sha256=G5DdSaxcjsy0BzcqxJSiWexNH95M-YhXQRi4HhQzYmo,13
+dime_sampler-1.0.0.dist-info/RECORD,,
