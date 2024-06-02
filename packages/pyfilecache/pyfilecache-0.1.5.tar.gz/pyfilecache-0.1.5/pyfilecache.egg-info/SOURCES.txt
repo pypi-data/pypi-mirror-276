@@ -1,0 +1,15 @@
+.gitignore
+README.md
+pyproject.toml
+setup.py
+examples/add.py
+examples/df.py
+examples/process.py
+examples/signatures.py
+examples/versions.py
+pyfilecache/__init__.py
+pyfilecache.egg-info/PKG-INFO
+pyfilecache.egg-info/SOURCES.txt
+pyfilecache.egg-info/dependency_links.txt
+pyfilecache.egg-info/requires.txt
+pyfilecache.egg-info/top_level.txt
