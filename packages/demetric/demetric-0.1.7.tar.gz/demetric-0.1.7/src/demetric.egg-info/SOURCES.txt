@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/demetric/__init__.py
+src/demetric/__init__.pyi
+src/demetric/agg.py
+src/demetric/run.py
+src/demetric.egg-info/PKG-INFO
+src/demetric.egg-info/SOURCES.txt
+src/demetric.egg-info/dependency_links.txt
+src/demetric.egg-info/requires.txt
+src/demetric.egg-info/top_level.txt
