@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+mov_cli_ms/__init__.py
+mov_cli_ms.egg-info/PKG-INFO
+mov_cli_ms.egg-info/SOURCES.txt
+mov_cli_ms.egg-info/dependency_links.txt
+mov_cli_ms.egg-info/requires.txt
+mov_cli_ms.egg-info/top_level.txt
+mov_cli_ms/jellyfin/scraper.py
+mov_cli_ms/plex/scraper.py
