@@ -1,0 +1,6 @@
+README.txt
+setup.py
+EasyFileOps.egg-info/PKG-INFO
+EasyFileOps.egg-info/SOURCES.txt
+EasyFileOps.egg-info/dependency_links.txt
+EasyFileOps.egg-info/top_level.txt
