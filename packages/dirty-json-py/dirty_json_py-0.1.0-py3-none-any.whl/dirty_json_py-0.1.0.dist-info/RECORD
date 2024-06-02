@@ -1,0 +1,7 @@
+dirty_json/__init__.py,sha256=r0zz2vi1Y9-aJMIbtk9NvKwFOCLD5O5tChvsYCQAJMg,53
+dirty_json/dirty_json.py,sha256=Y3mBJaho9ITT5NDJHc9cGFgWqUC397L4gGqBCzUsnZc,1141
+dirty_json/lexer.py,sha256=OcpXsxpHiFW8XsMK4MwJtZWPge7bT7RldC3eX5SIQno,3296
+dirty_json/parser.py,sha256=2XGaRTqHUZjknjuHreA6ERb2wbmou8ODN1IvAPcPGyw,15030
+dirty_json_py-0.1.0.dist-info/METADATA,sha256=LtyHhq6r43WtKvSS92akkHXgdgi0OG77yYTAbTjwra4,411
+dirty_json_py-0.1.0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+dirty_json_py-0.1.0.dist-info/RECORD,,
