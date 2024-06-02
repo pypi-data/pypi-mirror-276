@@ -1,0 +1,7 @@
+README.md
+setup.py
+legit_every_pip_library_i_own/__init__.py
+legit_every_pip_library_i_own.egg-info/PKG-INFO
+legit_every_pip_library_i_own.egg-info/SOURCES.txt
+legit_every_pip_library_i_own.egg-info/dependency_links.txt
+legit_every_pip_library_i_own.egg-info/top_level.txt
