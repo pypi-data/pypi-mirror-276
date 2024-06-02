@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cube_recognizer/__init__.py
+cube_recognizer/libRecognize.py
+cube_recognizer_for_agv.egg-info/PKG-INFO
+cube_recognizer_for_agv.egg-info/SOURCES.txt
+cube_recognizer_for_agv.egg-info/dependency_links.txt
+cube_recognizer_for_agv.egg-info/requires.txt
+cube_recognizer_for_agv.egg-info/top_level.txt
