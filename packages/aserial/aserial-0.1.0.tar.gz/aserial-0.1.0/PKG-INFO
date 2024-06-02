@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: aserial
+Version: 0.1.0
+Summary: Python asyncio serial library
+Author-email: JP Hutchins <jphutchins@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# aserial
+
+Describe your project here.
