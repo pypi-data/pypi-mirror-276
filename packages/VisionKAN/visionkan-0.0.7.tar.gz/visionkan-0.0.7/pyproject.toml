@@ -1,0 +1,28 @@
+# pyproject.toml
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "VisionKAN"
+version = "0.0.7"
+description = "Vision Transformers implemented using KAN layers"
+repository = "https://github.com/chenziwenhaoshuai/Vision-KAN"
+readme = ["README.md"]
+authors = ["Saaketh Koundinya, Ziwen Chen <three2saki@gmail.com>"]
+
+license = "MIT"
+
+packages = [
+    { include = "VisionKAN" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+torch = ">=1.13.1"
+torchvision = ">=0.8.1"
+timm = ">=0.3.2"
+
+[tool.poetry.dev-dependencies]
+# Add any development dependencies here if needed
