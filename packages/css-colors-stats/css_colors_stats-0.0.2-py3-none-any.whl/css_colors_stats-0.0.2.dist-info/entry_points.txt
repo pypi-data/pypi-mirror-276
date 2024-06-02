@@ -1,0 +1,3 @@
+[console_scripts]
+css-colors-stats=css_colors_stats:main
+
