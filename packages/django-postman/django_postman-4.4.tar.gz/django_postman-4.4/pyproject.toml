@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-postman"
+authors = [
+    {name = "Patrick Samson", email = "maxcom@laposte.net"},
+]
+description = """User-to-User messaging system for Django, with gateway to AnonymousUser, \
+    moderation and thread management, user & exchange filters, inbox/sent/archives/trash folders, \
+    support for apps: auto-complete, notification, mailer."""
+readme = {file = "README", content-type = "text/plain"}
+license = {file = "LICENSE"}
+keywords = ['django', 'messages', 'messaging', 'email', 'moderation']
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Web Environment',
+    'Framework :: Django',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Communications :: Email',
+]
+dependencies = ["Django"]
+
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://bitbucket.org/psam/django-postman"
+
+[tool.setuptools.packages.find]
+include = ['postman*']
+
+[tool.setuptools.dynamic]
+version = {attr = "postman.__version__"}
+

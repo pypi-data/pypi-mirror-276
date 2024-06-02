@@ -1,0 +1,2 @@
+# Sphinx theme
+furo==2024.1.29
