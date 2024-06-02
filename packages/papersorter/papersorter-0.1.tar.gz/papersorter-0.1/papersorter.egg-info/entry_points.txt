@@ -1,0 +1,2 @@
+[console_scripts]
+papersorter = PaperSorter.__main__:main
