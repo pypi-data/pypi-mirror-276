@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "gspread-delimited-export"
+version = "0.2.1"
+description = "This package provides a script to export sheet from a Google Spreadsheet to a delimited file"
+authors = ["Scott Burns <scott@lentigo.net>"]
+readme = "README.md"
+packages = [{ include = "gspread_delimited_export", from = "src" }]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+gspread = "^6.1.2"
+gspread-dataframe = "^3.3.1"
+
+[tool.poetry.scripts]
+gspread-delimited-export = "gspread_delimited_export.cli:cli"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
