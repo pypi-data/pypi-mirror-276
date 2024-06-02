@@ -1,0 +1,6 @@
+setup.py
+uwrapper.egg-info/PKG-INFO
+uwrapper.egg-info/SOURCES.txt
+uwrapper.egg-info/dependency_links.txt
+uwrapper.egg-info/requires.txt
+uwrapper.egg-info/top_level.txt
