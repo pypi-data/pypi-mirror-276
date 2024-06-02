@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aiocloudweather
+Version: 2024.6.1
+Summary: Python wrapper for Cloud Weather protocols
+Home-page: https://github.com/lhw/aiocloudweather
+Download-URL: https://github.com/lhw/aiocloudweather
+Author: Lennart Weller
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>3
+
+# aiocloudweather
+
+Simple python library for parsing Wundergrund and Weathercloud update requests
+
+Based on aioecowitt
