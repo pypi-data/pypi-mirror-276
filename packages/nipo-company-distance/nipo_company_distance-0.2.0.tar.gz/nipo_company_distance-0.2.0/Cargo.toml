@@ -1,0 +1,15 @@
+[package]
+name = "nipo_company_distance"
+version = "0.2.0"
+edition = "2021"
+authors = ["Benjamin Chandler"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "nipo_company_distance"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.20.0"
+edit-distance = "2.1.0"
+indicatif = "0.17.8"
