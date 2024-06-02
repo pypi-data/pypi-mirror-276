@@ -1,0 +1,6 @@
+pyaudio
+httpx
+
+[dev]
+pytest
+flake8
