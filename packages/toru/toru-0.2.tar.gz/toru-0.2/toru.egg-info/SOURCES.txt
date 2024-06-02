@@ -1,0 +1,5 @@
+setup.py
+toru.egg-info/PKG-INFO
+toru.egg-info/SOURCES.txt
+toru.egg-info/dependency_links.txt
+toru.egg-info/top_level.txt
