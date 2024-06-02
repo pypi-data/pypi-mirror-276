@@ -1,0 +1,8 @@
+chromadbx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chromadbx/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chromadbx/core/queries.py,sha256=IgAESTS7lEm2uXHV8PQni7oFNIATm7ZZwEqK7vYbrWs,1937
+chromadbx/core/types.py,sha256=Ons7vVjyDJQfOv_qhUtJKK0rsc_8l19cOETHyWujCxY,110
+chromadbx-0.0.1.dist-info/LICENSE.md,sha256=Pwsvv2QWtjmTgWWmM5MQLwKFif0S2vIxEIcIFIi1SoQ,1077
+chromadbx-0.0.1.dist-info/METADATA,sha256=w3Vm_9SmNewVQD1oX5bNmxl0aR9YReAwPFQ2gvflTds,891
+chromadbx-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+chromadbx-0.0.1.dist-info/RECORD,,
