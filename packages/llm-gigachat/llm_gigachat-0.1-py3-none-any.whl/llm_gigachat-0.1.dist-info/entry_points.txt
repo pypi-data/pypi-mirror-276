@@ -1,0 +1,2 @@
+[llm]
+gigachat = llm_gigachat
