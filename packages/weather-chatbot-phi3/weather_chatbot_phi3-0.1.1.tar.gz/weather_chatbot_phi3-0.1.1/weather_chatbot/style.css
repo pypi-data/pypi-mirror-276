@@ -1,0 +1,11 @@
+body {
+    background-color: #f0f4f8;
+}
+.gr-textbox, .gr-output {
+    background-color: #ffffff;
+    border: 1px solid #e0e7ec;
+}
+.gr-button {
+    background-color: #d0d7dc;
+    color: #000000;
+}
