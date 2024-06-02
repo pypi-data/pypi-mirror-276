@@ -1,0 +1,3 @@
+[console_scripts]
+zabbix-cachet=zabbix_cachet.main:main
+
