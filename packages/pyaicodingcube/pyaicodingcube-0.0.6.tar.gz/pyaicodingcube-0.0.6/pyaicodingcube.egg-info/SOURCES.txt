@@ -1,0 +1,7 @@
+setup.py
+aicodingcube/__init__.py
+aicodingcube/aicodingcube.py
+pyaicodingcube.egg-info/PKG-INFO
+pyaicodingcube.egg-info/SOURCES.txt
+pyaicodingcube.egg-info/dependency_links.txt
+pyaicodingcube.egg-info/top_level.txt
