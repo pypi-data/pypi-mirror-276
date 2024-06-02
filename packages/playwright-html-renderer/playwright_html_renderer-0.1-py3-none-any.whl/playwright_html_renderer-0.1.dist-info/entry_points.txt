@@ -1,0 +1,2 @@
+[console_scripts]
+playwright-html-renderer = playwright_html_renderer.cli:cli
