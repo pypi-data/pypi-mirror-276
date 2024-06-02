@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: legit_every_pip_library_i_own
+Version: 0.0.0
+Summary: import literraly every pip library you own
+Author: restriction policy happend
+Author-email: zaksteryt@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# import legit everything by doing this
+
+```python
+from legit_every_pip_library_i_own import everything
+everything()
+```
+### i mean there not really else much to say
+### it's really useful. it could be really useful
