@@ -1,0 +1,6 @@
+setup.py
+teammate/__init__.py
+teammate.egg-info/PKG-INFO
+teammate.egg-info/SOURCES.txt
+teammate.egg-info/dependency_links.txt
+teammate.egg-info/top_level.txt

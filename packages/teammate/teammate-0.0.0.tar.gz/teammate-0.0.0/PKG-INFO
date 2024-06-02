@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: teammate
+Version: 0.0.0
+Summary: The official python library for Teammate AI Services.
+Author: Teammate Pte. Ltd.
+Author-email: hello@teammate.ltd
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <4
