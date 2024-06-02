@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ajvpy2.egg-info/PKG-INFO
+ajvpy2.egg-info/SOURCES.txt
+ajvpy2.egg-info/dependency_links.txt
+ajvpy2.egg-info/entry_points.txt
+ajvpy2.egg-info/requires.txt
+ajvpy2.egg-info/top_level.txt
