@@ -1,0 +1,7 @@
+.venv/
+tests/
+docs/
+.vscode/
+.gitlab/
+.github/
+./poetry.toml 
