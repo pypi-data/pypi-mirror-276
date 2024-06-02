@@ -1,0 +1,13 @@
+---
+{event}
+---
+
+Please summarize the above plot.
+
+Please return in the following JSON format.
+```
+{{
+    "content":"Summary content"
+}}
+```
+

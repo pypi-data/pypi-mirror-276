@@ -1,0 +1,12 @@
+{event}
+
+Given only the information above, what are the {num} most salient high-level questions we can answer about the subjects in the statements?
+
+Please return in the following JSON format.
+```
+[
+    {{"content":"content of question 1"}},
+    {{"content":"content of question 2"}},
+    {{"content":"content of question 3"}}
+]
+```

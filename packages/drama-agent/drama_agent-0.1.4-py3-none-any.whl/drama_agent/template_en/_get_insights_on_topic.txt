@@ -1,0 +1,16 @@
+Statements relevant to '{topic}':
+---
+{related_statements}
+---
+
+What {num} high-level novel insights can you infer from the above statements that are relevant for answering '{topic}'? 
+Please also indicate the number of the statement from which it originates.
+
+Please return in the following JSON format.
+```
+[
+    {{"content":"content of insight 1", "source": [index of supporting statements]}},
+    {{"content":"content of insight 2", "source": [index of supporting statements]}},
+    {{"content":"content of insight 3", "source": [index of supporting statements]}}
+]
+```

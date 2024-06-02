@@ -1,0 +1,14 @@
+---
+{event}
+---
+
+Based on the statements provided, what are the {num} most critical conclusions you can draw, and please specify which statements support each conclusion?
+
+Please return in the following JSON format.
+```
+[
+    {{"content":"content of conclusion 1", "source": [index of supporting statements]}},
+    {{"content":"content of conclusion 2", "source": [index of supporting statements]}},
+    {{"content":"content of conclusion 3", "source": [index of supporting statements]}}
+]
+```
