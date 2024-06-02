@@ -1,0 +1,4 @@
+openai
+markdown2
+requests
+pyyaml
