@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/evaluate.py,sha256=ajMC1nAPYEn2y4U3A-bmFPHMtm-5Yq4NQ1MAy4k2uC0,1368
+src/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/predict.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/prepare.py,sha256=3JwVXFKqjfIuAyNQE1o7w3ad-g288EkAorxUq5rsP2o,2002
+src/train.py,sha256=pjBV3DAMZlUWEeAB7XmLXEpc3dBSfaYiasVWS89hbgA,7548
+single_object_detection-0.1.0.dist-info/METADATA,sha256=lMtYvEaJro1DHH_ATBnWQsv8Le1bUI_oLcUcD6EMk7s,1814
+single_object_detection-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+single_object_detection-0.1.0.dist-info/RECORD,,
