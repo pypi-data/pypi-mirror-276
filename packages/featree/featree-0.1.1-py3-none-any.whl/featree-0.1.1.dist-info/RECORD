@@ -1,0 +1,8 @@
+featree/__init__.py,sha256=ozJZsjxv4lTG2Y2XZf7n3HKfGY18ZpeoRkEfJ65GGbg,27
+featree/llm.py,sha256=4HzJYGOPqgUhHgju9grZcCOgQe1m2xX3Nh46HApckEI,665
+featree/relation.py,sha256=IRYsDaxSQa92S5USt4EUs8VvDOKL0YuBAXE3OOr2rRM,1363
+featree/tree.py,sha256=s02mAaVmDXHGr7VpqGdElny2fh5jHeQ_joJpYKKPUvo,6123
+featree-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+featree-0.1.1.dist-info/METADATA,sha256=A8OBbFlFpmO2Yj43jblfm77NoUojpcPLFR5UdmumyLI,1007
+featree-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+featree-0.1.1.dist-info/RECORD,,
