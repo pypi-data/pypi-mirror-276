@@ -1,0 +1,2 @@
+[workspace]
+members = ["ipaacar-core", "ipaacar-python"]
