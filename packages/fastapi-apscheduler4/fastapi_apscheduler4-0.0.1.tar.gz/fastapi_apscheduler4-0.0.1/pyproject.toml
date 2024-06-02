@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastapi-apscheduler4"
+version = "0.0.1"
+description = "FastAPI-APScheduler4 is a simple scheduled task manager for FastAPI based on APScheduler."
+authors = ["Loïc Gremaud <grelinfo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "fastapi_apscheduler4", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.100.0"
+APScheduler = "4.0.0a5"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+mypy = "*"
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
