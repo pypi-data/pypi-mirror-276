@@ -1,0 +1,4 @@
+requests>=2.31.0
+logger-local>=0.0.135
+message-local>=0.0.122
+python-sdk-remote>=0.0.93
