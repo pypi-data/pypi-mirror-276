@@ -1,0 +1,4 @@
+- !const a
+- !pure a: { functor, a }
+- !map { functor, a }: { functor, b }
+- !contramap { functor, b }: { functor, a }

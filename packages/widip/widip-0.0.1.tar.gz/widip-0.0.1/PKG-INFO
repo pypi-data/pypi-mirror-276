@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: widip
+Version: 0.0.1
+Summary: Widip is an interactive environment for computing with wiring diagrams in modern systems
+Project-URL: Source, https://github.com/colltoaction/widip
+License-File: LICENSE
+Requires-Dist: discopy>=1.1.7
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: watchdog>=4.0.1
