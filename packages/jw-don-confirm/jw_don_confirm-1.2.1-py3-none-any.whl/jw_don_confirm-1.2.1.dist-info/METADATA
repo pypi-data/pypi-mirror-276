@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: jw_don_confirm
+Version: 1.2.1
+Summary: Tool for creating JW Donation Confirmations in Germany
+Author-email: Jonathan Frankenberger <jonathan.frankenberger@web.de>
+License: GPL-3.0-or-later
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: num2words ~=0.5.13
+Requires-Dist: Babel ~=2.14.0
+Requires-Dist: pypdf ~=4.0.2
+Requires-Dist: pluggy ~=1.4.0
+Requires-Dist: iniconfig ~=2.0.0
+Requires-Dist: setuptools ~=69.1.1
+Requires-Dist: packaging ~=23.2
+Requires-Dist: dataclass-wizard ~=0.22.3
+Requires-Dist: dateparser ~=1.2.0
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# jw_don_confirm - Generator for donation confirmations for Jehovah's Witnesses in Germany
+
+## About
+This is a tool, to generate donation confirmations (S-67X) automatically. It takes as input the previous S-26X PDFs to extract addresses and S-67X to extract donations.
+The tool follows a three-step process:
+1. Extracted addresses from a directory containing last years S-67X (Donation Confirmations)
+2. Extract donations from a directory containing the relevant S-26X (Account Sheets)
+3. Generate the new S-67X PDFs
+
+## Limitations:
+
+- The tool expect a consistent naming of the givers throughout the year. If you use different variants in your transaction descriptions for the same person, the tool will not be able to correctly collect the donations.
+- You need to use the correct RegEx-Pattern to extract the donations from the S-26X. The provided RegEx-Pattern works well with creating PDFs from Safari on MacOS. Other browser/OS combinations most likely need another pattern. The pattern can be provided by the masterdata file.
+
+## Getting started and Installation
+
+The tool is implemented in Python, so you need to get a [Python Installation](https://www.python.org/downloads/) on your system.
+Once you have python install the tool with the following command
+```
+pip install jw_don_confirm
+```
+
+After the installation, the tool is available in your command line. If you type the following command, you should see the help documentation
+
+```
+jw_don_confirm -h
+```
+
+## Extracting Addresses
+The first step is to extract addresses from your previous S-67X PDF forms. This is done by calling the following command:
+
+```
+jw_don_confirm --mode addresses --dir <DONATION_DIR>
+```
+You need to replace <DONATION_DIR> with the directory, that contains your S-67X PDF forms from the last year. After a successful run you will find two .json files in a directory named .data/ under the working directory.
+- The file addresses.json contains the extracted address data. You can add additional address data here.
+- The file masterdata.json contains information, that is later needed for extracting the donations and creating the new donation confirmations. Add in this file name, addresses and place of your coordinator.
+
+You can also use other filenames by providing the optional parameters  --addressfile and --masterdatafile.
+
+## Extracting Donations
+The second step is to extract addresses from last year's account sheets (S-26X) PDF forms. In preparation, you need to export all S-26X sheets from the corresponding year from JW Hub into a single directory. Creating these PDFs with the Safari browser seems to work best.
+Then call the following command:
+
+```
+jw_don_confirm --mode donations --dir <ACCOUNT_SHEETS_DIR>
+```
+You need to replace <ACCOUNT_SHEETS_DIR> with the directory, that contains your S-26X PDF forms. After a successful run you will a new file named donatations.json in the data directory. This file contains the extracted donations.
+
+You can also use other filenames by providing the optional parameters  --addressfile, --donationsfile and --masterdatafile.
+
+### RegEx Patterns
+
+In case, the tool is not able to properly extract donations, start the tool with the --debug parameter, to get the extracted text of an account sheet. Then you will need to adapt the RegEx Expressions in the masterdata file to match your extracted S26 data.
+- dateRegexPattern is the pattern to fetch the month of the account sheet (i.e. March 2023).
+- donationRegexPattern is the pattern to fetch a single donation line. It needs to have three capturing groups. The first captures the day, the second capture the name and the thirds the amount.
+
+If you have for example the following line in your S26:
+```
+  01    Elektronische Spenden - Sally Wholesoul                                  CE                                     10,00
+```
+The following RegEx pattern will work
+```
+^\s*(\d{2})(?!.*Branch.*).*-\s*(.*?)\s*CE\s*(\d{1,3}(.\d{3})*,\d*)$
+```
+This pattern also makes sure, the donations transferred from the branch (containing the word branch) are excluded. Please note that in the .json file, the slash (/) needs to be escaped by another slash (//).
+
+The page [RegEx101](https://regex101.com/) can greatly help you in finding the correct RegEx Pattern.
+
+## Creating the new confirmations
+Finally, you can create the new donation confirmations by calling
+```
+jw_don_confirm --mode confirmations --dir <OUTPUT_DIR> --inputpdf <BLANK_TO67_PDF>
+```
+You need to replace <OUTPUT_DIR> with the directory, into which the donation confirmations should be generated. This directory must exit. Replace <BLANK_TO67_PDF> with the name of the current TO67 PDF, that you downloaded from JW Hub (currently TO-67b-X_Ge.pdf)
+
+You can also use other filenames by providing the optional parameters  --addressfile, --donationsfile and --masterdatafile.

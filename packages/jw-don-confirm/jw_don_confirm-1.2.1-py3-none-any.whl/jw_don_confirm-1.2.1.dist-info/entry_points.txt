@@ -1,0 +1,2 @@
+[console_scripts]
+jw_don_confirm = jw_don_confirm.cmd_adapter:main
