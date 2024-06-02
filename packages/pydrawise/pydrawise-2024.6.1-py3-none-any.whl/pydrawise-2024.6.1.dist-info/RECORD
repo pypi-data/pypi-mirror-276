@@ -1,0 +1,17 @@
+pydrawise/__init__.py,sha256=EchjlCuPounpjdavjPlLm_P8XNkEf1yX6v6klz0t-g4,537
+pydrawise/_version.py,sha256=bs5gFL9Mlwh1IvRh5hZawz_SleC88gaDg6jodp6omsQ,417
+pydrawise/auth.py,sha256=sMY2ZpkLCCJIjoGgV3qu8y5ImsoFJ6-qUkR0MgWBgW4,2992
+pydrawise/base.py,sha256=w0l5bx9AnsHuk1vjqgI7QBWYogc98YaHkyWhG3NxZwo,4187
+pydrawise/client.py,sha256=yh1O6GUzR3v8gKq3r-Ll5Bra9du64_g_A2tOuct3zSY,17367
+pydrawise/exceptions.py,sha256=_xfWEL3Y-F3PYNpOh__UnuEUofx7WBHldvWfzNfO9MI,551
+pydrawise/hydrawise.graphql,sha256=YzHQ_vGj28IyS5w6Yy-qQnOSy1dUqgMKBpVKP2jI-tQ,55590
+pydrawise/legacy.py,sha256=_c3Oj8i-Q9eWm771fn9sDMtDMlDcGW1Pw43CGzTXKXY,12815
+pydrawise/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydrawise/schema.py,sha256=lx6fltT7DgoW-LK4PrAb_GV-WCa7fkPesrWXYaqFE4g,17100
+pydrawise/schema_utils.py,sha256=W0LJmTaI89YkpxIbapSoQ-ri98rbfH3NNUk419yG-MM,4068
+pydrawise-2024.6.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydrawise-2024.6.1.dist-info/METADATA,sha256=WGmMnsI4r73AYojJLm33ucwf-w96DgwKB3GsffU841I,2702
+pydrawise-2024.6.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pydrawise-2024.6.1.dist-info/top_level.txt,sha256=sW138A80t3vhA_WNFd9WQ9oR_Um-YbC1BpAs9u0j6As,10
+pydrawise-2024.6.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pydrawise-2024.6.1.dist-info/RECORD,,
