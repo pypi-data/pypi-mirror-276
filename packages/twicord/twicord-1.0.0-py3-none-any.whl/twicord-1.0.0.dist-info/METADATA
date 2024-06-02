@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: twicord
+Version: 1.0.0
+Summary: A Discord bot creation language extension
+Author: Siddhartha41210
+Author-email: siddharthab41210@gmail.com
+Requires-Python: >=3.6
+Requires-Dist: discord.py >=2.0.0
+
