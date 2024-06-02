@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fairlyuncertain
+Version: 0.0.1
+Summary: Heteroscedastic uncertainty estimates for fair algorithms.
+Home-page: https://github.com/rtealwitter/fairlyuncertain
+Author: R. Teal Witter and Lucas Rosenblatt
+Author-email: rtealwitter@gmail.com, lr2872@nyu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
