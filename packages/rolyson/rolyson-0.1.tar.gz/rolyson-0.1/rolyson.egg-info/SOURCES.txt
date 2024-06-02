@@ -1,0 +1,8 @@
+README.md
+setup.py
+rolyson/__init__.py
+rolyson/hello.py
+rolyson.egg-info/PKG-INFO
+rolyson.egg-info/SOURCES.txt
+rolyson.egg-info/dependency_links.txt
+rolyson.egg-info/top_level.txt
