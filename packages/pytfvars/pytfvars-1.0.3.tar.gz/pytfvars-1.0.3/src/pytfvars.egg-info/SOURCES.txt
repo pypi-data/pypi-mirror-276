@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/pytfvars/__init__.py
+src/pytfvars/tfvars.py
+src/pytfvars.egg-info/PKG-INFO
+src/pytfvars.egg-info/SOURCES.txt
+src/pytfvars.egg-info/dependency_links.txt
+src/pytfvars.egg-info/top_level.txt
+tests/test_tfvars.py
