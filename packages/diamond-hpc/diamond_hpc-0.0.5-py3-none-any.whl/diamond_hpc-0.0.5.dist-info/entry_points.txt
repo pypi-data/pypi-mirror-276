@@ -1,0 +1,3 @@
+[console_scripts]
+diamond-hpc = diamond.wrapper.wrapper:cli
+
