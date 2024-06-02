@@ -1,0 +1,8 @@
+pyvisa
+pyvisa-py
+pyserial
+
+[testing]
+setuptools
+pytest
+pytest-cov
