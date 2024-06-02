@@ -1,0 +1,3 @@
+[console_scripts]
+embedded-utils=embedded_utils.main:app
+
