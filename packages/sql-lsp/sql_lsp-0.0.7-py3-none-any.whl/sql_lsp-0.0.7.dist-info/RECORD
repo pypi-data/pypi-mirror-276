@@ -1,0 +1,12 @@
+sql_lsp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_lsp/cli.py,sha256=J3w81iWVmhyAkz94RwbVC-QSO2u1n41bwkBm0SVhrBo,1470
+sql_lsp/completion.py,sha256=CNC8JJ5cPpt6ZFYG7yIulAgLL8Q-gYn62j9oXiU0vW0,6169
+sql_lsp/config.py,sha256=s-o-dPidEXsRiAfk-mJ5kf_XMG1eK9xtB2Gd71YPoag,329
+sql_lsp/database.py,sha256=rI-2vIJMdKYZB3QcI1trGMRzqhLhBFEjNDG--pzvvGY,2369
+sql_lsp/mysql_connector.py,sha256=QLe1AUMx5bfRLTMefp2fZsV2P8rCu1RuYR_KLM5XsPM,7991
+sql_lsp/server.py,sha256=5rsAKOXJh4Z0qUCz00EseV-LBhcErCLrAy2_onoqpbs,10831
+sql_lsp/utils.py,sha256=szz1lrJQJGt5EN3jsIurQErFecVrSS3YRI5UCc5vlEs,4677
+sql_lsp-0.0.7.dist-info/METADATA,sha256=6oWz8P3WJ-XgwzcY-UsXIdWWrAJ_vL2Qd9XciPg_n9c,2257
+sql_lsp-0.0.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sql_lsp-0.0.7.dist-info/entry_points.txt,sha256=wJQNT5WOpAVec8fR76flWEfxQEYLhWwY-A_soenUQcA,43
+sql_lsp-0.0.7.dist-info/RECORD,,
