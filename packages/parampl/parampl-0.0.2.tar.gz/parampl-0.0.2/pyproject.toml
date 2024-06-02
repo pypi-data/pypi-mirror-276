@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "parampl"
+description = "Formatting paragraphs for matplotlib text"
+authors = ["duckrojo <3063609+duckrojo@users.noreply.github.com>"]
+readme = "README.md"
+version = "0.0.2"
+#documentation = "https://parampl.readthedocs.io/en/latest/"
+repository = "https://github.com/duckrojo/parampl"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+
+[tool.poetry-dynamic-versioning.substitution]
+
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
