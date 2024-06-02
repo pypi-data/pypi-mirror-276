@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: llmify
+Version: 0.1.2
+Summary: light weight llm utilities for scalable AI apps
+Home-page: https://github.com/Navan0/llmify
+Author: Navaneeth KT
+Author-email: nktclt@gmail.com
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+
+light weight llm utilities for scalable AI apps
