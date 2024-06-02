@@ -1,0 +1,64 @@
+Metadata-Version: 2.3
+Name: islabtech_upw_sensor_v1_mock_api
+Version: 0.1.2
+Summary: Mock API simulating the Rest+Modbus/TCP API of the ISLabTech UPW sensor
+Project-URL: Bug Tracker, https://gitlab.com/islabtech/upw-sensor/api
+Author-email: Ilka Schulz <ilka@islabtech.com>
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Requires-Dist: apscheduler
+Requires-Dist: flask
+Requires-Dist: flask-sock
+Requires-Dist: pymodbus
+Requires-Dist: pymodbustcp
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# UPW Sensor API
+
+API for the [ISLabTech UPW Sensor](https://gitlab.com/islabtech/upw-sensor)
+
+## REST API
+[The entire REST API is documented in OpenAPI/Swagger.](openapi.yml).
+
+## Modbus/TCP
+[The Modbus/TCP interface is documented in this PDF.](modbus-doc.pdf)
+
+## 🐍 Mock API
+
+Run the mock API locally with Python:
+
+```sh
+pip3 install islabtech_upw_sensor_v1_mock_api
+python3 -m islabtech_upw_sensor_v1_mock_api
+```
+
+Run it with the web app:
+
+```sh
+python3 -m islabtech_upw_sensor_v1_mock_api --web-app /path/to/web-app-git-repo
+```
+
+Access it with cURL:
+
+```sh
+curl -X GET http://localhost:5000/api/v1/measurements/latest
+curl -X GET http://localhost:5000/api/v1/system/status
+curl -X PATCH http://localhost:5000/api/v1/settings/network/wifi -H "Content-Type: application/json" \
+    -d '{"ssid": "my wifi", "password": "my password"}'
+```
+
+<!-- ## :book: Documentation
+
+### Guides
+
+Each group of API endoints is documented in its own guide.
+
+- [measure](/guides/measure.md)
+- [temperature calibration](/guides/temperature%20calibration.md)
+- [conductivity calibration](/guides/conductivity%20calibration.md)
+
+- [system](/guides/system.md)
+- [settings](/guides/settings.md) -->
