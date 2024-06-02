@@ -1,0 +1,11 @@
+fastcore
+python-dateutil
+starlette
+oauthlib
+itsdangerous
+uvicorn
+httpx
+
+[dev]
+ipython
+lxml
