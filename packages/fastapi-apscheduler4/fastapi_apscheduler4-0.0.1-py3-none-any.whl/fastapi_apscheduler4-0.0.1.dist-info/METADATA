@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fastapi-apscheduler4
+Version: 0.0.1
+Summary: FastAPI-APScheduler4 is a simple scheduled task manager for FastAPI based on APScheduler.
+License: MIT
+Author: Loïc Gremaud
+Author-email: grelinfo@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: APScheduler (==4.0.0a5)
+Requires-Dist: fastapi (>=0.100.0,<0.101.0)
+Description-Content-Type: text/markdown
+
+# fastapi-apscheduler4
+ FastAPI-APScheduler4 is a simple scheduled task manager for FastAPI based on APScheduler version 4.
+
