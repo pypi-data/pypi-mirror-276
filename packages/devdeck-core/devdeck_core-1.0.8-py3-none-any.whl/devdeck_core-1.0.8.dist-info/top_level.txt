@@ -1,0 +1,2 @@
+devdeck_core
+tests
