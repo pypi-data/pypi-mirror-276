@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washing Machine Status</title>
+    <style>
+table {
+  border-collapse: collapse;
+  position: relative;
+}
+
+ th, td {
+   border: 1px solid black;
+   padding: 8px;
+ }
+
+ .footer {
+   font-size: small;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding: 5px; /* add some padding for better looks */
+   color: #666; /* gray */
+ }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <th>machine</th>
+          <th>status</th>
+        </tr>
+        {% for data in table_data %}
+        <tr>
+          <td>{{ data[0] }}</td>
+          <td>{{ data[1] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <div class="footer">Produced by <a href="https://codeberg.org/johann-cm/dorfwash">dorfwash</a>.</div>
+  </body>
+</html>
+
