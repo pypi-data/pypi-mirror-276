@@ -1,0 +1,12 @@
+tree_sitter_arduino-0.21.1.dist-info/RECORD,,
+tree_sitter_arduino-0.21.1.dist-info/LICENSE,sha256=QT7Ew4QvlbyvZiq6fWRrIrrwRKpqxe-mUxuU1O4AJIs,1058
+tree_sitter_arduino-0.21.1.dist-info/WHEEL,sha256=_dHHZkmuSJ1hBoJBEDtCQuURSWv4237hi4KqLTJVP7o,108
+tree_sitter_arduino-0.21.1.dist-info/top_level.txt,sha256=Ql8J6PoDVEA5QZwR4nczSYkP-16WqNe2hWn1jiPAWMw,29
+tree_sitter_arduino-0.21.1.dist-info/METADATA,sha256=a4dlOW24bcNoEe5Dmnbt3WR6wnUemxlG77yKBlMKY0k,2008
+tree_sitter_arduino/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_arduino/binding.c,sha256=xdNTiAEh9bU-m991QDsfbYqMwIT0_XmzCcZNHH-ROWw,638
+tree_sitter_arduino/__init__.py,sha256=yEYW0ArVlPPm1KXp3iqJL_1OSi4PhnGPE4W_oaTNn1w,90
+tree_sitter_arduino/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_arduino/_binding.abi3.so,sha256=z7IRzmVz3RCETX-9WhZ2SEl_bP5ESfHl7Vlk7VQh5Xc,3492128
+tree_sitter_arduino/queries/tags.scm,sha256=sLajmN6syiJzIWN5xjNyOOYjZmLc-yLpXSi3WPZg0Ec,142
+tree_sitter_arduino/queries/highlights.scm,sha256=sihYptA7DuoiJAgHRwmGb8Jud7e9n1yCk564TZZHUDQ,1635
