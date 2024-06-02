@@ -1,0 +1,9 @@
+idswapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idswapper/db_config.json,sha256=PMT3yL_azV7Vj5JJgdQ7CB7l7IuRkNRhawsjkFUV1dc,115
+idswapper/fetchids.py,sha256=Wcgc24eWL08d6l21eOcLpSO2I0IctXmta47hEPtPOx0,8399
+idswapper/setup_db.py,sha256=vPMEQ3xWSOuuVyAxb_Dm3k0DnVDO9dKSzdDa8nHYu70,7616
+IDswapper-0.0.7.dist-info/METADATA,sha256=vrvsAc6xLJUpjzYgJG3kVPbGPJ-XJC9jww9BKtR3Zhg,2406
+IDswapper-0.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+IDswapper-0.0.7.dist-info/entry_points.txt,sha256=R12v5gGmPaFRrOqN_gQUaiAOEcLsKV0siT7LjuRXRZ0,59
+IDswapper-0.0.7.dist-info/top_level.txt,sha256=vqNTZWWv-BaS2gdMht2RXHwlbum5OjG6fumD2Tz-sGM,10
+IDswapper-0.0.7.dist-info/RECORD,,
