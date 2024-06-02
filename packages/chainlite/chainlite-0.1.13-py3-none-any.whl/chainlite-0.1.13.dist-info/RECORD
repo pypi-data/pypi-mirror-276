@@ -1,0 +1,12 @@
+chainlite/__init__.py,sha256=oCHe68aTcxNDTb2tr5jy4lzsUwIc3JdCRSbFcJivg84,393
+chainlite/llm_config.py,sha256=vLzbjEYbVfHNfMuul2uEKDl9scKAkM5RXYIhw5NnmOM,5475
+chainlite/llm_generate.py,sha256=QbcxKfBkWnkBtl3lo21z4CFdIPMokrUeODyyGspql0Y,13686
+chainlite/load_prompt.py,sha256=DcjaOO-b5-leXWL6daE6eaKveKWwyOJyvaRyP4I4oxk,7912
+chainlite/utils.py,sha256=QevrGVFMI3FgoFwY9cUAcPRdhLZfyry5-HWZAMpG1mQ,463
+tasks/__init__.py,sha256=v74d_-amPXewBQaZE7ndsudqw7OrdXKMM-iybpcn7Jo,24
+tasks/main.py,sha256=Pg4hDtHcn7PpNr9WvA2O4XJ9vrHmCSdQUgHh9aX9FnE,1654
+chainlite-0.1.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+chainlite-0.1.13.dist-info/METADATA,sha256=ywOOVqNcRCz-H9hndEsMkXa4XaK6q_f6I0jA7ae9heE,5860
+chainlite-0.1.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chainlite-0.1.13.dist-info/top_level.txt,sha256=16SbMmSx4c-Y2kssdpiwVJqE_UJHBuZcmdqcUlDgvIs,16
+chainlite-0.1.13.dist-info/RECORD,,
