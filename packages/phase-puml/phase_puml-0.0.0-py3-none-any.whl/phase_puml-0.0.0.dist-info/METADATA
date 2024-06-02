@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: phase_puml
+Version: 0.0.0
+Summary: My short description for my project.
+Home-page: https://github.com/franceme/phase_puml
+Author: Miles Frantz
+Author-email: frantzme@vt.edu
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: all
+
+# PythonTemplate
+
+Simple Template
