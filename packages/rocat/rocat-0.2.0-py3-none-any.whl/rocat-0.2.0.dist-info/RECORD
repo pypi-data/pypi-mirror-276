@@ -1,0 +1,16 @@
+rocat/__init__.py,sha256=gRDv8w7w-KaSeskOrNwyiumGrs9f2lpVg5-M2mBPHtY,869
+rocat/__main__.py,sha256=_OnMNYMg5rrH_j-gx4zb8nzXJ6RbZkAQnAYsWtJq-VI,1162
+rocat/ai_functions.py,sha256=jZaYe39LNCqLmfRh0ujtbdEC0l02UtvSSOYlqFNG0j8,2623
+rocat/config.py,sha256=gswiCPN2DWJGY03idDtMIMnb-1Y_fULlLSX8A8PrDNc,2116
+rocat/file_utils.py,sha256=uVk2_vRlDH03NHQLjct9GSn0G15knDTAC4NJPWJY8CA,12217
+rocat/language_model.py,sha256=SHDzoW6KxZkA10RLzKWUfxWvR3WM3Wc-6N1CPoyjB-8,7451
+rocat/language_utils.py,sha256=z5IzxpMCyJgeipbUph5ShcxGUMyTb5dlAlodAUf9KvA,838
+rocat/main.py,sha256=f3BCOIQpk4B3MEoEmtwFnp3w53tpqKiFrOHGRVMqdp4,480
+rocat/template_utils.py,sha256=OiS-JiWXbpivsLa3iSakqFW_CmcDxb9w4OQU0HPllOA,807
+rocat/web_utils.py,sha256=R9AlLvBDGRRG06EoUoLSW2kyvj3JkvgsvWCKLPx2sGk,2215
+rocat-0.2.0.dist-info/LICENSE,sha256=5f56ub2Oox5esWy5b0pfzvtAHfyFz7bmX5R5j6WoIEY,1081
+rocat-0.2.0.dist-info/METADATA,sha256=WmmzUgV-Vt_NWlFt-hCrNsEezpf2G6WLgWH7SUQSpvc,4598
+rocat-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rocat-0.2.0.dist-info/entry_points.txt,sha256=6hZVF-K9hzLWG3M43LZc6Omk1GuXOBGbF6PEUnruscA,46
+rocat-0.2.0.dist-info/top_level.txt,sha256=y0E9VNTkmC-cHvBMAKdIlfxarL8pgrzRCEGu5oi-xfs,6
+rocat-0.2.0.dist-info/RECORD,,

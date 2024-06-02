@@ -1,0 +1,178 @@
+Metadata-Version: 2.1
+Name: rocat
+Version: 0.2.0
+Summary: A simple and user-friendly library for AI services
+Home-page: https://github.com/Yumeta-Lab/rocat-dev
+Author: YumetaLab
+Author-email: root@yumeta.kr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: altair ==5.3.0
+Requires-Dist: anthropic ==0.26.1
+Requires-Dist: beautifulsoup4 ==4.12.3
+Requires-Dist: docx2txt ==0.8
+Requires-Dist: google-search-results ==2.4.2
+Requires-Dist: openai ==1.30.3
+Requires-Dist: openpyxl ==3.1.2
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: pillow ==10.3.0
+Requires-Dist: PyPDF2 ==3.0.1
+Requires-Dist: python-docx ==1.1.2
+Requires-Dist: python-pptx ==0.6.23
+Requires-Dist: requests ==2.32.2
+Requires-Dist: serpapi ==0.1.5
+Requires-Dist: xlrd ==2.0.1
+Requires-Dist: XlsxWriter ==3.2.0
+Requires-Dist: youtube-transcript-api ==0.6.2
+
+# 😺🚀 RoCat
+
+RoCat is a Python library that provides a simple and user-friendly interface for integrating AI services into your projects. It supports various AI functionalities such as text summarization, YouTube transcript retrieval, audio transcription using OpenAI's Whisper, and web search using SerpAPI.
+
+## Installation
+
+You can install RoCat using pip:
+
+​```bash
+pip install rocat
+​```
+
+## Quick Start Guide
+
+1. Initialize RoCat: Begin by creating a default configuration and example code to get started.
+
+```bash
+(.venv) > rocat init 
+
+Default configuration file and example code created.
+- config.ini      
+- rocat_example.py
+```
+
+This command creates a default configuration file (config.ini) and an example script (rocat_example.py).
+
+2. Edit Configuration: Open config.ini to add your API keys.
+
+```bash
+[API_KEYS]
+openai = 
+anthropic = 
+naver = 
+serpapi =
+```
+
+3. Now write your code! You can refer to the rocat_example.py file for sample usage of the library.
+
+```python
+# rocat_example.py
+import rocat as rc
+
+def main():
+    # Initialize the library
+    rc.initialize()
+    
+    # Write your code here.
+
+if __name__ == "__main__":
+    main()
+```
+
+## Example Usage
+
+### Text Summarization
+```python
+def main():
+    rc.initialize()
+    
+    # Get text from a web page  
+    url = "https://www.example.com/sample-page"  
+    text = rc.get_web(url)  
+
+    # Summarize the text  
+    summary = rc.ai_summarize(text, 3)
+
+
+    # Print the summarized text  
+    print("\nAI Summary Test:")  
+    print(summary)
+
+if __name__ == "__main__":
+    main()
+```
+
+### YouTube Transcript Retrieval
+```python
+def main():
+    rc.initialize()
+    
+    # Get captions from a YouTube video  
+    video_url = "https://www.youtube.com/watch?v=example-video-id"  
+    transcript = rc.get_youtube(video_url)  
+
+    # Print the caption text  
+    print("\nYouTube Caption Test:")  
+    print(transcript)  
+
+if __name__ == "__main__":
+    main()
+```
+
+
+### Audio Transcription 
+```python
+def main():
+    rc.initialize()
+    
+    # Convert an audio file to text  
+    audio_file = "path/to/example/audio.mp3"  
+    transcription = rc.get_whisper(audio_file)  
+
+    # Print the converted text  
+    print("\nWhisper Recognition :")  
+    print(transcription)  
+
+if __name__ == "__main__":
+    main()
+```
+
+### Web Search
+```python
+def main():
+    rc.initialize()
+    
+    # Get google search results  
+    query = "python"  
+    search_results = rc.get_search(query)  
+    for result in search_results:  
+        print(f"Title: {result['title']}")  
+        print(f"Link: {result['link']}")  
+        print(f"Snippet: {result['snippet']}")
+
+if __name__ == "__main__":
+    main()
+```
+
+## Features
+
+- Text summarization using AI
+- YouTube transcript retrieval
+- Audio transcription using OpenAI's Whisper
+- Web search using SerpAPI
+- File utilities for handling various file formats (txt, xls, xlsx, doc, docx, ppt, pptx, csv, pdf, hwp, hwpx)
+- Language model integration (GPT-3.5, GPT-4, Claude, Opus, Haiku, Sonnet)
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
+
+## Contact
+If you have any questions or inquiries, please contact the author:
+
+- Name: Faith6
+- Email: root@yumeta.kr
