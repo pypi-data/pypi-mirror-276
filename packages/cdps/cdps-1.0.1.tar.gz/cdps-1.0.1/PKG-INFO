@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cdps
+Version: 1.0.1
+Summary: Composite Disaster Prevention Server
+Home-page: UNKNOWN
+Author: ExpTechTW
+Author-email: exptech.tw@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+

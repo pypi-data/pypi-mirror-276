@@ -1,0 +1,50 @@
+from CDPS.core.constants import core_constant
+
+import os
+from setuptools import setup, find_packages
+
+NAME = core_constant.PACKAGE_NAME
+VERSION = core_constant.VERSION
+DESCRIPTION = 'Composite Disaster Prevention Server'
+AUTHOR = 'ExpTechTW'
+REQUIRES_PYTHON = '>=3.8'
+
+CLASSIFIERS = [
+	# https://pypi.org/classifiers/
+	'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
+	'Operating System :: OS Independent',
+	'Programming Language :: Python',
+	'Programming Language :: Python :: 3',
+	'Programming Language :: Python :: 3.8',
+	'Programming Language :: Python :: 3.9',
+	'Programming Language :: Python :: 3.10',
+	'Programming Language :: Python :: 3.11',
+	'Programming Language :: Python :: 3.12',
+]
+
+ENTRY_POINTS = {
+	'console_scripts': [
+		'{} = {}.entrypoint:entrypoint'.format(core_constant.CLI_COMMAND, core_constant.PACKAGE_NAME)
+	]
+}
+print('ENTRY_POINTS = {}'.format(ENTRY_POINTS))
+
+here = os.path.abspath(os.path.dirname(__file__))
+
+with open(os.path.join(here, 'requirements.txt')) as f:
+	REQUIRED = list(filter(None, map(str.strip, f)))
+	print('REQUIRED = {}'.format(REQUIRED))
+
+setup(
+    name=NAME,
+    version=VERSION,
+    description=DESCRIPTION,
+    author=AUTHOR,
+    author_email='exptech.tw@gmail.com',
+    packages=find_packages(exclude=['tests']),
+    include_package_data=True,
+	python_requires=REQUIRES_PYTHON,
+	install_requires=REQUIRED,
+	classifiers=CLASSIFIERS,
+	entry_points=ENTRY_POINTS,
+)
