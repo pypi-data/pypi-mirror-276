@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/slurmtui/__init__.py
+src/slurmtui/main.py
+src/slurmtui/slurm_utils.py
+src/slurmtui/utils.py
+src/slurmtui.egg-info/PKG-INFO
+src/slurmtui.egg-info/SOURCES.txt
+src/slurmtui.egg-info/dependency_links.txt
+src/slurmtui.egg-info/entry_points.txt
+src/slurmtui.egg-info/requires.txt
+src/slurmtui.egg-info/top_level.txt
+src/slurmtui/css/slurmtui.css
