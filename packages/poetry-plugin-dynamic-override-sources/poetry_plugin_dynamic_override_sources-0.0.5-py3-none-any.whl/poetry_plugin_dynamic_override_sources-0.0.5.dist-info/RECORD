@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=ojgkamzxYnYyaFqNmpbiFYPiamuLXCOxIqJvfMocr8I,504
+poetry_plugin_dynamic_override_sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_plugin_dynamic_override_sources/plugins.py,sha256=X_s_ljeBM2cr2y9ZlHuh3fNtRspbs30KTKqmjJzpkGs,4757
+poetry_plugin_dynamic_override_sources/py.typed,sha256=jjc2Jsyj1yPdgEcKbn4KiwxBnU9PTh0euYpJP_SHx7w,48
+poetry_plugin_dynamic_override_sources-0.0.5.dist-info/LICENSE,sha256=UrwHfJbtbao4EA625PnamUUQScXmVZU__mqhezafth0,1457
+poetry_plugin_dynamic_override_sources-0.0.5.dist-info/METADATA,sha256=zozoTIEUNQve-3DB5A9WsVo3FpX9NPt2ZcjRrrjQu6Q,2836
+poetry_plugin_dynamic_override_sources-0.0.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+poetry_plugin_dynamic_override_sources-0.0.5.dist-info/entry_points.txt,sha256=WswpOlLwvPZdZndtBDPTwS9XARrSG2EKHKlo7B7SS1Y,98
+poetry_plugin_dynamic_override_sources-0.0.5.dist-info/RECORD,,
