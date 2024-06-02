@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: log-writer
+Version: 1.0.0
+Summary: A simple logging package, Loglarni filega yozib borish uchun kichik packege
+Home-page: https://github.com/ZohidilloPr/log_writer/tree/main
+Author: Zohidillo Turgunov
+Author-email: zohidilloturgunov@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
