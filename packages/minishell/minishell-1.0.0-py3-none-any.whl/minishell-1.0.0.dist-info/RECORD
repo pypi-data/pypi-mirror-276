@@ -1,0 +1,10 @@
+minishell/__init__.py,sha256=rHn_zULi_LVY4LQlPu-TbcOPqiaK6zXzJI_cjJaZ0jw,799
+minishell/cmd.py,sha256=J55sFUePptRK_7K-IBYB4XGZkCpgOceyJA8VDaA1ihQ,4832
+minishell/config.py,sha256=FYIlx2OeO2B1BcPggHwGiNqfRWIOf4Nijx1rQZo4SVY,1400
+minishell/error.py,sha256=vWvvz0q4qOZd8jeJS1ETGJlVyKtLnVCYLwdw0dw3T7M,1518
+minishell/logger.py,sha256=cz6LTMpy540i6p0-fzvkMyMJiYAlycIzsJqrLKQj9v4,1995
+minishell/manual_test_run.py,sha256=IGA-TXN4VYgBxH0_yBA5Ou3E6zuWH0KJ_lpaIcc5CtU,1308
+minishell-1.0.0.dist-info/METADATA,sha256=qi6M0B_ND6BttypfE0IVYUvZ-R2SNKsVr0TGnd1DltQ,623
+minishell-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+minishell-1.0.0.dist-info/entry_points.txt,sha256=ibUkO72CPh4XzMMgEQKW2EXF0s9DoZOcZKt-eG1lKBQ,66
+minishell-1.0.0.dist-info/RECORD,,
