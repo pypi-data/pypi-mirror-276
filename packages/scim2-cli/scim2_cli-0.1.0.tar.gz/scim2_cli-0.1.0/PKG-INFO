@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: scim2-cli
+Version: 0.1.0
+Summary: SCIM application development CLI
+License: MIT
+Keywords: scim,scim2,provisioning
+Author: Yaal Coop
+Author-email: contact@yaal.coop
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Requires-Dist: sphinx-click-rst-to-ansi-formatter (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# scim2-cli
+
+A scim utility command line.
+
