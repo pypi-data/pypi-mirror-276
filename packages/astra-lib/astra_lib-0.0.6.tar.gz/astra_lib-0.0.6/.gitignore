@@ -1,0 +1,20 @@
+__pycache__/
+*.vscode
+*.ipynb_checkpoints
+*.pyc
+*.egg-info/
+astra/_version.py
+
+/.quarto/
+
+# data directories
+data/
+
+# lab directory for experiments
+lab/
+
+# distribution directories
+dist/
+
+# ignore coverage files
+.coverage
