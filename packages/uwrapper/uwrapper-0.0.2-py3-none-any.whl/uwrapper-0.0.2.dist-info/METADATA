@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: uwrapper
+Version: 0.0.2
+Summary: Python library for upstox APIs
+Home-page: https://github.com/azachbot/upstox_api_wrapper
+Author: Zachbot
+Author-email: zachbot006@gmail.com
+Keywords: upstox,nse,python,sdk,trading,stock markets,wrapper
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: upstox-python-sdk
+
+upstox api wrapper
