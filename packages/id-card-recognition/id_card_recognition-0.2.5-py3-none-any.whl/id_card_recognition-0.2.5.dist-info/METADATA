@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: id_card_recognition
+Version: 0.2.5
+Summary: A package for ID card recognition using OpenAI
+Home-page: https://github.com/freedak-wang/id_card_recognition
+Author: freedak Wang
+Author-email: freedak@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: natsort
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+
+1、创建 .env 文件，并添加以下内容：
+API_KEY= 你的moonshot AI 秘钥
+IMAGE_DIRECTORY= 需要识别的身份证照片存放路径，默认为 ./images
+RESULT_FILE_NAME= 识别结果文件名称，默认为 result.txt
+CHOSEN_MODEL_NAME= 选择的模型名称，默认为 "moonshot-v1-8k"
+
+2、添加引用
+from id_card_recognition.recognition import do_recognition
+
+3、调用识别方法
+调用do_recognition()，返回识别结果。识别结果将保存在 RESULT_FILE_NAME 指定的文件中。
