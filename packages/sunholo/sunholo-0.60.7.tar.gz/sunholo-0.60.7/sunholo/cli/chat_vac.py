@@ -1,0 +1,301 @@
+from ..agents import send_to_qa
+from ..streaming import generate_proxy_stream
+from ..utils.user_ids import generate_user_id
+from ..utils.config import load_config_key
+
+from .run_proxy import clean_proxy_list, start_proxy, stop_proxy
+
+import uuid
+import sys
+import subprocess
+import json
+
+from rich import print
+from .sun_rich import console
+
+from rich.prompt import Prompt
+from rich.panel import Panel
+from rich.text import Text
+from rich.table import Table
+
+
+def get_service_url(vac_name, project, region):
+    agent_name = load_config_key("agent", vac_name, kind="vacConfig")
+    proxies = clean_proxy_list()
+    if agent_name in proxies:
+        port = proxies[agent_name]['port']
+        url = f"http://127.0.0.1:{port}"
+    else:
+        print(f"No proxy found running for service: {agent_name} required for {vac_name} - attempting to connect")
+        url = start_proxy(agent_name, region, project)
+
+    return url
+
+def stream_chat_session(service_url, service_name):
+
+    user_id = generate_user_id()
+    chat_history = []
+    while True:
+        session_id = str(uuid.uuid4())
+        user_input = Prompt.ask("[bold cyan]You[/bold cyan]")
+        if user_input.lower() in ["exit", "quit"]:
+            console.print("[bold red]Exiting chat session.[/bold red]")
+            break
+
+        def stream_response():
+            generate = generate_proxy_stream(
+                send_to_qa,
+                user_input,
+                vector_name=service_name,
+                chat_history=chat_history,
+                generate_f_output=lambda x: x,  # Replace with actual processing function
+                stream_wait_time=0.5,
+                stream_timeout=120,
+                message_author=user_id,
+                #TODO: populate these
+                image_url=None,
+                source_filters=None,
+                search_kwargs=None,
+                private_docs=None,
+                whole_document=False,
+                source_filters_and_or=False,
+                # system kwargs
+                configurable={
+                    "vector_name": service_name,
+                },
+                user_id=user_id,
+                session_id=session_id, 
+                message_source="cli",
+                override_endpoint=service_url
+            )
+            for part in generate():
+                yield part
+
+        response_started = False
+        vac_response = ""
+
+        # point or star?
+        with console.status("[bold orange]Thinking...[/bold orange]", spinner="star") as status:
+            for token in stream_response():
+                if not response_started:
+                    status.stop()
+                    console.print(f"[bold yellow]{service_name}:[/bold yellow] ", end='')
+                    response_started = True
+
+                if isinstance(token, bytes):
+                    token = token.decode('utf-8')
+                console.print(token, end='')
+                vac_response += token
+
+        chat_history.append({"name": "Human", "content": user_input})
+        chat_history.append({"name": "AI", "content": vac_response})
+        response_started = False
+        console.print()
+        console.rule()
+
+def headless_mode(service_url, service_name, user_input, chat_history=None):
+    chat_history = chat_history or []
+
+    user_id = generate_user_id()
+    session_id = str(uuid.uuid4())
+
+    def stream_response():
+        generate = generate_proxy_stream(
+                send_to_qa,
+                user_input,
+                vector_name=service_name,
+                chat_history=chat_history,
+                generate_f_output=lambda x: x,  # Replace with actual processing function
+                stream_wait_time=0.5,
+                stream_timeout=120,
+                message_author=user_id,
+                #TODO: populate these
+                image_url=None,
+                source_filters=None,
+                search_kwargs=None,
+                private_docs=None,
+                whole_document=False,
+                source_filters_and_or=False,
+                # system kwargs
+                configurable={
+                    "vector_name": service_name,
+                },
+                user_id=user_id,
+                session_id=session_id, 
+                message_source="cli",
+                override_endpoint=service_url
+        )
+        for part in generate():
+            yield part
+
+    vac_response = ""
+
+    for token in stream_response():
+        if isinstance(token, bytes):
+            token = token.decode('utf-8')
+        print(token, end='', flush=True)
+        vac_response += token
+
+    if vac_response:
+        chat_history.append({"name": "Human", "content": user_input})
+        chat_history.append({"name": "AI", "content": vac_response})
+    print()  # For new line after streaming ends
+
+    return chat_history
+
+
+def vac_command(args):
+    if args.action == 'list':
+        list_cloud_run_services(args.project, args.region)
+        return
+    elif args.action == 'get-url':
+        service_url = get_cloud_run_service_url(args.project, args.region, args.vac_name)
+        if service_url:
+            console.print(service_url)
+            return
+    elif args.action == 'chat':
+
+        if not args.no_proxy:
+            try:
+                service_url = get_service_url(args.vac_name, args.project, args.region)
+            except ValueError as e:
+                console.print(f"[bold red]ERROR: Could not start {args.vac_name} proxy URL: {str(e)}[/bold red]")
+                sys.exit(1)
+        else:
+            service_url = get_cloud_run_service_url(args.project, args.region, args.vac_name)
+            console.print(f"Not using a proxy, connecting directly to {service_url}")
+    
+        agent_name   = load_config_key("agent", args.vac_name, kind="vacConfig")
+
+        if args.headless:
+            headless_mode(service_url, args.vac_name, args.user_input, args.chat_history)
+        else:
+            display_name = load_config_key("display_name", vector_name=args.vac_name,  kind="vacConfig")
+            description  = load_config_key("description", vector_name=args.vac_name, kind="vacConfig")
+
+            if agent_name == "langserve":
+                subtitle = f"{service_url}/{args.vac_name}/playground/"
+            else:
+                subtitle = f"{agent_name} - {service_url}/vac/{args.vac_name}"
+
+            print(
+                Panel(description or "Starting VAC chat session", 
+                    title=display_name or args.vac_name,
+                    subtitle=subtitle)
+                    )
+
+            stream_chat_session(service_url, args.vac_name)
+        
+        stop_proxy(agent_name)
+
+
+def list_cloud_run_services(project, region):
+    """
+    Lists all Cloud Run services the user has access to in a specific project and region.
+
+    Args:
+        project (str): The GCP project ID.
+        region (str): The region of the Cloud Run services.
+    """
+
+        # point or star?
+    with console.status("[bold orange]Listing Cloud Run Services[/bold orange]", spinner="star") as status:
+        try:
+            result = subprocess.run(
+                ["gcloud", "run", "services", "list", "--project", project, "--region", region, "--format=json"],
+                stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=30
+            )
+            if result.returncode != 0:
+                status.stop()
+                console.print(f"[bold red]ERROR: Unable to list Cloud Run services: {result.stderr.decode()}[/bold red]")
+                return
+
+            services = json.loads(result.stdout.decode())
+            if not services:
+                status.stop()
+                console.print("[bold red]No Cloud Run services found.[/bold red]")
+                return
+
+            proxies = clean_proxy_list()
+            status.stop()
+
+            table = Table(title="VAC Cloud Run Services")
+            table.add_column("Service Name")
+            table.add_column("Region")
+            table.add_column("URL")
+            table.add_column("Proxied")
+            table.add_column("Port")
+            
+            for service in services:
+                service_name = service['metadata']['name']
+                service_url = service['status']['url']
+                if service_name in proxies:
+                    proxied = "Yes"
+                    proxy_port = proxies[service_name]['port']
+                else:
+                    proxied = "No"
+                    proxy_port = "-"
+                table.add_row(service_name, region, service_url, proxied, str(proxy_port))
+
+            console.print(table)
+        except Exception as e:
+            status.stop()
+            console.print(f"[bold red]ERROR: An unexpected error occurred: {e}[/bold red]")
+
+
+def get_cloud_run_service_url(project, region, service_name):
+    """
+    Retrieves the URL of a specific Cloud Run service in a given project and region.
+
+    Args:
+        project (str): The GCP project ID.
+        region (str): The region of the Cloud Run service.
+        service_name (str): The name of the Cloud Run service.
+
+    Returns:
+        str: The URL of the Cloud Run service, or an error message if not found.
+    """
+    try:
+        result = subprocess.run(
+            ["gcloud", "run", "services", "describe", service_name, "--project", project, "--region", region, "--format=json"],
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=30
+        )
+        if result.returncode != 0:
+            console.print(f"[bold red]ERROR: Unable to get Cloud Run service URL: {result.stderr.decode()}[/bold red]")
+            return None
+
+        service = json.loads(result.stdout.decode())
+        service_url = service['status']['url']
+        return service_url
+    except Exception as e:
+        console.print(f"[bold red]ERROR: An unexpected error occurred: {e}[/bold red]")
+        return None
+
+    
+
+def setup_vac_subparser(subparsers):
+    """
+    Sets up an argparse subparser for the 'vac' command.
+
+    Args:
+        subparsers: The subparsers object from argparse.ArgumentParser().
+    """
+    vac_parser = subparsers.add_parser('vac', help='Interact with deployed VAC services.')
+    vac_subparsers = vac_parser.add_subparsers(dest='action', help='VAC subcommands')
+
+    # Subcommand for listing VAC services
+    list_parser = vac_subparsers.add_parser('list', help='List all VAC services.')
+
+    # Subcommand for getting the URL of a specific VAC service
+    get_url_parser = vac_subparsers.add_parser('get-url', help='Get the URL of a specific VAC service.')
+    get_url_parser.add_argument('vac_name', help='Name of the VAC service.')
+
+    # Subcommand for interacting with a VAC service
+    chat_parser = vac_subparsers.add_parser('chat', help='Interact with a VAC service.')
+    chat_parser.add_argument('vac_name', help='Name of the VAC service.')
+    chat_parser.add_argument('user_input', help='User input for the VAC service when in headless mode.', nargs='?', default=None)
+    chat_parser.add_argument('--headless', action='store_true', help='Run in headless mode.')
+    chat_parser.add_argument('--chat_history', help='Chat history for headless mode (as JSON string).', default=None)
+    chat_parser.add_argument('--no_proxy', action='store_true', help='Do not use the proxy and connect directly to the VAC service.')
+
+    vac_parser.set_defaults(func=vac_command)
