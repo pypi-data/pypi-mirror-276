@@ -1,0 +1,8 @@
+README.md
+setup.py
+pygayme/__init__.py
+pygayme.egg-info/PKG-INFO
+pygayme.egg-info/SOURCES.txt
+pygayme.egg-info/dependency_links.txt
+pygayme.egg-info/requires.txt
+pygayme.egg-info/top_level.txt
