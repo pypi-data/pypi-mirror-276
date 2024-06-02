@@ -1,0 +1,7 @@
+README.md
+license
+setup.py
+plegui.egg-info/PKG-INFO
+plegui.egg-info/SOURCES.txt
+plegui.egg-info/dependency_links.txt
+plegui.egg-info/top_level.txt
