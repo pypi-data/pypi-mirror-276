@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "poetry-plugin-dynamic-override-sources"
+version = "0.0.2"
+description = "Poetry plugin to dynamically override sources for private mirroring"
+authors = [
+  "Jacob Henner <code@ventricle.us>",
+  "Hugh Baxter <hughdbaxter@gmail.com>",
+  "Dustin Burke <dustin@datarobot.com>",
+]
+readme = "README.md"
+
+license = "BSD-3-Clause"
+keywords = ["packaging", "poetry", "pypi", "pip"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+poetry = ">=1.6.0,<2"
+
+[tool.poetry.plugins."poetry.plugin"]
+demo = "poetry_plugin_dynamic_override_sources.plugins:DynamicOverrideSourcesPlugin"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+mypy = "^0.982"
+bandit = "^1.7.4"
+isort = "^5.10.1"
+flake8 = "^3.9.2"
+pre-commit = "^2.20.0"
+pytest = "^8.2.1"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+src_paths = ["src/poetry_plugin_dynamic_override_sources", "tests"]
+
+[tool.pylint.messages_control]
+disable = "C0330, C0326"
+
+[tool.pylint.format]
+max-line-length = "88"
+
+[[tool.mypy.overrides]]
+module = ['cleo.*']
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
