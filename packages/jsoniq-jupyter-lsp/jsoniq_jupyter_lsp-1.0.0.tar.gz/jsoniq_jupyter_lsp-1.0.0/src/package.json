@@ -1,0 +1,24 @@
+{
+  "name": "jsoniq-jupyterlab-lsp",
+  "version": "1.0.0",
+  "description": "Jupyter Notebook package to expose jsoniq's language server to the JupyterLabLSP",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBuzatu-Marian/JSONiq-JupyterLabLSP.git"
+  },
+  "keywords": [
+    "jsoniq"
+  ],
+  "author": "JSONiq Development Team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DavidBuzatu-Marian/JSONiq-JupyterLabLSP/issues"
+  },
+  "homepage": "https://github.com/DavidBuzatu-Marian/JSONiq-JupyterLabLSP#readme",
+  "dependencies": {
+    "jsoniq-language-server": "^1.1.1"
+  }
+}

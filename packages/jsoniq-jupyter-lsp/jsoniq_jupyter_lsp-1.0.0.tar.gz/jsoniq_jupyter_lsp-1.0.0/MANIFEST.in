@@ -1,0 +1,4 @@
+include src/package.json
+include src/package-lock.json
+recursive-include src/node_modules **
+include LICENSE

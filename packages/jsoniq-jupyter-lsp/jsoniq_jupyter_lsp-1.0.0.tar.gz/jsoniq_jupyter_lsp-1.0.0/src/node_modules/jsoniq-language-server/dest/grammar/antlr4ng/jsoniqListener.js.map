@@ -1,0 +1,1 @@
+{"version":3,"file":"jsoniqListener.js","sourceRoot":"","sources":["../../../src/grammar/antlr4ng/jsoniqListener.ts"],"names":[],"mappings":"AAAA,kEAAkE;AAsIlE;;;GAGG;AACH,MAAM,OAAO,cAAc;IAwvCvB,aAAa,CAAC,IAAkB,IAAS,CAAC;IAC1C,cAAc,CAAC,IAAe,IAAS,CAAC;IACxC,cAAc,CAAC,IAAuB,IAAS,CAAC;IAChD,aAAa,CAAC,IAAuB,IAAS,CAAC;CAClD"}
