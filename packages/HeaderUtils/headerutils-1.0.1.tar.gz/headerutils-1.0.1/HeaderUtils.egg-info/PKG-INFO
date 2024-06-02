@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: HeaderUtils
+Version: 1.0.1
+Summary: The best library for designs, with a wide variety of colors and useful utils for your tools.
+Home-page: https://github.com/gyewtools/discord-token-gen
+Author: H4cK3dR4Du
+Author-email: <stepjestrudy@gmail.com>
+Keywords: python,utils,color,colors,tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.6
+License-File: LICENSE
+Requires-Dist: pyautogui
+Requires-Dist: tls_client
+Requires-Dist: fake_useragent
+Requires-Dist: windows-curses; platform_system == "Windows"
+Requires-Dist: pyfiglet
