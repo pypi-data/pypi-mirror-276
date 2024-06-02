@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+playwright_html_renderer/__init__.py
+playwright_html_renderer/__main__.py
+playwright_html_renderer/cli.py
+playwright_html_renderer.egg-info/PKG-INFO
+playwright_html_renderer.egg-info/SOURCES.txt
+playwright_html_renderer.egg-info/dependency_links.txt
+playwright_html_renderer.egg-info/entry_points.txt
+playwright_html_renderer.egg-info/requires.txt
+playwright_html_renderer.egg-info/top_level.txt
