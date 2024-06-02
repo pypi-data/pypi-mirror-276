@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sigmacode
+Version: 0.0.7
+Summary: A Python Library for real sigmas!
+Author: codestantin
+License: MIT
+Project-URL: GitHub, https://github.com/codestantindev/sigmacode
+Keywords: swag,swaggy,nobitches,sigma,skibidi
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: pystyle
+
+# sigmacode
+
+**A Python Library for real sigmas!**
+
+```
+pip install sigmacode
+```
