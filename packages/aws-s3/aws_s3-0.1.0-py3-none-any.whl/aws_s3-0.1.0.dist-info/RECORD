@@ -1,0 +1,8 @@
+aws_s3/__about__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+aws_s3/__init__.py,sha256=FdLFGjnnIB9Na_rhZK-PCeAG8ScnR0qioZJKuyI454g,191
+aws_s3/list_objects_async.py,sha256=ovpU8YaFLOPQXLVcnqmEI73vmfce23xYMGOhNjxtmHc,2313
+aws_s3/main.py,sha256=6GiP-0B8F1wsjZ-cxRaLnk4K8TNazm_780qX4Kxe-e4,1040
+aws_s3-0.1.0.dist-info/METADATA,sha256=0sPprUD_lHBPnw-o1eE4x0jIhNZk1GneeHK5928rOAM,3142
+aws_s3-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+aws_s3-0.1.0.dist-info/licenses/LICENSE.txt,sha256=KPQFVkRWADgA25TBaJgyNklZzYxmn1lov_NiCeHFSyI,1092
+aws_s3-0.1.0.dist-info/RECORD,,
