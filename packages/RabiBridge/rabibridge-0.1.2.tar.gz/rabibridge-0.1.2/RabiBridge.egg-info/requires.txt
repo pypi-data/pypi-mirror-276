@@ -1,0 +1,11 @@
+uvicorn
+fastapi
+zstandard
+aio_pika
+psutil
+loguru
+uvloop
+pipeit
+toml
+cryptography
+msgpack
