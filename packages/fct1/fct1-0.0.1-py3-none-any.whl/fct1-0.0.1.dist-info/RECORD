@@ -1,0 +1,13 @@
+fct/anoni.py,sha256=xd-mqm9th90n3o8gwmjhx94dRP02TZNiSt9yPXehaLA,1892
+fct/csv2bib.py,sha256=IW1x6JecYydlVwoqWRC2ozfWLiuHv7Rrsz7rhvF-2vk,2603
+fct/eml2csv.py,sha256=TmlN5j4V1wmXl-Oz-qO4W8ekXNhGBp4f5EiGjW6rdn4,1992
+fct/eml2tex.py,sha256=tv8sfsgqs4Uf6koZC-t9FSPnM_qGV97XExuxYYaV28A,2198
+fct/pdf2tex.py,sha256=23tYyfLDAvivZ4MtuHwp79EymcXGiiwiORakLlz8pLc,861
+fct/pdftxt2tex.py,sha256=ArUCZ4DSqUi4gfjjJAh3-5RKelzafEBn5XY3hBQX78A,739
+fct/quotesearch.py,sha256=hWqhmnezc1rIHOAYDMvYt3sMs7zbxQc1rz9aUD6RpCc,3039
+fct/timeline_plotter.py,sha256=Vrn3LXsLcuUq4kH5yNRN7WWXh_P2dZ3HzDSgeBz8sNA,3285
+fct1-0.0.1.dist-info/LICENSE,sha256=wGXQwFmliGmMClZHeQBSMzknOFU6WW4eIPe77B2b1Eg,1066
+fct1-0.0.1.dist-info/METADATA,sha256=x1cA4yRiKgWBF3maYZhC9unyDDjs_nL_HOOxbwFp5DU,3920
+fct1-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fct1-0.0.1.dist-info/entry_points.txt,sha256=YMIlsuElIciunVr8DzrCcHDic1mTy8Vx-aqcgFjKJSM,138
+fct1-0.0.1.dist-info/RECORD,,

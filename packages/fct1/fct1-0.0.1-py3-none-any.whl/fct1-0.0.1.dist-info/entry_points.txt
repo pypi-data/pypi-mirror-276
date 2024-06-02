@@ -1,0 +1,6 @@
+[console_scripts]
+fct_anon=fct.anoni:main
+fct_csvbib=fct.csv2bib:main
+fct_qs=fct.quotesearch:main
+fct_timeline=fct.timeline_plotter:main
+
