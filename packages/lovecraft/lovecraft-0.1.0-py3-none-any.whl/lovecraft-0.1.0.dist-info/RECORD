@@ -1,0 +1,11 @@
+LICENSE,sha256=k1zvgBd-UnED92s9No6HE8yi86huk2hT15msvH57qFE,1063
+lovecraft/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lovecraft/caches/disk_cache.py,sha256=JhxqspjkPbo64MB260tLXCj5TI22GHgjUb_a96WW-jU,2829
+lovecraft/cli.py,sha256=mNRty7syqWgtQ0_5eSP5P9S-ipapKvX74KNLgwo-B0A,2792
+lovecraft/input/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lovecraft/input/letters.py,sha256=zdMRR9sM1QrDhs4uPMbathZlFyqGeyzsNtC1Ljq8auA,4736
+lovecraft/input/stories.py,sha256=U0CQZpkG_Z_vJ5TlE3z3anuyxczbwimaxZwuga7m8G0,1373
+lovecraft-0.1.0.dist-info/LICENSE,sha256=k1zvgBd-UnED92s9No6HE8yi86huk2hT15msvH57qFE,1063
+lovecraft-0.1.0.dist-info/METADATA,sha256=xiooUDYv2lCNewMIvQ2-dhEY_6_Ykg3tlD0567jLVN4,3054
+lovecraft-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+lovecraft-0.1.0.dist-info/RECORD,,
