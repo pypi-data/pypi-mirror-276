@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+WaveWhisper.egg-info/PKG-INFO
+WaveWhisper.egg-info/SOURCES.txt
+WaveWhisper.egg-info/dependency_links.txt
+WaveWhisper.egg-info/top_level.txt
+wavewhisper/__init__.py
+wavewhisper/audio.py
+wavewhisper/character.py
+wavewhisper/message.py
