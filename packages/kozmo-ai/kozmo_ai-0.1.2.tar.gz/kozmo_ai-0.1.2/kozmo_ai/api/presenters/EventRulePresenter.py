@@ -1,0 +1,7 @@
+from kozmo_ai.api.presenters.BasePresenter import BasePresenter
+
+
+class EventRulePresenter(BasePresenter):
+    default_attributes = [
+        'rules',
+    ]

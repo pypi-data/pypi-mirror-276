@@ -1,0 +1,2 @@
+class KozmoBaseException(Exception):
+    pass
