@@ -1,0 +1,9 @@
+msgpackr/__init__.py,sha256=OBidYTD_PNc6ZgySorA9QKVQWTeW98Cn3_0mN2td824,147
+msgpackr/constants.py,sha256=G5PqU6JZ0uHZodxhU1p188zWorhfRD2uhTgAaRRDPaI,1376
+msgpackr/extension.py,sha256=pHTYdC9n3K1Y5V_-2nyGLlXlna7e6RiOjksqpBGp924,10046
+msgpackr/pack.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgpackr/unpack.py,sha256=GZgW7h2-D42RQM5nf-F7IiSZLVifHdlyD1wVH44-sbQ,17634
+msgpackr_python-0.1.1.dist-info/LICENSE,sha256=BjvbVPn7P3qChFbSTSdhmdYKmpQAJNISMxMBg-hWyaU,1063
+msgpackr_python-0.1.1.dist-info/METADATA,sha256=PY7of18Z3eoXkL4I42_ebq-y6y34FjvhlO7vNqvPHSA,1106
+msgpackr_python-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+msgpackr_python-0.1.1.dist-info/RECORD,,
