@@ -1,0 +1,3 @@
+[console_scripts]
+chart_me=chart_me.__main__:main
+
