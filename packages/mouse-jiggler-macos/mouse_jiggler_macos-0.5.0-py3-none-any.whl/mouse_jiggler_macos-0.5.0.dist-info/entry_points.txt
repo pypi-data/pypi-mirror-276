@@ -1,0 +1,2 @@
+[console_scripts]
+jiggler = mouse_jiggler.jiggler:executable
