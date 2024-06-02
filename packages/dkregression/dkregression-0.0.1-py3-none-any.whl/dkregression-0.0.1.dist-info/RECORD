@@ -1,0 +1,15 @@
+dkregression/__init__.py,sha256=-KDb8p5GChd_0d2pmc6C0Z2RyBcdy1mRYbJdfdeP8bQ,107
+dkregression/dkr.py,sha256=tLsBVy9fMLsWdKpxMfVDtsfiP9Y1ENeovCbAldO77rw,1765
+dkregression/cross_validation/__init__.py,sha256=kRs0ci5-pWv5Hdlp4gkQsmbybGKy3WddgtodErQGM-M,76
+dkregression/cross_validation/cross_validation.py,sha256=yTQ_F7InhWa9tz-XxBlVBrfFLDomDemvZbocMJgtluI,3040
+dkregression/kernels/__init__.py,sha256=-__CZKs_3qI_1FrZ_iAFbtRHvkgDhGVZaF6KtjTBWbc,39
+dkregression/kernels/rbf.py,sha256=vVhTvqQEeY_vt6skQbOb3_ROpb-yBrRgcPDIWk5NgbE,7866
+dkregression/likelihoods/__init__.py,sha256=z7kIfaPdSdfL0o-6cDXp8euelF1FDT1zbV9S6cy2z74,428
+dkregression/likelihoods/bernoulli.py,sha256=e01Fq0_deJCsqncUAucsW1Quzp4Sqh-_S3L3gsPybJ4,2031
+dkregression/likelihoods/misc.py,sha256=idcwqtdR1JSkJPiPx9P9d2MphzvYUVa9O3PvL3sWbTg,606
+dkregression/likelihoods/multivariate_gaussian.py,sha256=o3fiN3WOh8otNDhvbEKYo2JfBh0-2Rxuypaq_roHbZo,3367
+dkregression/likelihoods/poisson.py,sha256=LQPIclnLMeoAeUUWqnuk7fg2OFaNbY5m8ovdZgeN1pE,2048
+dkregression/likelihoods/univariate_gaussian.py,sha256=Z5bAQpblmxRUDp1FQwPQ8z3FScwFUPYhskE-wAo2RY4,4294
+dkregression-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+dkregression-0.0.1.dist-info/METADATA,sha256=QnNPm_Ak67haMBvYNShlaWp8utd5anSJWVyO8d9NhrA,1021
+dkregression-0.0.1.dist-info/RECORD,,
