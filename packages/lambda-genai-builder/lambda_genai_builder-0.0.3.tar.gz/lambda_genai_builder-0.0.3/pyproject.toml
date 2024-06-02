@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lambda_genai_builder"
+version = "0.0.3"
+authors = [
+  { name="Biprajeet Kar", email="biprokvs@gmail.com" },
+]
+maintainers = [
+  {name="Biprajeet Kar", email="biprokvs@gmail.com"}
+]
+description = "A tool to generate AWS Lambda code structures for generative AI frameworks"
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = {file = "LICENSE.txt"}
+dependencies = [
+  "click"
+]
+
+[project.scripts]
+lambda-genai-proj-build = "lambda_genai_builder.cli:create_gen_ai_project_structure"
