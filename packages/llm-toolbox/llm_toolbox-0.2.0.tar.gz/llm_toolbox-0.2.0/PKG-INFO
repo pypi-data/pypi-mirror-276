@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: llm-toolbox
+Version: 0.2.0
+Summary: llm-toolbox is now LMtoolbox
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: LMtoolbox
+
+# llm-toolbox is now LMtoolbox
+
+This package has been renamed. Use `pip install LMtoolbox` instead.
+
+New package: https://pypi.org/project/LMtoolbox/
