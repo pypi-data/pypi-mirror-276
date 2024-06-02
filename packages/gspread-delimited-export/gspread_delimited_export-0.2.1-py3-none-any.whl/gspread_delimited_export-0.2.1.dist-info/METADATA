@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gspread-delimited-export
+Version: 0.2.1
+Summary: This package provides a script to export sheet from a Google Spreadsheet to a delimited file
+License: MIT
+Author: Scott Burns
+Author-email: scott@lentigo.net
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: gspread (>=6.1.2,<7.0.0)
+Requires-Dist: gspread-dataframe (>=3.3.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# gspread-delimited-export
+
+This package provides a script that will export the contents a
+tab/sheet in a Google Spreadsheet to a delimited (tab or comma)
+file.
+
+Run:
+
+```console
+gspread-delimited-export --help
+```
+
+at a shell prompt for usage.
+
