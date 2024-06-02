@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "VRE-Repository-Connector"
+version = "0.3.0"
+description = "Library for connecting the virtual research environment of TU Wien with its research data repositories"
+authors = ["Maximilian Moser <maximilian.moser@tuwien.ac.at>", "Sotirios Tsepelakis <sotirios.tsepelakis@tuwien.ac.at>", "Martin Weise <martin.weise@tuwien.ac.at>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.tuwien.ac.at/fairdata/vre-repository-connector"
+
+[tool.poetry.scripts]
+vrc = "vre_repository_connector.cli:connector"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+inveniordm-py = "^0.1.0"
+pandas = "^2"
+dbrepo = "^1.4.4rc1"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.24.0"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
