@@ -1,0 +1,2 @@
+[console_scripts]
+ajvpy2 = ajvpy2.__main__:main
