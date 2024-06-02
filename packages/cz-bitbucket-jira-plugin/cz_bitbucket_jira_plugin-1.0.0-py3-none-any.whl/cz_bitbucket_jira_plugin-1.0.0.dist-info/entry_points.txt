@@ -1,0 +1,2 @@
+[commitizen.plugin]
+cz-bitbucket-jira-plugin = cz_bitbucket_jira_plugin.main:CzBitbucketJiraPlugin
