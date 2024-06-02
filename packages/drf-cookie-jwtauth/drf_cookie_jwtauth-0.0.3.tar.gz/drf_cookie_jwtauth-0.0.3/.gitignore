@@ -1,0 +1,9 @@
+# MacOS
+.DS_Store
+
+# Jetbrains
+**/.idea
+
+# Python
+**/__pycache__/
+**/.pytest_cache/
