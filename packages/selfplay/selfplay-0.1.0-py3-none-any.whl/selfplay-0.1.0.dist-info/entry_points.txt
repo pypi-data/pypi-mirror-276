@@ -1,0 +1,2 @@
+[console_scripts]
+selfplay = selfplay.app:main
