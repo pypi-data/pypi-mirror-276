@@ -1,0 +1,7 @@
+numpy
+pandas
+pycountry
+pyreadstat
+openai==0.28.1
+dateparser
+pyvis
