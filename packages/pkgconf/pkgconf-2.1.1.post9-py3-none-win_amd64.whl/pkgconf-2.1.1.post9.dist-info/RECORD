@@ -1,0 +1,9 @@
+pkgconf-2.1.1.post9.dist-info/METADATA,sha256=kqLPasTEYU-47A3dypwIxljZZ8VpkrkMQ_d4wxkHGRc,4394
+pkgconf-2.1.1.post9.dist-info/WHEEL,sha256=B3B4KN1DoTlWtNhRRRGkD-knxtCiXk730NQ8ihkn3eI,85
+pkgconf-2.1.1.post9.dist-info/entry_points.txt,sha256=rqbdxRekoww-gAluYeeJvZ_y1v2Lz4Vn5txhiwhXsUM,100
+pkgconf-2.1.1.post9.dist-info/LICENSE,sha256=ZkgDE-MK5aHoknemDQt1la7dQ91Mw6i5YRVW120ARTg,1102
+pkgconf/.bin/pkgconf.exe,sha256=pAxFDI85N6ugfU6QWyeG-mfPkGrNnBIDGb5bIY-LpYM,88064
+pkgconf/__init__.py,sha256=HbgXuqPypXEjTa3x0ntHK7ha7jExZsnyB0TjxC2sYXI,3274
+pkgconf/__main__.py,sha256=gN7F1WhMN1h34M1SUrt9S9cwkSOwp8NVI3_9RBv0YvM,2450
+pkgconf/diagnose.py,sha256=IpzdWxboNS2Nr0VpeyH0nVrNyXt3xRB5-Mg6XC_aWxI,633
+pkgconf-2.1.1.post9.dist-info/RECORD,,
