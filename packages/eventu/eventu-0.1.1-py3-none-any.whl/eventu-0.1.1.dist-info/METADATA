@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: eventu
+Version: 0.1.1
+Summary: Transactional outbox and idempotent consumer
+Author: Yuriy Kehter
+Author-email: yuriy.kehter@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiokafka (>=0.10.0,<0.11.0)
+Requires-Dist: motor (>=3.4.0,<4.0.0)
+Requires-Dist: pydantic (>=2.7.2,<3.0.0)
