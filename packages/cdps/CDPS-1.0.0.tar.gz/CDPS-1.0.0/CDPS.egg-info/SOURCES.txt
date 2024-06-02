@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+CDPS.egg-info/PKG-INFO
+CDPS.egg-info/SOURCES.txt
+CDPS.egg-info/dependency_links.txt
+CDPS.egg-info/top_level.txt
