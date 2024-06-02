@@ -1,0 +1,7 @@
+setup.py
+UnionCalLib.egg-info/PKG-INFO
+UnionCalLib.egg-info/SOURCES.txt
+UnionCalLib.egg-info/dependency_links.txt
+UnionCalLib.egg-info/entry_points.txt
+UnionCalLib.egg-info/top_level.txt
+tests/test.py
