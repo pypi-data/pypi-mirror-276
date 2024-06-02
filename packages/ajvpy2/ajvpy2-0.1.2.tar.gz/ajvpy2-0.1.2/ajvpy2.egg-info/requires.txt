@@ -1,0 +1,6 @@
+mini-racer>=0.12.3
+pytest>=6.0.0
+
+[dev]
+flake8
+black
