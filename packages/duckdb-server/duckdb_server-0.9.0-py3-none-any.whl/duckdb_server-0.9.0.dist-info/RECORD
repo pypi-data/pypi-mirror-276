@@ -1,0 +1,12 @@
+pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg/__main__.py,sha256=NGbKvj4pFB5w_yCfFbDJZz7kHQnPlCe0jR4AaywIjXM,508
+pkg/bundle.py,sha256=yVnix0amB908ctMWqkBpnrfnmbQJLSsuYpV4AB2uPM8,2672
+pkg/query.py,sha256=KV5ljOn276PBXSEZ1zJwAAGu_AAb7Bvx1m1S8EW-SoM,962
+pkg/server.py,sha256=BedzljnCvH3H13k-V3vC6bjQe0P7MUTPcGbZcHDNJpk,4990
+pkg/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg/tests/test_bundle.py,sha256=b9W0BHiVrjB1NZu_ZIjDgyDkz2SvUhL3wyLWnu5f_KM,611
+pkg/tests/test_query.py,sha256=FIafdS5zA6dY2eoeK_-MWqJVBGLB6uhfMa1mxYjNnkQ,605
+duckdb_server-0.9.0.dist-info/METADATA,sha256=eTEFlV7YpOGQSSE3ZXPQfSTv_RofUjlwCOFAbHgzA24,2723
+duckdb_server-0.9.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+duckdb_server-0.9.0.dist-info/entry_points.txt,sha256=6YelsV4CN8Mcc8vZAhaZsnzPK_mhujHg5el8PUPFeqI,53
+duckdb_server-0.9.0.dist-info/RECORD,,
