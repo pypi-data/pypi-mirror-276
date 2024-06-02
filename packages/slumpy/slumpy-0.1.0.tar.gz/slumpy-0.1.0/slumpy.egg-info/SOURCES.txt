@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+slumpy.egg-info/PKG-INFO
+slumpy.egg-info/SOURCES.txt
+slumpy.egg-info/dependency_links.txt
+slumpy.egg-info/top_level.txt
+src/__init__.py
+src/boolum_type.py
+src/dictum_type.py
+src/intum_type.py
+src/listum_type.py
+src/realum_type.py
+src/strum_type.py
