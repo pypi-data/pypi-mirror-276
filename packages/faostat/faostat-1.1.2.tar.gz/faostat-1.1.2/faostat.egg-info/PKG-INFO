@@ -1,0 +1,395 @@
+Metadata-Version: 2.1
+Name: faostat
+Version: 1.1.2
+Summary: Faostat Python Package
+Author: Noemi Emanuela Cazzaniga
+Author-email: noemi.cazzaniga@polimi.it
+License: MIT
+Project-URL: Source, https://bitbucket.org/noemicazzaniga/faostat/src/master/
+Keywords: faostat statistics data economics science
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: requests
+
+# Faostat Python Package 
+
+Tools to read data from Faostat API.
+
+
+# Features
+
+* Read Faostat data and metadata as list of tuples or as pandas dataframe.
+* MIT license.
+
+Warning: Versions 1.x.x still have the functions get_areas, get_years, get_items and get_elements, for backward compatibility, but they are deprecated and will be removed from version 2.x.x.
+Also the input parameter https is deprecated and will be removed from version 2.x.x. Please use the new utility *set_requests_args* instead. 
+
+
+# Documentation
+
+
+## Getting started:
+
+Requires Python 3.6+
+
+```bash
+pip install faostat
+```
+
+It is available also from [Anaconda.org][conda].
+
+
+## Read the list of available datasets:
+
+### As a list of tuples:
+
+```python
+faostat.list_datasets()
+```
+
+Read the available datasets and return a list of tuples.
+The first element of the list contains the header line.
+More information on the available datasets can be found in the official [Faostat website][faoweb].
+
+Example:
+```python
+>>> ld = faostat.list_datasets()
+>>> ld[0]
+('code', 'label', 'date_update', 'note_update', 'release_current', 'state_current', 'year_current', 'release_next', 'state_next', 'year_next')
+>>> ld[1:4]
+[('QCL', 'Crops and livestock products', '2022-02-17', 'minor revision', '2021-12-21 / 2022-02-17', 'final', '2020', '2022-12', 'final', '2020'),
+ ('QI', 'Production Indices', '2021-03-18', '', '2021-03-18', 'final', '2019', '2022-04', 'final', '2020'),
+ ('QV', 'Value of Agricultural Production', '2021-03-18', 'minor revision', '2021-03-18', 'final', '2020', '2022-04', 'final', '2019')]
+```
+
+### As a pandas dataframe:
+
+```python
+faostat.list_datasets_df()
+```
+
+It reads the available datasets and returns a pandas dataframe.
+The first element of the list contains the header line.
+
+More information on the available datasets can be found in the official [Faostat website][faoweb].
+
+#### Example:
+```python
+>>> df = faostat.list_datasets_df()
+>>> df
+   code                              label  ... state_next year_next
+0   QCL       Crops and livestock products  ...      final      2020
+1    QI                 Production Indices  ...      final      2020
+2    QV   Value of Agricultural Production  ...      final      2019
+3    FS  Suite of Food Security Indicators  ...      final      2021
+4   SCL        Supply Utilization Accounts  ...      final      2020
+..  ...                                ...  ...        ...       ...
+70   FA           Food Aid Shipments (WFP)  ...                     
+71   RM                          Machinery  ...                     
+72   RY                  Machinery Archive  ...                     
+73   RA                Fertilizers archive  ...                     
+74   PA       Producer Prices (old series)  ...                     
+```
+
+
+## Check parameters for a given dataset:
+Frequently you will need just a subset of a dataset, for instance only one year or country.
+You will therefore use the following functions.
+
+### To retrieve the available parameters for a given dataset:
+
+### As a list of tuples:
+
+```python
+faostat.list_pars(code)
+```
+
+Given the code of a dataset, it reads the parameters and returns them as a list of tuples.
+The first tuple ("row") contains the header, in order: the parameter code, the available coding systems (when applicable) and the subdimensions.
+Subdimension are reported as dictionary where keys are the subdimension codes while the values are the descriptions of the subdimensions (definitions).
+They can be used to find subset of codes with *get_par* or *get_par_df*.
+
+
+#### Example:
+```python
+>>> a = faostat.list_pars('QCL')
+>>> a
+[('parameter code', 'coding_systems', 'subdimensions {code: meaning}'),
+ ('area', ['M49', 'FAO', 'ISO2', 'ISO3'], {'countries': 'Countries', 'regions': 'Regions', 'specialgroups': 'Special Groups'}),
+ ('element', [], {'elements': 'Elements'}),
+ ('item', ['CPC', 'FAO'], {'items': 'Items', 'itemsagg': 'Items Aggregated'}),
+ ('year', [], {'years': 'Years'})]
+```
+
+In the example, you can see that for the parameter 'area' there are
+four possible coding systems (default is 'FAO').
+Moreover, there are subdimensions with code name different from the parameter code.
+
+### As a pandas dataframe:
+
+```python
+faostat.list_pars_df(code)
+```
+
+Given the code of a dataset, it reads the parameters and returns them as a dataframe.
+The columns are, in order: parameter code, cding_system (when applicable) and a dictionary with the subdimesions,
+represented in a dictionary where keys are the subdimension codes while the values are the descriptions of the subdimensions (definitions).
+They can be used to find subset of codes with *get_par* or *get_par_df*.
+
+
+#### Example:
+```python
+>>> a = faostat.list_pars('QCL')
+>>> a
+   parameter code                  coding_systems                                                        subdimensions {code: meaning}
+0            area  ['M49', 'FAO', 'ISO2', 'ISO3']  {'countries': 'Countries', 'regions': 'Regions', 'specialgroups': 'Special Groups'}
+1         element                              []                                                             {'elements': 'Elements'}
+2            item                  ['CPC', 'FAO']                                   {'items': 'Items', 'itemsagg': 'Items Aggregated'}
+3            year                              []                                                                   {'years': 'Years'}
+```
+
+In the example, you can see that for the parameter 'area' there are
+four possible coding systems (default is 'FAO').
+Moreover, there are subdimensions with code name different from the parameter code.
+
+### To retrieve the available values of a parameter for a given dataset:
+
+### As a dictionary:
+
+```python
+faostat.get_par(code, par)
+```
+
+Given the code of a dataset and a parameter (or a subdimension), it reads the values and returns a dataframe.
+
+### As a pandas dataframe:
+
+```python
+faostat.get_par_df(code, par)
+```
+
+Given the code of a dataset and a parameter (or a subdimension), it reads the values and returns a dataframe.
+
+#### Example, retrieve the available areas and their codes as a dictionary:
+```python
+>> import faostat
+>>> y = faostat.get_par('QCL', 'area')
+>>> y
+{'Afghanistan': '2',
+ 'Albania': '3',
+ 'Algeria': '4',
+ 'Angola': '7', 
+ ...}
+``` 
+
+#### Example, retrieve the available special groups of areas, as a dataframe:
+```python
+>> import faostat
+>>> y = faostat.get_par_df('QCL', 'specialgroups')
+y
+                                                label   code aggregate_type
+0                       European Union (27) + (Total)   5707              +
+1                        European Union (27) > (List)  5707>              >
+2                 Least Developed Countries + (Total)   5801              +
+3                  Least Developed Countries > (List)  5801>              >
+..                                                ...    ...            ...
+8         Low Income Food Deficit Countries + (Total)   5815              +
+9          Low Income Food Deficit Countries > (List)  5815>              >
+10  Net Food Importing Developing Countries + (Total)   5817              +
+11   Net Food Importing Developing Countries > (List)  5817>              >
+```
+
+## Read data from a dataset:
+
+### As a list of tuples:
+
+```python
+faostat.get_data(code, pars={}, coding={}, show_flags=False, null_values=False, show_notes=False, strval=True)
+```
+
+Given the code of a Faostat dataset, it returns the data as a list of tuples.
+
+### As a pandas dataframe:
+
+```python
+faostat.get_data_df(code, pars={}, coding={}, show_flags=False, null_values=False, show_notes=False, strval=True)
+```
+
+To download only a subset of the dataset, you need to pass *pars={key: value, ...}*:
+* key: parameter code obtained with *list_pars()*;
+* value: can be a number, a string or a list, from the codes obtained with *get_par()*.
+
+*pars* is optional, but recommended to avoid Timeout Error due to too large query.
+
+If you want to download the data in a specific coding system, different from the 'FAO' default,
+you need to pass *coding={key: value, ...}*.
+* key: coding obtained with *list_pars()*;
+* value: can be a number, a string or a list, from the codyng_systems obtained with *get_par()* for the given parameter.
+
+Set *show_flags=True* if you want to download also the data flags.
+
+Set *null_values=True* to download also the null data.
+
+Set *show_notes=True* to download the notes.
+
+By default, the results are kept as provided by the Faostat API, so they are all strings (also the numbers).
+Set *strval=False* if you want the code to provide the results as numbers.
+
+#### Example: Download a subset of data, based on parameters, as a list of tuples, with default coding_system:
+```python
+>>> mypars = {'element':[2312, 2313],'item':'221'}
+>>> data = faostat.get_data('QCL', pars=mypars)
+>>> data[40:44]
+[('QCL', 'Crops and livestock products', '2', 'Afghanistan', '5312', 'Area harvested', '221', 'Almonds, with shell', '2014', '2014', 'ha', '13703'),
+ ('QCL', 'Crops and livestock products', '2', 'Afghanistan', '5312', 'Area harvested', '221', 'Almonds, with shell', '2015', '2015', 'ha', '14676'),
+ ('QCL', 'Crops and livestock products', '2', 'Afghanistan', '5312', 'Area harvested', '221', 'Almonds, with shell', '2016', '2016', 'ha', '19481'),
+ ('QCL', 'Crops and livestock products', '2', 'Afghanistan', '5312', 'Area harvested', '221', 'Almonds, with shell', '2017', '2017', 'ha', '19793')]
+```
+
+#### Example: Download a subset of data, based on parameters, as a list of tuples, with choosen coding_system:
+```python
+>>> mypars = {'element':[2312, 2313],'item':'221'}
+>>> mycoding = {'area': 'ISO3'}
+>>> data = faostat.get_data('QCL', pars=mypars, coding=mycoding)
+>>> data[40:44]
+[('QCL', 'Crops and livestock products', 'AFG', 'Afghanistan', '5312', 'Area harvested', '221', 'Almonds, with shell', '2014', '2014', 'ha', '13703'),
+ ('QCL', 'Crops and livestock products', 'AFG', 'Afghanistan', '5312', 'Area harvested', '221', 'Almonds, with shell', '2015', '2015', 'ha', '14676'),
+ ('QCL', 'Crops and livestock products', 'AFG', 'Afghanistan', '5312', 'Area harvested', '221', 'Almonds, with shell', '2016', '2016', 'ha', '19481'),
+ ('QCL', 'Crops and livestock products', 'AFG', 'Afghanistan', '5312', 'Area harvested', '221', 'Almonds, with shell', '2017', '2017', 'ha', '19793')]
+```
+
+#### Example: Download a subset of data as numbers, as a list of tuples:
+```python
+>>> mypars = {'area': '5815',
+              'element': [2312, 2313],
+              'item': '221',
+              'year': [2020, 2021]}
+>>> data = faostat.get_data('QCL', pars=mypars, strval=False)
+>>> data
+[('Domain Code', 'Domain', 'Area Code', 'Area', 'Element Code', 'Element', 'Item Code', 'Item', 'Year Code', 'Year', 'Unit', 'Value'),
+ ('QCL', 'Crops and livestock products', 5815, 'Low Income Food Deficit Countries', 5312, 'Area harvested', 221, 'Almonds, in shell', 2020, '2020', 'ha', 112434),
+ ('QCL', 'Crops and livestock products', 5815, 'Low Income Food Deficit Countries', 5312, 'Area harvested', 221, 'Almonds, in shell', 2021, '2021', 'ha', 129916)]
+```
+
+#### Example: Download a subset of data as numbers, as a dataframe:
+```python
+>>> mypars = {'area': '5815',
+              'element': [2312, 2313],
+              'item': '221',
+              'year': [2020, 2021]}
+>>> data = faostat.get_data_df('QCL', pars=mypars, strval=False)
+>>> df
+  Domain Code                        Domain  Area Code  ...  Year  Unit   Value
+0         QCL  Crops and livestock products       5815  ...  2020    ha  112434
+1         QCL  Crops and livestock products       5815  ...  2021    ha  129916
+```
+
+
+## To set up a proxy and other request arguments:
+
+You may need to modify the default download settings.
+This package uses the [requests][req] package and allows to set some of its arguments:
+* *timeout*: how long to wait for the server before raising an error, in sec. Default is 120 sec.
+* *proxies* : sets the proxies. It overwrites the proxy setting of any previous runs of *setproxy*. 
+              For the Faostat API, only the https proxy is used. Default is None (the optional argument is not passed to the request).
+* *verify* : whether to verify the server’s TLS certificate, or to use a CA bundle. Defaults to None (the optional argument is not passed to the request). 
+* *cert* : whether to use a SSL client cert file. Defaults to None (the optional argument is not passed to the request).
+
+```python
+faostat.set_requests_args([timeout=120.], [proxies=None], [verify=None], [cert=None])
+```
+
+It returns *None*.
+
+For detailed information, please refer to the documentation of the package [requests][req_req].
+
+#### Example:
+
+```python
+>>> import faostat
+>>> mytimeout = 240.
+>>> myproxy = {'https': 'http://myuser:mypass@123.45.67.89:1234'}
+>>> faostat.set_requests_args(timeout=mytimeout, proxies=myproxy)
+```
+
+To check the settings:
+
+```python
+faostat.get_requests_args()
+```
+
+It returns a dictionary with the argument names and their respective values, exactly as they are passed to the request.
+
+
+## Bug reports and feature requests:
+
+Please [open an issue][issue] or send a message to noemi.cazzaniga [at] polimi.it.
+Before opening a new issue, please have a look at the [existing issues][all_issues].
+
+
+## Disclaimer:
+
+Download and usage of Faostat data is subject to FAO's general [terms and conditions][pol].
+
+
+## Data sources:
+
+* Faostat database: [online catalog][faoweb].
+
+
+## References:
+
+* Python package [pandas][pd]: Python Data Analysis Library.
+* Python package [eurostat][es]: Tools to read data from Eurostat.
+
+
+## History:
+
+### version 1.1.2 (June 2024):
+
+* Internal bug fix
+
+### version 1.1.1 (May 2024):
+
+* Removed the functions get_areas, get_years, get_items and get_elements.
+* Implemented all codings.
+* set_requests_args and get_requests_args replace https_proxy args.
+* Changed the base url.
+* https input parameter is deprecated.
+
+### version 1.0.2 (Oct 2023):
+
+* Bug fix: build.
+
+### version 1.0.1 (Oct 2023):
+
+* Implemented all the parameters.
+* Prevented list_datasets to show the datasets that are not accessible (update_date=None).
+
+### version 0.1.1 (2022):
+
+* First official release.
+
+
+
+[faoweb]: https://www.fao.org/faostat/en/#data
+[pol]: https://www.fao.org/contact-us/terms/en/
+[issue]: https://bitbucket.org/noemicazzaniga/faostat/issues/new
+[all_issues]: https://bitbucket.org/noemicazzaniga/faostat/issues
+[pd]: https://pandas.pydata.org/
+[es]: https://pypi.org/project/eurostat/
+[conda]: https://anaconda.org/noemicazzaniga/faostat
