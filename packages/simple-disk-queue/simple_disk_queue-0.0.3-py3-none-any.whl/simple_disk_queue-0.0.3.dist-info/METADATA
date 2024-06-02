@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: simple-disk-queue
+Version: 0.0.3
+Summary: Create a disk-based queue
+Home-page: https://github.com/zlin7/python-simple_disk_queue
+Author: Zhen Lin
+Author-email: zhenlin4@illinois.edu
+License: MIT
+Keywords: Job Scheduler,Disk-based Queue,Disk Queue Scheduler
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: filelock (>=3.9.0)
+
+
+# Installation
+
+`pip install .` or `pip install simple-disk-queue`
+
+**By default, a folder called `.cache/simple_disk_queue` is created under your home directory, and will be used to store queues.**
+If you want to change it, see "Global Settings" below.
+
+# Quick Start
+
+An example can be found in `examples/test.py`.
+We can first call `init_queue()` to initialize the jobs, and then run `sdq.DiskQueue.run('test')` in different processes.
+
+## 0.0.3
+==================
+1. bug fix
+
+
+## 0.0.2
+==================
+1. Use reference so we minimize the critical time
+2. Added documentation and verbose mode
+
+
+## 0.0.1
+==================
+
+1. Core functionality: Add jobs to a queue and run jobs from a queue.
+
