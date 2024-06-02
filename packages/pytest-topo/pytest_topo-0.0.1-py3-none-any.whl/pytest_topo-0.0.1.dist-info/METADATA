@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: pytest_topo
+Version: 0.0.1
+Summary: Topological sorting for pytest
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: Nick Sullivan <nick.dave.sullivan@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## Install
+
+pip install pytest-topo
+
