@@ -1,0 +1,13 @@
+scenedetect
+tqdm
+celery
+redis
+psutil
+opencv-contrib-python
+requests
+torf
+websockets
+scipy
+numpy
+scikit-image
+argparse_range
