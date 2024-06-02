@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+rr/__init__.py
+rr/inject/__init__.py
+rr_inject.egg-info/PKG-INFO
+rr_inject.egg-info/SOURCES.txt
+rr_inject.egg-info/dependency_links.txt
+rr_inject.egg-info/top_level.txt
+tests/test_inject.py
