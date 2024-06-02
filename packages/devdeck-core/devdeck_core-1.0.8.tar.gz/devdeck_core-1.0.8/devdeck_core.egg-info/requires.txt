@@ -1,0 +1,6 @@
+assertpy
+cerberus
+pillow
+pytest
+requests
+streamdeck
