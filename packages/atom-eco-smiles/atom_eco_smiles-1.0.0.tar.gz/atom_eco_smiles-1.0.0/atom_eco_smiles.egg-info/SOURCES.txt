@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+atom_eco_smiles.egg-info/PKG-INFO
+atom_eco_smiles.egg-info/SOURCES.txt
+atom_eco_smiles.egg-info/dependency_links.txt
+atom_eco_smiles.egg-info/top_level.txt
