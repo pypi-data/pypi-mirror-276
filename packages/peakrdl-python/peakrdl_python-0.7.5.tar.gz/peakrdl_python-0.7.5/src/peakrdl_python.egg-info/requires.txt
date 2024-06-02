@@ -1,0 +1,8 @@
+systemrdl-compiler>=1.24.0
+jinja2
+
+[:python_version < "3.11"]
+typing-extensions
+
+[:python_version < "3.8"]
+asynctest
