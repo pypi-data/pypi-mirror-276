@@ -1,0 +1,9 @@
+setup.py
+sidcli/__init__.py
+sidcli/sidcli.py
+sidcli.egg-info/PKG-INFO
+sidcli.egg-info/SOURCES.txt
+sidcli.egg-info/dependency_links.txt
+sidcli.egg-info/entry_points.txt
+sidcli.egg-info/requires.txt
+sidcli.egg-info/top_level.txt
