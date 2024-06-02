@@ -1,0 +1,17 @@
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/cli.py,sha256=EN4W-xx9VyIanjB-HIrEOO1IPE5LkxbY7GSpWVXXwKY,6447
+core/wrapper.py,sha256=t5dWPV5R5MmABcfJj65e-oi1TfXKDrFSuGB1Wf-3WZs,816
+core/cpp/cli.py,sha256=b0DGbj3VtMNzZLRBXKatf-9Yc-2sfFCvHlwrSJ7zOlg,1099
+core/csharp/cli.py,sha256=Qlk9k1_j-aS5lgZhf7Jb20os5Ea6zpO146TLaSb2ArE,637
+core/go/cli.py,sha256=bvrz-hJnrhLtcoeVPnNjZMQBj6vGt-hazX9ojI5WbOo,718
+core/java/cli.py,sha256=lpBamH4gbulBHrxhvV_qtE7tq9Umb8s1FoRXzYd6LRc,656
+core/js/cli.py,sha256=W8BHSj8qkMyfId4Yvg0WY7sDaAtbZ6PHAjyPXsu5o8Y,627
+core/obj-c/cli.py,sha256=JoTF3ha37tBpVXmg5QHpcRXN1JKCFY7mCPl7Vg7QzJo,576
+core/php/cli.py,sha256=ma-cJpb-ehSsrrWWhBjYMSAGxGyP6sy7WcCbEmUC12U,540
+core/python/cli.py,sha256=ukh0Eh4yotTB1MCyHf3Hc6FW79BskVuSzZb96TN2fe0,626
+core/ruby/cli.py,sha256=MWUxzja5wedKochARssPOSEzOau9rGY65EC3jWdiOsI,557
+core/rust/cli.py,sha256=Y2OV_vL8j5faZabswMzvUEHjbxS6tU2S-L0nqpVxWvk,615
+protoc_polyglot-0.0.1.post15.dist-info/METADATA,sha256=GVztmHWDHtxrEsSxZN4MXB4QvPRmLhIraPKzz2ajwvA,3090
+protoc_polyglot-0.0.1.post15.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+protoc_polyglot-0.0.1.post15.dist-info/entry_points.txt,sha256=HJ9hHsR4FS9v_pRGKX6QR4EaaZJPfUlA7RjYlu0bXpA,57
+protoc_polyglot-0.0.1.post15.dist-info/RECORD,,
