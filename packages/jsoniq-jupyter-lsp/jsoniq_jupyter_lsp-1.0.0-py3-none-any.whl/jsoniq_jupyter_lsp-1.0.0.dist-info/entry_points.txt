@@ -1,0 +1,5 @@
+[console_scripts]
+jsoniq_lsp_start = src.jsoniq_lsp:main
+
+[jupyter_lsp_spec_v1]
+jupyter_jsoniq_language_server = src.jsoniq_spec:load
