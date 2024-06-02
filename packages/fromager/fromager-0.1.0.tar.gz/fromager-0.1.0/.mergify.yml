@@ -1,0 +1,46 @@
+pull_request_rules:
+  - name: Add CI label
+    conditions:
+      - or:
+          - 'title~=^tox:'
+          - 'title~=^ci:'
+          - files~=tox.ini
+          - files~=.github/
+          - files~=.markdownlint-config.yaml
+    actions:
+      label:
+        add:
+          - ci
+  - name: Add Mergify label
+    conditions:
+      - or:
+          - 'title~=^mergify:'
+          - files~=.mergify.yml$
+    actions:
+      label:
+        add:
+          - mergify
+  - name: Automatic merge on approval
+    conditions:
+      - and:
+          - check-success=linter
+          - check-success=pkglint
+          - check-success=markdownlint
+          - check-success=unit (3.11)
+          - check-success=unit (3.12)
+          - check-success=e2e (3.11, bootstrap)
+          - check-success=e2e (3.12, bootstrap)
+          - check-success=e2e (3.11, report_missing_dependency)
+          - check-success=e2e (3.12, report_missing_dependency)
+          - check-success=e2e (3.11, build_with_build_order)
+          - check-success=e2e (3.12, build_with_build_order)
+          - '-draft'
+          # - or:
+          #     - check-success=history-update
+          #     - label=ci
+          - or:
+              - approved-reviews-by=dhellmann
+              - author=dhellmann
+    actions:
+      merge:
+        method: merge
