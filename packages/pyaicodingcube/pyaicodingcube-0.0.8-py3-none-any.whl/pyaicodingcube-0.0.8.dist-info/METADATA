@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyaicodingcube
+Version: 0.0.8
+Summary: It is a library for exmarscube
+Author: smartcubelabs
+Requires-Python: >=3.10
+
