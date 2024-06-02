@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/bosk/__init__.py
+src/bosk.egg-info/PKG-INFO
+src/bosk.egg-info/SOURCES.txt
+src/bosk.egg-info/dependency_links.txt
+src/bosk.egg-info/requires.txt
+src/bosk.egg-info/top_level.txt

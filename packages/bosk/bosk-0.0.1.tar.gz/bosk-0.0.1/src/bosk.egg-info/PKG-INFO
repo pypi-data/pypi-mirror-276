@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: bosk
+Version: 0.0.1
+Summary: Tree-based models in Python
+Home-page: https://github.com/ajoo/bosk
+Author: João Bravo
+License-File: LICENSE
+Requires-Dist: cffi>=1
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
