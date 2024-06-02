@@ -1,0 +1,13 @@
+llmail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llmail/__main__.py,sha256=rcXpY4PrCBiMsyiFH9Zwu1tTOPgS2brMLzrwbEQhrQc,1452
+llmail/utils/__init__.py,sha256=Sj2Ha1U_2WL7uJ02GbGXW1KS-6mJC1AbcYpslwSD0ns,217
+llmail/utils/cli_args.py,sha256=BGy-0Uv04BtcxbmH-3T2jGMrp-ixLoGExwGQqjG6Tug,6101
+llmail/utils/logging.py,sha256=wrzUhRVBEBXxZcuYG_rTV5dsCywFzoH4MFUoDDveBNw,1048
+llmail/utils/responding.py,sha256=VpQa0LjZdBW2DNKpwKMru29EFjYsdJqD0bpETPQ9Q64,12481
+llmail/utils/tracking.py,sha256=XTJH92LZyYr09tEwoESuJfC3SJwCxR6DrVpbCbHvM0c,9562
+llmail/utils/utils.py,sha256=x25dxfqs7cj2TJesARTddl-xPOQvJycOWOIla-Tjf8E,1888
+llmail-0.2.5.dist-info/entry_points.txt,sha256=WfaJhBFsEjiqhZZlLWz06TFH28Nrj9Dx2_Zx7IHXqzQ,47
+llmail-0.2.5.dist-info/LICENSE,sha256=IaAxQEGCuahPbhqkiQFJVIM_NiDY0ZB2wn13-IOEDmY,34516
+llmail-0.2.5.dist-info/METADATA,sha256=v4Uj_w3cvkMg1GgSg8q4z7w7STPG2UDT-lR2AflAdyw,3766
+llmail-0.2.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llmail-0.2.5.dist-info/RECORD,,
