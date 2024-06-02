@@ -1,0 +1,2 @@
+biopython>=1.77
+psutil>=5.9.1
