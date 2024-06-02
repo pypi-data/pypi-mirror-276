@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: almax_common
+Version: 1.0.3.dev20240601181343
+Summary: Library with my most used Classes and Methods
+Author: AlMax98
+Author-email: alihaider.maqsood@gmail.com
+Description-Content-Type: text/markdown
+
+# AlmaxClasses
+Generic Purpose Classes
+
+# AlmaxGraphics
+Everything i use to create graphics for Desktop apps or other needs
+
+# AlmaxLogs
+Logging services
+
+# AlmaxSystemManagment
+Some Utils you can use to manage Subprocesses or Threads
+
+# AlmaxUtils
+Utility functions for any purpose
