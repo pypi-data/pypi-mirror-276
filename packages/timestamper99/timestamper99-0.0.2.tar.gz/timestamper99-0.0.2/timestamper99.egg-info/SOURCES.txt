@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+timestamper99/__init__.py
+timestamper99/test.py
+timestamper99.egg-info/PKG-INFO
+timestamper99.egg-info/SOURCES.txt
+timestamper99.egg-info/dependency_links.txt
+timestamper99.egg-info/requires.txt
+timestamper99.egg-info/top_level.txt
