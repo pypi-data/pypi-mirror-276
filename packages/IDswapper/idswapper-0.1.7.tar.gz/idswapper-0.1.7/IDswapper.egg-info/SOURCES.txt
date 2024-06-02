@@ -1,0 +1,12 @@
+README.md
+setup.py
+IDswapper/__init__.py
+IDswapper/data_file.gz
+IDswapper/db_config.json
+IDswapper/fetchids.py
+IDswapper.egg-info/PKG-INFO
+IDswapper.egg-info/SOURCES.txt
+IDswapper.egg-info/dependency_links.txt
+IDswapper.egg-info/entry_points.txt
+IDswapper.egg-info/requires.txt
+IDswapper.egg-info/top_level.txt
