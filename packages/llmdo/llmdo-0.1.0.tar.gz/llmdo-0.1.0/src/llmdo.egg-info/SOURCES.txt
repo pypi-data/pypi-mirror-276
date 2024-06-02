@@ -1,0 +1,17 @@
+.latest-version.generated.txt
+LICENSE
+README.md
+pyproject.toml
+src/llmdo/__init__.py
+src/llmdo/__main__.py
+src/llmdo/config.py
+src/llmdo/llmdo.py
+src/llmdo/util.py
+src/llmdo.egg-info/PKG-INFO
+src/llmdo.egg-info/SOURCES.txt
+src/llmdo.egg-info/dependency_links.txt
+src/llmdo.egg-info/entry_points.txt
+src/llmdo.egg-info/requires.txt
+src/llmdo.egg-info/top_level.txt
+src/llmdo/dispatchers/DefaultDispatcher.py
+src/llmdo/dispatchers/__init__.py
