@@ -1,0 +1,9 @@
+README.md
+setup.py
+usportspy/__init__.py
+usportspy/main.py
+usportspy.egg-info/PKG-INFO
+usportspy.egg-info/SOURCES.txt
+usportspy.egg-info/dependency_links.txt
+usportspy.egg-info/requires.txt
+usportspy.egg-info/top_level.txt
