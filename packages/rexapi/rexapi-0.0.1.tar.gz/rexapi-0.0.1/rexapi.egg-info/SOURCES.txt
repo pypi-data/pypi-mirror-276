@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+rexapi/__init__.py
+rexapi/api.py
+rexapi.egg-info/PKG-INFO
+rexapi.egg-info/SOURCES.txt
+rexapi.egg-info/dependency_links.txt
+rexapi.egg-info/requires.txt
+rexapi.egg-info/top_level.txt
