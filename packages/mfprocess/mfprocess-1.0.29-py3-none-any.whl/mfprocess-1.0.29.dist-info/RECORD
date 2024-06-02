@@ -1,0 +1,10 @@
+mfprocess/__init__.py,sha256=-GOMawQsRHI4SvT1W3kMotlG8XFsKOf8zuh6sPWicQI,27
+mfprocess/data/__init__.py,sha256=OY1KbqZXg9tYSsnRoIG6nksyEUQzO478UFpQi7Kbwog,19
+mfprocess/data/agus.py,sha256=fn5F6hia-FXJm9zuWnSbb8ra_a4gvcO-3Sl0_qhdoz0,4541
+mfprocess/mes/__init__.py,sha256=yIbxEwtQLCsxJK2ZkvOTljbNizt52pMIFj9wNI_IfkY,21
+mfprocess/mes/tests.py,sha256=FgtxwXTgFpQap87otMcVjArV_OejzS1Sjg6P0zEu0Jw,1083
+mfprocess-1.0.29.dist-info/LICENCE,sha256=y4auNMzT0FY28aD_7QKuBzrVGUXNyQLvs_vKigjYck4,1077
+mfprocess-1.0.29.dist-info/METADATA,sha256=1A5Y8fG88BgVrF8rjTJ6CgyL9JFJFNEh3fZWIc1n3bo,777
+mfprocess-1.0.29.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mfprocess-1.0.29.dist-info/top_level.txt,sha256=nWDNvY6ZqG1T47ma-6Ios8z8XjLB7pI5yZY4kCWfyzM,10
+mfprocess-1.0.29.dist-info/RECORD,,
