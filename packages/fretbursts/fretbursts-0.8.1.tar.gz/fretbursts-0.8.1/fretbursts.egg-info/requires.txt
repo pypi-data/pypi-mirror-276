@@ -1,0 +1,18 @@
+numpy>=1.19
+scipy>=1.2
+pandas>=0.23
+seaborn>=0.11.1
+tables>=3.5
+lmfit>=1.0.1
+phconvert>=0.8
+
+[:python_version <= "3.9"]
+importlib_metadata
+
+[gui]
+matplotlib>=3.0.1
+PyQt5
+
+[scientific]
+jupyter
+matplotlib>=3.0.1
