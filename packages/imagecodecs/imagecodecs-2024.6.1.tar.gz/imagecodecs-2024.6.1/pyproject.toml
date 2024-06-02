@@ -1,0 +1,5 @@
+# imagecodecs/pyproject.toml
+
+[build-system]
+requires = ["setuptools", "wheel", "numpy", "Cython>=3.0"]
+build-backend = "setuptools.build_meta"
