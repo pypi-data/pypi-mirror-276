@@ -1,0 +1,5 @@
+setup.py
+vmstate.egg-info/PKG-INFO
+vmstate.egg-info/SOURCES.txt
+vmstate.egg-info/dependency_links.txt
+vmstate.egg-info/top_level.txt
