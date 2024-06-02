@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68.1.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timeter"
+authors = [{ name = "SyberiaK" }]
+description = "A handy set of tools to measure your code execution time"
+requires-python = ">=3.8"
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 6 - Mature",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Utilities",
+    "Typing :: Typed"
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/SyberiaK/timeter"
+Issues = "https://github.com/SyberiaK/timeter/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "timeter.__version__" }
+
+[tool.setuptools.package-data]
+hurray = ["py.typed"]
