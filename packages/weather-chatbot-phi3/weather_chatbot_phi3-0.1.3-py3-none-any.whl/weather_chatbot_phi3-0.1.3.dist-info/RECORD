@@ -1,0 +1,10 @@
+weather_chatbot/__init__.py,sha256=XkiIRPT3FCrWdGSueM3vdS9KzSRgKofGegYbpIU1Njk,94
+weather_chatbot/app.py,sha256=W4xTwtOVoKUh73ibwVXBWnq6O91rGhWY_mzZuugSfmo,2991
+weather_chatbot/download_model.py,sha256=jsN1WrdtPHg6j5e8ymbCFiKdTIvp7ou5YAFbGza1zkw,423
+weather_chatbot/push_model.py,sha256=6zOn3FV2VZC7iI-w2BvecO8uKxeHOqOhkz-tYNZksRo,1094
+weather_chatbot/requirements.txt,sha256=aikSDwZ9qPrgK2fKVaIGB75zuDDgE97APYjZWJWB4_s,34
+weather_chatbot/style.css,sha256=LFvS0W1q5hp_CjFFLjj_aO1cyWXwLm746odqrIDVNh4,196
+weather_chatbot_phi3-0.1.3.dist-info/METADATA,sha256=LJrbrQElXAoxmNK2b51y_iM6A8YYkumYfI7pqO4R8a4,850
+weather_chatbot_phi3-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+weather_chatbot_phi3-0.1.3.dist-info/entry_points.txt,sha256=Fb_YI9Ej-FW7xtfQJenzG1JftO49YA6WEUSaJheI3C0,65
+weather_chatbot_phi3-0.1.3.dist-info/RECORD,,
