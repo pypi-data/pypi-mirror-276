@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vmstate
+Version: 1.4
+Summary: submodule for azure virtual machines info
+Home-page: https://github.com/yourusername/my_package
+Author: Ashish Sangra
+Author-email: ashishsangra42@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: azure-identity
+Requires-Dist: azure-mgmt-compute
+
+#Azure Virtual machine sub module

@@ -1,0 +1,9 @@
+README.md
+setup.py
+computeclient/computeclient.py
+vmstate/vmstate.py
+vmstate.egg-info/PKG-INFO
+vmstate.egg-info/SOURCES.txt
+vmstate.egg-info/dependency_links.txt
+vmstate.egg-info/requires.txt
+vmstate.egg-info/top_level.txt
