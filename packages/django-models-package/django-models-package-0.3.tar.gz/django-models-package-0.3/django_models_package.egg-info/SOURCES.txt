@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+django_models_package.egg-info/PKG-INFO
+django_models_package.egg-info/SOURCES.txt
+django_models_package.egg-info/dependency_links.txt
+django_models_package.egg-info/requires.txt
+django_models_package.egg-info/top_level.txt
+models_package/__init__.py
+models_package/apps.py
+models_package/models/__init__.py
+models_package/models/booking.py
+models_package/models/flight.py
+models_package/models/notification.py
+models_package/models/user.py
