@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: Flask-Inputs
+Version: 1.0.0
+Summary: Flask request data validation
+Home-page: http://pythonhosted.org/Flask-Inputs
+Author: David Parker
+Author-email: durera@gmail.com
+License: MIT
+Keywords: flask validation wtforms
+Requires-Python: >=3.9
+License-File: LICENSE.md
+Requires-Dist: flask>=3
+Requires-Dist: wtforms>=3
+Requires-Dist: future>=1
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: email_validator; extra == "dev"
+Requires-Dist: jsonschema; extra == "dev"
+
+Flask-Inputs
+============
+
+|Project Status| |image1| |License|
+
+Introduction
+------------
+
+WTForms is awesome for validating POST data. What about other request
+data?
+
+The **Flask-Inputs** extension adds support for WTForms to validate
+request data from args to headers to json.
+
+Installation
+------------
+
+To install Flask-Inputs, simply:
+
+.. code:: bash
+
+   $ pip install Flask-Inputs
+
+-  JSON validation requires the optional
+   `jsonschema <https://pypi.python.org/pypi/jsonschema>`__ package
+-  e-mail validation requires
+   `email_validator <https://pypi.python.org/pypi/email_validator>`__
+   package
+
+.. code:: bash
+
+   $ pip install Flask-Inputs jsonschema email_validator
+
+Contributing
+------------
+
+.. code:: bash
+
+   make clean install test build
+
+Documentation
+-------------
+
+Documentation is available at http://pythonhosted.org/Flask-Inputs
+
+License
+-------
+
+`MIT <./LICENSE.md>`__
+
+.. |Project Status| image:: https://img.shields.io/badge/status-active-green
+.. |image1| image:: https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue
+.. |License| image:: https://img.shields.io/badge/license-MIT-green
+   :target: ./LICENSE.md
