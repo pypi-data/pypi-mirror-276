@@ -1,0 +1,22 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chaos-stratus"
+version = "1.1.0"
+description = 'Python tools used to interact with Chaos Stratus effect libraries'
+readme = "README.md"
+authors = [{ name = "Martin Bartlett", email = "martin.j.bartlett@gmail.com" }]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+requires-python = ">=3.5"
+
+[project.urls]
+Homepage = "https://github.com/bassmanitram/chaos-stratus-python"
