@@ -1,0 +1,10 @@
+LICENSE
+README.md
+llm_gigachat.py
+pyproject.toml
+llm_gigachat.egg-info/PKG-INFO
+llm_gigachat.egg-info/SOURCES.txt
+llm_gigachat.egg-info/dependency_links.txt
+llm_gigachat.egg-info/entry_points.txt
+llm_gigachat.egg-info/requires.txt
+llm_gigachat.egg-info/top_level.txt

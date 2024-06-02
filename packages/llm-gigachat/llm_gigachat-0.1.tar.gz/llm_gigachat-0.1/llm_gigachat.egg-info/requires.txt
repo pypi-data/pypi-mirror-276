@@ -1,0 +1,3 @@
+llm
+requests
+pydantic
