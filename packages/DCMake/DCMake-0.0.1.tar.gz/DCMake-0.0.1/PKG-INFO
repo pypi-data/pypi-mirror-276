@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: DCMake
+Version: 0.0.1
+Summary: Download github repository to CMake Project
+Home-page: 
+Author: Tietu
+Author-email: yhy2637@163.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+Requires-Dist: tqdm>=4.66.4
+
+# DCMake
+## Download github repository to CMake Project
