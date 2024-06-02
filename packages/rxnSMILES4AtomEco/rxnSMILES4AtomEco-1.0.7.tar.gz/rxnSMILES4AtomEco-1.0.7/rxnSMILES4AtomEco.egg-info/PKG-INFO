@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rxnSMILES4AtomEco
+Version: 1.0.7
+Summary: Calculate atom economy for chemical reactions using reaction SMILES
+Home-page: https://pypi.org/project/rxnSMILES4AtomEco
+Author: Samuele Giani
+Author-email: samuele.giani@empa.ch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
