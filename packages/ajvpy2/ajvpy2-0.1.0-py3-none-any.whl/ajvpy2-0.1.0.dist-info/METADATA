@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: ajvpy2
+Version: 0.1.0
+Summary: A thin wrapper around the AJV JSON Validator for Python
+Home-page: https://github.com/atchad/ajvpy2
+Author: Anthony Chadwick
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mini-racer >=0.12.3
+Requires-Dist: pytest >=6.0.0
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+# ajvpy2
+
+A thin wrapper around the AJV JSON Validator for Python.
+
+## Installation
+
+```sh
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Simple Example
+
+```python
+from ajvpy2.ajv import Ajv
+
+schema = {
+    "type": "object",
+    "properties": {
+        "name": {"type": "string"},
+        "age": {"type": "integer", "minimum": 0},
+    },
+    "required": ["name", "age"],
+}
+
+data = {"name": "John Doe", "age": 30}
+ajv = Ajv()
+validate = ajv.compile(schema)
+
+if validate(data):
+    print("Valid data!")
+else:
+    print("Invalid data!")
+    print(ajv.errors)
+```
+
+### Complex Example
+
+```python
+schema = {
+    "type": "object",
+    "properties": {
+        "name": {"type": "string", "minLength": 2, "maxLength": 50},
+        "email": {"type": "string", "format": "email"},
+        "age": {"type": "integer", "minimum": 18, "maximum": 120},
+        "hobbies": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 1,
+            "uniqueItems": True,
+        },
+    },
+    "required": ["name", "email", "age"],
+    "additionalProperties": False,
+}
+
+data = {
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "age": 25,
+    "hobbies": ["reading", "swimming", "hiking"],
+}
+
+ajv = Ajv()
+validate = ajv.compile(schema)
+
+if validate(data):
+    print("Valid data!")
+else:
+    print("Invalid data!")
+    print(ajv.errors)
+```
+
+## Running Tests
+
+```sh
+pytest
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
