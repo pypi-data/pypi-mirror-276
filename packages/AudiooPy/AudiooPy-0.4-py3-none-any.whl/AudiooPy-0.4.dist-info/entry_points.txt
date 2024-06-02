@@ -1,0 +1,4 @@
+[console_scripts]
+audioextract = scripts.audioextract:audioextract
+audioformat = scripts.audioformat:audioformat
+audioinfo = scripts.audioinfo:audioinfo
