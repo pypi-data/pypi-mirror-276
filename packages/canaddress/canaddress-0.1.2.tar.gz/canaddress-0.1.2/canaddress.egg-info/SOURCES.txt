@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+canaddress/__init__.py
+canaddress/parser.py
+canaddress.egg-info/PKG-INFO
+canaddress.egg-info/SOURCES.txt
+canaddress.egg-info/dependency_links.txt
+canaddress.egg-info/requires.txt
+canaddress.egg-info/top_level.txt
+tests/test_canaddress.py
