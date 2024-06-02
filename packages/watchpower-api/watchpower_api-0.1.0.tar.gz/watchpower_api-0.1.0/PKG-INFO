@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: watchpower-api
+Version: 0.1.0
+Summary: WatchPower Rest-API client in Python
+Author: David Freire
+Author-email: davidsmfreire@gmail.com
+Requires-Python: >3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# WatchPower API in Python
+
+By using Jadx and decompiling the WatchPower Android APK, I reverse-engineered its authentication process to have direct access to the backend's Rest-API. This way, we can programmatically query inverter data. I've made this available through a Python package in pip:
+
+```shell
+pip install watchpower-api
+```
+
