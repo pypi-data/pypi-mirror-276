@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bussinwebx-get
+Version: 1.0.3
+Summary: Be able to make GET requests to buss:// websites and get IPs for buss:// websites.
+Maintainer: The Odd Cell
+License: MIT License
+Project-URL: Repository, https://github.com/TheOddCell/bussinwebx-get.git
+Project-URL: Issues, https://github.com/TheOddCell/bussinwebx-get/issues
+Keywords: webx,buss,facedev
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bussinwebx-get
+Be able to make GET requests to buss:// websites and get IPs for buss:// websites.
+
+[What is Bussin Web X (buss://)?](https://github.com/face-hh/webx)
