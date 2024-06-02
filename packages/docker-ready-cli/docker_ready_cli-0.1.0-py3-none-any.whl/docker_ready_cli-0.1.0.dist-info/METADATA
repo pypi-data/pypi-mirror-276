@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: docker-ready-cli
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/docker-ready/cli
+License: MIT
+Keywords: docker
+Author: impocode
+Author-email: impocode@impocode.one
+Maintainer: impocode
+Maintainer-email: impocode@impocode.one
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: docker-ready (>=0.1.0,<0.2.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Project-URL: Documentation, https://github.com/docker-ready/cli
+Project-URL: Repository, https://github.com/docker-ready/cli
+Description-Content-Type: text/markdown
+
+# Docker Ready CLI
+
+## Installation
+
+```shell
+$ pipx install docker-ready-cli
+```
+
