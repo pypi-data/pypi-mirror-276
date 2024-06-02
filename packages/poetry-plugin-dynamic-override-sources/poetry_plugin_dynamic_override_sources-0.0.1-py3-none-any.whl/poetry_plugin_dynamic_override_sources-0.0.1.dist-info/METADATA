@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: poetry-plugin-dynamic-override-sources
+Version: 0.0.1
+Summary: Poetry plugin to dynamically override sources for private mirroring
+License: BSD-3-Clause
+Keywords: packaging,poetry,pypi,pip
+Author: Jacob Henner
+Author-email: code@ventricle.us
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: poetry (>=1.6.0,<2)

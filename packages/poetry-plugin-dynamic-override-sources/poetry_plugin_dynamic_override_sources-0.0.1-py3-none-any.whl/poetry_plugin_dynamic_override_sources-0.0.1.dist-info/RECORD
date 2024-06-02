@@ -1,0 +1,8 @@
+poetry_plugin_dynamic_override_sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_plugin_dynamic_override_sources/plugins.py,sha256=j6WVPNlBGnM22KVf9xw5QoDRkWWw_CtTLvTfn46KDzA,4657
+poetry_plugin_dynamic_override_sources/py.typed,sha256=jjc2Jsyj1yPdgEcKbn4KiwxBnU9PTh0euYpJP_SHx7w,48
+poetry_plugin_dynamic_override_sources-0.0.1.dist-info/LICENSE,sha256=UrwHfJbtbao4EA625PnamUUQScXmVZU__mqhezafth0,1457
+poetry_plugin_dynamic_override_sources-0.0.1.dist-info/METADATA,sha256=0mXkUtr32h7gi0ch7jkT3JxcE1YroFGA4BCkBiDjnRs,634
+poetry_plugin_dynamic_override_sources-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+poetry_plugin_dynamic_override_sources-0.0.1.dist-info/entry_points.txt,sha256=WswpOlLwvPZdZndtBDPTwS9XARrSG2EKHKlo7B7SS1Y,98
+poetry_plugin_dynamic_override_sources-0.0.1.dist-info/RECORD,,
