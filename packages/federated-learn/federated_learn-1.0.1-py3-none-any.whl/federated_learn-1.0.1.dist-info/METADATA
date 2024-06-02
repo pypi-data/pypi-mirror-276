@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: federated-learn
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Md. Golam Mostofa
+Author-email: mostofa@devolvedai.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: tiktoken ==0.7.0
+Requires-Dist: torch ==2.3.0
+
+UNKNOWN
+

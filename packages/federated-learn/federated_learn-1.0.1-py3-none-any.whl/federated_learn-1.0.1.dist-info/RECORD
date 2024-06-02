@@ -1,0 +1,9 @@
+federated_learn/__init__.py,sha256=3zFsjx_-olam4OCpFR9csOTx9Tb13kcfKQYOx9niJ3k,86
+federated_learn/dataseMaker.py,sha256=VSCyoUuBmH5hhqnhcHit8K3IHk29OsGJKEmdfPKw__o,784
+federated_learn/main.py,sha256=OGR16MjsSHEg-1p5A4MTkgXFLHdPbYosN-U0op4ZF-4,398
+federated_learn/model.py,sha256=d41b3SQ3Cj8uJ0rRWVVTcr3chQPQhjiy0jdwOVN2js0,5114
+federated_learn/trainer.py,sha256=arq6QdttFxMR-clIoGHN9oZtGPUOHBNx8C8ABv-0dVo,7797
+federated_learn-1.0.1.dist-info/METADATA,sha256=wh6VywWD1MeUd-41Vw6u3TqOkggtfMUnIi67qHwqjY8,294
+federated_learn-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+federated_learn-1.0.1.dist-info/top_level.txt,sha256=V2Dafyr7M9gtaZYxe2mz-_DuPotYcHdnUh2UvAcfjrM,16
+federated_learn-1.0.1.dist-info/RECORD,,
