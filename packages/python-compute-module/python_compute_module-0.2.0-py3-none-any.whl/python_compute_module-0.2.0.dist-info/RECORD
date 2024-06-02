@@ -1,0 +1,9 @@
+python_compute_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_compute_module/api.py,sha256=DTqkOco8vHCse7QObWyvTDhw7ToxoyDXOz6rHFlzECU,2122
+python_compute_module/app.py,sha256=7_l7pXFhZ4MXdJG-wp3pGpRxKumVfVXF_JwFJIHlHok,314
+python_compute_module/query_runner.py,sha256=KOY_RiABlxcQTuhDLhFg9V2gTnnsima5n5lDZCFYvQQ,2888
+python_compute_module/read_connection_file.py,sha256=Q6SAHCf2kbviFtCZnbM0tA6ZbXM5EEZ54Ddg5P9BjSI,1257
+python_compute_module/schema.py,sha256=H8pQWW1XxrCLuqoaNHAe11FdcZLS3Ethf6EwzpZFElI,1825
+python_compute_module-0.2.0.dist-info/METADATA,sha256=QZymY2PGmvGnDGMXkwrlhMaZwQxqGptE5YSlSzOKmV0,1022
+python_compute_module-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+python_compute_module-0.2.0.dist-info/RECORD,,
