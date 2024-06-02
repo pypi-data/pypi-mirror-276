@@ -1,0 +1,2 @@
+[console_scripts]
+rngtestlib = cryptoguard.cryptoguard:main
