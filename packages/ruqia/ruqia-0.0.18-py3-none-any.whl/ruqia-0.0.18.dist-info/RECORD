@@ -1,0 +1,11 @@
+ruqia-0.0.18.data/data/my_data/data_file,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+ruqiya/__init__.py,sha256=eJUhUcyOxh8swfmDZgrUugpBVnbIWSkbZxcmwT5GmDw,111
+ruqiya/package_data.dat,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+ruqiya/replace_words_dict.py,sha256=HRgPDTbzhjWhZ19QaR1MB2VaqgGMkg_0wG_p3dzq9Jk,224
+ruqiya/ruqiya.py,sha256=t5-t3YvFs-5KEOFvynYnAkxOl1nbYK5B95OqLkWtRMs,5631
+ruqiya/stopwords.py,sha256=BNuYdrbBdzbUKEzcaQ6c4bQWmJl9kbcmWa2GrcNRoUk,13398
+ruqia-0.0.18.dist-info/METADATA,sha256=ZHr_elARqLcnrjX6DBWDPJKIWaWZ5ls-BL3_Ly-pPww,5109
+ruqia-0.0.18.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ruqia-0.0.18.dist-info/entry_points.txt,sha256=2JVsfv5U6JZkdNJb6UFNiVeuY_8RKcZmDwLe6l5t9Mc,39
+ruqia-0.0.18.dist-info/top_level.txt,sha256=P1-K9FMdj4dM60hJQuYxpzWfKxevrVCYFo4i87b_8qY,7
+ruqia-0.0.18.dist-info/RECORD,,
