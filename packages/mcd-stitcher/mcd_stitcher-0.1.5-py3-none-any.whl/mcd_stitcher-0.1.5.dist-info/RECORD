@@ -1,0 +1,17 @@
+mcd_stitcher/__init__.py,sha256=rw3H-4qVTqYObf54ZAFN4iZTwYIeEQi66ztF4NUP-u8,924
+mcd_stitcher/converter.py,sha256=JivARzA_rTAFRuQpsgi0jY2BVm_oL6-_J_72yRuP428,4603
+mcd_stitcher/stitcher.py,sha256=N5Olrj1lDelGVct59B4CjhXRChJjg077cvUArJVfwSo,7636
+mcd_stitcher/tiff_subset.py,sha256=6LBxf-p6-Ggi5pk3cGOPX6vi07qBhY-mJDHxK9dMPB8,4466
+mcd_stitcher/imclib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcd_stitcher/imclib/imcdataparser.py,sha256=szAYbQDSvUZ8P7N5-1NU5ODU3dHrc0ZDxWmGS1lE1Rg,6492
+mcd_stitcher/imclib/imcraw.py,sha256=wu-ae516IeccftxDzzlyKFMxOYlGw6MU2SGF3ojzWVQ,7617
+mcd_stitcher/imclib/mcdmeta.py,sha256=bx84hAGkx1IIGqTeFDXBW2UOHtMZSnwcHtp6QnxzKZA,5870
+mcd_stitcher/imclib/mcdutils.py,sha256=9QG-b419ioVtqVCc0gTqgpNhn7kaXn3WSIRk92eGqIw,8556
+mcd_stitcher/imclib/mcdxmlparser.py,sha256=umpjiY7oO2V1Dq3zEZIqDESvk_Y87EV4HlBDTRXdTBI,3430
+mcd_stitcher/imclib/metadefs.py,sha256=qbhQRZofvS0tH29d3zalY37i5KqF7rc6S1tDF-lMrMo,2543
+mcd_stitcher-0.1.5.dist-info/LICENSE,sha256=daz9lZSbzuWGzEdwP58DFoMVoaccJBRVJbO66XxWVzo,1097
+mcd_stitcher-0.1.5.dist-info/METADATA,sha256=jQ_Q_jsBzIT3PRFMx8S6H3ZVNETx1B1oTCW2nrO52PM,3370
+mcd_stitcher-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mcd_stitcher-0.1.5.dist-info/entry_points.txt,sha256=1WWHZ7wmE_yJFfBiFO0fVDlZcW-CNyj882ToDbOQQyk,173
+mcd_stitcher-0.1.5.dist-info/top_level.txt,sha256=9NOYgmqX12GQMuqyXafnQ0jz-5HSr_w42jqdg3BqKtw,13
+mcd_stitcher-0.1.5.dist-info/RECORD,,
