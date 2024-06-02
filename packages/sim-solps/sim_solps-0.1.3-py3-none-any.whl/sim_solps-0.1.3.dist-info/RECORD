@@ -1,0 +1,11 @@
+sims/__init__.py,sha256=2cY9fu3dop3QWl7i6D-Lm7GhjcI5obIbWqiMncV8Q9w,268
+sims/_version.py,sha256=L5DCMp1QAlSqy-8bW7d51bLubTxNjZGYc5fMQkb752U,411
+sims/interface.py,sha256=53sZ6GJ-RlHNopX0p7LZgah3kMuydVGI6Ggurv7X2H8,8827
+sims/likelihoods.py,sha256=KD1AvVmzsLyXGR_eLoUKv2Nr5VsB0wqngMsQpOmsZJQ,525
+sims/instruments/__init__.py,sha256=rvOybaIYtfn_6I8yadHkJOh6tFk85m3QG890MlLP1dI,55
+sims/instruments/thomson.py,sha256=yQStdLzXCVKgIvuaytdcy15Jn0ztDuCKwg7dTCrwDP4,7260
+sim_solps-0.1.3.dist-info/LICENSE,sha256=cUBVQ70q5DDA8C9sIUu1arvLMtkcUJ8WKFrHDz6U-yA,1069
+sim_solps-0.1.3.dist-info/METADATA,sha256=eINfBoo2vA00K711-90-416Pkssrd5rzYIWRz0NTx4U,2837
+sim_solps-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sim_solps-0.1.3.dist-info/top_level.txt,sha256=kbbSq-jC-gDZGhunVdvpJE7_unozCVwDObNj-YIxN_g,5
+sim_solps-0.1.3.dist-info/RECORD,,
