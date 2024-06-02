@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+log_writer.egg-info/PKG-INFO
+log_writer.egg-info/SOURCES.txt
+log_writer.egg-info/dependency_links.txt
+log_writer.egg-info/top_level.txt
