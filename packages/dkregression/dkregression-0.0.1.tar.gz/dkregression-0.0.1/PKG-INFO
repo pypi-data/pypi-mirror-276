@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dkregression
+Version: 0.0.1
+Summary: Python package for distributional kernel regression
+Author-email: Marc Schlichting <mschl@stanford.edu>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: nevergrad>=1.0.2
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: colormath ; extra == "tutorials"
+Requires-Dist: airportsdata ; extra == "tutorials"
+Requires-Dist: basemap ; extra == "tutorials"
+Requires-Dist: matplotlib ; extra == "tutorials"
+Requires-Dist: basemap ; extra == "tutorials"
+Requires-Dist: requests ; extra == "tutorials"
+Requires-Dist: oauthlib ; extra == "tutorials"
+Requires-Dist: tqdm ; extra == "tutorials"
+Requires-Dist: pandas ; extra == "tutorials"
+Provides-Extra: dev
+Provides-Extra: tutorials
+
+# dkregression
+![logo](./docs/assets/logo_large_light.svg#gh-light-mode-only)
+![logo](./docs/assets/logo_large_dark.svg#gh-dark-mode-only)
+Python Package for Distributional Kernel Regression. More information to follow.
+
