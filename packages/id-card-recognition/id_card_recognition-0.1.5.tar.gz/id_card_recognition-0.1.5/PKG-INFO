@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: id_card_recognition
+Version: 0.1.5
+Summary: A package for ID card recognition using OpenAI
+Home-page: https://github.com/freedak-wang/id_card_recognition
+Author: freedak Wang
+Author-email: freedak@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: natsort
+Requires-Dist: openai
+Requires-Dist: python-dotenv
