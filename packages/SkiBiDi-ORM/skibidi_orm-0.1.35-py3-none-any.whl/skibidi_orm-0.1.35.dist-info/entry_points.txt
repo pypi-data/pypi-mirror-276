@@ -1,0 +1,3 @@
+[console_scripts]
+skibidi-orm = skibidi_orm.cli.run:main
+
