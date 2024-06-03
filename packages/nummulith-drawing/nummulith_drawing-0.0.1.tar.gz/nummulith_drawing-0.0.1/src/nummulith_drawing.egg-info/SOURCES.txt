@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/Drawing/__init__.py
+src/Drawing/drawing.py
+src/nummulith_drawing.egg-info/PKG-INFO
+src/nummulith_drawing.egg-info/SOURCES.txt
+src/nummulith_drawing.egg-info/dependency_links.txt
+src/nummulith_drawing.egg-info/top_level.txt
