@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gage-summary
+Version: 0.1.0
+Summary: Light weight utility to support Gage summaries
+Author-email: Garrett Smith <garrett@placeon.earth>
+Project-URL: Homepage, https://github.com/gageml/gage-summary
+Project-URL: Bug Tracker, https://github.com/gageml/gage-summary/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: groktest ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+
