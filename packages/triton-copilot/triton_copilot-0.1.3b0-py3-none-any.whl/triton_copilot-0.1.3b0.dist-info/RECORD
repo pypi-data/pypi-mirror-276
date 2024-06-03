@@ -1,0 +1,15 @@
+triton_copilot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triton_copilot/build_services.py,sha256=fhEIMNEWBwGdnCQspgOmqikO32i5l982L2Q6kei6ZCI,2878
+triton_copilot/constants.py,sha256=ORJukoivZ5eYONHHreXwEX2BKjq4tv53HNkIbjeH6A4,11247
+triton_copilot/init_services.py,sha256=488AAqkehZzeTsoINFHcA7vwjO8LueiHi6s3ZQ66gdw,1854
+triton_copilot/main.py,sha256=gf4Ck9svHJHziugcL9na_N4WIFGTKtE-IPVFGaiMU3I,6919
+triton_copilot/run_services.py,sha256=vZPvUlbbXugEZspRC6FbXhWhQ2zVifgk8e7BYJdWs9Q,2596
+triton_copilot/template/1/model.py,sha256=iw9SReW0IMrmXTEsNrscupjcJyZtq8IyzKAoPoaseSs,9979
+triton_copilot/template/Dockerfile,sha256=X3VF24cey-zGvLE2W9QDH1ZSDRvMx6Sq5c5-tbPSaZY,222
+triton_copilot/triton_services.py,sha256=XeT56RcfVo8WokYqH01iYY7vUqWPtopJ3EULdCT3pro,7596
+triton_copilot/utils.py,sha256=uRAv5bUIcjUTH6gvEzvf2IYySoe-7QV4xdAwm5W1oCs,1841
+triton_copilot/validate.py,sha256=6rEKrVANKgF0qdo6gkRADmr3Tx2xbeY5uRQ5MJyw5BE,3630
+triton_copilot-0.1.3b0.dist-info/METADATA,sha256=ub4UoQaR43tMCK4ggTnRScY65EJ8EH1amR0xMA4LXpg,2269
+triton_copilot-0.1.3b0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+triton_copilot-0.1.3b0.dist-info/entry_points.txt,sha256=HW2jDUWX7VZno7kpcrOWQRHA1_0c2w8X7MdvnESpTHg,58
+triton_copilot-0.1.3b0.dist-info/RECORD,,
