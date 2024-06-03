@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: chronotask
+Version: 0.1.1
+Summary: Simple python function call scheduler in crontab format
+License: GPL-3.0-or-later
+Author: Leo Feradero Nugraha
+Author-email: leoferaderonugraha@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# ChronoTask
+
+A Python function call scheduler that supports crontab-formatted time (also supports async functions).
+
+example of usage:
+
+```python
+from chronotask import ChronoTask
+import time
+
+task = ChronoTask()
+
+# as a decorator
+@task.schedule()
+def hello():
+    ...
+
+
+# or by call
+task.register(hello)
+
+
+# start the scheduler
+task.start()
+time.sleep(10)
+task.stop()
+```
+
