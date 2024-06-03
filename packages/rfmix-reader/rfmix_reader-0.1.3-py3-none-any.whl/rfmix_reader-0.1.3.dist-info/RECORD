@@ -1,0 +1,11 @@
+rfmix_reader/__init__.py,sha256=X6S1KgNUM1NwR72R1YDhNnuoy8Vr4XwXaXPuZ-0gVQA,192
+rfmix_reader/chunk.py,sha256=OR0JtFV6TRIU5qXVG38rbdTb51wa3bYnkHqK30ewRlc,1124
+rfmix_reader/fb_read.py,sha256=nR6WW3XdQEi4GtG_OES4yV0TpE2MPK0qrsQEY7X1cL4,4093
+rfmix_reader/fb_reader.c,sha256=a-xbKoW9uumqG2puib92IhGxStXlZnT4X44JvWuCqkg,1145
+rfmix_reader/include/fb_reader.h,sha256=7G-avBJLpHXS4Gw5DFNWJgm8uV1ig01B3GvIhDNRjzM,354
+rfmix_reader/read_rfmix.py,sha256=_LxU3vlztO5Yt1F2KioGRKfTdlCAKmJ1y5dxq_-zA58,12225
+rfmix_reader-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rfmix_reader-0.1.3.dist-info/METADATA,sha256=W6Opp88efJCGuR-upSzUKVBI4un40PWzoz3Kh7JdASo,2781
+rfmix_reader-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rfmix_reader-0.1.3.dist-info/entry_points.txt,sha256=31txxfwZEULbSJfRxUti02-xtOBrZCpvnFZHclUQHRk,41
+rfmix_reader-0.1.3.dist-info/RECORD,,
