@@ -1,0 +1,5 @@
+numpy
+ophyd
+packaging
+pint
+pygobject
