@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyudev_zero/__init__.py
+src/pyudev_zero.egg-info/PKG-INFO
+src/pyudev_zero.egg-info/SOURCES.txt
+src/pyudev_zero.egg-info/dependency_links.txt
+src/pyudev_zero.egg-info/top_level.txt
