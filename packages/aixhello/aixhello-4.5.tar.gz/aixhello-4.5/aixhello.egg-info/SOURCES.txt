@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+aixhello/__init__.py
+aixhello/xyello.c
+aixhello.egg-info/PKG-INFO
+aixhello.egg-info/SOURCES.txt
+aixhello.egg-info/dependency_links.txt
+aixhello.egg-info/requires.txt
+aixhello.egg-info/top_level.txt
