@@ -1,0 +1,17 @@
+wgse/third_party/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wgse/third_party/bcftools.exe,sha256=MyAFxpLda95Lhr6kyYHCxGpk3K-Fok3S808yi_6CIjY,8947075
+wgse/third_party/bgzip.exe,sha256=pKuS7tE6CbTnPgsD5M__5sbwvLnFF_NPVV8yusSB9dM,3689871
+wgse/third_party/bwa.exe,sha256=NGWPjW4BEwNMoOBHumywtkW3R0PLA0FwggxZOZ7KgIA,1381993
+wgse/third_party/htsfile.exe,sha256=EVN5SCIelFR_hsF8DqrY14tBXeygjpL1lQ6fD6tk8I0,4283245
+wgse/third_party/minimap2.exe,sha256=RF1Gdl4vg1RIG-A53cdiJEk2DS6BWAc_6ikPcqEb8jY,1051511
+wgse/third_party/msys-2.0.dll,sha256=WZjOQkXG0-wX_6i39vP9V7fgVFVrPsZn_o0xnFZVVPQ,3088715
+wgse/third_party/msys-bz2-1.dll,sha256=EIKJbHHaXmLf2OQh-6NfoxI-bh4ngjgcCCWJFxF7Uc0,67277
+wgse/third_party/msys-lzma-5.dll,sha256=DFZGVopupJr72CL2s-0oiuCO-vD3wBn6Bi4yEAIdq5s,174714
+wgse/third_party/msys-ncursesw6.dll,sha256=PS1ZBdJSWRRdTpGDCnigHqbgKB54kTEwH1y17QL4nWs,333631
+wgse/third_party/msys-z.dll,sha256=1QBWvvUgAQZO0hWmKhxVyAJJKRNIBcxqQA5ukpoQngM,88576
+wgse/third_party/samtools.exe,sha256=Pj3jjOCLTpYWXiH0d3hEOKRiPgI_vPLISg5QlfogYNE,6731036
+wgse/third_party/tabix.exe,sha256=vfZ1mDC4s71PAyEdFTDSwJOTuIFYKkL81rLbosoU1es,4366103
+WGSE_NG_3rd_party-0.0.3.dist-info/METADATA,sha256=6atFZhjQmv-KjOvwZ9Qm3J1sQsdGkOif7MHAyPLmVUw,692
+WGSE_NG_3rd_party-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+WGSE_NG_3rd_party-0.0.3.dist-info/top_level.txt,sha256=uBO_deIaQRbNLcbmkVM8PiCHfB4mr3qqrQnSE3eKWbM,5
+WGSE_NG_3rd_party-0.0.3.dist-info/RECORD,,
