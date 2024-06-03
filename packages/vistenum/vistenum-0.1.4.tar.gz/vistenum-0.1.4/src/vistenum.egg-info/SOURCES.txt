@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/vistenum/__init__.py
+src/vistenum/_auto.py
+src/vistenum/_base_enum.py
+src/vistenum/_member.py
+src/vistenum/_meta_vistenum.py
+src/vistenum/_vistenum_namespace.py
+src/vistenum.egg-info/PKG-INFO
+src/vistenum.egg-info/SOURCES.txt
+src/vistenum.egg-info/dependency_links.txt
+src/vistenum.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+[build-system]
+requires = ['setuptools>=68.2']
+build-backend = 'setuptools.build_meta'
+
+
+[project]
+name = "vistenum"
+version = "0.1.4"
+authors = [
+    { name = "Asger Jon Vistisen", email = "asgerjon2@gmail.com" },
+]
+description = "opinionated 'enum' implementation."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AsgerJon/vistenum"
+"Bug Tracker" = "https://github.com/AsgerJon/vistenum"
