@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: Docs2KG
+Version: 0.0.7
+Summary: Unified Knowledge Graph Construction from Heterogeneous Documents Assisted by Large Language Models
+Home-page: https://docs2kg.ai4wa.com
+Author: AI4WA
+Author-email: admin@ai4wa.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymupdf
+Requires-Dist: pymupdf4llm
+Requires-Dist: pandas
+Requires-Dist: markdownify
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: tabulate
+Requires-Dist: openai
+Requires-Dist: tqdm
+Requires-Dist: tiktoken
+Requires-Dist: openpyxl
+Requires-Dist: imgkit
+Requires-Dist: pillow
+Requires-Dist: pdfkit
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: sentence-transformers
+Requires-Dist: neo4j
+
+# Open Source Framework: Docs2KG
+
+**Unified Knowledge Graph Construction from Heterogeneous Documents Assisted by Large
+Language Models**
+
+![Lint](https://github.com/AI4WA/Docs2KG/blob/main/https://github.com/AI4WA/Docs2KG/actions/workflows/lint.yml/badge.svg)
+![Documentation](https://github.com/AI4WA/Docs2KG/blob/main/https://github.com/AI4WA/Docs2KG/actions/workflows/docs.yml/badge.svg)
+[![Demo](https://img.shields.io/badge/Demo-Available-blue)](https://github.com/AI4WA/Docs2KG/blob/main/https://docs2kg.ai4wa.com/Video/)
+![Status](https://github.com/AI4WA/Docs2KG/blob/main/https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)
+
+Three pillars of the LLM applications in our opinion:
+
+- Data
+- RAG
+- LLM
+
+Most of the tools in the market nowadays are focusing on the Retrieval Augmented Generation (RAG) pipelines or
+How to get Large Language Models (LLMs) to run locally.
+
+However, to make sure the wider community can benefit from the latest research, we need to first solve the data problem.
+
+The Wider community includes personal users, small business, and even large enterprises.
+Some of them might have developed databases, while most of them do have a lot of data, but they are all in unstructured
+form, and distributed in different places.
+
+So the first challenges will be:
+
+- How can we easily process the unstructured data into a centralized place?
+- What is the best way to organize the data within the centralized place?
+
+## Proposed Solution
+
+This package is a proposed solution to the above challenges.
+
+- We developed the tool for the wider community to easily process the unstructured data into a centralized place.
+- We proposed a way to organize the data within the centralized place, via a Unified Knowledge Graph altogether with
+  semi-structured data.
+
+### Overall Architecture
+
+The overall workflow will be:
+
+![img.png](https://github.com/AI4WA/Docs2KG/blob/main/docs/images/Docs2KG.jpg)
+
+## System Architecture
+
+![img.png](https://github.com/AI4WA/Docs2KG/blob/main/docs/images/Modules.jpg)
+
+### PDF
+
+The Main data under this category is PDF.
+
+So we need to be able to extract the text and images from the PDF.
+
+## Unified Knowledge Graph
+
+![img.png](https://github.com/AI4WA/Docs2KG/blob/main/docs/images/KGConstruction.jpg)
+
+## Setup
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install -r requirements.dev.txt
+
+pip install -e .
+```
