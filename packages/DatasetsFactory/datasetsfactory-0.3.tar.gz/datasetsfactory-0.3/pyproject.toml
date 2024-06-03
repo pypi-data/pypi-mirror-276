@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "DatasetsFactory"
+version = "0.3"
+license = {file = "LICENSE"}
+authors = [
+  { name="Denis Ariton", email="denis.ariton@student.upt.ro" },
+]
+description = "This library is meant to DatasetsFactory app users, and is used for loading the available datasets locally!"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+GitHub = "https://github.com/DenisAriton/DatasetsFactory_Library"
