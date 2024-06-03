@@ -1,0 +1,593 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-41439f76dcacbc256383.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						10,
+						14
+					]
+				},
+				{
+					"build" : "clipper/gemmi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-clipper.gemmi-Debug-6f542194c8af33891471.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "clipper/gemmi",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "clipper/minimol",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-clipper.minimol-Debug-304b032b478406691333.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "clipper/minimol",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "clipper/core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-clipper.core-Debug-78c5a6dccdc2edac783a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "clipper/core",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "clipper/contrib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-clipper.contrib-Debug-a03a16eabc78ad5fd9be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "clipper/contrib",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "clipper/cns",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-clipper.cns-Debug-a8de0a76c0bb93ab882a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "clipper/cns",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "clipper/mmdb",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-clipper.mmdb-Debug-ecf16f6113ae058fa89f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "clipper/mmdb",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "clipper/cif",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-clipper.cif-Debug-af3f8cb7d7acde16bad6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "clipper/cif",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "clipper/phs",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-clipper.phs-Debug-187c0b18a4659c463f29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "clipper/phs",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "clipper/ccp4",
+					"jsonFile" : "directory-clipper.ccp4-Debug-957939f4112df62b90b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "clipper/ccp4",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "fftw",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-fftw-Debug-e4bca12520e491481065.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "fftw",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "rfftw",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rfftw-Debug-ee82f0ab9c5d36792383.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "rfftw",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "ccp4",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ccp4-Debug-3d427a8ce5ef3c505487.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "ccp4",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "mmdb2",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mmdb2-Debug-b86ec19a61aca6b2fceb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "mmdb2",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "gemmi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-gemmi-Debug-2d6e85a7f2cd53b9cd2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "gemmi",
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "density-calculator",
+					"targetIndexes" : 
+					[
+						10,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "clipper-gemmi",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "clipper-minimol",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "clipper-core",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "clipper-contrib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "clipper-cns",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "clipper-mmdb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "clipper-cif",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "clipper-phs",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "clipper-ccp4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "fftw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "rfftw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "ccp4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "mmdb2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "gemmi",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "ccp4::@a0defa26b28fd6abec40",
+					"jsonFile" : "target-ccp4-Debug-3e27d991e2db47a7db3b.json",
+					"name" : "ccp4",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "clipper-ccp4::@7221306a56ad801fc4e1",
+					"jsonFile" : "target-clipper-ccp4-Debug-812c25a534646fecc89a.json",
+					"name" : "clipper-ccp4",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "clipper-cif::@da75a22974c8ac5b8ac1",
+					"jsonFile" : "target-clipper-cif-Debug-183dc5652a2ca0e5656e.json",
+					"name" : "clipper-cif",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "clipper-cns::@af229fd9a72145b81758",
+					"jsonFile" : "target-clipper-cns-Debug-b5091f9bf7cc5ba8f539.json",
+					"name" : "clipper-cns",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "clipper-contrib::@1a8d9ca888d62959e38f",
+					"jsonFile" : "target-clipper-contrib-Debug-4ec4b04b261a56daba4f.json",
+					"name" : "clipper-contrib",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "clipper-core::@8b2e6099a336a8540f4c",
+					"jsonFile" : "target-clipper-core-Debug-39f124515078f092e2ac.json",
+					"name" : "clipper-core",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "clipper-gemmi::@a11ec0c3e71f30351e8a",
+					"jsonFile" : "target-clipper-gemmi-Debug-c4a80f6cda573cb05485.json",
+					"name" : "clipper-gemmi",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "clipper-minimol::@5d5d9473d956594966a3",
+					"jsonFile" : "target-clipper-minimol-Debug-45691e11ebef3752329e.json",
+					"name" : "clipper-minimol",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "clipper-mmdb::@e51695a4e7d1d8d03e7a",
+					"jsonFile" : "target-clipper-mmdb-Debug-1aeef438f1f0d22a3285.json",
+					"name" : "clipper-mmdb",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "clipper-phs::@4ad524bf3d19c1ba8d1b",
+					"jsonFile" : "target-clipper-phs-Debug-0a3c05301cbbdef7dcea.json",
+					"name" : "clipper-phs",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "density_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-density_calculator-Debug-eab6128fb49f7a49b4ca.json",
+					"name" : "density_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "fftw::@15e111d7361005acfebd",
+					"jsonFile" : "target-fftw-Debug-465cd935fdb973e67839.json",
+					"name" : "fftw",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "gemmi_cpp::@c7003b4c5ee55bbc71a3",
+					"jsonFile" : "target-gemmi_cpp-Debug-7efa473500ad4e39ef8e.json",
+					"name" : "gemmi_cpp",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mmdb2::@f250a7ee800a84233106",
+					"jsonFile" : "target-mmdb2-Debug-1f39fcefc19d5c67f939.json",
+					"name" : "mmdb2",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nanobind-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nanobind-static-Debug-ffa57fc4c47e99a2e953.json",
+					"name" : "nanobind-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rfftw::@72a37b818689b6693c34",
+					"jsonFile" : "target-rfftw-Debug-1e69dcdc43dc44849e26.json",
+					"name" : "rfftw",
+					"projectIndex" : 11
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/dialpuri/Development/difference-density/package/cmake-build-debug",
+		"source" : "/Users/dialpuri/Development/difference-density/package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

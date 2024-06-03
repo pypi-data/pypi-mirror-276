@@ -1,0 +1,8 @@
+{
+  "source_dir": "/Users/dialpuri/Development/difference-density/package",
+  "build_dir": "/Users/dialpuri/Development/difference-density/package/build/cp311-cp311-macosx_14_0_arm64",
+  "cmake_path": "/opt/homebrew/bin/cmake",
+  "skbuild_path": "/private/var/folders/nl/hdtp0d_50wb_vnzxy82xb8b80000gn/T/pip-build-env-eh_rqs4_/overlay/lib/python3.11/site-packages/scikit_build_core",
+  "skbuild_version": "0.9.5",
+  "python_executable": "/Users/dialpuri/Development/difference-density/.venv/bin/python"
+}

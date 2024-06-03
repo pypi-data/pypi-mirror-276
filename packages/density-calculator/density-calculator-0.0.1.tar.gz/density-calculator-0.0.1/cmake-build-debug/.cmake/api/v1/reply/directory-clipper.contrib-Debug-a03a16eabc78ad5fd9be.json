@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"clipper/contrib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"clipper/contrib/libclipper-contrib.a"
+			],
+			"targetId" : "clipper-contrib::@1a8d9ca888d62959e38f",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/clipper/contrib",
+			"paths" : 
+			[
+				"checkout/clipper//clipper/contrib/originmatch.h",
+				"checkout/clipper//clipper/contrib/fffear.h",
+				"checkout/clipper//clipper/contrib/function_object_bases.h",
+				"checkout/clipper//clipper/contrib/test_contrib.h",
+				"checkout/clipper//clipper/contrib/sfscale.h",
+				"checkout/clipper//clipper/contrib/skeleton.h",
+				"checkout/clipper//clipper/contrib/sfcalc_obs.h",
+				"checkout/clipper//clipper/contrib/edcalc.h",
+				"checkout/clipper//clipper/contrib/sfweight.h",
+				"checkout/clipper//clipper/contrib/convolution_search.h",
+				"checkout/clipper//clipper/contrib/mapfilter.h",
+				"checkout/clipper//clipper/contrib/sfcalc.h",
+				"checkout/clipper//clipper/clipper-contrib.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "clipper/contrib",
+		"source" : "clipper/contrib"
+	}
+}

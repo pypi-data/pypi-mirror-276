@@ -1,0 +1,8 @@
+{
+  "source_dir": "/Users/dialpuri/Development/difference-density/package",
+  "build_dir": "/Users/dialpuri/Development/difference-density/package/build",
+  "cmake_path": "/opt/homebrew/bin/cmake",
+  "skbuild_path": "/Users/dialpuri/Development/difference-density/.venv/lib/python3.11/site-packages/scikit_build_core",
+  "skbuild_version": "0.9.5",
+  "python_executable": "/Users/dialpuri/Development/difference-density/.venv/bin/python"
+}

@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"clipper/cns/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"clipper/cns/libclipper-cns.a"
+			],
+			"targetId" : "clipper-cns::@af229fd9a72145b81758",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/clipper/cns",
+			"paths" : 
+			[
+				"checkout/clipper//clipper/cns/cns_map_io.h",
+				"checkout/clipper//clipper/cns/cns_hkl_io.h",
+				"checkout/clipper//clipper/clipper-cns.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "clipper/cns",
+		"source" : "clipper/cns"
+	}
+}

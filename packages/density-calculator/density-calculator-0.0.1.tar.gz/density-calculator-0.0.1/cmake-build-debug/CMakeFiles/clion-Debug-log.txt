@@ -1,0 +1,29 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -Dnanobind_DIR=/Users/dialpuri/Development/difference-density/.venv/lib/python3.11/site-packages/nanobind/cmake -G Ninja -DPython_EXECUTABLE=/Users/dialpuri/Development/difference-density/.venv/bin/python -DPython3_EXECUTABLE=/Users/dialpuri/Development/difference-density/.venv/bin/python -S /Users/dialpuri/Development/difference-density/package -B /Users/dialpuri/Development/difference-density/package/cmake-build-debug
+CMake Warning at CMakeLists.txt:13 (message):
+    This CMake file is meant to be executed using 'scikit-build'. Running
+    it directly will almost certainly not produce the desired result. If
+    you are a user trying to install this package, please use the command
+    below, which will install all necessary build dependencies, compile
+    the package in an isolated environment, and then install it.
+    =====================================================================
+     $ pip install .
+    =====================================================================
+    If you are a software developer, and this is your own package, then
+    it is usually much more efficient to install the build dependencies
+    in your environment once and use the following command that avoids
+    a costly creation of a new virtual environment at every compilation:
+    =====================================================================
+     $ pip install nanobind scikit-build-core[pyproject]
+     $ pip install --no-build-isolation -ve -Ceditable.rebuild=true .
+    =====================================================================
+    You may optionally add -Ceditable.rebuild=true to auto-rebuild when
+    the package is imported. Otherwise, you need to re-run the above
+    after editing C++ files.
+
+
+-- Compiling with C++ standard: 11
+-- The build will use zlib code from emscripten
+CMAKE_BINARY_DIR="/Users/dialpuri/Development/difference-density/package/cmake-build-debug"
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dialpuri/Development/difference-density/package/cmake-build-debug

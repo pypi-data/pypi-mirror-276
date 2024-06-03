@@ -1,0 +1,125 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"clipper/core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"clipper/core/libclipper-core.a"
+			],
+			"targetId" : "clipper-core::@8b2e6099a336a8540f4c",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/clipper/core",
+			"paths" : 
+			[
+				"checkout/clipper//clipper/core/container_hkl.h",
+				"checkout/clipper//clipper/core/fftmap.h",
+				"checkout/clipper//clipper/core/hkl_compute.h",
+				"checkout/clipper//clipper/core/test_data.h",
+				"checkout/clipper//clipper/core/clipper_test.h",
+				"checkout/clipper//clipper/core/coords.h",
+				"checkout/clipper//clipper/core/clipper_sysdep.h",
+				"checkout/clipper//clipper/core/nxmap_operator.h",
+				"checkout/clipper//clipper/core/derivs.h",
+				"checkout/clipper//clipper/core/spacegroup_data.h",
+				"checkout/clipper//clipper/core/clipper_precision.h",
+				"checkout/clipper//clipper/core/container_map.h",
+				"checkout/clipper//clipper/core/container_types.h",
+				"checkout/clipper//clipper/core/hkl_lookup.h",
+				"checkout/clipper//clipper/core/container.h",
+				"checkout/clipper//clipper/core/clipper_message.h",
+				"checkout/clipper//clipper/core/cell.h",
+				"checkout/clipper//clipper/core/resol_basisfn.h",
+				"checkout/clipper//clipper/core/hkl_data.h",
+				"checkout/clipper//clipper/core/test_core.h",
+				"checkout/clipper//clipper/core/rotation.h",
+				"checkout/clipper//clipper/core/hkl_operators.h",
+				"checkout/clipper//clipper/core/fftmap_sparse.h",
+				"checkout/clipper//clipper/core/clipper_types.h",
+				"checkout/clipper//clipper/core/clipper_memory.h",
+				"checkout/clipper//clipper/core/symop.h",
+				"checkout/clipper//clipper/core/resol_targetfn.h",
+				"checkout/clipper//clipper/core/clipper_stats.h",
+				"checkout/clipper//clipper/core/clipper_thread.h",
+				"checkout/clipper//clipper/core/spacegroup.h",
+				"checkout/clipper//clipper/core/clipper_instance.h",
+				"checkout/clipper//clipper/core/ramachandran.h",
+				"checkout/clipper//clipper/core/hkl_info.h",
+				"checkout/clipper//clipper/core/hkl_datatypes.h",
+				"checkout/clipper//clipper/core/xmap.h",
+				"checkout/clipper//clipper/core/nxmap.h",
+				"checkout/clipper//clipper/core/map_interp.h",
+				"checkout/clipper//clipper/core/map_utils.h",
+				"checkout/clipper//clipper/core/resol_fn.h",
+				"checkout/clipper//clipper/core/atomsf.h",
+				"checkout/clipper//clipper/core/clipper_util.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/clipper",
+			"paths" : 
+			[
+				"checkout/clipper//clipper/clipper-cctbx.h",
+				"checkout/clipper//clipper/cctbx/clipper_cctbx.h",
+				"checkout/clipper//clipper/clipper-mmdb.h",
+				"checkout/clipper//clipper/clipper-cif.h",
+				"checkout/clipper//clipper/clipper-mmdbold.h",
+				"checkout/clipper//clipper/clipper-ccp4.h",
+				"checkout/clipper//clipper/minimal-clipper-hkl.h",
+				"checkout/clipper//clipper/clipper-phs.h",
+				"checkout/clipper//clipper/minimal-clipper-map.h",
+				"checkout/clipper//clipper/clipper-minimol.h",
+				"checkout/clipper//clipper/clipper.h",
+				"checkout/clipper//clipper/clipper-cns.h",
+				"checkout/clipper//clipper/clipper-contrib.h",
+				"checkout/clipper//clipper/cif/cif_data_io.h",
+				"checkout/clipper//clipper/phs/phs_io.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "clipper/core",
+		"source" : "clipper/core"
+	}
+}

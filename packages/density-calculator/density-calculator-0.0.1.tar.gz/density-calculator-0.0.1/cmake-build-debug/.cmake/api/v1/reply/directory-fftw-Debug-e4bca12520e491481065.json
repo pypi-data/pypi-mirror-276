@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"fftw/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"fftw/libfftw.a"
+			],
+			"targetId" : "fftw::@15e111d7361005acfebd",
+			"targetIndex" : 11,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/fftw",
+			"paths" : 
+			[
+				"checkout/fftw-2.1.5/fftw/fftw.h",
+				"checkout/fftw-2.1.5/fftw/fftw-int.h",
+				"checkout/fftw-2.1.5/fftw/config.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "fftw",
+		"source" : "fftw"
+	}
+}

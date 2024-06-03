@@ -1,0 +1,5 @@
+if(EXISTS "/Users/dialpuri/Development/difference-density/package/build/cp311-cp311-macosx_14_0_arm64/nucleofind_test[1]_tests.cmake")
+  include("/Users/dialpuri/Development/difference-density/package/build/cp311-cp311-macosx_14_0_arm64/nucleofind_test[1]_tests.cmake")
+else()
+  add_test(nucleofind_test_NOT_BUILT nucleofind_test_NOT_BUILT)
+endif()

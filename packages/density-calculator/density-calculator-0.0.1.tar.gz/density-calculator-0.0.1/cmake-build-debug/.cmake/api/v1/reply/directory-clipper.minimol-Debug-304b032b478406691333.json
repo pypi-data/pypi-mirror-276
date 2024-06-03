@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"clipper/minimol/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"clipper/minimol/libclipper-minimol.a"
+			],
+			"targetId" : "clipper-minimol::@5d5d9473d956594966a3",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/clipper/minimol",
+			"paths" : 
+			[
+				"checkout/clipper/clipper/minimol/minimol_data.h",
+				"checkout/clipper/clipper/minimol/minimol.h",
+				"checkout/clipper/clipper/minimol/container_minimol.h",
+				"checkout/clipper/clipper/minimol/minimol_io_gemmi.h",
+				"checkout/clipper/clipper/minimol/minimol_io_mmdb.h",
+				"checkout/clipper/clipper/minimol/minimol_io_seq.h",
+				"checkout/clipper/clipper/minimol/minimol_seq.h",
+				"checkout/clipper/clipper/minimol/minimol_utils.h",
+				"checkout/clipper/clipper/clipper-minimol.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "clipper/minimol",
+		"source" : "clipper/minimol"
+	}
+}

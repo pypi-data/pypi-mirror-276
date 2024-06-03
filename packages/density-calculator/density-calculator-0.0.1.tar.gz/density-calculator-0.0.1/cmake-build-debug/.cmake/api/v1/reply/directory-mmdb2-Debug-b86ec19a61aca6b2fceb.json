@@ -1,0 +1,88 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"mmdb2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"mmdb2/libmmdb2.a"
+			],
+			"targetId" : "mmdb2::@f250a7ee800a84233106",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/mmdb2",
+			"paths" : 
+			[
+				"checkout/mmdb2//mmdb2/mmdb_cryst.h",
+				"checkout/mmdb2//mmdb2/mmdb_selmngr.h",
+				"checkout/mmdb2//mmdb2/mmdb_xml_.h",
+				"checkout/mmdb2//mmdb2/mmdb_manager.h",
+				"checkout/mmdb2//mmdb2/mmdb_root.h",
+				"checkout/mmdb2//mmdb2/mmdb_mmcif_.h",
+				"checkout/mmdb2//mmdb2/mmdb_math_.h",
+				"checkout/mmdb2//mmdb2/mmdb_title.h",
+				"checkout/mmdb2//mmdb2/mmdb_atom.h",
+				"checkout/mmdb2//mmdb2/mmdb_math_rand.h",
+				"checkout/mmdb2//mmdb2/mmdb_utils.h",
+				"checkout/mmdb2//mmdb2/hybrid_36.h",
+				"checkout/mmdb2//mmdb2/mmdb_tables.h",
+				"checkout/mmdb2//mmdb2/mmdb_chain.h",
+				"checkout/mmdb2//mmdb2/mmdb_math_fft.h",
+				"checkout/mmdb2//mmdb2/mmdb_math_graph.h",
+				"checkout/mmdb2//mmdb2/mmdb_machine_.h",
+				"checkout/mmdb2//mmdb2/mmdb_uddata.h",
+				"checkout/mmdb2//mmdb2/mmdb_io_stream.h",
+				"checkout/mmdb2//mmdb2/mmdb_cifdefs.h",
+				"checkout/mmdb2//mmdb2/mmdb_rwbrook.h",
+				"checkout/mmdb2//mmdb2/mmdb_ficif.h",
+				"checkout/mmdb2//mmdb2/mmdb_mattype.h",
+				"checkout/mmdb2//mmdb2/mmdb_math_bfgsmin.h",
+				"checkout/mmdb2//mmdb2/mmdb_model.h",
+				"checkout/mmdb2//mmdb2/mmdb_math_linalg.h",
+				"checkout/mmdb2//mmdb2/mmdb_coormngr.h",
+				"checkout/mmdb2//mmdb2/mmdb_seqsuperpose.h",
+				"checkout/mmdb2//mmdb2/mmdb_bondmngr.h",
+				"checkout/mmdb2//mmdb2/mmdb_mask.h",
+				"checkout/mmdb2//mmdb2/mmdb_math_align.h",
+				"checkout/mmdb2//mmdb2/mmdb_symop.h",
+				"checkout/mmdb2//mmdb2/mmdb_defs.h",
+				"checkout/mmdb2//mmdb2/mmdb_io_file.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "mmdb2",
+		"source" : "mmdb2"
+	}
+}

@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libclipper-gemmi.a "CMakeFiles/clipper-gemmi.dir/__/__/checkout/clipper/clipper/gemmi/clipper_gemmi.cpp.o"
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libclipper-gemmi.a
