@@ -1,0 +1,7 @@
+setup.py
+directedit/__init__.py
+directedit/direct_folder.py
+directedit.egg-info/PKG-INFO
+directedit.egg-info/SOURCES.txt
+directedit.egg-info/dependency_links.txt
+directedit.egg-info/top_level.txt
