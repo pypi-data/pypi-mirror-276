@@ -1,0 +1,9 @@
+[console_scripts]
+pulse_linter = pulse_linter:main
+
+[flake8.extension]
+NC = pulse_linter.Extensions.flake8_function_snake_case_checker.checker:SnakeCaseChecker
+SC103 = pulse_linter.Extensions.package_scanner.bad_import:BadImports
+SC104 = pulse_linter.Extensions.package_scanner.bad_importfrom:BadImportfrom
+SM101 = pulse_linter.add_ons.eval:EvalChecker
+SM102 = pulse_linter.add_ons.exec:ExecChecker
