@@ -1,0 +1,3 @@
+[console_scripts]
+wr = wr:main
+wrb = wrb:main
