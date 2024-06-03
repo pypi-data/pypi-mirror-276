@@ -1,0 +1,3 @@
+[console_scripts]
+ant_connect=ant_connect.api_connector:ApiConnector
+
