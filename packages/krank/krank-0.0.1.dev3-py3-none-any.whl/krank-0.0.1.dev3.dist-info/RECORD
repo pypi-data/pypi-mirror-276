@@ -1,0 +1,12 @@
+krank/__init__.py,sha256=rzwhZ3zb_4NxUiTPMuzKmEiANnFHJ-i5eya9kZ-oYBc,127
+krank/_base.py,sha256=XEMcX0zlVAJlQD4rHhBvbxo7GLUgRO-ZUnznj6Lx6lk,8560
+krank/_version.py,sha256=2y45EMEDRHcnEWfy95IDR1789evLgt3bqp8xIZiNG6U,440
+krank/lexicons.py,sha256=LlQKmCT0qc518D3vp6v4ZmXoeP9CEariLCYTo6l1S-I,6774
+krank/liwc.py,sha256=2xt61YJ9KlyuY1uEUohQcspxCczKXggfPMxeMmkicOw,7884
+krank/tables.py,sha256=JhnoR9c1X78IuF4c9M25bZ6jXi4x5J0rMU-lmnicFNc,38269
+krank/data/lexicons.json,sha256=AZGkMm3xrVwmDiJxDAw2DyDzS_FEwMU15_0gJ_M2XRM,445
+krank/data/tables.json,sha256=PQDxhpzQRTrumn5zVlK0SYYUCBeaI0jejrMSBHy-ock,10092
+krank-0.0.1.dev3.dist-info/METADATA,sha256=EDwMe1NTw9gbkojdftIF_EVGbypblwyY0tt8iMsQZ4Q,4044
+krank-0.0.1.dev3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+krank-0.0.1.dev3.dist-info/top_level.txt,sha256=TzTlMHO91VaHKfI9PE8i_Vq2iGPDX0VJ-F7erItWFns,6
+krank-0.0.1.dev3.dist-info/RECORD,,
