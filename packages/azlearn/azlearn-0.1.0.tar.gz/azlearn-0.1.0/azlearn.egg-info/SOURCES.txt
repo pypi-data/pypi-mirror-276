@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+azlearn.egg-info/PKG-INFO
+azlearn.egg-info/SOURCES.txt
+azlearn.egg-info/dependency_links.txt
+azlearn.egg-info/requires.txt
+azlearn.egg-info/top_level.txt

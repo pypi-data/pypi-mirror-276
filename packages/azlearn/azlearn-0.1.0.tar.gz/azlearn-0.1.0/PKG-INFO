@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: azlearn
+Version: 0.1.0
+Summary: This is a Lightweight complete package for machine learning projects.
+Home-page: https://github.com/zakariaCHOUKRI/azlearn/
+Author: AnassKEMMOUNE ZakariaCHOUKRI
+Author-email: anasskemmoune03@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+
+This is a Lightweight complete package for machine learning projects.
