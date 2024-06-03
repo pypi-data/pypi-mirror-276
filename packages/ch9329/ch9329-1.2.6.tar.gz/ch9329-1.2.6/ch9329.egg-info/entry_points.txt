@@ -1,0 +1,2 @@
+[console_scripts]
+lsch9329 = ch9329.tools.lsch9329:main
