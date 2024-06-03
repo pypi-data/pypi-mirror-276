@@ -1,0 +1,11 @@
+movoid_debug/__init__.py,sha256=H4kzBSSUwihN8WaNyLdqUdWY3VEUpcTD01xy8c_yIWs,285
+movoid_debug/simple_debug.py,sha256=i5ZU1SH3r0_daBrlR0i50BzOOaGj8IXqJKEUIOD20rU,2169
+movoid_debug/simple_hot_pause.py,sha256=aqppzX3XNs-Rjv8Kc5xzn7xPQvF8kQXNm2nk6RsEeIM,5742
+movoid_debug/flow/__init__.py,sha256=KEYbgGBcOzamKh-Y9DaJTkkYvXps2e8uM19WCjDYSew,221
+movoid_debug/flow/flow.py,sha256=CxgOVq1dFg36Y4a71k4FuhKTgIDv6ED6jAW3YXRRL_E,8912
+movoid_debug/simple_ui/__init__.py,sha256=YjrYhrPVVdD3SjXMI7vjBHcJU18HpXSyzoBDpf0e70M,445
+movoid_debug/simple_ui/main_window.py,sha256=sxLCM-r2xGgeGeqqec09bDKHZRNYiXEkBAGXzGuMPSk,6558
+movoid_debug-1.2.0.dist-info/METADATA,sha256=HphLSlyL1zIQiWoA31ZTXkG0HB5IFV_JXl7io5fWpac,242
+movoid_debug-1.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+movoid_debug-1.2.0.dist-info/top_level.txt,sha256=-3Pt_3Kkzi008eeHY-DfwlqPcpCmJDIwoTdethLA8YU,13
+movoid_debug-1.2.0.dist-info/RECORD,,
