@@ -1,0 +1,14 @@
+pyclipdrop/__init__.py,sha256=9AaDjFUY3yshqp2vDYmduODyx4qONAe7OlJTTFbK2fk,69
+pyclipdrop/client.py,sha256=U9X_t_npaBJyNkVjc1HBPgO44HzS75CZvmgra0az6NY,26349
+pyclipdrop/exceptions.py,sha256=KjIjSdW4ZKl6ph585kamVno8B0QMwV0ZXqRKQYYMmjE,1177
+pyclipdrop/io_file_handlers/__init__.py,sha256=BwVFiuLV8SmqKJFh7MQXwZEFeSN4bAIDvFUvhBROOCw,153
+pyclipdrop/io_file_handlers/input_file_handler.py,sha256=_VyWLy_kGhVRKFp9rEXcoIZIV_nF-hFXrUc_DVMm9wI,2639
+pyclipdrop/io_file_handlers/output_file_handler.py,sha256=KqOU3Hj3M7iXh9-FzpwfBlB51_vfL91ASY3MLC6j__s,1622
+pyclipdrop/settings.py,sha256=EgGEQqW9eKhWynzEz3mxElZo8hd31IZDat8T5rYKkH8,398
+pyclipdrop/utilities/__init__.py,sha256=Nk-MB1uVdA6y_Wk5VsQsn2Dj7k9DTJd3xZFgnAjerTQ,164
+pyclipdrop/utilities/extractors.py,sha256=vkSFwdse-G-tMHmlPVpRn3o8PHWFcFfbc6Pon9dBu3o,270
+pyclipdrop/utilities/validators.py,sha256=tllonJT5s8imULAM4t7nPyX9PaENsC54a35vVq40akA,277
+pyclipdrop-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyclipdrop-1.0.1.dist-info/METADATA,sha256=88xtSQaMDDU7q6Ma8DmYdn5qdAqGUL-ZaP9tU1zj_mQ,3506
+pyclipdrop-1.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pyclipdrop-1.0.1.dist-info/RECORD,,
