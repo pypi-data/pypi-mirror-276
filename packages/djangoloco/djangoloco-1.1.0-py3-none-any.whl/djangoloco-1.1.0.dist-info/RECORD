@@ -1,0 +1,13 @@
+djangoloco/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoloco/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+djangoloco/apps.py,sha256=VVPZhf8TL2Et4JVDkIrB2cyuN1fi5LcHwtn9dLUcy3E,152
+djangoloco/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+djangoloco/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+djangoloco/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+djangoloco/management/commands/loco.py,sha256=qFzm-tUPc8fDGGDHY6CxOTYJyJjcuaaVHcXeripK3cM,2084
+djangoloco/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoloco-1.1.0.dist-info/LICENSE,sha256=YOOCtWj0PunD41u0-6-rVTMHd07AQFahD0KmZzEcVSU,1494
+djangoloco-1.1.0.dist-info/METADATA,sha256=f_Bv7KnbBedkKDWK5QOLPgQjCZMw0Kumg2kSZKLTyfY,1848
+djangoloco-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+djangoloco-1.1.0.dist-info/top_level.txt,sha256=2tctq9hU6kE_oDgJpM5a1H3MB5ZtL3_DYGm04JjIsCA,11
+djangoloco-1.1.0.dist-info/RECORD,,
