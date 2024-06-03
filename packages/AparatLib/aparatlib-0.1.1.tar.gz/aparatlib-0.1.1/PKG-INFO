@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: AparatLib
+Version: 0.1.1
+Summary: A library for interacting with the Aparat API
+Home-page: https://github.com/AbolDev/aparat-api
+Author: Abol
+Author-email: abaqry8686@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Aparat
+
+A Python library to interact with the Aparat API.
+
+## Installation
+
+```bash
+pip install AparatLib
+```
+
+## Login
+
+```python
+from aparat import Aparat
+
+def main():
+    aparat = Aparat()
+    login = aparat.login('aparat', 'your_password')
+    if login:
+        print("Login successful")
+    else:
+        print("Login failed.")
+
+if __name__ == "__main__":
+    main()
+```
