@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+aispark_cli_plugin_assastant2_test20240602/__init__.py
+aispark_cli_plugin_assastant2_test20240602/shell/__init__.py
+aispark_cli_plugin_assastant2_test20240602/shell/aisparkcli_plugin_assistant2.py
+aispark_cli_plugin_assastant2_test20240602/shell/usage.py
+aispark_plugin_test.egg-info/PKG-INFO
+aispark_plugin_test.egg-info/SOURCES.txt
+aispark_plugin_test.egg-info/dependency_links.txt
+aispark_plugin_test.egg-info/entry_points.txt
+aispark_plugin_test.egg-info/top_level.txt

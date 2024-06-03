@@ -1,0 +1,2 @@
+[console_scripts]
+aispark-plugin-test = aispark_cli_plugin_assastant2_test20240602.shell.usage:run
