@@ -1,0 +1,8 @@
+README.md
+setup.py
+yay_automation/__init__.py
+yay_automation/main.py
+yay_automation.egg-info/PKG-INFO
+yay_automation.egg-info/SOURCES.txt
+yay_automation.egg-info/dependency_links.txt
+yay_automation.egg-info/top_level.txt
