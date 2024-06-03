@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "numbsql"
+homepage = "https://github.com/cpcloud/numbsql"
+repository = "https://github.com/cpcloud/numbsql"
+version = "7.1.0"
+description = "JITted SQLite user-defined scalar and aggregate functions"
+readme = "README.md"
+authors = ["Phillip Cloud <417981+cpcloud@users.noreply.github.com>"]
+maintainers = ["Phillip Cloud <417981+cpcloud@users.noreply.github.com>"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+llvmlite = ">=0.36,<0.43"
+numba = ">=0.53,<0.60"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.22.0"
+mypy = "^1.1.1"
+packaging = "^23.0"
+pytest = "^8.0.0"
+pytest-benchmark = "^4.0.0"
+pytest-randomly = "^3.12.0"
+pytest-xdist = "^3.2.1"
+ruff = ">=0.4.7,<1"
+testbook = ">=0.4.2,<1"
+
+[tool.ruff.lint]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+xfail_strict = true
+addopts = [
+  "--ignore=.direnv",
+  "--ignore=examples",
+  "--strict-markers",
+  "--doctest-modules",
+  "--benchmark-disable",
+]
+norecursedirs = [".direnv", "examples"]
+filterwarnings = [
+  "error",
+  "ignore:Jupyter is migrating:DeprecationWarning",
+  "ignore:pkg_resources is deprecated as an API:DeprecationWarning",
+]
+
+[tool.poetry2conda]
+name = "numbsql"
+
+[tool.mypy]
+ignore_missing_imports = true
+# untyped things
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+# Any handling
+disallow_any_unimported = false
+disallow_any_expr = false
+disallow_any_decorated = false
+disallow_any_explicit = false
+disallow_any_generics = false
+disallow_subclassing_any = false
+# None/Optional handling
+no_implicit_optional = true
+# show more context on failure
+show_error_context = true
+# show codes in case we end up needing to ignore
+show_error_codes = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
