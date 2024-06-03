@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: pynboard
+Version: 0.0.5
+Summary: A better data exploration workflow
+Project-URL: Homepage, https://github.com/datal88p/pynboard
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: pandas>=1.5
+Requires-Dist: plotly
