@@ -1,0 +1,59 @@
+Metadata-Version: 2.3
+Name: thermolib
+Version: 0.3.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: An open-source library for the calculation of fluid properties
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/shaw-yu2020/thermolib
+
+
+# thermolib - An open-source library for the calculation of fluid properties
+
+The `thermolib` library provides Rust implementations of Helmholtz equation of state.
+
+# trait Prop
+
+| fn name | molar unit | mass unit |
+| :---: | :---: | :---: |
+| $$T$$ | $$K$$ | $$K$$ |
+| $$D$$ | $$mol/m^3$$ | $$kg/m^3$$ |
+| $$Z$$ | 1 | 1 |
+| $$p$$ | $$Pa$$ | $$Pa$$ |
+| $$Dp\\_DT\\_D$$ | $$Pa/K$$ | $$Pa/K$$ |
+| $$Dp\\_DD\\_T$$ | $$Pa/\left(mol/m^3\right)$$ | $$Pa/\left(kg/m^3\right)$$ |
+| $$cv$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$cp$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$w$$ | $$m/s$$ | $$m/s$$ |
+| $$s$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$Ds\\_DT\\_D$$ | $$J/mol/K^2$$ | $$J/kg/K^2$$ |
+| $$Ds\\_DD\\_T$$ | $$J/mol/K/\left(mol/m^3\right)$$ | $$J/kg/K/\left(kg/m^3\right)$$ |
+| $$s\\_res$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$u$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$u\\_res$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$h$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$Dh\\_DT\\_D$$ | $$J/mol/K^2$$ | $$J/kg/K^2$$ |
+| $$Dh\\_DD\\_T$$ | $$J/mol/K/\left(mol/m^3\right)$$ | $$J/kg/K/\left(kg/m^3\right)$$ |
+| $$h\\_res$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$a$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$a\\_res$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$g$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$Dg\\_DT\\_D$$ | $$J/mol/K^2$$ | $$J/kg/K^2$$ |
+| $$Dg\\_DD\\_T$$ | $$J/mol/K/\left(mol/m^3\right)$$ | $$J/kg/K/\left(kg/m^3\right)$$ |
+| $$g\\_res$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+| $$B$$ | $$m^3/mol$$ | $$m^3/kg$$ |
+| $$C$$ | $$m^6/mol^2$$ | $$m^6/kg^2$$ |
+| $$k\\_T$$ | 1 | 1 |
+| $$k\\_s$$ | 1 | 1 |
+| $$kappa\\_T$$ | $$1/Pa$$ | $$1/Pa$$ |
+| $$kappa\\_s$$ | $$1/Pa$$ | $$1/Pa$$ |
+| $$ps$$ | $$Pa$$ | $$Pa$$ |
+| $$Dgs$$ | $$mol/m^3$$ | $$kg/m^3$$ |
+| $$Dls$$ | $$mol/m^3$$ | $$kg/m^3$$ |
+| $$h\\_evap$$ | $$J/mol/K$$ | $$J/kg/K$$ |
+
+
