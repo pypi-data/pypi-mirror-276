@@ -1,0 +1,3 @@
+[console_scripts]
+chasta=chasta.chasta:main
+
