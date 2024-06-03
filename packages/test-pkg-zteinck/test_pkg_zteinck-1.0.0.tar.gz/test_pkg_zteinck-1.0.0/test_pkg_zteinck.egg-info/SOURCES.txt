@@ -1,0 +1,9 @@
+README.md
+setup.py
+test_pkg_zteinck/__init__.py
+test_pkg_zteinck/main.py
+test_pkg_zteinck.egg-info/PKG-INFO
+test_pkg_zteinck.egg-info/SOURCES.txt
+test_pkg_zteinck.egg-info/dependency_links.txt
+test_pkg_zteinck.egg-info/requires.txt
+test_pkg_zteinck.egg-info/top_level.txt
