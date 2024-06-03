@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: autoutils-log
+Version: 0.4.0
+Summary: Some Good Function For Log
+Home-page: https://github.com/rezazeiny/autoutils-log
+License: MIT
+Keywords: autoutils_log
+Author: Reza Zeiny
+Author-email: rezazeiny1998@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: confluent-kafka (>=2.4,<3.0)
+Requires-Dist: persiantools (>=4.0,<5.0)
+Requires-Dist: pytz
+Requires-Dist: requests (>=2.32,<3.0)
+Requires-Dist: termcolor (>=2.4.0)
+Project-URL: Repository, https://github.com/rezazeiny/autoutils-log
+Description-Content-Type: text/markdown
+
+# autoutils-log
