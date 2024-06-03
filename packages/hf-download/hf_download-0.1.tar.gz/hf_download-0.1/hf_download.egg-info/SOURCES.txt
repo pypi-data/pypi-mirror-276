@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+hf_download/__init__.py
+hf_download/downloader.py
+hf_download.egg-info/PKG-INFO
+hf_download.egg-info/SOURCES.txt
+hf_download.egg-info/dependency_links.txt
+hf_download.egg-info/entry_points.txt
+hf_download.egg-info/requires.txt
+hf_download.egg-info/top_level.txt
