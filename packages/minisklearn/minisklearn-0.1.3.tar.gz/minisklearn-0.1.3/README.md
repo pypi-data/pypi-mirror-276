@@ -1,0 +1,118 @@
+# Mini Sklearn Implementation Project
+
+## Overview
+
+This project involves the implementation of a mini version of the sklearn library, designed to provide essential machine learning tools and algorithms from scratch. It aims to replicate key functionalities of sklearn, offering a customizable and scalable toolkit for data analysis and modeling.
+
+## Motivation
+
+- **Learning Objective:** To gain a deeper understanding of the inner workings of machine learning algorithms by implementing them from scratch.
+- **Skill Enhancement:** To improve programming and problem-solving skills.
+- **Custom Solution:** To provide a lightweight and customizable alternative to the comprehensive sklearn library.
+
+## Goals
+
+1. **Core Implementations:**
+   - To implement core machine learning algorithms and utilities from scratch.
+2. **Efficiency and Reliability:**
+   - To ensure the implementations are efficient and reliable.
+3. **Modular and Extensible Codebase:**
+   - To create a modular and extensible codebase for future enhancements.
+
+## Modules Implemented
+
+### Cluster
+- **KMeans:** Clustering algorithm that partitions data into k clusters.
+
+### Covariance
+- **EmpiricalCovariance:** Computes the covariance matrix of a dataset.
+
+### Decomposition
+- **PCA (Principal Component Analysis):** Dimensionality reduction technique that identifies principal components.
+
+### Feature Extraction
+- **SimpleCountVectorizer:** Converts text documents into a matrix of token counts.
+
+### Feature Selection
+- **FeatureSelector:** Utility for selecting a subset of features based on certain criteria.
+
+### Impute
+- **MissingIndicator:** Detects missing values and encodes their presence as binary indicators.
+- **SimpleImputer:** Handles missing data by imputing values using specified statistics.
+
+### Linear Model
+- **LinearRegression:** Predicts target variables as a linear combination of input features.
+
+### Metrics
+- **Accuracy Metrics:** `accuracy_score`, `average_precision_score`, `confusion_matrix`, `f1_score`, `precision_score`, `recall_score`, `roc_auc_score`, `roc_curve`
+- **Error Metrics:** `mean_absolute_error`, `mean_squared_error`, `median_absolute_error`, `r2_score`
+- **Similarity Metrics:** `cosine_similarity`, `cosine_distances`, `euclidean_distances`
+- **Kernel Functions:** `linear_kernel`, `rbf_kernel`
+
+### Neighbors
+- **KNeighborsClassifier:** Classification based on the majority class of nearest neighbors.
+- **KNeighborsRegressor:** Regression based on the average value of nearest neighbors.
+- **NearestCentroid:** Classifies data points based on the centroid of their nearest class neighbors.
+
+### Model Selection
+- **KFold:** Cross-validation technique that splits data into k folds.
+- **GridSearchCV:** Hyperparameter tuning method that searches through a specified parameter grid.
+
+### Naive Bayes
+- **GaussianNB:** Naive Bayes classifier assuming features follow a Gaussian distribution.
+
+### Preprocessing
+- **Scalers:** `MaxAbsScaler`, `MinMaxScaler`, `Normalizer`, `RobustScaler`, `StandardScaler`
+- **Encoders:** `Binarizer`, `KBinsDiscretizer`, `LabelBinarizer`, `LabelEncoder`
+
+### SVM
+- **LinearSVC:** Linear support vector classifier for binary classification tasks.
+
+### Tree
+- **DecisionTreeClassifier:** Classification algorithm that builds a decision tree.
+- **DecisionTreeRegressor:** Regression algorithm that builds a decision tree to predict continuous target variables.
+
+## Technical Stack
+
+- **Programming Language:** Python
+- **Libraries and Tools:** NumPy, matplotlib, scikit-learn (as reference)
+- **Development Environment:** Jupyter Notebooks
+
+## Architecture
+
+- **Modular Design:** Follows a structure similar to sklearn, with modules for different machine learning tasks.
+- **Components:** Each module contains classes and functions for specific tasks.
+- **Interconnection:** Modules are interconnected to enable seamless integration and workflow.
+
+## Implementation Details
+
+- **Key Algorithms:** KMeans, PCA, Linear Regression, and various metrics.
+- **Code Structure:** Organized into modules with hierarchical class structures, promoting code reusability and maintainability.
+- **Documentation:** Comprehensive documentation provided for classes and functions.
+
+## Challenges and Solutions
+
+- **Challenge:** Ensuring efficiency and scalability.
+- **Solution:** Employing vectorization and algorithmic optimizations.
+
+## Testing
+
+- **Test Cases:** Designed comprehensive test cases covering various scenarios.
+- **Testing Framework:** Used pytest for automated testing to ensure correctness and consistency across implementations.
+- **Results:** High correlation and accuracy with sklearn algorithms.
+
+## Packaging
+
+- **Distribution:** The project is packaged and distributed using pip. To install, use the following command:
+__pip install minisklearn__
+
+## Future Work
+
+- **Enhancements:** Addition of new algorithms and optimization techniques.
+- **Scalability:** Further scaling of the project to handle larger datasets and more complex tasks.
+
+## Conclusion
+
+- **Summary:** Successfully implemented core machine learning algorithms and utilities, creating a modular and extensible codebase.
+- **Learnings:** Gained valuable insights into algorithm design and modular programming.
+- **Acknowledgements:** Special thanks to collaborators, mentors, and resources that supported this project.
