@@ -1,0 +1,3 @@
+[console_scripts]
+breadslicer=breadslicer.main:main
+

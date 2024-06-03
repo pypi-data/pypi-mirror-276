@@ -1,0 +1,26 @@
+.venv/
+.env
+venv
+__javascript__/
+.jsbuild
+builds/
+dist/
+.idea
+.mypy_cache
+__pycache__/
+*.pyc
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### Django ###
+*.log
+*.pot
+db.sqlite3

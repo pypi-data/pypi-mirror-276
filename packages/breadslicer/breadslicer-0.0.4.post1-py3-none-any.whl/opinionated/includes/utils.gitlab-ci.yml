@@ -1,0 +1,72 @@
+### Job templates ###
+.build_job: &build_job
+  image:
+    name: gcr.io/kaniko-project/executor:v1.21.0-debug
+    entrypoint: [""]
+  script:
+    - echo "{\"auths\":{\"${DOCKER_REGISTRY}\":{\"auth\":\"$(printf "%s:%s" "${DOCKER_REGISTRY_USER}" "${DOCKER_REGISTRY_PASSWORD}" | base64 | tr -d '\n')\"},\"$(echo -n $CI_DEPENDENCY_PROXY_SERVER | awk -F[:] '{print $1}')\":{\"auth\":\"$(printf "%s:%s" ${CI_DEPENDENCY_PROXY_USER} "${CI_DEPENDENCY_PROXY_PASSWORD}" | base64 | tr -d '\n')\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor
+      --context "${CI_PROJECT_DIR}"
+      --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
+      --destination "${DOCKER_REGISTRY_IMAGE}:${TAG}"
+      --target ${TARGET}
+      --reproducible
+      --cache=true
+      --cache-copy-layers
+
+
+### Templates for job rules ###
+.all_rules:
+  rules:
+    - changes:
+        # Paths that will be observed for changes
+        paths: &changes_path
+          - poetry.lock
+          - Dockerfile
+    # Run on main branch
+    - &rule_default_branch
+      if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: always
+     # Run when merge request
+    - &rule_merge_request
+      if: $CI_MERGE_REQUEST_ID
+      variables:
+        TAG: ci
+      when: always
+    # Run on main branch when path changes
+    - &rule_default_changed
+      if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        *changes_path
+    # Run when merge request, paths changes and change image to use
+    - &rule_merge_request_changed
+      if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        *changes_path
+      variables:
+        TAG: ci-$CI_MERGE_REQUEST_IID
+
+
+# Only run job on default/main branch
+.default_branch: &default_branch
+  rules:
+    - *rule_default_branch
+    - when: never
+
+# Merge request rule. Only run on merge request
+# If `paths` has changed use special image
+.merge_request: &merge_request
+  rules:
+    - *rule_merge_request_changed
+    - *rule_merge_request
+    - when: never
+
+# Special rules for ci build job
+# If there are changes to paths it will create a new ci image.
+# This image will then be used through throughout the merge request.
+.ci_build_rules: &ci_build_rules
+  rules:
+    - *rule_merge_request_changed
+    - *rule_default_changed
+    - when: never
+

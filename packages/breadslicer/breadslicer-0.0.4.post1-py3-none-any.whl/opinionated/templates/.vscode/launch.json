@@ -1,0 +1,94 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {% if project_type == "django" %}{
+            "name": "Django Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true
+        },{% endif %}
+        {% if project_type == "flask" %}{
+            "name": "Flask Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "app.py",
+                "FLASK_DEBUG": "1"
+            },
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload"
+            ],
+            "jinja": true
+        },{% endif %}
+        {% if project_type == "app_flat" %}{
+            "name": "CMD Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/{{project_slug}}/main.py",
+            "env": {
+            },
+            "args": [
+            ]
+        },{
+            "name": "CMD(ARGS) Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/{{project_slug}}/main.py",
+            "env": {
+            },
+            "args": [
+                "${input:cmdArgs}"
+
+            ]
+        },{% endif %}
+        {% if project_type == "app_src" %}{
+            "name": "CMD Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/{{project_slug}}/main.py",
+            "env": {
+            },
+            "args": [
+            ]
+        },
+        {
+            "name": "CMD(ARGS) Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/{{project_slug}}/main.py",
+            "env": {
+            },
+            "args": [
+                "${input:cmdArgs}"
+            ]
+        },
+        {% endif %}
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+
+    ],
+    "inputs": [
+        {
+            "type": "promptString",
+            "id": "cmdArgs",
+            "description": "Commandline arguments",
+            "default": ""
+        }
+    ]
+}

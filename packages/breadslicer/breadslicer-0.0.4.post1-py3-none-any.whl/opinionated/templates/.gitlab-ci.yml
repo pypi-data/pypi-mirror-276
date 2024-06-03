@@ -1,0 +1,5 @@
+{% if project_type == "lib" or project_type == "app" %}
+{% include "lib.gitlab-ci.yml" %}
+{% else %}
+{% include "app.gitlab-ci.yml" %}
+{% endif %}
