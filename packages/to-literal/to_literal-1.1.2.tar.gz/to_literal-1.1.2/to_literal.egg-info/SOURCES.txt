@@ -1,0 +1,11 @@
+README.md
+setup.py
+tests/__init__.py
+tests/v1/__init__.py
+to_literal/__init__.py
+to_literal.egg-info/PKG-INFO
+to_literal.egg-info/SOURCES.txt
+to_literal.egg-info/dependency_links.txt
+to_literal.egg-info/top_level.txt
+to_literal/v1/__init__.py
+to_literal/v1/castLiteral.py
