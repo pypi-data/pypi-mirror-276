@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+processed
+outputs
+trash
+examples*
+.env
+test
+venv
+dist
+converter
