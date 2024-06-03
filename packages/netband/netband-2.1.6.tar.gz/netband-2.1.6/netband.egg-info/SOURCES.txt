@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+netband.1
+netband.py
+setup.cfg
+setup.py
+netband.egg-info/PKG-INFO
+netband.egg-info/SOURCES.txt
+netband.egg-info/dependency_links.txt
+netband.egg-info/entry_points.txt
+netband.egg-info/top_level.txt
