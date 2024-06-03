@@ -1,0 +1,16 @@
+include pyproject.toml setup.py MANIFEST.in Makefile
+include README.rst CHANGELOG.rst LICENSE
+include docs/Makefile docs/make.bat
+recursive-include docs/source *
+recursive-include tests *.py
+recursive-include bertrand *.h *.cpp *.pyx *.pxd *.pyi py.typed
+recursive-include third_party cpptrace*.tar.gz googletest*.tar.gz pcre2*.tar.gz
+
+global-exclude *Zone.Identifier *.pyc
+recursive-exclude bertrand *.c
+recursive-exclude env *
+recursive-exclude .env *
+recursive-exclude venv *
+recursive-exclude .venv *
+prune **__pycache__**
+prune docs/source/generated

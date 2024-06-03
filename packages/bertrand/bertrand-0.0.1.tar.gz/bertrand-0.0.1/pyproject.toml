@@ -1,0 +1,148 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "pybind11>=2.6.1",
+    "cython >= 3.0.0",
+    "cmake>=3.18",
+    "numpy"
+]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[tool.setuptools.packages.find]
+include = ["bertrand*"]
+
+[tool.setuptools.package-data]
+bertrand = ["py.typed"]
+
+[project]
+name = "bertrand"
+version = "0.0.1"
+description = "(in development) Type-safe language bindings for Python/C++"
+authors = [
+    { name="Eric Erkela", email="eerkela42@gmail.com" }
+]
+readme = "README.rst"
+license = { file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Cython",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+]
+keywords = [
+    "numpy",
+    "pandas",
+    "data",
+    "type",
+    "typing",
+    "dtype",
+    "ExtensionDtype",
+    "cast",
+    "conversion",
+    "astype",
+    "dispatch",
+    "multiple dispatch",
+    "data science",
+    "data analysis",
+    "data cleaning",
+    "data processing",
+    "data manipulation",
+    "data transformation",
+    "data engineering",
+    "ETL",
+]
+dependencies = [
+    "numpy",
+    "pandas >= 2.0.0",
+    "pyarrow",
+    "pybind11 >= 2.6.1",
+    "python-dateutil",
+    "pytz",
+    "regex",
+    "tzlocal",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "bumpver",
+    "cibuildwheel",
+    "cmake>=3.18",
+    "cython >= 3.0.0",
+    "mypy",
+    "pandas-stubs",
+    "pylint",
+    "pytest",
+    "pytest-cpp",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinx-tabs",
+    "sphinx-togglebutton",
+    "types-python-dateutil",
+    "types-pytz",
+    "types-regex",
+    "types-tzlocal",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/eerkela/bertrand"
+# "Documentation" = "<link to readthedocs>"
+"Issue Tracker" = "https://github.com/eerkela/bertrand/issues"
+
+[tool.bumpver]
+current_version = "0.5.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"bertrand/__init__.py" = ['__version__ = "{version}"']
+
+[tool.cibuildwheel.windows]
+before-all = "choco install visualstudio2022buildtools"  # C/C++ build tools
+
+[tool.black]
+line-length = 88
+
+[tool.mypy]
+allow_untyped_globals = false        # force globals to be typed
+disallow_untyped_defs = true         # force function signatures to be typed
+disallow_any_generics = true         # force generic containers to be typed
+strict_optional = true               # force Nones to be explicitly typed
+warn_redundant_casts = true          # warn if typing.cast() is unnecessary
+warn_unused_ignores = true           # warn on unnecessary # type: ignore comments
+warn_no_return = true                # warn on functions with no return branch
+warn_unreachable = true              # warn on unreachable code after type analysis
+pretty = true                        # add source context to error messages
+color_output = true                  # colorize error messages
+error_summary = true                 # print a short summary for each error
+
+[tool.pylint]
+ignore-patterns = [".*\\.pyi"]       # ignore type stubs
+disable = ["too-many-lines"]         # disable max line length for modules
+extension-pkg-allow-list = "bertrand"  # load Cython extensions
+load-plugins = ["pylint.extensions.docparams"]
+accept-no-param-doc = false          # force function parameters to be documented
+accept-no-return-doc = false         # force function return values to be documented
+accept-no-raise-doc = false          # force exceptions to be documented
+accept-no-yields-doc = false         # force generator yields to be documented
+output-format = "colorized"
+suggestion-mode = true
+jobs = 0
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "test",         # Python tests
+    "test/build",   # C++ tests
+]
+# cpp_harness = valgrind --tool=memcheck
