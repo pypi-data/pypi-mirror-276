@@ -1,0 +1,13 @@
+sccore/__init__.py,sha256=lzGFsymf0DtA_1oAZcPbeQ557iY-1BRkekhfA2qaFh8,18
+sccore/parse_protocol.py,sha256=kw-tbl5ydYjM7xmIYlBHrOzXhAtgFog46PSoryMqtfc,9235
+sccore/utils.py,sha256=x68wkDm0YcF3fPz2poVCweh0h8CVKTql3ioXDMAcAII,2314
+sccore/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sccore/cli/create_genome.py,sha256=AQ1XmWwjBnGhnnZlYCjwdZSGPii_ejYFxJARJayL0lQ,1252
+sccore/cli/create_test_data.py,sha256=tmnPC2nngcHz92Ot-pQJWOjM138ZkPJD__lk_-H_oqs,5935
+sccore/cli/format_bc.py,sha256=tDU1O6inibWL5a_IX-NCz0yHtZSZwS_Vcbk2aFhzi8k,1748
+sccore/cli/manifest.py,sha256=opfQ9u2Tun5tCRL3tg9xyGg9flUaKhfSXLN18Dyn_t4,5662
+sccore-1.0.0.dist-info/METADATA,sha256=6b0yBS1ivpDpR_3wmix3gk1l8prPkUqhkIhDGL8_OPQ,481
+sccore-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sccore-1.0.0.dist-info/entry_points.txt,sha256=xGhLKHYILkcTmBbaPvOizA2NsZTnk2t-pdtnMC_uMtc,226
+sccore-1.0.0.dist-info/top_level.txt,sha256=4iH6VUgzPsdZm8NDlg-eK_CmosTvD066rkSKg1ZXzdE,7
+sccore-1.0.0.dist-info/RECORD,,
