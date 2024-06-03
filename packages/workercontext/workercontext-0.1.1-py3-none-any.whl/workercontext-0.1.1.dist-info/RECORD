@@ -1,0 +1,8 @@
+workercontext/__init__.py,sha256=0Sds0vJwIcGDTmWo_lP5gibcudQpaidi8gtZP4F6UVM,130
+workercontext/multiworker.py,sha256=EPqxij5DOSRTM7ciqYJmGPRu4ezq0DV79WX1OC_b-QI,11043
+workercontext/reductions.py,sha256=YfeYkb7I6F1LMV-4HCYKJ1EJcdm1098I5P9M0CEK7I0,4566
+workercontext-0.1.1.dist-info/LICENSE,sha256=t4Y_Qj5rWmzy1rrOpQ8_oVzUwCxcAFdBwrY_uyjrFlA,1068
+workercontext-0.1.1.dist-info/METADATA,sha256=Yxy7KRDs6yiiw9tvfMKNyBbxuk9wP6wjGcYsFT3o_JU,7361
+workercontext-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+workercontext-0.1.1.dist-info/top_level.txt,sha256=nTCAkO9QW3iUGUgVpiMBdihF_wyxBXGy1k5ojii9qP4,14
+workercontext-0.1.1.dist-info/RECORD,,
