@@ -1,0 +1,176 @@
+# sigevents_us/events.py
+
+events = {
+    2023: {
+        "New Year's Day": "2023-01-01",
+        "Martin Luther King Jr. Day": "2023-01-16",
+        "Presidents' Day": "2023-02-20",
+        "Easter": "2023-04-09",
+        "Memorial Day": "2023-05-29",
+        "Independence Day": "2023-07-04",
+        "Labor Day": "2023-09-04",
+        "Columbus Day": "2023-10-09",
+        "Veterans Day": "2023-11-11",
+        "Thanksgiving": "2023-11-23",
+        "Christmas Day": "2023-12-25"
+    },
+    2024: {
+        "New Year's Day": "2024-01-01",
+        "Martin Luther King Jr. Day": "2024-01-15",
+        "Presidents' Day": "2024-02-19",
+        "Easter": "2024-03-31",
+        "Memorial Day": "2024-05-27",
+        "Independence Day": "2024-07-04",
+        "Labor Day": "2024-09-02",
+        "Columbus Day": "2024-10-14",
+        "Veterans Day": "2024-11-11",
+        "Thanksgiving": "2024-11-28",
+        "Christmas Day": "2024-12-25"
+    },
+    2025: {
+        "New Year's Day": "2025-01-01",
+        "Martin Luther King Jr. Day": "2025-01-20",
+        "Presidents' Day": "2025-02-17",
+        "Easter": "2025-04-20",
+        "Memorial Day": "2025-05-26",
+        "Independence Day": "2025-07-04",
+        "Labor Day": "2025-09-01",
+        "Columbus Day": "2025-10-13",
+        "Veterans Day": "2025-11-11",
+        "Thanksgiving": "2025-11-27",
+        "Christmas Day": "2025-12-25"
+    },
+    2026: {
+        "New Year's Day": "2026-01-01",
+        "Martin Luther King Jr. Day": "2026-01-19",
+        "Presidents' Day": "2026-02-16",
+        "Easter": "2026-04-05",
+        "Memorial Day": "2026-05-25",
+        "Independence Day": "2026-07-04",
+        "Labor Day": "2026-09-07",
+        "Columbus Day": "2026-10-12",
+        "Veterans Day": "2026-11-11",
+        "Thanksgiving": "2026-11-26",
+        "Christmas Day": "2026-12-25"
+    },
+    2027: {
+        "New Year's Day": "2027-01-01",
+        "Martin Luther King Jr. Day": "2027-01-18",
+        "Presidents' Day": "2027-02-15",
+        "Easter": "2027-03-28",
+        "Memorial Day": "2027-05-31",
+        "Independence Day": "2027-07-04",
+        "Labor Day": "2027-09-06",
+        "Columbus Day": "2027-10-11",
+        "Veterans Day": "2027-11-11",
+        "Thanksgiving": "2027-11-25",
+        "Christmas Day": "2027-12-25"
+    },
+    2028: {
+        "New Year's Day": "2028-01-01",
+        "Martin Luther King Jr. Day": "2028-01-17",
+        "Presidents' Day": "2028-02-21",
+        "Easter": "2028-04-16",
+        "Memorial Day": "2028-05-29",
+        "Independence Day": "2028-07-04",
+        "Labor Day": "2028-09-04",
+        "Columbus Day": "2028-10-09",
+        "Veterans Day": "2028-11-11",
+        "Thanksgiving": "2028-11-23",
+        "Christmas Day": "2028-12-25"
+    },
+    2029: {
+        "New Year's Day": "2029-01-01",
+        "Martin Luther King Jr. Day": "2029-01-15",
+        "Presidents' Day": "2029-02-19",
+        "Easter": "2029-04-01",
+        "Memorial Day": "2029-05-28",
+        "Independence Day": "2029-07-04",
+        "Labor Day": "2029-09-03",
+        "Columbus Day": "2029-10-08",
+        "Veterans Day": "2029-11-11",
+        "Thanksgiving": "2029-11-22",
+        "Christmas Day": "2029-12-25"
+    },
+    2030: {
+        "New Year's Day": "2030-01-01",
+        "Martin Luther King Jr. Day": "2030-01-21",
+        "Presidents' Day": "2030-02-18",
+        "Easter": "2030-04-21",
+        "Memorial Day": "2030-05-27",
+        "Independence Day": "2030-07-04",
+        "Labor Day": "2030-09-02",
+        "Columbus Day": "2030-10-14",
+        "Veterans Day": "2030-11-11",
+        "Thanksgiving": "2030-11-28",
+        "Christmas Day": "2030-12-25"
+    },
+    2031: {
+        "New Year's Day": "2031-01-01",
+        "Martin Luther King Jr. Day": "2031-01-20",
+        "Presidents' Day": "2031-02-17",
+        "Easter": "2031-04-13",
+        "Memorial Day": "2031-05-26",
+        "Independence Day": "2031-07-04",
+        "Labor Day": "2031-09-01",
+        "Columbus Day": "2031-10-13",
+        "Veterans Day": "2031-11-11",
+        "Thanksgiving": "2031-11-27",
+        "Christmas Day": "2031-12-25"
+    },
+    2032: {
+        "New Year's Day": "2032-01-01",
+        "Martin Luther King Jr. Day": "2032-01-19",
+        "Presidents' Day": "2032-02-16",
+        "Easter": "2032-03-28",
+        "Memorial Day": "2032-05-31",
+        "Independence Day": "2032-07-04",
+        "Labor Day": "2032-09-06",
+        "Columbus Day": "2032-10-11",
+        "Veterans Day": "2032-11-11",
+        "Thanksgiving": "2032-11-25",
+        "Christmas Day": "2032-12-25"
+    },
+    2033: {
+        "New Year's Day": "2033-01-01",
+        "Martin Luther King Jr. Day": "2033-01-17",
+        "Presidents' Day": "2033-02-21",
+        "Easter": "2033-04-17",
+        "Memorial Day": "2033-05-30",
+        "Independence Day": "2033-07-04",
+        "Labor Day": "2033-09-05",
+        "Columbus Day": "2033-10-10",
+        "Veterans Day": "2033-11-11",
+        "Thanksgiving": "2033-11-24",
+        "Christmas Day": "2033-12-25"
+    },
+    2034: {
+        "New Year's Day": "2034-01-01",
+        "Martin Luther King Jr. Day": "2034-01-16",
+        "Presidents' Day": "2034-02-20",
+        "Easter": "2034-04-09",
+        "Memorial Day": "2034-05-29",
+        "Independence Day": "2034-07-04",
+        "Labor Day": "2034-09-04",
+        "Columbus Day": "2034-10-09",
+        "Veterans Day": "2034-11-11",
+        "Thanksgiving": "2034-11-23",
+        "Christmas Day": "2034-12-25"
+    },
+    2035: {
+        "New Year's Day": "2035-01-01",
+        "Martin Luther King Jr. Day": "2035-01-15",
+        "Presidents' Day": "2035-02-19",
+        "Easter": "2035-03-25",
+        "Memorial Day": "2035-05-28",
+        "Independence Day": "2035-07-04",
+        "Labor Day": "2035-09-03",
+        "Columbus Day": "2035-10-08",
+        "Veterans Day": "2035-11-11",
+        "Thanksgiving": "2035-11-22",
+        "Christmas Day": "2035-12-25"
+    }
+}
+
+def get_events(year):
+    return events.get(year, {})
