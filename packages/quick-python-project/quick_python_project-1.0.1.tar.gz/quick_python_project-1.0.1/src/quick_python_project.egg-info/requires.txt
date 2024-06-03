@@ -1,0 +1,11 @@
+click
+colorlog
+
+[dev]
+build
+coverage
+covdefaults
+pytest
+ruff
+tox
+twine
