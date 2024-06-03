@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mutt-html-reply"
+version = "0.4.4"
+dependencies = [
+	"bs4",
+	"css_inline"
+]
+authors = [
+	{name = "Erik Rogers", email = "erik@rogers-family.net"}
+]
+maintainers = [
+	{name = "Erik Rogers", email = "erik@rogers-family.net"}
+]
+description = "Create an Outlook-style HTML reply"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["mutt", "html", "email", "reply"]
+
+[project.scripts]
+mutt-html-reply = "mutt_html_reply.mutt_html_reply:main"
+
+[project.urls]
+Repository = "https://github.com/erogers88/mutt-html-reply"
