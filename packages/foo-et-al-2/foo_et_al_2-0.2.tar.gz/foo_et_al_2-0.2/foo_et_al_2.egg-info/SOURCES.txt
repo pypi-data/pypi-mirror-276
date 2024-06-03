@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+docs/api.md
+docs/index.md
+docs/installation.md
+docs/release-notes.md
+et_al/__init__.py
+foo_et_al/__init__.py
+foo_et_al/foo_et_al.py
+foo_et_al/utils.py
+foo_et_al_2.egg-info/PKG-INFO
+foo_et_al_2.egg-info/SOURCES.txt
+foo_et_al_2.egg-info/dependency_links.txt
+foo_et_al_2.egg-info/top_level.txt
