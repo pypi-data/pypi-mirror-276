@@ -1,0 +1,3 @@
+[console_scripts]
+netmaskc = netmask.netmaskc:main
+netmasks = netmask.netmasks:main
