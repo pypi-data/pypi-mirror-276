@@ -1,0 +1,183 @@
+import base64
+import httpx
+import nonebot
+
+from nonebot import on_command
+from nonebot.params import CommandArg
+from nonebot.rule import to_me
+from nonebot.adapters.onebot.v11 import (
+    Message,
+    MessageSegment,
+    PrivateMessageEvent,
+    MessageEvent,
+    helpers,
+)
+from nonebot.plugin import PluginMetadata
+from .config import Config, ConfigError
+from openai import AsyncOpenAI
+
+__plugin_meta__ = PluginMetadata(
+    name="自定义人格和AI绘图的混合聊天BOT",
+    description="基于GPT4+NovelAI V3,Bot在将自然语言转换为NAI3提示词并绘图发送的同时以自定义人格与用户聊天。",
+    usage="""
+    ** 聊天内容/作图需求
+    记忆清除 清除当前用户的聊天记录
+    """,
+    config=Config,
+    extra={},
+    type="application",
+    homepage="https://github.com/Alpaca4610/nonebot_plugin_nai3_bot.git",
+    supported_adapters={"~onebot.v11"},
+)
+
+
+plugin_config = Config.parse_obj(nonebot.get_driver().config.dict())
+
+if not plugin_config.oneapi_key:
+    raise ConfigError("请配置大模型使用的KEY")
+if plugin_config.oneapi_url:
+    client = AsyncOpenAI(
+        api_key=plugin_config.oneapi_key, base_url=plugin_config.oneapi_url
+    )
+else:
+    client = AsyncOpenAI(api_key=plugin_config.oneapi_key)
+
+model_id = plugin_config.oneapi_model
+
+# public = plugin_config.chatgpt_turbo_public
+session = {}
+
+# 带上下文的聊天
+chat_record = on_command("chat", block=False, priority=1)
+
+# 不带上下文的聊天
+chat_request = on_command("", rule=to_me(), block=False, priority=99)
+
+# 清除历史记录
+clear_request = on_command("clear", block=True, priority=1)
+
+
+# 带记忆的聊天
+@chat_record.handle()
+async def _(event: MessageEvent, msg: Message = CommandArg()):
+    # 若未开启私聊模式则检测到私聊就结束
+    if isinstance(event, PrivateMessageEvent) and not plugin_config.enable_private_chat:
+        chat_record.finish("对不起，私聊暂不支持此功能。")
+    content = msg.extract_plain_text()
+    img_url = helpers.extract_image_urls(event.message)
+    if content == "" or content is None:
+        await chat_request.finish(MessageSegment.text("内容不能为空！"), at_sender=True)
+    await chat_request.send(
+        MessageSegment.text("ChatGPT正在思考中......"), at_sender=True
+    )
+    session_id = event.get_session_id()
+    if session_id not in session:
+        session[session_id] = []
+
+    if not img_url:
+        try:
+            session[session_id].append({"role": "user", "content": content})
+            response = await client.chat.completions.create(
+                model=model_id,
+                messages=session[session_id],
+            )
+        except Exception as error:
+            await chat_record.finish(str(error), at_sender=True)
+        await chat_record.finish(
+            MessageSegment.text(str(response.choices[0].message.content)),
+            at_sender=True,
+        )
+    else:
+        try:
+            image_data = base64.b64encode(httpx.get(img_url[0]).content).decode("utf-8")
+            session[session_id].append(
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": content},
+                        {
+                            "type": "image_url",
+                            "image_url": {"url": f"data:image/png;base64,{image_data}"},
+                        },
+                    ],
+                }
+            )
+            response = await client.chat.completions.create(
+                model=model_id, messages=session[session_id]
+            )
+        except Exception as error:
+            await chat_record.finish(str(error), at_sender=True)
+        await chat_record.finish(
+            MessageSegment.text(response.choices[0].message.content), at_sender=True
+        )
+
+
+# 不带记忆的对话
+@chat_request.handle()
+async def _(event: MessageEvent, msg: Message = CommandArg()):
+    if isinstance(event, PrivateMessageEvent) and not plugin_config.enable_private_chat:
+        chat_record.finish("对不起，私聊暂不支持此功能。")
+
+    img_url = helpers.extract_image_urls(event.message)
+    content = msg.extract_plain_text()
+    if content == "" or content is None:
+        await chat_request.finish(MessageSegment.text("内容不能为空！"), at_sender=True)
+    await chat_request.send(
+        MessageSegment.text("ChatGPT正在思考中......"), at_sender=True
+    )
+    if not img_url:
+        try:
+            response = await client.chat.completions.create(
+                model=model_id,
+                messages=[{"role": "user", "content": content}],
+            )
+        except Exception as error:
+            await chat_request.finish(str(error), at_sender=True)
+        await chat_request.finish(
+            MessageSegment.text(str(response.choices[0].message.content)),
+            at_sender=True,
+        )
+    else:
+        try:
+            image_data = base64.b64encode(httpx.get(img_url[0]).content).decode("utf-8")
+            response = await client.chat.completions.create(
+                model=model_id,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": content},
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": f"data:image/png;base64,{image_data}"
+                                },
+                            },
+                        ],
+                    }
+                ],
+            )
+        except Exception as error:
+            await chat_request.finish(str(error), at_sender=True)
+        await chat_request.finish(
+            MessageSegment.text(response.choices[0].message.content), at_sender=True
+        )
+
+
+@clear_request.handle()
+async def _(event: MessageEvent):
+    del session[event.get_session_id()]
+    await clear_request.finish(
+        MessageSegment.text("成功清除历史记录！"), at_sender=True
+    )
+
+
+# # 根据消息类型创建会话id
+# def create_session_id(event):
+#     if isinstance(event, PrivateMessageEvent):
+#         session_id = f"Private_{event.user_id}"
+#     elif public:
+#         session_id = event.get_session_id().replace(f"{event.user_id}", "Public")
+#     else:
+#         session_id = event.get_session_id()
+#     return session_id
