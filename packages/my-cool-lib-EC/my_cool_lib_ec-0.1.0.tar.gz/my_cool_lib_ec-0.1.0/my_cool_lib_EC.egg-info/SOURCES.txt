@@ -1,0 +1,4 @@
+my_cool_lib_EC.egg-info/PKG-INFO
+my_cool_lib_EC.egg-info/SOURCES.txt
+my_cool_lib_EC.egg-info/dependency_links.txt
+my_cool_lib_EC.egg-info/top_level.txt
