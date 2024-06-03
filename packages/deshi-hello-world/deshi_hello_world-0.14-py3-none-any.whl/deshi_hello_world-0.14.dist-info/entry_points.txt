@@ -1,0 +1,2 @@
+[console_scripts]
+deshi-multiply = deshi_hello_world.cli:combined_command
