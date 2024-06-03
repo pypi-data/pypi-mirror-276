@@ -1,0 +1,16 @@
+ipython
+PyPDF2
+beautifulsoup4
+python-docx
+get-gecko-driver
+google-api-python-client
+litellm
+numpy
+odfpy
+openai
+pydub
+pynput
+requests
+selenium
+sounddevice
+tiktoken
