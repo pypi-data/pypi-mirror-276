@@ -1,0 +1,9 @@
+sentry_offline/__init__.py,sha256=T4mcFrCZPbt_tQl5H8VEiQtHXhtYiORkFwAW6fyEUaI,195
+sentry_offline/api.py,sha256=DONEoL9kTfoPYL1vy_qhOIVyhdbqiLEufFEEFM_xFl4,1544
+sentry_offline/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sentry_offline/storage.py,sha256=JrsNfN5EjiXJSs7LfAeP8z-Q3x21980yNKlDxh0motI,1826
+sentry_offline/transport.py,sha256=jvH6f5kb-_0zzN57z_AANWvCTgUrsIILpzvPgB3c_M4,1894
+sentry_offline_transport-1.0.0.dist-info/LICENSE,sha256=JoTqnqaQzAJiAo_izJMw07zGum9-7ksJLcLXRljD4kQ,1071
+sentry_offline_transport-1.0.0.dist-info/METADATA,sha256=q_JrClt63RwPFGYtroxA_7Eflq1EySiBybm090K9bv0,2436
+sentry_offline_transport-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sentry_offline_transport-1.0.0.dist-info/RECORD,,
