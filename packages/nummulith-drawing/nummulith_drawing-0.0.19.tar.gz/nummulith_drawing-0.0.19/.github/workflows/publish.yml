@@ -1,0 +1,44 @@
+name: Publish Python Package
+
+on:
+  push:
+    # branches:
+    #   - main
+    tags:
+       - 'v*.*.*'
+
+jobs:
+  publish:
+      
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install build twine wheel setuptools_scm
+
+    # - name: Install build
+    #   run: python3 -m pip install --upgrade build
+
+    - name: Build package
+      run: python3 -m build
+
+    - name: LS
+      run: ls -R
+
+    - name: cat
+      run: cat src/drawing/_version.py
+
+    - name: Publish package to PyPI
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+      run: twine upload dist/* --verbose
