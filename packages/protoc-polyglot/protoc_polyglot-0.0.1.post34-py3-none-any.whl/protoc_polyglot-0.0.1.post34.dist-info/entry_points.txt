@@ -1,0 +1,2 @@
+[console_scripts]
+protoc-polyglot = protoc_polyglot.wrapper:execute
