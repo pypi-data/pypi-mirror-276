@@ -1,0 +1,28 @@
+[project]
+name = "awktutorial"
+version = "1.1.0"
+authors = [
+  { name="Sundeep Agarwal", email="learnbyexample.net@gmail.com" },
+]
+description = "brief tour of the GNU awk command"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "textual>=0.63.6",
+]
+
+[project.scripts]
+awktutorial = "awktutorial.awk_tutorial:main"
+
+[project.urls]
+"Source" = "https://github.com/learnbyexample/TUI-apps/tree/main/AwkTutorial"
+"Issues" = "https://github.com/learnbyexample/TUI-apps/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
