@@ -1,0 +1,2 @@
+[console_scripts]
+display_image_cv = display_image_cv:display_image
