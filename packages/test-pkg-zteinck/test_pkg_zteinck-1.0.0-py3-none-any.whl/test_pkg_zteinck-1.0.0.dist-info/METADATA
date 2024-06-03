@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: test_pkg_zteinck
+Version: 1.0.0
+Summary: test package
+Author: Zachary Einck
+Requires-Dist: requests
+
