@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: impyrialTest
+Version: 0.1.5
+Summary: A package for converting imperial lengths and weights.
+Author: Ahmed Elkhodary
+License: MIT license
+Keywords: impyrialTest
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ==3.8.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.10
+Requires-Dist: pandas >=1.0.0
+
+# impyrial
+
+A package for converting between imperial unit lengths and weights.
+
+This package was created for the [DataCamp](https://www.datacamp.com) course "Developing Python Packages".
+
+### Features
+
+- Convert lengths between miles, yards, feet and inches.
+- Convert weights between hundredweight, stone, pounds and ounces.
+
+### Usage
+
+```
+import impyrial
+
+# Convert 500 miles to feet
+impyrial.length.convert_unit(500, from_unit='yd', to_unit='ft')  # returns 1500.0
+
+# Convert 100 ounces to pounds
+impyrial.weight.convert_unit(100, from_unit='oz', to_unit='lb')  # returns 6.25
+```
+
+
+=======
+History
+=======
+
+0.1.0 (2024-06-02)
+------------------
+
+* First release on PyPI.
