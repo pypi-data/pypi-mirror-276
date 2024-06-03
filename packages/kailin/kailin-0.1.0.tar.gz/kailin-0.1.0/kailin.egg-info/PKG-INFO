@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kailin
+Version: 0.1.0
+Summary: KAILINss - dynamic inference by integrating transcriptome and lineage information
+Home-page: https://github.com/FullBlackWolf/KAILINss
+Author: Junpeng Chen(Brian J. Sanchez)
+Author-email: drchenjunpeng@hotmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.18
+Description-Content-Type: text/markdown
+Requires-Dist: cospar
+
+KAILINss - dynamic inference by integrating transcriptome and lineage information
