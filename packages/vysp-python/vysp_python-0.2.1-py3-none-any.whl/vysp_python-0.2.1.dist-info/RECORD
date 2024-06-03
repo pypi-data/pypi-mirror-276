@@ -1,0 +1,7 @@
+vysp/__init__.py,sha256=PLcanBpO7zXchVleJK2ktB93bY_Dif2x1kzaoCHIBgE,133
+vysp/client.py,sha256=Z0RHqmhKXWYN2-UTgRmn1htRvffxh31sV-unbXgGm-8,2060
+vysp/exceptions.py,sha256=CHMTr8io0DcY6A0Nn_Eq5fmoma-oa4xLa9DA_SdRXg8,662
+vysp_python-0.2.1.dist-info/METADATA,sha256=1yOxIWR009reF0TvviXW3xNX_XTvBKq9255xRYCMd74,1172
+vysp_python-0.2.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+vysp_python-0.2.1.dist-info/licenses/LICENSE,sha256=pOL7ZeRtfmXS_15qrHmwRXqj-fUA55dbERGRCXR-HKU,1071
+vysp_python-0.2.1.dist-info/RECORD,,
