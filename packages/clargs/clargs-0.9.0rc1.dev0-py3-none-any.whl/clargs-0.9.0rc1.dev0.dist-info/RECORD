@@ -1,0 +1,10 @@
+clargs/__about__.py,sha256=_3oacfqgDihu9qCHbFaTI2aOx6IVfHmBRfSKdOytQj0,128
+clargs/__init__.py,sha256=nt9IqJT-Z6lGJ6_NcyMGDIsOVkhnRBNQqG-ztk1Kd-U,723
+clargs/aap_from_data.py,sha256=fWPpJcOmZGx9DzU_peWU9IK2iE-4ZWOJBAoPlXGhIYA,9530
+clargs/clargs.py,sha256=lC8q5xk4f1dhxkySADu5lb20n08g9Q4Ds2tvOkgg2eg,10076
+clargs/docsparser.py,sha256=H3-PaULqHW15XJvfhvetSmZ0uUjopOstJjYsNjKLa0I,5585
+clargs/helper_types.py,sha256=fVfgIlozHMjOfOCMGT28mu1Q7WSXhjgT7MP0TY3KnvA,1253
+clargs-0.9.0rc1.dev0.dist-info/METADATA,sha256=UNpI6S7mAI8-t_yD5evtyT1p8vbpNXFXteo2tV9dPJ4,9798
+clargs-0.9.0rc1.dev0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+clargs-0.9.0rc1.dev0.dist-info/licenses/LICENSE.txt,sha256=bF9d3ktmtI83eH9-AXczf04ulgBT6tza0-9QKgtevoI,1088
+clargs-0.9.0rc1.dev0.dist-info/RECORD,,
