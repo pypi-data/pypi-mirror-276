@@ -1,0 +1,10 @@
+pyperclip
+python-dateutil
+python-dotenv
+requests
+
+[dev]
+black
+isort
+pylint
+pytest
