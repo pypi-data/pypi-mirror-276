@@ -1,0 +1,17 @@
+miksiai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksiai/agent.cp36-win_amd64.pyd,sha256=rFYJFACG8KcLlz0bBeDBDiz0a1vVhpHgf4C4jjQmKgM,102400
+miksiai/api.cp36-win_amd64.pyd,sha256=yPjuhTSYRYq53SeFOB6-dJAlDYmxHnshQCD7y07fpRk,81408
+miksiai/master.cp36-win_amd64.pyd,sha256=aoO-dkQQpPImpaB9eJJaeKkHTVT5hbHN49RmvcpLScI,48640
+miksiai/pythontool.cp36-win_amd64.pyd,sha256=buUVPAXoNoZ2SvddXN1mp9DU0VkXMPxXrv95qDV5i0U,72192
+miksiai/settings.cp36-win_amd64.pyd,sha256=9RA4iCnaLROKn05jU9l_hfRP1Rw62zgWNzXmuMCdbgI,39936
+miksiai/sqltool.cp36-win_amd64.pyd,sha256=TdK0bg8jn687lwazarcbBpc5Uk4XrW87Z_ES24iEzgs,128512
+miksiai/utils.cp36-win_amd64.pyd,sha256=2NlcxUZ0QX6b3RBkVW90WM1Br8zbbY311vCPfY7dDiU,52736
+miksiai/function_calling/base.cp36-win_amd64.pyd,sha256=Q0CcBodjEeWEkoTvZYBbUmlGeyH11u5SF0dpYDxQ-ng,85504
+miksiai/sql_graph/custom_sql.cp36-win_amd64.pyd,sha256=tPWkRux6dOz45Sasn1tQfFj45E7gMHklcKz_6DtHWiI,97280
+miksiai/sql_graph/sql_graph.cp36-win_amd64.pyd,sha256=FM4iai8v9DjeQj87vc6k6G02ugMVxVDHxo6xboGVNhk,104960
+miksiai/sql_graph/sql_graph_prompts.cp36-win_amd64.pyd,sha256=-A6S5GoRnBeZfme74yyVJxHmU0RH2v1dFNCER-tUH3Y,32768
+miksiai/sql_graph/sql_runnables.cp36-win_amd64.pyd,sha256=aVkcQjRejEzsJ7R1QXYKEg0vJgqlRBOzgq78ShLvQtI,222208
+miksiai-1.0.8.dist-info/METADATA,sha256=qW1uL30jqRzocoCaY1qK5nvZGJUc_2oRJkDp2baUDKs,6396
+miksiai-1.0.8.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+miksiai-1.0.8.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.8.dist-info/RECORD,,
