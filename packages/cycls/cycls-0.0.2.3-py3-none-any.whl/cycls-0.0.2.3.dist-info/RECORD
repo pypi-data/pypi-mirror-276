@@ -1,0 +1,11 @@
+cycls/UI.py,sha256=NyomJD05zMl_yy6NAu29m7PI4IX5xmXE0Qj9FgdeFN8,663
+cycls/__init__.py,sha256=GDlm4_zn6NKPpTHtzfIN7JSDiGg_MGbDdlZRnzpXIuI,171
+cycls/client.py,sha256=kZKipk4__blTA8jxP7wcvUCjwWYKhN7tqvUFtnpS6Jc,7105
+cycls/configuration.py,sha256=to7nhsBK1-X3ZiMrwyDIxjkemJD2YL1BWa9WqelJM9Y,785
+cycls/settings.py,sha256=xova6KTGIQ5ATRlGBjfoQbN0TEgySxmcwwCN_uubOlE,160
+cycls/static.py,sha256=lLH9-_QPQvMpUMpX6nczwKPSnzZDnWVjtbO4O_HSiAU,120
+cycls/typings.py,sha256=C8fhHqwG70RIyx9abg12LQC4huyEMkWunwF6GUbTvYo,6843
+cycls-0.0.2.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cycls-0.0.2.3.dist-info/METADATA,sha256=NbxfN6hCXctaZz5x6j5HkYtvSkgkffKvwOE96h404ZM,3072
+cycls-0.0.2.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cycls-0.0.2.3.dist-info/RECORD,,
