@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+copilothistoryexporter.egg-info/PKG-INFO
+copilothistoryexporter.egg-info/SOURCES.txt
+copilothistoryexporter.egg-info/dependency_links.txt
+copilothistoryexporter.egg-info/entry_points.txt
+copilothistoryexporter.egg-info/requires.txt
+copilothistoryexporter.egg-info/top_level.txt
+src/copilothistoryexporter/main.py
+src/copilothistoryexporter/sample.md
+src/copilothistoryexporter/utils.py
