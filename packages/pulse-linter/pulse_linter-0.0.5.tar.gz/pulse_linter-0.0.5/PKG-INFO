@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pulse_linter
+Version: 0.0.5
+Summary: Security Weakness Finder
+Author: sooraj
+Author-email: sooraj.cs22@duk.ac.in
+License: Nil
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+Requires-Dist: flake8
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: twine>=5.0; extra == "dev"
+
+# Pulse Linter: Flake8 Plugin with Common Security Standards
+
+Pulse Linter is an advanced tool designed to enhance code quality and security by building on top of Flake8. It helps developers identify and rectify common security vulnerabilities in Python code, ensuring adherence to secure coding practices alongside maintaining code style standards. By integrating Pulse Linter into your development workflow, you can scan files or directories for security weaknesses, making your codebase more robust and secure.
+
+## Features
+
+- **Enhanced Security Scanning**: Identifies common security vulnerabilities in Python code.
+- **Flake8 Integration**: Builds on top of Flake8, combining style checks with security measures.
+- **Directory and File Scanning**: Allows scanning of individual files or entire directories.
+- **Customizable Rules**: Supports customization of rules to fit specific project requirements.
+- **Easy Integration**: Simple to integrate into existing Flake8 workflows.
+
+## Installation
+
+You can install Pulse Linter via pip:
+
+```bash 
+pip install pulse_linter
+```
+
+## Example
+
+```bash
+# example.py
+def execute_command(command):
+    exec(command)
+
+execute_command("ls -la")
+```
+```bash
+pulse_linter example.py
+```
+
+## Output
+```bash
+example.py:2:5: S102 Use of exec detected
+```
