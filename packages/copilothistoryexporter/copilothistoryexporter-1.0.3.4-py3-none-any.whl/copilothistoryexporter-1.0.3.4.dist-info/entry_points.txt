@@ -1,0 +1,2 @@
+[console_scripts]
+copilothistoryexporter = src.copilothistoryexporter.main:main
