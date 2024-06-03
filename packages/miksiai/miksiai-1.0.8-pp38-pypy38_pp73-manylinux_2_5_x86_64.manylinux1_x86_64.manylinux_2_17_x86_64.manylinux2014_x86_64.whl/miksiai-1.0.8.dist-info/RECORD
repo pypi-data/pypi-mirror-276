@@ -1,0 +1,17 @@
+miksiai/api.pypy38-pp73-x86_64-linux-gnu.so,sha256=ha_MM51D1z8oO0bAOZIoCWRaiTh1IpWmC0soQ1_OiFs,87536
+miksiai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksiai/settings.pypy38-pp73-x86_64-linux-gnu.so,sha256=nb4Z3YbQurHIvbjvWdAGh4XQSQBRO5upiIYJu9c7K3E,33608
+miksiai/utils.pypy38-pp73-x86_64-linux-gnu.so,sha256=1i2zOlNXdUo8jvT6lzV9aFL9GjkqLeJpDTMigrwsWBo,59968
+miksiai/sqltool.pypy38-pp73-x86_64-linux-gnu.so,sha256=P8tSm3CXYFS8sp08qTZAaHtrfLBkXZ5JL5bR0hiuUI8,141744
+miksiai/master.pypy38-pp73-x86_64-linux-gnu.so,sha256=EBJDC2ovyC8QkAg6rWJW48MczjzgTfl546_dYS8qOOo,54704
+miksiai/agent.pypy38-pp73-x86_64-linux-gnu.so,sha256=sdTZ9Q44ASdBij2DvDxPWNv5ELFqOevSydHdg6QlaYM,116128
+miksiai/pythontool.pypy38-pp73-x86_64-linux-gnu.so,sha256=53SdYRK8ecTlWuQWHh2FuJafu46hRJ64ggFCqY5RJ04,74752
+miksiai/function_calling/base.pypy38-pp73-x86_64-linux-gnu.so,sha256=uixN4-evuixaIYWfiR38rsaA_YxhAR1xHGxCk1EEl-o,93640
+miksiai/sql_graph/sql_graph_prompts.pypy38-pp73-x86_64-linux-gnu.so,sha256=6AjzfH0csyUHfFm-QkSFmbx4IyaqeHw924BltGVBxVc,32848
+miksiai/sql_graph/custom_sql.pypy38-pp73-x86_64-linux-gnu.so,sha256=KuRaqtAr7Bj14wyu-7le1YsbNBC6z8qAP3P2zWRDEpM,103760
+miksiai/sql_graph/sql_graph.pypy38-pp73-x86_64-linux-gnu.so,sha256=nGNYBRv-zz028dLSz3OWdg5BtPxdacnqlVc1mgS0knM,116848
+miksiai/sql_graph/sql_runnables.pypy38-pp73-x86_64-linux-gnu.so,sha256=xiS6pzepT6ihVbd_NoJgQN0UGH-AXEuVS71-SYU4MXE,246480
+miksiai-1.0.8.dist-info/WHEEL,sha256=pPC5DkhlBUUM---Q-f6JQlqWav8_BtdXRHLx3U53TuM,245
+miksiai-1.0.8.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.8.dist-info/RECORD,,
+miksiai-1.0.8.dist-info/METADATA,sha256=ylWV4b82y5StxRPD8Ao4OmBE2qSUJG9uIh_BpC7WSDM,6349
