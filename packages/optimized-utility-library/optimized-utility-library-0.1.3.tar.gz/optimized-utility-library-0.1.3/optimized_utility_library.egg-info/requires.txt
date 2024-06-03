@@ -1,0 +1,9 @@
+pillow
+ujson
+matplotlib
+setuptools
+opencv-python
+
+[dev]
+pytest
+flake8
