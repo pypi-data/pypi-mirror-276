@@ -1,0 +1,12 @@
+safeguard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safeguard/exceptions.py,sha256=zNjmOgodsGUHedAtQL8GjqQ5iCXYSSQv3hZ8xCirMgE,651
+safeguard/helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safeguard/helper/base_container.py,sha256=25FhabIE29ytUr00adcdTGgPpfeYkQaOVz3nuHMFatE,1019
+safeguard/helper/immutable.py,sha256=uAYnIQljAjrIYdpOGsa_LhehRlcTT-TEXi0E9vcQfv8,1674
+safeguard/maybe.py,sha256=Y3uHFkqxA3Bdf_2W1GgNRrnT4Y10jigf3VewCf-8EC4,11804
+safeguard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safeguard/result.py,sha256=KS_PkM5-9btmkcdHeguhR0lkSTPoZRyivbfxTAfKqJM,20657
+safeguard-0.0.0.dist-info/LICENSE,sha256=V6rMA9IgqFS6mEJONibORdJaxYZW8ij0idC6q36v2no,1065
+safeguard-0.0.0.dist-info/METADATA,sha256=Mb3Oq0cmwAjDeTYinZgiTjTnPfwUD8ZbhVcdlTbuI_Q,5615
+safeguard-0.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+safeguard-0.0.0.dist-info/RECORD,,
