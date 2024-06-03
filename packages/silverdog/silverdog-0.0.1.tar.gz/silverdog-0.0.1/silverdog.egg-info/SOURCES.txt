@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+silverdog.egg-info/PKG-INFO
+silverdog.egg-info/SOURCES.txt
+silverdog.egg-info/dependency_links.txt
+silverdog.egg-info/top_level.txt
