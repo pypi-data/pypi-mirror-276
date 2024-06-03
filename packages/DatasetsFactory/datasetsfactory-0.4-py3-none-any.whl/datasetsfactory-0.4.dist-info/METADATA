@@ -1,0 +1,72 @@
+Metadata-Version: 2.3
+Name: DatasetsFactory
+Version: 0.4
+Summary: This library is meant to DatasetsFactory app users, and is used for loading the available datasets locally!
+Project-URL: GitHub, https://github.com/DenisAriton/DatasetsFactory_Library
+Author-email: Denis Ariton <denis.ariton@student.upt.ro>
+License: MIT License
+        
+        Copyright (c) 2024  DatasetsFactory
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# DatasetsFactory
+
+This library is meant to DatasetsFactory app users, and is used for loading the available datasets locally!
+<br>
+It is user-friendly and easy to use! 
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install DatasetsFactory.
+
+```bash
+pip install DatasetsFactory
+```
+
+## Usage
+> [!IMPORTANT] 
+> Everytime you want to load a dataset you must follow every step bellow !
+```python
+from DatasetsFactory import Datasets
+# Get the token from your profile!
+token = "928e4f5f-50e7-4f06-aaac-459d4c5db8ac"
+# Initialize the library with the token of the user
+init_dataset = Datasets(token)
+
+# Visualize the datasets on which you have privileges
+init_dataset.view_datasets() # -> return None
+
+# Load locally only one dataset at a time!
+init_dataset("name_of_dataset_from_previous_visualization") # -> return A list with paths to every file from the dataset loaded!
+```
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+Copyright (c) 2024  DatasetsFactory
+
+
