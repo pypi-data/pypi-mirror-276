@@ -1,0 +1,14 @@
+numpy
+scipy==1.13.1
+matplotlib
+pandas
+numba
+scikit-learn
+openpyxl
+xlsxwriter
+multiprocess
+pybaselines
+darkdetect
+pywavelets
+pygamma
+mat73
