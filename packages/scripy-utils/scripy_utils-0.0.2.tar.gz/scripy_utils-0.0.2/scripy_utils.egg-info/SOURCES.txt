@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+scripy_utils/__init__.py
+scripy_utils/html_font_parse.py
+scripy_utils/request_parse.py
+scripy_utils/request_util.py
+scripy_utils/selenium_util.py
+scripy_utils.egg-info/PKG-INFO
+scripy_utils.egg-info/SOURCES.txt
+scripy_utils.egg-info/dependency_links.txt
+scripy_utils.egg-info/requires.txt
+scripy_utils.egg-info/top_level.txt
+scripy_utils/media/chromedriver.exe
+scripy_utils/media/fake_useragent.json
