@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "squel"
+version = "1.0.0"
+description = "SQL parsing, done right"
+authors = ["nomorepanic <nomorepanic@nomorepanic.me>"]
+readme = "README.md"
+repository = "https://github.com/nomorepanic/squel"
+license="MIT"
+include = ["LICENSE", "README.md", "grammar/postgres.ebnf"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = ">=6.7"
+lark-parser = ">=0.6.4"
+
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.0"
+flake8 = "^7.0"
+flake8-quotes = "^3.4"
+flake8-import-order = "^0.18"
+pep8-naming = "^0.14"
+pytest = "^8"
+pytest-mock = "^3.14"
+pytest-sugar = "^1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+sqlast = "squel.Cli:Cli.main"
