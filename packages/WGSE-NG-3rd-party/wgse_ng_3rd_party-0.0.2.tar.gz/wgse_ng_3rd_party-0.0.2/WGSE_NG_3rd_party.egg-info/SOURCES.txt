@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+WGSE_NG_3rd_party.egg-info/PKG-INFO
+WGSE_NG_3rd_party.egg-info/SOURCES.txt
+WGSE_NG_3rd_party.egg-info/dependency_links.txt
+WGSE_NG_3rd_party.egg-info/top_level.txt
+wgse/third_party/__init__.py
+wgse/third_party/bcftools.exe
+wgse/third_party/bgzip.exe
+wgse/third_party/bwa.exe
+wgse/third_party/htsfile.exe
+wgse/third_party/minimap2.exe
+wgse/third_party/samtools.exe
+wgse/third_party/tabix.exe
