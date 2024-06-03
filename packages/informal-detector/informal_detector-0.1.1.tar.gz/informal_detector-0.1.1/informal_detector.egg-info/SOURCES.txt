@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+informal_detector/__init__.py
+informal_detector/is_informal.py
+informal_detector.egg-info/PKG-INFO
+informal_detector.egg-info/SOURCES.txt
+informal_detector.egg-info/dependency_links.txt
+informal_detector.egg-info/top_level.txt
