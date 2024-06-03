@@ -1,0 +1,32 @@
+[tool.mypy]
+exclude = [
+    "tests"
+]
+
+
+
+[tool.poetry]
+name = "pyvents"
+version = "0.0.1"
+description = "PyVents is a powerful Python library for events"
+authors = ["CrazyProger1 <crazyproger1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/CrazyProger1/PyVents"
+repository = "https://github.com/CrazyProger1/PyVents"
+documentation = "https://github.com/CrazyProger1/PyVents"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+coverage = "^7.5.3"
+pytest = "^8.2.1"
+pytest-asyncio = "^0.23.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
