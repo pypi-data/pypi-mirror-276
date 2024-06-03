@@ -1,0 +1,6 @@
+pyproject.toml
+SpheroidPy/__init__.py
+SpheroidPy.egg-info/PKG-INFO
+SpheroidPy.egg-info/SOURCES.txt
+SpheroidPy.egg-info/dependency_links.txt
+SpheroidPy.egg-info/top_level.txt
