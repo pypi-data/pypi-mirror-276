@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "utilityai"
+description = "This package brings language model capabilities into the coding environment, providing a variety of functionalities."
+version = "1.0.0"
+authors = ["Navid Matin Moghaddam <navid.matinmo@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/navid-matinmo/utilityai"
+repository = "https://github.com/navid-matinmo/utilityai"
+documentation = "https://github.com/navid-matinmo/utilityai"
+keywords = ["LLM", "AI"]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+include = ["LICENSE"]
+
+[tool.poetry.dependencies]
+python = ">=3.0"
+onnxruntime-genai = [
+    { version = ">=0.2.0", markers = "sys_platform == 'win32'" },
+    { version = ">=0.2.0", markers = "sys_platform == 'linux'" },
+    { version = ">=0.3.0rc1", markers = "sys_platform != 'win32' and sys_platform != 'linux'" }
+]
+numpy = ">=1.21.2"
+huggingface_hub = ">=0.13.0"
+requests = ">=1.2.0"
+
+[tool.poetry.urls]
+homepage = "https://github.com/navid-matinmo/utilityai"
+repository = "https://github.com/navid-matinmo/utilityai"
+documentation = "https://github.com/navid-matinmo/utilityai"
+issues = "https://github.com/navid-matinmo/utilityai/issues"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+
+
