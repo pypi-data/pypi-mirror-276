@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]
+
+[project]
+name = "asyncraft"
+version = "0.0.1"
+authors = [
+  { name="Kilian Müller", email="kilian@mueller.ai"},
+]
+description = "Simple message/event passing with asyncio and threading support."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Morxos/asyncraft"
+Issues = "https://github.com/Morxos/asyncraft/issues"
