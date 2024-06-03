@@ -1,0 +1,15 @@
+quick_python_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quick_python_project/cli.py,sha256=hbNisz2nRDP5gPLvHPOJBQoZ5qqNLlFQtavz4AA-LHQ,896
+quick_python_project/project_generation.py,sha256=ehm157eSoB3UYl54B-9e0n2848uVMvwUlRW4uvbcMx0,4996
+quick_python_project/version.py,sha256=IIj5MPQqf7H30zvHF3gsfSLSw1SsdlKYR9SngW-9GC8,411
+quick_python_project/templates/template_.gitignore,sha256=Yw2dGZIYQ1f4cKO1SgSyoMlf5bPtFKppfe1ytecbbGE,1798
+quick_python_project/templates/template_README.md,sha256=WssDDvuJ92tWEWRLNgYBQhRsxQUbrONj4cscZHHX2-4,502
+quick_python_project/templates/template___init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quick_python_project/templates/template_main.py,sha256=lff9LY8O4Xn2S7KTi6tmBqRnCUJUjD3Ci1hCMYPEWOc,40
+quick_python_project/templates/template_pyproject.toml,sha256=DVbcuhgvimWOnkR2syL4u3BlF8FEgiWafNJgpAR0DAo,892
+quick_python_project-1.0.1.dist-info/LICENSE,sha256=2gCQuDi7U7roIB4_m4zEJM46QPJqvYW_Pxi-2GSMPVM,1072
+quick_python_project-1.0.1.dist-info/METADATA,sha256=TAXkk74MZejes41BivA2Ckp3TcKWMhsFqfiL7vAXUnQ,3057
+quick_python_project-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+quick_python_project-1.0.1.dist-info/entry_points.txt,sha256=qfI9W4EW-Onzx8M_WSBh5jaNCHGN9uWnNC_1jv2sreg,53
+quick_python_project-1.0.1.dist-info/top_level.txt,sha256=R4dZvjRusQ4TZDuplK9_6zyR6XMQnHVwBUKxau1KNJ4,21
+quick_python_project-1.0.1.dist-info/RECORD,,

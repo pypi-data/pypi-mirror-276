@@ -1,0 +1,2 @@
+[console_scripts]
+qpp = quick_python_project.cli:cli
