@@ -1,0 +1,19 @@
+.video-container {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 1rem;
+    margin-top: 0.35rem;
+}
+
+.video-container iframe {
+    border-radius: var(--bs-border-radius-xl);
+    width: 100% !important;
+}
+
+h3 + p:empty {
+    display: none;
+}
+
+p:empty:last-child {
+    display: none;
+}
