@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: evillimiter
+Version: 1.5.1
+Summary: Monitors, analyzes and limits the bandwidth of devices on the local network
+Home-page: https://github.com/bitbrute/evillimiter
+Author: fmjal
+Author-email: felixaltenbach0@gmail.com
+License: GPL-2.0
+Keywords: evillimiter,limit,bandwidth,network
+Classifier: Environment :: Console
+Requires-Python: > 3.0
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: netaddr
+Requires-Dist: netifaces
+Requires-Dist: tqdm
+Requires-Dist: scapy
+Requires-Dist: terminaltables
