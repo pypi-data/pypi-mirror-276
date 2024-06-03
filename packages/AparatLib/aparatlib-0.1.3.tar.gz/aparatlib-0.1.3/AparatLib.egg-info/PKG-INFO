@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: AparatLib
+Version: 0.1.3
+Summary: A library for interacting with the Aparat API
+Home-page: https://github.com/AbolDev/AparatLib
+Author: Abol
+Author-email: abaqry8686@gmail.com
+Keywords: Aparat API video streaming python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Aparat
+
+A Python library to interact with the Aparat API.
+
+## Installation
+
+```bash
+pip install AparatLib
+```
+
+## Login
+
+```python
+from aparat import Aparat
+
+def main():
+    aparat = Aparat()
+    if aparat.login('your_username', 'your_password'):
+        print("Login successful")
+    else:
+        print("Login failed.")
+
+if __name__ == "__main__":
+    main()
+```
+
+For the complete documentation, you can visit this [**GitHub link**](https://github.com/AbolDev/AparatLib).
