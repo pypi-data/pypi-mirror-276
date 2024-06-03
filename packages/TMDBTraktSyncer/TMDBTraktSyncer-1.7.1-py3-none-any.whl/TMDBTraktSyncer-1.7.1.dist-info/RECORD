@@ -1,0 +1,15 @@
+TMDBTraktSyncer/TMDBTraktSyncer.py,sha256=mV88PBc4r9FavnVyZWhk0ccu2f2vyWCh2gvUnG8m7TM,18294
+TMDBTraktSyncer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TMDBTraktSyncer/authTrakt.py,sha256=lmxx4bxMcH2_4N_FIqTqqT205yVPpHfzC1UT9H8XdaA,6379
+TMDBTraktSyncer/checkVersion.py,sha256=6fWm0mMGqVwp-JvhESS71Vxr6-qwfRAkN4T0WL1lhgU,1936
+TMDBTraktSyncer/errorHandling.py,sha256=M-VXQJewLvAA1vZDr2D1RP-a4O6CT8hAnk1bKikVdGM,10185
+TMDBTraktSyncer/errorLogger.py,sha256=YQYnFb9CSRLONge63mNP85A3XyKfNmnQtay3NSRcByo,1642
+TMDBTraktSyncer/tmdbData.py,sha256=gXF3U4JGLSW-Eazf0HuWSIxBRBhs_NRWEcVo7QjI36E,4058
+TMDBTraktSyncer/traktData.py,sha256=QoYJXPFBEc5R2VY_RGRj5TmXaOaf2yM2S18yIDGYpzg,7135
+TMDBTraktSyncer/verifyCredentials.py,sha256=3FSanursKSb-P7CdZI0y9ViVIHjMoTCfca85r7plShQ,9344
+TMDBTraktSyncer-1.7.1.dist-info/LICENSE,sha256=TurJ7nbwuV-NDrWqjQDTEigJ6FuSm9swkpneNm3W6cA,1079
+TMDBTraktSyncer-1.7.1.dist-info/METADATA,sha256=Kpmm3EIIwLMwfidHD_1ov8NcVjsHAS4ssBW-ZbfqlT8,11457
+TMDBTraktSyncer-1.7.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+TMDBTraktSyncer-1.7.1.dist-info/entry_points.txt,sha256=I9lnFmYatlyw8JPsx-JLqxAHdBK7QO9ONh6Ae6qfSOI,73
+TMDBTraktSyncer-1.7.1.dist-info/top_level.txt,sha256=okRB7iM4fNPw5tE9xfE0jAA-lJWiY9jIzCTM8n73thE,16
+TMDBTraktSyncer-1.7.1.dist-info/RECORD,,
