@@ -1,0 +1,308 @@
+0,,,,,Clear
+1,,,,,Partly Cloudy
+2,,,,,Cloudy
+3,,,,,very cloudy
+4,,,,,Covered
+5,,,,,Variable
+6,,,,,Veil
+10,,,,,Sand
+15,,,,,Trombe
+30,,,,,Mist/fog
+31,,,,,Haze
+32,,,,,Fog
+33,,,,,Dense fog
+38,,,,,Freezing fog
+39,,,,,Dense freezing fog
+40,,,,,Rain
+49,,,,,Freezing Rain
+50,,,,,Rain
+51,,,,,Rain
+52,,,,,Rain
+53,,,,,Heavy rain
+58,,,,,Mixed rain and snow
+59,,,,,Freezing Rain
+60,,,,,Snow
+61,,,,,Snow
+62,,,,,Snow
+63,,,,,Heavy snow
+70,,,,,Rain
+71,,,,,Rare showers
+72,,,,,Rare showers with open skies
+73,,,,,Showers with overcast skies
+77,,,,,Mixed rain showers and snow
+78,,,,,Rain showers and snow mixed with overcast skies
+80,,,,,Snow storm
+81,,,,,Rare snow showers
+82,,,,,Rare snow showers with overcast skies
+83,,,,,Snow showers with overcast skies
+84,,,,,Sleet showers
+85,,,,,Hail showers
+90,,,,,Thunderstorms
+91,,,,,Thunderstorms possible
+92,,,,,Thundershowers
+93,,,,,Thunderstorms with rain
+97,,,,,Thunderstorms with snow
+98,,,,,Thunderstorms with hail
+99,,,,,Severe thunderstorms
+32,33,,,,"Fog, sometimes dense"
+32,38,,,,"Fog, sometimes freezing"
+32,39,,,,"Fog, sometimes dense and icing"
+33,38,,,,Dense or freezing fog
+33,39,,,,"Dense fog, sometimes freezing"
+38,39,,,,"Freezing fog, sometimes dense"
+30,32,,,,Fog
+30,33,,,,"Fog, sometimes dense"
+30,38,,,,"Fog, sometimes freezing"
+30,39,,,,"Fog, sometimes dense and icing"
+40,49,,,,"Rain, sometimes freezing"
+49,"(51, 52, 53)",,,,"Rain, sometimes freezing"
+49,59,,,,Freezing precipitation
+40,"(51, 52)",,,,Rain
+"(40, 51, 52)",53,,,,"Rain, sometimes heavy"
+51,52,,,,Rain
+"(51, 52, 53)",58,,,,"Rain, sometimes mixed with snow"
+"(51, 52, 53)",59,,,,"Rain, sometimes freezing"
+"(51, 52, 53)","(70, 71, 72, 73)",,,,Rainy periods
+58,"(61, 62, 63)",,,,Predominant snow
+61,62,,,,Snow
+61,63,,,,Snow sometimes heavy
+62,63,,,,Snow sometimes heavy
+"(61, 62, 63)","(80, 81, 82, 83)",,,,Snowy episodes
+70,"(71, 72, 73)",,,,Rain
+71,72,,,,Rare showers
+71,73,,,,Rain
+72,73,,,,Showers with overcast skies
+"(70, 71, 72, 73)","(77, 78)",,,,"Showers, sometimes mixed with snow"
+77,78,,,,Showers mixed with snow
+80,"(81, 82, 83)",,,,Snow storm
+82,83,,,,Snow storm
+70,"(80, 81, 82, 83)",,,,"Showers, sometimes snowy"
+71,"(80, 83)",,,,"Showers, sometimes snowy"
+"(71, 72)","(81, 82)",,,,"Rare showers, sometimes snowy"
+73,"(80, 81)",,,,"Showers, sometimes snowy"
+73,"(82, 83)",,,,"Showers with overcast skies, sometimes snowy"
+84,85,,,,Sleet showers or hail
+"(70, 71, 72, 73)",92,,,,"Showers, sometimes stormy"
+84,92,,,,"Sleet showers, sometimes thunderstorms"
+85,92,,,,Thunderstorms with risk of hail
+85,98,,,,Thunderstorms and showers with hail
+91,92,,,,Thunderstorms and thunderstorms
+91,93,,,,"Thunderstorms, sometimes with rain"
+91,97,,,,"Thunderstorms, sometimes with snow"
+93,98,,,,Thunderstorms with rain and hail
+93,99,,,,"Thunderstorms, sometimes violent with rain"
+97,99,,,,"Thunderstorms, sometimes violent with snow"
+98,99,,,,Severe thunderstorms with risk of hail
+51,61,,,,"Precipitation, sometimes snowy"
+52,62,,,,"Precipitation, sometimes snowy"
+53,63,,,,"Heavy precipitation, sometimes snowy"
+"(40, 51, 52, 53)","(80, 81, 82, 83)",,,,"Precipitation, sometimes snowy"
+"(40, 51, 52, 53)","(91, 93)",,,,Rain and thunderstorms
+"(40, 51, 52, 53)",98,,,,Rain and thunderstorms with hail
+"(40, 51, 52, 53)",99,,,,Rain and severe thunderstorms
+"(61, 62, 63)","(70, 71, 72, 73)",,,,"Precipitation, sometimes snowy"
+"(61, 62, 63)","(91, 97)",,,,"Precipitation sometimes stormy, and snowy periods"
+"(61, 62, 63)",98,,,,Stormy showers and snowy periods
+"(61, 62, 63)",99,,,,Severe thunderstorms and snowy periods
+"(70, 71, 72, 73)","(91, 93)",,,,Showers and thunderstorms
+"(70, 71, 72, 73)",98,,,,Showers and thunderstorms with hail
+"(70, 71, 72, 73)",99,,,,Heavy showers and thunderstorms
+"(80, 81, 82, 83)","(91, 97)",,,,Thunderstorms and snowy periods
+"(80, 81, 82, 83)",98,,,,Stormy showers and snowy periods
+"(80, 81, 82, 83)",99,,,,Severe thunderstorms and snowy periods
+31,32,33,,,"Foggy weather with fog, sometimes dense"
+31,32,38,,,"Foggy weather with fog, sometimes freezing"
+31,32,39,,,"Foggy weather with fog, sometimes dense and icy"
+32,33,38,,,"Fog, sometimes dense or icing"
+32,33,39,,,"Fog, sometimes dense and icing"
+32,38,39,,,"Fog, sometimes freezing and dense"
+33,38,39,,,Dense or freezing fog
+30,32,33,,,"Fog, sometimes dense"
+30,32,38,,,"Fog, sometimes freezing"
+30,32,39,,,"Fog, sometimes dense and icing"
+30,33,38,,,Dense or freezing fog
+30,33,39,,,"Dense fog, sometimes freezing"
+30,38,39,,,"Freezing fog, sometimes dense"
+"(40, 51, 52)","(51, 52)",53,,,"Rain, sometimes heavy"
+31,32,33,"(38, 39)",,"Foggy weather with fog, sometimes dense or icy"
+31,33,38,39,,"Foggy weather with fog, sometimes dense and icy"
+32,33,38,39,,"Fog, sometimes dense or icing"
+30,32,33,38,,"Fog, sometimes dense or icing"
+30,32,33,39,,"Fog, sometimes dense and icing"
+30,32,38,39,,"Fog, sometimes freezing and dense"
+30,33,38,39,,Dense or freezing fog
+31,32,33,38,39,"Foggy weather with fog, sometimes dense or icy"
+30,32,33,38,39,"Fog, sometimes dense or icing"
+40,51,52,53,,"Rain, sometimes heavy"
+A1,,,,,Rain
+A2,,,,,Snow
+A3,,,,,Rain
+A4,,,,,Snow storm
+A5,,,,,Stormy weather
+A1,A2,,,,"Precipitation, sometimes snowy"
+A1,A3,,,,Rainy periods
+A1,A4,,,,Rain and snow showers
+A1,A5,,,,Rain and thunderstorms
+A1,B1,,,,Freezing rain at times
+A1,B2,,,,Rain and sleet showers
+A1,B3,,,,Rain and hailstorms
+A1,B4,,,,Rain and thunderstorms with hail
+A1,B5,,,,Rain and severe thunderstorms
+A2,A3,,,,"Precipitation, sometimes snowy"
+A2,A4,,,,Snowy episodes
+A2,A5,,,,Thunderstorms and snowy periods
+A2,B1,,,,"Freezing precipitation, and snow"
+A2,B2,,,,Showers of sleet and snow
+A2,B3,,,,Hail showers and snow
+A2,B4,,,,Storm showers and snow
+A2,B5,,,,Severe thunderstorms and snow
+A3,A4,,,,"Showers, sometimes snowy"
+A3,A5,,,,Thunderstorms and showers
+A3,B1,,,,Freezing precipitation and showers
+A3,B2,,,,Showers with occasional sleet
+A3,B3,,,,Showers with risk of hail
+A3,B4,,,,"Thunderstorms with hail, and showers"
+A3,B5,,,,Showers and violent thunderstorms
+A4,A5,,,,Thunderstorms and snowy periods
+A4,B1,,,,Freezing precipitation and snow
+A4,B2,,,,Snow showers
+A4,B3,,,,Heavy snow showers
+A4,B4,,,,Thunderstorms and snow showers
+A4,B5,,,,Severe thunderstorms and snow showers
+A5,B1,,,,Freezing precipitation and thunderstorms
+A5,B2,,,,Thunderstorms and sleet showers
+A5,B3,,,,Thunderstorms and hail showers
+A5,B4,,,,Stormy weather with possible hail
+A5,B5,,,,"Thunderstorms, sometimes violent"
+A1,A2,A3,,,"Precipitation, sometimes snowy"
+A1,A2,A4,,,"Precipitation, sometimes snowy"
+A1,A2,A5,,,"Thunderstorms and precipitation, sometimes snowy"
+A1,A2,B1,,,Freezing precipitation and snow
+A1,A2,B2,,,"Precipitation, with risk of sleet, and in snowy form"
+A1,A2,B3,,,"Precipitation, with risk of hail, and in snowy form"
+A1,A2,B4,,,"Storm showers, rain, mixed with snow"
+A1,A2,B5,,,"Violent stormy showers, rain, mixed with snow"
+A1,A3,A4,,,"Showers, mixed with snow"
+A1,A3,A5,,,Rainy weather with thunderstorms
+A1,A3,B1,,,"Precipitation, sometimes freezing"
+A1,A3,B2,,,Rainy weather with showers of sleet
+A1,A3,B3,,,Rainy weather with hail showers
+A1,A3,B4,,,Rainy weather with hailstorms
+A1,A3,B5,,,Rainy weather with severe thunderstorms
+A1,A4,A5,,,"Thunderstorms and precipitation, sometimes mixed with snow"
+A1,A4,B1,,,"Precipitation, sometimes freezing, and snowy periods"
+A1,A4,B2,,,"Precipitation, with risk of sleet, and snowy periods"
+A1,A4,B3,,,"Precipitation, with risk of hail, and snowy periods"
+A1,A4,B4,,,"Thunderstorms with hail, and precipitation, sometimes snowy"
+A1,A4,B5,,,"Severe thunderstorms and precipitation, sometimes snowy"
+A1,A5,B1,,,Freezing rain at times and thunderstorms
+A1,A5,B2,,,Rain and thunderstorms with risk of sleet
+A1,A5,B3,,,Rain and thunderstorms with risk of hail
+A1,A5,B4,,,Rain and thunderstorms with risk of hail
+A1,A5,B5,,,Rain and thunderstorms sometimes violent
+A1,B1,B2,,,"Rain, sometimes freezing, and sleet showers"
+A1,B1,B3,,,"Rain, sometimes freezing, and hail showers"
+A1,B1,B4,,,"Rain, sometimes freezing, and hailstorms"
+A1,B1,B5,,,"Rain, sometimes freezing, and severe thunderstorms"
+A1,B2,B3,,,Rain with showers of hail and sleet
+A1,B2,B4,,,Rain with sleet showers and hailstorms
+A1,B2,B5,,,Rain with sleet showers and severe thunderstorms
+A1,B3,B4,,,Rain with showers and hailstorms
+A1,B3,B5,,,Rain with hail showers and severe thunderstorms
+A1,B4,B5,,,Rain with severe thunderstorms with risk of hail
+A2,A3,A4,,,"Precipitation, sometimes snowy"
+A2,A3,A5,,,"Thunderstorms and precipitation, sometimes snowy"
+A2,A3,B1,,,"Precipitation, sometimes freezing, and in snowy form"
+A2,A3,B2,,,"Showers, risk of sleet, and snowy periods"
+A2,A3,B3,,,"Showers, risk of hail, and snowy periods"
+A2,A3,B4,,,Stormy showers and snowy periods
+A2,A3,B5,,,Violent stormy showers and snowy periods
+A2,A4,A5,,,"Thunderstorms and precipitation, sometimes snowy"
+A2,A4,B1,,,"Precipitation, sometimes freezing, and in snowy form"
+A2,A4,B2,,,"Sleet showers, and snowy periods"
+A2,A4,B3,,,"Hail showers, and snowy periods"
+A2,A4,B4,,,Stormy showers and snowy periods
+A2,A4,B5,,,Violent stormy showers and snowy periods
+A2,A5,B1,,,"Thunderstorms, freezing precipitation, and snowy periods"
+A2,A5,B2,,,Stormy showers and snowy periods
+A2,A5,B3,,,Heavy stormy showers and snowy periods
+A2,A5,B4,,,Heavy stormy showers and snowy periods
+A2,A5,B5,,,Severe thunderstorms and snowy periods
+A2,B1,B2,,,"Precipitation, sometimes freezing or with sleet, and in snowy form"
+A2,B1,B3,,,"Precipitation, sometimes freezing or with hail, and in snowy form"
+A2,B1,B4,,,"Freezing rain, thunderstorms, and snowy periods"
+A2,B1,B5,,,"Severe thunderstorms, freezing precipitation, and snowy periods"
+A2,B2,B3,,,Stormy showers and snowy periods
+A2,B2,B4,,,Stormy showers and snowy periods
+A2,B2,B5,,,"Violent thunderstorms sometimes with sleet, and snowy periods"
+A2,B3,B4,,,Heavy stormy showers and snowy periods
+A2,B3,B5,,,"Violent thunderstorms with risk of hail, and snowy periods"
+A2,B4,B5,,,"Thunderstorms, and sometimes snowy precipitation"
+A3,A4,A5,,,"Thunderstorms, and sometimes snowy showers"
+A3,A4,B1,,,"Precipitation, sometimes freezing, and in the form of snow"
+A3,A4,B2,,,"Showers, with risk of sleet, and snowy periods"
+A3,A4,B3,,,"Showers, with risk of hail, and snowy periods"
+A3,A4,B4,,,"Thunderstorms with hail, and showers, sometimes snowy"
+A3,A4,B5,,,"Violent thunderstorms, and showers, sometimes snowy"
+A3,A5,B1,,,"Precipitation, sometimes freezing, and thunderstorms"
+A3,A5,B2,,,"Showers, risk of sleet, and thunderstorms"
+A3,A5,B3,,,"Showers, risk of hail, and thunderstorms"
+A3,A5,B4,,,"Thunderstorms, with risk of hail, and showers"
+A3,A5,B5,,,"Thunderstorms, sometimes violent, and showers"
+A3,B1,B2,,,"Precipitation, sometimes freezing, and sleet showers"
+A3,B1,B3,,,"Precipitation, sometimes freezing, and hail showers"
+A3,B1,B4,,,"Precipitation, sometimes freezing, and thunderstorms with hail"
+A3,B1,B5,,,"Precipitation, sometimes freezing, and violent thunderstorms"
+A3,B2,B3,,,"Showers, with risk of sleet or hail"
+A3,B2,B4,,,"Showers, risk of sleet, and thunderstorms with hail"
+A3,B2,B5,,,"Showers, risk of sleet, and severe thunderstorms"
+A3,B3,B4,,,Showers and thunderstorms with hail
+A3,B3,B5,,,"Showers, risk of hail, and violent thunderstorms"
+A3,B4,B5,,,"Showers and violent thunderstorms, with risk of hail"
+A4,A5,B1,,,"Thunderstorms, freezing precipitation, and snow showers"
+A4,A5,B2,,,"Thunderstorms, risk of sleet, and snow showers"
+A4,A5,B3,,,"Thunderstorms, risk of hail, and snow showers"
+A4,A5,B4,,,"Thunderstorms, risk of hail, and snow showers"
+A4,A5,B5,,,"Thunderstorms, sometimes violent, and snow showers"
+A4,B1,B2,,,"Precipitation, sometimes freezing or with sleet, and in snowy form"
+A4,B1,B3,,,"Precipitation, sometimes freezing or with hail, and in snowy form"
+A4,B1,B4,,,"Thunderstorms with hail, freezing precipitation, and snowy periods"
+A4,B1,B5,,,"Severe thunderstorms, freezing precipitation, and snowy periods"
+A4,B2,B3,,,"Showers, with risk of sleet or hail, and in snowy form"
+A4,B2,B4,,,Stormy showers and snow showers
+A4,B2,B5,,,Violent stormy showers and snow showers
+A4,B3,B4,,,Stormy showers and snow showers
+A4,B3,B5,,,Violent stormy showers and snow showers
+A4,B4,B5,,,Violent stormy showers and snow showers
+A5,B1,B2,,,"Freezing precipitation, and thunderstorms, with risk of sleet"
+A5,B1,B3,,,"Freezing precipitation, and thunderstorms, with risk of hail"
+A5,B1,B4,,,"Freezing precipitation, and thunderstorms, with risk of hail"
+A5,B1,B5,,,"Freezing precipitation and thunderstorms, sometimes violent"
+A5,B2,B3,,,Storm showers
+A5,B2,B4,,,"Stormy showers, with risk of hail"
+A5,B2,B5,,,"Stormy showers, sometimes violent"
+A5,B3,B4,,,Thunderstorms and showers with hail
+A5,B3,B5,,,"Thunderstorms, sometimes violent and with hail"
+A5,B4,B5,,,"Thunderstorms, sometimes violent and with hail"
+B1,B2,B3,,,Freezing precipitation and sleet
+B1,B2,B4,,,"Freezing precipitation, sleet showers, and hailstorms"
+B1,B2,B5,,,"Freezing precipitation, sleet showers, and severe thunderstorms"
+B1,B3,B4,,,"Freezing precipitation, showers and hailstorms"
+B1,B3,B5,,,"Freezing precipitation, hail showers, and severe thunderstorms"
+B1,B4,B5,,,"Freezing precipitation, and severe thunderstorms with hail"
+B2,B3,B4,,,Thunderstorms with hail and sleet
+B2,B3,B5,,,"Thunderstorms, sometimes violent and hail"
+B2,B4,B5,,,"Thunderstorms, sometimes violent and hail"
+B3,B4,B5,,,"Thunderstorms, sometimes violent with hail"
+A1,A2,A3,A4,,"Unsettled weather, precipitation, sometimes snowy"
+A1,A2,A3,A5,,"Unsettled weather, storms, precipitation, sometimes snowy"
+A1,A2,A4,A5,,"Unsettled weather, storms, precipitation, sometimes snowy"
+A1,A3,A4,A5,,"Unsettled weather, storms, precipitation, sometimes snowy"
+A1,A3,B3,B4,,"Rainy periods, sometimes stormy and with risk of hail"
+A2,A3,A4,A5,,"Unsettled weather, storms, precipitation, sometimes snowy"
+B1,B2,B3,B4,,"Freezing precipitation, sleet and thunderstorms with hail"
+B1,B2,B3,B5,,"Freezing precipitation, sleet and severe thunderstorms"
+B1,B2,B4,B5,,"Freezing precipitation, sleet and severe thunderstorms"
+B2,B3,B4,B5,,Severe thunderstorms with hail and sleet
+A1,A2,A3,A4,A5,"Unsettled weather with thunderstorms and precipitation, sometimes snowy"
+B1,B2,B3,B4,B5,"Freezing precipitation, severe thunderstorms with hail and sleet"

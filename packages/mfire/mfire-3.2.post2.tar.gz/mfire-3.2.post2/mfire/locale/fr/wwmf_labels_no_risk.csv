@@ -1,0 +1,305 @@
+0,,,,,Clair
+1,,,,,Peu nuageux
+2,,,,,Nuageux
+3,,,,,Très nuageux
+4,,,,,Couvert
+5,,,,,Variable
+6,,,,,Voilé
+10,,,,,Sable
+15,,,,,Trombe
+30,,,,,Brume/brouillard
+31,,,,,Brume
+32,,,,,Brouillard
+33,,,,,Brouillard dense
+38,,,,,Brouillard givrant
+39,,,,,Brouillard dense givrant
+40,,,,,Bruine
+49,,,,,Bruine verglaçante
+50,,,,,Pluie possible
+51,,,,,Pluie faible possible
+52,,,,,Pluie modérée possible
+53,,,,,Pluie forte possible
+58,,,,,Pluie et neige mêlées possible
+59,,,,,Pluie verglaçante possible
+60,,,,,Neige possible
+61,,,,,Neige faible possible
+62,,,,,Neige modérée possible
+63,,,,,Neige forte possible
+70,,,,,Averses possibles
+71,,,,,Rares averses possibles
+72,,,,,Rares averses avec ciel ouvert possibles
+73,,,,,Averses avec ciel couvert possibles
+77,,,,,Averses de pluie et neige mêlées possibles
+78,,,,,Averses de pluie et neige mêlées avec ciel couvert possibles
+80,,,,,Averses de neige possibles
+81,,,,,Rares averses de neige possibles
+82,,,,,Rares averses de neige avec ciel couvert possibles
+83,,,,,Averses de neige avec ciel couvert possibles
+84,,,,,Averses de grésil possibles
+85,,,,,Averses de grêle possibles
+90,,,,,Orages possibles
+91,,,,,Orages possibles
+92,,,,,Averses orageuses possibles
+93,,,,,Orages avec pluie possibles
+97,,,,,Orages avec neige possibles
+98,,,,,Orages avec grêle possibles
+99,,,,,Orages violents possibles
+32,33,,,,"Brouillard, localement dense"
+32,38,,,,"Brouillard, localement givrant"
+32,39,,,,"Brouillard, localement dense et givrant"
+33,38,,,,Localement brouillard dense ou givrant
+33,39,,,,"Localement brouillard dense, parfois givrant"
+38,39,,,,"Localement brouillard givrant, parfois dense"
+30,32,,,,Brouillard
+30,33,,,,"Brouillard, localement dense"
+30,38,,,,Brouillard localement givrant
+30,39,,,,"Brouillard, localement dense et givrant"
+40,49,,,,"Bruine possible, parfois verglaçante"
+49,"(51, 52, 53)",,,,Bruine verglaçante ou pluie possibles
+49,59,,,,Précipitations verglaçantes possibles
+51,52,,,,Pluie faible à modérée possible
+51,53,,,,Pluie possible
+52,53,,,,Pluie modérée à forte possible
+"(51, 52, 53)",58,,,,"Pluie possible, parfois mêlée de neige"
+"(51, 52, 53)",59,,,,"Pluie possible, parfois verglaçante"
+58,"(61, 62, 63)",,,,Neige prédominante possible
+61,62,,,,Neige parfois modérée possible
+61,63,,,,Neige parfois forte possible
+62,63,,,,Neige parfois forte possible
+"(61, 62, 63)","(80, 81, 82, 83)",,,,Épisodes neigeux possibles
+70,"(71, 72, 73)",,,,Averses possibles
+71,72,,,,Rares averses possibles
+71,73,,,,Averses possibles
+72,73,,,,Averses avec ciel couvert possibles
+"(70, 71, 72, 73)","(77, 78)",,,,"Averses, parfois mêlées de neige possibles"
+77,78,,,,Averses mêlées de neige possibles
+80,"(81, 82, 83)",,,,Averses de neige possibles
+82,83,,,,Averses de neige possibles
+70,"(80, 81, 82, 83)",,,,"Averses possibles, parfois neigeuses"
+71,"(80, 83)",,,,"Averses possibles, parfois neigeuses"
+"(71, 72)","(81, 82)",,,,"Rares averses possibles, parfois neigeuses"
+73,"(80, 81)",,,,"Averses possibles, parfois neigeuses"
+73,"(82, 83)",,,,"Averses avec ciel couvert possibles, parfois neigeuses"
+84,85,,,,Averses de grésil ou grêle possibles
+"(70, 71, 72, 73)",92,,,,"Averses possibles, parfois orageuses"
+84,92,,,,Averses possibles de grésil parfois orageuses
+85,92,,,,Averses orageuses possibles parfois avec grêle
+85,98,,,,Orages ou averses possibles avec grêle
+91,92,,,,Orages et averses orageuses possibles
+91,93,,,,Orages possibles parfois avec pluie
+91,97,,,,"Orages possibles, parfois avec neige"
+93,98,,,,Orages possibles avec pluie et grêle
+93,99,,,,Orages possibles parfois violents avec pluie
+97,99,,,,"Orages possibles, parfois violents avec neige"
+98,99,,,,Orages possibles violents avec grêle
+51,61,,,,"Précipitations faibles possibles, parfois neigeuses"
+52,62,,,,"Précipitations modérées possibles, parfois neigeuses"
+53,63,,,,"Précipitations fortes possibles, parfois neigeuses"
+"(51, 52, 53)","(80, 81, 82, 83)",,,,"Pluie, averses de neige possibles"
+"(51, 52, 53)","(91, 93)",,,,Pluie ou orages possibles
+"(51, 52, 53)",98,,,,Pluie ou orages avec grêle possibles
+"(51, 52, 53)",99,,,,Pluie ou orages violents possibles
+"(61, 62, 63)","(70, 71, 72, 73)",,,,"Averses, neige possibles"
+"(61, 62, 63)","(91, 97)",,,,"Orages, neige possibles"
+"(61, 62, 63)",98,,,,"Giboulées orageuses, neige possibles"
+"(61, 62, 63)",99,,,,"Orages violents, neige possibles"
+"(70, 71, 72, 73)","(91, 93)",,,,Averses ou orages possibles
+"(70, 71, 72, 73)",98,,,,Averses ou orages avec grêle possibles
+"(70, 71, 72, 73)",99,,,,Averses ou orages violents possibles
+"(80, 81, 82, 83)","(91, 97)",,,,"Orages, averses de neige possibles"
+"(80, 81, 82, 83)",98,,,,"Giboulées orageuses, neige possibles"
+"(80, 81, 82, 83)",99,,,,"Orages violents, neige possibles"
+31,32,33,,,"Temps brumeux avec brouillard, parfois dense"
+31,32,38,,,"Temps brumeux avec brouillard, parfois givrant"
+31,32,39,,,"Temps brumeux avec brouillard, parfois dense et givrant"
+32,33,38,,,"Brouillard, localement dense ou givrant"
+32,33,39,,,"Brouillard, localement dense et givrant"
+32,38,39,,,"Brouillard, localement givrant et dense"
+33,38,39,,,Localement brouillard dense ou givrant
+30,32,33,,,"Brouillard, localement dense"
+30,32,38,,,"Brouillard, localement givrant"
+30,32,39,,,"Brouillard, localement dense et givrant"
+30,33,38,,,Brouillard localement dense ou givrant
+30,33,39,,,"Brouillard localement dense, parfois givrant"
+30,38,39,,,"Brouillard localement givrant, parfois dense"
+31,32,33,"(38, 39)",,"Temps brumeux avec brouillard, parfois dense ou givrant"
+31,33,38,39,,"Temps brumeux avec brouillard, parfois dense et givrant"
+32,33,38,39,,"Brouillard, localement dense ou givrant"
+30,32,33,38,,"Brouillard, localement dense ou givrant"
+30,32,33,39,,"Brouillard, localement dense et givrant"
+30,32,38,39,,"Brouillard, localement givrant et dense"
+30,33,38,39,,Brouillard localement dense ou givrant
+40,"(51, 52, 53)","(52, 53)",53,,Pluie et bruine
+31,32,33,38,39,"Temps brumeux avec brouillard, parfois dense ou givrant"
+30,32,33,38,39,"Brouillard, localement dense ou givrant"
+A1,,,,,Pluie possible
+A2,,,,,Neige possible
+A3,,,,,Averses possibles
+A4,,,,,Averses de neige possibles
+A5,,,,,Temps orageux possible
+A1,A2,,,,"Pluie, neige possibles"
+A1,A3,,,,Pluie ou averses possibles
+A1,A4,,,,"Pluie, averses de neige possibles"
+A1,A5,,,,Pluie ou orages possibles
+A1,B1,,,,Pluie parfois verglaçante possibles
+A1,B2,,,,Pluie ou averses de grésil possibles
+A1,B3,,,,Pluie ou averses de grêle possibles
+A1,B4,,,,Pluie ou orages avec grêle possibles
+A1,B5,,,,Pluie ou orages violents possibles
+A2,A3,,,,"Averses, neige possibles"
+A2,A4,,,,Épisodes neigeux possibles
+A2,A5,,,,"Orages, neige possibles"
+A2,B1,,,,"Précipitations verglaçantes, neige possibles"
+A2,B2,,,,"Averses de grésil, neige possibles"
+A2,B3,,,,"Averses de grêle, neige possibles"
+A2,B4,,,,"Giboulées orageuses, neige possibles"
+A2,B5,,,,"Orages violents, neige possibles"
+A3,A4,,,,Averses parfois neigeuses possibles
+A3,A5,,,,Orages ou averses possibles
+A3,B1,,,,Précipitations verglaçantes ou averses possibles
+A3,B2,,,,Averses avec parfois du grésil possibles
+A3,B3,,,,Averses avec parfois de la grêle possibles
+A3,B4,,,,Orages avec grêle ou averses possibles
+A3,B5,,,,Averses ou orages violents possibles
+A4,A5,,,,"Orages, neige possibles"
+A4,B1,,,,"Précipitations verglaçantes, neige possibles"
+A4,B2,,,,Giboulées neigeuses possibles
+A4,B3,,,,Fortes giboulées neigeuses possibles
+A4,B4,,,,"Orages, giboulées neigeuses possibles"
+A4,B5,,,,"Orages violents, averses de neige possibles"
+A5,B1,,,,Précipitations verglaçantes ou orages possibles
+A5,B2,,,,Orages ou averses de grésil possibles
+A5,B3,,,,Orages ou averses de grêle possibles
+A5,B4,,,,Temps orageux avec grêle possible
+A5,B5,,,,Orages possibles parfois violents
+A1,A2,A3,,,"Précipitations possibles, parfois neigeuses"
+A1,A2,A4,,,"Précipitations possibles, parfois neigeuses"
+A1,A2,A5,,,"Orages, précipitations possibles, parfois neigeuses"
+A1,A2,B1,,,"Précipitations verglaçantes, neige possibles"
+A1,A2,B2,,,"Précipitations, temporairement avec grésil, ou neige"
+A1,A2,B3,,,"Précipitations, temporairement avec grêle, ou neige"
+A1,A2,B4,,,"Giboulées orageuses, pluie, mêlée de neige"
+A1,A2,B5,,,"Violentes giboulées orageuses, pluie, mêlée de neige possibles"
+A1,A3,A4,,,"Averses, mêlées de neige possibles"
+A1,A3,A5,,,Temps pluvieux avec orages possible
+A1,A3,B1,,,Pluie parfois verglaçante et averses possibles
+A1,A3,B2,,,Temps pluvieux avec averses de grésil possible
+A1,A3,B3,,,Temps pluvieux avec averses de grêle possible
+A1,A3,B4,,,Temps pluvieux avec orages de grêle possible
+A1,A3,B5,,,Temps pluvieux avec orages violents possible
+A1,A4,A5,,,"Orages, précipitations, parfois mêlées de neige possibles"
+A1,A4,B1,,,"Précipitations verglaçantes, neige possibles"
+A1,A4,B2,,,"Précipitations, temporairement avec grésil, ou neige possibles"
+A1,A4,B3,,,"Précipitations, temporairement avec grêle, ou neige possibles"
+A1,A4,B4,,,"Orages avec grêle, précipitations, temporairement neigeuses possibles"
+A1,A4,B5,,,"Orages violents, précipitations, temporairement neigeuses possibles"
+A1,A5,B1,,,Pluie parfois verglaçante et orages possibles
+A1,A5,B2,,,Pluie et orages parfois avec grésil possibles
+A1,A5,B3,,,Pluie et orages parfois avec grêle possibles
+A1,A5,B4,,,Pluie et orages parfois avec grêle possibles
+A1,A5,B5,,,Pluie et orages parfois violents possibles
+A1,B1,B2,,,Pluie parfois verglaçante et averses de grésil possibles
+A1,B1,B3,,,Pluie parfois verglaçante et averses de grêle possibles
+A1,B1,B4,,,Pluie parfois verglaçante et orages de grêle possibles
+A1,B1,B5,,,Pluie parfois verglaçante et orages violents possibles
+A1,B2,B3,,,Pluie avec averses de grêle et de grésil possibles
+A1,B2,B4,,,Pluie avec averses de grésil et orages de grêle possibles
+A1,B2,B5,,,Pluie avec averses de grésil et orages violents possibles
+A1,B3,B4,,,Pluie avec averses et orages de grêle possibles
+A1,B3,B5,,,Pluie avec averses de grêle et orages violents possibles
+A1,B4,B5,,,Pluie avec orages violents parfois avec grêle possibles
+A2,A3,A4,,,"Averses, neige possibles"
+A2,A3,A5,,,"Orages, averses, neige possibles"
+A2,A3,B1,,,"Précipitations parfois verglaçantes, neige possibles"
+A2,A3,B2,,,"Averses parfois de grésil, neige possibles"
+A2,A3,B3,,,"Averses parfois de grêle, neige possibles"
+A2,A3,B4,,,"Giboulées orageuses, neige possibles"
+A2,A3,B5,,,"Violentes giboulées orageuses, neige possibles"
+A2,A4,A5,,,"Orages, averses, parfois neigeuses, possibles"
+A2,A4,B1,,,"Précipitations verglaçantes, neige prédominante possibles"
+A2,A4,B2,,,"Averses de grésil, neige prédominante possibles"
+A2,A4,B3,,,"Averses de grêle, neige prédominante possibles"
+A2,A4,B4,,,"Giboulées orageuses, neige prédominante possibles"
+A2,A4,B5,,,"Violentes giboulées orageuses, neige prédominante possibles"
+A2,A5,B1,,,"Orages, précipitations verglaçantes, neige possibles"
+A2,A5,B2,,,"Giboulées orageuses, neige possibles"
+A2,A5,B3,,,"Fortes giboulées orageuses, neige possibles"
+A2,A5,B4,,,"Fortes giboulées orageuses, neige possibles"
+A2,A5,B5,,,"Orages violents, neige possibles"
+A2,B1,B2,,,"Précipitations parfois verglaçantes ou avec grésil, neige possibles"
+A2,B1,B3,,,"Précipitations parfois verglaçantes ou avec grêle, neige possibles"
+A2,B1,B4,,,"Giboulées orageuses, précipitations verglaçantes, neige possibles"
+A2,B1,B5,,,"Orages violents, précipitations verglaçantes, neige possibles"
+A2,B2,B3,,,"Giboulées orageuses, neige possibles"
+A2,B2,B4,,,"Giboulées orageuses, neige possibles"
+A2,B2,B5,,,"Orages violents parfois avec grésil, neige possibles"
+A2,B3,B4,,,"Fortes giboulées orageuses, neige possibles"
+A2,B3,B5,,,"Orages violents parfois avec grêle, neige possibles"
+A2,B4,B5,,,"Orages, averses parfois neigeuses possibles"
+A3,A4,A5,,,Orages et averses parfois neigeuses possibles
+A3,A4,B1,,,"Précipitations verglaçantes, neige possibles"
+A3,A4,B2,,,Giboulées neigeuses possibles
+A3,A4,B3,,,Fortes giboulées neigeuses possibles
+A3,A4,B4,,,"Giboulées orageuses, neige possibles"
+A3,A4,B5,,,"Orages violents, averses parfois neigeuses possibles"
+A3,A5,B1,,,Précipitations parfois verglaçantes et orages possibles
+A3,A5,B2,,,"Averses, parfois de grésil, et orages possibles"
+A3,A5,B3,,,"Averses, parfois de grêle, et orages possibles"
+A3,A5,B4,,,Orages parfois avec grêle et averses possibles
+A3,A5,B5,,,Orages parfois violents et averses possibles
+A3,B1,B2,,,Précipitations parfois verglaçantes et averses de grésil possibles
+A3,B1,B3,,,Précipitations parfois verglaçantes et averses de grêle possibles
+A3,B1,B4,,,Précipitations parfois verglaçantes et orages avec grêle possibles
+A3,B1,B5,,,Précipitations parfois verglaçantes et orages violents possibles
+A3,B2,B3,,,"Averses possibles, parfois de grésil ou de grêle"
+A3,B2,B4,,,"Averses, parfois de grésil et orages avec grêle possibles"
+A3,B2,B5,,,"Averses, parfois de grésil et orages violents possibles"
+A3,B3,B4,,,Averses et orages avec grêle possibles
+A3,B3,B5,,,Averses parfois de grêle et orages violents possibles
+A3,B4,B5,,,"Averses et orages violents, parfois avec grêle possibles"
+A4,A5,B1,,,"Orages, précipitations verglaçantes, averses de neige possibles"
+A4,A5,B2,,,"Orages parfois avec grésil, averses de neige possibles"
+A4,A5,B3,,,"Orages parfois avec grêle, averses de neige possibles"
+A4,A5,B4,,,"Orages parfois avec grêle, averses de neige possibles"
+A4,A5,B5,,,"Orages parfois violents, averses de neige possibles"
+A4,B1,B2,,,"Précipitations parfois verglaçantes ou avec grésil, neige possibles"
+A4,B1,B3,,,"Précipitations parfois verglaçantes ou avec grêle, neige possibles"
+A4,B1,B4,,,"Orages avec grêle, précipitations verglaçantes, neige possibles"
+A4,B1,B5,,,"Orages violents, précipitations verglaçantes, neige possibles"
+A4,B2,B3,,,Giboulées neigeuses possibles
+A4,B2,B4,,,"Giboulées orageuses, neige possibles"
+A4,B2,B5,,,"Violentes giboulées orageuses, neige possibles"
+A4,B3,B4,,,"Giboulées orageuses, neige possibles"
+A4,B3,B5,,,"Violentes giboulées orageuses, neige possibles"
+A4,B4,B5,,,"Violentes giboulées orageuses, neige possibles"
+A5,B1,B2,,,Précipitations verglaçantes et orages parfois avec grésil possibles
+A5,B1,B3,,,Précipitations verglaçantes et orages parfois avec grêle possibles
+A5,B1,B4,,,Précipitations verglaçantes et orages parfois avec grêle possibles
+A5,B1,B5,,,Précipitations verglaçantes et orages parfois violents possibles
+A5,B2,B3,,,Giboulées orageuses possibles
+A5,B2,B4,,,"Giboulées orageuses possibles, parfois avec grêle"
+A5,B2,B5,,,Violentes giboulées orageuses possibles
+A5,B3,B4,,,Orages ou averses avec grêle possibles
+A5,B3,B5,,,"Orages, parfois violents et avec grêle possibles"
+A5,B4,B5,,,"Orages, parfois violents et avec grêle possibles"
+B1,B2,B3,,,Précipitations verglaçantes et giboulées possibles
+B1,B2,B4,,,"Précipitations verglaçantes, averses de grésil et orages de grêle possibles"
+B1,B2,B5,,,"Précipitations verglaçantes, averses de grésil et orages violents possibles"
+B1,B3,B4,,,"Précipitations verglaçantes, averses ou orages de grêle possibles"
+B1,B3,B5,,,"Précipitations verglaçantes, averses de grêle et orages violents possibles"
+B1,B4,B5,,,Précipitations verglaçantes et orages violents avec grêle possibles
+B2,B3,B4,,,Orages possibles avec grêle et grésil
+B2,B3,B5,,,Orages possibles parfois violents et grêle
+B2,B4,B5,,,Orages possibles parfois violents et grêle
+B3,B4,B5,,,Orages possibles violents avec grêle
+A1,A2,A3,A4,,"Temps perturbé, précipitations, parfois neigeuses possibles"
+A1,A2,A3,A5,,"Temps perturbé, orages, précipitations parfois neigeuses possibles"
+A1,A2,A4,A5,,"Temps perturbé, orages, précipitations parfois neigeuses possibles"
+A1,A3,A4,A5,,"Temps perturbé, orages, précipitations, parfois sous forme d'averses neigeuses possibles"
+A2,A3,A4,A5,,"Temps perturbé, orages, précipitations parfois neigeuses possibles"
+B1,B2,B3,B4,,"Précipitations verglaçantes, giboulées et orages avec grêle possibles"
+B1,B2,B3,B5,,"Précipitations verglaçantes, giboulées et orages violents possibles"
+B1,B2,B4,B5,,"Précipitations verglaçantes, giboulées et orages violents possibles"
+B2,B3,B4,B5,,Orages possibles violents avec grêle et grésil
+A1,A2,A3,A4,A5,"Temps perturbé avec orages et précipitations, parfois neigeuses possibles"
+B1,B2,B3,B4,B5,"Précipitations verglaçantes, orages violents avec grêle et grésil possibles"

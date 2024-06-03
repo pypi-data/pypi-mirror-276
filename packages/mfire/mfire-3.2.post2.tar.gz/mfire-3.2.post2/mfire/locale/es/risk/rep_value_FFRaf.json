@@ -1,0 +1,56 @@
+{
+     "plain": [
+          "Se esperan {indefinite_var_name} {around} {plain_value}.",
+          "{definite_var_name} se espera que {around} {plain_value}.",
+          "{definite_var_name} se espera que {around} {plain_value}.",
+          "Se espera que {indefinite_var_name} {around} {plain_value} sea.",
+          "Se espera {indefinite_var_name} {around} {plain_value}.",
+          "Estamos esperando {indefinite_var_name} {around} {plain_value}.",
+          "Predecimos {indefinite_var_name} {around} {plain_value}."
+      ],
+      "mountain": [
+          "Se espera que {indefinite_var_name} {around} {mountain_value} en las alturas.",
+          "Se espera que {definite_var_name} esté {around} {mountain_value} en las alturas.",
+          "Se espera que {definite_var_name} esté {around} {mountain_value} en las alturas.",
+          "{indefinite_var_name} {around} {mountain_value} están planeados en las alturas.",
+          "Se espera {indefinite_var_name} {around} {mountain_value} en las alturas.",
+          "Estamos esperando a {indefinite_var_name} {around} {mountain_value} en las alturas.",
+          "Predecimos {indefinite_var_name} {around} {mountain_value} en las alturas."
+      ],
+      "plain_mountain": [
+          "Se espera que {indefinite_var_name} {around} {plain_value} con {mountain_value} en alturas.",
+          "Se espera que {definite_var_name} esté {around} de {plain_value} con {mountain_value} en las alturas.",
+          "Se espera que {definite_var_name} esté {around} de {plain_value} con {mountain_value} en las alturas.",
+          "Se espera {indefinite_var_name} {around} {plain_value} con {mountain_value} en las alturas."
+      ],
+      "local_plain": [
+          "Se esperan {indefinite_var_name} {around} {plain_value} con picos locales {around} {local_plain_value}.",
+          "Los {definite_var_name} esperados son {around} {plain_value} con picos locales {around} {local_plain_value}.",
+          "Los {definite_var_name} previstos son {around} {plain_value} con un pico local {around} {local_plain_value}.",
+          "{indefinite_var_name} {around} {plain_value} se predicen con picos locales {around} {local_plain_value}.",
+          "Se espera {indefinite_var_name} {around} {plain_value} con picos locales {around} {local_plain_value}.",
+          "{definite_var_name} alcanza {plain_value} con picos locales {alrededor de} {local_plain_value}.",
+          "Esperamos {indefinite_var_name} {around} {plain_value} con picos locales {around} {local_plain_value}.",
+          "Predecimos {indefinite_var_name} {around} {plain_value} con picos locales {around} {local_plain_value}."
+      ],
+      "local_mountain": [
+          "Se esperan {indefinite_var_name} {around} {mountain_value} en las alturas con picos locales {around} {local_mountain_value}.",
+          "Se espera que {definite_var_name} esté {around} {mountain_value} en las alturas con picos locales {around} {local_mountain_value}.",
+          "Se predice que {definite_var_name} es {around} {mountain_value} en alturas con picos locales {around} {local_mountain_value}.",
+          "{indefinite_var_name} {around} {mountain_value} se predicen en las alturas con picos locales {around} {local_mountain_value}."
+      ],
+      "local_plain_mountain": [
+          "Se espera que {indefinite_var_name} {around} {plain_value} (localmente {local_plain_value}) con {mountain_value} en las alturas.",
+          "Se espera que {definite_var_name} sea {around} {plain_value} (localmente {local_plain_value}) con {mountain_value} en las alturas.",
+          "Se espera que {definite_var_name} sea {around} {plain_value} (localmente {local_plain_value}) con {mountain_value} en las alturas."
+      ],
+      "plain_local_mountain": [
+          "Se esperan {indefinite_var_name} {around} {plain_value} con {mountain_value} (localmente {local_mountain_value}) en las alturas.",
+          "Se espera que {definite_var_name} sea {around} {plain_value} con {mountain_value} (localmente {local_mountain_value}) en las alturas.",
+          "Se espera que {definite_var_name} sea {alrededor de} {plain_value} con {mountain_value} (localmente {local_mountain_value}) en las alturas."
+      ],
+      "local_plain_local_mountain": [
+          "Se espera que {indefinite_var_name} {around} {plain_value} (localmente {local_plain_value}) con {mountain_value} (localmente {local_mountain_value}) en las alturas.",
+          "Se espera que {definite_var_name} sea {around} {plain_value} (localmente {local_plain_value}) con {mountain_value} (localmente {local_mountain_value}) en las alturas."
+      ]
+}
