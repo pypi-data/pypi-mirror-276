@@ -1,0 +1,3 @@
+[console_scripts]
+typo=typorio.main:cli
+
