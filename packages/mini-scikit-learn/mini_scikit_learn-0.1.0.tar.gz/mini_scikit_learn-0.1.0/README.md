@@ -1,0 +1,1 @@
+### Simple example of a Python program that uses the `requests` library to make a GET request to a URL and print the response.
