@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pytro
+Version: 0.1
+Summary: Symbios of eel and pywebview
+Author: NoSleepForTonight
+Requires-Dist: eel
+Requires-Dist: pywebview
+Requires-Dist: pygobject
+
