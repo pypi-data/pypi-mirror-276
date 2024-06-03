@@ -1,0 +1,11 @@
+vicodepy/__init__.py,sha256=lIO0vgr6enuRNjYPztg3_gyx0iV55WpaWpDOqkPeoLM,818
+vicodepy/__main__.py,sha256=YaXI1V5yQk-zE_3EOZCf91Xe4EsykYPiKWOmq2CKmt8,957
+vicodepy/app.py,sha256=SvjMHiJpPe3S0HejwfFy7-OYzkiN3r9X-1KR7dxQlDQ,44723
+vicodepy/command.py,sha256=Heagv1ouyVURoD_jY0KChOp8bDaBet7ED1EWSPB3_PE,1323
+vicodepy/config/config.yml,sha256=mN4bCk7laPePoVg-aYm9inq8vKYFJBWCXLklc113xsQ,202
+vicodepy/style.qss,sha256=wqLnzb0ca1IT7EMFTk5FonJIODrvZ4ooOqH89DTzfXA,43
+vicodepy-0.4.4.dist-info/entry_points.txt,sha256=Vl3zc77X-Dc66uOvK17_87R4knNpe0-yNij1DeiaUyU,42
+vicodepy-0.4.4.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+vicodepy-0.4.4.dist-info/METADATA,sha256=4X9Sg1_B6jDB7A8AqqNDlmnxrTwt5gu5E51WVQArA9M,3303
+vicodepy-0.4.4.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vicodepy-0.4.4.dist-info/RECORD,,
