@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: reflex-animated-cursor
+Version: 0.0.1
+Summary: Reflex custom component animated-cursor
+Author-email: Adarsh Gourab Mahalik <gourabmahalikadarsh@gmail.com>
+License: Apache-2.0
+Keywords: reflex,reflex-custom-components
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: reflex >=0.4.2
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# animated-cursor
+
+A Reflex custom component animated-cursor.
+
+## Installation
+
+```bash
+pip install reflex-animated-cursor
+```
+
+- **`color`**: `str` - RGB value for the cursor color.
+- **`inner_scale`**: `float` - Scale factor for the inner cursor.
+- **`outer_scale`**: `float` - Scale factor for the outer cursor.
+- **`outer_alpha`**: `float` - Alpha transparency for the outer cursor.
+- **`inner_size`**: `int` - Size (px) of the inner cursor dot.
+- **`outer_size`**: `int` - Size (px) of the outer cursor outline.
+- **`inner_style`**: `dict` - Custom styles for the inner cursor.
+- **`outer_style`**: `dict` - Custom styles for the outer cursor.
+- **`clickables`**: `list` - Collection of selectors that trigger cursor interaction.
+- **`show_system_cursor`**: `bool` - Show or hide the system cursor.
+- **`trailing_speed`**: `int` - Speed of the outer cursor's trailing animation.
