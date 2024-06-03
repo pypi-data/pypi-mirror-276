@@ -1,0 +1,10 @@
+netcord/__init__.py,sha256=8Tk5HoxpanI-j9Nla39R553re25_y29d17Q-7T0-LBA,52
+netcord/http.py,sha256=SUJ2L_4-SexXSHuwLhZh-n-x_bSPdSqS9T6BYSMkS4g,1529
+netcord/logger.py,sha256=XKyCjTYGjm6sikPCwSARxOq3caZayjjIBIW3dqowEEo,239
+netcord/models.py,sha256=HFvAjTk4xTy6d9m80gigAWS2r3CyBENTJbw3WN6weMw,1984
+netcord/netcord.py,sha256=fFUzmL7lG_lDalSqEkyoj1C76sWsLzBGgzP9S-6oUAQ,3506
+netcord-0.1.0.dist-info/LICENSE,sha256=34MvEJ0RdABcWqUaf2i-5AiNRyeJGn5HF8bmVrvIp34,1063
+netcord-0.1.0.dist-info/METADATA,sha256=oV_geY5At3LTn28SzljEa0rro9GcBAPW76MiA6ChUic,1912
+netcord-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+netcord-0.1.0.dist-info/top_level.txt,sha256=P_XGphWC7EUkoKmcIvZqtq9B3XcrVWE-6cmywZZglQg,8
+netcord-0.1.0.dist-info/RECORD,,
