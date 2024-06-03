@@ -1,0 +1,26 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Zariadenie u\u017e je nakonfigurovan\u00e9"
+        },
+        "error": {
+            "cannot_connect": "Nepodarilo sa pripoji\u0165",
+            "invalid_auth": "Neplatn\u00e9 overenie",
+            "unknown": "Neo\u010dak\u00e1van\u00e1 chyba"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "authority_id": "ID autority",
+                    "client_id": "ID klienta",
+                    "client_secret": "Tajn\u00fd k\u013e\u00fa\u010d klienta",
+                    "clusteringesturi": "Cluster Ingest URI",
+                    "database": "N\u00e1zov datab\u00e1zy",
+                    "table": "N\u00e1zov tabu\u013eky"
+                },
+                "description": "Zadajte \u00fadaje o pripojen\u00ed.",
+                "title": "Nastavenie integr\u00e1cie Azure Data Explorer"
+            }
+        }
+    }
+}
