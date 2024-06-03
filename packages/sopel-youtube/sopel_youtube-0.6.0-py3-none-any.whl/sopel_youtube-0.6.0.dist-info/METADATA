@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: sopel-youtube
+Version: 0.6.0
+Summary: YouTube link information plugin for Sopel.
+Author-email: Else Powell <else@asinif.com>, Max Gurela <maxpowa1@gmail.com>, dgw <dgw@technobabbl.es>
+Maintainer-email: dgw <dgw@technobabbl.es>
+License: EFL-2.0
+Project-URL: Homepage, https://github.com/sopel-irc/sopel-youtube
+Project-URL: Bug Tracker, https://github.com/sopel-irc/sopel-youtube/issues
+Keywords: sopel,plugin,bot,irc,youtube
+Platform: Linux x86, x86-64
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Eiffel Forum License (EFL)
+Classifier: License :: OSI Approved :: Eiffel Forum License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Communications :: Chat :: Internet Relay Chat
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: sopel <9,>=8.0
+Requires-Dist: google-api-python-client <3,>=1.5.5
+
+# sopel-youtube
+
+YouTube link information plugin for Sopel.
+
+## Installing
+
+Releases are hosted on PyPI, so after installing Sopel, all you need is `pip`:
+
+```shell
+$ pip install sopel-youtube
+```
+
+(Make sure you use the "correct" `pip`, i.e. the one corresponding to the Python
+environment where you have Sopel installed.)
+
+### Migrating from `sopel-modules.youtube`
+
+You can simply `pip uninstall sopel-modules.youtube` prior to installing this
+package; no extra steps should be needed. `sopel-youtube` inherits the
+configuration section originally defined and used by the older versions.
+
+### Latest source
+
+If you want to help develop or test the plugin, you'll need to install from
+source. Clone the repo first, then:
+
+```shell
+$ pip install -e .
+```
+
+#### Testing changes
+
+To run tests, make sure you have the development dependencies as well:
+
+```shell
+$ pip install -r dev-requirements.txt
+```
+
+Run the test suite from the repo root directory:
+
+```shell
+$ pytest -v .
+```
+
+## Getting your API key
+Go to the [Google Developers Console](https://console.developers.google.com/)
+and create an application. When it's created, go to the APIs section, select
+the YouTube Data API and enable it. Then go to the Credentials section,
+select "Add credentials", pick "API key", and then "Server key". You can enter
+a name for it and limit the IPs it can be used from, but you don't have to.
+Copy the value it gives you into the prompt in the config wizard (see below),
+or the `api_key` field of the config file's `[youtube]` section.
+
+## Configuring the plugin
+
+`sopel-youtube` supports Sopel's interactive configuration wizard:
+
+    sopel-plugins configure youtube
+
+The `api_key` option is self-explanatory (see above).
+
+If video "watch" links contain a playlist ID, the plugin will show the
+playlist info as well as the video info by default. To disable this, set
+`playlist_watch` to `False`.
+
+For videos, by default, only the video length, uploader (channel name), view
+count, and upload date are shown. The included items, and the order in which
+they appear, depend on the `info_items` setting, which is a list of keywords.
+Unrecognized keywords are simply ignored. Supported `info_items` are:
+
+* `comments` (comment count)
+* `date` (upload time/date)
+* `length` (duration)
+* `likes` (count)
+* `uploader` (channel name)
+* `views` (view count)
+
+Changes between 0.5.1 and 0.6.0
+===============================
+* New package name: `sopel-youtube` replaces `sopel-modules.youtube` (#55, #67)
+* Sopel 8.0+ now required (#57, #65)
+* Improve link handling (#56, #58)
+* Improve thread-safety (#63)
+* Fix date parsing error for playlists (#62)
+
+
+Changes between 0.5.0 and 0.5.1
+===============================
+* Fix hiding load-time import errors (#52)
+
+
+Changes between 0.4.3 and 0.5.0
+===============================
+* Prep for Sopel 8:
+  * Require Sopel 7.1+; Sopel 7.0 is no longer supported
+  * Use `BooleanAttribute` setting type (#41)
+  * Switch from `sopel.module` to `sopel.plugin` (#42)
+* Format time according to the channel's preference, w/fallback to bot setting (#50)
+* Permit newer `google-api-python-client` library versions (#51)
+
+
+Changes between 0.4.2 and 0.4.3
+===============================
+* Remove handling of dislikes, which YouTube removed from its API (#45)
+* Make live-stream handling more robust, again (#48)
+* Replace `votes` and `votes_color` keywords in `info_items` with `votes` (#49)
+  * The old keywords will function as aliases until at least plugin version 0.5.0
+
+
+Changes between 0.4.1 and 0.4.2
+===============================
+* Improve error handling (#44)
+
+
+Changes between 0.4.0 and 0.4.1
+===============================
+* Handle "shorts" links (#36)
+* Be more careful about auto-playlists (#38)
+
+
+Changes between 0.3.2 and 0.4.0
+===============================
+* Enhance live stream support (#28)
+* Add playlist handling (#29, #33)
+* Protect against bidirectional text (#31)
+
+
+Changes between 0.3.1 and 0.3.2
+===============================
+* Clean up some problematic imports (#25)
+* Request only the necessary data fields from YouTube API (#27)
+
+
+Changes between 0.3.0 and 0.3.1
+===============================
+* Override handling of rare API errors reported to output the key (#23)
+
+
+Changes between 0.2.1 and 0.3.0
+===============================
+* Allow configuring what video details to include (#18)
+* Remove outdated, ugly colors on "[YouTube]" output tag (#21)
+* Minor cleanup (regex patterns, package metadata)
+
+
+Changes between 0.2.0 and 0.2.1
+===============================
+* Handle API sending wrongly formatted timestamps (#20)
+
+
+Changes between 0.1.3 and 0.2.0
+===============================
+* Update for Sopel 7 (#15)
+
+
+Changes between 0.1.2 and 0.1.3
+===============================
+* Add retry mechanic to API fetching (#11)
+* Fix exception traceback sometimes thrown on reconnect (#14)
+* Update ancient, deprecated usage of Sopel's memory API (#16)
+
+
+Changes between 0.1.1 and 0.1.2
+===============================
+* Fix error when video comments are disabled
+* Improve duration parser
+* Restrict google-api-python-client to compatible version range
+* Fix version-number import issue during installation
+
+
+Changes between 0.1.0 and 0.1.1
+===============================
+* Output is colorized
+* Fix configuration wizard
+* pip installation works regardless of pip version
