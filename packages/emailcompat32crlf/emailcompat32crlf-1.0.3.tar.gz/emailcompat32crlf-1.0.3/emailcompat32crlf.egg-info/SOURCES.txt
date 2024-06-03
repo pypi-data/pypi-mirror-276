@@ -1,0 +1,12 @@
+CHANGES.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+emailcompat32crlf/__init__.py
+emailcompat32crlf.egg-info/PKG-INFO
+emailcompat32crlf.egg-info/SOURCES.txt
+emailcompat32crlf.egg-info/dependency_links.txt
+emailcompat32crlf.egg-info/entry_points.txt
+emailcompat32crlf.egg-info/not-zip-safe
+emailcompat32crlf.egg-info/top_level.txt
