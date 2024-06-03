@@ -1,0 +1,17 @@
+LICENSE,sha256=nws0GSAq2BWbPn1URpS7eFssbnI5Ya347SYOs5QE1sA,1097
+README.md,sha256=zQu6k_yG-ThFzSa8TQW1_OWSzDIVbIKWNtpNDZTKec4,274
+grammar/postgres.ebnf,sha256=sr-uA_u5nFKGfXt-Aim2rIQfKgCzrzg2XgcEnK9he-M,1735
+squel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squel/app.py,sha256=Z12t2cGPAOPWPxkSBgGU2SMwTdgohzK0SoIAbPwRjfk,229
+squel/cli.py,sha256=93TIQ-SYH8fDWqBeF8ubKURMd8_0NosVrOzkqhp9bEY,249
+squel/grammar.py,sha256=qhBOJWFtR8oc2rxeemRGAsURZjuEUHfE8-7u9MpEDHU,170
+squel/indenter.py,sha256=retVgFj8ih9DuP9mGWhVaTdKZResidSYBDlb7ro7kRg,238
+squel/parser.py,sha256=MbXeqSjGonzNS0eu16jrMdqDyQ7c-i7E_YBUO54mfQA,1148
+squel/transformer.py,sha256=vacG2aFCeDfrCdrMuNUyiAc77pUs_SbW5KIzNgS98Lk,236
+squel/tree.py,sha256=dqFnuuA9I-1sEoN6kz-sILyEKU-jDJrvk-0xWd-UfKI,1158
+squel/version.py,sha256=Ug9CpYjcrn1EZdan4gbhb5FJi3CmIZGJI1Yc_A63Z58,42
+squel-1.0.0.dist-info/LICENSE,sha256=nws0GSAq2BWbPn1URpS7eFssbnI5Ya347SYOs5QE1sA,1097
+squel-1.0.0.dist-info/METADATA,sha256=AtEzTX2y2V-MTGTMrTdxfp26LrkIDdLRU8NHrRhhpgw,878
+squel-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+squel-1.0.0.dist-info/entry_points.txt,sha256=GbjE0NGCeFzMSF_YvSs6q5wxsiWThHoR0WwFUxa9C5M,45
+squel-1.0.0.dist-info/RECORD,,

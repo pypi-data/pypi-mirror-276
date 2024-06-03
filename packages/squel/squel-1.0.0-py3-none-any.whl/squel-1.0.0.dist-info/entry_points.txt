@@ -1,0 +1,3 @@
+[console_scripts]
+sqlast=squel.Cli:Cli.main
+
