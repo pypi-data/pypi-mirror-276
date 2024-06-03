@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: parameters-fooetall
+Version: 0.1
+Home-page: https://github.com/bennyantony2500/parameters_fooetall
+Download-URL: https://github.com/bennyantony2500/parameters_fooetall/archive/refs/tags/v.1.0.tar.gz
+Author: Benny Antony
+Author-email: bennyantony2500@gmail.com
+License: MIT
+Requires-Dist: argparse
+
