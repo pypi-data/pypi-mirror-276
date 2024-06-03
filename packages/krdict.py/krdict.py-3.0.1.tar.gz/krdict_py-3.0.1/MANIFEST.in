@@ -1,0 +1,5 @@
+include src/py.typed
+include src/**/*.pyi
+include src/**/**/*.pyi
+include src/**/**/**/*.pyi
+include PYPI_README.md
