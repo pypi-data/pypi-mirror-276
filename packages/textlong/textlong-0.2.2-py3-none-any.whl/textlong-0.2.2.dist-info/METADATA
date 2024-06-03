@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: textlong
+Version: 0.2.2
+Summary: A framework designed to produce long-texts with GPT or other large language models.
+Home-page: https://github.com/arcstep/textlong
+License: MIT
+Author: arcstep
+Author-email: 43801@qq.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: langchain (>=0.1.0,<0.3.0)
+Requires-Dist: langchain-community (>=0.0.38,<0.3.0)
+Requires-Dist: pydantic (>=1,<3)
+Requires-Dist: pydot (>=2.0.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: python-statemachine (>=2.2.0,<3.0.0)
+Project-URL: Repository, https://github.com/arcstep/textlong.git
+Description-Content-Type: text/markdown
+
+# 🦜🦜🦜 textlong
+[![PyPI version](https://img.shields.io/pypi/v/textlong.svg)](https://pypi.org/project/textlong/)
+
+**textlong** 的目标是基于大语言模型提供结构化的长文本生成能力。
+
+## 一、安装
+
+**安装textlong：**
+
+你可以使用 pip 安装：
+```
+pip install -U textlong
+```
+
+或者使用 poetry 安装：
+```
+poetry add textlong@latest
+```
+
+**加载环境变量：**
+
+```python
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv(), override=True)
+```
+
+## 二、创作长文当
+
+**`Outline` 创作提纲：**
+
+```python
+from textlong.md import Outline
+from langchain_zhipu import ChatZhipuAI
+
+ol = Outline(llm=ChatZhipuAI())
+ol.write("请帮我创作500字的修仙小说，大女主设定，请给出主角的具体名字")
+```
+
+**`Detail` 依据提纲扩写：**
+
+```python
+from textlong.md import Detail
+
+detail = Detail(source=ol)
+detail.write()
+```
+
