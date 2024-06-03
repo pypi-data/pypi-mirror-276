@@ -1,0 +1,4 @@
+testproj
+tests
+venv
+xbot
