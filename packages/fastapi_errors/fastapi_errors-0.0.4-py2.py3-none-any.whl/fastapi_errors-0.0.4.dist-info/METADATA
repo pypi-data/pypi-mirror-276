@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fastapi_errors
+Version: 0.0.4
+Summary: Fastapi errors module.
+Author-email: Rey092 <roman.cheburan@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+test readme
