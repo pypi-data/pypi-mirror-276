@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: AdroitFisherman
+Version: 0.0.30
+Summary: This is a simple package about Data Structure packed by C/C++ language.
+Home-page: UNKNOWN
+Author: adroit_fisherman
+Author-email: 1295284735@qq.com
+License: UNKNOWN
+Platform: Windows
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+# 版本更新总览
+* 新增对栈的数据类型支持。
+* 修改了部分模块程序潜在的漏洞。
+* 添加了Base64编码器解码器的销毁算法以便对编码器或解码器进行多次使用。
+## 项目模块清单
+* Base64Util
+* CircularSingleLinkedList
+* DoubleLinkedList
+* SequentialList
+* SingleLinkedList
+* SingleLinkedListWithoutHeadNode
+* LinkedStack
+

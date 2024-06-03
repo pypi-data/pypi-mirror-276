@@ -1,0 +1,12 @@
+# 版本更新总览
+* 新增对栈的数据类型支持。
+* 修改了部分模块程序潜在的漏洞。
+* 添加了Base64编码器解码器的销毁算法以便对编码器或解码器进行多次使用。
+## 项目模块清单
+* Base64Util
+* CircularSingleLinkedList
+* DoubleLinkedList
+* SequentialList
+* SingleLinkedList
+* SingleLinkedListWithoutHeadNode
+* LinkedStack
