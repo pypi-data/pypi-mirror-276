@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: PyEclipse
+Version: 0.1.0
+Summary: Krótki opis twojego projektu
+Home-page: https://github.com/twoj_github/nazwa_projektu
+Author: SneakyFrameworkCreator
+Author-email: twoj_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+The provided Python code defines several classes that offer utility functions for web browser operations, string manipulations, and random operations. Below is a detailed description of each class and its methods:
+
+Classes and Methods
+1. web_funcs Class
+This class contains methods related to web browser operations.
+
+open_url(url):
+
+Opens the specified URL in the default web browser.
+Parameters:
+url (str): The URL to be opened.
+check_background_browser():
+
+Returns the BackgroundBrowser class from the webbrowser module. This class can be used to define a browser controller that runs in the background.
+````check_base_browser():````
+
+Returns the BaseBrowser class from the webbrowser module. This class is the base class for all browser controllers.
+2. rand_strings Class
+This class provides methods to retrieve different sets of characters.
+```py
+lowercase():
+```
+Returns a string containing all lowercase ASCII letters ('abcdefghijklmnopqrstuvwxyz').
+uppercase():
+
+Returns a string containing all uppercase ASCII letters ('ABCDEFGHIJKLMNOPQRSTUVWXYZ').
+digits():
+
+Returns a string containing all digit characters ('0123456789').
+# random_classes Class
+This class offers methods for generating random numbers and performing random operations on lists.
+
+rnum(num1, num2):
+
+# Returns a random integer between num1 and num2 (inclusive).
+Parameters:
+```
+num1 (int): The lower bound of the range.
+num2 (int): The upper bound of the range.
+chelement(list):
+```
+Returns a random element from the given list.
+Parameters:
+list (list): The list from which a random element is to be selected.
+shlist(list):
+
+Shuffles the given list in place, meaning the order of elements in the original list will be randomly changed.
+Parameters:
+list (list): The list to be shuffled.
+Usage Example
+Here's a brief example of how to use the classes and methods defined in the code:
+
+python
+Skopiuj kod
+# Using web_funcs class
+```py
+web_funcs.open_url("https://www.example.com")
+background_browser_class = web_funcs.check_background_browser()
+base_browser_class = web_funcs.check_base_browser()
+```
+# Using rand_strings class
+```
+lowercase_letters = rand_strings.lowercase()
+uppercase_letters = rand_strings.uppercase()
+digits = rand_strings.digits()```
+
+# Using random_classes class
+```py
+random_number = random_classes.rnum(1, 100)
+random_element = random_classes.chelement([1, 2, 3, 4, 5])
+my_list = [1, 2, 3, 4, 5]
+random_classes.shlist(my_list)
+This code is useful for tasks involving web browsing, character generation, and random operations.```

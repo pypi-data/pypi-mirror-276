@@ -1,0 +1,6 @@
+setup.py
+PyEclipse/__init__.py
+PyEclipse.egg-info/PKG-INFO
+PyEclipse.egg-info/SOURCES.txt
+PyEclipse.egg-info/dependency_links.txt
+PyEclipse.egg-info/top_level.txt
