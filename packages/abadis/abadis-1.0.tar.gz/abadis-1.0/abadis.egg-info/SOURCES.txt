@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+abadis.egg-info/PKG-INFO
+abadis.egg-info/SOURCES.txt
+abadis.egg-info/dependency_links.txt
+abadis.egg-info/requires.txt
+abadis.egg-info/top_level.txt
