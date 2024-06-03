@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "*"
+pytest-timeout = "*"
+pytest-rerunfailures = "*"
+allure-pytest = "*"
+funnylog = "*"
+youqu-imagecenter-rpc = "*"
+click = "*"
+rich = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
+python_full_version = "3.7.3"
