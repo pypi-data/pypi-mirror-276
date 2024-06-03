@@ -1,0 +1,3 @@
+[console_scripts]
+gspread-delimited-export=gspread_delimited_export.cli:cli
+
