@@ -1,0 +1,38 @@
+pre[class*=language-]:before {
+    background: rgba(var(--bs-body-color-rgb), 0.10);
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-left: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-top: var(--bs-border-width) solid var(--bs-border-color-translucent);
+
+    border-bottom-left-radius:  var(--bs-border-radius-xl);
+    border-top-left-radius:  var(--bs-border-radius-xl);
+    content: "\F2C6";
+    color: var(--bs-body-color);
+    display: inline-flex;
+    padding: 0.75rem;
+    align-items: start;
+    font-family: "bootstrap-icons";
+}
+
+pre[class*=language-] {
+    display: flex;
+    margin-bottom: 0;
+}
+
+code[class*=language-] {
+    border-top-right-radius:  var(--bs-border-radius-xl);
+    justify-content: center;
+    align-items: start;
+    line-height: 1.8rem;
+    font-size: 1.35rem;
+    flex-direction: column;
+    padding: 0.75rem;
+    background: rgba(var(--bs-body-color-rgb), 0.03);
+    border: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    overflow: hidden !important;
+    flex-grow: 1;
+    white-space: pre-wrap;
+    font-weight: 300;
+    tab-size: 2 !important;
+    text-align: left;
+}

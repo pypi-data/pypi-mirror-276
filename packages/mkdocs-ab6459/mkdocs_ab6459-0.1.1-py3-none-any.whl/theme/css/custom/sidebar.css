@@ -1,0 +1,31 @@
+.sidebar-navigation-children {
+    background: rgba(var(--bs-body-color-rgb), 0.03);
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-left: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-right: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-bottom-left-radius: var(--bs-border-radius);
+    border-bottom-right-radius: var(--bs-border-radius);
+}
+
+li:last-child {
+    padding-bottom: 0 !important;
+}
+
+button {
+    text-align: left !important;
+}
+
+button[id*='btn']:after {
+    align-items: center;
+    display: inline-flex;
+    content: "\F285";
+    font-family: bootstrap-icons;
+    margin: 0 0 0 auto;
+    text-align: right;
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+}
+
+button[id*='btn'][aria-expanded="true"]:after {
+    transform: rotate(90deg);
+}
