@@ -1,0 +1,11 @@
+requests
+XlsxWriter
+p_tqdm
+
+[dev]
+ruff
+types-requests
+google-api-python-client
+isort
+pytest
+pytest-cov
