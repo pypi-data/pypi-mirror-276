@@ -1,0 +1,12 @@
+lmdb
+datas-helper[image]
+tqdm
+
+[dev]
+black
+flake8
+flake8-pyproject
+pytest
+pytest-asyncio
+typing_extensions
+isort
