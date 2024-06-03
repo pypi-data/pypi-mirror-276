@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "qsv-duct"
+authors = [{name = "Mueez Khan"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+keywords = ["qsv", "csv"]
+dependencies = ["duct"]
+
+[tool.flit.module]
+name = "qsv"
+
+[project.urls]
+Home = "https://github.com/rzmk/qsv-duct"
+
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
+
+[tool.flit.sdist]
+exclude = ["**/__pycache__", ".venv"]
