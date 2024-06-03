@@ -1,0 +1,16 @@
+{
+  "template": "https://github.com/halbow/templates",
+  "commit": "9ba75d3c1e04137443f6065976f3a41e803c82a5",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "project_name": "structify",
+      "author": "halbow",
+      "description": "The structify library, ...",
+      "project_directory": "structify",
+      "python_3_version": "8",
+      "_template": "https://github.com/halbow/templates"
+    }
+  },
+  "directory": "lib_template"
+}
