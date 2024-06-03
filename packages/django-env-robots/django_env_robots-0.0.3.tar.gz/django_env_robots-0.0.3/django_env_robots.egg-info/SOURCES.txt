@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+django_env_robots/__init__.py
+django_env_robots/apps.py
+django_env_robots/models.py
+django_env_robots/tests.py
+django_env_robots/urls.py
+django_env_robots/views.py
+django_env_robots.egg-info/PKG-INFO
+django_env_robots.egg-info/SOURCES.txt
+django_env_robots.egg-info/dependency_links.txt
+django_env_robots.egg-info/requires.txt
+django_env_robots.egg-info/top_level.txt
