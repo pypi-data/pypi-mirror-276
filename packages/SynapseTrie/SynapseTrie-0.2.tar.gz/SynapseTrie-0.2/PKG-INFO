@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: SynapseTrie
+Version: 0.2
+Summary: Efficient trie for storing and searching phrases.
+Home-page: https://github.com/J0nasW/SynapseTrie
+Author: Jonas Wilinski
+Author-email: jonas@wilinski.me
+License: UNKNOWN
+Description: # Synapse Trie
+        
+        Synapse Trie is a Python package for efficiently storing and searching phrases using a trie data structure, with additional features like weights, text filtering, and more.
+        
+        ## Installation
+        
+        Install directly using pip:
+        
+        ```bash
+        pip install git+https://github.com/J0nasW/SynapseTrie.git
+        ```
+        
+        ## Usage
+        
+        ```python
+        from SynapseTrie import SynapseTrie
+        
+        trie = SynapseTrie()
+        
+        trie.add("hello")
+        
+        print(trie.search("hello")) # True
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

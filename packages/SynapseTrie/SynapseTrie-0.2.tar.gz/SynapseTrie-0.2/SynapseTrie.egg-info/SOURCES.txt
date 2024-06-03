@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+SynapseTrie/__init__.py
+SynapseTrie/trie.py
+SynapseTrie/utilities.py
+SynapseTrie.egg-info/PKG-INFO
+SynapseTrie.egg-info/SOURCES.txt
+SynapseTrie.egg-info/dependency_links.txt
+SynapseTrie.egg-info/requires.txt
+SynapseTrie.egg-info/top_level.txt
+tests/__init__.py
+tests/test_trie.py
