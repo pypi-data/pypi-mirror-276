@@ -1,0 +1,7 @@
+email
+requests
+pandas
+xlrd==1.2.0
+openpyxl
+beautifulsoup4
+setuptools
