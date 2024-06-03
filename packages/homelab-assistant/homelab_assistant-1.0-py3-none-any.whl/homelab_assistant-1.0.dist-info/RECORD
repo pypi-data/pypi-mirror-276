@@ -1,0 +1,9 @@
+homelab_assistant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homelab_assistant/main.py,sha256=AzxQJzqDrQ4R7L9cuR-OCtULEOuTRKplXFHCW6A1fK8,1495
+homelab_assistant/portainer.py,sha256=NwplsQkQuZNBOWTZnWJ_6rbJ3wmROWPosisEd-bAsRc,6333
+homelab_assistant-1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+homelab_assistant-1.0.dist-info/METADATA,sha256=iI9nggQ3lbIVABnLVvN6BhJpx0vrC7Nnb91K86s85GE,367
+homelab_assistant-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+homelab_assistant-1.0.dist-info/entry_points.txt,sha256=xN7rCWpCC89cFF4cPQkqgEoXEBjrHfGrv6k0RW910xk,57
+homelab_assistant-1.0.dist-info/top_level.txt,sha256=CAo98riY6NTH1t-jSABhmxfLoqPvbsi5Ajt7mOAAA7w,18
+homelab_assistant-1.0.dist-info/RECORD,,

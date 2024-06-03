@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: homelab-assistant
+Version: 1.0
+Summary: Homelab automation tools
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: rich
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-pyproject ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+
