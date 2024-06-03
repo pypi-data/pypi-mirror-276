@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-automation
+Version: 0.0.1
+Summary: window automation package made and maintained by changgwak(tony)
+Home-page: https://github.com/changgwak/
+Author: changgwak
+Author-email: iamtony.ca@gmail.com
+Keywords: pyauto,rpa,python rpa,python automation,window selenium,pyautomation,autoclick
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: pywin32
+
