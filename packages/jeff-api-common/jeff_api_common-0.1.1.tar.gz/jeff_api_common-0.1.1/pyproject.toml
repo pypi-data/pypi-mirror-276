@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jeff-api-common"
+version = "0.1.1"
+description = ""
+authors = ["billixcode <64236392+billixcode@users.noreply.github.com>"]
+readme = "README.md"
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+flask = "^3.0.3"
+
+
+[[tool.poetry.source]]
+name = "rob"
+url = "https://localhost:8081/simple/"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
