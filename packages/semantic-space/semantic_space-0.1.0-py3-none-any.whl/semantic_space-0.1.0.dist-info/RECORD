@@ -1,0 +1,15 @@
+semantic_space/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_space/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_space/models/embeddings.py,sha256=F5wDBbk6fyytgJLIHWJIzTUtmGKtyPlZWbz-wpKxWCU,2516
+semantic_space/models/grams.py,sha256=Tt6X8kCGFx-dHBYsPnF4oyYNaFiceV7GzA4xCYRT6N0,7000
+semantic_space/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_space/tools/preprocessing.py,sha256=yEkPnK-kASQluhjEvnD4nmH7k-Q3mzuNhwKS7PJvLDs,9223
+semantic_space/tools/tokens.py,sha256=P9SQlM8pNoxkcbE_fGCXbbSVEfKJF3S84H0evTHuagg,15748
+semantic_space/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_space/utils/exceptions.py,sha256=kP2O3f9gvmjEJ_NHAvsieouSf8j7kNnbQkHN5lphb9Q,312
+semantic_space/utils/log.py,sha256=0t0hQB7bzpONbg8mlMTkOHSnmT-5bJbzLAnpFZ2cF8k,352
+semantic_space/utils/types.py,sha256=_Het1B1Fr6bmeaDfIdTzEapTMfaYTu0q46YCPRlDquI,984
+semantic_space-0.1.0.dist-info/LICENSE.txt,sha256=0JWz7y8t_nwARuNccO--2lfceKj2OMiV8NBw2RYguIE,1068
+semantic_space-0.1.0.dist-info/METADATA,sha256=QcBQVEOw_bfZ3ucLHfTqP-XgxAymue28lkAxiiLntVY,1439
+semantic_space-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+semantic_space-0.1.0.dist-info/RECORD,,
