@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+homelab_assistant/__init__.py
+homelab_assistant/main.py
+homelab_assistant/portainer.py
+homelab_assistant.egg-info/PKG-INFO
+homelab_assistant.egg-info/SOURCES.txt
+homelab_assistant.egg-info/dependency_links.txt
+homelab_assistant.egg-info/entry_points.txt
+homelab_assistant.egg-info/requires.txt
+homelab_assistant.egg-info/top_level.txt

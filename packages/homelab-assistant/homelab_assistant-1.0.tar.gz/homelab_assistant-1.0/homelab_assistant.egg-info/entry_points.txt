@@ -1,0 +1,2 @@
+[console_scripts]
+homelaba = homelab_assistant.main:main

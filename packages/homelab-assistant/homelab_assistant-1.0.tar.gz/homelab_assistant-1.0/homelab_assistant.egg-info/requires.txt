@@ -1,0 +1,8 @@
+pyyaml
+requests
+rich
+
+[dev]
+flake8
+flake8-pyproject
+ruff
