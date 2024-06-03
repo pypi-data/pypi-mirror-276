@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: plant_genomes_2
+Version: 1.0.0
+Summary: 
+License: unsplash, pexels, and pixabay licenses
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
+
+
+
+
+******
+
+Bravo!  You have received a Medical Diploma from   
+the Orbital Convergence University International Air and Water Embassy of the Tangerine Planet.  
+
+You are now officially certified to include this mixer in your practice.
+
+******
+
+
+# plant_genomes_2
+
+---
+
+## description
+This is bits for a CDN.		
+		
+---		
+		
+## install
+```
+pip install plant_genomes_2
+```
+
+## utility
+```
+import plant_genomes_2
+bits_path = plant_genomes_2.sequences ()
+```

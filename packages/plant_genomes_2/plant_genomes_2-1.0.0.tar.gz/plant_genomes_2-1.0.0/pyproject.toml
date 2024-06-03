@@ -1,0 +1,24 @@
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "plant_genomes_2"
+version = "1.0.0"
+description = ""
+authors = []
+readme = "venues/stages/plant_genomes_2/readme.md"
+packages = [
+    { include = "plant_genomes_2", from = "venues/stages" },
+]
+license = "unsplash, pexels, and pixabay licenses"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+plant_genomes_2 = 'plant_genomes_2:clique'
+
+
+
