@@ -1,0 +1,16 @@
+bs4
+click
+lxml
+python-dotenv
+requests
+selenium
+
+[lint]
+mypy
+pylint
+pylint[spelling]
+yapf
+
+[test]
+pytest
+pytest-datadir
