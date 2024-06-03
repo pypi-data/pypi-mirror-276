@@ -1,0 +1,10 @@
+msoc/__init__.py,sha256=Q-JNA056U_FaWVs7xoVLq3EcBND5H6aRrkQDeAZYNBs,19
+msoc/exceptions.py,sha256=5nPvMUkLN8axYmpprQudAe1XnEbR12DlfUC6js-fRis,352
+msoc/msoc.py,sha256=cXaCSUAGP0f8D61FORiz4BnuKZ3zmhxhP5wcXtXQZ_A,1468
+msoc/sound.py,sha256=osfaYri5MqcIVYwKFDhYPNRrYPgbCj-w-Pd76BgWjKI,86
+msoc/engines/mp3uk.py,sha256=OWfcDz-PmTfkdD6DxbfTjzCtWCvpmWgL8ZlefSiQ_0E,1712
+msoc/engines/zaycev_net.py,sha256=SWAPftlIpNAmKI20STZLjIIoCLRKe4Ye8RHPLynisfM,2304
+msoc-0.0.2.dist-info/METADATA,sha256=m60wrIHJIXhvaGQfsgXB3qUWw06n0n7ucKGyoacHegk,3361
+msoc-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+msoc-0.0.2.dist-info/top_level.txt,sha256=2VftEAZstwZF2_S-igAnbj6Ew-F6asuuG6LGT0Mrn8I,5
+msoc-0.0.2.dist-info/RECORD,,
