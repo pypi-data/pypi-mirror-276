@@ -1,0 +1,12 @@
+jds_tools/hooks/__init__.py,sha256=iIFXemQ_fup3aNEI6CZ-bQnvjcrQualyjUUhF9IDlTs,118
+jds_tools/hooks/base.py,sha256=tfInCmfB1eD14C57nZrpNtLLBUQSBq_1lLjPmvDqAMI,1493
+jds_tools/hooks/jinja_hook.py,sha256=MaGxqPxvAr7Z6wb2HPqtu0w8CGiIkNQRG_rTL9zeC_o,3161
+jds_tools/hooks/snowflake_hook.py,sha256=q1clmJv8BmkD9_By-L7ysnB-ILjyxh8Pyi7RGz-OTJo,9284
+jds_tools/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jds_tools/utils/async_requests.py,sha256=UH-74j3FglZ9w0q7VhShN1Bm23N8X3KCgeTjRAM-frI,6884
+jds_tools/utils/path_utils.py,sha256=TFioEU4pX-jOuDlBrZFPETFwa7Ix_b2tayaK5Y5jTeE,1030
+jds_tools-2.1.1.dist-info/LICENSE,sha256=gAk-v7-Q_yPeMlg1yfUwKqmlBfrrJXOTSjYHGKE2hdw,1068
+jds_tools-2.1.1.dist-info/METADATA,sha256=Wh7tRANriygCtxKnJvVihUsrkUeQRkbZcXxGQ43_3g0,2484
+jds_tools-2.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jds_tools-2.1.1.dist-info/top_level.txt,sha256=uqk_PNPGfAE7k0_EhTcbQ9-iR_XKxsip3_pb0nuyzx0,10
+jds_tools-2.1.1.dist-info/RECORD,,
