@@ -1,0 +1,2 @@
+[console_scripts]
+pylect = pylect.cli:start

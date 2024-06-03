@@ -1,0 +1,14 @@
+pylect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylect/__main__.py,sha256=2xHnIHbnuwrS_I6R9Unf1jkZnU2TEXwYSINyI19lm0A,123
+pylect/cli.py,sha256=sp5GFbvi4rnAq0rtPSxVaPJIAmisyZn6BBGYsGYExAY,3413
+pylect/constants.py,sha256=XwsO0n4fL1jaxHGf-A4Tc0MIsJyfLkWCpyeFFE5Q79w,381
+pylect/esv.py,sha256=U_eiAboVySAsnyq7PpN-E_8s7LiNYmBk__q66gchfgU,1287
+pylect/holyday.py,sha256=suIAsHExXWPPp3f3e_tgZ3zGjT3PNiUV8_KeR73eMwk,1024
+pylect/lectionary.py,sha256=2fBRK2Y1Eux1DHDVwXJ2Zb_Aocxy5Vwl8nsmnL7dio4,16977
+pylect/psalter.py,sha256=DKxBlZO5CJA7BLyDcHIs9Hr9qwj8fyACkpBYVh46Jko,2972
+pylect-0.3.0.dist-info/LICENSE.txt,sha256=ByckLd6opEioSdY8ERatJ3wv-6hrNTJR1zz5wys0yYo,1071
+pylect-0.3.0.dist-info/METADATA,sha256=a3k_PiwNRnFSMYuRH2TSVxmVe5cQKOOX3A1t-tQ-HWM,6128
+pylect-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pylect-0.3.0.dist-info/entry_points.txt,sha256=446KrcoloyrwVZ-7cEqzOz1Zmo9GFISDS6eGpZihtRA,44
+pylect-0.3.0.dist-info/top_level.txt,sha256=bPQxWsXHcx62B9mVhd1-1WL8RhcDE7UvdqCn4HdWLKg,7
+pylect-0.3.0.dist-info/RECORD,,
