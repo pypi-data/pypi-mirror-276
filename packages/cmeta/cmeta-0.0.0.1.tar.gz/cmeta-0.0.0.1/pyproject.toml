@@ -1,0 +1,86 @@
+#
+# CMX: Common Metadata eXchange
+#
+# (C)opyright 2024 cKnowledge.org
+#
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "cmeta"
+
+authors = [
+    {name = "Grigori Fursin", email = "gfursin@cknowledge.org"}
+]
+
+description = "Common Metadata eXchange (CMX) helps you share public and private metadata in a portable and unified way to make it easier to reuse it and plug into automation pipelines and workflows"
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "pyyaml",
+    "requests",
+    "setuptools"
+]
+
+keywords = [
+    "cmx",
+    "cmeta",
+    "common meta",
+    "common metadata",
+    "common metadata exchange",
+    "automation",
+    "portability"
+]
+
+license = {text = "Apache Software License (Apache 2.0)"}
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Information Technology",
+    "Topic :: Software Development",
+    "Topic :: System",
+    "Topic :: Scientific/Engineering",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dynamic = ["readme", "version"]
+
+[project.urls]
+Homepage = "https://howtorun.io/cmeta"
+Source = "https://github.com/how-to-run/cmeta"
+
+[project.scripts]
+cmeta = "cmeta.cli:cli"
+cmx = "cmeta.cli:cli"
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cmeta", "cmeta.*"]
+exclude = ["docs", "docs.*", "tests", "tests.*"]
+
+[tool.setuptools.package-data]
+cmeta = [
+  "internal/**/*"
+]
+
+#[tool.setuptools.package-data]
+#"cmeta.internal" = ["*.yaml", "*.json", "*.md"]
+
+[tool.setuptools.dynamic]
+readme = {file = "README.md", content-type = "text/markdown"}
+version = {attr = "cmeta.__version__"}

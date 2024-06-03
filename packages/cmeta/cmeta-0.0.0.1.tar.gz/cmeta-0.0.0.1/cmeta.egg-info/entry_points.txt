@@ -1,0 +1,3 @@
+[console_scripts]
+cmeta = cmeta.cli:cli
+cmx = cmeta.cli:cli
