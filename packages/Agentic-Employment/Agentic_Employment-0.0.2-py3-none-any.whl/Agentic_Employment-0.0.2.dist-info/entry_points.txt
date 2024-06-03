@@ -1,0 +1,2 @@
+[console_scripts]
+agentic-employment = agentic_employment_wrapper:main
