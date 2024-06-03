@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/foo_et_al_parameterization/SphereVolume.py
+src/foo_et_al_parameterization/__init__.py
+src/foo_et_al_parameterization.egg-info/PKG-INFO
+src/foo_et_al_parameterization.egg-info/SOURCES.txt
+src/foo_et_al_parameterization.egg-info/dependency_links.txt
+src/foo_et_al_parameterization.egg-info/top_level.txt
