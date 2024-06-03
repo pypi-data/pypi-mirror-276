@@ -1,0 +1,2 @@
+[console_scripts]
+harsha-hello-world = harsha_hello_world.cli:greet
