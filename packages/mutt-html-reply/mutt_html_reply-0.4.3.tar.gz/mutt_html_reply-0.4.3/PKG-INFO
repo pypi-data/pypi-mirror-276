@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mutt-html-reply
+Version: 0.4.3
+Summary: Create an Outlook-style HTML reply
+Author-email: Erik Rogers <erik@rogers-family.net>
+Maintainer-email: Erik Rogers <erik@rogers-family.net>
+License: Copyright © 2024 Erik Rogers
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Repository, https://github.com/erogers88/mutt-html-reply
+Keywords: mutt,html,email,reply
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: css_inline
+
+## mutt-html-reply
+
+Create an Outlook-style HTML reply
+
+This utility is meant to fill a gap in neomutt functionality when it comes to dealing with HTML emails. In a corporate email environment, most people use Microsoft Outlook, which uses HTML by default, and includes the original message along with some header information.
+
+This tool can be used as part of neomutt custom keybinds to easily craft a response as you might using Outlook.
+
+## Installation
+
+```
+pip install mutt-html-reply
+```
+
+## Usage
+
+This command is meant to be embedded in a neomutt macro when replying, but can also be used as a standalone program. The original message ("-m" flag) must be a file. The reply and output can either come from a file or stdin/stdout.
+
+```
+mutt-html-reply [-h] [-m [MESSAGE]] [-r REPLY] [-o [OUTPUT]]
+```

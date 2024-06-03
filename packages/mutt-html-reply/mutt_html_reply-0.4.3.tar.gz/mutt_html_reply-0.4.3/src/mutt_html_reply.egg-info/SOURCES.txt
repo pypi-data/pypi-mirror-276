@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/mutt_html_reply/__init__.py
+src/mutt_html_reply/mutt_html_reply.py
+src/mutt_html_reply.egg-info/PKG-INFO
+src/mutt_html_reply.egg-info/SOURCES.txt
+src/mutt_html_reply.egg-info/dependency_links.txt
+src/mutt_html_reply.egg-info/entry_points.txt
+src/mutt_html_reply.egg-info/requires.txt
+src/mutt_html_reply.egg-info/top_level.txt
