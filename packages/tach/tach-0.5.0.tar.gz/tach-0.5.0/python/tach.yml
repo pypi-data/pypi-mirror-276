@@ -1,0 +1,65 @@
+modules:
+- path: tach
+  depends_on:
+  - tach.colors
+  - tach.constants
+  - tach.core
+  - tach.errors
+  - tach.filesystem
+  - tach.interactive
+  - tach.logging
+  - tach.parsing
+  strict: true
+- path: tach.cache
+  depends_on:
+  - tach.filesystem
+  strict: true
+- path: tach.colors
+  depends_on: []
+  strict: true
+- path: tach.constants
+  depends_on: []
+  strict: true
+- path: tach.core
+  depends_on:
+  - tach.constants
+  strict: true
+- path: tach.errors
+  depends_on: []
+  strict: true
+- path: tach.filesystem
+  depends_on:
+  - tach.colors
+  - tach.constants
+  - tach.errors
+  - tach.hooks
+  strict: true
+- path: tach.hooks
+  depends_on:
+  - tach.constants
+  strict: true
+- path: tach.interactive
+  depends_on:
+  - tach.errors
+  - tach.filesystem
+  strict: true
+- path: tach.logging
+  depends_on:
+  - tach.cache
+  - tach.parsing
+  strict: true
+- path: tach.parsing
+  depends_on:
+  - tach.core
+  - tach.filesystem
+  strict: true
+exclude:
+- .*__pycache__/
+- build/
+- dist/
+- docs/
+- tach.egg-info/
+- tests/
+exact: true
+disable_logging: false
+ignore_type_checking_imports: true
