@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+echidma/__init__.py
+echidma/indexer_base.py
+echidma/indexer_h5.py
+echidma/indexer_memmap.py
+echidma.egg-info/PKG-INFO
+echidma.egg-info/SOURCES.txt
+echidma.egg-info/dependency_links.txt
+echidma.egg-info/requires.txt
+echidma.egg-info/top_level.txt
+echidma/caching/__init__.py
+echidma/caching/chunk_cache.py
+echidma/config_management/__init__.py
+echidma/config_management/config_manager.py
