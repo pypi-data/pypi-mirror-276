@@ -1,0 +1,5 @@
+setup.py
+rxnSMILES4AtomEco.egg-info/PKG-INFO
+rxnSMILES4AtomEco.egg-info/SOURCES.txt
+rxnSMILES4AtomEco.egg-info/dependency_links.txt
+rxnSMILES4AtomEco.egg-info/top_level.txt
