@@ -1,0 +1,6 @@
+memvectordb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memvectordb/collection.py,sha256=_RACSQRYeuMPEokQUKt2VpupfqYfAjn8MDHiegVAuiU,8359
+memvectordb/memvectordb_openai.py,sha256=v5xgMxCzMB90YgQewk6jfYpnhrsfmoYSmAN1RTgKhd8,6384
+memvectordb_python-0.0.5.dist-info/METADATA,sha256=kirqvsDA9VI4SK2Iq9qH74Fz2X2Fh65xzMKvLWvFxBk,3076
+memvectordb_python-0.0.5.dist-info/WHEEL,sha256=IrRNNNJ-uuL1ggO5qMvT1GGhQVdQU54d6ZpYqEZfEWo,92
+memvectordb_python-0.0.5.dist-info/RECORD,,
