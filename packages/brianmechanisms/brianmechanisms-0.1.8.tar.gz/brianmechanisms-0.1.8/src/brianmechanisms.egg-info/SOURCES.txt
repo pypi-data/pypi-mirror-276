@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/brianmechanisms/__init__.py
+src/brianmechanisms/appproximateStraightLineMechanisms.py
+src/brianmechanisms/helpers.py
+src/brianmechanisms/locii.py
+src/brianmechanisms/mirror.py
+src/brianmechanisms/straightLineMechanisms.py
+src/brianmechanisms.egg-info/PKG-INFO
+src/brianmechanisms.egg-info/SOURCES.txt
+src/brianmechanisms.egg-info/dependency_links.txt
+src/brianmechanisms.egg-info/requires.txt
+src/brianmechanisms.egg-info/top_level.txt
