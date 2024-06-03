@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Agentic_Reports.egg-info/PKG-INFO
+Agentic_Reports.egg-info/SOURCES.txt
+Agentic_Reports.egg-info/dependency_links.txt
+Agentic_Reports.egg-info/entry_points.txt
+Agentic_Reports.egg-info/requires.txt
+Agentic_Reports.egg-info/top_level.txt
