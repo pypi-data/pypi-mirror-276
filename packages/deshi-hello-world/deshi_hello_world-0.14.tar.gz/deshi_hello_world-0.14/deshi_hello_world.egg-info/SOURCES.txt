@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+deshi_hello_world/__init__.py
+deshi_hello_world/cli.py
+deshi_hello_world.egg-info/PKG-INFO
+deshi_hello_world.egg-info/SOURCES.txt
+deshi_hello_world.egg-info/dependency_links.txt
+deshi_hello_world.egg-info/entry_points.txt
+deshi_hello_world.egg-info/requires.txt
+deshi_hello_world.egg-info/top_level.txt
+tests/test_hello_world.py
