@@ -1,0 +1,2 @@
+[console_scripts]
+grepexercises = grepexercises.grep_exercises:main
