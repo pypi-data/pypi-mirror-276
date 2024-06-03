@@ -1,0 +1,2 @@
+py4cli/minimal
+py4cli/moderate
