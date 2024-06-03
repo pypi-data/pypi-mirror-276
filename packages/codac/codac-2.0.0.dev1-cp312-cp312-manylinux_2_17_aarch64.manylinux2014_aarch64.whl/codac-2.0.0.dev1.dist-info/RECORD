@@ -1,0 +1,12 @@
+codac/unsupported.cpython-312-aarch64-linux-gnu.so,sha256=cEnVSBISk1cUXxK2ss61q1yzyF5-dWeu2ls20f9_KKQ,924120
+codac/empty.cpython-312-aarch64-linux-gnu.so,sha256=UAPzDZV8bBQwgxBC0q3fGmKPDOOqpHfb02O3JxjXyII,69656
+codac/__init__.py,sha256=8m4GawPMaRyUEKua7I59YP0EXmZpwZKExJu0m0bC7bc,1419
+codac/graphics.cpython-312-aarch64-linux-gnu.so,sha256=5SWDkRZMDF0heMxcACao-DA5RLT9hgmIBo4QFCQSGtw,924120
+codac/core.cpython-312-aarch64-linux-gnu.so,sha256=dmzGWykvOgXlf-s91xkGxEVFX96sNtd5T_i646cVS7g,1976376
+codac/version.py,sha256=6aTsaEKyBHFdzQjDU6jvkF0BXPK1486LAfHKk-VQHKc,19
+codac/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codac/tests/codac2_tests.py,sha256=tZP8OWEGdlyfp-9-IaKxlEfcgOaXNa34kMf8bZWSacw,235
+codac-2.0.0.dev1.dist-info/METADATA,sha256=RiIFtI3yFYPY7NnTuDOwIQaU0lybB5aj_zMj0522vjU,637
+codac-2.0.0.dev1.dist-info/top_level.txt,sha256=8FIXP4a7FrNu8RyqD7RFUsU7CTUmdd2T6j6EU-DTNYs,6
+codac-2.0.0.dev1.dist-info/RECORD,,
+codac-2.0.0.dev1.dist-info/WHEEL,sha256=dSOw0vIE7tyToMwjLRGc34v_dTietGsEoaHI_vCu11U,154
