@@ -1,0 +1,14 @@
+hubspot_api/__init__.py,sha256=GHnmTVKpsFeDcHRpw256BEBW_Hn0H-wkBWcoxDnqktg,1217
+hubspot_api/api_client.py,sha256=ehz4MNy9qd92mU8a-sjPOk_kYqbGxoGWHNA6tYMndvM,2405
+hubspot_api/conversations.py,sha256=I1IO7gT9svsyMp9MeelcMa1x4Y7sPldj2R82HG-asxw,5598
+hubspot_api/login.py,sha256=ou4ELamJBM96NPRi4HdYuYkTkOjPo_4PqCBkWaIlmDM,4236
+hubspot_api/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hubspot_api/classes/ably.py,sha256=Ilzhcj0irDTmQrNIJw3RmZDv1ZvSToCJknSv611W4E8,3080
+hubspot_api/classes/agents.py,sha256=UrzDyEm0dgxT94W8F4PeTY6Dhpl6fOhF_ru3PJRCMeU,1647
+hubspot_api/classes/assignee.py,sha256=T927JmuUyhQQrZK6hpl520EGDeSWLXjoefySnp3fB1s,1449
+hubspot_api/classes/message.py,sha256=qGyQ4igtwqmRtUnXHPneA01xyHEACjZh4I3I5_33Md8,3319
+hubspot_api/classes/threads.py,sha256=lVEtR0ueC3x73Zt4hinruMlR77QdAIsDlEg49170yAI,8280
+hubspot_api-0.6.0.dist-info/METADATA,sha256=chzabFl6LJwQjmYGciNb3EbW1TrXOJgtD_gg7Hoh-kw,3484
+hubspot_api-0.6.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hubspot_api-0.6.0.dist-info/top_level.txt,sha256=YDIF64_TQlFs3ihWq5vcu7Hz75da_CiZPAA3Ykoafhw,12
+hubspot_api-0.6.0.dist-info/RECORD,,
