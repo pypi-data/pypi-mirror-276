@@ -1,0 +1,17 @@
+miksiai/sqltool.cpython-310-i386-linux-gnu.so,sha256=5QIpfwMghY_NGBWLbqR444Duvbn3h62lKjO1ocMHdL0,962748
+miksiai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksiai/agent.cpython-310-i386-linux-gnu.so,sha256=i844nHSHo5UeGd2zzYFLg0rIy3Xe77yqY32bFEmX7k8,653812
+miksiai/api.cpython-310-i386-linux-gnu.so,sha256=UpO4grdoZkZHrAQTQ4_J8uvWMyI6YWG8wFit5idG0M8,547008
+miksiai/utils.cpython-310-i386-linux-gnu.so,sha256=uBqnxOZf86Qj5pSmOHNuwqyNYhuW5yuH77azj5yBP5U,252532
+miksiai/pythontool.cpython-310-i386-linux-gnu.so,sha256=SkdWXI_2wst5d9xix0D1ZGZtyjIUtKb52fBRN9eOYEk,399640
+miksiai/settings.cpython-310-i386-linux-gnu.so,sha256=htQwSRUivhp54NB47j7tXPY5-tY83wh4FvXqanZ7HR8,124440
+miksiai/master.cpython-310-i386-linux-gnu.so,sha256=NeE4-bJFmG-_oTZB2TsMVTXKCbmzzJXmtaG5Tjyi9yg,251232
+miksiai/function_calling/base.cpython-310-i386-linux-gnu.so,sha256=KhAyb_yO__Nk-AC1hhPzVWJ5CvNfKusbz6VnInWqn6E,466612
+miksiai/sql_graph/custom_sql.cpython-310-i386-linux-gnu.so,sha256=xpHHDT4kIIR6Ama6ew2tcichv3V_aUhXcHAq6vX--7Y,608596
+miksiai/sql_graph/sql_runnables.cpython-310-i386-linux-gnu.so,sha256=cJJyRiWY38_oGhy_GeTHJpDzXxVVMqQFyOtqfCxxU7I,1457292
+miksiai/sql_graph/sql_graph_prompts.cpython-310-i386-linux-gnu.so,sha256=3YUw7opnw2IDBAUebJSY6ozYqL5MiMNSRtpd3nykeUM,78216
+miksiai/sql_graph/sql_graph.cpython-310-i386-linux-gnu.so,sha256=B5Xx7r4yqm0WYDOeUwz0Wt6M5vOT89HM--tYUUbOMso,618868
+miksiai-1.0.8.dist-info/WHEEL,sha256=saGKjTnh4-wm6lmtcAD2uX1txyG_5S1rdRgy3pv0Ykg,217
+miksiai-1.0.8.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.8.dist-info/RECORD,,
+miksiai-1.0.8.dist-info/METADATA,sha256=ylWV4b82y5StxRPD8Ao4OmBE2qSUJG9uIh_BpC7WSDM,6349
