@@ -1,0 +1,10 @@
+autoCal/__init__.py,sha256=2dOoD4ouvFIcjn506jHxISQklsoPb-4eIuK7P0CXVRg,99
+autoCal/helperConverters.py,sha256=sLilDfgqe4rHEnNnHdtt6UMUgMCBYSlRhsG_Ui-DNhk,500
+autoCal/motorCalculations.py,sha256=_-HoCNr1TeGY8WPsawsxsp-8zTlQV1zofOIKAE_FwHA,5320
+autoCal/speedCalculations.py,sha256=BwHpfSd-2DWTVFyIE5T3jWN4cDWU6uFGhjDsOQm1dCk,2890
+autoCal/unitConverters.py,sha256=9iPtiHlZ6O295YgJ6njx_7_NMMLtrI93kmDAEr21ttU,861
+autoCal-0.0.5.dist-info/LICENSE,sha256=wIg_XM0pe0jweT1r-AHzYUNuL9Zfvrk5_G-u5daBEQc,1093
+autoCal-0.0.5.dist-info/METADATA,sha256=Zmr-mERq0xjwi3nrZm0FDWVR6urYTM0xZu0THlQnVqE,3645
+autoCal-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+autoCal-0.0.5.dist-info/top_level.txt,sha256=ECiRerfxyQlpv935Xn1dNKZ3Ur8ZF6f4zcZZVVWFYnc,8
+autoCal-0.0.5.dist-info/RECORD,,
