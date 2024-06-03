@@ -1,0 +1,56 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0", "wheel"]
+
+[project]
+name = "barotropic"
+authors = [
+    { name="Christopher Polster", email="chpolste@tuta.io" },
+]
+description = "A framework for barotropic analysis and modelling of the atmosphere"
+readme = "readme.md"
+requires-python = ">=3.9"
+license = { file="LICENSE" }
+dynamic = ["version"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+dependencies = [
+    "numpy >=1.20.3",
+    "scipy >=1.6.3",
+    "pyspharm >=1.0.9",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest >=7"
+]
+extras = [
+    "matplotlib >=3.4.2",
+    "PyWavelets >=1.1.1",
+    "falwa >=1.0.0",
+    "xarray >= 2022.03.0"
+]
+docs = [
+    "Sphinx >=7.3.7",
+    "nbsphinx >=0.9.4"
+]
+
+[project.urls]
+documentation = "https://chpolste.github.io/barotropic"
+source = "https://github.com/chpolste/barotropic"
+
+[tool.setuptools.packages.find]
+where =  ["./src"]
+include = ["barotropic"]
+
+[tool.setuptools.dynamic]
+version = { attr="barotropic.__version__" }
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
