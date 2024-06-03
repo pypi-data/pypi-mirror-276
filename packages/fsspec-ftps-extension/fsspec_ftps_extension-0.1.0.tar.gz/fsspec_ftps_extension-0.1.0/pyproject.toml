@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fsspec-ftps-extension"
+version = "0.1.0"
+description = ""
+authors = ["overlucker <vlyankov@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fsspec = "^2024.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
