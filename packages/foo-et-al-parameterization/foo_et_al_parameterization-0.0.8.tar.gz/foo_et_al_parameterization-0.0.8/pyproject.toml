@@ -1,0 +1,17 @@
+[project]
+name = "foo-et-al-parameterization"
+version = "0.0.8"
+authors = [
+  { name ="Aidan Goldstein", email="goldstai@oregonstate.edu" },
+]
+description = "A basic python library to gain the volume of a sphere given its radius"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/aidangold/foo-et-al-parameterization"
