@@ -1,0 +1,6 @@
+create_pip/__init__.py,sha256=pEGIaeH9KdKSK8thkvEJYgo_0jCn_fLoYwNCp-C_jFE,29
+create_pip/main.py,sha256=JCWoxOluEjxuVKcoc6uubYuD_FE58dI8VqxgBwD4AuI,242
+create_pip-0.1.dist-info/METADATA,sha256=FaCNLqKsmCGcW0y5VyuIMd1V9OnhoRQtHOJRhiRMyMU,57
+create_pip-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+create_pip-0.1.dist-info/top_level.txt,sha256=p3EnZD-ojq1Q6kf6xp_xTsKkthLTHNaH9GI66ydpwDs,11
+create_pip-0.1.dist-info/RECORD,,
