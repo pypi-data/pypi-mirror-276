@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "sentry-offline-transport"
+version = "1.0.0"
+description = "Transport for Sentry that saves failed-to-send events on disk and resends them on the next launch."
+authors = ["Roman Vlasenko <klavionik@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sentry_offline", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+sentry-sdk = ">=2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+pytest-socket = "^0.7.0"
+mypy = "^1.10.0"
+pytest-cov = "^5.0.0"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+extend-select = ["I001"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
