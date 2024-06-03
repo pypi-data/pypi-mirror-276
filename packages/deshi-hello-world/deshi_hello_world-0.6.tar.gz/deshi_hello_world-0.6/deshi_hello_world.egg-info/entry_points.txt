@@ -1,0 +1,3 @@
+[console_scripts]
+deshi-greet = hello_world.cli:greet
+deshi-multiply = hello_world.cli:multiply_command
