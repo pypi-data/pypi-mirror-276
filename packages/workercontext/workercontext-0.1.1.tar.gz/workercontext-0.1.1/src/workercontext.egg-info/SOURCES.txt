@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/workercontext/__init__.py
+src/workercontext/multiworker.py
+src/workercontext/reductions.py
+src/workercontext.egg-info/PKG-INFO
+src/workercontext.egg-info/SOURCES.txt
+src/workercontext.egg-info/dependency_links.txt
+src/workercontext.egg-info/top_level.txt
+tests/test_auto_parallelise.py
+tests/test_multiworker.py
+tests/test_multiworker_async.py
+tests/test_parallelise.py
+tests/test_performance.py
+tests/test_reduction.py
