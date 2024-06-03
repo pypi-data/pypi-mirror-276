@@ -1,0 +1,3 @@
+[app]
+main_module = "devel"
+app_type = "website"
