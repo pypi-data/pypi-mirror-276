@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+meghana_hello_world/__init__.py
+meghana_hello_world/cli.py
+meghana_hello_world.egg-info/PKG-INFO
+meghana_hello_world.egg-info/SOURCES.txt
+meghana_hello_world.egg-info/dependency_links.txt
+meghana_hello_world.egg-info/entry_points.txt
+meghana_hello_world.egg-info/requires.txt
+meghana_hello_world.egg-info/top_level.txt
+tests/test_hello_world.py
