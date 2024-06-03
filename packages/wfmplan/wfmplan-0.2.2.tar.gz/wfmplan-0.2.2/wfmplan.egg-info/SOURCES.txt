@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+wfmplan/__init__.py
+wfmplan.egg-info/PKG-INFO
+wfmplan.egg-info/SOURCES.txt
+wfmplan.egg-info/dependency_links.txt
+wfmplan.egg-info/entry_points.txt
+wfmplan.egg-info/requires.txt
+wfmplan.egg-info/top_level.txt
+wfmplan/AgentOptimizer/BatchOptimizer.py
+wfmplan/AgentOptimizer/Optimizer.py
+wfmplan/AgentOptimizer/__init__.py
