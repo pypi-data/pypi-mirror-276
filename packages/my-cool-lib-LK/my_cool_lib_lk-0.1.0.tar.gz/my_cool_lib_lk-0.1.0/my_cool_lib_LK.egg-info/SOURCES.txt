@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+my_cool_lib_LK/__init__.py
+my_cool_lib_LK/module.py
+my_cool_lib_LK.egg-info/PKG-INFO
+my_cool_lib_LK.egg-info/SOURCES.txt
+my_cool_lib_LK.egg-info/dependency_links.txt
+my_cool_lib_LK.egg-info/top_level.txt
