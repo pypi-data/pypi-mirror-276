@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">
+
+  <!-- Заголовок SVG -->
+  <title>SVG с гиперссылками</title>
+
+  <!-- Элемент текста для Node A с гиперссылкой -->
+  <text x="100" y="50" font-size="14" fill="#000000" text-anchor="middle">
+    <a xlink:href="https://example.com">Node A</a>
+  </text>
+
+  <!-- Элемент текста для Node B с гиперссылкой -->
+  <text x="300" y="50" font-size="14" fill="#000000" text-anchor="middle">
+    <a xlink:href="https://example.com">Node B</a>
+  </text>
+
+</svg>

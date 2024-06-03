@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+doc/GraphDemo.png
+doc/GraphDemo.py
+doc/logo.png
+doc/svgForm.py
+doc/test.svg
+src/drawing/__init__.py
+src/drawing/_version.py
+src/drawing/drawing.py
+src/nummulith_drawing.egg-info/PKG-INFO
+src/nummulith_drawing.egg-info/SOURCES.txt
+src/nummulith_drawing.egg-info/dependency_links.txt
+src/nummulith_drawing.egg-info/top_level.txt
