@@ -1,0 +1,3 @@
+[console_scripts]
+pl = postling.__main__:cli
+postling = postling.__main__:cli
