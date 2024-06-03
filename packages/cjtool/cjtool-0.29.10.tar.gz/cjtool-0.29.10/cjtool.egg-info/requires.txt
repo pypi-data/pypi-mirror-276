@@ -1,0 +1,6 @@
+colorama
+pyperclip
+pexpect
+pykd
+PyYAML
+sourceline

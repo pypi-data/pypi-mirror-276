@@ -1,0 +1,38 @@
+[project]
+name = "cjtool"
+authors=[
+    {name = "Jun Chen", email = "junc76@gmail.com"},
+]
+description = "Provide some tools in C++ development"
+dynamic = ["version"]
+dependencies = [
+    'colorama',
+    'pyperclip',
+    'pexpect',
+    'pykd',
+    'PyYAML',
+    'sourceline'
+]
+requires-python = ">= 3.9"
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=64","setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+ct = 'cjtool.cdbtool:main'
+cm = 'cjtool.monitor:main'
+ci = 'cjtool.indent:main'
+cs = 'cjtool.search:main'
+addconsole = 'cjtool.addconsole:main'
+edoinfo = 'cjtool.gfy.edoinfo:main'
+
+[tool.setuptools_scm]
+
+[tool.setuptools]
+py-modules = ['cjtool']
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["cjtool/"]
