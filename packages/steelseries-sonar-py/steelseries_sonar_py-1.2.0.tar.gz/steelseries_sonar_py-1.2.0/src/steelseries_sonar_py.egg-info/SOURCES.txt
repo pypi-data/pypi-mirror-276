@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+test.py
+.github/workflows/publish.yml
+src/steelseries_sonar_py/__init__.py
+src/steelseries_sonar_py/exceptions.py
+src/steelseries_sonar_py/sonar.py
+src/steelseries_sonar_py.egg-info/PKG-INFO
+src/steelseries_sonar_py.egg-info/SOURCES.txt
+src/steelseries_sonar_py.egg-info/dependency_links.txt
+src/steelseries_sonar_py.egg-info/requires.txt
+src/steelseries_sonar_py.egg-info/top_level.txt
