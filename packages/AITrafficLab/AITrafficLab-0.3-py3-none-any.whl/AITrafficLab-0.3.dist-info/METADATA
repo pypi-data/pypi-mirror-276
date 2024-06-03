@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: AITrafficLab
+Version: 0.3
+Summary: Un paquete para entrenar modelos de optimizacion del trafico basados en sistemas multiagente.
+Home-page: https://github.com/aparpo/AITrafficLab
+Author: Alvaro Martinez Parpolowicz
+Author-email: alvaro.parpolowicz@live.u-tad.com.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib >=3.8.3
+Requires-Dist: mesa >=2.3.0
+Requires-Dist: networkx >=3.2.1
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: osmnx >=1.9.3
+Requires-Dist: scipy >=1.13.1
+Requires-Dist: setuptools >=69.5.1
+Requires-Dist: sumolib >=1.19.0
+Requires-Dist: tqdm >=4.66.2
+Requires-Dist: traci >=1.20.0
+
+# AITrafficLab
