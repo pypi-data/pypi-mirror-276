@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+CustomKit/CustomKit.py
+CustomKit/__init__.py
+CustomKitLib.egg-info/PKG-INFO
+CustomKitLib.egg-info/SOURCES.txt
+CustomKitLib.egg-info/dependency_links.txt
+CustomKitLib.egg-info/top_level.txt
