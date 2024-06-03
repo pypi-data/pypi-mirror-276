@@ -1,0 +1,23 @@
+import rl_test_task_2
+from rl_test_common import Common
+
+from .base.task_executor import TaskExecutor
+
+
+class Task2Executor(TaskExecutor):
+    __common: Common = Common()
+
+    def execute(self, request: str) -> None:
+        if request == '2':
+            self.__common.clear_screen()
+
+            source_file_path: str = input('Source file path: ')
+            destination_dir_path: str = input('Destination directory path: ')
+
+            client: rl_test_task_2.Client = rl_test_task_2.Client()
+            client.client_code(source_file_path, destination_dir_path)
+
+            self.__common.clear_screen()
+
+        else:
+            return super().execute(request)
