@@ -1,0 +1,2 @@
+[console_scripts]
+run-humanwgs = hifi_solves_run_humanwgs.upload_and_run:main
