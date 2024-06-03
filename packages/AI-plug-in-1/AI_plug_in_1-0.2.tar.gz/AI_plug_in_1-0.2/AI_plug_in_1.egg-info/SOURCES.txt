@@ -1,0 +1,7 @@
+setup.py
+AI_plug_in_1/__init__.py
+AI_plug_in_1/logic.py
+AI_plug_in_1.egg-info/PKG-INFO
+AI_plug_in_1.egg-info/SOURCES.txt
+AI_plug_in_1.egg-info/dependency_links.txt
+AI_plug_in_1.egg-info/top_level.txt
