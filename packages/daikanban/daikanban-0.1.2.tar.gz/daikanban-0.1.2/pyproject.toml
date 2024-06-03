@@ -1,0 +1,91 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "daikanban"
+dynamic = ["version"]
+description = "A kanban-style project task queue."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["kanban", "productivity"]
+authors = [
+  { name = "Jeremy Silver", email = "jeremys@nessiness.com" }
+]
+classifiers = [
+  "Programming Language :: Python"
+]
+dependencies = [
+  "pendulum >= 3.0",
+  "pydantic >= 2.6",
+  "pytimeparse >= 1.1",
+  "typer[all] >= 0.9",
+  "typing-extensions >= 4.10"
+]
+
+[project.scripts]
+daikanban = "daikanban.main:APP"
+
+[project.urls]
+Documentation = "https://github.com/jeremander/daikanban#readme"
+Issues = "https://github.com/jeremander/daikanban/issues"
+Source = "https://github.com/jeremander/daikanban"
+
+[tool.hatch.build.targets.sdist]
+exclude = ["TODO.txt"]
+
+[tool.hatch.version]
+path = "daikanban/__init__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+  "pytest-cov"
+]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = [
+  "- coverage combine",
+  "coverage report",
+]
+cov = [
+  "test-cov",
+  "cov-report",
+]
+
+# [[tool.hatch.envs.all.matrix]]
+# python = ["3.9", "3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.types]
+dependencies = [
+  "mypy>=1.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:daikanban tests}"
+
+[tool.hatch.publish.index]
+disable = true
+
+[tool.coverage.run]
+source_pkgs = ["daikanban", "tests"]
+branch = true
+parallel = true
+omit = ["venv/*"]
+
+[tool.coverage.report]
+skip_covered = true
+show_missing = true
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.commitizen]
+tag_format = "v$major.$minor.$patch"
+
+[tool.pytest.ini_options]
+addopts = "--verbose --cov=daikanban"
