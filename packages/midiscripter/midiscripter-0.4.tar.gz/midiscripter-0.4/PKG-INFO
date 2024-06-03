@@ -1,0 +1,303 @@
+Metadata-Version: 2.3
+Name: midiscripter
+Version: 0.4
+Summary: Framework for scripting MIDI, keyboard and Open Sound Control input and output
+Project-URL: Documentation, https://maboroshy.github.io/midi-scripter
+Project-URL: Issues, https://github.com/Maboroshy/midi-scripter/issues
+Project-URL: Source, https://github.com/Maboroshy/midi-scripter
+Author: Maboroshy
+License:                    GNU LESSER GENERAL PUBLIC LICENSE
+                               Version 3, 29 June 2007
+        
+         Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+         Everyone is permitted to copy and distribute verbatim copies
+         of this license document, but changing it is not allowed.
+        
+        
+          This version of the GNU Lesser General Public License incorporates
+        the terms and conditions of version 3 of the GNU General Public
+        License, supplemented by the additional permissions listed below.
+        
+          0. Additional Definitions.
+        
+          As used herein, "this License" refers to version 3 of the GNU Lesser
+        General Public License, and the "GNU GPL" refers to version 3 of the GNU
+        General Public License.
+        
+          "The Library" refers to a covered work governed by this License,
+        other than an Application or a Combined Work as defined below.
+        
+          An "Application" is any work that makes use of an interface provided
+        by the Library, but which is not otherwise based on the Library.
+        Defining a subclass of a class defined by the Library is deemed a mode
+        of using an interface provided by the Library.
+        
+          A "Combined Work" is a work produced by combining or linking an
+        Application with the Library.  The particular version of the Library
+        with which the Combined Work was made is also called the "Linked
+        Version".
+        
+          The "Minimal Corresponding Source" for a Combined Work means the
+        Corresponding Source for the Combined Work, excluding any source code
+        for portions of the Combined Work that, considered in isolation, are
+        based on the Application, and not on the Linked Version.
+        
+          The "Corresponding Application Code" for a Combined Work means the
+        object code and/or source code for the Application, including any data
+        and utility programs needed for reproducing the Combined Work from the
+        Application, but excluding the System Libraries of the Combined Work.
+        
+          1. Exception to Section 3 of the GNU GPL.
+        
+          You may convey a covered work under sections 3 and 4 of this License
+        without being bound by section 3 of the GNU GPL.
+        
+          2. Conveying Modified Versions.
+        
+          If you modify a copy of the Library, and, in your modifications, a
+        facility refers to a function or data to be supplied by an Application
+        that uses the facility (other than as an argument passed when the
+        facility is invoked), then you may convey a copy of the modified
+        version:
+        
+           a) under this License, provided that you make a good faith effort to
+           ensure that, in the event an Application does not supply the
+           function or data, the facility still operates, and performs
+           whatever part of its purpose remains meaningful, or
+        
+           b) under the GNU GPL, with none of the additional permissions of
+           this License applicable to that copy.
+        
+          3. Object Code Incorporating Material from Library Header Files.
+        
+          The object code form of an Application may incorporate material from
+        a header file that is part of the Library.  You may convey such object
+        code under terms of your choice, provided that, if the incorporated
+        material is not limited to numerical parameters, data structure
+        layouts and accessors, or small macros, inline functions and templates
+        (ten or fewer lines in length), you do both of the following:
+        
+           a) Give prominent notice with each copy of the object code that the
+           Library is used in it and that the Library and its use are
+           covered by this License.
+        
+           b) Accompany the object code with a copy of the GNU GPL and this license
+           document.
+        
+          4. Combined Works.
+        
+          You may convey a Combined Work under terms of your choice that,
+        taken together, effectively do not restrict modification of the
+        portions of the Library contained in the Combined Work and reverse
+        engineering for debugging such modifications, if you also do each of
+        the following:
+        
+           a) Give prominent notice with each copy of the Combined Work that
+           the Library is used in it and that the Library and its use are
+           covered by this License.
+        
+           b) Accompany the Combined Work with a copy of the GNU GPL and this license
+           document.
+        
+           c) For a Combined Work that displays copyright notices during
+           execution, include the copyright notice for the Library among
+           these notices, as well as a reference directing the user to the
+           copies of the GNU GPL and this license document.
+        
+           d) Do one of the following:
+        
+               0) Convey the Minimal Corresponding Source under the terms of this
+               License, and the Corresponding Application Code in a form
+               suitable for, and under terms that permit, the user to
+               recombine or relink the Application with a modified version of
+               the Linked Version to produce a modified Combined Work, in the
+               manner specified by section 6 of the GNU GPL for conveying
+               Corresponding Source.
+        
+               1) Use a suitable shared library mechanism for linking with the
+               Library.  A suitable mechanism is one that (a) uses at run time
+               a copy of the Library already present on the user's computer
+               system, and (b) will operate properly with a modified version
+               of the Library that is interface-compatible with the Linked
+               Version.
+        
+           e) Provide Installation Information, but only if you would otherwise
+           be required to provide such information under section 6 of the
+           GNU GPL, and only to the extent that such information is
+           necessary to install and execute a modified version of the
+           Combined Work produced by recombining or relinking the
+           Application with a modified version of the Linked Version. (If
+           you use option 4d0, the Installation Information must accompany
+           the Minimal Corresponding Source and Corresponding Application
+           Code. If you use option 4d1, you must provide the Installation
+           Information in the manner specified by section 6 of the GNU GPL
+           for conveying Corresponding Source.)
+        
+          5. Combined Libraries.
+        
+          You may place library facilities that are a work based on the
+        Library side by side in a single library together with other library
+        facilities that are not Applications and are not covered by this
+        License, and convey such a combined library under terms of your
+        choice, if you do both of the following:
+        
+           a) Accompany the combined library with a copy of the same work based
+           on the Library, uncombined with any other library facilities,
+           conveyed under the terms of this License.
+        
+           b) Give prominent notice with the combined library that part of it
+           is a work based on the Library, and explaining where to find the
+           accompanying uncombined form of the same work.
+        
+          6. Revised Versions of the GNU Lesser General Public License.
+        
+          The Free Software Foundation may publish revised and/or new versions
+        of the GNU Lesser General Public License from time to time. Such new
+        versions will be similar in spirit to the present version, but may
+        differ in detail to address new problems or concerns.
+        
+          Each version is given a distinguishing version number. If the
+        Library as you received it specifies that a certain numbered version
+        of the GNU Lesser General Public License "or any later version"
+        applies to it, you have the option of following the terms and
+        conditions either of that published version or of any later version
+        published by the Free Software Foundation. If the Library as you
+        received it does not specify a version number of the GNU Lesser
+        General Public License, you may choose any version of the GNU Lesser
+        General Public License ever published by the Free Software Foundation.
+        
+          If the Library as you received it specifies that a proxy can decide
+        whether future versions of the GNU Lesser General Public License shall
+        apply, that proxy's public statement of acceptance of any version is
+        permanent authorization for you to choose that version for the
+        Library.
+License-File: LICENSE
+Keywords: MIDI,OSC,automation,input,script
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: MIDI
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.11
+Requires-Dist: colorama~=0.4
+Requires-Dist: pynput~=1.7
+Requires-Dist: pyside6-essentials<6.7,>6.4
+Requires-Dist: python-osc~=1.7
+Requires-Dist: python-rtmidi~=1.5
+Requires-Dist: pywin32; platform_system == 'Windows'
+Requires-Dist: watchdog~=4.0
+Provides-Extra: dev
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: griffe-inherited-docstrings; extra == 'doc'
+Requires-Dist: mkdocs-material; extra == 'doc'
+Requires-Dist: mkdocstrings; extra == 'doc'
+Description-Content-Type: text/markdown
+
+# <img src="docs/icon.svg" width="24"/> MIDI Scripter
+
+MIDI Scripter is a framework filtering, modifying, routing and any other
+scripting for MIDI, Open Sound Control (OSC), keyboard and mouse input and
+output with Python.
+
+MIDI Scripter listens to the input ports and feeds incoming messages to
+subscribed callables (functions, methods, etc.). These callables or any
+other Python code can send modified or created messages with output ports. 
+MIDI Scripter can act as a proxy to filter, transform and convert the input.
+
+MIDI Scripter includes customizable GUI for message logging, coding
+assistance and GUI controls and indicators to use in scripts.
+
+An octave transposer with GUI controls in 10 lines of code:
+
+``` python
+from midiscripter import *
+
+midi_keyboard = MidiIn('MIDI Keyboard')  # GUI will provide you with port names
+proxy_output = MidiOut('To DAW')  # using virtual proxy port for output
+
+# GUI control in a single line
+octave_selector = GuiButtonSelectorH(('-2', '-1', '0', '+1', '+2'), select='0')
+
+@midi_keyboard.subscribe  # decorated function will receive port's messages
+def transpose(msg: MidiMsg) -> None:
+	if msg.type == MidiType.NOTE_ON or msg.type == MidiType.NOTE_OFF:  # filter
+		msg.data1 += 12 * int(octave_selector.selected_item_text)  # modify
+	proxy_output.send(msg)  # route
+
+if __name__ == '__main__':  # combine multiple scripts by importing them
+	start_gui()  # opens helpful customizable GUI
+```
+
+![Screenshot after some widget arrangement](https://github.com/Maboroshy/midi-scripter/blob/master/examples/octave_transposer/screenshot.png?raw=true)
+
+[You can find more examples here.](https://github.com/Maboroshy/midi-scripter/tree/master/examples)
+
+[Overview and API documentation available.](https://maboroshy.github.io/midi-scripter)
+
+The average measured roundtrip latency for the script above is less than 0.25 
+milliseconds.
+
+Currently MIDI Scripter is at "beta" development stage. It's fully
+functional but needs more user feedback. It works on Windows and Linux and
+should work on macOS.
+
+## What it can do
+
+The basics:
+
+- Receive MIDI, OSC, keyboard and mouse input messages.
+- Filter, modify and do anything Python can with the messages.
+- Send out modified or generated MIDI, OSC, keyboard and mouse messages.
+
+For performance MIDI setups:
+
+- Make extra banks and layers to multiply MIDI controls.
+- Organize mappings into sets / scenes with GUI dashboard.
+- Make an extra overlay mappings on top of MIDI controller's DAW integration by
+  using proxies.
+
+For software control and automation:
+
+- Map or convert the messages to each other with any conditions and logic.
+- Use MIDI controllers or keyboard shortcuts to run any Python code.
+- Use keyboard and mouse macros.
+
+For writing MIDI related Python code:
+
+- Prepare MIDI, OSC keyboard and mouse inputs and outputs with a single line,
+  without boilerplate code.
+- Feed input messages to functions or any callables by decorators.
+- Work with message objects instead of raw data different for each input type.
+- Create GUI widgets with a single line and arrange them with mouse.
+- Write basic MIDI related GUI applications with very little Python code.
+
+## Installation
+
+1. Install [Python 3.11+](https://www.python.org/downloads/) including pip.
+2. Run `pip install midiscripter`.
+
+Extra steps for Windows:
+
+1. Enable `Add python .exe to PATH` option in Python installer.
+2. Install [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
+   and set required virtual MIDI ports inside it.
+
+## Quick Start
+
+1. Paste [script template](examples/script_template.py) to Python IDE or plain
+   text editor. IDE is recommended.
+2. Run template script as-is from IDE or by `python your_script.py` command to
+   open GUI for more info on available ports and incoming input.
+3. Turn on available ports' checkboxes to enable them, watch the log for
+   input messages.
+4. Click on port names and messages in log to copy their declarations to the
+   clipboard. Paste the declarations to your script.
+5. Modify the template function to make it do what you want.
+   Use `log('messages')` for debugging.
+6. Restart the script from GUI to check how in works.
+7. Write more complex scripts. Use more inputs, outputs and functions
+   (callables). Subscribe callables to input messages with
+   `@input_port.subscribe` decorator.
