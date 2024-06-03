@@ -1,0 +1,10 @@
+relations_iterator/__init__.py,sha256=KJvPGUA2sAVqnwwWk2AUc9vJMD04g_FMbk3LDehi0iY,211
+relations_iterator/clone.py,sha256=I0T2-PNgWXHD3FT8JqZUSZLW00-k5adUuO4WvnyvwU8,911
+relations_iterator/iterator.py,sha256=wgXZKvj3kvUxQWGzMmBVznsvPrifv2h-9qwc3lK0KrM,777
+relations_iterator/relation_tree.py,sha256=B6W7MJjIlrfs-2Su75ECRlv-f3VxjLv_WWC5us4y_rY,2922
+relations_iterator/visitor.py,sha256=6lWGxIBd6NQLMpG0bMoY338kMDPgcUm0Qyz0Q3tbB7E,173
+django_relations_iterator-0.0.5.dist-info/LICENSE,sha256=qdoy9mpuKBVNwK2zGaBjbwZZA72uq86VU61WHXLub_k,1072
+django_relations_iterator-0.0.5.dist-info/METADATA,sha256=jz3uxYulMR0c-mnAh7um7Iv73cmx-r7gOkDco7KSFKg,9192
+django_relations_iterator-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_relations_iterator-0.0.5.dist-info/top_level.txt,sha256=o7hFgSBUmoNjD4aBwOZTw90m-IOlnUtBWwSCGUle9n0,19
+django_relations_iterator-0.0.5.dist-info/RECORD,,
