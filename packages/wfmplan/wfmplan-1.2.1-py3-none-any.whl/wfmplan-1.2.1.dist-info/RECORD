@@ -1,0 +1,10 @@
+wfmplan/__init__.py,sha256=O4S3LwvjlEYrHlfJXmJLMPzseA8_gJY0d9efY7-XG38,105
+wfmplan/AgentOptimizer/BatchOptimizer.py,sha256=c1D0Q5YHJK7VkzvTnRuuNV6J4xkKbN68r4DvHyL3wMs,1569
+wfmplan/AgentOptimizer/Optimizer.py,sha256=ylUHOvQ4DL32GyfcpAMZC19jumltnDO9uk-MV6g-_MM,5845
+wfmplan/AgentOptimizer/__init__.py,sha256=KGUno7CE2eieQ9SL1wkyQeAqrf7yOHD-hgGsdKa0ddQ,119
+wfmplan-1.2.1.dist-info/LICENSE.txt,sha256=qhGjqqyyyQznTGdpxv-NBo6vrcsoNihtVNeDw56lU8s,1068
+wfmplan-1.2.1.dist-info/METADATA,sha256=yy46PSKCKvzUDrtzOZpxI_aywEA8DJyFgsDc5tQ1Ask,3389
+wfmplan-1.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+wfmplan-1.2.1.dist-info/entry_points.txt,sha256=kbmMD5BObnsNx1VpFzamEk02DnP0w1FgM1LwzNX3pTo,41
+wfmplan-1.2.1.dist-info/top_level.txt,sha256=01ybOI1i1Z5HLgnRzeIh__o8s2GjMtafuGkg1P6FcaY,8
+wfmplan-1.2.1.dist-info/RECORD,,
