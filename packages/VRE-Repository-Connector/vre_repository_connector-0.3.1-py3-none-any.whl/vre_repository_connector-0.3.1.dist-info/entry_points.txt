@@ -1,0 +1,3 @@
+[console_scripts]
+vrc=vre_repository_connector.cli:connector
+
