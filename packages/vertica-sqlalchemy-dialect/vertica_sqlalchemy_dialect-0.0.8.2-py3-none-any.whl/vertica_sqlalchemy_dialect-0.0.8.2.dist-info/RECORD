@@ -1,0 +1,11 @@
+vertica_sqlalchemy_dialect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vertica_sqlalchemy_dialect/base.py,sha256=OmJyvqenXIr0J-TuN06ryrNOmE4ZzD4pj8NGaiTB6sE,77799
+vertica_sqlalchemy_dialect/dialect_pyodbc.py,sha256=x52Y_WgVr_8aUAetIXA1gdoxBc1KDq78Bqek7Z-7IYg,1362
+vertica_sqlalchemy_dialect/dialect_vertica_python.py,sha256=GFpAEYaVjNxA84_wJEuSQaJehRj9aoO3OQxPkdZiDR4,1417
+vertica_sqlalchemy_dialect/requirements.py,sha256=IP0fQd6QD49mVe8kQpL4S386aG2uD6qc2JQM2gEXhC0,1500
+vertica_sqlalchemy_dialect-0.0.8.2.dist-info/LICENSE,sha256=SDMuYeBNxIuxqoDa2Xx8u6m7Z2E_Wel6YKW2zCe5fA8,12947
+vertica_sqlalchemy_dialect-0.0.8.2.dist-info/METADATA,sha256=_vwKTVD0u-v-4fsBpsXn3uGrji5nM5KBRyNMxlYNGW4,5963
+vertica_sqlalchemy_dialect-0.0.8.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vertica_sqlalchemy_dialect-0.0.8.2.dist-info/entry_points.txt,sha256=-QXZc2d6p9ZH13beXGJaUeNStEUGZSDAbY2DIBdJf_o,212
+vertica_sqlalchemy_dialect-0.0.8.2.dist-info/top_level.txt,sha256=kunDcmf_kjJ4cNQpbQrwvn713PS8053zMq-3djfR0E0,27
+vertica_sqlalchemy_dialect-0.0.8.2.dist-info/RECORD,,
