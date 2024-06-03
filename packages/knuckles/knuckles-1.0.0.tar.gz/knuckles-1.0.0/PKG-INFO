@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: knuckles
+Version: 1.0.0
+Summary: A Subsonic/OpenSubsonic API wrapper for Python.
+Author-email: "Jorge \"Kutu\" Dobón Blanco" <code@dobon.dev>
+Keywords: api-wrapper,api,wrapper,library,subsonic,opensubsonic
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests>=2.32.3
+Requires-Dist: python-dateutil>=2.8.2
+Provides-Extra: dev
+Requires-Dist: pip-tools>=7.4.1; extra == "dev"
+Provides-Extra: check
+Requires-Dist: types-requests; extra == "check"
+Requires-Dist: types-python-dateutil; extra == "check"
+Requires-Dist: ruff>=0.1.2; extra == "check"
+Requires-Dist: mypy>=1.4.1; extra == "check"
+Provides-Extra: tests
+Requires-Dist: pytest>=7.4.0; extra == "tests"
+Requires-Dist: responses>=0.23.1; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: mkdocs>=1.5.3; extra == "docs"
+Requires-Dist: mkdocs-material>=9.5.18; extra == "docs"
+Requires-Dist: mkdocstrings[python]>=0.24.3; extra == "docs"
+Requires-Dist: mkdocs-gen-files>=0.5.0; extra == "docs"
+Requires-Dist: pymdown-extensions>=10.8.0; extra == "docs"
+Requires-Dist: mkdocs-literate-nav>=0.6.1; extra == "docs"
+
+<div align="center" markdown="1">
+# Knuckles
+
+![PyPI - Version](https://img.shields.io/pypi/v/knuckles)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/knuckles)
+![GitHub Actions - PyPI Publishing](https://github.com/kutu-dev/knuckles/actions/workflows/publish.yml/badge.svg)
+![GitHub Actions - Docs Deploying](https://github.com/kutu-dev/knuckles/actions/workflows/docs.yml/badge.svg)
+
+An unopinionated [OpenSubsonic](https://opensubsonic.netlify.app/) API wrapper for Python.
+</div>
+
+## Compatiblity
+Knuckles **only** works with servers compatible with the REST API version 1.4.0 onwards (Subsonic 4.2+).
+It follows strictly the [OpenSubsonic API Spec](https://opensubsonic.netlify.app/docs/opensubsonic-api/), being fully retro-compatible with the original [Subsonic API](https://subsonic.org/pages/api.jsp).
+
+## Getting Started
+
+### Make It Available
+First install the package:
+
+```sh title="Command line"
+python3 -m pip install knuckles
+```
+
+Or add it to your project:
+
+```toml title="pyproject.toml"
+project = [
+    "knuckles>=1.0.0"
+]
+```
+
+### Using It
+
+```python3 title="__main__.py"
+import knuckles
+
+server = knuckles.subsonic(
+    # Adding https:// is done automatically,
+    # /rest should never be added to the URL
+    url = "example.com",
+    user = "kutu",
+    password = "caisopea",
+    client = "knuckles client"
+)
+
+ping = server.ping()
+
+# Print the supported version of the OpenSubsonic REST API
+print(ping.version)
+```
+
+### Learning More
+To start making more complex interactions with the API make use of [the API reference](https://kutu-dev.github.io/knuckles/reference/Api/). Enjoy coding and good luck!
+
+## Acknowledgements
+Created with :heart: by [Jorge "Kutu" Dobón Blanco](https://dobon.dev).
