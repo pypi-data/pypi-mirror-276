@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jeff-api-common
+Version: 0.1.0
+Summary: 
+Author: billixcode
+Author-email: 64236392+billixcode@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flask (>=3.0.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+
