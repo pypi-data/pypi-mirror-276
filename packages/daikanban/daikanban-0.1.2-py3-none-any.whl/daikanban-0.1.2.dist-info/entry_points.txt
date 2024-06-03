@@ -1,0 +1,2 @@
+[console_scripts]
+daikanban = daikanban.main:APP

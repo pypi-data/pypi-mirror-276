@@ -1,0 +1,15 @@
+daikanban/__init__.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+daikanban/billboard_art.txt,sha256=CerMjCokO_FvUWUtiymHiiV5bba5vOKW0GqPuddIzMI,266
+daikanban/interface.py,sha256=mpBUUTy5VPpMwIoA340BVv-dDv3wK3KUNapPWv_2aUc,48126
+daikanban/main.py,sha256=k1NwpH_8UtjXEICPeE03Jkeer8DAgW0riJkAvRcY13k,1377
+daikanban/model.py,sha256=igL_lSSDyB7R8zdaP4pGgaNjj9RWfCktrEERoiTT6w0,30784
+daikanban/prompt.py,sha256=_DVEN2Ei5TVU_O9b72nASaNSycypcTAGV6CwK_p0qR0,5757
+daikanban/score.py,sha256=LukEndtWshZEqtRd-RhiszmVqbTP_1nmKxkXHEHcK6g,2938
+daikanban/settings.py,sha256=8QpwkvKbs2OdDtd-tgv4nDsvsJG1Olv2xjco7NYJaQ8,10748
+daikanban/utils.py,sha256=0LV2qZvCZpool-Qb5VonT176MZzC1BsqVgv39Qlx6ns,5605
+daikanban-0.1.2.dist-info/METADATA,sha256=LvPpCfjONVaWqdGAeUoF2s-PYdAeh_ChgxjWdq5fXmY,5320
+daikanban-0.1.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+daikanban-0.1.2.dist-info/entry_points.txt,sha256=nwQVOqoLTuZd82Pt6gAOCwGIGqql4SXkKqh6k0q2xfg,49
+daikanban-0.1.2.dist-info/licenses/AUTHORS.md,sha256=uULThAfrwHaoym2l2nRGMiXxHLIvsyY6k5xMgf5kjFc,83
+daikanban-0.1.2.dist-info/licenses/LICENSE,sha256=TsTBBBLejCA8g-xeWCveKrW3dAXTb3Av3FMOU7uEmKs,1071
+daikanban-0.1.2.dist-info/RECORD,,
