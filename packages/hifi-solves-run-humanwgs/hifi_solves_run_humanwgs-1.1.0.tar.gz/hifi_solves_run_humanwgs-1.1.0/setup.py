@@ -1,0 +1,34 @@
+from setuptools import setup, find_packages
+
+version = "1.1.0"
+
+with open("README.md", "r") as f:
+    readme = f.read()
+
+setup(
+    name="hifi_solves_run_humanwgs",
+    version=version,
+    description="Upload required files and run [PacBio's Human WGS workflow](https://github.com/PacificBiosciences/HiFi-human-WGS-WDL) via [DNAstack's Workbench](https://omics.ai/workbench/)",
+    long_description=readme,
+    long_description_content_type="text/markdown",
+    author="DNAstack",
+    author_email="bioinformatics@dnastack.com",
+    maintainer="Heather Ward",
+    maintainer_email="heather@dnastack.com",
+    license="GPLv2",
+    license_files="LICENSE",
+    packages=find_packages(),
+    include_package_data=True,
+    package_data={"upload_and_run.workflows": ["*.wdl"]},
+    entry_points={
+        "console_scripts": [
+            "run-humanwgs = hifi_solves_run_humanwgs.upload_and_run:main",
+        ],
+    },
+    python_requires=">=3.9",
+    install_requires=[
+        "pandas>=2.0.0",
+        "boto3>=1.34.0",
+        "dnastack-client-library>=3.1.23",
+    ],
+)
