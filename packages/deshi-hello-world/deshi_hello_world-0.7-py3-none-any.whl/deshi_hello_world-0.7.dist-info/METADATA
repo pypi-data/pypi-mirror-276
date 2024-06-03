@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: deshi_hello_world
+Version: 0.7
+Summary: A simple hello world package with multiplication functionality
+Author: deshi
+Author-email: deshithabollina28@gmail.com
+Requires-Dist: click
+
