@@ -1,0 +1,3 @@
+[console_scripts]
+aitsc = aitsc.main:main
+ansible-inventory-to-ssh-config = aitsc.main:main
