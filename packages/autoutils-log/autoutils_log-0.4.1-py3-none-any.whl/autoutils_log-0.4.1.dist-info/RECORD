@@ -1,0 +1,10 @@
+LICENSE,sha256=PnKylGJgcrbPorYFwQz0Zd_SFPTugvDJnFdbxUrMfz8,1067
+autoutils_log/__init__.py,sha256=9bfKKaPWVIgMrrcG7-0ucE4_JbZZy5P0K2Ot4mkRSfs,145
+autoutils_log/base.py,sha256=x6dJA2fKA2scrLJkkVnJfr8bKNzbdIe1aCtC8VQO7Fc,2770
+autoutils_log/colorful_stream_handler.py,sha256=I9YM0bIRz_us4XTiKn19rGUYdN5F8OAnryACbrKeC3I,6239
+autoutils_log/kafka_handler.py,sha256=ST8fVB3nSs1LGMIZIB34t2vxfhILKT85STg1BVv7fuU,2001
+autoutils_log/logstash_handler.py,sha256=s3BIPpkBI5XNPAM8aUmoDKr1bpB1SkKGkK1QvDn_cxw,1263
+autoutils_log-0.4.1.dist-info/LICENSE,sha256=PnKylGJgcrbPorYFwQz0Zd_SFPTugvDJnFdbxUrMfz8,1067
+autoutils_log-0.4.1.dist-info/METADATA,sha256=oOC0gSwpTKxguyDqy4GBhB-JYXyzryaPpzVqGcvW0u0,726
+autoutils_log-0.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+autoutils_log-0.4.1.dist-info/RECORD,,
