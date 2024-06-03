@@ -1,0 +1,2 @@
+[console_scripts]
+locallang = locallang.__main__:main
