@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_avater/__init__.py
+streamlit_avater.egg-info/PKG-INFO
+streamlit_avater.egg-info/SOURCES.txt
+streamlit_avater.egg-info/dependency_links.txt
+streamlit_avater.egg-info/requires.txt
+streamlit_avater.egg-info/top_level.txt
+streamlit_avater/frontend/build/asset-manifest.json
+streamlit_avater/frontend/build/bootstrap.min.css
+streamlit_avater/frontend/build/index.html
+streamlit_avater/frontend/build/static/js/main.058df7e9.js
+streamlit_avater/frontend/build/static/js/main.058df7e9.js.LICENSE.txt
+streamlit_avater/frontend/build/static/js/main.058df7e9.js.map
