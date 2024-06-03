@@ -1,0 +1,7 @@
+build
+docs
+meson_builddir
+pyslsqp
+setup
+tests
+wheelhouse
