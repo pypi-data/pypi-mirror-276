@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: visioncam
+Version: 0.0.1
+Summary: XAI FrameWork for computer vision tasks
+Author: Ahmed Tolba
+Author-email: atolba210@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
