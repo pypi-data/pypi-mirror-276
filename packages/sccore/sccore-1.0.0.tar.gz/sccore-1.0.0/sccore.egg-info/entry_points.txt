@@ -1,0 +1,6 @@
+[console_scripts]
+--init-- = sccore.cli.__init__:main
+create-genome = sccore.cli.create_genome:main
+create-test-data = sccore.cli.create_test_data:main
+format-bc = sccore.cli.format_bc:main
+manifest = sccore.cli.manifest:main
