@@ -1,0 +1,26 @@
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/
+# markdown guide: https://www.markdownguide.org/cheat-sheet/
+
+[build-system]
+requires = ["setuptools>=70.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "livepriceofgold-usa_Rx168059"
+version = "2024.0.0.1"
+authors = [
+  { name="Muhammad Dwi Reza", email="dwireza1002@gmail.com" },
+]
+description = "This package will get information about USA latest gold price from livepriceofgold website"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+
+[project.urls]
+Homepage = "https://github.com/Rex-Project-Organization/IndonesiaLatestEarthQuake"
+# Issues = "https://github.com/pypa/sampleproject/issues"
