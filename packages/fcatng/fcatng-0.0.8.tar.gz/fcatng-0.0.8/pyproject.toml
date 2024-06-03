@@ -1,0 +1,25 @@
+[project]
+name = "fcatng"
+version = "0.0.8"
+authors = [
+  { name="Tom Hanika", email="tomhanika@algebra20.de"},
+]
+
+description = "An attempt to revive the fca package by ae-hse."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tomhanika/fcatng"
+Issues = "https://github.com/tomhanika/fcatng/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
