@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+rocketpy.egg-info/PKG-INFO
+rocketpy.egg-info/SOURCES.txt
+rocketpy.egg-info/dependency_links.txt
+rocketpy.egg-info/requires.txt
+rocketpy.egg-info/top_level.txt
