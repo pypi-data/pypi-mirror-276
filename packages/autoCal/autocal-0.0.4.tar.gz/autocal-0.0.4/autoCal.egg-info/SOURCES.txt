@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+autoCal/__init__.py
+autoCal/helperConverters.py
+autoCal/motorCalculations.py
+autoCal/speedCalculations.py
+autoCal/unitConverters.py
+autoCal.egg-info/PKG-INFO
+autoCal.egg-info/SOURCES.txt
+autoCal.egg-info/dependency_links.txt
+autoCal.egg-info/top_level.txt
