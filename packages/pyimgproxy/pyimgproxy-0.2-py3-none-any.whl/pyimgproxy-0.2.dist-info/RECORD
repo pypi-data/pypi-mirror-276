@@ -1,0 +1,9 @@
+pyimgproxy/__init__.py,sha256=LiRnVV1AjFsqRvCzYJlV8xi8JvTpvjv2mpyqxJFHgdU,44
+pyimgproxy/exceptions.py,sha256=9k7IWeYCWypJbJHxTTZKqtjLRN8qKqUOpzeOyvWvOYY,83
+pyimgproxy/image.py,sha256=OBNEUfBPnb44Qg_p39yz-CL_uvV2ltSxvPDoZ6kJ6gY,25576
+pyimgproxy/imgproxy.py,sha256=V7O3HFRs3zgn4ShSp05gc4WgvRE3EqVOmTwKRHsnUnQ,872
+pyimgproxy-0.2.dist-info/LICENSE,sha256=mq4s2tJhPt8w4wmYINX3aSRmWqGyVyg01zpHfH-mlQ4,1503
+pyimgproxy-0.2.dist-info/METADATA,sha256=27vimTC_7l2Hf3lNIqryFtE4z1RNi-prwEB5cUBwzFw,950
+pyimgproxy-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyimgproxy-0.2.dist-info/top_level.txt,sha256=3s7k5IozRKDG3_3MNkauC_IHKXtjinq_60qW49WS01o,11
+pyimgproxy-0.2.dist-info/RECORD,,
