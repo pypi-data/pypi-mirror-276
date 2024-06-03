@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: LLM_PCT
+Version: 0.0.1
+Summary: A package for taking and scoring the PCT
+Author-email: Elizabeth Frey <elizabeth.w.frey.24@dartmouth.edu>, Isabella Hochschild <sabella.e.hochschild.25@dartmouth.edu>
+Project-URL: Homepage, https://github.com/isabellahoch/LLM_PCT
+Project-URL: Issues, https://github.com/isabellahoch/LLM_PCT/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+Requires-Dist: attrs ==23.2.0
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: contourpy ==1.2.1
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: exceptiongroup ==1.2.1
+Requires-Dist: filelock ==3.14.0
+Requires-Dist: fonttools ==4.51.0
+Requires-Dist: fsspec ==2024.3.1
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: huggingface-hub ==0.23.0
+Requires-Dist: idna ==3.7
+Requires-Dist: importlib-resources ==6.4.0
+Requires-Dist: jinja2 ==3.1.4
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: lxml ==5.2.1
+Requires-Dist: MarkupSafe ==2.1.5
+Requires-Dist: matplotlib ==3.8.4
+Requires-Dist: mpmath ==1.3.0
+Requires-Dist: networkx ==3.2.1
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: outcome ==1.3.0.post0
+Requires-Dist: packaging ==24.0
+Requires-Dist: pillow ==10.3.0
+Requires-Dist: pyparsing ==3.1.2
+Requires-Dist: PySocks ==1.7.1
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: regex ==2024.4.28
+Requires-Dist: requests ==2.31.0
+Requires-Dist: safetensors ==0.4.3
+Requires-Dist: selenium ==4.20.0
+Requires-Dist: six ==1.16.0
+Requires-Dist: sniffio ==1.3.1
+Requires-Dist: sortedcontainers ==2.4.0
+Requires-Dist: sympy ==1.12
+Requires-Dist: tokenizers ==0.19.1
+Requires-Dist: torch ==2.2.2
+Requires-Dist: tqdm ==4.66.4
+Requires-Dist: transformers ==4.40.2
+Requires-Dist: trio ==0.25.0
+Requires-Dist: trio-websocket ==0.11.1
+Requires-Dist: typing-extensions ==4.11.0
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: wsproto ==1.2.0
+Requires-Dist: zipp ==3.18.1
+
+# Political Compass Test (PCT)
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+* GitHub: https://github.com/isabellahoch/LLM_PCT
+* Free software: MIT license
+
+## Overview
+
+The Political Compass Test (PCT) is a Python package that allows users to proctor the political compass test algorithmically by allowing LLMs to react to PCT questions with open-ended responses. It classifies responses in agreement levels according to a specified threshold, then directly interacts with the [PCT website](https://www.politicalcompass.org/test) to determine the generator's political position on the compass.
+
+## Features
+
+- Elicits responses to questions for the political compass test
+- Classifies generated responses to determine their political position
+- Programmatically intearacts with PCT website to take the test and determine results
+- Displays PCT results on interactive plot
+
+## Setup
+
+Expects a file path to a `pct-assets`s directory with `crx/adblock.crx` extension and subdirectories for generated `response`, `score`, `results` files.
