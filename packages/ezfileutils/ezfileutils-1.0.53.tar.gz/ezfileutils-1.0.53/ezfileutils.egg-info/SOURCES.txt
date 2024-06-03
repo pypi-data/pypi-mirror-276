@@ -1,0 +1,9 @@
+README.md
+setup.py
+ezfileutils/__init__.py
+ezfileutils/ezfileutils.py
+ezfileutils.egg-info/PKG-INFO
+ezfileutils.egg-info/SOURCES.txt
+ezfileutils.egg-info/dependency_links.txt
+ezfileutils.egg-info/entry_points.txt
+ezfileutils.egg-info/top_level.txt
