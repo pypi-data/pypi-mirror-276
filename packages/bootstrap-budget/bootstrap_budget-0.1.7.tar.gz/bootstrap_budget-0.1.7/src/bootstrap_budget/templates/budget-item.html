@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+
+
+{% block view_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+{% endblock %}
+
+
+{% block nav_items %}
+    {{ add_dashboard_nav() }}
+    {{ add_budgets_nav() }}
+    {{ add_budget_items_nav(active=True) }}
+    {{ add_accounts_nav() }}
+    {{ add_transactions_nav() }}
+    {{ add_user_nav() }}
+{% endblock %}
+
+
+{% block modals %}
+    {{ add_edit_profile_modal() }}
+    {{ add_reset_password_modal() }}
+{% endblock %}
+
+
+{% block main_content %}
+<div class="container my-4">
+    <button type="button" data-bs-toggle="modal" data-bs-target="#createBudgetItemModal" class="btn btn-primary">+ Add New Budget Item</button>
+</div>
+<div class="modal fade" id="createBudgetItemModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add New Budget Item</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="budget_item_create" action="{{ url_for('budget_item.create') }}" method="post">
+                    {{ add_form_input(id='name', label='Budget Item Name:', required=True) }}
+                    {{ add_form_input(id='description', label='Budget Item Description:') }}
+                    {{ add_form_input(id='budget_amount', label='Budget Amount:', type='number', number_step='0.01', required=True) }}
+                    {{ add_form_input(id='sequence_order', label='Budget Item Sequence:', type='number', placeholder='99', required=True) }}
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary" form="budget_item_create">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% for budget_item in budget_items %}
+<div class="container my-4">
+    <a href="#" data-bs-toggle="modal" data-bs-target="#updateBudgetItemModal-{{ budget_item.id }}" title="{{ budget_item.name }}">
+        <div class="p-3 bg-body-tertiary border rounded-3">
+            <h1 class="text-body-emphasis">{{ budget_item.name }}</h1>
+            <p>{{ budget_item.description }}</p>
+        </div>
+    </a>
+</div>
+<div class="modal fade" id="updateBudgetItemModal-{{ budget_item.id }}" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Update {{ budget_item.name }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="budget_item_update-{{ budget_item.id }}" action="{{ url_for('budget_item.update') }}" method="post">
+                    {{ add_form_input(id='id', label='Budget Item ID:', value=budget_item.id, type='hidden') }}
+                    {{ add_form_input(id='name', label='Budget Item Name:', value=budget_item.name, required=True) }}
+                    {{ add_form_input(id='description', label='Budget Item Description:', value=budget_item.description) }}
+                    {{ add_form_input(id='budget_amount', label='Budget Amount:', value=budget_item.budget_amount, type='number', number_step='0.01', required=True) }}
+                    {{ add_form_input(id='sequence_order', label='Budget Item Sequence:', value=budget_item.sequence_order, type='number', placeholder='99', required=True) }}
+               </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger pull-left" data-bs-toggle="modal" data-bs-target="#deleteBudgetItemModal-{{ budget_item.id }}">Delete</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary" form="budget_item_update-{{ budget_item.id }}">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="deleteBudgetItemModal-{{ budget_item.id }}" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger"><i class="bi bi-exclamation-circle-fill"></i> Delete {{ budget_item.name }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete <strong>{{ budget_item.name }}</strong>?</p>
+                <form id="budget_item_delete-{{ budget_item.id }}" action="{{ url_for('budget_item.delete') }}" method="post">
+                    {{ add_form_input(id='id', label='Budget Item ID:', value=budget_item.id, type='hidden') }}
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary" form="budget_item_delete-{{ budget_item.id }}">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}

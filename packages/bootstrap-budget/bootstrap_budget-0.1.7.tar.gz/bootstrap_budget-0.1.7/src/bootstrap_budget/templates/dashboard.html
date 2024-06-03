@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block view_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+{% endblock %}
+
+
+{% block nav_items %}
+    {{ add_dashboard_nav(active=True) }}
+    {{ add_budgets_nav() }}
+    {{ add_budget_items_nav() }}
+    {{ add_accounts_nav() }}
+    {{ add_transactions_nav() }}
+    {{ add_user_nav() }}
+{% endblock %}
+
+
+{% block modals %}
+    {{ add_edit_profile_modal() }}
+    {{ add_reset_password_modal() }}
+{% endblock %}
