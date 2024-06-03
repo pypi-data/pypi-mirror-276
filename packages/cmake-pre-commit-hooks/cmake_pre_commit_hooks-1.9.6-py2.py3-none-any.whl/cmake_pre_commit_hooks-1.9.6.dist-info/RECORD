@@ -1,0 +1,17 @@
+cmake_pc_hooks/__init__.py,sha256=Dp6fiklVTMOlgHQf-jJSaiiynO1pMYUREdGJ0OnZan8,624
+cmake_pc_hooks/_argparse.py,sha256=P7vArk-_zzZoKuLQ8gr3W2Vlgvq_R562hqzDUlUgxRo,11792
+cmake_pc_hooks/_call_process.py,sha256=fegkQzXiEY8IV1mJfAyWjioZ54LKQIkLlxh1Wxa7Ygk,2315
+cmake_pc_hooks/_cmake.py,sha256=hjvvzLt2e2LP1JjO0FeTxRTiXAzDbq0S9rcUqVx-mC0,19551
+cmake_pc_hooks/_utils.py,sha256=PkUjgj3j7KMo__tMSThzW4Hkups-L6lwf_zPzANLxmY,9534
+cmake_pc_hooks/clang_format.py,sha256=u2OYwopg1cqC2b6rJuHcwaThW7eJKqbQjyQ4lxJHwis,1657
+cmake_pc_hooks/clang_tidy.py,sha256=gvtmNqq9K-EUTFbg02icIvK8Qoo9EoYtUawI_t65jkA,2488
+cmake_pc_hooks/cppcheck.py,sha256=vOPkCeOGVDrqLdfsLHrZtSe8fDGdK9b2Jsrf1T7iMYM,2851
+cmake_pc_hooks/cpplint.py,sha256=fyhGif97_CbLmQZSAFW29GfyCEB4KvsFEuQ7GGnZqjw,702
+cmake_pc_hooks/include_what_you_use.py,sha256=sCXbpcVk3xzL0uEJ5VUS3sBN3gbdPmDKJmAv6mMafj0,3810
+cmake_pc_hooks/lizard.py,sha256=EeyAgmpMPy9NjoqMPbhbpHZ_4gZVkiArhsAdTW2Mn2g,1917
+cmake_pre_commit_hooks-1.9.6.dist-info/LICENSE,sha256=f_82pNieh4KVqI3swn0ruiI3ojBhFHrZ3hChGobOXzA,11341
+cmake_pre_commit_hooks-1.9.6.dist-info/METADATA,sha256=9xHV8uT_AEPTLdl76Q9d8ClA40Ys2rBpghh9yWJwu34,17486
+cmake_pre_commit_hooks-1.9.6.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+cmake_pre_commit_hooks-1.9.6.dist-info/entry_points.txt,sha256=0nRNugWGOLSndubZEExAaCoxm-KweuKiYHjE7SS4Dmk,372
+cmake_pre_commit_hooks-1.9.6.dist-info/top_level.txt,sha256=3fc7-o2L606c6YIkZuE9vG3ZZWQarynuVWm4_1vqGA4,15
+cmake_pre_commit_hooks-1.9.6.dist-info/RECORD,,
