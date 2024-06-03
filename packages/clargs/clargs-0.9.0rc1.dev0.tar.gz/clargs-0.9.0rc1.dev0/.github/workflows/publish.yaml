@@ -1,0 +1,48 @@
+name: Upload to PyPI and Tag
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - 'src/clargs/__about__.py'
+  workflow_dispatch: {}
+
+
+jobs:
+  test-and-build:
+    uses: ./.github/workflows/run-tests-and-build.yml
+
+  upload:
+    needs: test-and-build
+    name: Publish release to PyPI
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/clargs
+    permissions:
+      id-token: write  # IMPORTANT: this permission is mandatory for trusted publishing
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        name: distribution-package
+        path: dist
+    - name: Publish package distributions to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+  tag:
+    needs: upload
+    name: Create a release tag in git
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/download-artifact@v4
+      with:
+        name: distribution-package
+        path: dist
+    - name: Tag version and push
+      run:  |
+          VERSION="RELEASE/v$(ls -1 dist/*.whl | head | cut -f2 -d-)"
+          git tag "${VERSION}"
+          git push --tags

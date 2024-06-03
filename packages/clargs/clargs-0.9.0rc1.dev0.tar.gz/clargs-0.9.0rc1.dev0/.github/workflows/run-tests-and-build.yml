@@ -1,0 +1,37 @@
+name: Run package tests
+
+on:
+  push:
+    branches:
+      - "**"  # all branches
+  pull_request:
+    branches:
+      - "**"
+  workflow_call: {}
+  workflow_dispatch: {}
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.12
+    - name: Install Hatch
+      uses: pypa/hatch@install
+    - name: Run tests
+      run: |
+          hatch test --all
+          hatch run lint:lint-check
+          hatch run lint:format-check
+          hatch run types:check
+          hatch run examples:check
+    - name: Build
+      run: hatch build
+    - name: Save distribution package
+      uses: actions/upload-artifact@v4
+      with:
+        name: distribution-package
+        path: dist
