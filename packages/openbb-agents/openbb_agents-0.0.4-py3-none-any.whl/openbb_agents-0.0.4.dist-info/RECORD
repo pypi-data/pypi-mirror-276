@@ -1,0 +1,11 @@
+openbb_agents/__init__.py,sha256=PwEGeTrQ47wUXpqlueeQamaQwjYOPGjVhGiUSG5Aujk,1210
+openbb_agents/agent.py,sha256=wD161AHoepAFLgDHOBvR8U3hUv0ZUllFi3Z3ICu_qm8,11587
+openbb_agents/chains.py,sha256=7hI9DefJK1Xb-n9Kwz6w2Hvgr9CsGgDvbWZ0YeeSAFY,8626
+openbb_agents/models.py,sha256=OyUhtPmeuM6q0Y4fHvKZAIrA090yC83r4q5pZ3j90ek,753
+openbb_agents/prompts.py,sha256=ovjvmsJ7phhWcg6c3QFFw1GyUjlGokzpdqSRTYzSDPQ,6496
+openbb_agents/testing.py,sha256=rHHKJl3zPc6oTnRAigwsEqrvtuqsv-rRWEsLpTrOXvY,1595
+openbb_agents/tools.py,sha256=rmLGKG2hSCE1_6bd89WJ1mtnH7tUZqYRxx1mBNTUcFg,5963
+openbb_agents/utils.py,sha256=3b40T0yEAZGtEXcTgZ3dk2WlXkvWUVRtivdDIkeUlPc,2025
+openbb_agents-0.0.4.dist-info/METADATA,sha256=Y6aF03VVMcfXIuEbRSBmpwy6y-9HxCJAF0Z-vkPdYxI,5282
+openbb_agents-0.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+openbb_agents-0.0.4.dist-info/RECORD,,
