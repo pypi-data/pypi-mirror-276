@@ -1,0 +1,16 @@
+models/__init__.py,sha256=IasdA1V7OTmOSYmcTrS3yKVRKy7z5w4sSpvPv8Fs60k,413
+models/base.py,sha256=zZ2rmnhHm1-btsD6SZ2wc9qgibSSR6EH410WEqVTVQ8,104
+models/certification.py,sha256=pvY0VdD5N1vdMKQLPeKESMlrm0RdB_5jI8hDk_gf1xE,634
+models/contact.py,sha256=Yqa6_oJs6t7o3huQGW7ftMLmPMLDTVxNrzHJw4jNxfc,535
+models/contact_request.py,sha256=vN8x8FfLLH3moj5CzbSpImqoKKe--_o_lBbwQUtYvhQ,748
+models/past_experience.py,sha256=0VOxvv5dOkeWUgYxhYjIaxWLc_rOUO8tnpZQpv2zh4w,655
+models/profile.py,sha256=XcBGT_Vy1lKV_JQzO5dGmfv_G-N7yjiytNFNE6wH-q8,982
+models/programming_skill.py,sha256=2WMc0-xOZyJD1lToa6-UtkLuScLV6ybKZO-_f7IpUlo,543
+models/project.py,sha256=Caxh1FguK_v1PJ_n6nzaCrR45b_TyI6TKTe1o-lXfvg,518
+models/resume.py,sha256=5TvBwyhoMJpbjO3pB_SjuvTwBvmOpL4dodmxzwI6FS8,465
+models/soft_skill.py,sha256=1dV7HZvtdWatUO6IHqE0ZbrHkA1S4--YKBDHQp1aZUw,521
+models/tech_stack.py,sha256=uAh_f1JPqylXfCr_iGKNyvnO3zQGpaNVyRDV2SFBosY,523
+settings.py,sha256=hq9l8Jhsll7ziQ-HWDJFXwPvM2kQxlHlegVwddo71Sw,262
+data_manager_library-0.0.3.dist-info/METADATA,sha256=c8Gm9QrXX7cHytfZ3JwdYScfD90Q83SqdJxLxQnI044,517
+data_manager_library-0.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+data_manager_library-0.0.3.dist-info/RECORD,,
