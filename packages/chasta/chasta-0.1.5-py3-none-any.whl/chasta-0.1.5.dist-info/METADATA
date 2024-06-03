@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: chasta
+Version: 0.1.5
+Summary: CHArt and run STAtitics on CSV data
+Author: Jerome Provensal
+Author-email: jeromegit@provensal.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: plotly (>=5.15.0,<6.0.0)
+Description-Content-Type: text/markdown
+
+### TODO ideas
+ * specify the type of charts: area, line, etc...
+ * if data columns have different scale/range, use multiple Y-axis or left/right
+ * use timeseries for x-axis
+ * use "steps" in charts
+ * store both data/html into a file that that can be "served"
+ * allow to upload the chartable data to "the cloud" or at known file/data repo
+ * store the data compressed
+ * use a bit.ly type of short/random URL to access to saved data
+ * along with the normal describe stats add sum()
+ * when a delimiter is specified such as |, assume \s*|\s*
+ * combine the output of describe() and info()
+ * look for Exploratory Data Analysis (EDA) techniques
+ * Missing data?
