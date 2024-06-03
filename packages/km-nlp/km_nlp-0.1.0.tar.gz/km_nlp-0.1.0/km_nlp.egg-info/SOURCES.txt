@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+km_nlp.egg-info/PKG-INFO
+km_nlp.egg-info/SOURCES.txt
+km_nlp.egg-info/dependency_links.txt
+km_nlp.egg-info/requires.txt
+km_nlp.egg-info/top_level.txt
