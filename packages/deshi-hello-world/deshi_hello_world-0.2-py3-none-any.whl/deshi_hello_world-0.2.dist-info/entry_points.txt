@@ -1,0 +1,2 @@
+[console_scripts]
+deshi-hello-world = deshi_hello_world.cli:greet
