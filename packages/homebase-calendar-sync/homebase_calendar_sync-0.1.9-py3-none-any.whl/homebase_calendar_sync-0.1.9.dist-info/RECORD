@@ -1,0 +1,17 @@
+homebase_calendar_sync/__init__.py,sha256=Fqiu3-vgTGMYvrcsaC-doZWPEMSvU3LW6nRYD-2veO4,269
+homebase_calendar_sync/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homebase_calendar_sync/config.py,sha256=9WgsnRlJAtXkKkdaz-d6eI13bA7GM1H0YviZyXIHjjw,937
+homebase_calendar_sync/homebase_calendar_sync.py,sha256=gImF-QsIhs7U4pHHFgjz-uB08n3uyj07a061q_lAJeU,16434
+homebase_calendar_sync/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homebase_calendar_sync/db/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homebase_calendar_sync/db/models.py,sha256=UAngE8zK8X4vH13AzLlvzCMyfO3dTSW7XXHnWsR6aEs,1084
+homebase_calendar_sync/google_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homebase_calendar_sync/google_client/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homebase_calendar_sync/google_client/auth.py,sha256=g5AEOOC5xopbvvC-1uCUe9_5noj7y_ztLHfBWxMEfnc,19548
+homebase_calendar_sync/google_client/drive_types.py,sha256=d8RTfvId8vlJ0hO_Y8mxOpSA8PKTsiJb1QROnhCG5SU,106
+homebase_calendar_sync/google_client/google_client.py,sha256=izoLB2VKcu4WiKvotu3GhaqN_h4-DZ3qXVDsH7WvH8c,9441
+homebase_calendar_sync-0.1.9.dist-info/METADATA,sha256=QaYXMY7SBZAgsf1fvpkSquwZj8b64WBA1vJlhsaM5wA,4579
+homebase_calendar_sync-0.1.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+homebase_calendar_sync-0.1.9.dist-info/entry_points.txt,sha256=2lchM_msW3PgUVkBW4uhjGIhPUTJL68waUL0550_mgA,94
+homebase_calendar_sync-0.1.9.dist-info/top_level.txt,sha256=O23ffTzINk_v45GJrN62gC_c5YeSGG02d0ryaOFf76k,23
+homebase_calendar_sync-0.1.9.dist-info/RECORD,,
