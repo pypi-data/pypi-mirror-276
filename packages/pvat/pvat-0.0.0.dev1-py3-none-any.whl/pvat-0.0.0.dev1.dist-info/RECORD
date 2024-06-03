@@ -1,0 +1,12 @@
+pvat/__init__.py,sha256=ci4DI6vD9U5mHqfKw_z7_N5jGm-rOCxZVtEG9zprglM,1018
+pvat/estimators.py,sha256=aeDvrzUamauHSruJdeJR_jqzCrx6Qpimkhln2HZYHR4,16222
+pvat/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pvat/utilities.py,sha256=44pFNHHJMWH056IPPcezk1apbohiMF_7PrOviq75ynE,6232
+pvat/tests/__init__.py,sha256=HQr-cAuMlbOgptnu1PSH7BOp_iXBZgUIwXN0lF2fFvw,80
+pvat/tests/test_estimators.py,sha256=leKdE0WFl2JFzGCgtHGfP-evHby1qeFnG_-YG-lM8Z0,660
+pvat/tests/test_utilities.py,sha256=LMS9ymFQNI8lPU2skLOC27xk8z71gT85e4hZFx3QKMU,280
+pvat-0.0.0.dev1.dist-info/LICENSE,sha256=XCjNrBL3xjV6ah1kdnNzm2mgcVtp3zFSJVE6cglqmaU,1116
+pvat-0.0.0.dev1.dist-info/METADATA,sha256=MGIA0xOPPxWzUWhi_rrmrPQnc_ostYcSsLxB7Zm99l8,1747
+pvat-0.0.0.dev1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pvat-0.0.0.dev1.dist-info/top_level.txt,sha256=qxa3m65uWRC7rUu1UsGmBJylFl7srcC1nl_e0FPdbjg,5
+pvat-0.0.0.dev1.dist-info/RECORD,,
