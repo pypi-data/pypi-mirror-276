@@ -1,0 +1,13 @@
+[data-bs-theme="light"] .bg-header {
+    background-color: #256CBA;
+}
+
+[data-bs-theme="dark"] .bg-header {
+    background-color: #402565;
+}
+
+.logo {
+    background-image: url('../../images/logo.svg');
+    height: 56px;
+    width: 199px;
+}

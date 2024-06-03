@@ -1,0 +1,98 @@
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-body-color);
+    --bs-btn-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-btn-border-color: var(--bs-border-color-translucent);
+    --bs-btn-hover-color: var(--bs-body-color);
+    --bs-btn-hover-bg: rgba(var(--bs-body-color-rgb), 0.08);
+    --bs-btn-hover-border-color: rgba(var(--bs-body-color-rgb), 0.08);
+    --bs-btn-focus-shadow-rgb: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-btn-active-color: var(--bs-body-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: rgba(var(--bs-body-color-rgb), 0.03);
+}
+
+[aria-expanded="false"].btn-bd-primary {
+    margin-bottom: 0.5rem;
+}
+
+[aria-expanded="true"].btn-bd-primary {
+    margin-bottom: unset;
+    border-bottom: unset;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
+
+.btn-download {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-body-color);
+    --bs-btn-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-btn-border-color: var(--bs-border-color-translucent);
+    --bs-btn-hover-color: var(--bs-body-color);
+    --bs-btn-hover-bg: rgba(var(--bs-body-color-rgb), 0.08);
+    --bs-btn-hover-border-color: rgba(var(--bs-body-color-rgb), 0.08);
+    --bs-btn-focus-shadow-rgb: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-btn-active-color: var(--bs-body-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: rgba(var(--bs-body-color-rgb), 0.03);
+    margin-right: 0.5rem;
+    text-align: left !important;
+}
+
+.btn-download-html:before {
+    content: "\F749";
+    font-family: "bootstrap-icons";
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    margin-right: 0.5rem;
+}
+
+.btn-download-pdf:before {
+    content: "\F756";
+    font-family: "bootstrap-icons";
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    margin-right: 0.5rem;
+}
+
+.btn-activity:before {
+    content: "\F4C8";
+    font-family: "bootstrap-icons";
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    margin-right: 0.5rem;
+}
+
+.btn-activity {
+    display: block;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-body-color);
+    --bs-btn-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-btn-border-color: var(--bs-border-color-translucent);
+    --bs-btn-hover-color: var(--bs-body-color);
+    --bs-btn-hover-bg: rgba(var(--bs-body-color-rgb), 0.08);
+    --bs-btn-hover-border-color: rgba(var(--bs-body-color-rgb), 0.08);
+    --bs-btn-focus-shadow-rgb: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-btn-active-color: var(--bs-body-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: rgba(var(--bs-body-color-rgb), 0.03);
+    margin-bottom: 0.5rem;
+    text-align: left !important;
+    width: fit-content !important;
+}
+
+.btn-activity:last-of-type {
+    margin-bottom: 0 !important;
+}

@@ -1,0 +1,79 @@
+div#table:before {
+    background: rgba(var(--bs-body-color-rgb), 0.08);
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-left: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-top: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-bottom-left-radius:  var(--bs-border-radius-xl);
+    border-top-left-radius:  var(--bs-border-radius-xl);
+    content: "\F5AA";
+    color: var(--bs-body-color);
+    display: inline-flex;
+    padding: 0.75rem;
+    align-items: start;
+    font-family: "bootstrap-icons";
+}
+
+div#table {
+    display: flex;
+}
+
+div[class*='table'] {
+    background: rgba(var(--bs-body-color-rgb), 0.03);
+    border: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-bottom-right-radius:  var(--bs-border-radius-xl);
+    border-top-right-radius:  var(--bs-border-radius-xl);
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    margin: 0 0 0 0;
+}
+
+table {
+    border-collapse: separate;
+    border-radius: var(--bs-border-radius-xl);
+    display: table;
+    table-layout: fixed;
+    margin-bottom: 0 !important;
+}
+
+table thead th {
+    background: rgba(var(--bs-body-color-rgb), 1);
+    border-radius: var(--bs-border-radius-lg);
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+[data-bs-theme="light"] table thead th {
+    color: #DEE2E6FF;
+}
+
+[data-bs-theme="dark"] table thead th {
+    color: #212529FF;
+}
+
+table tbody td {
+    border-radius: var(--bs-border-radius-lg);
+    color: var(--bs-body-color);
+    padding: 0.5rem;
+    line-height: 1.25rem;
+    text-align: left;
+}
+
+table tbody tr:nth-child(odd) {
+    background: rgba(var(--bs-body-color-rgb), 0.12);
+}
+
+table tbody tr:nth-child(even) {
+    background: rgba(var(--bs-body-color-rgb), 0.06);
+}
+
+table caption:before {
+    content: "Table: ";
+    font-weight: 500;
+}
+
+table caption {
+    color: rgba(var(--bs-body-color-rgb), 0.75);
+    margin-top: 0.75em;
+    text-align: center;
+}
