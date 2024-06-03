@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/homebase_calendar_sync/__init__.py
+src/homebase_calendar_sync/__main__.py
+src/homebase_calendar_sync/config.py
+src/homebase_calendar_sync/homebase_calendar_sync.py
+src/homebase_calendar_sync.egg-info/PKG-INFO
+src/homebase_calendar_sync.egg-info/SOURCES.txt
+src/homebase_calendar_sync.egg-info/dependency_links.txt
+src/homebase_calendar_sync.egg-info/entry_points.txt
+src/homebase_calendar_sync.egg-info/requires.txt
+src/homebase_calendar_sync.egg-info/top_level.txt
