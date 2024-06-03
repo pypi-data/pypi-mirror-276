@@ -1,0 +1,8 @@
+setup.py
+parameters_fooetall/__init__.py
+parameters_fooetall/main.py
+parameters_fooetall.egg-info/PKG-INFO
+parameters_fooetall.egg-info/SOURCES.txt
+parameters_fooetall.egg-info/dependency_links.txt
+parameters_fooetall.egg-info/requires.txt
+parameters_fooetall.egg-info/top_level.txt
