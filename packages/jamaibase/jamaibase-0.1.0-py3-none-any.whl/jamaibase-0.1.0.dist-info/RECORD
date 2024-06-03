@@ -1,0 +1,12 @@
+jamaibase/__init__.py,sha256=pUB8zalPy-1mt3mPziXletqz03B5voQ6trcI8OfsFJw,47
+jamaibase/client.py,sha256=7itzrlA10gkMU8cqbtwJYTM28JWE9FMFAspczFrQI6M,35098
+jamaibase/protocol.py,sha256=cd3SMtxm_5eQB5lkBhY7kVy9uRjmlKlZ5DrvL2lxuPo,53770
+jamaibase/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+jamaibase/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jamaibase/utils/io.py,sha256=fVSd4vF4JOzacORtD_2zHiRFXWyAqbyrYVDQoKHKXMM,8247
+jamaibase/utils/types.py,sha256=mNBvY0zz8uj90uWXGraOlaWKMNTCqrnjO4nmtSOxLN4,45
+jamaibase/utils/versioning.py,sha256=3RDjJsmEzTwfF4uwkot3H3f5Arc-a-qI1AD3TL9Wr00,4679
+jamaibase-0.1.0.dist-info/METADATA,sha256=-ZZFfPNdGRjpREip9o4b4DWkhJZwmwoh3fZP2H5BPAU,2774
+jamaibase-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jamaibase-0.1.0.dist-info/top_level.txt,sha256=lJTJS5LmvUt6ZTG3TAIJTHlDCNO0AZBZHw2LHrZxVXE,10
+jamaibase-0.1.0.dist-info/RECORD,,
