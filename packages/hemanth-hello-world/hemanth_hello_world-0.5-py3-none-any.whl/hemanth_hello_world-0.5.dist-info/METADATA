@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: hemanth-hello-world
+Version: 0.5
+Summary: A simple Hello World package
+Author: hemanth
+Author-email: hsbollina@gmail.com
+License-File: LICENSE
+Requires-Dist: click
+
