@@ -1,0 +1,12 @@
+README.md
+license.txt
+setup.py
+dbTelematelAPI/__init__.py
+dbTelematelAPI/__main__.py
+dbTelematelAPI/query_pasarela.py
+dbTelematelAPI/telematel_wrapper.py
+dbTelematelAPI.egg-info/PKG-INFO
+dbTelematelAPI.egg-info/SOURCES.txt
+dbTelematelAPI.egg-info/dependency_links.txt
+dbTelematelAPI.egg-info/requires.txt
+dbTelematelAPI.egg-info/top_level.txt
