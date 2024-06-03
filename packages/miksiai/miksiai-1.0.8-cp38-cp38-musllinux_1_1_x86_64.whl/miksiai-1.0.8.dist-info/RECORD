@@ -1,0 +1,17 @@
+miksiai/master.cpython-38-x86_64-linux-gnu.so,sha256=Mf9Y2PO9Kx_JILSqz2cBp7AqajXLu7K3gCwbcZS0Fnw,355896
+miksiai/pythontool.cpython-38-x86_64-linux-gnu.so,sha256=qJXdy9omXeuaEM6gDNP9ojdLAawobWab664tNPEIjaQ,679328
+miksiai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksiai/api.cpython-38-x86_64-linux-gnu.so,sha256=fm5CexnctKp00OzYP7hmAtRKnd6kpnjDdCK_YvihUv8,935160
+miksiai/utils.cpython-38-x86_64-linux-gnu.so,sha256=XXPFc-w7mx9RX54n3uM1SpVucK77qxpAK7ZAW47T7js,361808
+miksiai/settings.cpython-38-x86_64-linux-gnu.so,sha256=wHRk6JUIu3RxB6AscC5YLBDVfDmJYVIvbPuxjMDEIFM,245608
+miksiai/agent.cpython-38-x86_64-linux-gnu.so,sha256=GoMlCLZaW5ZLtPw4_RVv8lFgEaPq24HgW0jGgW8UCC0,1358872
+miksiai/sqltool.cpython-38-x86_64-linux-gnu.so,sha256=_OR7dLUoi_4glnSkV8Xvpk8KMXjs9rY_eWkuoM0xcMk,1800176
+miksiai/function_calling/base.cpython-38-x86_64-linux-gnu.so,sha256=tVMQ8WoiTrfpxPsUWJUVcG0V22Q1KW_vkiFUFuNimb8,882416
+miksiai/sql_graph/sql_graph_prompts.cpython-38-x86_64-linux-gnu.so,sha256=vUJHRI5_5-c-ZLtscie1wmoO8op08GTO50AGcy7XMOM,104464
+miksiai/sql_graph/sql_graph.cpython-38-x86_64-linux-gnu.so,sha256=0uYDsvw3-tOx0Nq7xSNnpUzC89Y0uO3J6Hk8S2Comw8,2046624
+miksiai/sql_graph/sql_runnables.cpython-38-x86_64-linux-gnu.so,sha256=WHjXS3B0qST11b6EPZQh4rcIBIxd2v5AQ8Rj4nrvfWs,4304952
+miksiai/sql_graph/custom_sql.cpython-38-x86_64-linux-gnu.so,sha256=lSVHPsmAtoYbLeVz78B27RbdvNg8uK_brwPk2tCRqhg,1002440
+miksiai-1.0.8.dist-info/WHEEL,sha256=NOAhgw20kYU5I9Nb1TPKWuNrdVfBibm59YwSQWPYWAU,111
+miksiai-1.0.8.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.8.dist-info/RECORD,,
+miksiai-1.0.8.dist-info/METADATA,sha256=ylWV4b82y5StxRPD8Ao4OmBE2qSUJG9uIh_BpC7WSDM,6349
