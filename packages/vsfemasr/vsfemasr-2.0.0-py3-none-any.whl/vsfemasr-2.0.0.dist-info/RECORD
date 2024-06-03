@@ -1,0 +1,13 @@
+vsfemasr/__init__.py,sha256=zTM_YEtyLq8bv3ulDYuXw2c5yTXzEoiQ6z8bCarphko,8154
+vsfemasr/__main__.py,sha256=eY__0u-p93CFMGZrtYu0p3oXpXyuuN9CkDDOQbmOnyY,886
+vsfemasr/fema_utils.py,sha256=OO2zfijsmsrzywWpAU1AXxa_9AIqwAOVzpUyn8BIMpM,3362
+vsfemasr/femasr_arch.py,sha256=Mw8q1yNb-JZMofi9AINIIXwgy8p6v6ZgH0pr5n7qn8A,13215
+vsfemasr/interpolate.py,sha256=plIEa-SR-DVfWMY9iZUMSigeFDIoa69O2u1z8N5Jgck,17189
+vsfemasr/network_swinir.py,sha256=8SYUtY032OLt1pQx6XglxK5simZojc_6nh4i8GrnU4I,19854
+vsfemasr/vgg_arch.py,sha256=Ro6eaelZ24SpZuO94-CsNAhjl4wgKqRbJU6ZAQDqDHA,6213
+vsfemasr/models/FeMaSR_SRX2_model_g.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsfemasr/models/FeMaSR_SRX4_model_g.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsfemasr-2.0.0.dist-info/METADATA,sha256=P8bLsggma7v2E8kwD-HrIoSftMHqT8hLl9baOuJYyRY,1885
+vsfemasr-2.0.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+vsfemasr-2.0.0.dist-info/licenses/LICENSE,sha256=9Ofzc7m5lpUDN-jUGkopOcLZC3cl6brz1QhKInF60yg,7169
+vsfemasr-2.0.0.dist-info/RECORD,,

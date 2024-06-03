@@ -1,0 +1,55 @@
+Metadata-Version: 2.3
+Name: vsfemasr
+Version: 2.0.0
+Summary: FeMaSR function for VapourSynth
+Project-URL: Homepage, https://github.com/HolyWu/vs-femasr
+Project-URL: Issues, https://github.com/HolyWu/vs-femasr/issues
+Author-email: HolyWu <holywu@gmail.com>
+License-File: LICENSE
+Keywords: FeMaSR,PyTorch,TensorRT,VapourSynth
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: timm
+Requires-Dist: torch>=2.4.0.dev
+Requires-Dist: tqdm
+Requires-Dist: vapoursynth>=66
+Description-Content-Type: text/markdown
+
+# FeMaSR
+Real-World Blind Super-Resolution via Feature Matching with Implicit High-Resolution Priors, based on https://github.com/chaofengc/FeMaSR.
+
+
+## Dependencies
+- [PyTorch](https://pytorch.org/get-started/) 2.4.0.dev or later
+- [VapourSynth](http://www.vapoursynth.com/) R66 or later
+
+`trt` requires additional Python packages:
+- [TensorRT](https://developer.nvidia.com/tensorrt/) 10.0.1
+- [Torch-TensorRT](https://pytorch.org/TensorRT/) 2.4.0.dev
+
+To install TensorRT, run `pip install tensorrt==10.0.1 tensorrt-cu12_bindings==10.0.1 tensorrt-cu12_libs==10.0.1 --extra-index-url https://pypi.nvidia.com`
+
+To install Torch-TensorRT, Windows users can pip install the whl file on [Releases](https://github.com/HolyWu/vs-femasr/releases). Linux users can run `pip install --pre torch_tensorrt --index-url https://download.pytorch.org/whl/nightly/cu124` (requires PyTorch nightly build).
+
+
+## Installation
+```
+pip install -U vsfemasr
+python -m vsfemasr
+```
+
+
+## Usage
+```python
+from vsfemasr import femasr
+
+ret = femasr(clip)
+```
+
+See `__init__.py` for the description of the parameters.
