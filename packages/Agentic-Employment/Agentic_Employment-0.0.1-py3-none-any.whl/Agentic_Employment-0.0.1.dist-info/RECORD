@@ -1,0 +1,10 @@
+frontend/__init__.py,sha256=rMHLnSWzM4xnImRv_jFUGOMMxQM3YHKXYN3jt_mW_KM,24
+frontend/main.py,sha256=5hAtrmnLNInY3cKz7E2qTfehsDD4qjEQOzvI8IUpm_o,61752
+frontend/components/__init__.py,sha256=JPnT9i5YNWg4RmjwIHcGG7Ttr0T0wF0alY-a6Abgf1Y,26
+frontend/components/agent_dashboard.py,sha256=G4bOh6Hy35VXGgoD9B7OpXZywWqroMRzoBlKfzcyoiQ,194
+frontend/components/settings.py,sha256=dQ5eD6AGeNQJrm4Hn8s9ubdz3L7lYh8mHgUmVuv-HaI,171
+Agentic_Employment-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+Agentic_Employment-0.0.1.dist-info/METADATA,sha256=bD3lH9tM9ApycuQQeQYpaGHpaW_H4MO-hJrKjuHEUXI,11418
+Agentic_Employment-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Agentic_Employment-0.0.1.dist-info/top_level.txt,sha256=PqYVS3-YFgm6PaA3CFiN65TIrNSJkrAsNSmI0SKBeAU,9
+Agentic_Employment-0.0.1.dist-info/RECORD,,
