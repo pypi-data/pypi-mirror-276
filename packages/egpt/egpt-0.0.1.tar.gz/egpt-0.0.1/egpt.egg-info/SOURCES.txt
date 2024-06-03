@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+egpt/__init__.py
+egpt/_modidx.py
+egpt/core.py
+egpt.egg-info/PKG-INFO
+egpt.egg-info/SOURCES.txt
+egpt.egg-info/dependency_links.txt
+egpt.egg-info/entry_points.txt
+egpt.egg-info/not-zip-safe
+egpt.egg-info/requires.txt
+egpt.egg-info/top_level.txt
