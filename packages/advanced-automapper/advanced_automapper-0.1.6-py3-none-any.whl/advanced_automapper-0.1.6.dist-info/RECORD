@@ -1,0 +1,11 @@
+automapper/__init__.py,sha256=P-ZDpNdYH4foE9JQc1TbyNb1fVYt7ANWhz16kAUBzLA,255
+automapper/default_mapper.py,sha256=D0aANiwbHPoqRd3oxgau99sWxY26bbcuu61rk4p42Nk,489
+automapper/functions.py,sha256=MRPxTM5pCZoIR3_xW442udG1g9buEnprfOv96CteaP0,2187
+automapper/mapper.py,sha256=LSWeAJmkcvbjEJp1IsS7FILsXXo9TB_ys__E6xA2aIo,6477
+automapper/mapping_plugin.py,sha256=MpETmY5EdMTW79spizTSeuibmcwMXb0rLFUxqHO3sLw,894
+automapper/sql_alchemy_mapper.py,sha256=8NP5T5Xb8Iz3B_2mnYRWynSpwLfCmL50WH7ftEqJPIE,640
+automapper/types.py,sha256=WxSbIVVWRSkYehFd0JLBmrHa0Yqu48SS72blnlrFnBg,275
+advanced_automapper-0.1.6.dist-info/LICENSE,sha256=GRdNjRm-ced-BqQV79RlTPiXV7nT9mRhIdxG7bb8eKU,1064
+advanced_automapper-0.1.6.dist-info/METADATA,sha256=4AVGeSmMPqSsPv2saqNDFHRYI9z6Jlk-zxd1RWbo9NU,4618
+advanced_automapper-0.1.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+advanced_automapper-0.1.6.dist-info/RECORD,,
