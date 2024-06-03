@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: deshi_hello_world
+Version: 0.4
+Summary: A simple hi World package
+Author: deshi
+Author-email: deshithabollina28@gmail.com
+Requires-Dist: click
