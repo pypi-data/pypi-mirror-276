@@ -1,0 +1,9 @@
+README.md
+setup.py
+htmlExtractor/__init__.py
+htmlExtractor/main.py
+htmlExtractor.egg-info/PKG-INFO
+htmlExtractor.egg-info/SOURCES.txt
+htmlExtractor.egg-info/dependency_links.txt
+htmlExtractor.egg-info/requires.txt
+htmlExtractor.egg-info/top_level.txt
