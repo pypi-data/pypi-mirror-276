@@ -1,0 +1,26 @@
+[project]
+name = "copilothistoryexporter"
+description = "Copilot History Exporter"
+version = "1.1.1"
+requires-python = ">=3.11"
+readme = "README.md"
+authors = [{ name = "enciyo", email = "enciyomk61@gmail.com" }]
+
+dependencies = [
+    "requests",
+    "click",
+    "mitmproxy"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/enciyo/gh-copilot-history-export"
+Source = "https://github.com/enciyo/gh-copilot-history-export"
+Documentation = "https://github.com/enciyo/gh-copilot-history-export"
+
+[project.scripts]
+copilothistoryexporter = "copilothistoryexporter.main:sys_main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
