@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+readme_ation/__init__.py
+readme_ation/readme_generator.py
+readme_ation/utils.py
+readme_ation.egg-info/PKG-INFO
+readme_ation.egg-info/SOURCES.txt
+readme_ation.egg-info/dependency_links.txt
+readme_ation.egg-info/requires.txt
+readme_ation.egg-info/top_level.txt
+tests/test_readme_operations.py
+tests/test_utils.py
