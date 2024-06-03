@@ -1,0 +1,8 @@
+pypi_cicd/__init__.py,sha256=H76Giq5RjrakwqlbOR8bv4L5NGQVCDb8wfdP9xxi5i4,36
+pypi_cicd/pypi_cicd.py,sha256=BMzBVGiEdUkV0DnNq0zQQG6M-qadjaZklgTpJ-LnqM0,58
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=_f6IhRCru4Tes0vGYcdnIbVd86HBWPO9_QX5tOm05M8,674
+pypi_cicd-0.1.dist-info/METADATA,sha256=ntKcqr8TBI3vYYbpfK8FEm0B03n_AAYVWLTYaCrkMWk,265
+pypi_cicd-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pypi_cicd-0.1.dist-info/top_level.txt,sha256=nlOKiG3uWQVjr4u13Yq86jNIDCSZxKo1lb2eRdEzt0g,16
+pypi_cicd-0.1.dist-info/RECORD,,
