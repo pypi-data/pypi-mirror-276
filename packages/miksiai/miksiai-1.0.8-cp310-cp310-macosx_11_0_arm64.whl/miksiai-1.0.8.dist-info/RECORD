@@ -1,0 +1,17 @@
+miksiai/pythontool.cpython-310-darwin.so,sha256=aNVFXAg7aBkDdroHR07lp77Vg8hDzJRTJfZLHHtSKMg,101968
+miksiai/api.cpython-310-darwin.so,sha256=8ile2Fmm_AFn4yo1ZDhcU43NK86sRX-PlSuv48ZMYSY,120536
+miksiai/master.cpython-310-darwin.so,sha256=-0czfq9yLfNFeDmT0wzaJOQBQaHiX52r_uSh3OAeisk,81200
+miksiai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksiai/sqltool.cpython-310-darwin.so,sha256=eTlqXr9lJYZHzDH35Id3rSsALCzi4QZR-GWtD6zLyFM,172640
+miksiai/settings.cpython-310-darwin.so,sha256=gQ5RX1Pd8rTsVmr7icm-WTMyLxXygJHeB7Xv85KFYFw,75488
+miksiai/agent.cpython-310-darwin.so,sha256=-TCKinI4YgmQxFHz0jMIoaA76MHNqUhGtqV8F-swItE,141896
+miksiai/utils.cpython-310-darwin.so,sha256=vMldtM-hst7NYVVEVVeN6svViYZpch7KLBiA6a2PpvI,81336
+miksiai/function_calling/base.cpython-310-darwin.so,sha256=pmS42aQxx_3-PC8rxEjhuH1XT0EH_shRCnkurf7c27k,122040
+miksiai/sql_graph/sql_graph.cpython-310-darwin.so,sha256=92S27LFoIzlJvs6TsHVFqWtgJph8L2RuaH7CznlKhPY,140800
+miksiai/sql_graph/sql_graph_prompts.cpython-310-darwin.so,sha256=AmM7dniB9VDkDrCWDE6Had5zK4UM5gGuduhyGlfZI28,73736
+miksiai/sql_graph/sql_runnables.cpython-310-darwin.so,sha256=0oacNBRKf0kj1ALQsZOe8Um1tjlNpABQglWDV196bKw,254960
+miksiai/sql_graph/custom_sql.cpython-310-darwin.so,sha256=1sNbv0SO8U2Wz4tDzVforGsgKOxPcuEJNuT_RiznZVY,141104
+miksiai-1.0.8.dist-info/RECORD,,
+miksiai-1.0.8.dist-info/WHEEL,sha256=YkgppTG7ykOlXc_zwnXV9-VBXF-Nf0nL_gt0JCpKtEA,110
+miksiai-1.0.8.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.8.dist-info/METADATA,sha256=ylWV4b82y5StxRPD8Ao4OmBE2qSUJG9uIh_BpC7WSDM,6349
