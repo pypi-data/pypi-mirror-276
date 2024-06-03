@@ -1,0 +1,46 @@
+h1 {
+    display: none;
+}
+
+/*h2 {*/
+/*    display: inline-flex;*/
+/*    font-size: 1.45rem;*/
+/*    font-weight: 600;*/
+/*    margin-right: 0.5rem;*/
+/*}*/
+
+h2 {
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+h3 {
+    color: rgb(var(--bs-body-color-rgb));
+    font-size: 1.35rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+/*h3 {*/
+/*    display: inline-flex;*/
+/*    font-size: 1.45rem;*/
+/*    font-weight: lighter;*/
+/*}*/
+
+h4 {
+    display: inline-flex;
+    font-size: 1.35rem;
+    font-weight: lighter;
+    font-variant: all-small-caps;
+}
+
+
+
+h5 {
+    display: inline-flex;
+    font-size: 1.075rem;
+    font-weight: 500;
+}

@@ -1,0 +1,72 @@
+g foreignObject div span.edgeLabel:empty {
+    display: none;
+}
+
+.node rect, polygon, circle {
+    fill: rgba(var(--bs-body-color-rgb), 0.06) !important;
+    stroke: rgba(var(--bs-body-color-rgb), 0.15) !important;
+}
+
+.nodeLabel {
+    color: rgba(var(--bs-body-color-rgb), 1) !important;
+    font-variant: all-small-caps;
+}
+
+.flowchart-link, .relation, .divider {
+    stroke: rgba(var(--bs-body-color-rgb), 0.15) !important;
+}
+
+.marker {
+    fill: rgba(var(--bs-body-color-rgb), 0.15) !important;
+    stroke: rgba(var(--bs-body-color-rgb), 0.15) !important;
+}
+
+.edgeLabel {
+    display: block;
+    border-radius: var(--bs-border-radius-xl);
+    padding: 0.5rem 1rem !important;
+    color: rgba(var(--bs-body-color-rgb), 1) !important;
+    font-variant: all-small-caps;
+}
+
+[data-bs-theme="light"] .edgeLabel {
+    background-color: #dedfe0 !important;
+}
+
+[data-bs-theme="dark"] .edgeLabel {
+    background-color: #3a4045 !important;
+}
+
+/* Diagram Wrapper */
+
+#mermaid {
+    display: flex;
+}
+
+#mermaid:before {
+    background: rgba(var(--bs-body-color-rgb), 0.10);
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-left: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-top: var(--bs-border-width) solid var(--bs-border-color-translucent);
+
+    border-bottom-left-radius:  var(--bs-border-radius-xl);
+    border-top-left-radius:  var(--bs-border-radius-xl);
+    content: "\F2EC";
+    color: var(--bs-body-color);
+    display: inline-flex;
+    padding: 0.75rem;
+    align-items: start;
+    font-family: "bootstrap-icons";
+}
+
+div[class*=mermaid] {
+    background: rgba(var(--bs-body-color-rgb), 0.03);
+    border: var(--bs-border-width) solid var(--bs-border-color-translucent);
+    border-bottom-right-radius:  var(--bs-border-radius-xl);
+    border-top-right-radius:  var(--bs-border-radius-xl);
+    padding: 0.75rem;
+    display: inline-flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
