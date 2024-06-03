@@ -1,0 +1,10 @@
+WebOb
+couchdb
+docutils
+paste
+pastescript
+pyes
+pyloader
+tempita
+theslasher
+whoosh>=2.5
