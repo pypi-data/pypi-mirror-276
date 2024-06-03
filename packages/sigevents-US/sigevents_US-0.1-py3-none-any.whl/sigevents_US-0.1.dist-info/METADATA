@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sigevents-US
+Version: 0.1
+Summary: A package to add significant US events to a dataset
+Home-page: https://github.com/H-Naq/sigevents-US
+Author: Syed
+Author-email: snaqvi@davincistudio.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+# sigevents-US
+
+sigevents-US is a Python package that allows you to add significant US events to a dataset.
+
+## Installation
+
+You can install the package via pip:
+
+```bash
+pip install sigevents-US
