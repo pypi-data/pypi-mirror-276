@@ -1,0 +1,12 @@
+freeze_dried_data/__init__.py,sha256=iC5VZ3EiqXz7qXQNjCqvmEn4dr75mrgx5AKvuKsv8p8,33
+freeze_dried_data/efficient_index.py,sha256=mgtFUbxB2nMkC9fuMyqPgY5_Day_UHpHVoc34iHAsgk,5345
+freeze_dried_data/freeze_dried_data.py,sha256=CDui1UX-5JJVYDPxbBO8MLunZgQM4QpTBlISsgQPx-E,35520
+freeze_dried_data/freeze_dried_data_old.py,sha256=umRlZpDRPzv7sW5JzZCHYMPgBG8FD-1gIUFImW7_YK8,11613
+freeze_dried_data/test_efficient_index.py,sha256=S1GZi-jq_FaQ1HE_hZE3gBaXCMOki5cogdd4aOjQQX0,2233
+freeze_dried_data/test_freeze_dried_data.py,sha256=wKnuS3rBUV5dqXtCH4k4w7mRFxGe3mK3qk3hL0anV0w,45800
+freeze_dried_data/test_freeze_dried_data_old.py,sha256=_4z44-OAROgF6PHeR6hsSH1a0i97siBJvIeqqgPeH14,7982
+freeze_dried_data-2.3.0.dist-info/LICENSE,sha256=AILVm-6W1q99B3lWzfneDA4SfebOvSspUI3cn1X_xmw,1072
+freeze_dried_data-2.3.0.dist-info/METADATA,sha256=_ynUz61hfjaOHhFrZL2KdolRN4W31oeZnWWcP1IC-4c,11553
+freeze_dried_data-2.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+freeze_dried_data-2.3.0.dist-info/top_level.txt,sha256=Im1GVr4eV7gxTkratyh11jlouPQwvIyTYhWgIIBTIco,18
+freeze_dried_data-2.3.0.dist-info/RECORD,,
