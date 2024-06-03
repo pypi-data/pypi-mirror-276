@@ -1,0 +1,9 @@
+typstdiff/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+typstdiff/comparison.py,sha256=06dc-iTAJAYI2KQiafMMbVGEdYMIXHx6tgQ_PBV5Vk8,20825
+typstdiff/errors.py,sha256=vis2_mrBOb14tLbdorJ4ncrX-o93ViH48_FgGHU44aA,818
+typstdiff/file_converter.py,sha256=mwxEbCOr8lhmo1kdxWjyd_kiI3XqXNq9VdI0Wh3xrMQ,2203
+typstdiff/main.py,sha256=zWqTU6OoAQet2kaYpnequkoutA_c36BRuexIPtbot48,7422
+typstdiff-1.0.1.dist-info/entry_points.txt,sha256=3xBHV2z4LtwZFHY0chOp72tfbEs7Wzi0zo5OX-KrD40,49
+typstdiff-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+typstdiff-1.0.1.dist-info/METADATA,sha256=lnYTij9WoWZdnA5NQf6o0ksmPqYuTBqNNQm2yEL3ry4,1344
+typstdiff-1.0.1.dist-info/RECORD,,
