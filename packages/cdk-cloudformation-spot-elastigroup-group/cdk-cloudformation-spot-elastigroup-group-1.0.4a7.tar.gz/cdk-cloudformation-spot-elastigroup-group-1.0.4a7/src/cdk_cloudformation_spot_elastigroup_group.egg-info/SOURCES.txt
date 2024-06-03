@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_spot_elastigroup_group/__init__.py
+src/cdk_cloudformation_spot_elastigroup_group/py.typed
+src/cdk_cloudformation_spot_elastigroup_group.egg-info/PKG-INFO
+src/cdk_cloudformation_spot_elastigroup_group.egg-info/SOURCES.txt
+src/cdk_cloudformation_spot_elastigroup_group.egg-info/dependency_links.txt
+src/cdk_cloudformation_spot_elastigroup_group.egg-info/requires.txt
+src/cdk_cloudformation_spot_elastigroup_group.egg-info/top_level.txt
+src/cdk_cloudformation_spot_elastigroup_group/_jsii/__init__.py
+src/cdk_cloudformation_spot_elastigroup_group/_jsii/spot-elastigroup-group@1.0.4-alpha.7.jsii.tgz
