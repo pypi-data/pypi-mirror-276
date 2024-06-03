@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: khmerpronounce
+Version: 0.0.1
+Summary: Khmer Pronounciation Toolkit
+Home-page: https://github.com/seanghay/khmerpronounce
+Author: Seanghay Yath
+Author-email: seanghay.dev@gmail.com
+License: Apache License 2.0
+Description: ## Khmer Pronounce
+        
+        A Khmer pronounciation toolkit trained on KhmerDictionary 2022 by Royal Academy of Cambodia (RAC) with Phonetisaurus.
+        
+        ```shell
+        pip install khmerpronounce
+        ```
+        
+        ```python
+        from khmerpronounce import pronounce
+        
+        result = pronounce("សម្ដេចបវរធិបតី")
+        # => ['សំ', 'ដាច់', 'ប', 'វ៉', 'ធិ', 'ប៉ៈ', 'ដី']
+        
+        result = pronounce("មករា")
+        # => ['មៈ', 'កៈ', 'រ៉ា']
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >3.5
+Description-Content-Type: text/markdown

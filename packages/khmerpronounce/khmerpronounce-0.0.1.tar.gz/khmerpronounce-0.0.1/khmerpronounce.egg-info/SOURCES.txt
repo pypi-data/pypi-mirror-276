@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+khmerpronounce/__init__.py
+khmerpronounce/lexicon.tsv
+khmerpronounce/model.fst
+khmerpronounce.egg-info/PKG-INFO
+khmerpronounce.egg-info/SOURCES.txt
+khmerpronounce.egg-info/dependency_links.txt
+khmerpronounce.egg-info/requires.txt
+khmerpronounce.egg-info/top_level.txt
+khmerpronounce/__pycache__/__init__.cpython-38.pyc
