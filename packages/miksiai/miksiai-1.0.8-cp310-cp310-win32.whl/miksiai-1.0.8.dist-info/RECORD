@@ -1,0 +1,17 @@
+miksiai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksiai/agent.cp310-win32.pyd,sha256=CBlNaWi6MlVrRJFuQDMB6ZkYDzbnTaeS1D7atgk4Nbw,79872
+miksiai/api.cp310-win32.pyd,sha256=yccqrVJPsME1P_pFkRn8ig3eykjLt2G9N3ldBgHRbWw,62464
+miksiai/master.cp310-win32.pyd,sha256=U8cy9MNtTOJ_cjJJeZZTNZLJ38xgWp5SGLdXse9MGPU,34816
+miksiai/pythontool.cp310-win32.pyd,sha256=7ErJ9amUa2ttmsBO-I8GOwucjBT6R3r5mL0XWWsVf_w,53760
+miksiai/settings.cp310-win32.pyd,sha256=Nmp6sQUqYcV5vWARtqB-C3uepsXyo39nSoqCpYeZRIQ,26624
+miksiai/sqltool.cp310-win32.pyd,sha256=mgDTb_YFdabmI0tmleLhrHAp2y_IfmzB4RDMEpux8Ds,105472
+miksiai/utils.cp310-win32.pyd,sha256=t-_5mAGRsEw2bXtlgyf_vNRvMGZ4ne9Cb4qT088FVFI,37888
+miksiai/function_calling/base.cp310-win32.pyd,sha256=Aqsltp-6FxEM-R319aXRkSBNJXngqHvyxUUXfW6YA-c,63488
+miksiai/sql_graph/custom_sql.cp310-win32.pyd,sha256=jiRVEkotHc3pQpIMcPmPVdJ_A4xz1REgLFpTA32eTzA,72704
+miksiai/sql_graph/sql_graph.cp310-win32.pyd,sha256=ZYMdY2soNYY77NxrhhOmrT3AbcGSL497Bxa2leZQYcQ,83456
+miksiai/sql_graph/sql_graph_prompts.cp310-win32.pyd,sha256=YMzSE9QdtE2c4MizovRUPslT79pDLAR8u3nT8l2MYAc,24576
+miksiai/sql_graph/sql_runnables.cp310-win32.pyd,sha256=NTuAa8kOMbHTx_xMm2uy-PHnZ-a4lWqxiCeVj6_yows,182272
+miksiai-1.0.8.dist-info/METADATA,sha256=yZ093RMyn-MoOppWcY5sRekdhruA_-lCGJzRvnwGyRE,6517
+miksiai-1.0.8.dist-info/WHEEL,sha256=yXMlTXjHPYBFmMOeF4b9ZM_ASRm_Q54GxZmxQGPAzx4,98
+miksiai-1.0.8.dist-info/top_level.txt,sha256=ZFs4wEgKwJOgH1c2Yw9pkvibLpluMlWlMeBx9YztSFI,8
+miksiai-1.0.8.dist-info/RECORD,,
