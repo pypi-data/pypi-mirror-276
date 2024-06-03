@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: MedatechUK.Landlord
+Version: 0.0.18
+Summary: MedatechUK Labels
+Home-page: https://github.com/MedatechUK/Medatech.Landlord
+Author: Simon Barnett
+Author-email: si@medatechuk.com
+Project-URL: Bug Tracker, https://github.com/MedatechUK/Medatech.Landlord/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: licence
+Provides-Extra: pyqrcode
+Requires-Dist: PyQRCode >=1.2.1 ; extra == 'pyqrcode'
+Provides-Extra: pyqt6
+Requires-Dist: PyQt6 >=6.7.0 ; extra == 'pyqt6'
+Provides-Extra: fonttools
+Requires-Dist: fonttools >=4.52.1 ; extra == 'fonttools'
+Provides-Extra: pybarcode
+Requires-Dist: pybarcode >=0.8b1 ; extra == 'pybarcode'
+Provides-Extra: pylabels
+Requires-Dist: pylabels >=1.2.1 ; extra == 'pylabels'
+Provides-Extra: pyqtgraph
+Requires-Dist: pyqtgraph >=0.13.7 ; extra == 'pyqtgraph'
+Provides-Extra: reportlab
+Requires-Dist: reportlab >=4.2.0 ; extra == 'reportlab'
+
+# Landlord Labels
