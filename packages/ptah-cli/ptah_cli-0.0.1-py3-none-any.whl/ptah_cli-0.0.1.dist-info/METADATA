@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ptah-cli
+Version: 0.0.1
+Author-email: Dan Miller <daniel.keegan.miller@gmail.com>
+Requires-Python: <3.13,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: build ==1.2.1 ; extra == 'dev'
+Requires-Dist: ruff ==0.4.7 ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: mkdocs ==1.6.0 ; extra == 'doc'
+Requires-Dist: mkdocs-material ==9.5.25 ; extra == 'doc'
+
+# Ptah
+
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Documentation Status](https://readthedocs.org/projects/ptah/badge/?version=latest)](https://ptah.readthedocs.io/en/latest/?badge=latest)
+
+Kubernetes development toolkit, with a focus on rapid iteration and local
+hosting.
