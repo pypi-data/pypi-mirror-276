@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/jupyter_code_server/__init__.py
+src/jupyter_code_server.egg-info/PKG-INFO
+src/jupyter_code_server.egg-info/SOURCES.txt
+src/jupyter_code_server.egg-info/dependency_links.txt
+src/jupyter_code_server.egg-info/entry_points.txt
+src/jupyter_code_server.egg-info/top_level.txt
+src/jupyter_code_server/icons/vscode.svg
