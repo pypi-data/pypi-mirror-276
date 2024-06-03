@@ -1,0 +1,9 @@
+alt_pytest_asyncio/__init__.py,sha256=yHi-N5QqC7EX9dakA-RA5caFRlfAOGl-WbOuavccynU,995
+alt_pytest_asyncio/async_converters.py,sha256=FbqA_ju6ycJCxSm-LDYF7ZXMdd66XoGla7uQF-307rg,9006
+alt_pytest_asyncio/plugin.py,sha256=0ZDafJa8kryPd9qaVKgqR7bTERySdP-IqdmzJeUgVg0,9270
+alt_pytest_asyncio/version.py,sha256=yUP_Pll40EjgZheUGylmM8rtDDt9cGh3Hkz4an3x2Uo,18
+alt_pytest_asyncio-0.8.1.dist-info/METADATA,sha256=vYLKzSK0n-VAs48SwAjmS9hIfhHNe9VxTpGMIV8_XNg,7961
+alt_pytest_asyncio-0.8.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+alt_pytest_asyncio-0.8.1.dist-info/entry_points.txt,sha256=xzeT8dVUt4MPB3HDybIyZ5mSZVAqcLPAVlp8RhE2Hv4,51
+alt_pytest_asyncio-0.8.1.dist-info/licenses/LICENSE,sha256=x2DyO06W-alLefJyCY6x9asATRM6HaIUA8K4N799yas,1081
+alt_pytest_asyncio-0.8.1.dist-info/RECORD,,
