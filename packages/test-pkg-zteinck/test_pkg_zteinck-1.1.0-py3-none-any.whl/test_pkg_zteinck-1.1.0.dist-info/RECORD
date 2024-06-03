@@ -1,0 +1,7 @@
+test_pkg_zteinck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_pkg_zteinck/main.py,sha256=hHQnOvEKYseXaoOvftzRY7BG728EaeBu1zCNqZ3GXjQ,39
+test_pkg_zteinck/newtest.py,sha256=b_mvV_PZm0YHJlMYxBqgNsJqZlrQXPn7YNfwH5CUfHo,35
+test_pkg_zteinck-1.1.0.dist-info/METADATA,sha256=zcpK6TCpGTHzny9CKUfS2lugAAE8JaUQdesR1qfDC-U,701
+test_pkg_zteinck-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+test_pkg_zteinck-1.1.0.dist-info/top_level.txt,sha256=YicAn59Y1Lgfzlvw1HwD7_do0qYY_kCTP7Nl3pdQXFI,17
+test_pkg_zteinck-1.1.0.dist-info/RECORD,,
