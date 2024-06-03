@@ -1,0 +1,3 @@
+[console_scripts]
+xbot = xbot.framework.main:main
+

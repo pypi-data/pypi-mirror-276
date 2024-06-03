@@ -1,0 +1,6 @@
+dist
+docs
+testproj
+tests
+venv
+xbot
