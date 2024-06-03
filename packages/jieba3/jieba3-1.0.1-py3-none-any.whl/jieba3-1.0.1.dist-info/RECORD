@@ -1,0 +1,10 @@
+jieba3/__init__.py,sha256=OB8qYgb3ZUmemKYaBI13dTKCd9aeoZ9wjGIII-d7bLA,594
+jieba3/hmm.json,sha256=34CCDtht_vBvmvWHmUSsFVw1Rio_5DTGifGa9AIuGtg,1181526
+jieba3/model.base.json,sha256=LwOhPRXRbXq_tizGqIwVIUQaTXj9PsX0UIJuj1gVRm0,9902625
+jieba3/model.large.json,sha256=NuFgG3O35uZ0fbuYxUT4lAPOYuaSiTkbhC-UE810XOU,16578952
+jieba3/model.small.json,sha256=mS3DzoiUKej18woYLDGk1mopJU3_adVKcAUNlVFY1VA,2723955
+jieba3/tok.py,sha256=bTt6Ac7xfN9pVXuqnUOowuQTaOZW_kTtHKgbquy8Jw8,8492
+jieba3-1.0.1.dist-info/LICENSE,sha256=iMTGCQzBMarAL7q-jrp7aEuC8BKFMOHLbfE6N4Absb0,1063
+jieba3-1.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+jieba3-1.0.1.dist-info/METADATA,sha256=y44p3SSBIPRoRhrKFDTcjEUgIZe28P8O1zeOXGiBJyY,7836
+jieba3-1.0.1.dist-info/RECORD,,
