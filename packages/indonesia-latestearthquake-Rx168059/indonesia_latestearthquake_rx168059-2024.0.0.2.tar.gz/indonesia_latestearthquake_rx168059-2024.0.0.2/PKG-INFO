@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: indonesia-latestearthquake_Rx168059
+Version: 2024.0.0.2
+Summary: This package will get information about latest earthquake from BMKG(Indonesian Agency for Meteorological, Climatological and Geophysics)
+Author-email: Muhammad Dwi Reza <dwireza1002@gmail.com>
+Project-URL: Homepage, https://github.com/Rex-Project-Organization/IndonesiaLatestEarthQuake
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IndonesiaLatestEarthQuake
+This package will get information about latest earthquake from BMKG(Indonesian Agency for Meteorological, Climatological and Geophysics)
+
+## How It Works
+This package will scrap data from [BMKG](https://www.bmkg.go.id/) to get information about latest earthquake on indonesia
+
+This package used BeautifulSoup4 and Requests to generate JSON output that'll be used for web or mobile apps
+
+# How to Run
+"""
+import gempaTerkini
+
+if __name__ == '__main__':
+    result = gempaTerkini.data_extract()
+    gempaTerkini.show_data(result)
+"""
+
+# Author
+Muhammad Dwi Reza

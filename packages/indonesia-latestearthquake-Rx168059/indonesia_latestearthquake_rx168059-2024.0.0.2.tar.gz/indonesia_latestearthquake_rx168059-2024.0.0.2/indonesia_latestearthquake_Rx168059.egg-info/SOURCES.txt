@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+gempaTerkini/__init__.py
+indonesia_latestearthquake_Rx168059.egg-info/PKG-INFO
+indonesia_latestearthquake_Rx168059.egg-info/SOURCES.txt
+indonesia_latestearthquake_Rx168059.egg-info/dependency_links.txt
+indonesia_latestearthquake_Rx168059.egg-info/top_level.txt
