@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+src/data_helper/__init__.py
+src/data_helper/compare_content.py
+src/data_helper/datatypes.py
+src/data_helper/file.py
+src/data_helper/image.py
+src/data_helper/path.py
+src/datas_helper.egg-info/PKG-INFO
+src/datas_helper.egg-info/SOURCES.txt
+src/datas_helper.egg-info/dependency_links.txt
+src/datas_helper.egg-info/requires.txt
+src/datas_helper.egg-info/top_level.txt
+tests/__init__.py
+tests/test_path.py

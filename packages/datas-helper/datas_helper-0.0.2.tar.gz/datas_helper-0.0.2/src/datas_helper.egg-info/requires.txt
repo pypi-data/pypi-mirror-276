@@ -1,0 +1,13 @@
+
+[dev]
+black
+flake8
+flake8-pyproject
+pytest
+pytest-asyncio
+typing_extensions
+isort
+
+[image]
+pillow
+opencv-python-headless
