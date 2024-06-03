@@ -1,0 +1,5 @@
+{
+     "SNOW": "Episodio de nieve generando alerta en la zona.",
+     "PRECIP": "Episodio de lluvia que genera alerta en la zona.",
+     "PRECIP_SNOW": "Episodio de lluvia y nieve generando alerta en la zona."
+}

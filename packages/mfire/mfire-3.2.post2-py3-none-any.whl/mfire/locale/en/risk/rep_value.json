@@ -1,0 +1,94 @@
+{
+    "plain": [
+         "{definite_var_name} is approaching {plain_value}.",
+         "{indefinite_var_name} {around} {plain_value} is expected.",
+         "{indefinite_var_name} {around} {plain_value} is expected.",
+         "We are waiting for {indefinite_var_name} {around} {plain_value}.",
+         "We predict {indefinite_var_name} {around} {plain_value}."
+     ],
+     "mountain": [
+         "{definite_var_name} is approaching {mountain_value} on high ground.",
+         "{indefinite_var_name} {around} {mountain_value} is expected on heights.",
+         "{indefinite_var_name} {around} {mountain_value} is expected on the heights.",
+         "We are waiting for {indefinite_var_name} {around} {mountain_value} on the heights.",
+         "We predict {indefinite_var_name} {around} {mountain_value} on the heights."
+     ],
+     "plain_mountain": [
+         "{definite_var_name} is approaching {plain_value}, with {mountain_value} on heights.",
+         "{indefinite_var_name} {around} {plain_value} is expected, with {mountain_value} on the heights.",
+         "{indefinite_var_name} {around} {plain_value} is expected, with {mountain_value} on the heights."
+     ],
+     "local_plain": [
+         "{definite_var_name} is approaching {plain_value} (locally {local_plain_value}).",
+         "{indefinite_var_name} {around} {plain_value} (locally {local_plain_value}) is expected.",
+         "We are waiting for {indefinite_var_name} {around} {plain_value} (locally {local_plain_value}).",
+         "We predict {indefinite_var_name} {around} {plain_value} (locally {local_plain_value})."
+     ],
+     "local_mountain": [
+         "{definite_var_name} is approaching {mountain_value} on the heights (locally {local_mountain_value}).",
+         "{indefinite_var_name} {around} {mountain_value} (locally {local_mountain_value}) is expected on heights."
+     ],
+     "local_plain_mountain": [
+         "{definite_var_name} is approaching {plain_value} (locally {local_plain_value}), with {mountain_value} on the heights.",
+         "{indefinite_var_name} {around} {plain_value} (locally {local_plain_value}) is expected, with {mountain_value} on the heights.",
+         "{indefinite_var_name} {around} {plain_value} (locally {local_plain_value}) is expected, with {mountain_value} on the heights."
+     ],
+     "plain_local_mountain": [
+         "{definite_var_name} is approaching {plain_value}, with {mountain_value} (locally {local_mountain_value}) on the heights.",
+         "{indefinite_var_name} {around} {plain_value} is expected with, {mountain_value} (locally {local_mountain_value}) on heights.",
+         "{indefinite_var_name} {around} {plain_value} is expected, with {mountain_value} (locally {local_mountain_value}) on heights."
+     ],
+     "local_plain_local_mountain": [
+         "{definite_var_name} is approaching {plain_value} (locally {local_plain_value}), with {mountain_value} (locally {local_mountain_value}) on the heights.",
+         "{indefinite_var_name} {around} {plain_value} (locally {local_plain_value}) is planned, with {mountain_value} (locally {local_mountain_value}) on the heights.",
+         "{indefinite_var_name} {around} {plain_value} (locally {local_plain_value}) is expected, with {mountain_value} (locally {local_mountain_value}) on the heights."
+     ],
+      "no_acc_plain": [
+        "Insignificant {accumulated_phenomenon}."
+     ],
+      "no_acc_plain_local_plain": [
+          "Insignificant {accumulated_phenomenon} (locally {local_plain_value})."
+      ],
+      "no_acc_mountain": [
+          "Insignificant {accumulated_phenomenon} on the heights."
+      ],
+      "no_acc_mountain_local_mountain": [
+          "Insignificant {accumulated_phenomenon} (locally {local_mountain_value}) on the heights."
+      ],
+      "no_acc_plain_no_acc_mountain": [
+          "Insignificant {accumulated_phenomenon}."
+      ],
+      "plain_no_acc_mountain": [
+          "{accumulated_phenomenon} : {plain_value} in the plains, and insignificant on the heights."
+      ],
+      "no_acc_plain_mountain": [
+          "{accumulated_phenomenon} : insignificant in the plains, and {mountain_value} on the heights."
+      ],
+      "no_acc_plain_local_plain_no_acc_mountain": [
+          "Insignificant {accumulated_phenomenon} (locally {local_plain_value} in the plains)."
+      ],
+      "no_acc_plain_no_acc_mountain_local_mountain": [
+          "Insignificant {accumulated_phenomenon} (locally {local_mountain_value} on the heights)."
+      ],
+      "local_plain_no_acc_mountain": [
+          "{accumulated_phenomenon} : {plain_value} (locally {local_plain_value}) in the plains, and insignificant on the heights."
+      ],
+      "plain_no_acc_mountain_local_mountain": [
+          "{accumulated_phenomenon} : {plain_value} in the plains, and insignificant (locally {local_mountain_value}) on the heights."
+      ],
+      "no_acc_plain_local_plain_mountain": [
+          "{accumulated_phenomenon} : insignificant (locally {local_plain_value}) in the plains, and {mountain_value} on the heights."
+      ],
+      "no_acc_plain_local_mountain": [
+          "{accumulated_phenomenon} : insignificant in the plains, and {mountain_value} (locally {local_mountain_value}) on the heights."
+      ],
+      "no_acc_plain_local_plain_no_acc_mountain_local_mountain": [
+          "Insignificant {accumulated_phenomenon} (locally {local_plain_value} in the plains, and {local_mountain_value} on the heights)."
+      ],
+      "local_plain_no_acc_mountain_local_mountain": [
+          "{accumulated_phenomenon} : {plain_value} (locally {local_plain_value}) in the plains, and insignificant (locally {local_mountain_value}) on the heights."
+      ],
+      "no_acc_plain_local_plain_local_mountain": [
+          "{accumulated_phenomenon} : insignificant (locally {local_plain_value}) in the plains, and {mountain_value} (locally {local_mountain_value}) on the heights."
+      ]
+}
