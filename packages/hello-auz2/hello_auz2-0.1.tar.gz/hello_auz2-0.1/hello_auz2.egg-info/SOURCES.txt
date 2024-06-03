@@ -1,0 +1,8 @@
+setup.py
+hello_auz2/__init__.py
+hello_auz2/hello.py
+hello_auz2.egg-info/PKG-INFO
+hello_auz2.egg-info/SOURCES.txt
+hello_auz2.egg-info/dependency_links.txt
+hello_auz2.egg-info/requires.txt
+hello_auz2.egg-info/top_level.txt
