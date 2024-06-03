@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hebill
+Version: 3.0.0
+Summary: Hebill Python Library
+Requires-Python: >=3.12
+Description-Content-Type: text/plain
+Requires-Dist: colorama ==0.4.6
+
+## 说明
+所有组件为便捷库
+
+## 安装
+```bash
+pip install hebill
+```
+
+## 调用
+```python
+from hebill.html import Document
+doc = Document()
+```

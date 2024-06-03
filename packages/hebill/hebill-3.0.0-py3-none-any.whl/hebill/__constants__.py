@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+NAME = 'hebill'
+VERSION = '3.0.0'
+DESCRIPTION = 'Hebill Python Library'
+LONG_DESCRIPTION = 'README.MD'
+LONG_DESCRIPTION_TYPE = 'text/markdown'
+URL = 'http://www.hebill.net/'
+AUTHOR = 'He Bill'
+AUTHOR_EMAIL = 'hebill@hebill.net'
+AUTHOR_URL = 'http://www.hebill.net/'
