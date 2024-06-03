@@ -1,0 +1,7 @@
+HDDM
+bzip2
+hddm_s
+hdf5
+pthread-win32
+xerces-c
+zlib
