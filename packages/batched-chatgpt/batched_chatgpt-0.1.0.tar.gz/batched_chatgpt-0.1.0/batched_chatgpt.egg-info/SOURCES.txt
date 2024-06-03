@@ -1,0 +1,10 @@
+README.md
+setup.py
+batched_chatgpt/__init__.py
+batched_chatgpt/chatgpt_utils.py
+batched_chatgpt/utils.py
+batched_chatgpt.egg-info/PKG-INFO
+batched_chatgpt.egg-info/SOURCES.txt
+batched_chatgpt.egg-info/dependency_links.txt
+batched_chatgpt.egg-info/requires.txt
+batched_chatgpt.egg-info/top_level.txt
