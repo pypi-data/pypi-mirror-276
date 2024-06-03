@@ -1,0 +1,2 @@
+[console_scripts]
+meghana-hello-world = meghana_hello_world.cli:greet
