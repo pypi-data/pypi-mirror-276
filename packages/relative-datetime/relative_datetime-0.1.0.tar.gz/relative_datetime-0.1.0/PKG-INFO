@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: relative-datetime
+Version: 0.1.0
+Summary: A Python library to get relative datetime strings and parse datetime strings.
+Home-page: https://github.com/mihirkhandekar/relative-datetime
+Author: Mihir Khandekar
+Author-email: mihirkhandekar@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+
+# relative-datetime
+
+A Python library to get relative datetime strings and parse datetime strings.
+
+## Installation
+
+```bash
+pip install relative-datetime
+```
+
+## Usage
+
+```python
+from relative_datetime import DateTimeUtils
+
+# Example usage
+input_datetime = datetime(2023, 6, 1, tzinfo=pytz.utc)
+relative_time, direction = DateTimeUtils.relative_datetime(input_datetime)
+print(f"Relative time: {relative_time}, Direction: {direction}")
+
+datetime_string = "2023-06-01T12:34:56Z"
+parsed_datetime = DateTimeUtils.parse_datetime(datetime_string)
+print(f"Parsed datetime: {parsed_datetime}")
+```
