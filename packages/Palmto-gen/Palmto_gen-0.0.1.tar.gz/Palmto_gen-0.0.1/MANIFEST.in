@@ -1,0 +1,2 @@
+include my_package/data/sample_data.pkl
+global-include *.txt *.py
