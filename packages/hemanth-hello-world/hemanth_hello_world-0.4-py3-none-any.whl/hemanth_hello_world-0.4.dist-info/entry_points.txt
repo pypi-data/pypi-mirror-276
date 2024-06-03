@@ -1,0 +1,2 @@
+[console_scripts]
+hemanth-hello-world = hemanth_hello_world.cli:greet
