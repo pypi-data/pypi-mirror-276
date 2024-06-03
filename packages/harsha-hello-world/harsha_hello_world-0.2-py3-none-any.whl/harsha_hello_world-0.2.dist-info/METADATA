@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: harsha_hello_world
+Version: 0.2
+Summary: A simple Hello World package
+Author: Harsha
+Author-email: karampudi.sh@gmail.com
+License-File: LICENSE
+Requires-Dist: click
+
