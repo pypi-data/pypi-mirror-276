@@ -1,0 +1,9 @@
+
+      # -*- Entry points: -*-
+      [console_scripts]
+      silvermirror = silvermirror.unify:main
+      mirror-hg = silvermirror.hg:main
+
+      [silvermirror.reflectors]
+      unison = silvermirror.unison:unison
+      

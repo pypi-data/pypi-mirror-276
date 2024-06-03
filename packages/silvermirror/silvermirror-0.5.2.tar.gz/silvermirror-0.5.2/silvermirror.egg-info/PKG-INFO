@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: silvermirror
+Version: 0.5.2
+Summary: mirror files across hosts
+Home-page: http://k0s.org/hg/silvermirror
+Author: Jeff Hammel
+Author-email: k0scist@gmail.com
+License: GPL
+Keywords: mirror unison
+Platform: UNKNOWN
+
+mirror files across hosts
+
