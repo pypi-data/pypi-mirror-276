@@ -1,0 +1,11 @@
+lupa/__init__.py,sha256=c99ILOqbgXcktoS1YsqNLg9juNuAJZ_Yxm4VGEANkqo,3001
+lupa/lua51.so,sha256=aH3P_y6JHUSbjOn5XDCd3Kfe0h7vqKsF9T_Wmy_nuXc,639976
+lupa/lua52.so,sha256=adyGCcCww8r6ntmYzaa6CvK8t2NhOB6nAJNoMA57ro8,663704
+lupa/lua53.so,sha256=ebo6xim9t--OaCBi0bvURS9Y134nSR6Ox7qX7ffvigQ,683024
+lupa/lua54.so,sha256=ZkyEzJGrhIVV0Mdy5xy3ZiTT_kYexlXPPunOsg5XhbU,740560
+lupa/version.py,sha256=4dh37gwetUr8V4jXwwSMYVDIsQE1GBdIIJY43DjD1h8,20
+lupa-2.2.dist-info/LICENSE.txt,sha256=lXr-SRPfxGn9YFQdhHpYHFvd1roMy3I5DteMdYN3aKE,2231
+lupa-2.2.dist-info/METADATA,sha256=k8-EBhxiQ4xN0I6T6cZvq-RiZ4U_s4pI7zJQdpBLfV0,57985
+lupa-2.2.dist-info/WHEEL,sha256=263mhwiqjOuutfZg5kC-BIn4uDnYKM3ga_8zcHpBtBM,110
+lupa-2.2.dist-info/top_level.txt,sha256=zBjq_OEwVlKBUT25L2ENcMO-9XdwVQSN7X6VHyH7Pcg,5
+lupa-2.2.dist-info/RECORD,,
