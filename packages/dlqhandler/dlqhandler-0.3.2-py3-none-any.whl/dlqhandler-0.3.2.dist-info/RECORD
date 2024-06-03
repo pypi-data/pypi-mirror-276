@@ -1,0 +1,14 @@
+dlqhandler/__init__.py,sha256=Bpn9fEEoaMVGIG21FBjTUgkP4C9Ko0Xt7tFU_zIjON0,144
+dlqhandler/dataprovider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dlqhandler/dataprovider/send_to_aws_sqs.py,sha256=BYvOrheKIn3huy52yilv63O02JxeTIFRwN9iTSRFdHo,886
+dlqhandler/dataprovider/sqs_queue.py,sha256=ckOEa9HxaLQhHKfRC8tm3TqfDN6N9WdXbezrc16sKe4,2058
+dlqhandler/event/__init__.py,sha256=gYbUzbYeqszb3RIHtQu6P2jSEqgY8a8D1JjAioC15wM,28
+dlqhandler/event/message.py,sha256=YfZUH28GIgekn53iZk9C_GILrOknz-UoRtPdPZdfWAU,643
+dlqhandler/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dlqhandler/services/cloudwatch.py,sha256=qdmQAlCNuon5EAcDloB5NLhz6Dri--I3m6ZhOlp6kKc,1696
+dlqhandler/services/process.py,sha256=ACLQzkE4rWXKHdnA-vu6ycUMHqux7pgPd1UpESNH1_g,2759
+dlqhandler-0.3.2.dist-info/LICENSE,sha256=QmDloPTnUKEo0i-C1XQi9Ph0JaH-oKMDqTgCdWyUp3I,1064
+dlqhandler-0.3.2.dist-info/METADATA,sha256=VwOmk10QKkDnkKvJ20wRNEHL5HO-mEdRf8Fd_5OJS00,1439
+dlqhandler-0.3.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dlqhandler-0.3.2.dist-info/top_level.txt,sha256=uAWGu6HZR6CwRpsQYJqwQq4rAffhrxKoeM1loIMWGA0,11
+dlqhandler-0.3.2.dist-info/RECORD,,
