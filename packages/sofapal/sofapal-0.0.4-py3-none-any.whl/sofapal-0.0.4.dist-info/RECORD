@@ -1,0 +1,13 @@
+.pal/__init__.py,sha256=e4fJNEcr_OcBTjw0NdQmGSQnzxanMx88IRBMgAYu4-M,62
+.pal/main.py,sha256=4GDqWWOLj3oQFYA-pJCqL64P0NjJHIjyGtSdCVFQ5EU,6696
+.pal/spinner_util.py,sha256=-b1o5oqYG1p8S-wtFIY4ei-yUVGBjYsvaUi5N0E2gy4,655
+pal/__init__.py,sha256=e4fJNEcr_OcBTjw0NdQmGSQnzxanMx88IRBMgAYu4-M,62
+pal/main.py,sha256=ArngM-zq49nVlaUFqtIZcBSPoC4wq4oQnsm6jQpZIO8,9195
+pal/spinner_util.py,sha256=-b1o5oqYG1p8S-wtFIY4ei-yUVGBjYsvaUi5N0E2gy4,655
+pal/window_util.py,sha256=wo_1zEHd_xuQQL55Qj7L7szUmuYdH2zlBKGK9KY6160,1079
+sofapal-0.0.4.dist-info/LICENSE,sha256=lL6NXy_uUilm7rRwVbchD57fG7-8CJbZvddZG9UQ9SE,1061
+sofapal-0.0.4.dist-info/METADATA,sha256=jAUuloFi3XGxMVpKAE9Y6b7NY2wb8XGjg71eTovSZII,4186
+sofapal-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sofapal-0.0.4.dist-info/entry_points.txt,sha256=VzMs0y1P5Mq42vCwChczPB6SUqOdDh5hq3l-3lteajY,37
+sofapal-0.0.4.dist-info/top_level.txt,sha256=8zOOrGRNsHDqp3hX80oB8M21dQ_32hsbMvmdcroDo_E,4
+sofapal-0.0.4.dist-info/RECORD,,
