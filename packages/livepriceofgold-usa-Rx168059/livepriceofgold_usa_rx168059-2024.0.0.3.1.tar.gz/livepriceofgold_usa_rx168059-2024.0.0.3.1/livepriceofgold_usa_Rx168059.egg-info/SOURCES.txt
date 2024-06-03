@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+livepriceofgold_usa_Rx168059.egg-info/PKG-INFO
+livepriceofgold_usa_Rx168059.egg-info/SOURCES.txt
+livepriceofgold_usa_Rx168059.egg-info/dependency_links.txt
+livepriceofgold_usa_Rx168059.egg-info/top_level.txt
+priceofgold/__init__.py
