@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: bertrand
+Version: 0.0.1
+Summary: (in development) Type-safe language bindings for Python/C++
+Author-email: Eric Erkela <eerkela42@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Eric Erkela
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/eerkela/bertrand
+Project-URL: Issue Tracker, https://github.com/eerkela/bertrand/issues
+Keywords: numpy,pandas,data,type,typing,dtype,ExtensionDtype,cast,conversion,astype,dispatch,multiple dispatch,data science,data analysis,data cleaning,data processing,data manipulation,data transformation,data engineering,ETL
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Cython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas >=2.0.0
+Requires-Dist: pyarrow
+Requires-Dist: pybind11 >=2.6.1
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: regex
+Requires-Dist: tzlocal
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: cibuildwheel ; extra == 'dev'
+Requires-Dist: cmake >=3.18 ; extra == 'dev'
+Requires-Dist: cython >=3.0.0 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pandas-stubs ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cpp ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinx-tabs ; extra == 'dev'
+Requires-Dist: sphinx-togglebutton ; extra == 'dev'
+Requires-Dist: types-python-dateutil ; extra == 'dev'
+Requires-Dist: types-pytz ; extra == 'dev'
+Requires-Dist: types-regex ; extra == 'dev'
+Requires-Dist: types-tzlocal ; extra == 'dev'
+
+Bertrand: Type-safe language bindings for Python/C++
+====================================================
+TODO.  Placeholder for now.
