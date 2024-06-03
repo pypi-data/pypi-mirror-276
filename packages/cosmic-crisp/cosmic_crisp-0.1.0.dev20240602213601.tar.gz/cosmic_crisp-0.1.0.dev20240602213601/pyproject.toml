@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "cosmic-crisp"
+version = "0.1.0.dev20240602213601"
+packages = [
+    { include = "pinecone_plugins", from = "." },
+    # { include = "pinecone.plugins", from = "./pinecone" },
+    # { include = "pinecone.plugins.knowledge", from = "./pinecone/plugins" }
+]
+
+description = "Knowledge plugin for Cosmic Crisp SDK"
+authors = ["Cosmic Crisp Systems, Inc. <support@cosmic-crisp.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://www.cosmic-crisp.com"
+documentation = "https://cosmic-crisp.com/docs"
+keywords = []
+classifiers=[
+        "License :: OSI Approved :: Apache Software License",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pinecone-plugin-interface = "^0.0.6"
+pytest = "^8.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+responses = ">=0.8.1"
+pytest-cov = "^5.0.0"
+pytest-timeout = "^2.3.1"
+torrey = "3.2.2.dev20240602165754"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
