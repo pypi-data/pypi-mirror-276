@@ -1,0 +1,6 @@
+README.md
+setup.py
+marasigan_raloso_finals.egg-info/PKG-INFO
+marasigan_raloso_finals.egg-info/SOURCES.txt
+marasigan_raloso_finals.egg-info/dependency_links.txt
+marasigan_raloso_finals.egg-info/top_level.txt
