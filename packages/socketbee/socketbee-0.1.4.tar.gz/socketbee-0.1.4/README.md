@@ -1,0 +1,96 @@
+# SocketBee for Python
+
+SocketBee is a Python client for interacting with the SocketBee API. This library allows you to easily send events to your SocketBee application.
+
+## Installation
+
+You can install the SocketBee library via pip:
+
+```bash
+pip install socketbee
+```
+
+## Usage
+
+To use SocketBee in your Python application, you need to create an instance of the `SocketBee` class with your application credentials. Then, you can use this instance to send events to your SocketBee channels.
+
+### Example
+
+```python
+import socketbee
+
+# Initialize the SocketBee instance with your credentials
+app_id = 'your_app_id'
+secret = 'your_secret'
+key = 'your_key'
+
+# Optionally, you can provide additional configuration
+config = {
+    'protocol': 'https',
+    'host': 'east-1.socket.socketbee.com',
+    'port': 443,
+}
+
+socketbee_instance = socketbee.SocketBee(app_id, secret, key, config)
+
+# Send an event
+channel = 'my_channel'
+event = 'my_event'
+data = {
+    'message': 'Hello, world!',
+}
+
+response = socketbee_instance.send_event(channel, event, data)
+
+# Check the response
+print(response)
+```
+
+### Parameters
+
+- **app_id**: Your SocketBee application ID.
+- **secret**: Your SocketBee secret key.
+- **key**: Your SocketBee key.
+- **config** (optional): A dictionary containing the following optional configuration parameters:
+  - `protocol`: The protocol to use (default: `https`).
+  - `host`: The host of the SocketBee server (default: `east-1.socket.socketbee.com`).
+  - `port`: The port of the SocketBee server (default: `443`).
+
+### Methods
+
+#### `send_event(channel, event, data)`
+
+Sends an event to the specified channel.
+
+- **channel**: The channel to send the event to.
+- **event**: The name of the event.
+- **data**: A dictionary containing the event data.
+
+### Response
+
+The `send_event` method returns a dictionary with the following keys:
+
+- **status**: The HTTP status code of the response.
+- **body**: The body of the response.
+- **errors** (optional): The error message, if an error occurred.
+- **error_message** (optional): The error message, if a request exception occurred.
+
+### Error Handling
+
+If a `requests.exceptions.RequestException` is raised during the API call, the `send_event` method will return a dictionary containing the `status` set to `0` and an `error_message` describing the exception.
+
+## Links
+
+- [SocketBee Website](https://socketbee.com)
+- [Documentation](https://socketbee.com/docs/sdks/python.html)
+- [Dashboard](https://platform.socketbee.com/)
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
+For more information and detailed documentation, please refer to the official [SocketBee documentation](https://socketbee.com/docs/sdks/python.html).
+
+Happy coding with SocketBee!
