@@ -1,0 +1,17 @@
+README.rst
+setup.py
+configure_vm_image/__init__.py
+configure_vm_image.egg-info/PKG-INFO
+configure_vm_image.egg-info/SOURCES.txt
+configure_vm_image.egg-info/dependency_links.txt
+configure_vm_image.egg-info/entry_points.txt
+configure_vm_image.egg-info/requires.txt
+configure_vm_image.egg-info/top_level.txt
+configure_vm_image/cli/__init__.py
+configure_vm_image/cli/configure_image.py
+configure_vm_image/common/__init__.py
+configure_vm_image/common/defaults.py
+configure_vm_image/common/errors.py
+configure_vm_image/utils/__init__.py
+configure_vm_image/utils/io.py
+configure_vm_image/utils/job.py
