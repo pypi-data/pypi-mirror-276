@@ -1,0 +1,6 @@
+tha
+regex
+pandas
+openpyxl
+khmercut
+khmerpronounce
