@@ -1,0 +1,123 @@
+Metadata-Version: 1.0
+Name: wsgintegrate
+Version: 0.1.5
+Summary: WSGI integration layer
+Home-page: http://k0s.org/hg/wsgintegrate
+Author: Jeff Hammel
+Author-email: k0scist@gmail.com
+License: GPL
+Description: WSGI Integration
+        ================
+        
+        ``wsgintegrate`` provides an integration layer to support general-purpose
+        WSGI pipes
+        
+        
+        wsgintegrate core
+        -----------------
+        
+        ``wsgintegrate`` is dependends on pyloader for loading and
+        calling python objects: http://k0s.org/hg/pyloader
+        
+        - wgintegrate: wsgintegrate provides an integration layer to support
+          general-purpose WSGI pipes
+          : url: http://k0s.org/hg/wsgintegrate
+          : provides: dispatcher
+          : requires: pyloader, paste
+          : type: app
+        
+        Also worth mentioning is ``paste`` (WSGI server and utilities).  Much of
+        how wsgintegrate is shaped is based on ``paste``'s utilities and structure:
+        http://pythonpaste.org
+        
+        
+        Examples: site management and deployment
+        ----------------------------------------
+        
+        - buttercup: the flower containing the deployment pattern for k0s.org;
+          currently, there is only one flower, but it will eventually be
+          generalized to a meta-pattern; see http://k0s.org/hg/wsgintegrate/file/tip/flowerbed.txt
+          : url: http://k0s.org/hg/buttercup/
+          : provides: k0s.org
+          : type: flower
+        
+        - flowerbed: vaporware stubbing for the flower project; see buttercup
+          : url: http://k0s.org/hg/flowerbed/
+          : provides: flowers
+        
+        - silvermirror: mirror portions of filesystems with unison
+          : url: http://k0s.org/hg/silvermirror/
+          : provides: sync
+          : requires: unison
+          : type: utility
+        
+        
+        EXamples:  WSGI Endpoint Apps
+        -----------------------------
+        
+        - bitsyblog: blogging app
+          : url: http://k0s.org/hg/bitsyblog/
+          : provides: blog
+          : requires: auth
+          : type: app
+        
+        - clwapp: convert a CLI script into a WSGI app
+          : url: http://k0s.org/hg/clwapp/
+          : type: app
+        
+        - decoupage: dynamic file server
+          : url: http://k0s.org/hg/decoupage/
+          : provides: fileserver
+          : requires: paste, contenttransformer
+          : type: app
+        
+        - montage: photo gallery extension to decoupage
+          : url: http://k0s.org/hg/montage/
+          : requires: decoupage
+          : type: plugin
+        
+        - toolbox: content categorizer
+          : url: http://github.com/mozilla/toolbox
+          : provides: classification
+          : requires: whoosh
+          : type: app
+        
+        - uploader: upload files to your website
+          : url: http://k0s.org/hg/uploader/
+          : provides: uploading
+          : type: app
+        
+        - webcalc: do calculations via the path info
+          : url: http://k0s.org/hg/webcalc/
+          : provides: math
+          : type: app, unfinished
+        
+        - wordstream: dissociate via url or input or play with a stream of
+          words
+          : url: http://k0s.org/hg/wordstream/
+          : type: app
+        
+        
+        WSGI Middleware
+        ---------------
+        
+        - Commentator: comment on mostly arbitrary URLs
+          : url: http://k0s.org/hg/commentator/
+          : provides: comments
+          : requires: lxmlmiddleware
+          : type: app, middleware, unfinished
+        
+        - SVG site map: make an SVG directed graph counting HTTP references
+          : url: http://k0s.org/hg/svgsitemap/
+          : provides: directed graph
+          : dependencies: graphviz
+          : type: app, middlware, unfinished
+        
+        - Tag In the Middle: configure tagging on various element -> URL
+          mappings of your site
+          : url: http://k0s.org/hg/TagInTheMiddle
+          : provides: tagging
+          : requires: lxmlmiddleware
+          : type: app, middleware, unfinished
+        
+Platform: UNKNOWN
