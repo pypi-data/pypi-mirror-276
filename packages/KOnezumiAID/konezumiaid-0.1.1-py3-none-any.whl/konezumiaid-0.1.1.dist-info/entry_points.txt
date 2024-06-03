@@ -1,0 +1,4 @@
+[console_scripts]
+konezumiaid=konezumiaid.main:main
+konezumiaid-createdata=konezumiaid.format_and_export_dataset.main:export
+

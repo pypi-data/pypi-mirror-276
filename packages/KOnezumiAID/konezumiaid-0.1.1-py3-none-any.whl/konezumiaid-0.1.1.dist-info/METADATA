@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: KOnezumiAID
+Version: 0.1.1
+Summary: Project description
+License: MIT
+Author: Taki Taito
+Author-email: s2110307@u.tsukuba.ac.jp
+Requires-Python: >=3.9,<4.0
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: numpy (==1.26.0)
+Requires-Dist: pandas (==2.2.2)
+Requires-Dist: primer3-py (>=2.0.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Hello KOnezumi-AID
+
+## Input data set
+
+### genomic sequence
+`mm39.fa.gz` from [UCSC](
+https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/
+)
+
+
+### Locus information
+`refFlat.text` from [UCSC](
+https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/
+)
+
+### Download scripts (bash)
+
+```bash
+mkdir -p data
+wget -O - https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.fa.gz |
+    gzip -dc > data/mm39.fa
+wget -O - https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/refFlat.txt.gz |
+    gzip -dc > data/refFlat.txt
+```
+
+
+#### Use as pandas.DataFrame in this code
+DataFrame refFlat has 11 columns.
+- string  geneName;           "Name of gene as it appears in Genome Browser." 
+- string  name;               "Name of gene" 
+- string  chrom;              "Chromosome name" 
+- char[1] strand;             "+ or - for strand" 
+- uint    txStart;            "Transcription start position" 
+- uint    txEnd;              "Transcription end position" 
+- uint    cdsStart;           "Coding region start" 
+- uint    cdsEnd;             "Coding region end" 
+- uint    exonCount;          "Number of exons" 
+- uint[exonCount] exonStarts; "Exon start positions" 
+- uint[exonCount] exonEnds;   "Exon end positions" 
+
