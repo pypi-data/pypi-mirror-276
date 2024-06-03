@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+easymp3/__init__.py
+easymp3/easymp3.py
+easymp3/exception.py
+easymp3/tag.py
+easymp3/util.py
+easymp3.egg-info/PKG-INFO
+easymp3.egg-info/SOURCES.txt
+easymp3.egg-info/dependency_links.txt
+easymp3.egg-info/requires.txt
+easymp3.egg-info/top_level.txt
