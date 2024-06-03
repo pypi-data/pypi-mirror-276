@@ -1,0 +1,17 @@
+lmdbsystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lmdbsystem/dataloader.py,sha256=UiSfQmwnp5716amC-wLmyekW1pT5rfHQl7gfin2nEIk,644
+lmdbsystem/error.py,sha256=0zaKj65AOoF219fjTXdQrwRyF_VCH4jG0sM9TPbcbYI,1927
+lmdbsystem/lmdb.py,sha256=k6yfBtO_RWJEI6F2NRnfSzZIXH74iteaJZl-vR4Qkpc,3884
+lmdbsystem/read_adapters/__init__.py,sha256=jPRcNNMmTsuGRrAjm5M98oIlv3U1SxSj4mi-qZWwMZA,703
+lmdbsystem/read_adapters/bytes_image.py,sha256=VBnVLBvCXWbcE1HnMJtMoh4UWWUjV2GBlXTmjIdduUI,1782
+lmdbsystem/read_adapters/cv2_image.py,sha256=8Jb9ZtHf1Iewhg5K9BB_tT8ltp6FaNewztqZMeF3edw,1973
+lmdbsystem/read_adapters/pil_image.py,sha256=J8InNf4IMUmFZHXEeS9JLYilFlowIEdUuM2GmUFYoaM,1975
+lmdbsystem/read_adapters/text.py,sha256=NndEAAa_VVs6l2jffPpDTOhlwRp-8Biq5ui76pQyB50,1833
+lmdbsystem/write_adapters/__init__.py,sha256=lOv3rlrufnR4Ju37D3Tib2f6JbviRpP9ZVi_hmFlo30,1497
+lmdbsystem/write_adapters/image.py,sha256=d_3GBB2VDa5Hg_OB7qgY8cSyBZEYKOihm80izvnX1MU,6364
+lmdbsystem/write_adapters/text.py,sha256=LPM6S0GSTIMUC8JtBIrIWxpp_eh_hA8e1tKdtMMFGmI,5553
+lmdbsystem-0.2.2.dist-info/LICENSE.txt,sha256=YgncyGPbqzKc_WTPpNCxuoP11m7rea27zVNfqjd2NFY,1105
+lmdbsystem-0.2.2.dist-info/METADATA,sha256=VYkkAJ8fTS4MPnTfDdpCWpyNYsnJUKwNHvyzSWvno0E,6973
+lmdbsystem-0.2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lmdbsystem-0.2.2.dist-info/top_level.txt,sha256=FscI3sKyEXqEbb0tk9pFj75-xCwb5ATiCaPUEqhEsck,11
+lmdbsystem-0.2.2.dist-info/RECORD,,
