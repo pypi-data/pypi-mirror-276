@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: out-of-domain-library
+Version: 0.1
+Summary: A library for out-of-domain tasks.
+Home-page: https://github.com/suraj385/out_of_domain_library
+Author: Suraj Gautam
+Author-email: beoingsuraz3385@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Out of Domain Library
+
+This library provides tools for feature extraction and similarity checking using a ResNet-50 model. It can be used to determine whether an image is in-domain or out-of-domain based on cosine similarity with a set of gallery features.
+
+## Installation
+
+To use this library, simply clone the repository and install the required packages.
+
+ in bash
+git clone https://github.com/suraj385/out_of_domain_library.git
+cd out_of_domain_library
+pip install -r requirements.txt
+Note
+
+You can change the threshold value for determining in-domain status in line 38 of similarity_check.py. , it generated 99.77% accuracy with 0.85
+
+Usage
+
+Extract and Save Gallery Features
+python
+Copy code
+from out_of_domain.feature_extraction import save_gallery_features
+
+# Path to the folder containing images
+image_folder = "/path/to/image/folder"
+
+# Extract features and save to a file
+save_gallery_features(image_folder, "gallery_features.npy")
+Check if an Image is In-Domain
+python
+Copy code
+from out_of_domain.similarity_check import is_in_domain
+import numpy as np
+
+# Load gallery features
+gallery_features = np.load("gallery_features.npy")
+
+# Path to the test image
+test_image_path = "/path/to/test/image.jpg"
+
+# Check if the test image is in-domain
+result = is_in_domain(test_image_path, gallery_features)
+print("In-Domain" if result else "Out-of-Domain")
+Evaluate the Model
+python
+Copy code
+from out_of_domain.similarity_check import evaluate_model
+import numpy as np
+
+# Load gallery features
+gallery_features = np.load("gallery_features.npy")
+
+# Path to the folder containing test images
+test_folder = "/path/to/test/folder"
+
+# Evaluate the model
+correct, total, accuracy = evaluate_model(gallery_features, test_folder, True)
+print(f"Accuracy: {accuracy:.4f}")
