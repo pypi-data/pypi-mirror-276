@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: clear_word_ar
+Version: 0.0.1
+Summary: Arabic text filtering for inappropriate words | تصفية النصوص العربية من الكلمات غير اللائقة
+Home-page: UNKNOWN
+Author: Saleh
+Author-email: <your_email@example.com>
+License: UNKNOWN
+Keywords: python,text,filter,arabic,text filter,bad words,emoji removal,بايثون,نص,تصفية,عربي,تصفية النصوص,كلمات سيئة,إزالة الإيموجيات,تنظيف النصوص,تطبيق,تحليل نصوص,بيانات نصية
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+
+
+# Clear-Word-ar
+
+مكتبة `Clear-Word-ar` هي مكتبة بايثون مفتوحة المصدر تستخدم لتصفية الكلمات غير اللائقة من النصوص العربية. تهدف هذه المكتبة إلى مساعدة المطورين على تحسين محتوى النصوص عن طريق إزالة الكلمات البذيئة والإيموجيات غير المرغوبة.
+
+## الميزات
+
+- إزالة الإيموجيات من النصوص
+- إزالة الأحرف المتكررة
+- إزالة الحركات: (كل الحركات، حذف الشدة، حذف التطويل، حذف الحركة الأخيرة)
+- تصفية الكلمات البذيئة مع إرجاع `True` أو `False`
+
+## التثبيت
+
+لتثبيت المكتبة، يمكنك استخدام الأمر التالي:
+
+```bash
+pip install clear-word-ar
+```
+## مثال
+
+```
+from clearAR import Word
+
+text = "هذا النص لا يحتوي كلمات غير لائقة"
+
+if Word.BadWord(text):
+    print("النص يحتوي على كلمات غير لائقة")
+else:
+    print("النص خالٍ من الكلمات غير لائقة")
+```
+`output : النص خالٍ من الكلمات غير لائقة `
+
+
+
