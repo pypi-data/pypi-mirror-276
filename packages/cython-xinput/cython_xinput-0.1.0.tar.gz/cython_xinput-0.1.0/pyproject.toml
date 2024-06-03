@@ -1,0 +1,44 @@
+[build-system]
+build-backend = "scikit_build_core.build"
+requires = [
+    "cython>=3.0.10",
+    "scikit-build-core",
+]
+
+[project]
+name = "cython_xinput"
+version = "0.1.0"
+authors = [
+  { name = "Artur Drogunow", email = "Artur.Drogunow@zf.com" },
+]
+requires-python = ">=3.7"
+license = { text = "MIT" }
+readme = "README.md"
+keywords = [
+  "Windows",
+  "Xbox",
+  "Gamepad",
+  "xinput",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Cython",
+  "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+Issues = "https://github.com/zariiii9003/cython_xinput/issues"
+Source = "https://github.com/zariiii9003/cython_xinput"
+Homepage = "https://github.com/zariiii9003/cython_xinput"
+
+[tool.scikit-build]
+wheel.packages = ["src/cython_xinput"]
+cmake.version = ">=3.26.1"
+
+[tool.cibuildwheel]
+test-requires = "pytest"
+test-command = "pytest --no-header -vv {project}/tests"
+build-frontend = "build"
+skip = "pp*"
