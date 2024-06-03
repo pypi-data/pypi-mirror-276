@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: django-tmmis
+Version: 0.3.8
+Summary: A Django app provided ORM to TrustMed medical information system
+Author-email: Chmelyuk Vladislav <neimp@yandex.ru>
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: mssql-django
+
+![Pypi version](https://img.shields.io/pypi/v/django-tmmis.svg)
+![Python versions](https://img.shields.io/pypi/pyversions/django-tmmis)
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+### Настройка
+
+```shell
+python -m pip install django~=4.0 mssql-django
+django-admin startproject config
+```
+
+Добавляем подключение к БД МИС в файле `config/config/settings.py`:
+```python
+DATABASES = {
+    'default': {
+        ...
+    },
+    'tmmis'  : {
+        'ENGINE'  : 'mssql',
+        'NAME'    : 'ИМЯ БД',
+        'USER'    : 'sa',
+        'PASSWORD': 'ПАРОЛЬ К БД',
+        'HOST'    : 'АДРЕС СЕРВЕРА',
+        'PORT'    : 1433,
+        'OPTIONS' : {
+            'driver': 'ODBC Driver 17 for SQL Server',
+        },
+    }
+}
+```
+
+### Интроспекция БД
+
+Unix:
+```shell script
+python config/manage.py inspectdb --database=tmmis {table_name} > tmmis/models/{table_name}.py
+```
+
+Windows:
+```shell script
+py .\config\manage.py inspectdb --database=tmmis {table_name} > .\tmmis\models\{table_name}.py
+```
