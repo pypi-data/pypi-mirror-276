@@ -1,0 +1,8 @@
+stablehash-0.2.0.dist-info/METADATA,sha256=lBoAx6FpRteNyeGnn3fGNMPDmE2VMxJKbCMZ2OFcgKQ,2706
+stablehash-0.2.0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+stablehash-0.2.0.dist-info/licenses/LICENSE,sha256=lazmC6Yp3DPK5yqwQ3UWJVAwNGxkWn1D0FeAIH4Q8UI,998
+stablehash/__init__.py,sha256=2Ruwg2RdqwISCqsWmEollXPc7WCzp_4huB8aGWtF_5g,981
+stablehash/__init__test.py,sha256=U59vnZQifHY3yKGcGWxp6reTG4yWANnDLf4MhBKHzcQ,2311
+stablehash/_tokenize.py,sha256=BfKI46V2-QkjjunogHTpXZ7_8wWwLLJYtZs-LQ79tFY,3806
+stablehash/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stablehash-0.2.0.dist-info/RECORD,,
