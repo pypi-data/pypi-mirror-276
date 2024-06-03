@@ -1,0 +1,22 @@
+type: function
+function:
+  name: "select_relevant_tables"
+  description: "select relavant table's names for answering user query"
+  parameters:
+    type: object
+    properties:
+      relevant_tables:
+        type: array
+        description: |
+          Based on the user's query and list table's name, select the relevant table's names needed to answer the user's query.
+          If the user's query does not relate to any tables, the output should be an empty list.
+        items:
+          properties:
+            table_name:
+              type: string
+              enum:
+                - "a"
+                - "b"
+              description: table need to be used to answer user query
+    required:
+      - relevant_tables
