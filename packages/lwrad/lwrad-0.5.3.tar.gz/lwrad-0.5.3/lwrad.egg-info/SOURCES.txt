@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+lwrad/__init__.py
+lwrad/__main__.py
+lwrad/cpu.py
+lwrad/cuda.py
+lwrad/main.py
+lwrad/utils.py
+lwrad.egg-info/PKG-INFO
+lwrad.egg-info/SOURCES.txt
+lwrad.egg-info/dependency_links.txt
+lwrad.egg-info/requires.txt
+lwrad.egg-info/top_level.txt
+tests/test_spectrum.py
+tests/test_speed.py

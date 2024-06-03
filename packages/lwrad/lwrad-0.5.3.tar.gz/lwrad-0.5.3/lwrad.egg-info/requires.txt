@@ -1,0 +1,6 @@
+typer
+tqdm
+h5py
+numpy
+numba
+scipy
