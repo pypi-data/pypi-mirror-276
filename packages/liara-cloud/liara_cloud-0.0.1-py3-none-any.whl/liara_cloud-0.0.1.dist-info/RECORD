@@ -1,0 +1,10 @@
+liara/__init__.py,sha256=MF64bwUCd4sm3dvcxZnkb4ujHtxT_KeuXdD0nVieEt4,27
+liara/client/__init__.py,sha256=MF64bwUCd4sm3dvcxZnkb4ujHtxT_KeuXdD0nVieEt4,27
+liara/client/client.py,sha256=plKw2cwIbC7DMxj3GVIv6VcESyBenywy7aBcclRFs2I,4598
+liara/errors/__init__.py,sha256=jky-6eP3E2PH86L7T_9Trm3iT5NT1wfp_fZF8MG-1jo,33
+liara/errors/errors.py,sha256=i8SNsR5hw_K15RHmpKRPZPFr8lQ5U4bDz1NG6gTpgpU,41
+liara_cloud-0.0.1.dist-info/LICENSE,sha256=kj2Vo7GLkbgPdvwhDpJKVm53wTHfROmvVq6Os8ArT10,1071
+liara_cloud-0.0.1.dist-info/METADATA,sha256=kE1pSbvSeFuWPApXImJEBwsNGUOZK4ukkob5J1_Icsg,931
+liara_cloud-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+liara_cloud-0.0.1.dist-info/top_level.txt,sha256=FBSSi_KOgjY27yt4msvsAzz-sBnf1BxygMwj9obqDbk,6
+liara_cloud-0.0.1.dist-info/RECORD,,
