@@ -1,0 +1,3 @@
+[console_scripts]
+browserxt = browserxt.cli:app
+
