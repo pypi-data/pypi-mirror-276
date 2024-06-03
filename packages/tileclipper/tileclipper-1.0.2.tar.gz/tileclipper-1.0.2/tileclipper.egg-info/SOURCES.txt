@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tileclipper/__init__.py
+tileclipper/clipper.py
+tileclipper.egg-info/PKG-INFO
+tileclipper.egg-info/SOURCES.txt
+tileclipper.egg-info/dependency_links.txt
+tileclipper.egg-info/requires.txt
+tileclipper.egg-info/top_level.txt
