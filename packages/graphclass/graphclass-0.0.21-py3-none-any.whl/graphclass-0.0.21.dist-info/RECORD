@@ -1,0 +1,8 @@
+drawing/__init__.py,sha256=X20GzQ1bJ735ICDyR_YgkId_HEoTJ-LBCxxfEQr6uPI,45
+drawing/_version.py,sha256=MIVLJ8DWU4e1_znAWFny0emeRGBPGSTYJvimzQyLj9Y,413
+drawing/drawing.py,sha256=OAOgV2OUYCpOYd2_NaPYJIcHW4YtlvVyPVwWlJzQzQk,5700
+graphclass-0.0.21.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+graphclass-0.0.21.dist-info/METADATA,sha256=yMXCdT8oyRv3uGxPsy6FDX2lqT4ZGnSbhWJniV7xce0,1993
+graphclass-0.0.21.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+graphclass-0.0.21.dist-info/top_level.txt,sha256=7wlzsSyaws87cvyO5hHPdQ2J2M7vnhUXPt7mQO80NWk,8
+graphclass-0.0.21.dist-info/RECORD,,
