@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff591ccd-39a1-4b27-8b3d-7eabd9a61577" name="Changes" comment="Release 0.3.5" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ivanmicetic&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:ivanmicetic/selenium-assist.git&quot;,
+    &quot;accountId&quot;: &quot;c6cbf511-8091-436e-96ec-a5e9a07d6bc8&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2O1e3GABsDJ2QMynzIbEdemlJc9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mich/Desktop/selenium-assist/src/selenium_assist/wrappers.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pip install --upgrade build" />
+      <command value="pip install --upgrade twine" />
+      <command value="wait" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Markdown Snippet" type="BashProRunConfiguration" temporary="true">
+      <scriptContent>python3 -m twine upload --repository pypi dist/*</scriptContent>
+      <option name="sourceType" value="snippet" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="selenium-assist" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="BashSupport Pro.Markdown Snippet" />
+        <item itemvalue="BashSupport Pro.Markdown Snippet" />
+        <item itemvalue="BashSupport Pro.Markdown Snippet" />
+        <item itemvalue="BashSupport Pro.Markdown Snippet" />
+        <item itemvalue="BashSupport Pro.Markdown Snippet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff591ccd-39a1-4b27-8b3d-7eabd9a61577" name="Changes" comment="" />
+      <created>1680732315443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680732315443</updated>
+      <workItem from="1680732317243" duration="4638000" />
+      <workItem from="1681941927000" duration="51000" />
+      <workItem from="1681942000396" duration="314000" />
+      <workItem from="1683926116470" duration="7159000" />
+      <workItem from="1683933646074" duration="2162000" />
+      <workItem from="1684185058916" duration="1252000" />
+      <workItem from="1684356774270" duration="75000" />
+      <workItem from="1684356856337" duration="1866000" />
+      <workItem from="1684358825337" duration="123000" />
+      <workItem from="1685047660441" duration="2000" />
+      <workItem from="1685047682790" duration="5806000" />
+      <workItem from="1685478167802" duration="1445000" />
+      <workItem from="1694032815515" duration="355000" />
+      <workItem from="1694033191724" duration="3769000" />
+      <workItem from="1695763100091" duration="651000" />
+      <workItem from="1695937305697" duration="1118000" />
+      <workItem from="1695942343319" duration="122000" />
+      <workItem from="1699910495503" duration="923000" />
+      <workItem from="1703427477007" duration="3220000" />
+      <workItem from="1703455601876" duration="1360000" />
+      <workItem from="1715113339548" duration="99000" />
+      <workItem from="1717347993047" duration="110000" />
+      <workItem from="1717348126461" duration="831000" />
+      <workItem from="1717349026568" duration="97000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1680734893332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680734893332</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add imports to __init__.py">
+      <created>1680736043274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680736043274</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add many wrappers">
+      <created>1683927897924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683927897924</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix typo">
+      <created>1683927917326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683927917326</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix selenium requirement to &lt;4">
+      <created>1683927953721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683927953721</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bump version">
+      <created>1683928061229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683928061229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add imports for all wrappers">
+      <created>1683928354007</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683928354007</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bump to 0.1.0">
+      <created>1683928843697</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683928843697</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add setup.cfg; update setup.py">
+      <created>1683930184014</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683930184014</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add classifiers">
+      <created>1683934888833</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683934888833</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add urllib3&lt;2">
+      <created>1684185303134</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684185303134</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add chrome_options">
+      <created>1684356955422</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684356955422</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add __main__.__file__ instead of __file__">
+      <created>1685049493999</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685049493999</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add skip_check to send_keys">
+      <created>1685054882441</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685054882441</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add skip_check to send_keys">
+      <created>1685054919473</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685054919473</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add skip_check to send_keys">
+      <created>1685054926533</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685054926533</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add example">
+      <created>1685055545011</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685055545011</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update example">
+      <created>1685055903964</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685055903964</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add list of helper functions">
+      <created>1685056147483</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685056147483</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update README.md">
+      <created>1685479038050</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685479038050</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Format with black">
+      <created>1685479546150</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685479546150</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Use Hatchling">
+      <option name="closed" value="true" />
+      <created>1694035471864</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1694035471864</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Format with black">
+      <option name="closed" value="true" />
+      <created>1694035930870</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694035930870</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update README">
+      <option name="closed" value="true" />
+      <created>1694035945100</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1694035945100</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Release 0.3.1">
+      <option name="closed" value="true" />
+      <created>1694036279420</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1694036279420</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add execute_script">
+      <option name="closed" value="true" />
+      <created>1695942037524</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695942037524</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Release 0.3.2">
+      <option name="closed" value="true" />
+      <created>1695942057645</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1695942057645</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add silence_warning">
+      <option name="closed" value="true" />
+      <created>1717348590594</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1717348590594</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Release 0.3.5">
+      <option name="closed" value="true" />
+      <created>1717348760957</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1717348760957</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add imports to __init__.py" />
+    <MESSAGE value="Add many wrappers" />
+    <MESSAGE value="Fix typo" />
+    <MESSAGE value="Fix selenium requirement to &lt;4" />
+    <MESSAGE value="Bump version" />
+    <MESSAGE value="Add imports for all wrappers" />
+    <MESSAGE value="Bump to 0.1.0" />
+    <MESSAGE value="Add setup.cfg; update setup.py" />
+    <MESSAGE value="Add classifiers" />
+    <MESSAGE value="Add urllib3&lt;2" />
+    <MESSAGE value="Add chrome_options" />
+    <MESSAGE value="Add __main__.__file__ instead of __file__" />
+    <MESSAGE value="Add skip_check to send_keys" />
+    <MESSAGE value="Add example" />
+    <MESSAGE value="Update example" />
+    <MESSAGE value="Add list of helper functions" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Use Hatchling" />
+    <MESSAGE value="Format with black" />
+    <MESSAGE value="Update README" />
+    <MESSAGE value="Release 0.3.1" />
+    <MESSAGE value="Add execute_script" />
+    <MESSAGE value="Release 0.3.2" />
+    <MESSAGE value="Add silence_warning" />
+    <MESSAGE value="Release 0.3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release 0.3.5" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "selenium_assist"
+version = "0.3.5"
+authors = [
+    { name="Ivan Mičetić", email="ivan.micetic@gmail.com" },
+]
+description = "Helper functions for Selenium"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "selenium>3",
+    "webdriver_manager"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ivanmicetic/selenium-assist"
+"Bug Tracker" = "https://github.com/ivanmicetic/selenium-assist/issues"
