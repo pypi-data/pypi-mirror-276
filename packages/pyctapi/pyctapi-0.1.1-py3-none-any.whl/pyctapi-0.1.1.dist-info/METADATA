@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyctapi
+Version: 0.1.1
+Summary: ctyun api implement in python
+License: MIT
+Author-email: fatelei <fatelei@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+# pyctapi
+
+pyctapi client implement in python
+
+## APIs
+
+- iam
+
