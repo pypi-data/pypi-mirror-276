@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: jcgutier-logger
+Version: 0.1.1
+Summary: Logging configuration
+Author: Juan Carlos Gutierrez
+Author-email: jgutierrez@contractor.ea.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+Content
+
+- [Overview](#overview)
+- [Install](#install)
+
+# Overview
+
+This logging configuration is meant to be reused on other projects it will log
+to file in `/tmp` with _DEBUG_ verbosity and _INFO_ on output by default.
+
+# Install
+
+To install this run
+
+```bash
+pip install jcgutier-logger
+```
