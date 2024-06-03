@@ -1,0 +1,12 @@
+bcrg/__init__.py,sha256=yC_9d9GuowgKv3Y1h8sY1Q0ysnJ6pASvDlVdgcbs7iI,1499
+bcrg/__main__.py,sha256=6oIgikD4qojj3ctBXf3Ld5GeuT_0rsjMmd73SsPKoEc,3780
+bcrg/font.lua,sha256=YOWA4djsd3kwmTqeCEDgZmEcQOGAc4TNCcmyMYPzii0,10812
+bcrg/framebuf.lua,sha256=jeLExwWH_--RLzQkgDivs13y_VIEcYs_SrAdx7GosaM,14422
+bcrg/reticledraw.lua,sha256=G7XLfP9l3J_-jhwB-chUTGGyr1pRBRn6wMn2iuuLWjU,6497
+bcrg/text.py,sha256=q_PWnmZ7WtxzCB6H1iPtcvFmP-a-WfmN4I75rgdjkHw,7481
+bcrg-1.0.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+bcrg-1.0.0.dist-info/METADATA,sha256=x6YZl0n98eC0z9jslODq_6O5HtHULf9rZF45P0UZh9g,2762
+bcrg-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bcrg-1.0.0.dist-info/entry_points.txt,sha256=Ug7B9XBJDIiG_SKawBkOSXSTxbyiChJ-8mcp7xkgSlc,44
+bcrg-1.0.0.dist-info/top_level.txt,sha256=L2VXrabIJVHX2a1axjdfPs9qoAjrvV7MhZAP79Mue0k,5
+bcrg-1.0.0.dist-info/RECORD,,
