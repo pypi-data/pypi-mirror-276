@@ -1,0 +1,15 @@
+{
+    "python.testing.pytestArgs": [
+        "-ra", "-q", "-v", "-s",
+        "--doctest-report", "ndiff",
+        "--doctest-modules",
+        "--cov=pycnnum",
+        "--cov-report=term-missing",
+        "--cov-report=html"
+    ],
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "liang",
+        "pycnnum"
+    ],
+}

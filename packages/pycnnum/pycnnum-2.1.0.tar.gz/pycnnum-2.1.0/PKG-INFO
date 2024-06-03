@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pycnnum
+Version: 2.1.0
+Summary: Chinese number <=> int/float conversion for Python3.8+
+Author-email: Shuo Li <alwayszcold@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: pylint ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: pdoc ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: pdoc ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Source, https://github.com/zcold/pycnnum
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# PyCNNUM
+
+Convert numbers in Chinese string to/from `int`/`float`/`str`.
+
+<!-- omit in toc -->
+## Thanks to all issue reports
+
+
+```bash
+python3.8 -m venv .venv
+source .venv/bin/activate
+python -m pip install pip -U
+python -m pip install .[dev]
+```
+
