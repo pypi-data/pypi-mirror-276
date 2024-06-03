@@ -1,0 +1,11 @@
+django_env_robots/__init__.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+django_env_robots/apps.py,sha256=n-VVhRwZQzuxC05ZHxVa9aiV7gynqiRHhdT4MgoVDZk,155
+django_env_robots/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_env_robots/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_env_robots/urls.py,sha256=jcQw697Iymgdn8Nv5P8q_YHVCbLb1CvuVDo30TWjg5g,115
+django_env_robots/views.py,sha256=rWj88aULq_JN0BV9olDP34mj0lr9Iay-gd2419rqXTI,811
+django_env_robots-0.0.3.dist-info/LICENSE,sha256=RoPoHVO2ndRUlmLkRaHMJoNtjMaDFyCnhycBRwEWF0E,1064
+django_env_robots-0.0.3.dist-info/METADATA,sha256=7zPiqiAOFEHxriUI10Nm7TDCm9BfgMJXlELxS5_DNYU,3320
+django_env_robots-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_env_robots-0.0.3.dist-info/top_level.txt,sha256=lknh9fVx5MzHg543yujUHn_35Cv9YYcrJ3Wo73g_hWg,18
+django_env_robots-0.0.3.dist-info/RECORD,,

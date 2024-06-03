@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: django-env-robots
+Version: 0.0.3
+Summary: Control robots.txt files from environment variables and templates.
+Author-email: Pat Smith <pat.smith@cursive.works>
+License: MIT License
+        
+        Copyright (c) 2024 Cursive
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/cursive-works/django-env-robots
+Keywords: django,robots.txt,environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django >=3.2
+
+# Django Env Robots (.txt)
+
+Serve different robots.txt from your production | stage | etc servers by setting environment variables. Rules are managed via templates.
+By default it excludes robots entirely.
+
+
+## Installation
+
+Install from [PyPI](https://pypi.org/project/django-env-robots/):
+
+```
+pip install django-env-robots
+```
+
+Then add the following to your project's `INSTALLED_APPS`.
+
+```
+'django_env_robots',
+```
+
+## Usage
+
+### settings.py
+Set the following:
+ - `SERVER_ENV` identifies the nature of the server and thus the robots.txt template that will be used.
+ - `ROBOT_SITEMAP_URLS` a list of relative urls to your sitemap(s).
+
+E.g:
+```
+SERVER_ENV = 'production'
+ROBOTS_SITEMAP_URLS = ['/sitemap.xml', '/other_sitemap.xml']
+```
+
+### urls.py
+```
+from django_env_robots import urls as robots_urls
+...
+urlpatterns = [
+    path("robots.txt", include(robots_urls)),
+]
+```
+
+### robots templates
+Create corresponding template files for each SERVER_ENV you will be using.
+These live in your projects `templates` directory in a `robots` subfolder.
+
+For example, if `SERVER_ENV` can be `production` or `stage`, then create:
+ - `templates/robots/production.txt`
+ - `templates/robots/stage.txt`
+
+e.g:
+```
+User-agent: *
+Disallow: /admin/*
+
+{% for sitemap_url in sitemap_urls %}Sitemap: {{ sitemap_url }}
+{% endfor %}
+```
+
+### Other considertions
+
+A robots.txt being served from a Whitenose public directory will win over this app. That is because of whitenoise's middleware behaviour - quite correct but watch out for that.
