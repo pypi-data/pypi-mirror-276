@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dev_aishy/__init__.py
+dev_aishy/main.py
+dev_aishy.egg-info/PKG-INFO
+dev_aishy.egg-info/SOURCES.txt
+dev_aishy.egg-info/dependency_links.txt
+dev_aishy.egg-info/entry_points.txt
+dev_aishy.egg-info/top_level.txt

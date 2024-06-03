@@ -1,0 +1,2 @@
+[console_scripts]
+aishy = dev_aishy:testing.hello_class
