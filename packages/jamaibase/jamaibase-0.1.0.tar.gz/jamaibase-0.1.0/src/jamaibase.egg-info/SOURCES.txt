@@ -1,0 +1,48 @@
+.gitignore
+README.md
+pyproject.toml
+setup.py
+src/jamaibase/__init__.py
+src/jamaibase/client.py
+src/jamaibase/protocol.py
+src/jamaibase/version.py
+src/jamaibase.egg-info/PKG-INFO
+src/jamaibase.egg-info/SOURCES.txt
+src/jamaibase.egg-info/dependency_links.txt
+src/jamaibase.egg-info/requires.txt
+src/jamaibase.egg-info/top_level.txt
+src/jamaibase/utils/__init__.py
+src/jamaibase/utils/io.py
+src/jamaibase/utils/types.py
+src/jamaibase/utils/versioning.py
+tests/__init__.py
+tests/case_embed_files.py
+tests/create_long_txt.py
+tests/list_test_files_as_json.py
+tests/populate_test_documents_minio.py
+tests/test_chat.py
+tests/test_gen_executor.py
+tests/test_gen_table.py
+tests/test_io.py
+tests/_loader_check/pdfloader__Swire_AR22_e_230406_sample.pdf.json
+tests/_loader_check/pdfloader__background-checks.pdf.json
+tests/_loader_check/pdfloader__sample_tables.pdf.json
+tests/_loader_check/split_documents__Swire_AR22_e_230406_sample.pdf.json
+tests/_loader_check/split_documents__background-checks.pdf.json
+tests/_loader_check/split_documents__sample_tables.pdf.json
+tests/docx/Recommendation Letter.docx
+tests/pdf/Large Language Models as Optimizers [DeepMind ; 2023].pdf
+tests/pdf/Swire_AR22_e_230406_sample.pdf
+tests/pdf/System Design Blueprint - The Ultimate Guide.pdf
+tests/pdf/Vehicle Detail - MyPUSPAKOM.pdf
+tests/pdf/ag-energy-round-up-2017-02-24.pdf
+tests/pdf/background-checks.pdf
+tests/pdf/ca-warn-report.pdf
+tests/pdf/salary 总结.pdf
+tests/pdf/sample_tables.pdf
+tests/pdf/san-jose-pd-firearm-sample.pdf
+tests/pdf/statement_card.pdf
+tests/pdf/statement_ewallet.pdf
+tests/pptx/(2017.06.30) Neural Machine Translation in Linear Time (ByteNet).pptx
+tests/txt/weather.txt
+tests/xlsx/Claims Form.xlsx
