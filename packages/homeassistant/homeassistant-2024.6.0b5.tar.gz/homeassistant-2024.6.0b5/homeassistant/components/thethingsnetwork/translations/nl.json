@@ -1,0 +1,14 @@
+{
+    "config": {
+        "error": {
+            "unknown": "Onverwachte fout"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "app_id": "Applicatie-ID"
+                }
+            }
+        }
+    }
+}

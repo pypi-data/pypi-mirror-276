@@ -1,0 +1,15 @@
+{
+    "config": {
+        "abort": {
+            "reconfigure_successful": "La riconfigurazione \u00e8 stata completata con successo"
+        },
+        "step": {
+            "reconfigure_confirm": {
+                "data": {
+                    "province": "Provincia"
+                }
+            }
+        }
+    },
+    "title": "Vacanza"
+}

@@ -1,0 +1,19 @@
+{
+    "entity": {
+        "select": {
+            "configuration_control": {
+                "state": {
+                    "both": "Entrambi",
+                    "cloud": "Cloud",
+                    "local": "Locale"
+                }
+            },
+            "display_temperature_unit": {
+                "state": {
+                    "c": "Celsius",
+                    "f": "Fahrenheit"
+                }
+            }
+        }
+    }
+}
