@@ -1,0 +1,10 @@
+cython_xinput/__init__.py,sha256=j1Rv-BTos1QD9PgwTL4Pqvk4mkdh8HPVPJsL67gMCns,45
+cython_xinput/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cython_xinput/x.pyd,sha256=1ZZa_Aftu_x5XtPA4YDgf0IzuT_J7p6HJDdjVOnHzW4,71168
+cython_xinput/x.pyi,sha256=euuUnQ-QVEV9xewQmLJC1uKQwDOimD1NNnkRVJNL9i0,1374
+cython_xinput/x.pyx,sha256=WSWPvLd3PHy5Dx36SD0YNoBNei_WHfptr-6B0N_pNpM,7457
+cython_xinput/xinput.pxd,sha256=6OmrZAgmlMoOHMfTC1iVpd3HhJ5mU9UZq83UB8vPgDo,3885
+cython_xinput-0.1.0.dist-info/METADATA,sha256=-zAPpW23ibjaoqsOdU_U_Rp3RhkPhREZU6-ayy2lKDw,1660
+cython_xinput-0.1.0.dist-info/WHEEL,sha256=CFIEjePPqp4N5q3yKofrICiujqn4vV8V2HS43g7I17Y,101
+cython_xinput-0.1.0.dist-info/licenses/LICENSE,sha256=oO6daLNHZxceDicAFQd2ZeuxWZuLc14M76lkLD_Jar4,1124
+cython_xinput-0.1.0.dist-info/RECORD,,
