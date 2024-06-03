@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: funzin-vc-utils
+Version: 1.0.3
+Summary: funzin_vc_utils is a package that provides various utilities for python programming.
+Home-page: 
+Author: dnchoi
+Author-email: luke.dn.choi@funzin.co.kr
+License: MIT
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: black
+Requires-Dist: flake8
+Requires-Dist: colorlog
+Requires-Dist: paho-mqtt
+
+# Funzin VC solution team Utils packages
+
+## How to use
+
+### Logger
+To use the logger package, follow these steps:
+
+1. Import the logger module:
+    ```python
+    from fz_logger.fz_logger import Logger
+    ```
+
+2. Create a Logger object in class:
+    ```python
+    class template(Logger):
+        def __init__(self):
+            super().__init__(level=config["logger"]["level"], save_path=config["logger"]["save_path"])
+        ...
+    ```
+
+    ```python
+    self.logger.debug("This is a debug message")
+    self.logger.info("This is an info message")
+    self.logger.warning("This is a warning message")
+    self.logger.error("This is an error message")
+    self.logger.critical("This is a critical message")
+    ```
+
+3. Create a Logger object in not class:
+    ```python
+    logger = Logger(level="INFO", save_path="app-logs").logger
+    ...
+    ```
+
+    ```python
+    logger.debug("This is a debug message")
+    logger.info("This is an info message")
+    logger.warning("This is a warning message")
+    logger.error("This is an error message")
+    logger.critical("This is a critical message")
+    ```
+
+### MQTT
+This module provides a MQTT client implementation. follow these steps:
+
+1. Import the mqttc lient module:
+    ```python
+    from fz_mqtt.fz_mqtt import MqttClient
+    ```
+
+2. Create a MqttClient object in class:
+    ```python
+    config = {
+        "mqtt": {
+            "id": "mqtt_id"
+            "pw": "mqtt_pw"
+            "host": "mqtt_host"
+            "port": 1883
+            "qos": 1
+            "pub-topic": "insert your topic"
+            "sub-topic": "insert your topic"
+        }
+    }
+    mqtt_client = MqttTools(config=config)
+    ```
+3. Publish message
+    ```python
+    self.mqtt_client.pub_message(
+        topic=config["mqtt"]["pub-topic"],
+        msg="your message,
+    )
+    ```
+
+4. Subscribe message
+    ```python
+    import threading
+    sub_mqtt = MqttServerClient(config=opt)
+
+    subscriber_th = threading.Thread(target=sub_mqtt.sub_message, daemon=True)
+    subscriber_th.start()
+
+    ```
