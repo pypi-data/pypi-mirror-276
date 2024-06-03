@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphclass"
+dynamic = ["version"]
+description = "Drawing graphs by graphviz with class approach"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name="nummulith", email="nummulith@gmail.com" }
+]
+license = { text="MIT" }
+keywords = ["drawing", "graph", "graphviz"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nummulith/drawing"
+
+[tool.setuptools_scm]
+write_to = "src/drawing/_version.py"

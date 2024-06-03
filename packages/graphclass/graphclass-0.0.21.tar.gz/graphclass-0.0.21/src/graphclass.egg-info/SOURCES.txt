@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+doc/GraphDemo.png
+doc/GraphDemo.py
+doc/logo.png
+src/drawing/__init__.py
+src/drawing/_version.py
+src/drawing/drawing.py
+src/graphclass.egg-info/PKG-INFO
+src/graphclass.egg-info/SOURCES.txt
+src/graphclass.egg-info/dependency_links.txt
+src/graphclass.egg-info/top_level.txt
