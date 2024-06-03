@@ -1,0 +1,3 @@
+[console_scripts]
+copilothistoryexporter = copilothistoryexporter.main:sys_main
+
