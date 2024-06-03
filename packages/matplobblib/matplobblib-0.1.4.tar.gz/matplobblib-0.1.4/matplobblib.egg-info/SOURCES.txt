@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+matplobblib/__init__.py
+matplobblib/package.py
+matplobblib.egg-info/PKG-INFO
+matplobblib.egg-info/SOURCES.txt
+matplobblib.egg-info/dependency_links.txt
+matplobblib.egg-info/top_level.txt
