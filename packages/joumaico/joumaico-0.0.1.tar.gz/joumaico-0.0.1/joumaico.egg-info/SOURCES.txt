@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+joumaico.egg-info/PKG-INFO
+joumaico.egg-info/SOURCES.txt
+joumaico.egg-info/dependency_links.txt
+joumaico.egg-info/requires.txt
+joumaico.egg-info/top_level.txt
+src/joumaico/__init__.py
+src/joumaico/test.py
+src/joumaico/data/test.txt

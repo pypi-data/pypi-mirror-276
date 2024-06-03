@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: joumaico
+Version: 0.0.1
+Summary: Test Package
+Author: Joumaico Maulas
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hello World!
