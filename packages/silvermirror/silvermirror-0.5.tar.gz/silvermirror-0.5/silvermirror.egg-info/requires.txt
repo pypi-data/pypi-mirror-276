@@ -1,0 +1,4 @@
+martINI>=0.6
+netifaces
+pexpect
+python-hglib
