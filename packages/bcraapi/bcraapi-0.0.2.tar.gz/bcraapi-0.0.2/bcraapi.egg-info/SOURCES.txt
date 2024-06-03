@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pytest.ini
+requirements.txt
+setup.py
+.github/workflows/python-package.yml
+bcraapi/__init__.py
+bcraapi/api_client.py
+bcraapi/get_from_bcra.py
+bcraapi.egg-info/PKG-INFO
+bcraapi.egg-info/SOURCES.txt
+bcraapi.egg-info/dependency_links.txt
+bcraapi.egg-info/requires.txt
+bcraapi.egg-info/top_level.txt
+bcraapi/tests/__init__.py
+bcraapi/tests/test.py
