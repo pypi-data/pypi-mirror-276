@@ -1,0 +1,8 @@
+aliasing-0.3.0a4.dist-info/METADATA,sha256=vsTDFVKNlwDcKovSOCDIVgS2QS0hZJWKLFF79AzKhMs,654
+aliasing-0.3.0a4.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+aliasing-0.3.0a4.dist-info/licenses/LICENSE,sha256=FgYv5p86r5Q5ceDLdosYGnLBfv2VS0d9lKfbWWMXfF4,1079
+aliasing/__init__.py,sha256=wjcu8dsXOlr-eZl51W_7R-NHU0TXLgnLd_KShLp6vis,361
+aliasing/core.py,sha256=Lbn_1pwNW0gD2xuJbTnLv6EEnyc5iXvaR1tf1PJqB0U,8540
+aliasing/error.py,sha256=CcoZZ-4BbSuiCQjeSnvEuFqIIB5zdsu_Lb_onyGMrKQ,482
+aliasing/virtual_alias.py,sha256=iPSyAUpgP54Trm-opPDttBkwYl4n2Qca_Omp24bLnHE,2187
+aliasing-0.3.0a4.dist-info/RECORD,,
