@@ -1,0 +1,2 @@
+some_dependency>=1.0.0
+another_dependency>=2.0.0
