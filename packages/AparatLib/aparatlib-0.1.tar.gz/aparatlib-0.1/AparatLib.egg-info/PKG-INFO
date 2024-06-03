@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: AparatLib
+Version: 0.1
+Summary: A library for interacting with the Aparat API
+Home-page: https://github.com/AbolDev/aparat-api
+Author: Abol
+Author-email: abaqry8686@gmail.com
+License-File: LICENSE
+Requires-Dist: requests
