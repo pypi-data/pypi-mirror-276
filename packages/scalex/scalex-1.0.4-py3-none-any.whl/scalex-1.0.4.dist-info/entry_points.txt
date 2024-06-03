@@ -1,0 +1,2 @@
+[console_scripts]
+SCALEX = scalex.function:main
