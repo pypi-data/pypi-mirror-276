@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: hazetunnel
+Version: 1.0.0
+Summary: Mitm proxy that defends against TLS and JS worker fingerprinting.
+Home-page: https://github.com/daijro/hazetunnel
+License: MIT
+Keywords: tls,golang,networking,proxy,mitm,injector,playwright
+Author: daijro
+Author-email: daijro.dev@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Networking :: Monitoring
+Requires-Dist: click
+Requires-Dist: httpx
+Project-URL: Repository, https://github.com/daijro/hazetunnel
+Description-Content-Type: text/markdown
+
+# Python Usage
+
+Hazetunnel is designed to run globally:
+
+```py
+import hazetunnel
+hazetunnel.launch()
+...
+requests.get(
+    url='https://tls.peet.ws/api/clean',
+    headers={
+        **HeaderGenerator().generate(browser='chrome'),
+        'x-mitm-payload': 'alert("hi");'
+    },
+    proxies={'https': hazetunnel.url()},
+    verify=hazetunnel.cert()
+)
+...
+hazetunnel.stop()
+```
+
+Although, Hazetunnel may also run in a context manager:
+
+```py
+from hazetunnel import HazeTunnel
+...
+with HazeTunnel as proxy:
+    requests.get(
+        url='https://tls.peet.ws/api/clean',
+        headers={
+            **HeaderGenerator().generate(browser='chrome'),
+            'x-mitm-payload': 'alert("hi");'
+        },
+        proxies={'https': proxy.url},
+        verify=proxy.cert
+    )
+...
+```
+
+---
+
+
