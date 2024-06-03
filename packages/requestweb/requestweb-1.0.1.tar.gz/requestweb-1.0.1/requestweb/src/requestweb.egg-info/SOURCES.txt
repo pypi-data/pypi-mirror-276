@@ -1,0 +1,13 @@
+README.md
+setup.py
+requestweb/src/requestweb.egg-info/PKG-INFO
+requestweb/src/requestweb.egg-info/SOURCES.txt
+requestweb/src/requestweb.egg-info/dependency_links.txt
+requestweb/src/requestweb.egg-info/requires.txt
+requestweb/src/requestweb.egg-info/top_level.txt
+requestweb/src/requestweb.py
+requestweb/src/requestweb.egg-info/PKG-INFO
+requestweb/src/requestweb.egg-info/SOURCES.txt
+requestweb/src/requestweb.egg-info/dependency_links.txt
+requestweb/src/requestweb.egg-info/requires.txt
+requestweb/src/requestweb.egg-info/top_level.txt
