@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "pytamaro"
+version = "0.7.0"
+description = "Educational library for Python to teach programming using graphics"
+authors = ["Luca Chiodini <luca@chiodini.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+Pillow = "^10.2.0"
+skia-python = {version = "^121.0b6", allow-prereleases = true}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+pytest-watch = "^4.2.0"
+pytest-cov = "^5.0.0"
+pylint = "^3.0.2"
+pycodestyle = "^2.8.0"
+Sphinx = "^5.2.3"
+sphinx-rtd-theme = "^1.0.0"
+pyright = "^0.0.13"
+sphinx-toolbox = "3.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+include = ["pytamaro", "tests"]
+
+[tool.pytest.ini_options]
+python_functions = "test_*"
+
+[tool.pylint.MASTER]
+extension-pkg-allow-list = "skia"
+ignore-long-lines = "^.*https?://\\S+$"
+
+[tool.poetry_bumpversion.file."pytamaro/__init__.py"]
+[tool.poetry_bumpversion.file."docs/conf.py"]
