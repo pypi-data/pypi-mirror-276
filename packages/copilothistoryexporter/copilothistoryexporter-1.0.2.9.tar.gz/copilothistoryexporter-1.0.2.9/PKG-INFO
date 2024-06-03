@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: copilothistoryexporter
+Version: 1.0.2.9
+Summary: This package exports the history of GitHub Copilot chat history.
+Home-page: https://github.com/enciyo/gh-copilot-history-export
+Author: Mustafa Kilic
+Author-email: enciyomk61@gmail.com
+License: UNKNOWN
+Description: This package exports the history of GitHub Copilot chat history.
+Platform: UNKNOWN
