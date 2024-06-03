@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+cmakecmake/__init__.py
+cmakemake.egg-info/PKG-INFO
+cmakemake.egg-info/SOURCES.txt
+cmakemake.egg-info/dependency_links.txt
+cmakemake.egg-info/top_level.txt
