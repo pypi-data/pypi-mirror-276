@@ -1,0 +1,28 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-sql-tool"
+version = "1.0.0"
+description = "A Django SQL middleware package to print out queries to the terminal"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Eray Sahin", email = "nurieraysahin@gmail.com" },
+]
+
+dependencies = [
+  "Pygments>=2.18.0","sqlparse>=0.5.0",
+]
+
+requires-python = ">=3.8"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.setuptools.packages.find]
+include = ["django-sql-tool"]
+
+[project.urls]
+Homepage = "https://github.com/NuriEraySahin"

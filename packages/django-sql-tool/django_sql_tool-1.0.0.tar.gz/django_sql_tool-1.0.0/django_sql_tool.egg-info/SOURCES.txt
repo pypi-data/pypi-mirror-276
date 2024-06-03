@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+django-sql-tool/__init__.py
+django-sql-tool/middleware.py
+django_sql_tool.egg-info/PKG-INFO
+django_sql_tool.egg-info/SOURCES.txt
+django_sql_tool.egg-info/dependency_links.txt
+django_sql_tool.egg-info/requires.txt
+django_sql_tool.egg-info/top_level.txt
