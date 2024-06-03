@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: bencode-cpp
+Version: 0.0.4a1
+Summary: A fast and correct bencode serialize/deserialize library
+Author-email: trim21 <trim21me@gmail.com>
+License: MIT
+Keywords: bencode,bittorrent,bit-torrent,serialize,deserialize,p2p
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <4.0,>=3.8
+Description-Content-Type: text/markdown
+
+# bencode-c
+
+bencode serialize/deserialize written with c++, with pybind11.
+
+```shell
+pip install bencode-cpp
+```
+
+```python
+import bencode_cpp
+
+# NOTICE: we decode bencode bytes to bytes, not str.
+assert bencode_cpp.bdecode(b'd5:hello5:worlde') == {b'hello': b'world'}
+
+assert bencode_cpp.bencode(...) == b'...'
+```
