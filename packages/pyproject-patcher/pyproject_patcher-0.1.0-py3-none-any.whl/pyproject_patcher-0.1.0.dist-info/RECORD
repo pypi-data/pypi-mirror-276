@@ -1,0 +1,9 @@
+pyproject_patcher/__init__.py,sha256=C4_w7SF4VJCftmJgg2uoZ4ZM6jCBeeuIdua_jfOMT_U,513
+pyproject_patcher/logging.py,sha256=PYhVv1hxZfu8cvrYffTmJx8DHbUROPTNKFUPM386p_0,1141
+pyproject_patcher/patcher.py,sha256=gkm3GatKS2oo27Fpghzn8FNkgG0QqiVsLY8pgfYuMPY,6753
+pyproject_patcher/settings.py,sha256=pL0kY0S3o5wa6lqbUpJmDVYLVp6w_IuYBY90S89v98E,224
+pyproject_patcher/version.py,sha256=M_o-WfvhyE13_H3wvLFkjnc2lR54oNOlqFMtSKghvnQ,1018
+pyproject_patcher-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pyproject_patcher-0.1.0.dist-info/METADATA,sha256=k9J4zwuv5GpWYLVD4-oowLzYJBRKhMxCep2me7YA7fo,2423
+pyproject_patcher-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyproject_patcher-0.1.0.dist-info/RECORD,,
