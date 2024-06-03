@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: icpReconstructor
+Version: 0.1.0
+Summary: A package providing functionality to estimate the shape of continuum robots using the Iterative Closest Point algorithm.
+Home-page: https://github.com/yourgithubusername/yourrepository
+Author: Matthias K. Hoffmann
+Author-email: matthias.hoffmann@uni-saarland.de
+License: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: casadi>=3.6.1
+Requires-Dist: numpy>=1.11.0
+Requires-Dist: torchdiffeq>=0.2.2
+Requires-Dist: torch>=2.0.0
+Requires-Dist: scikit-learn>=1.2.0
+Requires-Dist: scikit-image>=0.20.0
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+# icpReconstructor
