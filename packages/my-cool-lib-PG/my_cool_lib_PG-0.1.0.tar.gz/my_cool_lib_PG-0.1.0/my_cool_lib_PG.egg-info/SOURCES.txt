@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+my_cool_lib_PG.egg-info/PKG-INFO
+my_cool_lib_PG.egg-info/SOURCES.txt
+my_cool_lib_PG.egg-info/dependency_links.txt
+my_cool_lib_PG.egg-info/top_level.txt
+my_cool_library_PG/__init__.py
+my_cool_library_PG/module.py
