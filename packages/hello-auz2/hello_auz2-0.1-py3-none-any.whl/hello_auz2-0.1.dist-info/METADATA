@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hello_auz2
+Version: 0.1
+Summary: Description of your package
+Home-page: https://github.com/yourusername/yourpackage
+Author: Augustine
+Author-email: auzuha@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+
+Longer description of your package
