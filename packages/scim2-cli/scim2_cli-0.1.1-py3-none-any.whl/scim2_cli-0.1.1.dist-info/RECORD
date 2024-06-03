@@ -1,0 +1,11 @@
+scim2_cli/__init__.py,sha256=ESqRUBHoz_BS2bATYQCK6UITiu1ElsfEp6s9JnUhH9A,1500
+scim2_cli/create.py,sha256=SmXfjIMSkwWs8yMc7oobAHRbnSWbTYVEsjRr07rjUiI,1471
+scim2_cli/delete.py,sha256=T18DEhsF80uOb18xDPCxEn8HxNt5wEGZV8LkwVzd684,1343
+scim2_cli/query.py,sha256=nyTmdDjYPMfykvfPpLaOdCN2UTwexZdN17xir1LJm3I,4336
+scim2_cli/replace.py,sha256=FLB8ticwPtrHHk3Y449cFvizVJziqIL2Mx5DDTkxnj4,1494
+scim2_cli/search.py,sha256=yQCNpTQkTppTYzavAEL8fTjrioW6w_05tBFLQOk7fx4,3204
+scim2_cli/utils.py,sha256=X2DLfEz6cDFY9lLXYyCWTJlmTwQVUouLuvz5UEjrdzc,211
+scim2_cli-0.1.1.dist-info/METADATA,sha256=C4fmMsHJhOwsW0sLQX-FxKDAi7muFz7jt2fXtGkI1Rg,2513
+scim2_cli-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+scim2_cli-0.1.1.dist-info/entry_points.txt,sha256=2OHJdHTlhbxDi3-oT2_nJMa0eoBOKNrKpiL7qFnXiDw,58
+scim2_cli-0.1.1.dist-info/RECORD,,
