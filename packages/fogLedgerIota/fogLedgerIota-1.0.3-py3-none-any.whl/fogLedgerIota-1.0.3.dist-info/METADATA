@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fogLedgerIota
+Version: 1.0.3
+Summary: Plugin to build DLTs in Fogbed.
+Home-page: https://github.com/larsid/FogLedger-Iota/tree/v1.0.0
+Author: Weslei Santos
+Author-email: weslei.eng.comp@gmail.com
+Keywords: networking,emulator,protocol,Internet,dlt,iota,fog
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Emulators
+License-File: LICENSE.txt
+Requires-Dist: numpy >=1.24.2
+
+Plugin to build DLT in Fogbed. Suport IOTA.         The FogLedger is a plugin for [Fogbed](https://github.com/larsid/FogLedger-Iota). It allows you to emulate a fog network with distributed ledgers.         Currently, FogLedger has suport for IOTA. IOTA is a groundbreaking cryptocurrency designed for the Internet of Things (IoT),         Offering feeless transactions and scalability for machine-to-machine communication.         Its unique Tangle ledger utilizes a directed acyclic graph (DAG) for efficient data transfer and decentralized consensus,         making it ideal for securing and facilitating microtransactions in IoT ecosystems.
