@@ -1,0 +1,131 @@
+# Gitlab ci
+variables:
+  APP_NAME: {{ project_name }}
+  APP_NAME_SLUG: {{ project_slug }}
+  CI_TAG: ci
+  DEPLOY_TAG: deploy
+  DOCKER_REGISTRY_CI_IMAGE: ${CI_REGISTRY_IMAGE}
+  DOCKER_REGISTRY_DEPLOY_IMAGE: ${CI_REGISTRY_IMAGE}
+  DOCKER_REGISTRY: ${DOCKER_REGISTRY}
+  DOCKER_REGISTRY_USER: ${DOCKER_REGISTRY_USER}
+  DOCKER_REGISTRY_PASSWORD: ${DOCKER_REGISTRY_PASSWORD}
+  DOCKER_TARGET_CI: ${APP_NAME_SLUG}-ci
+  DOCKER_TARGET_DEPLOY:  ${APP_NAME_SLUG}-deploy
+  GITLAB_AGENT: osc4682322/minikube-manager:osc-agent
+  HELM_IMAGE: dtzar/helm-kubectl
+
+
+### Stages ###
+stages:
+  - build
+  - test
+  - deploy
+  - pages
+
+
+{% include "utils.gitlab-ci.yml" %}
+
+### Jobs ###
+# Will follow; build, test, deploy/release cycle
+build-ci:
+  stage: build
+  variables:
+    DOCKER_REGISTRY_IMAGE: ${DOCKER_REGISTRY_CI_IMAGE}
+    TAG: ${CI_TAG}
+    TARGET: ${DOCKER_TARGET_CI}
+  <<: *build_job
+  <<: *ci_build_rules
+
+
+build-deploy:
+  stage: build
+  variables:
+    DOCKER_REGISTRY_IMAGE: ${DOCKER_REGISTRY_DEPLOY_IMAGE}
+    TAG: ${DEPLOY_TAG}
+    TARGET: ${DOCKER_TARGET_DEPLOY}
+  <<: *build_job
+  <<: *default_branch
+
+
+pytests:
+  image: ${DOCKER_REGISTRY_CI_IMAGE}:${TAG}
+  stage: test
+  variables:
+    TAG: ${CI_TAG}
+  script:
+    - make tests
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    when: always
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+      junit: report.xml
+  rules:
+    - *rule_default_branch
+    - *rule_merge_request_changed
+    - *rule_merge_request
+    - when: never
+
+
+verify:
+  image: ${DOCKER_REGISTRY_CI_IMAGE}:${TAG}
+  stage: test
+  variables:
+    TAG: ${CI_TAG}
+  script:
+      - make verify
+  <<: *merge_request
+
+
+{% if  project_type == "django" %}
+check:
+  image: ${DOCKER_REGISTRY_CI_IMAGE}:${TAG}
+  stage: test
+  variables:
+    TAG: ${CI_TAG}
+  script:
+      - make check
+  <<: *merge_request
+{% endif %}
+
+
+deploy:
+  image: ${HELM_IMAGE}
+  stage: deploy
+  variables:
+    TAG: ${DEPLOY_TAG}
+    NAMESPACE: ${APP_NAME}
+    RELEASE_NAME: ${APP_NAME}
+  script: 
+    - kubectl config get-contexts
+    - kubectl config use-context ${GITLAB_AGENT}
+    - kubectl create secret docker-registry ${APP_NAME}-secret
+      --docker-server=${DOCKER_REGISTRY}
+      --docker-username=${DOCKER_REGISTRY_USER}
+      --docker-password=${DOCKER_REGISTRY_PASSWORD} || true
+    - helm upgrade {$RELEASE_NAME} helm/
+      --install
+      --create-namespace
+      --namespace ${NAMESPACE}
+      -f ./helm/values.yaml
+      --set image.tag="${TAG}"
+      --set image.repository="${DOCKER_REGISTRY_DEPLOY_IMAGE}:${TAG}"
+      --wait
+      --wait-for-jobs
+
+pages:
+  image: ${DOCKER_REGISTRY_CI_IMAGE}:${TAG}
+  stage: pages
+  variables:
+    TAG: ${CI_TAG}
+  script:
+    - rm -r public/* || true
+    - make docs
+    - mkdir public
+    - cp -r docs/build/dirhtml/* public/
+  artifacts:
+    paths:
+        - public/
+  <<: *default_branch

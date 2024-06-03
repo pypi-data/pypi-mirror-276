@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "{{project_slug}}"
+version = "0.0.1"
+description = "{{project_short_description}}"
+authors = ["{{project_author_name}} <{{project_author_email}}>"]
+readme = "README.md"
+
+{% if project_type == "django" or project_type == "flask" %}
+package-mode = false
+{% endif %}
+{% if project_type =="app" %}
+    {% if project_layout =="flat" %}
+packages = [
+    { include = "{{ project_slug }}" },
+]
+    {% endif %}
+    {% if project_layout =="src" %}
+packages = [
+    { include = "{{ project_slug }}", from="src"},
+]
+    {% endif %}
+{% endif %}
+
+{% if project_type =="app" %}
+    {% if project_layout =="flat" %}
+[tool.poetry.scripts]
+{{ project_slug }} = 'python_project_name.main:main'
+    {% endif %}
+    {% if project_layout =="src" %}
+[tool.poetry.scripts]
+{{ project_slug }} = 'python_project_name.main:main'
+    {% endif %}
+{% endif %}
+[tool.poetry.dependencies]
+python = "^{{PYTHON_VERSION}}"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+exclude = [
+    '.venv/',
+]
+{% if project_type =="django" %}
+plugins = ["mypy_django_plugin.main"]
+
+[tool.django-stubs]
+django_settings_module = "{{project_slug}}.settings"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "{{project_slug}}.settings"
+
+python_files = ["test_*.py", "*_test.py", "testing/python/*.py", "tests.py", "**/tests.py"]
+{% else %}
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "*_test.py", "testing/python/*.py", "tests.py", "**/tests.py"]
+{% endif %}
+
+[tool.bandit]
+exclude_dirs = [".venv/"]

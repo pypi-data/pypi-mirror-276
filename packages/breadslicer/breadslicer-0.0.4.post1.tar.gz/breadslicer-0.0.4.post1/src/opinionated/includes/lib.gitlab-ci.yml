@@ -1,0 +1,96 @@
+# Gitlab ci
+variables:
+  APP_NAME: {{  project_name }}
+  APP_NAME_SLUG: {{  project_slug }}
+  CI_TAG: ci
+  DOCKER_REGISTRY_CI_IMAGE: ${CI_REGISTRY_IMAGE}
+  DOCKER_REGISTRY: ${DOCKER_REGISTRY}
+  DOCKER_REGISTRY_USER: ${DOCKER_REGISTRY_USER}
+  DOCKER_REGISTRY_PASSWORD: ${DOCKER_REGISTRY_PASSWORD}
+  DOCKER_TARGET_CI: ${APP_NAME_SLUG}-ci
+
+
+### Stages ###
+stages:
+  - build
+  - test
+  - release
+  - pages
+
+{% include "utils.gitlab-ci.yml" %}
+
+#################################### Jobs ####################################
+
+build-ci:
+  stage: build
+  variables:
+    DOCKER_REGISTRY_IMAGE: ${DOCKER_REGISTRY_CI_IMAGE}
+    TAG: ${CI_TAG}
+    TARGET: ${DOCKER_TARGET_CI}
+  <<: *build_job
+  <<: *ci_build_rules
+
+
+pytests:
+  image: ${IMAGE}
+  stage: test
+  before_script:
+    - ./scripts/install_full_pkg.sh
+  script:
+    - ./scripts/tests.sh
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    when: always
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+      junit: report.xml
+  parallel:
+    matrix:
+      - IMAGE: python:3.9-alpine
+      - IMAGE: python:3.10-alpine
+      - IMAGE: python:3.11-alpine
+      - IMAGE: python:3.12-alpine
+  needs:
+    - job: build
+  <<: *ci_build_rules
+
+verify:
+  image: python:3.10-alpine
+  stage: test
+  variables:
+    TAG: ${CI_TAG}
+  before_script:
+    - ./scripts/install_full_pkg.sh
+  script:
+      - ./scripts/verify.sh
+  needs:
+    - job: build
+  <<: *merge_request
+
+
+release:
+  image: ${DOCKER_REGISTRY_CI_IMAGE}:${TAG}
+  stage: release
+  variables:
+    TAG: ${CI_TAG}
+  script:
+      - make release
+  <<: *default_branch
+
+
+pages:
+  image: ${DOCKER_REGISTRY_CI_IMAGE}:${TAG}
+  stage: pages
+  variables:
+    TAG: ${CI_TAG}
+  script:
+    - rm -r public/* || true
+    - make docs
+    - mkdir public
+    - cp -r docs/build/dirhtml/* public/
+  artifacts:
+    paths:
+        - public/
+  <<: *default_branch
