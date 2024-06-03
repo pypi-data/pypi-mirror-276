@@ -1,0 +1,2 @@
+[console_scripts]
+create_pip = create_pip:make_folder

@@ -1,0 +1,8 @@
+setup.py
+create_pip/__init__.py
+create_pip/main.py
+create_pip.egg-info/PKG-INFO
+create_pip.egg-info/SOURCES.txt
+create_pip.egg-info/dependency_links.txt
+create_pip.egg-info/entry_points.txt
+create_pip.egg-info/top_level.txt
