@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/django_relations_iterator.egg-info/PKG-INFO
+src/django_relations_iterator.egg-info/SOURCES.txt
+src/django_relations_iterator.egg-info/dependency_links.txt
+src/django_relations_iterator.egg-info/top_level.txt
+src/relations_iterator/__init__.py
+src/relations_iterator/clone.py
+src/relations_iterator/iterator.py
+src/relations_iterator/relation_tree.py
+src/relations_iterator/visitor.py
