@@ -1,0 +1,3 @@
+[console_scripts]
+pl = posting.__main__:cli
+posting = posting.__main__:cli
