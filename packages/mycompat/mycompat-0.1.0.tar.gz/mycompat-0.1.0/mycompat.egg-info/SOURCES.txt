@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+mycompat/__init__.py
+mycompat/__init__.pyi
+mycompat/util.py
+mycompat/util.pyi
+mycompat.egg-info/PKG-INFO
+mycompat.egg-info/SOURCES.txt
+mycompat.egg-info/dependency_links.txt
+mycompat.egg-info/top_level.txt

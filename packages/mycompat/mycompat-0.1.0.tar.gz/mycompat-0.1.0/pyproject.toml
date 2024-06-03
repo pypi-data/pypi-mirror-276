@@ -1,0 +1,32 @@
+[build-system]
+requires      = ["setuptools >= 69.5.0", "wheel >= 0.43.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mycompat"
+version = "0.1.0"
+description = "A lightweight compatibility library designed to facilitate the retrieval of system version information and various other system details"
+readme = "README.md"
+authors = [{ name = "Isaiah Coroama", email = "coroamaisaiah@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    'Intended Audience :: Developers'
+]
+keywords = ["compatibility", "library", "lightweight", "system"]
+dependencies = []
+
+requires-python = ">=3.3"
+
+[project.urls]
+Homepage = "https://github.com/IsaiahCoroama/mycompat"
+
+[tool.build-system]
+exclude = [
+    ".github",
+    ".vscode",
+    ".git"
+]
+
+[tool.setuptools]
+include-package-data = false
+packages = ["mycompat"]
