@@ -1,0 +1,9 @@
+homebase_calendar_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homebase_calendar_sync/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homebase_calendar_sync/config.py,sha256=FiHdsUyiVdPUCpJN9tklm0cMPxSmyyjmut5atNeGMqo,123
+homebase_calendar_sync/homebase_calendar_sync.py,sha256=0Q1oafaxJ0z8OVBfGUBnZl9YzRa1qD96GbsBfgt9FAk,13183
+homebase_calendar_sync-0.1.1.dist-info/METADATA,sha256=oZh7YxwrjEpgNZPj219smYfhq2bEPTiYaCRxyHz8Qjc,2986
+homebase_calendar_sync-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+homebase_calendar_sync-0.1.1.dist-info/entry_points.txt,sha256=2lchM_msW3PgUVkBW4uhjGIhPUTJL68waUL0550_mgA,94
+homebase_calendar_sync-0.1.1.dist-info/top_level.txt,sha256=O23ffTzINk_v45GJrN62gC_c5YeSGG02d0ryaOFf76k,23
+homebase_calendar_sync-0.1.1.dist-info/RECORD,,
