@@ -1,0 +1,9 @@
+numpy
+Requests
+setuptools
+torch
+transformers
+uuid
+usearch
+PyPDF2
+docx2txt
