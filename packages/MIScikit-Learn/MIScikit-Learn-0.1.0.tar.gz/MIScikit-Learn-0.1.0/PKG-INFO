@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: MIScikit-Learn
+Version: 0.1.0
+Summary: A lightweight machine learning library inspired by scikit-learn.
+Home-page: https://github.com/MohiZzine/mini-scikit-learn
+Author: Mohieddine Farid | Imane Fjer
+Author-email: farid.mohieddine@um6p.ma | imane.fjer@um6p.ma
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Lightweight Machine Learning Library
+
+## Overview
+This project aims to create a lightweight machine learning library inspired by Scikit-Learn. It provides powerful, modular, and easy-to-use tools for building machine learning models and analyzing data.
+
+## Modules Description
+
+### 1. Preprocessing Module
+Handles all necessary steps to prepare data before usage in machine learning models.
+- **Data Cleaning**: Handle missing values, remove outliers, correct inconsistencies.
+- **Feature Scaling**: Standardize and normalize features.
+- **Categorical Encoding**: Convert categorical data to numerical format.
+- **Feature Selection**: Select important features for model performance.
+
+### 2. Supervised Learning Module
+Includes algorithms for training and making predictions with labeled data.
+- **Regression Algorithms**: Linear regression, logistic regression, etc.
+- **Classification Algorithms**: K-nearest neighbors, decision trees, support vector machines.
+- **Model Training**: Methods to fit models to training data.
+- **Prediction**: Methods to make predictions on new data.
+
+### 3. Model Selection and Evaluation Module
+Tools to select the best model and tune its parameters, along with evaluating its performance.
+- **Cross-validation**: Split data to validate model performance.
+- **Grid Search**: Search across parameters to find optimal settings.
+- **Performance Metrics**: Accuracy, precision, recall, F1-score, ROC curve, MSE, RMSE.
+
+### 4. Ensemble Methods Module
+Techniques that combine the predictions of multiple machine learning algorithms.
+- **Bagging**: Reduce model variance.
+- **Boosting**: Reduce both bias and variance.
+- **Stacking**: Combine outputs of multiple models to improve performance.
+
+### 5. Neural Networks Module
+Handles basic neural network architectures.
+- **Feedforward Neural Networks**: Basic layers for feedforward architectures.
+- **Training**: Train neural networks with backpropagation.
+- **Activation Functions**: Sigmoid, ReLU, softmax.
+
+### 6. Utilities Module
+Supports other modules by providing common functionalities and integrations.
+- **Data Loaders**: Load and preprocess data.
+- **Visualization Tools**: Visualize data distributions and model performance.
+- **Helper Functions**: Assist in model training and data manipulation.
+
+### 7. Meta Estimators Module
+Extends the functionality of basic estimators by combining or enhancing them.
+- **Pipelines**: Chain multiple steps into a unified model.
+- **Model Selection Tools**: Parameter tuning to find best model configuration.
+- **Ensemble Methods**: Advanced stacking generalization.
+
+### 8. Transformer Mixins Module
+Alters or augments data before it reaches an estimator.
+- **Fit and Transform**: Methods to fit to data, then transform it.
+- **Fit-Predict Shortcuts**: Efficient methods combining fitting and transforming.
+
+
