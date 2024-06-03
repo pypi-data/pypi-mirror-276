@@ -1,0 +1,10 @@
+typer
+loguru
+pyyaml
+schema
+flask
+flask_socketio
+flask_login
+simple-websocket
+gevent
+gevent-websocket
