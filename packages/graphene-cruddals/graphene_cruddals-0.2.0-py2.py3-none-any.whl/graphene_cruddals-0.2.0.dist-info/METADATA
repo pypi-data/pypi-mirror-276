@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: graphene-cruddals
+Version: 0.2.0
+Summary: Library base for create others libraries with the objective of create a CRUD+DALS with GraphQL
+Home-page: https://github.com/juanjcardona13/graphene_cruddals
+Author: Juan J Cardona
+Author-email: juanjcardona13@gmail.com
+License: Apache 2.0
+Keywords: api graphql crud graphene cruddals
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: graphene >=3.0.0
+Provides-Extra: dev
+Requires-Dist: ruff ==0.1.2 ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest >=7.3.1 ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-random-order ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytz ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest >=7.3.1 ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-random-order ; extra == 'test'
+Requires-Dist: coveralls ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: pytz ; extra == 'test'
+
+
+
+<h1 align="center">Graphene-CRUDDALS</h1>
+<div align="center">
+
+👩🏽‍💻 🚀 👨🏽‍💻  
+**Build your own library to streamline trivial code for CRUD operations.**  
+
+[![PyPI](https://img.shields.io/pypi/v/graphene-cruddals?style=flat-&color=00559c&label=pypi&logo=python&logoColor=white)](https://pypi.org/project/graphene-cruddals/)
+[![GitHub License](https://img.shields.io/github/license/juanjcardona13/graphene-cruddals?style=flat&color=4c1)](https://github.com/juanjcardona13/graphene-cruddals/blob/main/LICENSE)  
+[![Codecov](https://img.shields.io/codecov/c/gh/juanjcardona13/graphene-cruddals)](https://app.codecov.io/gh/juanjcardona13/graphene-cruddals)
+  
+
+
+<sub>Built with ❤︎ by [Juan J Cardona](https://github.com/juanjcardona13)</sub>
+
+
+</div>
+
+## 📋 Table of Contents
+
+1. 🚀 [Getting started](#getting-started)
+2. 👩‍💻 [Usage](#usage)
+3. 📜 [License](#license)
+4. 📞 [Contact](#contact)
+5. 🙏 [Acknowledgements](#acknowledgements)
+
+
+
+## <a name="getting-started">🚀 Getting started</a>
+
+### Prerequisites
+
+You need to have installed Python and pip. You can download Python from [here](https://www.python.org/downloads/).
+Additionally, you need to have a good knowledge of how GraphQL and Graphene work.
+
+### Installation
+
+You can install this package using pip:
+
+```bash
+pip install graphene-cruddals
+```
+
+## <a name="usage">👩‍💻 Usage</a> 
+
+An example of how to use this library is shown in this project: [Graphene-Django-CRUDDALS](https://github.com/juanjcardona13/graphene_django_cruddals)
+
+This library is designed to help you build your own library to streamline trivial code for CRUD operations. It receives a normal Python dictionary, along with a set of utilities to know how the transformation of the fields should be done. It is not designed to be used directly, but to help you build your own library. For example, you can use it to build a library like Graphene-Django-CRUDDALS, which transforms a Django model into a Graphene schema. Graphene-Django-CRUDDALS library only works for Django, so you can use this library to build a library that works with any framework or ORM, like SQLAlchemy, Pydantic, etc.
+If you need more information, you can ask me.
+
+## <a name="license">📜 License</a>
+
+Distributed under the Apache 2.0 License. See [LICENSE](https://github.com/juanjcardona13/graphene_cruddals/blob/main/LICENSE) for more information.
+
+## <a name="contact">📞 Contact</a>
+
+If you want to contact me you can reach me at the following email, LinkedIn or GitHub, I'll be happy to talk to you.
+
+- [Email](mailto:juanjcardona13@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/juanjcardona/)
+- [GitHub](https://github.com/juanjcardona13)
+
+## <a name="acknowledgements">🙏 Acknowledgements</a>
+
+- [Python](https://www.python.org/)
+- [Graphene ](https://docs.graphene-python.org/projects/django/en/latest/)
