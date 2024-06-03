@@ -1,0 +1,5 @@
+[console_scripts]
+build-docs=poetry_scripts:build_docs
+bump-version=poetry_scripts:bump_version
+test=poetry_scripts:test
+

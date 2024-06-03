@@ -1,0 +1,11 @@
+msgpackr/__init__.py,sha256=KMbJ4GfwZ69ShjITEHUDTA1nwNp8fGGoDpOuN8JWgn4,158
+msgpackr/constants.py,sha256=G5PqU6JZ0uHZodxhU1p188zWorhfRD2uhTgAaRRDPaI,1376
+msgpackr/extension.py,sha256=9Fw8BiutYV2uSUjC6c7WDbmwy2OSnzxf8jYgveMtn68,9901
+msgpackr/pack.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgpackr/unpack.py,sha256=I8_r2wCs2jNVkCWWY7omcbQGPUtduZTYTfa1Ozf1zX4,15387
+msgpackr/unpack_debug.py,sha256=NGuN0_07oPGtn2JHUxTgcSCTxEOOaD1yEaoJDHgCtaY,5831
+msgpackr_python-0.1.6.dist-info/LICENSE,sha256=BjvbVPn7P3qChFbSTSdhmdYKmpQAJNISMxMBg-hWyaU,1063
+msgpackr_python-0.1.6.dist-info/METADATA,sha256=s-53PwtAmAgvkrFtmbzjLYW_8CLeAuvXOv3wdogxrGc,5778
+msgpackr_python-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+msgpackr_python-0.1.6.dist-info/entry_points.txt,sha256=xAuml02yGS0awumFdSwFIUFsrSFJChbWitij9AeyFbc,122
+msgpackr_python-0.1.6.dist-info/RECORD,,
