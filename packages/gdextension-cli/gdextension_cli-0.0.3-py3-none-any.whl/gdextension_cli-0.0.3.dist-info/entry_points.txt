@@ -1,0 +1,2 @@
+[console_scripts]
+gdextension-cli = gdextension_cli:main_cli
