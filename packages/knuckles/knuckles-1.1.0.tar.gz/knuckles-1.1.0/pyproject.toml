@@ -1,0 +1,94 @@
+[project]
+name = "knuckles"
+description = "A Subsonic/OpenSubsonic API wrapper for Python."
+requires-python = ">=3.11.0"
+
+dependencies = [
+    "requests>=2.32.3",
+    "python-dateutil>=2.8.2"
+]
+
+version = "1.1.0"
+readme = "README.md"
+
+authors = [
+  {name = 'Jorge "Kutu" Dobón Blanco', email="code@dobon.dev"}
+]
+
+keywords = [
+  "api-wrapper",
+  "api",
+  "wrapper",
+  "library",
+  "subsonic",
+  "opensubsonic",
+]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Environment :: Web Environment",
+  "Operating System :: OS Independent",
+  "Topic :: Internet",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Multimedia",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Documentation = "https://kutu-dev.github.io/knuckles/"
+Repository = "https://github.com/kutu-dev/knuckles"
+Issues = "https://github.com/kutu-dev/knuckles/issues"
+Changelog = "https://github.com/kutu-dev/knuckles/blob/master/CHANGELOG.md"
+
+[project.optional-dependencies]
+dev = [
+    "pip-tools>=7.4.1",
+]
+
+check = [
+    "types-requests",
+    "types-python-dateutil",
+    "ruff>=0.1.2",
+    "mypy>=1.4.1",
+]
+
+tests = [
+    "pytest>=7.4.0",
+    "responses>=0.23.1",
+]
+
+docs = [
+    "mkdocs>=1.5.3",
+    "mkdocs-material>=9.5.18",
+    "mkdocstrings[python]>=0.24.3",
+    "mkdocs-gen-files>=0.5.0",
+    "pymdown-extensions>=10.8.0",
+    "mkdocs-literate-nav>=0.6.1"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff.lint]
+select = ["E", "F", "I001"]
+
+[tool.mypy]
+strict = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disable_error_code = "attr-defined, union-attr"
+disallow_untyped_defs = false
+
+[tool.pytest.ini_options]
+testpaths = "tests"
