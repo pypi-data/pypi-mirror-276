@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: py-flagsmith-cli
+Version: 0.2.0
+Summary: flagsmith-cli Python Implementation.
+Author-Email: belingud <im.victor@qq.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <4.0,>=3.8
+Requires-Dist: typer>=0.12.3
+Requires-Dist: requests>=2.32.3
+Requires-Dist: python-dotenv>=1.0.1
+Description-Content-Type: text/markdown
+
+# py-flagsmith-cli
+
+flagsmith-cli Python Implementation.
+
+Homepage: https://github.com/belingud/py-flagsmith-cli
+
+Refer to:
+
+1. https://docs.flagsmith.com/clients/CLI
+2. https://github.com/Flagsmith/flagsmith-cli
