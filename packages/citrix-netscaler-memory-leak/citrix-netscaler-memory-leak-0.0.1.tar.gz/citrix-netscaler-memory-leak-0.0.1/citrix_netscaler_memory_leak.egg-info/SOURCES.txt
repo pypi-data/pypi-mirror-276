@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+citrix_netscaler_memory_leak.egg-info/PKG-INFO
+citrix_netscaler_memory_leak.egg-info/SOURCES.txt
+citrix_netscaler_memory_leak.egg-info/dependency_links.txt
+citrix_netscaler_memory_leak.egg-info/entry_points.txt
+citrix_netscaler_memory_leak.egg-info/requires.txt
+citrix_netscaler_memory_leak.egg-info/top_level.txt

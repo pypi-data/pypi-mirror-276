@@ -1,0 +1,2 @@
+[console_scripts]
+citrix-netscaler-memory-leak = citrixnetscalermemoryleak.main:main
