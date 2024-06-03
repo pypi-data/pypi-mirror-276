@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: bootstrap-budget
+Version: 0.1.7
+Summary: A simple financial application to help you pull your budget up by its bootstraps.
+Author-email: forgineer <blake.phillips86@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://forgineer.pythonanywhere.com/bootstrap-budget
+Project-URL: Documentation, https://forgineer.pythonanywhere.com/bootstrap-budget
+Project-URL: Repository, https://github.com/forgineer/bootstrap-budget
+Project-URL: Issues, https://github.com/forgineer/bootstrap-budget/issues
+Keywords: personal budget,budgeting,web app
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Financial
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: blinker ==1.7.0
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: Flask ==2.3.3
+Requires-Dist: itsdangerous ==2.1.2
+Requires-Dist: Jinja2 ==3.1.3
+Requires-Dist: MarkupSafe ==2.1.5
+Requires-Dist: pony ==0.7.17
+Requires-Dist: Werkzeug ==3.0.1
+Provides-Extra: pypi_deploy
+Requires-Dist: build ; extra == 'pypi_deploy'
+Requires-Dist: twine ; extra == 'pypi_deploy'
+
+# Bootstrap-Budget: Pull your budget up by its bootstraps!
+Bootstrap Budget is a user-friendly financial application designed to help you manage your money and achieve your financial goals. Built with simplicity and self-reliance in mind, Bootstrap Budget allows you to track income, expenses, and budgets for a streamlined personal finance experience – all hosted on your own server.
+
+## Getting Started
+### Prerequisites:
+* Python 3.x (https://www.python.org/downloads/)
+
+### Installation:
+1. Create a Python Virtual Environment:
+
+    It's recommended to install Bootstrap Budget within a virtual environment to isolate its dependencies from other Python projects on your system. You can use tools like `venv` or `virtualenv` to create one. Refer to the official Python documentation for instructions on creating virtual environments: https://docs.python.org/3/tutorial/venv.html
+
+
+2. Install Bootstrap Budget:
+
+    Activate your virtual environment and install Bootstrap Budget using pip:
+
+   ```Bash
+   pip install bootstrap-budget
+   ```
+
+
+3. Initial Setup:
+
+   The Bootstrap Budget package comes with a command-line tool for initial setup. Run the following command to configure the application:
+
+   ```Bash
+   bootstrap --setup
+   ```
+
+   This will guide you through creating an admin password and setting up the data model for your application.
+
+
+4. Start the Server:
+
+   Once the setup is complete, start the Bootstrap Budget server using Flask:
+
+   ```Bash
+   flask --app bootstrap_budget run
+   ```
+
+   This will launch the development server. By default, the application will be accessible on http://127.0.0.1:5000/ in your web browser.
+
+> :raised_hand: Please note: This is a basic installation guide for development purposes.  For production use on your server, additional configuration may be required (e.g., web server setup).
