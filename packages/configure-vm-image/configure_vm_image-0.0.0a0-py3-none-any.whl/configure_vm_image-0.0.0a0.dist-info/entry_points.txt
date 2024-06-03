@@ -1,0 +1,2 @@
+[console_scripts]
+configure-vm-image = configure_vm_image.cli.configure_image:run_configure_image

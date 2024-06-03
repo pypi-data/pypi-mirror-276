@@ -1,0 +1,14 @@
+configure_vm_image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configure_vm_image/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configure_vm_image/cli/configure_image.py,sha256=7THUR24yGsMoyFdxqn1UrsKK0Zy4vc07dFJMX__LT6A,10817
+configure_vm_image/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configure_vm_image/common/defaults.py,sha256=HX5UJxVTN3w8NXGDIJRJ5qBoYGjVOWbxBlhaWa7gNWY,374
+configure_vm_image/common/errors.py,sha256=HNJq5dOdNquDvhi9zAPoy72TkFrPPLee4i2QPFWpSvE,428
+configure_vm_image/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configure_vm_image/utils/io.py,sha256=6N7Y0Oc3LaEGmhRxZFWKoQF6kL-geq8sGJysUkxQp_4,3642
+configure_vm_image/utils/job.py,sha256=1o4cP3t2_5MI8iUBHzh9YbUhXbvD0LoXh1p9JySnj6Y,1623
+configure_vm_image-0.0.0a0.dist-info/METADATA,sha256=H2N0Fooez3MIS9H2XXE9A9m1QhDnn26i2egTEnl5qDQ,5331
+configure_vm_image-0.0.0a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+configure_vm_image-0.0.0a0.dist-info/entry_points.txt,sha256=XHJOMKkL7odgDjE0nJR55SpE5yCF_149kP80-39-8c8,98
+configure_vm_image-0.0.0a0.dist-info/top_level.txt,sha256=SXSdrYwYQ3wW74kFK_joyxBfTCMYaYkv0FxmgVgFUyI,19
+configure_vm_image-0.0.0a0.dist-info/RECORD,,
