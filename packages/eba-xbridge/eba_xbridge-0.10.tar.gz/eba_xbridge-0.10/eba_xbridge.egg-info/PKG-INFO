@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: eba-xbridge
+Version: 0.10
+Summary: XBRL-XML to XBRL-CSV converter for EBA Taxonomy (version 3.4)
+Home-page: 
+Author: Antonio Olleros, Jesus Simon, Javier Hernandez
+Author-email: antonio.olleros@meaningfuldata.eu, jesus.simon@meaningfuldata.eu, javier.hernandez@meaningfuldata.eu
+License: Apache 2.0
+Project-URL: Bug Tracker, https://github.com/Meaningful-Data/xbridge/issues
+Project-URL: Documentation, https://docs.xbridge.meaningfuldata.eu
+Project-URL: Source Code, https://github.com/Meaningful-Data/xbridge
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas==2.2.2
+Requires-Dist: lxml==5.2.2
+Requires-Dist: py7zr==0.21.0
