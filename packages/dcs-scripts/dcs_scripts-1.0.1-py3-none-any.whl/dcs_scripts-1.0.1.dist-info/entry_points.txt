@@ -1,0 +1,3 @@
+[console_scripts]
+dcs=dcs_scripts.cli:main
+
