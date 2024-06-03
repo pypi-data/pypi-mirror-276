@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: sophus_pyo3
+Version: 0.6.1
+Summary: sophus - geometry for robotics and computer vision
+Keywords: robotics,optimization
+License: MIT OR Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/farm-ng/sophus-rs/
+
+# sophus-rs
+
+This library is in an early development stage - hence API is highly unstable.
+
+Sophus-rs currently requires rust nightly. The only nightly feature it uses is `portable-simd`.
+It is the intention to move to rust stable once `portable-simd` is stabilized. There is no current
+plan to depend on other nightly features.
+
