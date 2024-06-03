@@ -1,0 +1,16 @@
+jupyterlab_sos/__init__.py,sha256=OHK54nYB98PgZr9BiNhyGFzpU0es3WwqFe2XNnYOs2Q,586
+jupyterlab_sos/_version.py,sha256=bEoTQ19TL_C30fA2205hPcc6sDgZRlkX5VyshnIk0MY,172
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/package.json,sha256=TCCuN2fLqfUfGthljQhAzJfqSQX6PhqMlp5NFwtW1aI,6463
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/schemas/jupyterlab-sos/package.json.orig,sha256=ccVUPBzTGVhjG_FkffRdpcpTo9zwMIA1jCWd10d7We4,6321
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/schemas/jupyterlab-sos/plugin.json,sha256=O8t_LG-ovo3N2eiyn61_PHSMmA6I54qbBwbvFexw71w,2077
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/static/576.0b036e693d101511d541.js,sha256=CwNuaT0QFRHVQb3GlIlk4A8zkvo6i1Y0ba-WXMjRvC8,79649
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/static/660.f7ba400141f2fda84b3f.js,sha256=97pAAUHy_ahLP-myBOlEtO0-s7ImA3nz2zLAC9-W3iI,38342
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/static/728.d29e014182f25db3c5ac.js,sha256=0p4BQYLyXbPFrPabcS4WYyM9FtfIW36hDWciCzV9lp4,3863
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/static/remoteEntry.8c7f5262e4b5210998dd.js,sha256=jH9SYuS1IQmY3U8Ga6CVbZGkcZnBZu70QDcODIeGPCA,7328
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/static/style.js,sha256=tJ82uXHZvfmwH-lWx5_gYBBo2lCrzmDW5p2dpbyK7Nc,157
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/static/third-party-licenses.json,sha256=d5RY6QZB4TwemuuBST085q_mjat-TBUJX5XjSTelN7E,8780
+jupyterlab_sos-0.10.2.data/data/share/jupyter/labextensions/jupyterlab-sos/install.json,sha256=QX3ZXPxkaiKXBSnZo7YJj4Kyx5_bHjY50Pt6iTsdrNI,189
+jupyterlab_sos-0.10.2.dist-info/METADATA,sha256=p2xcAu5A0UHoiDeph4LpRM1DRXAMMJ6N6vDfov67-YA,6104
+jupyterlab_sos-0.10.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+jupyterlab_sos-0.10.2.dist-info/licenses/LICENSE,sha256=n2kMGjT38ffRPXWui6nW7Gb_Gtazko6OLhgGU7aKyZw,1515
+jupyterlab_sos-0.10.2.dist-info/RECORD,,
