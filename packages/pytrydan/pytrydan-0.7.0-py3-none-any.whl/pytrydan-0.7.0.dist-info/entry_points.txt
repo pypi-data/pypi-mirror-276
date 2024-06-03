@@ -1,0 +1,3 @@
+[console_scripts]
+pytrydan=pytrydan.cli:app
+
