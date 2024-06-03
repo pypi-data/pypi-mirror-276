@@ -1,0 +1,8 @@
+sphinx
+sphinx-rtd-theme
+python-docs-theme
+sphinx-autodoc-typehints
+nested_query_string
+pandas
+pydantic
+requests
