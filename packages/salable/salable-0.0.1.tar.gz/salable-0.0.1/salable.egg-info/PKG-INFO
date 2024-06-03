@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: salable
+Version: 0.0.1
+Summary: The Software Development Kit for Salable
+Home-page: 
+Author: Neal Riley
+Author-email: neal@salable.app
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31.0
+Provides-Extra: devel
+Requires-Dist: wheel; extra == "devel"
+Requires-Dist: pytest==7.4.0; extra == "devel"
+Requires-Dist: playwright==1.39.0; extra == "devel"
+Requires-Dist: requests==2.31.0; extra == "devel"
+Requires-Dist: pytest-playwright-snapshot==1.0; extra == "devel"
+Requires-Dist: pytest-rerunfailures==12.0; extra == "devel"
+
+# salable-python-sdk
