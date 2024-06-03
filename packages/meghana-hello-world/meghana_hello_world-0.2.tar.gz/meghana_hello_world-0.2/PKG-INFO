@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: meghana_hello_world
+Version: 0.2
+Summary: A simple Hello World package
+Author: meghana
+Author-email: meghanabl2112@gmail.com
+License-File: LICENSE
+Requires-Dist: click
