@@ -1,0 +1,10 @@
+setup.py
+rl_test_task_3/__init__.py
+rl_test_task_3/client.py
+rl_test_task_3.egg-info/PKG-INFO
+rl_test_task_3.egg-info/SOURCES.txt
+rl_test_task_3.egg-info/dependency_links.txt
+rl_test_task_3.egg-info/requires.txt
+rl_test_task_3.egg-info/top_level.txt
+rl_test_task_3/data_parsers/__init__.py
+rl_test_task_3/data_parsers/input_data_parser.py
