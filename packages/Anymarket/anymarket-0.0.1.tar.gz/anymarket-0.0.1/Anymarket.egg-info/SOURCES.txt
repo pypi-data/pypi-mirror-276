@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Anymarket.egg-info/PKG-INFO
+Anymarket.egg-info/SOURCES.txt
+Anymarket.egg-info/dependency_links.txt
+Anymarket.egg-info/requires.txt
+Anymarket.egg-info/top_level.txt
+anymarket/__init__.py
+anymarket/anymarketPedidos.py

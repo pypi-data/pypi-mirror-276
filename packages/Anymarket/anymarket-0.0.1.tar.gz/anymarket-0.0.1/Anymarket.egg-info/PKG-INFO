@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Anymarket
+Version: 0.0.1
+Summary: Anymarket API
+Author: Pablo Belmiro
+Author-email: dev.pablobelmiro@gmail.com
+Keywords: python,API,Anymarket,Ecommerce
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+
+
+# anymarket
