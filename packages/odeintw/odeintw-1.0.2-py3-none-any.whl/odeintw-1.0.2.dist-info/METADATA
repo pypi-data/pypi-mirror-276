@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: odeintw
+Version: 1.0.2
+Summary: Solve complex and matrix differential equations with scipy.integrate.odeint.
+Home-page: https://github.com/WarrenWeckesser/odeintw
+Author: Warren Weckesser
+Keywords: scipy odeint
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: scipy
+
+
+odeintw
+=======
+
+`odeintw` provides a wrapper of `scipy.integrate.odeint` that allows it to
+handle complex and matrix differential equations.  That is, it can solve
+equations of the form
+
+    dZ/dt = F(Z, t, param1, param2, ...)
+
+where `t` is real and `Z` is a real or complex array.
+
+Since `odeintw` is just a wrapper of `scipy.integrate.odeint`, it requires
+`scipy` to be installed.  SciPy 0.15 or greater is required, to avoid a
+bug in `scipy.integrate.odeint` in older versions of SciPy.
+
+See README.md at https://github.com/WarrenWeckesser/odeintw for examples.
