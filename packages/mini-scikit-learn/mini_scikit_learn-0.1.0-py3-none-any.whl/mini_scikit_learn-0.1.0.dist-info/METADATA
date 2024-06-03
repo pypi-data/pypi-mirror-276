@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mini-scikit-learn
+Version: 0.1.0
+Summary: A brief description of your package
+Home-page: UNKNOWN
+Author: Yassir Fri
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+### Simple example of a Python program that uses the `requests` library to make a GET request to a URL and print the response.
+
+
