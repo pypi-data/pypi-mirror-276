@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sktlearn_clone
+Version: 0.2.0
+Summary: A custom implementation of various machine learning algorithms and utilities inspired by Scikit-Learn
+Home-page: https://github.com/iboud0/scikit_learn_clone
+Author: Ilyas Boudhaine & Zineb Abercha
+Author-email: ilyasboudhaine1@gmail.com, zineb03abercha@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+
